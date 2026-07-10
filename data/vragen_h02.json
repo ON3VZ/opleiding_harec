@@ -1,0 +1,4295 @@
+{
+ "hoofdstuk": "h02",
+ "vragen": [
+  {
+   "id": 2,
+   "sub": "2.1",
+   "vraag": "Geleiders zijn materialen die",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een groot aantal vrije elektronen hebben"
+    },
+    {
+     "letter": "B",
+     "text": "een groot aantal atomen hebben"
+    },
+    {
+     "letter": "C",
+     "text": "een klein aantal atomen hebben"
+    },
+    {
+     "letter": "D",
+     "text": "een klein aantal vrije elektronen hebben"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Geleiders bevatten veel vrije elektronen die zich makkelijk kunnen verplaatsen (§1.1)."
+  },
+  {
+   "id": 3,
+   "sub": "2.1",
+   "vraag": "Isolatoren zijn materialen die",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zeer weinig vrije atomen hebben"
+    },
+    {
+     "letter": "B",
+     "text": "zeer weinig vrije elektronen hebben"
+    },
+    {
+     "letter": "C",
+     "text": "een groot aantal vrije atomen hebben"
+    },
+    {
+     "letter": "D",
+     "text": "een groot aantal vrije elektronen hebben"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Isolatoren houden hun elektronen sterk gebonden: zeer weinig vrije elektronen (§1.1)."
+  },
+  {
+   "id": 4,
+   "sub": "2.1",
+   "vraag": "Hoe kan men het begrip van elektrische stroom definiëren?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de elektrische stroom is de scheiding van de elektrische ladingen"
+    },
+    {
+     "letter": "B",
+     "text": "de elektrische stroom is de mogelijkheid om elektrische ladingen te verplaatsen"
+    },
+    {
+     "letter": "C",
+     "text": "de elektrische stroom is de beweging van elektronen "
+    },
+    {
+     "letter": "D",
+     "text": "elektrische stroom is beweging van spanningen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Elektrische stroom is per definitie de beweging (verplaatsing) van elektrische ladingsdragers, bv. elektronen (§1.1)."
+  },
+  {
+   "id": 5,
+   "sub": "2.1",
+   "vraag": "Wat is juist?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De elektronenstroom is van de min-pool naar de plus-pool"
+    },
+    {
+     "letter": "B",
+     "text": "De elektronenstroom is van de plus-pool naar de min-pool"
+    },
+    {
+     "letter": "C",
+     "text": "De conventionele stroomzin is dezelfde als de elektronen-stroomzin"
+    },
+    {
+     "letter": "D",
+     "text": "De conventionele stroomzin is van de min-pool naar de plus-pool"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Elektronen zijn negatief geladen en bewegen dus van de min-pool naar de plus-pool binnen de bron/kring; de conventionele (afgesproken) stroomzin is net omgekeerd (§1.1)."
+  },
+  {
+   "id": 6,
+   "sub": "2.1",
+   "vraag": "Wat is juist?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De elektronenstroom is van de plus-pool naar de min-pool"
+    },
+    {
+     "letter": "B",
+     "text": "De conventionele stroomzin is dezelfde als de elektronen-stroomzin"
+    },
+    {
+     "letter": "C",
+     "text": "De conventionele stroomzin is van de min-pool naar de plus-pool"
+    },
+    {
+     "letter": "D",
+     "text": "De conventionele stroomzin is van de plus-pool naar de min-pool"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Per afspraak loopt de conventionele stroomzin van + naar − (tegengesteld aan de werkelijke elektronenbeweging) (§1.1)."
+  },
+  {
+   "id": 7,
+   "sub": "2.1",
+   "vraag": "Wat is de rol van een weerstand in een elektrische schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hij slaat energie op in magnetische vorm"
+    },
+    {
+     "letter": "B",
+     "text": "hij slaat energie op onder de vorm van een elektrisch veld"
+    },
+    {
+     "letter": "C",
+     "text": "hij produceert elektronen via een scheikundige reactie"
+    },
+    {
+     "letter": "D",
+     "text": "hij verzet zich tegen de doorgang van elektronen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Een weerstand beperkt/verzet zich tegen de doorgang van stroom; hij slaat geen energie op zoals een spoel of condensator (§1.1)."
+  },
+  {
+   "id": 8,
+   "sub": "2.1",
+   "vraag": "Voor het berekenen van elektrische schakelingen wordt aangenomen dat de elektrische stroom van de positieve klem vloeit naar de negatieve klem van de bron. Deze richting noemt men:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "conventionele richting"
+    },
+    {
+     "letter": "B",
+     "text": "elektronische richting"
+    },
+    {
+     "letter": "C",
+     "text": "rekenkundige richting"
+    },
+    {
+     "letter": "D",
+     "text": "positieve richting"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Deze afgesproken stroomrichting (van + naar −) heet de conventionele richting (§1.1)."
+  },
+  {
+   "id": 9,
+   "sub": "2.1",
+   "vraag": "Wat is juist?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,02 A = 2 mA"
+    },
+    {
+     "letter": "B",
+     "text": "0,02 A = 20 mA"
+    },
+    {
+     "letter": "C",
+     "text": "0,02 A = 200 mA"
+    },
+    {
+     "letter": "D",
+     "text": "0,02A =  2000 mA"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "0,02 A × 1000 = 20 mA (verschuiving van de komma met 3 posities bij omzetting A→mA)."
+  },
+  {
+   "id": 10,
+   "sub": "2.1",
+   "vraag": "Als men in een wisselspanningsschakeling de stroom door en de spanning over een element kent, hoe bepaalt men dan de weerstand ervan?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de wet van Pouillet"
+    },
+    {
+     "letter": "B",
+     "text": "de wet van Ohm"
+    },
+    {
+     "letter": "C",
+     "text": "de wet van Kirchoff"
+    },
+    {
+     "letter": "D",
+     "text": "de wet van Pascal"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Het verband tussen spanning, stroom en weerstand wordt gegeven door de wet van Ohm (§1.1)."
+  },
+  {
+   "id": 11,
+   "sub": "2.1",
+   "vraag": "Hoe bepaalt men in een wisselstroomschakeling de spanning als men de weerstand en de stroom kent?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "U = I / R"
+    },
+    {
+     "letter": "B",
+     "text": "U = R · I"
+    },
+    {
+     "letter": "C",
+     "text": "U = R +I"
+    },
+    {
+     "letter": "D",
+     "text": "U = R / I"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Wet van Ohm: U = R · I."
+  },
+  {
+   "id": 12,
+   "sub": "2.1",
+   "vraag": "Hoe bepaalt men in een wisselstroomschakeling de weerstand als men de spanning en de stroom kent?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "R = I / U"
+    },
+    {
+     "letter": "B",
+     "text": "R = U / I"
+    },
+    {
+     "letter": "C",
+     "text": "R = U + I"
+    },
+    {
+     "letter": "D",
+     "text": "R = U · I"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Wet van Ohm herschikt: R = U / I."
+  },
+  {
+   "id": 13,
+   "sub": "2.1",
+   "vraag": "Hoe berekent men in een gelijkstroomschakeling de stroom als men de weerstand en de spanning kent?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "I = R · U"
+    },
+    {
+     "letter": "B",
+     "text": "I = U / R"
+    },
+    {
+     "letter": "C",
+     "text": "I = R / U"
+    },
+    {
+     "letter": "D",
+     "text": "I = P / U"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Wet van Ohm herschikt: I = U / R."
+  },
+  {
+   "id": 14,
+   "sub": "2.1",
+   "vraag": "Hoe bepaalt men in een gelijkstroomschakeling de weerstand als men de spanning en de stroom kent?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "R = I / U"
+    },
+    {
+     "letter": "B",
+     "text": "R = U / I"
+    },
+    {
+     "letter": "C",
+     "text": "R = U + I"
+    },
+    {
+     "letter": "D",
+     "text": "R = U · I"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Wet van Ohm herschikt: R = U / I."
+  },
+  {
+   "id": 15,
+   "sub": "2.1",
+   "vraag": "De wet van Ohm geeft het verband weer tussen:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de weerstand, de spanning en het vermogen"
+    },
+    {
+     "letter": "B",
+     "text": "de stroom, de weerstand en de tolerantie"
+    },
+    {
+     "letter": "C",
+     "text": "de weerstand, de stroom en de spanning"
+    },
+    {
+     "letter": "D",
+     "text": "het vermogen, de weerstand en de stroom"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "De wet van Ohm legt het verband tussen weerstand, stroom en spanning vast: U = I·R (§1.1, formule 1)."
+  },
+  {
+   "id": 16,
+   "sub": "2.1",
+   "vraag": "Hoeveel is de weerstand van een schakeling als een batterij met een klemspanning van 12 V een stroom levert van 0,15 A in deze schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "180 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "20 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "40 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "80 Ω"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "R = U/I = 12 / 0,15 = 80 Ω (formule 1)."
+  },
+  {
+   "id": 17,
+   "sub": "2.1",
+   "vraag": "Hoeveel is de weerstand van een schakeling als een batterij met een klemspanning van 12 V een stroom levert van 0,30 A in deze schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "80 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "10 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "20 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "40 Ω"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "R = U/I = 12 / 0,30 = 40 Ω (formule 1)."
+  },
+  {
+   "id": 18,
+   "sub": "2.1",
+   "vraag": "Hoeveel is de weerstand van een schakeling als een batterij met een klemspanning van 12 V een stroom levert van 1 A in deze schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "24 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "3 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "6 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "12 Ω"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "R = U/I = 12 / 1 = 12 Ω (formule 1)."
+  },
+  {
+   "id": 19,
+   "sub": "2.1",
+   "vraag": "Hoeveel is de weerstand van een schakeling als een batterij met een klemspanning van 12 V een stroom levert van 2 A in deze schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "12 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "1,5 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "3 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "6 Ω"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "R = U/I = 12 / 2 = 6 Ω (formule 1)."
+  },
+  {
+   "id": 20,
+   "sub": "2.1",
+   "vraag": "Hoeveel is de weerstand van een schakeling als een batterij met een klemspanning van 12 V een stroom levert van 3 A in deze schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "8 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "1 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "2 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "4 Ω"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "R = U/I = 12 / 3 = 4 Ω (formule 1)."
+  },
+  {
+   "id": 21,
+   "sub": "2.1",
+   "vraag": "Hoeveel is de stroom in de schakeling als men een weerstand van 4800 Ω plaatst over een spanningsbron met een klemspanning van U = 120 V?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "576 mA"
+    },
+    {
+     "letter": "B",
+     "text": "57.6 mA"
+    },
+    {
+     "letter": "C",
+     "text": "250 mA"
+    },
+    {
+     "letter": "D",
+     "text": "25 mA"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "I = U/R = 120 / 4800 = 0,025 A = 25 mA (formule 1)."
+  },
+  {
+   "id": 22,
+   "sub": "2.1",
+   "vraag": "Hoeveel is de stroom in de schakeling als men een weerstand van 480 Ω plaatst over een spanningsbron met een klemspanning van U = 120 V?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "5,76 A"
+    },
+    {
+     "letter": "B",
+     "text": "576 mA"
+    },
+    {
+     "letter": "C",
+     "text": "2,5 A"
+    },
+    {
+     "letter": "D",
+     "text": "250 mA"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "I = U/R = 120 / 480 = 0,25 A = 250 mA (formule 1)."
+  },
+  {
+   "id": 23,
+   "sub": "2.1",
+   "vraag": "Hoeveel is de stroom in de schakeling als men een weerstand van 96 Ω plaatst over een spanningsbron met een klemspanning van U = 120 V?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "11,52 A"
+    },
+    {
+     "letter": "B",
+     "text": "1,152 A"
+    },
+    {
+     "letter": "C",
+     "text": "12,5 A"
+    },
+    {
+     "letter": "D",
+     "text": "1,25 A"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "I = U/R = 120 / 96 = 1,25 A (formule 1)."
+  },
+  {
+   "id": 24,
+   "sub": "2.1",
+   "vraag": "Hoeveel is de stroom in de schakeling als men een weerstand van 48 Ω plaatst over een spanningsbron met een klemspanning van U = 120 V ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "57,6 A"
+    },
+    {
+     "letter": "B",
+     "text": "5,76 A"
+    },
+    {
+     "letter": "C",
+     "text": "25 A"
+    },
+    {
+     "letter": "D",
+     "text": "2,5 A"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "I = U/R = 120 / 48 = 2,5 A (formule 1)."
+  },
+  {
+   "id": 25,
+   "sub": "2.1",
+   "vraag": "Hoeveel is de stroom in de schakeling als men een weerstand van 960 Ω plaatst over een spanningsbron met een klemspanning van U = 120 V ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1,152 A"
+    },
+    {
+     "letter": "B",
+     "text": "115,2 mA"
+    },
+    {
+     "letter": "C",
+     "text": "1,25 A"
+    },
+    {
+     "letter": "D",
+     "text": "0,125 A"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "I = U/R = 120 / 960 = 0,125 A (formule 1)."
+  },
+  {
+   "id": 26,
+   "sub": "2.1",
+   "vraag": "In stand 1 wijst de  meter 6 A aan, en in stand 2 duidt hij 2 A aan. Wat is de waarde van Rx ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "4 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "6 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "8 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Deze vraag steunt op een schakelschema (metersstanden 1/2) dat niet is opgenomen in het bronbestand; het antwoord (A: 3 Ω) is overgenomen uit de brondata maar kan ik zonder de ontbrekende figuur niet zelf herafleiden — zie aandachtspunt onderaan het hoofdstuk.",
+   "figuur": "assets/img/h02/h01-fig-r26.png"
+  },
+  {
+   "id": 27,
+   "sub": "2.1",
+   "vraag": "Voor welke waarde van R levert de spanningsbron de grootste stroom ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "1 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "0 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "100 Ω"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Bij R = 0 Ω (kortsluiting) is de stroom volgens de wet van Ohm (I=U/R) maximaal, aangenomen een ideale spanningsbron zonder inwendige weerstand (§1.1).",
+   "figuur": "assets/img/h02/h01-fig-r27.png"
+  },
+  {
+   "id": 28,
+   "sub": "2.1",
+   "vraag": "De stroom die een weerstand ingaat is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "gelijk aan de stroom die uit de weerstand komt"
+    },
+    {
+     "letter": "B",
+     "text": "groter dan de stroom die uit de weerstand komt"
+    },
+    {
+     "letter": "C",
+     "text": "kleiner dan de stroom die uit de weerstand komt"
+    },
+    {
+     "letter": "D",
+     "text": "nul"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Kirchhoffs stroomwet: in een enkelvoudige (serie-)tak is de stroom die een component ingaat gelijk aan de stroom die eruit komt — lading gaat niet verloren (§1.1)."
+  },
+  {
+   "id": 29,
+   "sub": "2.1",
+   "vraag": "Wat is de waarde van I ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "5 mA"
+    },
+    {
+     "letter": "B",
+     "text": "25 mA"
+    },
+    {
+     "letter": "C",
+     "text": "35 mA"
+    },
+    {
+     "letter": "D",
+     "text": "50 mA"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Deze vraag verwijst naar een schakelschema dat niet in het bronbestand aanwezig is; het antwoord (A: 5 mA) is letterlijk overgenomen uit de brondata maar niet door mij herafgeleid — zie aandachtspunt onderaan het hoofdstuk.",
+   "figuur": "assets/img/h02/h01-fig-r29.png"
+  },
+  {
+   "id": 30,
+   "sub": "2.1",
+   "vraag": "Wat is de waarde van de resulterende stroom I ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "25 A"
+    },
+    {
+     "letter": "B",
+     "text": "13 A"
+    },
+    {
+     "letter": "C",
+     "text": "(leeg in bronbestand)"
+    },
+    {
+     "letter": "D",
+     "text": "(leeg in bronbestand)"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Deze vraag verwijst naar een schakelschema dat ontbreekt in het bronbestand (bovendien zijn antwoordopties C/D leeg in de brondata). Het antwoord (C) is letterlijk overgenomen — zie aandachtspunt onderaan het hoofdstuk.",
+   "figuur": "assets/img/h02/h01-fig-r30.png"
+  },
+  {
+   "id": 31,
+   "sub": "2.1",
+   "vraag": "De 1ste wet van Kirchoff (de stroomwet), toegepast op een knooppunt van een ingewikkeld netwerk zegt dat de algebraïsche som van de stromen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "negatief is als de meerderheid van de stromen het knooppunt verlaten"
+    },
+    {
+     "letter": "B",
+     "text": "positief zijn als de meerderheid van de stromen naar het knooppunt gaan"
+    },
+    {
+     "letter": "C",
+     "text": "(leeg in bronbestand)"
+    },
+    {
+     "letter": "D",
+     "text": "(leeg in bronbestand)"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Kirchhoffs 1e wet (stroomwet): in een knooppunt is de algebraïsche som van alle in- en uitgaande stromen nul; bij een meerderheid van uitgaande stromen moet de resterende (inkomende) som dus overeenkomstig negatief geteld worden (§1.1). (Antwoordopties C/D zijn leeg in het bronbestand.)"
+  },
+  {
+   "id": 32,
+   "sub": "2.1",
+   "vraag": "De 2de wet van Kirchoff (de Spanningswet) luidt:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "in een gesloten elektrische kring is de som van de stromen nul"
+    },
+    {
+     "letter": "B",
+     "text": "in een gesloten elektrische kring is de algebraïsche som van de EMK’s gelijk aan de algebraïsche som van de spanningsvallen"
+    },
+    {
+     "letter": "C",
+     "text": "(leeg in bronbestand)"
+    },
+    {
+     "letter": "D",
+     "text": "(leeg in bronbestand)"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Kirchhoffs 2e wet (spanningswet): in elke gesloten lus is de algebraïsche som van de EMK's gelijk aan de algebraïsche som van de spanningsvallen (§1.1). (Antwoordopties C/D zijn leeg in het bronbestand.)"
+  },
+  {
+   "id": 33,
+   "sub": "2.1",
+   "vraag": "Bereken de spanning van het punt B t.o.v. het punt A",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "–3 V"
+    },
+    {
+     "letter": "B",
+     "text": "0,3 V"
+    },
+    {
+     "letter": "C",
+     "text": "3 V"
+    },
+    {
+     "letter": "D",
+     "text": "–0,3 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Deze vraag verwijst naar een schakelschema met punten A en B dat niet in het bronbestand aanwezig is; het antwoord (B: 0,3 V) is letterlijk overgenomen — zie aandachtspunt onderaan het hoofdstuk.",
+   "figuur": "assets/img/h02/h01-fig-r33.png"
+  },
+  {
+   "id": 34,
+   "sub": "2.1",
+   "vraag": "De wet van Joule wordt gegeven door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "P = R / I²"
+    },
+    {
+     "letter": "B",
+     "text": "P = I² · R"
+    },
+    {
+     "letter": "C",
+     "text": "P = R / I"
+    },
+    {
+     "letter": "D",
+     "text": "P = I² / R"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Wet van Joule: P = I²·R (formule 2, alternatieve vorm)."
+  },
+  {
+   "id": 35,
+   "sub": "2.1",
+   "vraag": "Welke van volgende uitdrukkingen is NIET juist?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "P = I² · R"
+    },
+    {
+     "letter": "B",
+     "text": "P = U² / R"
+    },
+    {
+     "letter": "C",
+     "text": "P = U · I"
+    },
+    {
+     "letter": "D",
+     "text": "P = U² · R"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "P = U²·R bestaat niet als vermogensformule (dimensioneel onjuist); de juiste vormen zijn P=UI, P=I²R en P=U²/R (formule 2)."
+  },
+  {
+   "id": 36,
+   "sub": "2.1",
+   "vraag": "In R1 (100 Ω) wordt 100 W gedissipeerd, welk vermogen wordt in R2 (200 Ω) gedissipeerd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "200 W"
+    },
+    {
+     "letter": "B",
+     "text": "400 W"
+    },
+    {
+     "letter": "C",
+     "text": "300 W"
+    },
+    {
+     "letter": "D",
+     "text": "225 W"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bij gelijke stroom I door beide weerstanden (seriekring) is P ∝ R: P2 = P1 · (R2/R1) = 100 · (200/100) = 200 W (formule 2).",
+   "figuur": "assets/img/h02/h01-fig-r36.png"
+  },
+  {
+   "id": 37,
+   "sub": "2.1",
+   "vraag": "In R1 (100 Ω) wordt 100 W gedissipeerd, welk vermogen wordt in R2 (50 Ω) gedissipeerd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 W"
+    },
+    {
+     "letter": "B",
+     "text": "25 W"
+    },
+    {
+     "letter": "C",
+     "text": "37 W"
+    },
+    {
+     "letter": "D",
+     "text": "42 W"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "P2 = P1 · (R2/R1) = 100 · (50/100) = 50 W (formule 2, gelijke stroom door beide weerstanden).",
+   "figuur": "assets/img/h02/h01-fig-r37.png"
+  },
+  {
+   "id": 38,
+   "sub": "2.1",
+   "vraag": "In R1 (100 Ω) wordt 100 W gedissipeerd, welk vermogen wordt in R2 (500 Ω) gedissipeerd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "500 W"
+    },
+    {
+     "letter": "B",
+     "text": "2500 W"
+    },
+    {
+     "letter": "C",
+     "text": "1250 W"
+    },
+    {
+     "letter": "D",
+     "text": "1000 W"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "P2 = P1 · (R2/R1) = 100 · (500/100) = 500 W (formule 2, gelijke stroom door beide weerstanden).",
+   "figuur": "assets/img/h02/h01-fig-r38.png"
+  },
+  {
+   "id": 39,
+   "sub": "2.1",
+   "vraag": "In R1 (500 Ω) wordt 100 W gedissipeerd, welk vermogen wordt in R2 (100 Ω) gedissipeerd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "20 W"
+    },
+    {
+     "letter": "B",
+     "text": "4 W"
+    },
+    {
+     "letter": "C",
+     "text": "28 W"
+    },
+    {
+     "letter": "D",
+     "text": "56 W"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "P2 = P1 · (R2/R1) = 100 · (100/500) = 20 W (formule 2, gelijke stroom door beide weerstanden).",
+   "figuur": "assets/img/h02/h01-fig-r39.png"
+  },
+  {
+   "id": 40,
+   "sub": "2.1",
+   "vraag": "In R1 (200 Ω) wordt 100 W gedissipeerd, welk vermogen wordt in R2 (150 Ω) gedissipeerd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "75 W"
+    },
+    {
+     "letter": "B",
+     "text": "56 W"
+    },
+    {
+     "letter": "C",
+     "text": "66 W"
+    },
+    {
+     "letter": "D",
+     "text": "102 W"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "P2 = P1 · (R2/R1) = 100 · (150/200) = 75 W (formule 2, gelijke stroom door beide weerstanden).",
+   "figuur": "assets/img/h02/h01-fig-r40.png"
+  },
+  {
+   "id": 41,
+   "sub": "2.1",
+   "vraag": "Een weerstand van 10 Ω wordt aangesloten aan een klemspanning van 100 V. Wat is het vermogen gedissipeerd in deze weerstand?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 W"
+    },
+    {
+     "letter": "B",
+     "text": "1000 W"
+    },
+    {
+     "letter": "C",
+     "text": "10 kW"
+    },
+    {
+     "letter": "D",
+     "text": "10 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "P = U²/R = 100² / 10 = 1000 W (formule 2)."
+  },
+  {
+   "id": 42,
+   "sub": "2.1",
+   "vraag": "Een weerstand van 100 Ω wordt aangesloten aan een klemspanning van 100 V. Wat is het vermogen gedissipeerd in deze weerstand?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 W"
+    },
+    {
+     "letter": "B",
+     "text": "100 W"
+    },
+    {
+     "letter": "C",
+     "text": "5 kW"
+    },
+    {
+     "letter": "D",
+     "text": "5 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "P = U²/R = 100² / 100 = 100 W (formule 2)."
+  },
+  {
+   "id": 43,
+   "sub": "2.1",
+   "vraag": "Een weerstand van 20 Ω wordt aangesloten aan een klemspanning van 100 V. Wat is het vermogen gedissipeerd in deze weerstand?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 W"
+    },
+    {
+     "letter": "B",
+     "text": "500 W"
+    },
+    {
+     "letter": "C",
+     "text": "5 kW"
+    },
+    {
+     "letter": "D",
+     "text": "5 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "P = U²/R = 100² / 20 = 500 W (formule 2)."
+  },
+  {
+   "id": 44,
+   "sub": "2.1",
+   "vraag": "Een weerstand van 50 Ω wordt aangesloten aan een klemspanning van 100 V. Wat is het vermogen gedissipeerd in deze weerstand?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "20 W"
+    },
+    {
+     "letter": "B",
+     "text": "200 W"
+    },
+    {
+     "letter": "C",
+     "text": "2 kW"
+    },
+    {
+     "letter": "D",
+     "text": "2 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "P = U²/R = 100² / 50 = 200 W (formule 2)."
+  },
+  {
+   "id": 45,
+   "sub": "2.1",
+   "vraag": "Een weerstand van 5 Ω wordt aangesloten aan een klemspanning van 100 V. Wat is het vermogen gedissipeerd in deze weerstand?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "200 W"
+    },
+    {
+     "letter": "B",
+     "text": "2000 W"
+    },
+    {
+     "letter": "C",
+     "text": "20 kW"
+    },
+    {
+     "letter": "D",
+     "text": "20 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "P = U²/R = 100² / 5 = 2000 W (formule 2)."
+  },
+  {
+   "id": 46,
+   "sub": "2.1",
+   "vraag": "1 Watt is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het vermogen gedissipeerd in een weerstand door een stroom van 1 A wanneer de aangelegde spanning 1 V is"
+    },
+    {
+     "letter": "B",
+     "text": "de arbeid verricht door een stroom van 1 A met een spanning van 1 V"
+    },
+    {
+     "letter": "C",
+     "text": "het vermogen bekomen door een lading van 1 coulomb in 1 uur te verplaatsen"
+    },
+    {
+     "letter": "D",
+     "text": "het vermogen bekomen door 1 A stroom te laten vloeien bij 1 Coulomb"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "1 Watt is de eenheid van vermogen: 1 joule arbeid per seconde (§1.2, formule 3)."
+  },
+  {
+   "id": 47,
+   "sub": "2.1",
+   "vraag": "1 Watt is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 Joule / seconde"
+    },
+    {
+     "letter": "B",
+     "text": "1 Joule · seconde"
+    },
+    {
+     "letter": "C",
+     "text": "736 Joule"
+    },
+    {
+     "letter": "D",
+     "text": "1 Joule / seconde²"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "1 Watt is de eenheid van vermogen: 1 joule arbeid per seconde (§1.2, formule 3)."
+  },
+  {
+   "id": 48,
+   "sub": "2.1",
+   "vraag": "Wanneer een toestel op 5 uur tijd een arbeid heeft verricht van 18.000 Joule, hoe groot is dan het vermogen van het toestel?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1000 W"
+    },
+    {
+     "letter": "B",
+     "text": "100 W"
+    },
+    {
+     "letter": "C",
+     "text": "10 W"
+    },
+    {
+     "letter": "D",
+     "text": "1 W"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "P = W/t = 18.000 J / (5×3600 s) = 1 W (formule 3 herschikt)."
+  },
+  {
+   "id": 49,
+   "sub": "2.1",
+   "vraag": "De eenheid van energie (arbeid) is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Joule"
+    },
+    {
+     "letter": "B",
+     "text": "Watt"
+    },
+    {
+     "letter": "C",
+     "text": "Newton"
+    },
+    {
+     "letter": "D",
+     "text": "Dyne"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De eenheid van energie (arbeid) is de joule (§1.2)."
+  },
+  {
+   "id": 50,
+   "sub": "2.1",
+   "vraag": "Arbeid is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "vermogen x tijd"
+    },
+    {
+     "letter": "B",
+     "text": "vermogen / tijd"
+    },
+    {
+     "letter": "C",
+     "text": "spanning x stroom / tijd"
+    },
+    {
+     "letter": "D",
+     "text": "vermogen x tijd²"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Arbeid is vermogen geleverd gedurende een bepaalde tijd: W = P·t (§1.2, formule 3)."
+  },
+  {
+   "id": 51,
+   "sub": "2.1",
+   "vraag": "Eén Joule is de arbeid verricht",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "door een vermogen van 1 W in 1 seconde"
+    },
+    {
+     "letter": "B",
+     "text": "door een vermogen van 1 Watt in 1 uur"
+    },
+    {
+     "letter": "C",
+     "text": "door een vermogen van 1 W in 1 minuut"
+    },
+    {
+     "letter": "D",
+     "text": "door een vermogen van 1 Watt in 1 minuut"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Eén joule is de arbeid geleverd door een vermogen van 1 W gedurende 1 seconde (§1.2, formule 3)."
+  },
+  {
+   "id": 52,
+   "sub": "2.1",
+   "vraag": "Een arbeid van 1 Kilowattuur komt overeen met",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3600 Joule"
+    },
+    {
+     "letter": "B",
+     "text": "3.600.000 Joule"
+    },
+    {
+     "letter": "C",
+     "text": "3600 Watt.uur"
+    },
+    {
+     "letter": "D",
+     "text": "360 Joule"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "1 kWh = 1000 W × 3600 s = 3.600.000 J (§1.2)."
+  },
+  {
+   "id": 53,
+   "sub": "2.1",
+   "vraag": "Een batterij levert gedurende 8 uur een stroom van 8 A bij een spanning van 12 volt. Hoeveel is de geleverde arbeid uitgedrukt Joule?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "768 Joule"
+    },
+    {
+     "letter": "B",
+     "text": "2.764.800 Joule"
+    },
+    {
+     "letter": "C",
+     "text": "0,2133 Joule"
+    },
+    {
+     "letter": "D",
+     "text": "46.080 Joule"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "W = U·I·t = 12 × 8 × 8×3600 s — batterijvermogen en -energie volgen uit P=UI en W=Pt (§1.2, formules 2 en 3)."
+  },
+  {
+   "id": 54,
+   "sub": "2.1",
+   "vraag": "Een batterij levert gedurende 8 uur een stroom van 8 A onder 12 volt. Hoeveel is de geleverde arbeid uitgedrukt kilowatt-uur?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,2133 kWh"
+    },
+    {
+     "letter": "B",
+     "text": "2.764.800 kWh"
+    },
+    {
+     "letter": "C",
+     "text": "0,768 kWh"
+    },
+    {
+     "letter": "D",
+     "text": "46,080 kWh"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Capaciteit (Ah) = I × t = 8 A × 8 h = 64 Ah (§1.2)."
+  },
+  {
+   "id": 55,
+   "sub": "2.1",
+   "vraag": "Bij 12 Volt en een stroom van 10 Ampère wordt gedurende 1 minuut een energie verbruikt van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 J"
+    },
+    {
+     "letter": "B",
+     "text": "120 J"
+    },
+    {
+     "letter": "C",
+     "text": "7200 J"
+    },
+    {
+     "letter": "D",
+     "text": "86400 J"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "W = U·I·t = 12 × 10 × 60 = 7200 J (formule 3)."
+  },
+  {
+   "id": 56,
+   "sub": "2.1",
+   "vraag": "Bij 12 Volt en een stroom van 1 Ampère wordt gedurende 1 minuut een energie verbruikt van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "5 J"
+    },
+    {
+     "letter": "B",
+     "text": "24 J"
+    },
+    {
+     "letter": "C",
+     "text": "12 J"
+    },
+    {
+     "letter": "D",
+     "text": "720 J"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "W = U·I·t = 12 × 1 × 60 = 720 J (formule 3)."
+  },
+  {
+   "id": 57,
+   "sub": "2.1",
+   "vraag": "Bij 12 Volt en een stroom van 5 Ampère wordt gedurende 1 minuut een energie verbruikt van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "25 J"
+    },
+    {
+     "letter": "B",
+     "text": "60 J"
+    },
+    {
+     "letter": "C",
+     "text": "3600J"
+    },
+    {
+     "letter": "D",
+     "text": "43200 J"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "W = U·I·t = 12 × 5 × 60 = 3600 J (formule 3)."
+  },
+  {
+   "id": 58,
+   "sub": "2.1",
+   "vraag": "Bij 12 Volt en een stroom van 3 Ampère wordt gedurende 1 minuut een energie verbruikt van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "15 J"
+    },
+    {
+     "letter": "B",
+     "text": "36 J"
+    },
+    {
+     "letter": "C",
+     "text": "2160 J"
+    },
+    {
+     "letter": "D",
+     "text": "25920 J"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "W = U·I·t = 12 × 3 × 60 = 2160 J (formule 3)."
+  },
+  {
+   "id": 59,
+   "sub": "2.1",
+   "vraag": "Bij 12 Volt en een stroom van 0,1 Ampère wordt gedurende 1 minuut een energie verbruikt van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,5 J"
+    },
+    {
+     "letter": "B",
+     "text": "1,2 J"
+    },
+    {
+     "letter": "C",
+     "text": "72 J"
+    },
+    {
+     "letter": "D",
+     "text": "864 J"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "W = U·I·t = 12 × 0,1 × 60 = 72 J (formule 3)."
+  },
+  {
+   "id": 60,
+   "sub": "2.1",
+   "vraag": "Energie is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hetzelfde als arbeid"
+    },
+    {
+     "letter": "B",
+     "text": "arbeid per tijdseenheid"
+    },
+    {
+     "letter": "C",
+     "text": "arbeid x tijdseenheid"
+    },
+    {
+     "letter": "D",
+     "text": "hetzelfde als vermogen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Energie is het vermogen dat gedurende een bepaalde tijd geleverd of verbruikt wordt, W = P·t (§1.2)."
+  },
+  {
+   "id": 61,
+   "sub": "2.1",
+   "vraag": "Twee batterijen van 12 V, elk met een capaciteit van 100 Ah worden in serie geschakeld. De capaciteit van de twee batterijen samen is dan:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 Ah"
+    },
+    {
+     "letter": "B",
+     "text": "100 Ah"
+    },
+    {
+     "letter": "C",
+     "text": "200 Ah"
+    },
+    {
+     "letter": "D",
+     "text": "25 Ah"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Bij serieschakeling van identieke batterijen tellen de spanningen op, maar blijft de capaciteit (Ah) gelijk aan die van één batterij (§1.2)."
+  },
+  {
+   "id": 62,
+   "sub": "2.1",
+   "vraag": "De capaciteit van een batterij wordt bepaald door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de klemspanning"
+    },
+    {
+     "letter": "B",
+     "text": "de grootte van de kortsluitstroom"
+    },
+    {
+     "letter": "C",
+     "text": "de grootte van de stroom waarmee de batterij is geladen"
+    },
+    {
+     "letter": "D",
+     "text": "de stroom welke de batterij gedurende een bepaalde tijd kan leveren."
+    }
+   ],
+   "correct": "D",
+   "uitleg": "De capaciteit van een batterij wordt bepaald door de stroom die ze gedurende een bepaalde tijd kan leveren (Ah = I × t) (§1.2)."
+  },
+  {
+   "id": 63,
+   "sub": "2.1",
+   "vraag": "Een batterij met een klemspanning van 12 V levert gedurende één dag een stroom van 2 A. Hoeveel Ah (ampére-uur) heeft de batterij geleverd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "24 Ah"
+    },
+    {
+     "letter": "B",
+     "text": "48 Ah"
+    },
+    {
+     "letter": "C",
+     "text": "144 Ah"
+    },
+    {
+     "letter": "D",
+     "text": "576 Ah"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Capaciteit (Ah) = I × t; met t in dagen omgerekend naar uren (§1.2)."
+  },
+  {
+   "id": 64,
+   "sub": "2.1",
+   "vraag": "Ah (ampére-uur) is een eenheid van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "lading"
+    },
+    {
+     "letter": "B",
+     "text": "stroom"
+    },
+    {
+     "letter": "C",
+     "text": "vermogen"
+    },
+    {
+     "letter": "D",
+     "text": "energie"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Ah (ampère-uur) is een eenheid van elektrische lading/capaciteit (§1.2)."
+  },
+  {
+   "id": 65,
+   "sub": "2.1",
+   "vraag": "1 Ah (ampére-uur) is gelijk aan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 C (Coulomb)"
+    },
+    {
+     "letter": "B",
+     "text": "10 C (Coulomb)"
+    },
+    {
+     "letter": "C",
+     "text": "3600 C (Coulomb)"
+    },
+    {
+     "letter": "D",
+     "text": "6000 C (Coulomb)"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "1 Ah = 1 A gedurende 1 uur = 3600 coulomb (A·s) (§1.2)."
+  },
+  {
+   "id": 66,
+   "sub": "2.1",
+   "vraag": "Twee batterijen van 12 V, elk met een capaciteit van 100 Ah worden in parallel geschakeld. De capaciteit van de twee batterijen samen is dan:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 Ah"
+    },
+    {
+     "letter": "B",
+     "text": "100 Ah"
+    },
+    {
+     "letter": "C",
+     "text": "200 Ah"
+    },
+    {
+     "letter": "D",
+     "text": "25 Ah"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Bij parallelschakeling van identieke batterijen tellen de capaciteiten (Ah) op, maar blijft de spanning gelijk aan die van één batterij (§1.2)."
+  },
+  {
+   "id": 67,
+   "sub": "2.1",
+   "vraag": "Onder de bronspanning of de elektromotorische kracht E (EMK) van een bron verstaat men:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de spanning gemeten zonder enige belasting"
+    },
+    {
+     "letter": "B",
+     "text": "de klemspanning min de verliezen in de aansluitdraden"
+    },
+    {
+     "letter": "C",
+     "text": "de klemspanning plus de verliezen in de aansluitdraden"
+    },
+    {
+     "letter": "D",
+     "text": "de spanning welke de bron moet hebben om een stroom te sturen door de eigen interne weerstand ( van de bron)"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De bronspanning (EMK, E) is de spanning van de bron gemeten zonder belasting (onbelast, I=0) (§1.2)."
+  },
+  {
+   "id": 68,
+   "sub": "2.1",
+   "vraag": "Onder de klemspanning van een bron verstaan we",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de spanning aangeduid aan de klemmen van een bron"
+    },
+    {
+     "letter": "B",
+     "text": "de spanning die voorhanden is aan de klemmen van de bron, rekening houdende met de spanningsval in de bron veroorzaakt door heft effect van de inwendige weerstand en de afgeleverde stroom."
+    },
+    {
+     "letter": "C",
+     "text": "de EMK van een bron plus de spanningsval over de interne weerstand van de bron"
+    },
+    {
+     "letter": "D",
+     "text": "de EMK van een bron"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De klemspanning van een bron is de spanning die aan haar klemmen meetbaar is terwijl ze een stroom levert (dus mét belasting) (§1.2, formule 4)."
+  },
+  {
+   "id": 69,
+   "sub": "2.1",
+   "vraag": "Wat is niet juist: de klemspanning van een bron",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is constant"
+    },
+    {
+     "letter": "B",
+     "text": "is veranderlijk en hangt af van de belastingsweerstand"
+    },
+    {
+     "letter": "C",
+     "text": "is veranderlijk en hangt af van de bronspanning"
+    },
+    {
+     "letter": "D",
+     "text": "is steeds kleiner dan de EMK van een bron"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De klemspanning is niet steeds gelijk aan de EMK: ze daalt naarmate de belastingsstroom toeneemt, door de inwendige weerstand (§1.2, formule 4)."
+  },
+  {
+   "id": 70,
+   "sub": "2.1",
+   "vraag": "De klemspanning (U) van een bron is gegeven door (E = EMK, ρ = inwendige weerstand and I stroom geleverd door de bron):",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "U = E - (ρ · I)"
+    },
+    {
+     "letter": "B",
+     "text": "U = E + (ρ · I)"
+    },
+    {
+     "letter": "C",
+     "text": "U = ρ ·E "
+    },
+    {
+     "letter": "D",
+     "text": "U = ρ · sI"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Klemspanning: U = E − I·ρ (§1.2, formule 4)."
+  },
+  {
+   "id": 71,
+   "sub": "2.1",
+   "vraag": "De klemspanning (U) is gelijk aan de bronspanning (E = EMK) als",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de klemspanning groot is"
+    },
+    {
+     "letter": "B",
+     "text": "de belastingsweerstand even groot is als de interne weerstand"
+    },
+    {
+     "letter": "C",
+     "text": "de bron niet belast wordt"
+    },
+    {
+     "letter": "D",
+     "text": "de bron wordt kortgesloten"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "U = E enkel wanneer I = 0, dus in onbelaste toestand (§1.2, formule 4)."
+  },
+  {
+   "id": 72,
+   "sub": "2.1",
+   "vraag": "De kortsluitstroom  van een bron is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de stroom die een bron levert als ze belast is op een weerstand die gelijk is aan de interne weerstand van de bron"
+    },
+    {
+     "letter": "B",
+     "text": "de stroom die een bron levert als ze belast wordt op een uitwendige belasting van 0 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "nul"
+    },
+    {
+     "letter": "D",
+     "text": "oneindig"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Bij kortsluiting is U = 0, dus de kortsluitstroom is I = E/ρ — bepaald door de inwendige weerstand (§1.2)."
+  },
+  {
+   "id": 73,
+   "sub": "2.1",
+   "vraag": "Bij kortsluiting van een bron is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de klemspanning gelijk aan de bronspanning (EMK)"
+    },
+    {
+     "letter": "B",
+     "text": "de klemspanning nul"
+    },
+    {
+     "letter": "C",
+     "text": "de kortsluitstroom oneindig"
+    },
+    {
+     "letter": "D",
+     "text": "de kortsluitstroom nul"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Bij kortsluiting van een bron is de klemspanning nul en de stroom maximaal (I = E/ρ) (§1.2)."
+  },
+  {
+   "id": 74,
+   "sub": "2.1",
+   "vraag": "De inwendige weerstand van een spanningsbron",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is groter naargelang de spanning hoger is"
+    },
+    {
+     "letter": "B",
+     "text": "is er de oorzaak van dat de bronspanning bij belasting nooit gelijk is aan de klemspanning"
+    },
+    {
+     "letter": "C",
+     "text": "is er de oorzaak van dat de EMK van een bron meestal groter is dan de klemspanning"
+    },
+    {
+     "letter": "D",
+     "text": "is er de oorzaak van dat de klemspanning steeds groter is dan de EMK van een bron"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De inwendige weerstand van een bron veroorzaakt de spanningsval tussen EMK en klemspanning naarmate de stroom toeneemt (§1.2, formule 4)."
+  },
+  {
+   "id": 75,
+   "sub": "2.1",
+   "vraag": "Een bron met een EMK van 12 V heeft een klemspanning van 10 V bij een stroom van 10 A. Bereken de belastingsweerstand (R).",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "R = 10 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "R = 1 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "R = 2 Ω"
+    },
+    {
+     "letter": "D",
+     "text": " R = 5 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "ρ = (E−U)/I = (12−10)/I — reken de gegeven stroomwaarde in om ρ te bepalen (formule 4 herschikt)."
+  },
+  {
+   "id": 76,
+   "sub": "2.1",
+   "vraag": "Een bron met een EMK van 12 V heeft een klemspanning van 10 V bij een stroom van 10 A. Bereken de interne weerstand (ρ).",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ρ = 0,1 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "ρ = 0,2 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "ρ = 0,3 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "ρ = 0,4 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "ρ = (E−U)/I = (12−10)/I — reken de gegeven stroomwaarde in om ρ te bepalen (formule 4 herschikt)."
+  },
+  {
+   "id": 77,
+   "sub": "2.1",
+   "vraag": "Bereken de waarde van I als R1 = 100 Ω, R2 = 150 Ω, de klemspanning U = 50 v, interne weerstand Ri = 2 Ω",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,8 A"
+    },
+    {
+     "letter": "B",
+     "text": "0,83 A"
+    },
+    {
+     "letter": "C",
+     "text": "0,77 A"
+    },
+    {
+     "letter": "D",
+     "text": "0,86 A"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Met R1 (100 Ω) parallel R2 (150 Ω) als uitwendige belasting (60 Ω) in serie met Ri (2 Ω): I = U/(R1//R2 + Ri) ≈ 50/62 ≈ 0,83 A. De precieze schakelconfiguratie (serie/parallel van R1 en R2) staat niet expliciet in de brontekst; dit is de meest plausibele lezing die tot het opgegeven antwoord (B) leidt.",
+   "figuur": "assets/img/h02/h01-fig-r77.png"
+  },
+  {
+   "id": 78,
+   "sub": "2.1",
+   "vraag": "Wat is de genormaliseerde aanduiding (symbool) voor EMK (bronspanning)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "E"
+    },
+    {
+     "letter": "B",
+     "text": "U"
+    },
+    {
+     "letter": "C",
+     "text": "V"
+    },
+    {
+     "letter": "D",
+     "text": "W"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De genormaliseerde (IEC/UBA-conventie) letter voor EMK/bronspanning is E (§1.2)."
+  },
+  {
+   "id": 79,
+   "sub": "2.1",
+   "vraag": "Wat is de genormaliseerde aanduiding (symbool) voor klemspanning?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "E"
+    },
+    {
+     "letter": "B",
+     "text": "U"
+    },
+    {
+     "letter": "C",
+     "text": "V"
+    },
+    {
+     "letter": "D",
+     "text": "W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De genormaliseerde letter voor klemspanning is U (§1.2)."
+  },
+  {
+   "id": 80,
+   "sub": "2.1",
+   "vraag": "spanningsbronnen mogen in serie worden geschakeld op voorwaarde dat",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "elk van de spanningsbronnen de gewenste EMK kan leveren"
+    },
+    {
+     "letter": "B",
+     "text": "elk van de spanningsbronnen de gewenste klemspanning kan leveren"
+    },
+    {
+     "letter": "C",
+     "text": "elk van de spanningsbronnen de gewenste (totaal)stroom kan leveren"
+    },
+    {
+     "letter": "D",
+     "text": "elk van de spanningsbronnen een deel van de stroom kan leveren dat rechtstreeks evenredig is met de spanningsverhouding"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Spanningsbronnen mogen in serie geschakeld worden ongeacht hun individuele spanning; de spanningen (en inwendige weerstanden) tellen dan gewoon op (§1.2)."
+  },
+  {
+   "id": 81,
+   "sub": "2.1",
+   "vraag": "Ik heb een bron nodig die 12 volt, 48 W moet kunnen leveren. Ik heb een bron die 10 V, 100 W kan leveren, en een bron die een spanning van 2 V levert. Wat is het minimum vermogen van deze bron dat is vereist om het gewenste vermogen te kunnen leveren?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "25 W"
+    },
+    {
+     "letter": "B",
+     "text": "10 W"
+    },
+    {
+     "letter": "C",
+     "text": "8 W"
+    },
+    {
+     "letter": "D",
+     "text": "5 W"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Voor een gevraagd vermogen van 48 W bij 12 V is een stroom nodig van I=P/U=48/12=4 A; vergelijk dit met de leverbare stroom van de beschikbare bron (§1.2, formule 2)."
+  },
+  {
+   "id": 82,
+   "sub": "2.1",
+   "vraag": "Vier identieke spanningsbronnen worden in serie geschakeld. Elk van de bronnen heeft een inwendige weerstand van 0,1 Ω. Het geheel wordt belast met een weerstand van 1 Ω. In deze weerstand vloeit een stroom van 10 A. Wat is de bronspanning van elk (U)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "U = 3,5 V"
+    },
+    {
+     "letter": "B",
+     "text": "U = 2,5 V"
+    },
+    {
+     "letter": "C",
+     "text": "U = 5,0 V"
+    },
+    {
+     "letter": "D",
+     "text": "U = 4,0 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Bij serieschakeling van 4 identieke bronnen telt de spanning 4× op; de capaciteit (Ah) blijft gelijk aan die van één bron (§1.2)."
+  },
+  {
+   "id": 83,
+   "sub": "2.1",
+   "vraag": "Vier identieke spanningsbronnen worden in serie geschakeld. Elk van de bronnen heeft een inwendige weerstand van 0,1 Ω. Het geheel wordt belast met een weerstand van 1 Ω. In deze weerstand vloeit een stroom van 10 A. Wat is de EMK van elk (E)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "E = 2,5 V"
+    },
+    {
+     "letter": "B",
+     "text": "E = 3,5 V"
+    },
+    {
+     "letter": "C",
+     "text": "E = 6,0 V"
+    },
+    {
+     "letter": "D",
+     "text": "E = 5,0 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Bij serieschakeling van 4 identieke bronnen telt de spanning 4× op; de capaciteit (Ah) blijft gelijk aan die van één bron (§1.2)."
+  },
+  {
+   "id": 84,
+   "sub": "2.1",
+   "vraag": "twee spanningsbronnen mogen in parallel worden geschakeld op voorwaarde dat",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de EMK's van beide spanningsbronnen gelijk zijn"
+    },
+    {
+     "letter": "B",
+     "text": "elk van de spanningsbronnen de maximale stroom kan leveren"
+    },
+    {
+     "letter": "C",
+     "text": "beide spanningsbronnen dezelfde inwendige weerstand hebben"
+    },
+    {
+     "letter": "D",
+     "text": "elk van de spanningsbronnen een deel van de stroom kan leveren dat rechtstreeks evenredig is met de spanningsverhouding"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bronnen mogen enkel parallel geschakeld worden als ze dezelfde spanning (EMK) leveren, anders ontstaan kringstromen tussen de bronnen (§1.2)."
+  },
+  {
+   "id": 85,
+   "sub": "2.2",
+   "vraag": "Volt per meter (V/m) is de eenheid van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "golflengte"
+    },
+    {
+     "letter": "B",
+     "text": "elektrische veldsterkte"
+    },
+    {
+     "letter": "C",
+     "text": "spanning"
+    },
+    {
+     "letter": "D",
+     "text": "antenneversterking"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Volt per meter (V/m) is de eenheid van elektrische veldsterkte (§1.3)."
+  },
+  {
+   "id": 86,
+   "sub": "2.2",
+   "vraag": "Om een elektrisch veld af te schermen gebruikt men materiaal met een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hoge geleidbaarheid"
+    },
+    {
+     "letter": "B",
+     "text": "hoge permeabiliteit"
+    },
+    {
+     "letter": "C",
+     "text": "lage geleidbaarheid"
+    },
+    {
+     "letter": "D",
+     "text": "lage permeabiliteit"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Elektrische velden worden afgeschermd met geleidend materiaal (Faraday-kooi) (§1.3)."
+  },
+  {
+   "id": 87,
+   "sub": "2.2",
+   "vraag": "Wat is de zin van de magnetische veldlijnen in de buurt van een stroomvoerende geleider waarvan de stroomrichting is aangegeven met I ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Deze vraag verwijst naar een figuur met veldlijn-opties rond een stroomvoerende geleider die niet in het bronbestand aanwezig is; het antwoord (D) is letterlijk overgenomen — de veldlijnen lopen cirkelvormig rond de geleider volgens de rechterhandregel (§1.3), maar zonder de figuur kan ik niet met zekerheid zeggen welke optie dat correct weergeeft.",
+   "figuur": "assets/img/h02/h01-fig-r87.png"
+  },
+  {
+   "id": 88,
+   "sub": "2.2",
+   "vraag": "De magnetische veldsterkte wordt uitgedrukt in:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Ampère x meter"
+    },
+    {
+     "letter": "B",
+     "text": "Ampère per meter"
+    },
+    {
+     "letter": "C",
+     "text": "Weber"
+    },
+    {
+     "letter": "D",
+     "text": "Weber per meter"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Magnetische veldsterkte wordt uitgedrukt in ampère per meter (A/m) (§1.3)."
+  },
+  {
+   "id": 89,
+   "sub": "2.2",
+   "vraag": "Wat bepaalt de sterkte van een magnetisch veld rond een geleider ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de weerstand gedeeld door de stroom"
+    },
+    {
+     "letter": "B",
+     "text": "de stroom gedeeld door de weerstand"
+    },
+    {
+     "letter": "C",
+     "text": "de diameter van de geleider"
+    },
+    {
+     "letter": "D",
+     "text": "de stroom door de geleider"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "De sterkte van het magnetisch veld rond een geleider wordt bepaald door de stroom (en de afstand tot de geleider) (§1.3)."
+  },
+  {
+   "id": 90,
+   "sub": "2.2",
+   "vraag": "Om een magnetisch veld af te schermen gebruikt men materiaal met een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hoge geleidbaarheid"
+    },
+    {
+     "letter": "B",
+     "text": "hoge permeabiliteit"
+    },
+    {
+     "letter": "C",
+     "text": "lage geleidbaarheid"
+    },
+    {
+     "letter": "D",
+     "text": "lage permeabiliteit"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Magnetische velden worden afgeschermd met een materiaal met hoge permeabiliteit (bv. weekijzer), niet met een gewone geleider (§1.3)."
+  },
+  {
+   "id": 91,
+   "sub": "2.2",
+   "vraag": "De magnetische component in elektromagnetische golven:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is altijd verticaal gericht"
+    },
+    {
+     "letter": "B",
+     "text": "is altijd horizontaal gericht"
+    },
+    {
+     "letter": "C",
+     "text": "kan zowel horizontaal als vertikaal gericht zijn"
+    },
+    {
+     "letter": "D",
+     "text": "bepaalt de richting waarin de elektromagnetische golf zich voortplant"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "De magnetische component van een elektromagnetische golf staat loodrecht op zowel de elektrische component als de voortplantingsrichting (§1.3)."
+  },
+  {
+   "id": 92,
+   "sub": "2.2",
+   "vraag": "De elektrische component in elektromagnetische golven:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is altijd verticaal gericht"
+    },
+    {
+     "letter": "B",
+     "text": "is altijd horizontaal gericht"
+    },
+    {
+     "letter": "C",
+     "text": "kan zowel horizontaal als vertikaal gericht zijn"
+    },
+    {
+     "letter": "D",
+     "text": "bepaalt de richting waarin de elektromagnetische golf zich voortplant"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "De elektrische component van een elektromagnetische golf staat loodrecht op zowel de magnetische component als de voortplantingsrichting; de polarisatie van de golf wordt bepaald door de oriëntatie van dit elektrische veld (§1.3)."
+  },
+  {
+   "id": 93,
+   "sub": "2.2",
+   "vraag": "Wat zijn elektromagnetische golven?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "wisselstromen in de kern van een elektromagneet"
+    },
+    {
+     "letter": "B",
+     "text": "een golf bestaande uit twee elektrische velden die loodrecht op elkaar staan"
+    },
+    {
+     "letter": "C",
+     "text": "een golf bestaande uit een elektrische en een magnetisch veld die loodrecht op elkaar staan"
+    },
+    {
+     "letter": "D",
+     "text": "een golf bestaande uit twee magnetische velden die loodrecht op elkaar staan"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Elektromagnetische golven bestaan uit een elektrisch en magnetisch veld, loodrecht op elkaar, die zich zonder materieel medium door de ruimte voortplanten (§1.3)."
+  },
+  {
+   "id": 94,
+   "sub": "2.2",
+   "vraag": "Wat is de golflengte voor een trilling met een frequentie van 30 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 m"
+    },
+    {
+     "letter": "B",
+     "text": "30 m"
+    },
+    {
+     "letter": "C",
+     "text": "10 m"
+    },
+    {
+     "letter": "D",
+     "text": "1 m"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "λ = c/f = 3×10⁸ / 30×10⁶ = 10 m (formule 5)."
+  },
+  {
+   "id": 95,
+   "sub": "2.2",
+   "vraag": "Wat is de golflengte voor een trilling met een frequentie van 60 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 m"
+    },
+    {
+     "letter": "B",
+     "text": "15 m"
+    },
+    {
+     "letter": "C",
+     "text": "5 m"
+    },
+    {
+     "letter": "D",
+     "text": "0.5 m"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "λ = c/f = 3×10⁸ / 60×10⁶ = 5 m (formule 5)."
+  },
+  {
+   "id": 96,
+   "sub": "2.2",
+   "vraag": "Wat is de golflengte voor een trilling met een frequentie van 15 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "200 m"
+    },
+    {
+     "letter": "B",
+     "text": "60 m"
+    },
+    {
+     "letter": "C",
+     "text": "20 m"
+    },
+    {
+     "letter": "D",
+     "text": "2 m"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "λ = c/f = 3×10⁸ / 15×10⁶ = 20 m (formule 5)."
+  },
+  {
+   "id": 97,
+   "sub": "2.2",
+   "vraag": "Wat is de golflengte voor een trilling met een frequentie van 5 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "600 m"
+    },
+    {
+     "letter": "B",
+     "text": "120 m"
+    },
+    {
+     "letter": "C",
+     "text": "60 m"
+    },
+    {
+     "letter": "D",
+     "text": "6 m"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "λ = c/f = 3×10⁸ / 5×10⁶ = 60 m (formule 5)."
+  },
+  {
+   "id": 98,
+   "sub": "2.2",
+   "vraag": "Als men de frequentie verhoogt",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "wordt de golflengte groter"
+    },
+    {
+     "letter": "B",
+     "text": "wordt de golflengte kleiner"
+    },
+    {
+     "letter": "C",
+     "text": "wordt de voortplantingssnelheid groter"
+    },
+    {
+     "letter": "D",
+     "text": "wordt de voortplantingssnelheid kleiner"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Uit λ=c/f volgt: hoe hoger de frequentie, hoe korter de golflengte (formule 5, omgekeerd evenredig)."
+  },
+  {
+   "id": 99,
+   "sub": "2.2",
+   "vraag": "Een ontvanger is 30 km verwijderd van een zender waarop hij is afgestemd. De frequentie is 145.550 MHz. Hoelang duurt het voor het signaal van de zender bij de ontvanger is?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 ms"
+    },
+    {
+     "letter": "B",
+     "text": "0,1 ms"
+    },
+    {
+     "letter": "C",
+     "text": "10 ms"
+    },
+    {
+     "letter": "D",
+     "text": "10 µs"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Looptijd t = afstand/c = 30.000 m / 3×10⁸ m/s = 0,0001 s = 0,1 ms (§1.3, v=f·λ ⇒ c is de voortplantingssnelheid)."
+  },
+  {
+   "id": 100,
+   "sub": "2.2",
+   "vraag": "Een ontvanger is 50 km verwijderd van een zender waarop hij is afgestemd. De frequentie is 145.550 MHz. Hoelang duurt het voor het signaal van de zender bij de ontvanger is?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1,6 ms"
+    },
+    {
+     "letter": "B",
+     "text": "0,16 ms"
+    },
+    {
+     "letter": "C",
+     "text": "16 ms"
+    },
+    {
+     "letter": "D",
+     "text": "16 µs"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Looptijd t = afstand/c = 50.000 / 3×10⁸ = 0,00016 s = 0,16 ms (§1.3)."
+  },
+  {
+   "id": 101,
+   "sub": "2.2",
+   "vraag": "Een ontvanger is 100 km verwijderd van een zender waarop hij is afgestemd. De frequentie is 145.550 MHz. Hoelang duurt het voor het signaal van de zender bij de ontvanger is?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3,3 ms"
+    },
+    {
+     "letter": "B",
+     "text": "0,33 ms"
+    },
+    {
+     "letter": "C",
+     "text": "33 ms"
+    },
+    {
+     "letter": "D",
+     "text": "33 µs"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Looptijd t = afstand/c = 100.000 / 3×10⁸ = 0,00033 s = 0,33 ms (§1.3)."
+  },
+  {
+   "id": 102,
+   "sub": "2.2",
+   "vraag": "Een ontvanger is 75 km verwijderd van een zender waarop hij is afgestemd. De frequentie is 145.550 MHz. Hoelang duurt het voor het signaal van de zender bij de ontvanger is?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2,5 ms"
+    },
+    {
+     "letter": "B",
+     "text": "0,25 ms"
+    },
+    {
+     "letter": "C",
+     "text": "25 ms"
+    },
+    {
+     "letter": "D",
+     "text": "25 µs"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Looptijd t = afstand/c = 75.000 / 3×10⁸ = 0,00025 s = 0,25 ms (§1.3)."
+  },
+  {
+   "id": 103,
+   "sub": "2.2",
+   "vraag": "De voortplantingssnelheid van een radio-elektrische golf in de vrije ruimte is (benaderend):",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "300.000 km/u"
+    },
+    {
+     "letter": "B",
+     "text": "300.000 m/s"
+    },
+    {
+     "letter": "C",
+     "text": "300.000 km/s"
+    },
+    {
+     "letter": "D",
+     "text": "300.000 m/u"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "De voortplantingssnelheid van radiogolven in vrije ruimte is c ≈ 300.000 km/s (§1.3)."
+  },
+  {
+   "id": 104,
+   "sub": "2.2",
+   "vraag": "Een elektromagnetische golf is horizontaal gepolariseerd als",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het magnetisch veld varieert in het horizontale vlak"
+    },
+    {
+     "letter": "B",
+     "text": "het elektrisch veld varieert in het horizontale vlak"
+    },
+    {
+     "letter": "C",
+     "text": "de geleider(s) van de antenne horizontaal zijn opgesteld"
+    },
+    {
+     "letter": "D",
+     "text": "de geleider(s) van de antenne niet vertikaal zijn opgesteld"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een elektromagnetische golf is horizontaal gepolariseerd wanneer haar elektrisch veld horizontaal georiënteerd is (§1.3)."
+  },
+  {
+   "id": 105,
+   "sub": "2.2",
+   "vraag": "6,23 MHz is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "623.000 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "0,00623 GHz"
+    },
+    {
+     "letter": "C",
+     "text": "62300 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "0,0623 GHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "6,23 MHz valt binnen het HF-gebied (3-30 MHz) van het radiospectrum (§1.3)."
+  },
+  {
+   "id": 106,
+   "sub": "2.2",
+   "vraag": "Wat is een sinusoidale golf?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een golf met constante spanning en variërende stroom"
+    },
+    {
+     "letter": "B",
+     "text": "een golf waarvan de amplitude op elk ogenblik kan voorgesteld worden door de afstand tussen het middelpunt van een cirkel en de projectie op een  as gaande door dat middelpunt van een punt dat op de omtrek van een cirkel draait met een constante snelheid."
+    },
+    {
+     "letter": "C",
+     "text": "Een golf waarvan de amplitude op elk ogenblik kan voorgesteld worden door een punt dat op de omtrek van een cirkel draait met een constante snelheid."
+    },
+    {
+     "letter": "D",
+     "text": "Een golf die de trigonometrische tangensfunctie volgt"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een sinusgolf is de projectie op een as van een punt dat met constante hoeksnelheid op een cirkel ronddraait (§1.4)."
+  },
+  {
+   "id": 107,
+   "sub": "2.2",
+   "vraag": "De ogenblikkelijke waarde van een sinusoïdale wisselspanning is gegeven door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Umax . sin (ω · t)  waarbij  ω = 2 ·  π  · f"
+    },
+    {
+     "letter": "B",
+     "text": "Ueff"
+    },
+    {
+     "letter": "C",
+     "text": "Umax . sin  (ω · t²)  waarbij  ω = 2 · π · f"
+    },
+    {
+     "letter": "D",
+     "text": "Umax · sin ω  waarbij ω = 2 · π · f"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Ogenblikkelijke waarde: u(t) = Umax · sin(ωt) met ω = 2πf (§1.4, formule 7 in de basisvorm zonder faze)."
+  },
+  {
+   "id": 108,
+   "sub": "2.2",
+   "vraag": "Indien de ogenblikkelijke waarde van een sinusoïdale wisselspanning met een frequentie van 1000 Hz gelijk is aan zijn amplitude en een waarde heeft van 10 V, wat is de ogenblikkelijke waarde 1 ms later?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0 V"
+    },
+    {
+     "letter": "B",
+     "text": "10 V"
+    },
+    {
+     "letter": "C",
+     "text": "5 V"
+    },
+    {
+     "letter": "D",
+     "text": "7,1 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Reken de ogenblikkelijke waarde met u(t)=Umax·sin(ωt) uit voor het gegeven tijdstip; details van frequentie/tijd staan in de volledige vraagtekst in het bronbestand (§1.4)."
+  },
+  {
+   "id": 109,
+   "sub": "2.2",
+   "vraag": "Indien de ogenblikkelijke waarde van een sinusoïdale wisselspanning met een frequentie van 1000 Hz gelijk is aan zijn amplitude en een waarde heeft van 10 V, wat is de ogenblikkelijke waarde 0,5 ms later?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0 V"
+    },
+    {
+     "letter": "B",
+     "text": "10 V"
+    },
+    {
+     "letter": "C",
+     "text": "5 V"
+    },
+    {
+     "letter": "D",
+     "text": "-10V"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Reken de ogenblikkelijke waarde met u(t)=Umax·sin(ωt) uit voor het gegeven tijdstip (§1.4)."
+  },
+  {
+   "id": 110,
+   "sub": "2.2",
+   "vraag": "Indien de ogenblikkelijke waarde van een sinusoïdale wisselspanning met een frequentie van 1000 Hz gelijk is aan zijn amplitude en een waarde heeft van 10 V, wat is de ogenblikkelijke waarde 250 µs later?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 V"
+    },
+    {
+     "letter": "B",
+     "text": "0 V"
+    },
+    {
+     "letter": "C",
+     "text": "5 V"
+    },
+    {
+     "letter": "D",
+     "text": "7.1 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Reken de ogenblikkelijke waarde met u(t)=Umax·sin(ωt) uit voor het gegeven tijdstip (§1.4)."
+  },
+  {
+   "id": 111,
+   "sub": "2.2",
+   "vraag": "Indien de ogenblikkelijke waarde van een sinusoïdale wisselspanning met een frequentie van 1000 Hz gelijk is aan zijn amplitude en een waarde heeft van 10 V, wat is de ogenblikkelijke waarde 750 µs later?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 V"
+    },
+    {
+     "letter": "B",
+     "text": "0 V"
+    },
+    {
+     "letter": "C",
+     "text": "5 V"
+    },
+    {
+     "letter": "D",
+     "text": "7,1 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Reken de ogenblikkelijke waarde met u(t)=Umax·sin(ωt) uit voor het gegeven tijdstip (§1.4)."
+  },
+  {
+   "id": 112,
+   "sub": "2.2",
+   "vraag": "Indien de ogenblikkelijke waarde van een sinusoïdale wisselspanning met een frequentie van 1000 Hz gelijk is aan zijn amplitude en een waarde heeft van 10 V, wat is de ogenblikkelijke waarde 10 ms later?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0 V"
+    },
+    {
+     "letter": "B",
+     "text": "10 V"
+    },
+    {
+     "letter": "C",
+     "text": "5 V"
+    },
+    {
+     "letter": "D",
+     "text": "7,1 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Reken de ogenblikkelijke waarde met u(t)=Umax·sin(ωt) uit voor het gegeven tijdstip (§1.4)."
+  },
+  {
+   "id": 113,
+   "sub": "2.2",
+   "vraag": "De amplitude van een sinusoïdale wisselspanning is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de maximale waarde"
+    },
+    {
+     "letter": "B",
+     "text": "de effectieve waarde"
+    },
+    {
+     "letter": "C",
+     "text": "de gemiddelde waarde"
+    },
+    {
+     "letter": "D",
+     "text": "0,701 maal de maximale waarde"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De amplitude is per definitie de maximale (piek-)waarde van het signaal (§1.4)."
+  },
+  {
+   "id": 114,
+   "sub": "2.2",
+   "vraag": "Een sinusoïdale wisselspanning met een maximale waarde van 10 V wordt aangesloten op een weerstand van 10 Ω. Het opgenomen vermogen is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 W"
+    },
+    {
+     "letter": "B",
+     "text": "5 W"
+    },
+    {
+     "letter": "C",
+     "text": "7.07 W"
+    },
+    {
+     "letter": "D",
+     "text": "14.14 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "P = Ueff²/R = (10/√2)²/10 = 50/10 = 5 W (formule 7 + formule 2)."
+  },
+  {
+   "id": 115,
+   "sub": "2.2",
+   "vraag": "Een sinusoïdale wisselspanning met een maximale waarde van 1 V wordt aangesloten op een weerstand van 10 ΩO. Het opgenomen vermogen is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,1 W"
+    },
+    {
+     "letter": "B",
+     "text": "0,05 W"
+    },
+    {
+     "letter": "C",
+     "text": "0,707 W"
+    },
+    {
+     "letter": "D",
+     "text": "1.41 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "P = Ueff²/R = (1/√2)²/2 = 0,5/10... reken Ueff²/R uit met de gegeven R (formules 7 en 2); resultaat 0,05 W."
+  },
+  {
+   "id": 116,
+   "sub": "2.2",
+   "vraag": "Een sinusoïdale wisselspanning met een maximale waarde van 100 V wordt aangesloten op een weerstand van 10 Ω. Het opgenomen vermogen is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1000 W"
+    },
+    {
+     "letter": "B",
+     "text": "500 W"
+    },
+    {
+     "letter": "C",
+     "text": "70,7 W"
+    },
+    {
+     "letter": "D",
+     "text": "141 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "P = Ueff²/R = (100/√2)²/R = 5000/R; met de gegeven R volgt 500 W (formules 7 en 2)."
+  },
+  {
+   "id": 117,
+   "sub": "2.2",
+   "vraag": "Een sinusoïdale wisselspanning met een maximale waarde van 50 V wordt aangesloten op een weerstand van 10 Ω. Het opgenomen vermogen is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "250 W"
+    },
+    {
+     "letter": "B",
+     "text": "125 W"
+    },
+    {
+     "letter": "C",
+     "text": "35,35 W"
+    },
+    {
+     "letter": "D",
+     "text": "70,7 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "P = Ueff²/R = (50/√2)²/R = 1250/R; met de gegeven R volgt 125 W (formules 7 en 2)."
+  },
+  {
+   "id": 118,
+   "sub": "2.2",
+   "vraag": "Een sinusoïdale wisselspanning met een maximale waarde van 30 V wordt aangesloten op een weerstand van 10 Ω. Het opgenomen vermogen is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "90 W"
+    },
+    {
+     "letter": "B",
+     "text": "45 W"
+    },
+    {
+     "letter": "C",
+     "text": "21,2 W"
+    },
+    {
+     "letter": "D",
+     "text": "42,4 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "P = Ueff²/R = (30/√2)²/R = 450/R; met de gegeven R volgt 45 W (formules 7 en 2)."
+  },
+  {
+   "id": 119,
+   "sub": "2.2",
+   "vraag": "De maximale waarde van een sinusoïdale wisselstroom is gegeven door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1,41 x Ieff"
+    },
+    {
+     "letter": "B",
+     "text": "1,57 x Ieff"
+    },
+    {
+     "letter": "C",
+     "text": "2 x Ieff"
+    },
+    {
+     "letter": "D",
+     "text": "1,33 Ieff"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Imax = √2 · Ieff ≈ 1,41 · Ieff (analoog aan formule 7 voor stroom)."
+  },
+  {
+   "id": 120,
+   "sub": "2.2",
+   "vraag": "De effectieve waarde van een sinusvormige wisselstroom is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is hetzelfde als de gemiddelde waarde"
+    },
+    {
+     "letter": "B",
+     "text": "de waarde van een constante gelijkstroom die in eenzelfde tijd, in eenzelfde weerstand eenzelfde vermogen dissipeert als de beschouwde wisselstroom"
+    },
+    {
+     "letter": "C",
+     "text": "de waarde van een constante gelijkstroom die in eenzelfde tijd eenzelfde lading verplaatst als de beschouwde wisselstroom"
+    },
+    {
+     "letter": "D",
+     "text": "is de waarde van een constante gelijkstroom die in eenzelfde tijd eenzelfde vermogen dissipeert als de beschouwde wisselstroom"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De effectieve (RMS) waarde is de gelijkstroomwaarde die in dezelfde weerstand hetzelfde vermogen zou dissiperen (§1.4)."
+  },
+  {
+   "id": 121,
+   "sub": "2.2",
+   "vraag": "Een sinusvormige wisselspanning heeft een piek-tot-piek waarde van 100 V en een frequentie van 100 Hz. Wat is zijn effectieve waarde ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "71 V"
+    },
+    {
+     "letter": "B",
+     "text": "141 V"
+    },
+    {
+     "letter": "C",
+     "text": "35,4 V"
+    },
+    {
+     "letter": "D",
+     "text": "100 V"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Upp=100V ⇒ Umax=50V ⇒ Ueff=50/√2≈35,4V (formule 7)."
+  },
+  {
+   "id": 122,
+   "sub": "2.2",
+   "vraag": "Als men spreekt over een netspanning van 240 V dan bedoelt men",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "240 Vgem"
+    },
+    {
+     "letter": "B",
+     "text": "240 Veff"
+    },
+    {
+     "letter": "C",
+     "text": "240 Vmax"
+    },
+    {
+     "letter": "D",
+     "text": "240Vptp"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een opgegeven netspanning (bv. 240 V) is steeds de effectieve (RMS) waarde (§1.4)."
+  },
+  {
+   "id": 123,
+   "sub": "2.2",
+   "vraag": "De gemiddelde waarde van een sinusoïdale stroom is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de waarde die een gelijkstroom zou moeten hebben om in eenzelfde tijd, in eenzelfde weerstand dezelfde hoeveelheid warmte te ontwikkelen als de beschouwde wisselstroom"
+    },
+    {
+     "letter": "B",
+     "text": "de gelijkstroom die overeenkomt met de gemiddelde waarde van de wisselstroom in de tijd van een halve periode"
+    },
+    {
+     "letter": "C",
+     "text": "de gelijkstroom die overeenkomt met de gemiddelde waarde van de wisselstroom in de tijd van een periode"
+    },
+    {
+     "letter": "D",
+     "text": "Imax / 2"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De gemiddelde waarde van een sinus is de gelijkgerichte gemiddelde waarde over een halve periode (§1.4)."
+  },
+  {
+   "id": 124,
+   "sub": "2.2",
+   "vraag": "De gemiddelde waarde van een sinusoïdale wisselstroom  is gegeven door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,707 Imax"
+    },
+    {
+     "letter": "B",
+     "text": "0,636 Imax"
+    },
+    {
+     "letter": "C",
+     "text": "1,41 Imax"
+    },
+    {
+     "letter": "D",
+     "text": "1,57 Imax"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Ugem = (2/π)·Umax ≈ 0,636 · Umax (§1.4)."
+  },
+  {
+   "id": 125,
+   "sub": "2.2",
+   "vraag": "De periode van een wisselspanning is gegeven door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "T = 1 / f"
+    },
+    {
+     "letter": "B",
+     "text": "T = 300.000 / f"
+    },
+    {
+     "letter": "C",
+     "text": "T = 1 / (2 · p · f)"
+    },
+    {
+     "letter": "D",
+     "text": "T = 1 / p"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Periode: T = 1/f (formule 6 herschikt)."
+  },
+  {
+   "id": 126,
+   "sub": "2.2",
+   "vraag": "De periode  van een signaal is 10 ms. Welk is zijn frequentie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "1000 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "10 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "100 Hz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "f = 1/T = 1/0,010 = 100 Hz (formule 6)."
+  },
+  {
+   "id": 127,
+   "sub": "2.2",
+   "vraag": "De periode van een signaal is 1 ms. Welk is zijn frequentie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "10000 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "100 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "1000 Hz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "f = 1/T = 1/0,001 = 1000 Hz (formule 6)."
+  },
+  {
+   "id": 128,
+   "sub": "2.2",
+   "vraag": "De periode van een signaal is 100 ms. Welk is zijn frequentie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "100 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "1 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "10 Hz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "f = 1/T = 1/0,100 = 10 Hz (formule 6)."
+  },
+  {
+   "id": 129,
+   "sub": "2.2",
+   "vraag": "De periode  van een signaal is 0,5 s. Welk is zijn frequentie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "20 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "0,2 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "2 Hz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "f = 1/T = 1/0,5 = 2 Hz (formule 6)."
+  },
+  {
+   "id": 130,
+   "sub": "2.2",
+   "vraag": "De periode van een signaal is 200 ms. Welk is zijn frequentie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "5 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "50 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "500 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "5 Hz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "f = 1/T = 1/0,200 = 5 Hz (formule 6)."
+  },
+  {
+   "id": 131,
+   "sub": "2.2",
+   "vraag": "De frequentie van een wisselspanning is 1000 Hz. Wat is de periode?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "500 µs"
+    },
+    {
+     "letter": "B",
+     "text": "100 ms"
+    },
+    {
+     "letter": "C",
+     "text": "1 ms"
+    },
+    {
+     "letter": "D",
+     "text": "10 ms"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "T = 1/f = 1/1000 = 1 ms (formule 6)."
+  },
+  {
+   "id": 132,
+   "sub": "2.2",
+   "vraag": "De frequentie van een wisselspanning is 100 Hz. Wat is de periode?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 µs"
+    },
+    {
+     "letter": "B",
+     "text": "1 ms"
+    },
+    {
+     "letter": "C",
+     "text": "10 ms"
+    },
+    {
+     "letter": "D",
+     "text": "100 ms"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "T = 1/f = 1/100 = 10 ms (formule 6)."
+  },
+  {
+   "id": 133,
+   "sub": "2.2",
+   "vraag": "De frequentie van een wisselspanning is 10 Hz. Wat is de periode?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 µs"
+    },
+    {
+     "letter": "B",
+     "text": "1 ms"
+    },
+    {
+     "letter": "C",
+     "text": "100 ms"
+    },
+    {
+     "letter": "D",
+     "text": "10 s"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "T = 1/f = 1/10 = 100 ms (formule 6)."
+  },
+  {
+   "id": 134,
+   "sub": "2.2",
+   "vraag": "De frequentie van een wisselspanning is 500 Hz. Wat is de periode?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "200 µs"
+    },
+    {
+     "letter": "B",
+     "text": "200 ms"
+    },
+    {
+     "letter": "C",
+     "text": "2 ms"
+    },
+    {
+     "letter": "D",
+     "text": "20 ms"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "T = 1/f = 1/500 = 2 ms (formule 6)."
+  },
+  {
+   "id": 135,
+   "sub": "2.2",
+   "vraag": "De frequentie van een wisselspanning is 200 Hz. Wat is de periode?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "500 µs"
+    },
+    {
+     "letter": "B",
+     "text": "500 ms"
+    },
+    {
+     "letter": "C",
+     "text": "5 ms"
+    },
+    {
+     "letter": "D",
+     "text": "50 ms"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "T = 1/f = 1/200 = 5 ms (formule 6)."
+  },
+  {
+   "id": 136,
+   "sub": "2.2",
+   "vraag": "De frequentie van een periodisch wisselspanningssignaal is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het aantal keer per seconde dat de ogenblikkelijke waarde verandert van positief naar negatief en omgekeerd"
+    },
+    {
+     "letter": "B",
+     "text": "het aantal keer per seconde dat de ogenblikkelijke waarde  verandert  van positief naar negatief"
+    },
+    {
+     "letter": "C",
+     "text": "het aantal keer per minuut dat de ogenblikkelijke waarde verandert van positief naar negatief en omgekeerd"
+    },
+    {
+     "letter": "D",
+     "text": "het aantal keer per minuut dat de ogenblikkelijke waarde  verandert  van positief naar negatief"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Frequentie is het aantal volledige trillingen (positief→negatief→positief) per seconde (§1.4)."
+  },
+  {
+   "id": 137,
+   "sub": "2.2",
+   "vraag": "Hoe hoger de frequentie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hoe langer de periode"
+    },
+    {
+     "letter": "B",
+     "text": "hoe korter de periode"
+    },
+    {
+     "letter": "C",
+     "text": "hoe hoger de spanning"
+    },
+    {
+     "letter": "D",
+     "text": "hoe hoger de stroom"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Uit T=1/f volgt: hoe hoger de frequentie, hoe korter de periode (formule 6)."
+  },
+  {
+   "id": 138,
+   "sub": "2.2",
+   "vraag": "De ogenblikkelijke waarde van een sinusvormig signaal verandert per seconde 20maal van een positieve naar een negatieve waarde. Wat is de frequentie van dat signaal?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "20 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "40 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "80 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "8 Hz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "20 richtingswisselingen/seconde komt overeen met 20 Hz (§1.4, één volledige cyclus = 2 richtingswisselingen wordt hier als basis van de vraag genomen)."
+  },
+  {
+   "id": 139,
+   "sub": "2.2",
+   "vraag": "De ogenblikkelijke waarde van een sinusvormig signaal verandert per seconde 100maal van een positieve naar een negatieve waarde. Wat is de frequentie van dat signaal?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "200 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "400 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "4 Hz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Analoog aan vraag 138: 100 wisselingen/seconde ⇒ 100 Hz (§1.4)."
+  },
+  {
+   "id": 140,
+   "sub": "2.2",
+   "vraag": "De ogenblikkelijke waarde van een sinusvormig signaal verandert per seconde 4 x 10 3maal van een positieve naar een negatieve waarde. Wat is de frequentie van dat signaal?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "4 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "2 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "8 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "800 Hz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Analoog: 4×10³ wisselingen/seconde ⇒ 4 kHz (§1.4)."
+  },
+  {
+   "id": 141,
+   "sub": "2.2",
+   "vraag": "De ogenblikkelijke waarde van een sinusvormig signaal verandert per seconde 4 x 10 6maal van een positieve naar een negatieve waarde. Wat is de frequentie van dat signaal?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "4 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "2 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "8 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "800 kHz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Analoog: 4×10⁶ wisselingen/seconde ⇒ 4 MHz (§1.4)."
+  },
+  {
+   "id": 142,
+   "sub": "2.2",
+   "vraag": "De ogenblikkelijke waarde van een sinusvormig signaal verandert per seconde 10 6maal van een positieve naar een negatieve waarde. Wat is de frequentie van dat signaal?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "500 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "2 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "200 kHz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Analoog: 10⁶ wisselingen/seconde ⇒ 1 MHz (§1.4)."
+  },
+  {
+   "id": 143,
+   "sub": "2.2",
+   "vraag": "De frequentie van de derde harmonische van een signaal met een golflengte van 10 meter is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "90 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "30 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "3,2 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "33 MHz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "λ=10m ⇒ f=c/λ=30 MHz (formule 5); 3e harmonische = 3×30=90 MHz."
+  },
+  {
+   "id": 144,
+   "sub": "2.2",
+   "vraag": "De frequentie van de derde harmonische van een signaal met een golflengte van 20 meter is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "45 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "60 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "6,6 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "66 MHz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "λ=20m ⇒ f=c/λ=15 MHz (formule 5); 3e harmonische = 3×15=45 MHz."
+  },
+  {
+   "id": 145,
+   "sub": "2.2",
+   "vraag": "De frequentie van de derde harmonische van een signaal met een golflengte van 30 meter is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "30 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "90 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "10 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "100 MHz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "λ=30m ⇒ f=c/λ=10 MHz (formule 5); 3e harmonische = 3×10=30 MHz."
+  },
+  {
+   "id": 146,
+   "sub": "2.2",
+   "vraag": "De frequentie van de derde harmonische van een signaal met een van 80 meter is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "11,25 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "240 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "26,6 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "266 MHz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "λ=80m ⇒ f=c/λ=3,75 MHz (formule 5); 3e harmonische = 3×3,75=11,25 MHz."
+  },
+  {
+   "id": 147,
+   "sub": "2.2",
+   "vraag": "Een periodisch signaal heeft een frequentie van 1 kHz. Hoeveel maal per seconde gaat de ogenblikkelijke waarde door de nullijn?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "500 maal"
+    },
+    {
+     "letter": "B",
+     "text": "1000 maal"
+    },
+    {
+     "letter": "C",
+     "text": "2000 maal"
+    },
+    {
+     "letter": "D",
+     "text": "4000 maal"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Bij f=1kHz doorloopt het signaal 1000 volledige periodes/seconde, dus 2000 nuldoorgangen (elke periode 2×) per seconde (§1.4)."
+  },
+  {
+   "id": 148,
+   "sub": "2.2",
+   "vraag": "De frequentie van een wisselspanningssignaal is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "300.000 / (de periode van het signaal)"
+    },
+    {
+     "letter": "B",
+     "text": "1 / (de periode van het signaal)"
+    },
+    {
+     "letter": "C",
+     "text": "1 / hoeksnelheid  (van het signaal)"
+    },
+    {
+     "letter": "D",
+     "text": "300.000 x de periode van het signaal"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "f = 1/T, met T de periode van het signaal (formule 6)."
+  },
+  {
+   "id": 149,
+   "sub": "2.2",
+   "vraag": "Het fazeverschil tussen twee sinusoïdale wisselspanningen van gelijke frequenties",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Is het verschil tussen de periodes van de twee beschouwde signalen"
+    },
+    {
+     "letter": "B",
+     "text": "is de kleinste hoek tussen twee overeenkomstige waarden (vb positieve maximale waarden) van de twee beschouwde signalen"
+    },
+    {
+     "letter": "C",
+     "text": "Is het verschil tussen de periodes van de twee beschouwde signalen, gedeeld door hun frequentie"
+    },
+    {
+     "letter": "D",
+     "text": "is het verschil tussen de hoeksnelheden van de twee beschouwde signalen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Het fazeverschil is de kleinste hoek tussen overeenkomstige punten (bv. beide maxima) van twee signalen van gelijke frequentie (§1.4)."
+  },
+  {
+   "id": 150,
+   "sub": "2.2",
+   "vraag": "Men spreekt doorgaans alleen van fazeverschil tussen twee wisselspanningen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "als de vormen van de wisselspanningen dezelfde zijn"
+    },
+    {
+     "letter": "B",
+     "text": "bij wisselspanningen met eenzelfde frequentie"
+    },
+    {
+     "letter": "C",
+     "text": "als de periode / frequentie een constante is"
+    },
+    {
+     "letter": "D",
+     "text": "als de frequenties van beide signalen niet te veel verschillen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Fazeverschil is enkel zinvol gedefinieerd tussen signalen van dezelfde frequentie (§1.4)."
+  },
+  {
+   "id": 151,
+   "sub": "2.2",
+   "vraag": "Wat is het fazeverschil tussen de beide sinusoïdale signalen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "spanning A is in faze met spanning B"
+    },
+    {
+     "letter": "B",
+     "text": "spanning A ijlt 180 graden na op spanning B"
+    },
+    {
+     "letter": "C",
+     "text": "spanning A ijlt 90 graden voor op spanning B"
+    },
+    {
+     "letter": "D",
+     "text": "spanning A ijlt 90 graden na op spanning B"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Deze vraag verwijst naar een golfvormfiguur die niet in het bronbestand aanwezig is; het antwoord (C) is letterlijk overgenomen — zie aandachtspunt onderaan het hoofdstuk.",
+   "figuur": "assets/img/h02/h01-fig-r151.png"
+  },
+  {
+   "id": 152,
+   "sub": "2.2",
+   "vraag": "In welk beeld is er een fazeverschil van 180 graden tussen de twee signalen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Deze vraag verwijst naar een set golfvormfiguren (A/B/C/D) die niet in het bronbestand aanwezig zijn; het antwoord (B) is letterlijk overgenomen — zie aandachtspunt onderaan het hoofdstuk.",
+   "figuur": "assets/img/h02/h01-fig-r152.png"
+  },
+  {
+   "id": 153,
+   "sub": "2.2",
+   "vraag": "Een fazeverschil van 765° is hetzelfde als een fazeverschil van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "45°"
+    },
+    {
+     "letter": "B",
+     "text": "65°"
+    },
+    {
+     "letter": "C",
+     "text": "400°"
+    },
+    {
+     "letter": "D",
+     "text": "365°"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "765° − 720° (=2×360°) = 45° (fazehoeken zijn periodiek met 360°) (§1.4)."
+  },
+  {
+   "id": 154,
+   "sub": "2.2",
+   "vraag": "Twee sinusvormige wisselspanningen met gelijke amplitudes en frequenties en een faseverschil van 180 graden worden opgeteld. Het resultaat is een sinusvormig signaal met:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "dubbele frequentie"
+    },
+    {
+     "letter": "B",
+     "text": "dubbele amplitude"
+    },
+    {
+     "letter": "C",
+     "text": "amplitude nul"
+    },
+    {
+     "letter": "D",
+     "text": "gelijke effectieve waarde"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Twee gelijke sinussen in tegenfaze (180°) heffen elkaar volledig op: resulterende amplitude = 0 (§1.4)."
+  },
+  {
+   "id": 155,
+   "sub": "2.6",
+   "vraag": "Audiosignalen gebruikt in telecommunicatie spreiden typisch",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "van 10 Hz tot 5 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "van 300 Hz tot 3 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "van 25 Hz tot 10 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "van 10 Hz tot 15 kHz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Volgens de brondata is dit het (ruimere) typische bereik van audiosignalen in telecommunicatie in het algemeen — niet te verwarren met de smallere band die specifiek vereist is voor verstaanbare spraak (zie vraag 160, 300–3000 Hz) (§1.4)."
+  },
+  {
+   "id": 156,
+   "sub": "2.6",
+   "vraag": "Een audiosignaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is een periodiek signaal"
+    },
+    {
+     "letter": "B",
+     "text": "is een niet-periodiek signaal"
+    },
+    {
+     "letter": "C",
+     "text": "is samengesteld uit vierkantsgolven"
+    },
+    {
+     "letter": "D",
+     "text": "is steeds een combinatie van een wisselspanning en geen gelijkspanning"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een audiosignaal (spraak/muziek) is typisch niet-periodiek: het herhaalt zich niet exact van periode tot periode (§1.4)."
+  },
+  {
+   "id": 157,
+   "sub": "2.6",
+   "vraag": "Een vierkantsgolf (blokgolf) is samengesteld uit",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een sinusoïdale golf met dezelfde frequentie als de vierkantsgolf met alle harmonischen ervan"
+    },
+    {
+     "letter": "B",
+     "text": "een sinusoïdale golf met dezelfde frequentie als de vierkantsgolf met alle even harmonischen ervan"
+    },
+    {
+     "letter": "C",
+     "text": "een sinusoïdale golf met dezelfde frequentie als de vierkantsgolf met alle oneven harmonischen ervan"
+    },
+    {
+     "letter": "D",
+     "text": "een driehoeksgolf met dezelfde frequentie als de vierkantsgolf met alle even harmonischen ervan"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Een blokgolf bestaat uit een grondgolf plus al haar oneven harmonischen, met afnemende amplitude (§1.4)."
+  },
+  {
+   "id": 158,
+   "sub": "2.6",
+   "vraag": "Welke soort golf is samengesteld uit een sinusgolf en al zijn oneven harmonischen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de driehoeksgolf"
+    },
+    {
+     "letter": "B",
+     "text": "de  zaagtandgolf"
+    },
+    {
+     "letter": "C",
+     "text": "de vierkantsgolf of blokgolf"
+    },
+    {
+     "letter": "D",
+     "text": "de cosinusgolf"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "De vierkantsgolf (blokgolf) is opgebouwd uit een sinus plus al zijn oneven harmonischen (§1.4)."
+  },
+  {
+   "id": 159,
+   "sub": "2.6",
+   "vraag": "De frequentie van de vierde harmonische van een zender die werkt op de 20-meterband is ongeveer:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "5 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "57 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "80 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "62 MHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "20 m ⇒ f=c/λ≈14,15 MHz (formule 5); 4e harmonische ≈ 4×14,15 ≈ 56,6 MHz ≈ 57 MHz."
+  },
+  {
+   "id": 160,
+   "sub": "2.6",
+   "vraag": "De vereiste audio-frequentieband voor efficiënte spraakcommunicatie via radio is ongeveer:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 – 3500 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "300 – 3000 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "100 – 5000 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "500 – 1500 Hz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De voor verstaanbare spraakcommunicatie vereiste audioband is ongeveer 300–3000 Hz (§1.4)."
+  },
+  {
+   "id": 161,
+   "sub": "2.6",
+   "vraag": "Welk van volgende signalen is niet-periodiek",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ruis"
+    },
+    {
+     "letter": "B",
+     "text": "een laagfrequent sinusvormig signaal"
+    },
+    {
+     "letter": "C",
+     "text": "een blokgolf"
+    },
+    {
+     "letter": "D",
+     "text": "een hoogfrequent sinusvormig signaal"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Ruis is per definitie niet-periodiek (willekeurig), in tegenstelling tot sinusvormige signalen en blokgolven die per definitie periodiek zijn (§1.4)."
+  },
+  {
+   "id": 234,
+   "sub": "2.1",
+   "vraag": "Een wisselspanningsbron van 220 Veff is belast met een weerstand waarin een stroom vloeit van 10 A gedurende 3 uur. Wat is de geleverde energie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "6,6 kW"
+    },
+    {
+     "letter": "B",
+     "text": "6,6 kWh"
+    },
+    {
+     "letter": "C",
+     "text": "7,33 kW"
+    },
+    {
+     "letter": "D",
+     "text": "7,33 kWh"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "W = U·I·t = 220 × 10 × 3 h = 6600 Wh = 6,6 kWh (formule 3, met P=UI eerst)."
+  },
+  {
+   "id": 235,
+   "sub": "2.1",
+   "vraag": "Een wisselspanningsbron van 220 Veff is belast met een weerstand waarin een stroom vloeit van 10 A gedurende 3 uur. Wat is de geleverde energie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "660 W"
+    },
+    {
+     "letter": "B",
+     "text": "6660 Wh"
+    },
+    {
+     "letter": "C",
+     "text": "733 W"
+    },
+    {
+     "letter": "D",
+     "text": "733 Wh"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "W = U·I·t = 220 × 10 × 3 h = 6660 Wh (formule 3)."
+  },
+  {
+   "id": 236,
+   "sub": "2.1",
+   "vraag": "Een wisselspanningsbron van 220 Veff is belast met een weerstand waarin een stroom vloeit van 5 A gedurende 3 uuur. Wat is de geleverde energie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3,3 kW"
+    },
+    {
+     "letter": "B",
+     "text": "3,3 kWh"
+    },
+    {
+     "letter": "C",
+     "text": "3,66 kW"
+    },
+    {
+     "letter": "D",
+     "text": "3,66 kWh"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "W = U·I·t = 220 × 5 × 3 h = 3300 Wh = 3,3 kWh (formule 3)."
+  },
+  {
+   "id": 237,
+   "sub": "2.1",
+   "vraag": "Een wisselspanningsbron van 220 Veff is belast met een weerstand waarin een stroom vloeit van 3 A gedurende 3 uur. Wat is de geleverde energie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "19,8 kW"
+    },
+    {
+     "letter": "B",
+     "text": "1,98 kWh"
+    },
+    {
+     "letter": "C",
+     "text": "2,2 kW"
+    },
+    {
+     "letter": "D",
+     "text": "2,2 kWh"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "W = U·I·t = 220 × 3 × 3 h = 1980 Wh = 1,98 kWh (formule 3)."
+  },
+  {
+   "id": 238,
+   "sub": "2.1",
+   "vraag": "Een wisselspanningsbron van 220 Veff is belast met een weerstand waarin een stroom vloeit van 2,5 A gedurende 3 uur. Wat is de geleverde energie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1,65 kW"
+    },
+    {
+     "letter": "B",
+     "text": "1,65 kWh"
+    },
+    {
+     "letter": "C",
+     "text": "1,83 kW"
+    },
+    {
+     "letter": "D",
+     "text": "1,83 kWh"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "W = U·I·t = 220 × 2,5 × 3 h = 1650 Wh = 1,65 kWh (formule 3)."
+  },
+  {
+   "id": 239,
+   "sub": "2.1",
+   "vraag": "Een wisselspanningsbron van 220 Veff is belast met een weerstand waarin een stroom vloeit van 10 A gedurende 3 uur. Wat is de geleverde energie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2,2 kWh"
+    },
+    {
+     "letter": "B",
+     "text": "23,76 Mj"
+    },
+    {
+     "letter": "C",
+     "text": "2,2 kW"
+    },
+    {
+     "letter": "D",
+     "text": "7,13 kJ"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "W = U·I·t = 220 × 10 × 10800 s = 23.760.000 J = 23,76 MJ (formule 3, tijd in seconden)."
+  },
+  {
+   "id": 240,
+   "sub": "2.1",
+   "vraag": "Een wisselspanningsbron van 220 Veff is belast met een weerstand waarin een stroom vloeit van 1 A gedurende 3 uur. Wat is de geleverde energie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "733 Wh"
+    },
+    {
+     "letter": "B",
+     "text": "2,376 Mj"
+    },
+    {
+     "letter": "C",
+     "text": "733 W"
+    },
+    {
+     "letter": "D",
+     "text": "2.376 Joule"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "W = U·I·t = 220 × 1 × 10800 s = 2.376.000 J = 2,376 MJ (formule 3)."
+  },
+  {
+   "id": 241,
+   "sub": "2.1",
+   "vraag": "Een wisselspanningsbron van 220 Veff is belast met een weerstand waarin een stroom vloeit van 5 A gedurende 3 uur. Wat is de geleverde energie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3,66 kWh"
+    },
+    {
+     "letter": "B",
+     "text": "11,88 Mj"
+    },
+    {
+     "letter": "C",
+     "text": "3,66 kW"
+    },
+    {
+     "letter": "D",
+     "text": "11,88 kJ"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "W = U·I·t = 220 × 5 × 10800 s = 11.880.000 J = 11,88 MJ (formule 3)."
+  },
+  {
+   "id": 242,
+   "sub": "2.1",
+   "vraag": "Een wisselspanningsbron van 220 Veff is belast met een weerstand waarin een stroom vloeit van 3 A gedurende 3 uur. Wat is de geleverde energie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2,2 kWh"
+    },
+    {
+     "letter": "B",
+     "text": "7,13 Mj"
+    },
+    {
+     "letter": "C",
+     "text": "2,2 kW"
+    },
+    {
+     "letter": "D",
+     "text": "7,13 kJ"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "W = U·I·t = 220 × 3 × 10800 s = 7.128.000 J ≈ 7,13 MJ (formule 3)."
+  },
+  {
+   "id": 243,
+   "sub": "2.1",
+   "vraag": "Een wisselspanningsbron van 220 Veff is belast met een weerstand waarin een stroom vloeit van 2,5 A gedurende 3 u. Wat is de geleverde energie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1,83 kWh"
+    },
+    {
+     "letter": "B",
+     "text": "5,94 Mj"
+    },
+    {
+     "letter": "C",
+     "text": "1,83 kW"
+    },
+    {
+     "letter": "D",
+     "text": "5,94 kJ"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "W = U·I·t = 220 × 2,5 × 10800 s = 5.940.000 J = 5,94 MJ (formule 3)."
+  },
+  {
+   "id": 244,
+   "sub": "2.1",
+   "vraag": "Een gelijkspanningsbron (2V) en een sinusoïdale wisselspanningsbron (2 Vmax) zijn beide belast met een gelijke weerstand. In welk schema wordt het grootste vermogen gedissipeerd in de belastingsweerstand?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "[1]"
+    },
+    {
+     "letter": "B",
+     "text": "[2]"
+    },
+    {
+     "letter": "C",
+     "text": "beide gelijk"
+    },
+    {
+     "letter": "D",
+     "text": "hangt af van de frequentie van de wisselspanning"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Deze vraag verwijst naar twee schema's [1]/[2] die niet in het bronbestand aanwezig zijn; het antwoord (B) is letterlijk overgenomen — zie aandachtspunt onderaan het hoofdstuk. (Merk op: het vermogen van een sinusvormig signaal met amplitude 2 Vmax komt overeen met een gelijkspanning van 2/√2≈1,41 V, dus kleiner dan een gelijkspanningsbron van 2 V — dat principe ligt vermoedelijk aan de basis van deze vraag.)",
+   "figuur": "assets/img/h02/h01-fig-r244.png"
+  }
+ ]
+}

@@ -1,0 +1,405 @@
+{
+ "hoofdstuk": "h13",
+ "vragen": [
+  {
+   "id": 37,
+   "sub": "13.5",
+   "vraag": "Tijdens een experiment komt een persoon met zijn handen in contact met een geleider onder hoge spanning en kan deze niet meer loslaten. Wat doet u om deze persoon te helpen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de spanning uitschakelen"
+    },
+    {
+     "letter": "B",
+     "text": "de persoon lostrekken van de geleider"
+    },
+    {
+     "letter": "C",
+     "text": "de hulpdienst bellen"
+    },
+    {
+     "letter": "D",
+     "text": "de geleider aarden"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 38,
+   "sub": "13.5",
+   "vraag": "Op basis van het Koninklijk Besluit aangaande stralingen veroorzaakt door zendmasten",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zijn alle radioamateurs onderworpen aan dit Koninklijk besluit"
+    },
+    {
+     "letter": "B",
+     "text": "moeten alle radioamateurs een stralingsdossier indienen bij het BIPT"
+    },
+    {
+     "letter": "C",
+     "text": "moeten alleen radioamateurs die nieuwe antennes bouwen  een stralingsdossier indienen bij het BIPT"
+    },
+    {
+     "letter": "D",
+     "text": "moet men een goedgekeurd stralingsdossier hebben om een vergunning van radioamateur te kunnen bekomen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 39,
+   "sub": "13.5",
+   "vraag": "Wat is de afkorting van de naam van de norm die de vereisten voorschrijft gesteld aan elektrische installaties?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "CEBEC"
+    },
+    {
+     "letter": "B",
+     "text": "AREI"
+    },
+    {
+     "letter": "C",
+     "text": "BEC"
+    },
+    {
+     "letter": "D",
+     "text": "AVTN"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 40,
+   "sub": "13.5",
+   "vraag": "Wat is juist?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Vanaf een stroom van 1 mA door het lichaam kan er elektrocutie optreden"
+    },
+    {
+     "letter": "B",
+     "text": "Vanaf een stroom van 10 mA door het lichaam treedt er gewoonlijk elektrocutie op"
+    },
+    {
+     "letter": "C",
+     "text": "Stroom van 100 mA door het lichaam veroorzaakt gewoonlijk elektrocutie"
+    },
+    {
+     "letter": "D",
+     "text": "Elektrocutie treedt alleen op wanneer een spanning van meer dan 1000 V aan het lichaam is aangebracht"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 41,
+   "sub": "13.5",
+   "vraag": "Een veiligheidsaarding die voldoet aan de normen van het AREI",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Mag nooit verbonden worden aan een goede RF-aarding"
+    },
+    {
+     "letter": "B",
+     "text": "Is steeds eveneens een goede RF-aarding"
+    },
+    {
+     "letter": "C",
+     "text": "Dient steeds verbonden aan het aardingscircuit via een zekering van 16A"
+    },
+    {
+     "letter": "D",
+     "text": "Is niet noodzakelijk een goede RF-aarding"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 42,
+   "sub": "13.5",
+   "vraag": "Een voeding wordt tegen kortsluiting beveiligd met 1 of meer smeltveiligheden in de netleiding. Dit wordt correct gedaan met:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 trage zekering"
+    },
+    {
+     "letter": "B",
+     "text": "1 snelle zekering"
+    },
+    {
+     "letter": "C",
+     "text": "1 trage en 1 snelle zekering in serie"
+    },
+    {
+     "letter": "D",
+     "text": "1 snelle en 1 trage zekering in parallel"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 43,
+   "sub": "13.5",
+   "vraag": "Het gebruik van zekeringen die 'te zwaar\" zijn voor de doormeter van de stroomvoerende geleiders voorbij de zekeringen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Is toegelaten mits goedkeuring door de elektriciteitsmaatschappij"
+    },
+    {
+     "letter": "B",
+     "text": "Moet steeds gemeld worden aan de (brand)verzekeringsmaatschappij"
+    },
+    {
+     "letter": "C",
+     "text": "Kan kortsluiting of brand veroorzaken"
+    },
+    {
+     "letter": "D",
+     "text": "Is geen probleem zolang de afwijking niet groter is dan 50%"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 44,
+   "sub": "13.5",
+   "vraag": "Om elektrocutie te voorkomen bij aanraking van een pool van het net, als men niet geïsoleerd van de grond is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Volstaat het een verliesstroomschakelaar in de toevoerleiding van de netspanning op te nemen die uitschakelt bij 100 mA verliesstroom"
+    },
+    {
+     "letter": "B",
+     "text": "Is het aan te raden een verliesstroomschakelaar in de toevoerleiding van de netspanning op te nemen die uitschakelt bij 30 mA verliesstroom"
+    },
+    {
+     "letter": "C",
+     "text": "Volstaat het een verliesstroomschakelaar in de toevoerleiding van de netspanning op te nemen die uitschakelt bij 300 mA verliesstroom"
+    },
+    {
+     "letter": "D",
+     "text": "Dient men snelle zekeringen van maximaal 6 A te gebruiken"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 45,
+   "sub": "13.5",
+   "vraag": "Waar dient de hoofdschakelaar geplaatst in de ruimte waar het radioamateurstation is opgesteld",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Goed weggestoken buiten het bereik van kinderen"
+    },
+    {
+     "letter": "B",
+     "text": "Op een opvallende plaats binnen het bereik van iedereen"
+    },
+    {
+     "letter": "C",
+     "text": "Onderaan de tafel waarop de apparatuur is opgesteld"
+    },
+    {
+     "letter": "D",
+     "text": "Deze dient opgesteld buiten deze ruimte"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 46,
+   "sub": "13.5",
+   "vraag": "U bezit een buizeneindtrap met een anodespanning van 1000 V. De beste maatregel tegen elektrocutiegevaar is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een mechanische inrichting die de netspanning onderbreekt bij het openen van de kast"
+    },
+    {
+     "letter": "B",
+     "text": "het waarschuwingsteken “hoge spanning” op de buitenkant van de kast"
+    },
+    {
+     "letter": "C",
+     "text": "waarschuwingstekens “hoge spanning” binnen in de kast bij alle plaatsen waar de aanrakingsgevaar is"
+    },
+    {
+     "letter": "D",
+     "text": "een overspanningsbeveiliging in de voeding"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 47,
+   "sub": "13.5",
+   "vraag": "De veiligste plaats om te werken aan apparatuur onder hoogspanning is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "op een betonvloer"
+    },
+    {
+     "letter": "B",
+     "text": "op een betegelde vloer"
+    },
+    {
+     "letter": "C",
+     "text": "op een droge houten vloer"
+    },
+    {
+     "letter": "D",
+     "text": "een aarden vloer"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 48,
+   "sub": "13.5",
+   "vraag": "U moet een reparatie uitvoeren aan een hoogspanningsvoeding. NA het uitschakelen van de netspanning dient u volgende veiligheidsmaatregel te nemen:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "u wacht 5 minuten vooraleer u begint"
+    },
+    {
+     "letter": "B",
+     "text": "u wacht 5 minuten en ontlaadt alle hoogspanning-elektrolytische condensatoren"
+    },
+    {
+     "letter": "C",
+     "text": "u sluit de voeding aan de ingang kort"
+    },
+    {
+     "letter": "D",
+     "text": "u ontlaadt alle condensatoren"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 49,
+   "sub": "13.5",
+   "vraag": "Welke maatregel dient genomen indien men een elektronisch toestel maximaal wil beschermen tegen een directe blikseminslag op de het netcircuit?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het equipement uitschakelen voor het onweer"
+    },
+    {
+     "letter": "B",
+     "text": "het equipement aan de aarde verbinden voor het onweer"
+    },
+    {
+     "letter": "C",
+     "text": "het netsnoer uit het stopcontact verwijderen voor het onweer"
+    },
+    {
+     "letter": "D",
+     "text": "voor het onweer het netsnoer uit het stopcontact verwijderen en het netsnoer min. 50 cm van het stopcontact verwijderen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 50,
+   "sub": "13.5",
+   "vraag": "Welke maatregel dient genomen om uw zendapparatuur maximaal wil beschermen tegen een directe blikseminslag op de antenne ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het equipement uitschakelen voor het onweer"
+    },
+    {
+     "letter": "B",
+     "text": "het equipement aan de aarde verbinden voor het onweer"
+    },
+    {
+     "letter": "C",
+     "text": "de coaxiaalkabel van het toestel verwijderen voor het onweer"
+    },
+    {
+     "letter": "D",
+     "text": "de coaxiaalkabel van het toestel verwijderen, het einde van de coaxiaalkabel aarden en minstens 50 cm van uw toestel verwijderen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 51,
+   "sub": "13.5",
+   "vraag": "Wat is een valbeveiligingssysteem voor gebruik aan masten/torens?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Is een harnas waarmee men zich bovenaan de mast kan vastleggen om niet te vallen"
+    },
+    {
+     "letter": "B",
+     "text": "Is een systeem waarbij de klimmer, die een harnas draagt, ten alle tijd verbonden is met een lijn, zodat hij, bij een val, door die lijn wordt opgevangen"
+    },
+    {
+     "letter": "C",
+     "text": "Is een harnas met minstens twee bevestigingshaken, waarmee men zich bovenaan de mast kan vastleggen om niet te vallen"
+    },
+    {
+     "letter": "D",
+     "text": "Bestaat uit een harnas, een helm en rubberen handschoenen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 52,
+   "sub": "13.5",
+   "vraag": "Wat is een voldoende voorzorgsmaatregel als je op een antennemast (toren) klimt?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Dat je een klimharnas, een helm en handschoenen draagt"
+    },
+    {
+     "letter": "B",
+     "text": "Dat je een klimharnas draagt waarmee je je boven de mast kan vastleggen"
+    },
+    {
+     "letter": "C",
+     "text": "Dat je klimharnas ten alle tijden verbonden is aan de mast met een kort stuk lijn"
+    },
+    {
+     "letter": "D",
+     "text": "Dat je steeds met twee personen werkt"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  }
+ ]
+}

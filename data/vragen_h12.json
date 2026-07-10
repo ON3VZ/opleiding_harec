@@ -1,0 +1,880 @@
+{
+ "hoofdstuk": "h12",
+ "vragen": [
+  {
+   "id": 2,
+   "sub": "12.2",
+   "vraag": "Ontvangst op de radioamateurbanden kan gestoord worden door installaties in de omgeving van de ontvangsinstalltie die niet voldoen aan de gangbare normen inzake uitgestraalde storingen. Hoe kan de radioamateur zich vergewissen van de herkomst ervan?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Het BIPT verwittigen"
+    },
+    {
+     "letter": "B",
+     "text": "De bron proberen te lokaliseren, bijvoorbeeld met een peilontvanger"
+    },
+    {
+     "letter": "C",
+     "text": "de politie verwittigen"
+    },
+    {
+     "letter": "D",
+     "text": "door rond te vragen bij de buren"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 3,
+   "sub": "12.2",
+   "vraag": "Indien de ontvangst van amateurfrequenties in de 2-meterband gestoord wordt door signalen van de teledistributie, dient de radioamateur liefst",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "klacht neer te leggen bij de politie, en het BIPT te verwittigen"
+    },
+    {
+     "letter": "B",
+     "text": "de plaats van het lek in het net proberen te lokaliseren via peilontvangst en deteledistribuitiemaatschappij of het BIPT informeren van de resultaten"
+    },
+    {
+     "letter": "C",
+     "text": "op een andere frequentie in de 2-meterband luisteren"
+    },
+    {
+     "letter": "D",
+     "text": "geen uitzendingen meer te doen op de 2-meterband"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 4,
+   "sub": "12.2",
+   "vraag": "Storing door blokkering kan veroorzaakt worden door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "te weinig onderdrukking van harmonischen"
+    },
+    {
+     "letter": "B",
+     "text": "het gebruik van een breedband antennevoorversterker in de gestoorde installatie"
+    },
+    {
+     "letter": "C",
+     "text": "slechte net-filtering in het gestoorde toestel"
+    },
+    {
+     "letter": "D",
+     "text": "mantelstromen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 5,
+   "sub": "12.2",
+   "vraag": "Indien bij een TV-ontvanger, verbonden aan een antenne, 1 enkel kanaal gestoord wordt door een zender in de buurt, wat kan daarvan de oorzaak zijn?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "blokkering"
+    },
+    {
+     "letter": "B",
+     "text": "onvoldoende harmonische onderdrukking bij de zender"
+    },
+    {
+     "letter": "C",
+     "text": "slecht afgestemde TV ontvanger"
+    },
+    {
+     "letter": "D",
+     "text": "overmodulatie van de zender"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 6,
+   "sub": "12.2",
+   "vraag": "Indien bij een TV-ontvanger, al dan niet verbonden aan de kabeldistributie, alle kanalen min of meer gestoord worden door een zender in de buurt, wat kan daarvan de oorzaak niet zijn?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een lek in de kabelleiding van de distributiemaatschappij"
+    },
+    {
+     "letter": "B",
+     "text": "de afscherming van de coaxiaalkabel aan het TV toestel is niet verbonden"
+    },
+    {
+     "letter": "C",
+     "text": "onvoldoende harmonische onderdrukking van de zender"
+    },
+    {
+     "letter": "D",
+     "text": "directe instraling in het TV-toestel"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 7,
+   "sub": "12.2",
+   "vraag": "Als de uitzendingen van een 2-meterzender de ontvangst van de TV in de UHF-band op 1 kanaal stoort, kan dit veroorzaakt zijn door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een onstabiele frequentie"
+    },
+    {
+     "letter": "B",
+     "text": "een slecht is afgeregeld frequentiezwaai"
+    },
+    {
+     "letter": "C",
+     "text": "onvoldoende harmonischen onderdrukking van de zender"
+    },
+    {
+     "letter": "D",
+     "text": "aurora-propagatie"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 8,
+   "sub": "12.2",
+   "vraag": "Welke van de volgende maatregelen draagt het meest toe tot het onderdrukken van de harmonischen in het uitgangssignaal van een HF-zender?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een kristaloscillator te gebruiken"
+    },
+    {
+     "letter": "B",
+     "text": "de instelling van de eindtrap in klasse C te kiezen"
+    },
+    {
+     "letter": "C",
+     "text": "een hoogdoorlaatfilter aan de uitgang van de zender plaatsen"
+    },
+    {
+     "letter": "D",
+     "text": "een laagdoorlaatfilter aan de uitgang van de zender plaatsen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 9,
+   "sub": "12.2",
+   "vraag": "Indien de uitzendingen van een 2-meter station 1 enkel kanaal stoort op een TV toestel, aangesloten op de kabeldistributie, dan is dit veelal te wijten aan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "onvoldoende harmonischen onderdrukking van de zender"
+    },
+    {
+     "letter": "B",
+     "text": "het gebruik van een te hoog vermogen"
+    },
+    {
+     "letter": "C",
+     "text": "een lek in de kabelaansluiting naar de TV toe"
+    },
+    {
+     "letter": "D",
+     "text": "een  te laag opgestelde zendantenne"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 10,
+   "sub": "12.2",
+   "vraag": "Een zender veroorzaakt storing in een telefoon. Wat is de oorzaak?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ongewenste detectie in de telefoon"
+    },
+    {
+     "letter": "B",
+     "text": "De zender straalt harmonischen uit"
+    },
+    {
+     "letter": "C",
+     "text": "De zender heeft te veel vermogen"
+    },
+    {
+     "letter": "D",
+     "text": "De antenne van de zender is slecht afgestemd"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 11,
+   "sub": "12.2",
+   "vraag": "Welke van de volgende modulatietechnieken kan storing door ongewenste detectie veroorzaken?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "EZB (SSB) modulatie"
+    },
+    {
+     "letter": "B",
+     "text": "frequentiemodulatie"
+    },
+    {
+     "letter": "C",
+     "text": "FSK (frequency shift keying)"
+    },
+    {
+     "letter": "D",
+     "text": "Fazemodulatie"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 12,
+   "sub": "12.2",
+   "vraag": "Welke modulatievorm kan geen storing door ongewenste detectie veroorzaken?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "amplitudemodulatie"
+    },
+    {
+     "letter": "B",
+     "text": "enkelzijbandmodulatie"
+    },
+    {
+     "letter": "C",
+     "text": "frequentiemodulatie"
+    },
+    {
+     "letter": "D",
+     "text": "morse-telegrafie"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 13,
+   "sub": "12.2",
+   "vraag": "Storingen in een HIFI-installatie worden meestal veroorzaakt door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "onvoldoende frequentiestabiliteit van de zender"
+    },
+    {
+     "letter": "B",
+     "text": "onvoldoende harmonischen-onderdrukking van de zender"
+    },
+    {
+     "letter": "C",
+     "text": "ongewenste detectie in de HIFI-installatie"
+    },
+    {
+     "letter": "D",
+     "text": "niet-lineaire zendertrappen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 14,
+   "sub": "12.2",
+   "vraag": "Welke van de 4 aangegeven methodes helpt NIET om mantelstromen op de coaxiaal kabel ('common-mode' signaal) 'van de gestoorde ontvanger op te heffen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hoog-doorlaatfilter aanbrengen"
+    },
+    {
+     "letter": "B",
+     "text": "ferriertkraaltjes over coax of coax op ferrietstaaf wikkelen"
+    },
+    {
+     "letter": "C",
+     "text": "de mantel oordeelkundig aarden"
+    },
+    {
+     "letter": "D",
+     "text": "een scheidingstransformator aanbrengen in de coaxiaal transmissielijn"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 15,
+   "sub": "12.2",
+   "vraag": "Welk soort filter dient opgenomen in de luidsprekerleiding (nabij de versterker) in een HI-FI-installatie, waar HF insijpeling afkomstig van een storende zender is vastgesteld via de luidsprekerleidingen ('common-mode' signaal)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een hoogdoorlaatfilter in de vorm van een Pi of T-filter"
+    },
+    {
+     "letter": "B",
+     "text": " "
+    },
+    {
+     "letter": "C",
+     "text": "een lengte van de luidsprekerleiding gewonden op een ferrietstaaf of ferrietkern"
+    },
+    {
+     "letter": "D",
+     "text": "de luidsprekerleidingen aarden via weerstanden van 50 Ω"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 16,
+   "sub": "12.2",
+   "vraag": "Welk type filter dient opgenomen te worden in de netleiding (nabij de versterker) in een audio-installatie, waar 'common-mode' HF insijpeling is vermoed via de netleiding?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een hoogdoorlaatfilter in de vorm van een Pi of T-filter"
+    },
+    {
+     "letter": "B",
+     "text": "twee condensatoren van 0,01 µF in serie met het netsnoer"
+    },
+    {
+     "letter": "C",
+     "text": "een lengte van het netsnoer gewonden op een ferrietstaaf of ferrietkern"
+    },
+    {
+     "letter": "D",
+     "text": "het netsnoer aarden via weerstanden van 500 kΩ"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 17,
+   "sub": "12.2",
+   "vraag": "Welk type filter dient opgenomen te worden in de signaalleidingen (vb CD-ingang, PU-ingang, microfooningang enz) van een LF-versterker, langs  waar 'common-mode' HF-insijpeling is vastgesteld.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een hoogdoorlaatfilter in de vorm van een Pi of T-filter"
+    },
+    {
+     "letter": "B",
+     "text": "twee condensatoren van 0,01 µF in serie met de leiding"
+    },
+    {
+     "letter": "C",
+     "text": "een lengte van de betrokken  leiding gewonden op een ferrietstaaf of ferrietkern"
+    },
+    {
+     "letter": "D",
+     "text": "de leidingen aarden via weerstanden van 50 Ω"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 18,
+   "sub": "12.2",
+   "vraag": "Hoe kunnen we vaststellen of storingen van een HiFi installatie via de netaansluiting het gestoorde toestel binnenkomen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Nadat alle andere aansluitingen zijn verwijderd een laagdoorlaatfilter in de netaansluiting opnemen."
+    },
+    {
+     "letter": "B",
+     "text": "het netsnoer ompolen"
+    },
+    {
+     "letter": "C",
+     "text": "een afgeschermd netsnoer gebruiken"
+    },
+    {
+     "letter": "D",
+     "text": "het toestel in een ander stopcontact pluggen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 19,
+   "sub": "12.2",
+   "vraag": "Wat is NIET juist: De kans om een elektronisch toestel te storen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "wordt groter naarmate het uitgezonden vermogen van het amateurstation groter is"
+    },
+    {
+     "letter": "B",
+     "text": "neemt exponentieel toe naarmate de zendantenne dichter bij het gestoorde toestel is opgesteld"
+    },
+    {
+     "letter": "C",
+     "text": "neemt toe naarmate de zendantenne lager bij de grond is opgesteld"
+    },
+    {
+     "letter": "D",
+     "text": "neemt toe naarmate de zendantenne hoger boven de grond is opgesteld"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 20,
+   "sub": "12.2",
+   "vraag": "De dienst NCS van het BIPT zal in het geval van storingen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Steeds beperkingen opleggen aan de radioamateur"
+    },
+    {
+     "letter": "B",
+     "text": "Zowel het toestel van de radioamateur als het gestoorde toestel onderzoeken om de oorzaak van de storing te bepalen"
+    },
+    {
+     "letter": "C",
+     "text": "Indien de radioamateur de storingen veroorzaakt, deze een straf opleggen"
+    },
+    {
+     "letter": "D",
+     "text": "Alleen tussenkomen indien de storing wordt gemeld door de persoon die denkt gestoord te worden door de uitzendingen van de radioamateur"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 21,
+   "sub": "12.2",
+   "vraag": "Indien storing van ontvangst op de amateurtbanden blijkt te zijn veroorzaakt door een installatie in de buurt, wat is de juiste te nemen beslissing?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "klacht neerleggen bij de politie"
+    },
+    {
+     "letter": "B",
+     "text": "BIPT (dienst NCS) verwittigen en vragen om de zaak te onderzoeken"
+    },
+    {
+     "letter": "C",
+     "text": "de verdachte stoorder per aangetekend schrijven verantwoordelijk stellen"
+    },
+    {
+     "letter": "D",
+     "text": "stoppen met de hobby"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 22,
+   "sub": "12.2",
+   "vraag": "De dienst NCS van het BIPT",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Onderzoekt alleen storingen veroorzaakt door radioamateurs"
+    },
+    {
+     "letter": "B",
+     "text": "Onderzoekt storingen storingen veroorzaakt door radioamateurs en storingen veroorzaakt door derden op de radioamateurbanden"
+    },
+    {
+     "letter": "C",
+     "text": "Onderzoekt ook klachten van buren in verband met het oprichten van antennemasten"
+    },
+    {
+     "letter": "D",
+     "text": "Doet onderzoeken naar storingen uitsluitend op eigen initiatief"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 23,
+   "sub": "12.2",
+   "vraag": "Bij welke van volgende antennes is de kans op storing door een HF-signaal bij de buur  (op ca 25 m afstand) door rechtstreekse detectie in een Hi-Fi installatie het grootst?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een yagi antenne op 30 m hoogte"
+    },
+    {
+     "letter": "B",
+     "text": "een dipool op 30 m hoogte"
+    },
+    {
+     "letter": "C",
+     "text": "een verticale kwartgolf antenne met basis op de grond"
+    },
+    {
+     "letter": "D",
+     "text": "een verticale kwartgolf antenne met basis op 25 m hoogte"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 24,
+   "sub": "12.2",
+   "vraag": "Wat is niet juist? Om de kans op storing bij de buren te verkleinen:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Plaats je de antenne zo hoog mogelijk"
+    },
+    {
+     "letter": "B",
+     "text": "Gebruik je liever een antenne met horizontale polarisatie dan met verticale polarisatie"
+    },
+    {
+     "letter": "C",
+     "text": "Gebruik je steeds een balun om een dipool te voeden met een coaxiale kabel"
+    },
+    {
+     "letter": "D",
+     "text": "Gebruik je steeds een antenne tuner (antenne aanpassingseenheid) "
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 25,
+   "sub": "12.2",
+   "vraag": "Welke van de vier methodes is NIET correct om storingen, veroorzaakt door directe instraling op (lange) luidsprekerleidingen te elimineren?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de luidsprekerleiding, aan de versterkerzijde op een ferrietkraal of ferrietstaaf wikkelen"
+    },
+    {
+     "letter": "B",
+     "text": "ontkoppelcondensatoren  van de luidsprekeraansluiting naar massa verbinden"
+    },
+    {
+     "letter": "C",
+     "text": "luidsprekerkabels gebruiken met kleiner verlies (grotere sectie)"
+    },
+    {
+     "letter": "D",
+     "text": "een hoogdoorlaatfilter plaatsen in de luidsprekerleiding"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 26,
+   "sub": "12.2",
+   "vraag": "Wat is de meest voorkomende oorzaak van storingen in een TV of FM-omroepomntvanger die via de antenne-aansluiting komen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "te veel vermogen van de zender"
+    },
+    {
+     "letter": "B",
+     "text": "gebruik van SSB (EZB) ipv FM"
+    },
+    {
+     "letter": "C",
+     "text": "de buitenmantel van de coaxiale kabel die als langedraad-antenne werkt omdat de buitenmantel slecht (niet) is verbonden aan de ontvanger"
+    },
+    {
+     "letter": "D",
+     "text": "verticale polarisatie"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 27,
+   "sub": "12.2",
+   "vraag": "Welk filter kan men installeren aan de antenne-ingang van een gestoord TV toestel om het storend effect van de fundamentele uitzendfrequentie van een HF-zender te onderdrukken?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een laagdoorlaatfilter"
+    },
+    {
+     "letter": "B",
+     "text": "een hoogdoorlaatfilter"
+    },
+    {
+     "letter": "C",
+     "text": "een Lorenz filter"
+    },
+    {
+     "letter": "D",
+     "text": "geen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 28,
+   "sub": "12.2",
+   "vraag": "Hoe kan men de storing van een TV-toestel veroorzaakt door de harmonischen van een HF-zender onderdrukken?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "met een laagdoorlaatfilter aan de antenne-ingang van het TV-toestel"
+    },
+    {
+     "letter": "B",
+     "text": "met een hoogdoorlaatfilter aan de antenne-ingang van het TV-toestel"
+    },
+    {
+     "letter": "C",
+     "text": "met een hoogdoorlaatfilter aan de antenne-uitgang van de zender"
+    },
+    {
+     "letter": "D",
+     "text": "met een laagdoorlaatfilter aan de antenne-uitgang van de zender"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 29,
+   "sub": "12.2",
+   "vraag": "Welk materiaal dient gebruikt voor het maken van common-mode filters met ringkernen e.d.?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Ijzerpoedermateriaal"
+    },
+    {
+     "letter": "B",
+     "text": "Ferrietmateriaal"
+    },
+    {
+     "letter": "C",
+     "text": "Keramiek"
+    },
+    {
+     "letter": "D",
+     "text": "Styreen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 30,
+   "sub": "12.2",
+   "vraag": "Een HF-zender veroorzaakt laagfrequentdetectie in een geluidsinstallatie. Het HF wordt opgepikt door de luidsprekerleidingen. Om de storing op te heffen worden de laagohmige luidsprekeruitgangen ontkoppeld naar massa door middel van condensatoren van ca.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 pF"
+    },
+    {
+     "letter": "B",
+     "text": "10 nF"
+    },
+    {
+     "letter": "C",
+     "text": "10 µF"
+    },
+    {
+     "letter": "D",
+     "text": "10 mF"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 31,
+   "sub": "12.2",
+   "vraag": "Indien HF van een zendereindtrap naar het lichtnet lekt kan dit voorkomen worden door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ontkoppeling van de netvoedingslijn(en) naar de eindtrap door middel van een netfilter"
+    },
+    {
+     "letter": "B",
+     "text": "gebruik van hoog-doorlaat filter"
+    },
+    {
+     "letter": "C",
+     "text": "vermindering van het vermogen met 3 dB"
+    },
+    {
+     "letter": "D",
+     "text": "ontkoppeling van de antenneleiding"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 32,
+   "sub": "12.2",
+   "vraag": "Wat is het verschil tussen een goede RF-aarding en een goede veiligheidsaarding?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Bij een goede RF aarding zal de verbinding tussen de aardingspiket (aardingsspil) en het te aarden toestel bij voorkeur ¼ golflengte lang zijn"
+    },
+    {
+     "letter": "B",
+     "text": "Bij een goede RF aarding zal de verbinding tussen de aardingspiket (aardingsspil) en het te aarden toestel zeer kort zijn en met een dunne ronde geleider worden uitgevoerd"
+    },
+    {
+     "letter": "C",
+     "text": "Bij een goede RF aarding zal de verbinding tussen de aardingspiket (aardingsspil) en het te aarden toestel zeer kort zijn en bij voorkeur met een platte brede strip worden uitgevoerd"
+    },
+    {
+     "letter": "D",
+     "text": "Een goede veiligheidsaarding is steeds een goede RF-aarding"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 33,
+   "sub": "12.2",
+   "vraag": "Hoe kan men op de derde verdieping van een gebouw een RF aarding aanbrengen die goed bruikbaar is over het ganse HF-spectrum?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Door de geleider naar de aardingsspil (aardingspiket) uit te voeren in dikke ronde draad"
+    },
+    {
+     "letter": "B",
+     "text": "Door de geleider naar de aardingsspil (aardingspiket) uit te voeren als een platte, brede strip"
+    },
+    {
+     "letter": "C",
+     "text": "Door een extra lange aardingsspil (aardingspiket) te gebruiken"
+    },
+    {
+     "letter": "D",
+     "text": "Men kan dat onmogelijk doen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 34,
+   "sub": "12.2",
+   "vraag": "Een van de klassieke methodes om storingen in audio en video toestellen die ontstaan door instraling op de aansluitdraden op te heven is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een smoorspoel in parallel op de ingangen  en/of uitgangen van het toestel plaatsen"
+    },
+    {
+     "letter": "B",
+     "text": "een condensator in parallel met de ingangen  en/of uitgangen plaatsen"
+    },
+    {
+     "letter": "C",
+     "text": "een Metaaloxude varsistor in parallel op de uitgangen plaatsen"
+    },
+    {
+     "letter": "D",
+     "text": "een bypass weerstand in parallel op de ingangen plaatsen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 35,
+   "sub": "12.2",
+   "vraag": "Ingeval van storing van elektronisch toestel door een zender, hoe kan men het fenomeen van rechtstreekse detectie verminderen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "door een zender met transistoren te gebruiken"
+    },
+    {
+     "letter": "B",
+     "text": "door alleen in telegrafie uit te zenden"
+    },
+    {
+     "letter": "C",
+     "text": "door de gestoorde toestellen af te schermen en aan een goede aarde te verbinden"
+    },
+    {
+     "letter": "D",
+     "text": "door alleen FM te doen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 36,
+   "sub": "12.2",
+   "vraag": "Wat is juist?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het gevaar van elektrocutie is steeds evenredig met de grootte van de spanning waaraan met is blootgesteld"
+    },
+    {
+     "letter": "B",
+     "text": "het gevaar van elektrocutie is steeds evenredig met de grootte van de stroom waaraan met is blootgesteld"
+    },
+    {
+     "letter": "C",
+     "text": "het aanraken van de twee polen van een voeding van 50V is meestal dodelijk"
+    },
+    {
+     "letter": "D",
+     "text": "AC is veel minder gevaarlijk dan DC"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  }
+ ]
+}

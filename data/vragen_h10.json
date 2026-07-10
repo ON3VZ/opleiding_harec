@@ -1,0 +1,2190 @@
+{
+ "hoofdstuk": "h10",
+ "vragen": [
+  {
+   "id": 2,
+   "sub": "10.1",
+   "vraag": "Hoe verbindt men een voltmeter in een schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "in serie met de schakeling"
+    },
+    {
+     "letter": "B",
+     "text": "in parallel op een component (weerstand, spoel, condensator, enz)"
+    },
+    {
+     "letter": "C",
+     "text": "in kwadratuur met de schakeling"
+    },
+    {
+     "letter": "D",
+     "text": "in faze met de schakeling"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 3,
+   "sub": "10.1",
+   "vraag": "Hoe kan men de gevoeligheid van een volmeter verlagen (hogere spanning meten)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "men verhoogt de weerstand in serie met het circuit onder test"
+    },
+    {
+     "letter": "B",
+     "text": "men voegt een weerstand toe in parallel met de voltmeter"
+    },
+    {
+     "letter": "C",
+     "text": "men voegt een weerstand toe in serie met de voltmeter, geschakeld tussen de voltmeter en de schakeling onder test"
+    },
+    {
+     "letter": "D",
+     "text": "men voegt een weerstand toe in parallel met de voltmeter, geschakeld tussen de voltmeter en de schakeling onder test"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 4,
+   "sub": "10.1",
+   "vraag": "Wat is het element aangeduid met X (omstippeld)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een wattmeter"
+    },
+    {
+     "letter": "B",
+     "text": "een ampèremeter"
+    },
+    {
+     "letter": "C",
+     "text": "een voltmeter"
+    },
+    {
+     "letter": "D",
+     "text": "een ohmmeter"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h10/fig-r4.png"
+  },
+  {
+   "id": 5,
+   "sub": "10.1",
+   "vraag": "Wat gebeurt er in een klassieke voltmeter wanneer men het spanningsbereik verhoogt?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "men verhoogt de weerstand in serie met de galvanometer"
+    },
+    {
+     "letter": "B",
+     "text": "men verhoogt de weerstand in parallel met de galvanometer"
+    },
+    {
+     "letter": "C",
+     "text": "men vermindert de weerstand in serie met de galvanometer"
+    },
+    {
+     "letter": "D",
+     "text": "men vermindert de weerstand in serie met de galvanometer"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 6,
+   "sub": "10.1",
+   "vraag": "Een voltmeter heeft een maximaal bereik van 60 V en heeft een gevoeligheid van 10 kΩ/V. Wat is de waarde van de voorschakelweerstand nodig voor het verhogen van het meetbereik tot 300 V.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 kΩ"
+    },
+    {
+     "letter": "B",
+     "text": "2,4 MΩ"
+    },
+    {
+     "letter": "C",
+     "text": "3,0 MΩ"
+    },
+    {
+     "letter": "D",
+     "text": "240 kΩ"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 7,
+   "sub": "10.1",
+   "vraag": "Een voltmeter heeft een maximaal bereik van 20 V en heeft een gevoeligheid van 10 kΩ/V. Wat is de waarde van de voorschakelweerstand nodig voor het verhogen van het meetbereik tot 300 V.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 kΩ"
+    },
+    {
+     "letter": "B",
+     "text": "2,8 MΩ"
+    },
+    {
+     "letter": "C",
+     "text": "3,0 MΩ"
+    },
+    {
+     "letter": "D",
+     "text": "280 kΩ"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 8,
+   "sub": "10.1",
+   "vraag": "Een voltmeter heeft een maximaal bereik van 10 V en heeft een gevoeligheid van 10 kΩ/V. Wat is de waarde van de voorschakelweerstand nodig voor het verhogen van het meetbereik tot 300 V.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 kΩ"
+    },
+    {
+     "letter": "B",
+     "text": "2,9 MΩ"
+    },
+    {
+     "letter": "C",
+     "text": "3,0 MΩ"
+    },
+    {
+     "letter": "D",
+     "text": "290 kΩ"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 9,
+   "sub": "10.1",
+   "vraag": "Een voltmeter heeft een maximaal bereik van 30 V en heeft een gevoeligheid van 10 kΩ/V. Wat is de waarde van de voorschakelweerstand nodig voor het verhogen van het meetbereik tot 300 V.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 kΩ"
+    },
+    {
+     "letter": "B",
+     "text": "2,7 MΩ"
+    },
+    {
+     "letter": "C",
+     "text": "3,0 MΩ"
+    },
+    {
+     "letter": "D",
+     "text": "270 kΩ"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 10,
+   "sub": "10.1",
+   "vraag": "Een voltmeter heeft een maximaal bereik van 50 V en heeft een gevoeligheid van 10 kΩ/V. Wat is de waarde van de voorschakelweerstand nodig voor het verhogen van het meetbereik tot 300 V.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 kΩ"
+    },
+    {
+     "letter": "B",
+     "text": "2,5 MΩ"
+    },
+    {
+     "letter": "C",
+     "text": "3,0 MΩ"
+    },
+    {
+     "letter": "D",
+     "text": "250 kO"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 11,
+   "sub": "10.1",
+   "vraag": "Een draaispoelmeter wordt direct aangesloten op een sinusvormige wisselspanning van 1000 Hz. Wat duidt de meter aan?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de effectieve waarde"
+    },
+    {
+     "letter": "B",
+     "text": "de maximale waarde"
+    },
+    {
+     "letter": "C",
+     "text": "niets"
+    },
+    {
+     "letter": "D",
+     "text": "de momentele waarde"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 12,
+   "sub": "10.1",
+   "vraag": "Een microampere-meter kan geschikt worden gemaakt voor het meten van een spanning van enkele V door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een hoge weerstand in parallel met de meter te schakelen"
+    },
+    {
+     "letter": "B",
+     "text": "een kleine weerstand in parallel met de meter te schakelen"
+    },
+    {
+     "letter": "C",
+     "text": "een grote weerstand in serie met de meter te schakelen"
+    },
+    {
+     "letter": "D",
+     "text": "een kleine weerstand in serie met de meter te schakelen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 13,
+   "sub": "10.1",
+   "vraag": "De inwendige weerstand van een digitale voltmeter",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hangt af van de toestand van de inwendige voedingsbatterij"
+    },
+    {
+     "letter": "B",
+     "text": "is constant en meestal hoger dan 1 MΩ."
+    },
+    {
+     "letter": "C",
+     "text": "is constant en meestal zeer laag"
+    },
+    {
+     "letter": "D",
+     "text": "hangt af van het bereik, en wordt daarom uitgedrukt in kΩ / V."
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 14,
+   "sub": "10.1",
+   "vraag": "Hoe wordt een ampèremeter gewoonlijk verbonden in een schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "in serie met de schakeling"
+    },
+    {
+     "letter": "B",
+     "text": "in parallel met de schakeling"
+    },
+    {
+     "letter": "C",
+     "text": "in kwadratuur met de schakeling"
+    },
+    {
+     "letter": "D",
+     "text": "in fase-oppositie"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 15,
+   "sub": "10.1",
+   "vraag": "Wat is het element aangeduid met X?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een wattmeter"
+    },
+    {
+     "letter": "B",
+     "text": "een ampèremeter"
+    },
+    {
+     "letter": "C",
+     "text": "een voltmeter"
+    },
+    {
+     "letter": "D",
+     "text": "een ohmmeter"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h10/fig-r15.png"
+  },
+  {
+   "id": 16,
+   "sub": "10.1",
+   "vraag": "Hoe kan met  het bereik van een ampèremeter vergroten?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "door een weerstand op te nemen in serie met het circuit onder test"
+    },
+    {
+     "letter": "B",
+     "text": "door een weerstand op te nemen in parallel met het circuit onder test"
+    },
+    {
+     "letter": "C",
+     "text": "door een weerstand in serie met de ampèremeter op te nemen"
+    },
+    {
+     "letter": "D",
+     "text": "door een weerstand in parallel met de ampèremeter op te nemen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 17,
+   "sub": "10.1",
+   "vraag": "Aan een milli-amperemeter met een eigen weerstand van 50 Ω en een meetbereik van 0,5 mA wordt een weerstand van 5 Ω parallel geschakeld. Wat wordt het nieuwe meetbereik van de meetopstelling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,55 mA"
+    },
+    {
+     "letter": "B",
+     "text": "5 mA"
+    },
+    {
+     "letter": "C",
+     "text": "0,5 mA"
+    },
+    {
+     "letter": "D",
+     "text": "5,5 mA"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 18,
+   "sub": "10.1",
+   "vraag": "De voltmeter (V) heeft een gevoeligheid van 10 kΩ/V en een volle schaaluitslag van 10 V. Welke spanning duidt deze meter aan in bijgaande schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "6 V"
+    },
+    {
+     "letter": "B",
+     "text": "4,5 V"
+    },
+    {
+     "letter": "C",
+     "text": "3 V"
+    },
+    {
+     "letter": "D",
+     "text": "2 V"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h10/fig-r18.png"
+  },
+  {
+   "id": 19,
+   "sub": "10.1",
+   "vraag": "Een klassieke AC/DC multimeter kan vrij nauwkeurig  AC meten tot een frequentie van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "1 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "10 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "100 MHz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 20,
+   "sub": "10.1",
+   "vraag": "Een meetinstrument met een beweegbare ijzerkern",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Duidt de piekwaarde aan van de stroom die erdoor vloeit"
+    },
+    {
+     "letter": "B",
+     "text": "Duidt de gemiddelde waarde aan van de stroom die erdoor vloeit"
+    },
+    {
+     "letter": "C",
+     "text": "Duidt de effectieve waarde aan van de stroom die erdoor vloeit"
+    },
+    {
+     "letter": "D",
+     "text": "Duidt de ogenblikkelijke waarde aan van de stroom die erdoor vloeit"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 21,
+   "sub": "10.1",
+   "vraag": "Waarom wordt voor het meten van spanningen dikwijls gebruik gemaakt van een buisvoltmeter of een FET-voltmeter i.p.v. een klassieke multimeter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om aldus zo groot mogelijke spanningen te kunnen meten"
+    },
+    {
+     "letter": "B",
+     "text": "omdat de interne weerstand van dergelijk toestel veel groter is"
+    },
+    {
+     "letter": "C",
+     "text": "om de invloed van de frequentie te minimaliseren"
+    },
+    {
+     "letter": "D",
+     "text": "om zo weinig mogelijk spanningsval te veroorzaken in het circuit waarin wordt gemeten"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 22,
+   "sub": "10.1",
+   "vraag": "Waarom is het gewenst dat bij een ampèremeter de inwendige weerstand zo laag mogelijk is?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om aldus een zo groot mogelijke stroom te kunnen meten"
+    },
+    {
+     "letter": "B",
+     "text": "om de invloed van de frequentie te minimaliseren"
+    },
+    {
+     "letter": "C",
+     "text": "om zo weinig mogelijk spanningsval te veroorzaken in het circuit waarin wordt gemeten"
+    },
+    {
+     "letter": "D",
+     "text": "het circuit waarin wordt gemeten zo weinig mogelijk te belasten"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 23,
+   "sub": "10.1",
+   "vraag": "De inwendige weerstand van een voltmeter is in het ideale geval:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "∞ (oneindig groot)"
+    },
+    {
+     "letter": "B",
+     "text": "0"
+    },
+    {
+     "letter": "C",
+     "text": "dezelfde als de inwendige weerstand van het circuit waarop hij is aangesloten"
+    },
+    {
+     "letter": "D",
+     "text": "kleiner dan de inwendige weerstand van het circuit waarop hij is aangesloten"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 24,
+   "sub": "10.1",
+   "vraag": "Waarom is het gewenst dat bij een voltmeter de inwendige weerstand zo groot mogelijk is?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om aldus een zo groot mogelijke spanning te kunnen meten"
+    },
+    {
+     "letter": "B",
+     "text": "om de invloed van de frequentie te minimaliseren"
+    },
+    {
+     "letter": "C",
+     "text": "om het circuit waarin wordt gemeten zo weinig mogelijk te belasten"
+    },
+    {
+     "letter": "D",
+     "text": "om zo weinig mogelijk spanningsval te veroorzaken"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 25,
+   "sub": "10.1",
+   "vraag": "De inwendige weerstand van een ampèremeter is in het ideale geval:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "∞ (oneindig groot)"
+    },
+    {
+     "letter": "B",
+     "text": "0"
+    },
+    {
+     "letter": "C",
+     "text": "dezelfde als de inwendige weerstand van her circuit waarop hij is aangesloten"
+    },
+    {
+     "letter": "D",
+     "text": "kleiner dan de inwendige weerstand van het circuit waarop hij is aangesloten"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 26,
+   "sub": "10.1",
+   "vraag": "Met welk meettoestel kan je meest precies een weerstand meten?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "met een digitale murlimeter"
+    },
+    {
+     "letter": "B",
+     "text": "met een analoge multimeter"
+    },
+    {
+     "letter": "C",
+     "text": "met een brug van Wheatstone"
+    },
+    {
+     "letter": "D",
+     "text": "met een ohmmeter"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 27,
+   "sub": "10.1",
+   "vraag": "Bereken het piekvermogen van een SSB-zender, gemoduleerd door een spraaksignaal, die is afgesloten op een weerstand van exact 50 Ω.De oscilloscoop (gevoeligheid: 20 V per schaaldeel) toont de spanning over de weerstand (zie schets).",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "512 W"
+    },
+    {
+     "letter": "B",
+     "text": "206 W"
+    },
+    {
+     "letter": "C",
+     "text": "1024 W"
+    },
+    {
+     "letter": "D",
+     "text": "103 W"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h10/fig-r27.png"
+  },
+  {
+   "id": 28,
+   "sub": "10.1",
+   "vraag": "Hoe bepaalt men het PEP (piek uitgangsvermogen = peak envelope power) van een zender met een oscilloscoop? (UP = peakspanning, RL=impedantie belasting)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Men meet de piek tot piek spanning VP op de aansluitklemmen van een  50 Ω fictieve antenne en gebruikt de volgende formule :\nP(PEP) = UP · UP / RL"
+    },
+    {
+     "letter": "B",
+     "text": "Men meet de piek tot piek  spanning VP op de aansluitklemmen van een  50 Ω fictieve antenne en gebruikt de volgende formule :\n P(PEP) = ((UP/2.82) ·(UP/2.82)) / RL"
+    },
+    {
+     "letter": "C",
+     "text": "Men meet de piek tot piek  spanning VP op de aansluitklemmen van een  50 Ω fictieve antenne en gebruikt de volgende formule : \nP(PEP) = UP · UP · RL"
+    },
+    {
+     "letter": "D",
+     "text": "Men meet de piek tot piek spanning VP op de aansluitklemmen van een  50 Ω fictieve antenne en gebruikt de volgende formule : \nP(PEP) =  (1,414 · UP · 1,414 · Up) ·RL"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 29,
+   "sub": "10.1",
+   "vraag": "Een SSB-zender wordt afgesloten op een 50 Ω belasting (fictieve antenne). De zender wordt gemoduleerd met een enkele toon (1000 Hz). Parallel op de fictieve antenne staat een RF voltmeter die 100 Veff aanduidt. Wat is het Piekvermogen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "196 W"
+    },
+    {
+     "letter": "B",
+     "text": "392 W"
+    },
+    {
+     "letter": "C",
+     "text": "784 W"
+    },
+    {
+     "letter": "D",
+     "text": "400 W"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 30,
+   "sub": "10.1",
+   "vraag": "Door middel van een directionele Wattmeter meet men een voorwaarts vermogen van 90 Watt en een teruggekaatst vermogen van 10 W. Wat is het uitgangsvermogen van de zender",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 W"
+    },
+    {
+     "letter": "B",
+     "text": "80 W"
+    },
+    {
+     "letter": "C",
+     "text": "90 W"
+    },
+    {
+     "letter": "D",
+     "text": "100 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 31,
+   "sub": "10.1",
+   "vraag": "Om te vermijden dat men meetfouten maakt te wijten aan mantelstromen (stromen op de buitenkant van de afscherming van een coaxiaalkabel) bij het meten van de SGV (SWR) d.m.v. een reflectometer dient men",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de mantelstromen te minimaliseren door een aantal ferrietkernen over de kabel te schuiven"
+    },
+    {
+     "letter": "B",
+     "text": "de metingen te doen op veelvouden van ¼ golven van de antenne  verwijderd"
+    },
+    {
+     "letter": "C",
+     "text": "de metingen te doen op veelvouden van ¼ golven van de zender verwijderd"
+    },
+    {
+     "letter": "D",
+     "text": "de reflectometer te aarden"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 32,
+   "sub": "10.1",
+   "vraag": "Indien men door het verplaatsen (over korte afstanden) van een SGV (SWR)-meter in een transmissielijn een verandering van meetresultaat vaststelt, wat kan hiervan NIET de oorzaak zijn?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "dat er mantelstromen lopen op de coaxiaalkabel"
+    },
+    {
+     "letter": "B",
+     "text": "dat het toestel geen correct werkende reflectometer is"
+    },
+    {
+     "letter": "C",
+     "text": "dat de verliezen in de kabel zeer hoog zijn"
+    },
+    {
+     "letter": "D",
+     "text": "dat de SGV (SWR)  groter is dan 3/1"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 33,
+   "sub": "10.1",
+   "vraag": "Indien men een directionele wattmeter gebruikt om de SWR op een niet-verliesvrije transmissielijn te meten, en men plaatst het toestel aan de zender i.p.v. aan de antenne, dan zal de aanduiding van de SGV (SWR)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "groter zijn dan indien geplaatst aan de antennekant van de transmissielijn"
+    },
+    {
+     "letter": "B",
+     "text": "kleiner zijn dan indien geplaatst aan de antennekant van de transmissielijn"
+    },
+    {
+     "letter": "C",
+     "text": "gelijk zijn dan indien geplaatst aan de antennekant van de transmissielijn"
+    },
+    {
+     "letter": "D",
+     "text": "onjuist zijn"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 34,
+   "sub": "10.1",
+   "vraag": "Waar moet men de reflectometer (SWR of SGV meter) schakelen om een zo exact mogelijke meting van de misaanpassing van de antenne aan de voedingskabel te meten?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "aan het voedingspunt van de antenne"
+    },
+    {
+     "letter": "B",
+     "text": "aan de uitgang van de zender"
+    },
+    {
+     "letter": "C",
+     "text": "in het midden van de transmissielijn"
+    },
+    {
+     "letter": "D",
+     "text": "gelijk waar langs de transmissielijn"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 35,
+   "sub": "10.1",
+   "vraag": "Met welk toestel kan men de omhullende van een HF signaal meten?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "met een HF-wattmeter"
+    },
+    {
+     "letter": "B",
+     "text": "met een oscilloscoop"
+    },
+    {
+     "letter": "C",
+     "text": "met een spectrum analyzer"
+    },
+    {
+     "letter": "D",
+     "text": "met een SGV (SWR) meter"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 36,
+   "sub": "10.1",
+   "vraag": "Een zender wordt 100% gemoduleerd met een sinusvormig signaal van 100 Hz. Bijgaande figuur geeft het beeld van de omhullende weer van het HF-signaal zoals gezien op een oscilloscoop. Welke soort modulatie is hier gebruikt?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "EZB (SSB)"
+    },
+    {
+     "letter": "B",
+     "text": "FM (frequentoemodulatie)"
+    },
+    {
+     "letter": "C",
+     "text": "PM (fazemodulatie)"
+    },
+    {
+     "letter": "D",
+     "text": "AM (amplitudemodulatie)"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h10/fig-r36.png"
+  },
+  {
+   "id": 37,
+   "sub": "10.1",
+   "vraag": "Op een oscilloscoop ziet men een AM signaal (zie figuur). Wat is de modulatiediepte voor dit signaal?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "80 %"
+    },
+    {
+     "letter": "B",
+     "text": "78 %"
+    },
+    {
+     "letter": "C",
+     "text": "90 %"
+    },
+    {
+     "letter": "D",
+     "text": "70 %"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h10/fig-r37.png"
+  },
+  {
+   "id": 38,
+   "sub": "10.1",
+   "vraag": "Wat is het PEP uitgangsvermogen van een zender, indien we op de oscilloscoop een maximale amplitude (piek tot piek spanning) meten van 250 V, en dit over een kunstantenne met een impedantie van 50 Ω.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 W"
+    },
+    {
+     "letter": "B",
+     "text": "157 w"
+    },
+    {
+     "letter": "C",
+     "text": "1250 W"
+    },
+    {
+     "letter": "D",
+     "text": "200 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 39,
+   "sub": "10.1",
+   "vraag": "Wat is het PEP uitgangsvermogen van een zender, indien we op de oscilloscoop een maximale amplitude (piek to piek spanning) meten van 100 V, en dit over een kunstantenne met een impedantie van 50 Ω.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 W"
+    },
+    {
+     "letter": "B",
+     "text": "25 w"
+    },
+    {
+     "letter": "C",
+     "text": "200 W"
+    },
+    {
+     "letter": "D",
+     "text": "1000 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 40,
+   "sub": "10.1",
+   "vraag": "Wat is het PEP uitgangsvermogen van een zender, indien we op de oscilloscoop een maximale amplitude (piek to piek spanning) meten van 50 V, en dit over een kunstantenne met een impedantie van 50 Ω.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "125 W"
+    },
+    {
+     "letter": "B",
+     "text": "6.3 w"
+    },
+    {
+     "letter": "C",
+     "text": "50 W"
+    },
+    {
+     "letter": "D",
+     "text": "150 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 41,
+   "sub": "10.1",
+   "vraag": "Wat is het PEP uitgangsvermogen van een zender, indien we op de oscilloscoop een maximale amplitude (piek to piek spanning) meten van 25 V, en dit over een kunstantenne met een impedantie van 50 Ω.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 W"
+    },
+    {
+     "letter": "B",
+     "text": "1.57 W"
+    },
+    {
+     "letter": "C",
+     "text": "12,5 W"
+    },
+    {
+     "letter": "D",
+     "text": "25 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 42,
+   "sub": "10.1",
+   "vraag": "Wat is het PEP uitgangsvermogen van een zender, indien we op de oscilloscoop een maximale amplitude (piek to piek spanning) meten van 150 V, en dit over een kunstantenne met een impedantie van 50 Ω.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "75 W"
+    },
+    {
+     "letter": "B",
+     "text": "56 w"
+    },
+    {
+     "letter": "C",
+     "text": "450 W"
+    },
+    {
+     "letter": "D",
+     "text": "150 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 43,
+   "sub": "10.1",
+   "vraag": "Welke gebreken aan een uitzending kan men niet waarnemen door de omhullende van een uitgezonden signaal op een oscilloscoop te bekijken?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "sleutelklikken"
+    },
+    {
+     "letter": "B",
+     "text": "overmodulatie"
+    },
+    {
+     "letter": "C",
+     "text": "frequentie-onstabiliteit"
+    },
+    {
+     "letter": "D",
+     "text": "parasitair oscilleren van de eindtrap"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 44,
+   "sub": "10.1",
+   "vraag": "Een dip-meter dient om",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de ingangsimpedantie van een elektronenbuis te meten"
+    },
+    {
+     "letter": "B",
+     "text": "de resonantiefrequentie van een LC kring te meten"
+    },
+    {
+     "letter": "C",
+     "text": "de stroom op de buitenmantel van een coaxiaalkabel te meten"
+    },
+    {
+     "letter": "D",
+     "text": "de stroom in de grondleiding van een antenne te meten"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 45,
+   "sub": "10.1",
+   "vraag": "Hoe kan men door gebruik te maken van een ontvanger  die een digitale uitlezing heeft tot op 10 Hz nauwkering, en een kloknauwkeurigheid van 10 ppm de frequentie van een oscillator op 30 MHz met een nauwkeurigheid van +/- 10 Hz meten?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "door de ontvanger in AM  mode te schakelen, en de ontvanger af te stemmen op het te meten signaal tot de grootste S-meter uitslag wordt bekomen"
+    },
+    {
+     "letter": "B",
+     "text": "door de ontvanger in de mode SSB (EZB)of CW te schakelen en de ontvanger af te stemmen tot een nul-zweving wordt bekomen"
+    },
+    {
+     "letter": "C",
+     "text": "door de meting te doen in de mode FM"
+    },
+    {
+     "letter": "D",
+     "text": "kan niet"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 46,
+   "sub": "10.1",
+   "vraag": "Hoe kan men door gebruik te maken van een ontvanger  die een digitale uitlezing heeft tot op 10 Hz nauwkering, en een kloknauwkeurigheid van 0,1 ppm de frequentie van een oscillator op 30 MHz met een nauwkeurigheid van +/- 10 Hz meten?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "door de ontvanger in AM  mode te schakelen, en de ontvanger af te stemmen op het te meten signaal tot de grootste S-meter uitslag wordt bekomen"
+    },
+    {
+     "letter": "B",
+     "text": "door de ontvanger  in de mode SSB of CW te schakelen en de ontvanger af te stemmen tot een nul-zweving wordt bekomen"
+    },
+    {
+     "letter": "C",
+     "text": "door de meting te doen in de mode FM"
+    },
+    {
+     "letter": "D",
+     "text": "kan niet"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 47,
+   "sub": "10.1",
+   "vraag": "Van een afgestemde kring is de resonantiefrequentie te bepalen met een opstelling die enkel bestaat uit",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een dipmeter"
+    },
+    {
+     "letter": "B",
+     "text": "een universeelmeter"
+    },
+    {
+     "letter": "C",
+     "text": "een frequentieteller"
+    },
+    {
+     "letter": "D",
+     "text": "een digitale voltmeter"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 48,
+   "sub": "10.1",
+   "vraag": "Wat is een dip-meter",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een veldsterkte-meter"
+    },
+    {
+     "letter": "B",
+     "text": "een SWR-meter (SGV-meter)"
+    },
+    {
+     "letter": "C",
+     "text": "een afstembare LC-oscillator met een aanduiding van de stroomterugkoppeling in het oscillatorcircuit"
+    },
+    {
+     "letter": "D",
+     "text": "een modulatie-index meter"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 49,
+   "sub": "10.1",
+   "vraag": "Wat is de functie van een dip-meter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het meten van signaalsterkte"
+    },
+    {
+     "letter": "B",
+     "text": "het precies meten van frequentie"
+    },
+    {
+     "letter": "C",
+     "text": "het precies meten van het vermogen van een zender"
+    },
+    {
+     "letter": "D",
+     "text": "het meten van de resonantiefrequentie van een kring"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 50,
+   "sub": "10.1",
+   "vraag": "Indien de ontvanger is ingesteld op LSB (EZB, lager zijband), en de digitale frequentieaanduiding leest 14.349,7 MHz, en men ontvangt een LSB  (lagere zijband) signaal, welk is dan het spectrum waarop het SSB signaal uitzendt?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "14347,5 – 14349,5 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "14350 – 14352 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "14349 – 14553 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "14346 – 14350 MHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 51,
+   "sub": "10.1",
+   "vraag": "Hoe kan men de waarde van een condensator of van een spoel bepalen met een grid-dip meter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "door de condensator of de spoel te “dippen”"
+    },
+    {
+     "letter": "B",
+     "text": "door een afgestemde LC-kring te maken waarvan men de waarde van 1 element kent, de kring te dippen en de waarde van het tweede element af te leiden uit de resonantieformule"
+    },
+    {
+     "letter": "C",
+     "text": "door een afgestemde LC-kring te maken waarvan men de waarde van 1 element kent, de kring te dippen en de waarde van het tweede element af te leiden uit de formule van Hertz"
+    },
+    {
+     "letter": "D",
+     "text": "dit kan niet"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 52,
+   "sub": "10.1",
+   "vraag": "Hoe werkt een dip-meter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "weerkaatste golven op 1 bepaalde frequentie beïnvloeden de detectorspoel"
+    },
+    {
+     "letter": "B",
+     "text": "de wederzijdse koppeling van de spoel van een oscillator naar een nabije resonante spoel veroorzaakt een verandering in de aangeduide stroom in de oscillator stroomterugkoppelingschakeling"
+    },
+    {
+     "letter": "C",
+     "text": "het vermogen van een zender doet de indicator werken"
+    },
+    {
+     "letter": "D",
+     "text": "het vermogen gekoppeld van een nabije oscillator doet stroom vloeien in een afgestemde kring die deel uitmaakt van de dip-meter."
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 53,
+   "sub": "10.1",
+   "vraag": "Duid twee typische toepassingen aan voor het gebruik van een dip-meter.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het meten van de resonantiefrequentie van antenne-traps en het meten van de modulatiediepte van een zender"
+    },
+    {
+     "letter": "B",
+     "text": "het meten van antenneresonantie en het meten van de modulatiediepte van een zender"
+    },
+    {
+     "letter": "C",
+     "text": "het meten van antenneresonantie en antenne-impedantie"
+    },
+    {
+     "letter": "D",
+     "text": "het meten van de resonantiefrequentie van antenne-traps en van de resonantiefrequentie van een afgestemde kring."
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 54,
+   "sub": "10.1",
+   "vraag": "Om de grootste nauwkeurigheid te bekomen, hoe dient men de dip meter te koppelen met het meetobject?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zo los mogelijk"
+    },
+    {
+     "letter": "B",
+     "text": "zo vast mogelijk"
+    },
+    {
+     "letter": "C",
+     "text": "loodrecht"
+    },
+    {
+     "letter": "D",
+     "text": "alternerend los en vast"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 55,
+   "sub": "10.1",
+   "vraag": "Wat gebeurt er als men een dip-meter te vast koppelt met het meetobject?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "er worden harmonischen gegenereerd"
+    },
+    {
+     "letter": "B",
+     "text": "de meting is minder accuraat"
+    },
+    {
+     "letter": "C",
+     "text": "er gebeurt crossmodulatie"
+    },
+    {
+     "letter": "D",
+     "text": "men riskeert de dip-meter defect te beschadigen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 56,
+   "sub": "10.1",
+   "vraag": "Met deze meetopstelling wordt de resonantiefrequentie van een kring bepaald. Ri is de inwendige weerstand van de voltmeter. R is de inwendige weerstand van de generator. Aan welke voorwaarden dienen Ri en R te voldoen om de meting zo correct mogelijk uit",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "R = groot, Ri = groot"
+    },
+    {
+     "letter": "B",
+     "text": "R = groot, Ri = klein"
+    },
+    {
+     "letter": "C",
+     "text": "R = klein, Ri = groot"
+    },
+    {
+     "letter": "D",
+     "text": "R = klein, Ri = klein"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h10/fig-r56.png"
+  },
+  {
+   "id": 57,
+   "sub": "10.1",
+   "vraag": "Wat kan men meten met een klassieke multimeter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de SGV (SWR) en het vermogen"
+    },
+    {
+     "letter": "B",
+     "text": "weerstand, inductantie en capacitantie"
+    },
+    {
+     "letter": "C",
+     "text": "weerstand bij gelijkstroom en de reactantie bij wisselstroom"
+    },
+    {
+     "letter": "D",
+     "text": "spanning, stroom  en weerstand"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 58,
+   "sub": "10.1",
+   "vraag": "Een digitale multimeter",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "heeft een grotere ingangsweerstand dan de analoge multimeter"
+    },
+    {
+     "letter": "B",
+     "text": "is minder nauwkeurig dan een analoge multimeter"
+    },
+    {
+     "letter": "C",
+     "text": "heeft een lage ingangsimpedantie"
+    },
+    {
+     "letter": "D",
+     "text": "laat toe wisselspanningen te meten tot op zeer hoge frequenties (verschillende MHz)"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 59,
+   "sub": "10.1",
+   "vraag": "DC en AC- vermogen opgenomen door een weerstand kan makkelijkst worden gemeten",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "met een wattmeter"
+    },
+    {
+     "letter": "B",
+     "text": "door de spanning over het element en de stroom door het element te meten en de wet van Joule toe te passen"
+    },
+    {
+     "letter": "C",
+     "text": "met een vermogenmeter"
+    },
+    {
+     "letter": "D",
+     "text": "met een oscilloscoop"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 60,
+   "sub": "10.1",
+   "vraag": "Een EZB (SSB) zender wordt aangesloten op een fictieve antenne van 50 Ω. De zender is gemoduleerd door een dubbeltoonsignaal. De oscilloscoop die verbonden is op de klemmen van de fictieve antenne toont bijgaand beeld. Wat is het PEP (peak envelope powe",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "25 W"
+    },
+    {
+     "letter": "B",
+     "text": "50 W"
+    },
+    {
+     "letter": "C",
+     "text": "100 W"
+    },
+    {
+     "letter": "D",
+     "text": "200 W"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h10/fig-r60.png"
+  },
+  {
+   "id": 61,
+   "sub": "10.1",
+   "vraag": "Wat kan men meten met een directionele wattmeter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het voorwaarts en het weerkaatst vermogen"
+    },
+    {
+     "letter": "B",
+     "text": "de stralingsdiagramma van een antenne"
+    },
+    {
+     "letter": "C",
+     "text": "het vermogen opgenomen door een zender"
+    },
+    {
+     "letter": "D",
+     "text": "het thermisch vermogen opgenomen door een weerstand"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 62,
+   "sub": "10.1",
+   "vraag": "Indien u een Wattmeter gebruikt op VHF, die voorzien is voor het bereik van 2 tot 30 MHz, wat zal de invloed zijn op de aflezing?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de meting zal onnauwkeurig zijn"
+    },
+    {
+     "letter": "B",
+     "text": "de meting kan als exact worden aanzien"
+    },
+    {
+     "letter": "C",
+     "text": "de uitslag moet door ongeveer 1,5 worden gedeeld"
+    },
+    {
+     "letter": "D",
+     "text": "de uitslag moet met ongeveer 1,5 worden vermenigvuldigd"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 63,
+   "sub": "10.1",
+   "vraag": "Waar dient men een HF-wattmeter te schakelen om het HF-uitgangsvermogen van een zender te meten?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "aan de antenne uitgang het toestel"
+    },
+    {
+     "letter": "B",
+     "text": "onmiddellijk aan de antenne"
+    },
+    {
+     "letter": "C",
+     "text": "op ¼ golf afstand van de zender"
+    },
+    {
+     "letter": "D",
+     "text": "op ½ golf afstand van de zender"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 64,
+   "sub": "10.1",
+   "vraag": "Voor welke impedantie zijn HF-wattmeters gewoonlijk gemaakt ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "25 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "50 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "300 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "450 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 65,
+   "sub": "10.1",
+   "vraag": "Welk toestel kan men gebruiken om de misaanpassing van de antenne te meten (de impedantie van de antenne t.o.v. de karakteristieke impedantie van de voedingskabel)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een veldsterktemeter"
+    },
+    {
+     "letter": "B",
+     "text": "een thermische ampèremeter"
+    },
+    {
+     "letter": "C",
+     "text": "een golflengtemeter"
+    },
+    {
+     "letter": "D",
+     "text": "een SVG-meter (SWR-meter)"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 66,
+   "sub": "10.1",
+   "vraag": "Welke soort spanningsvorm genereert een typische laagfrequentgenerator niet",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Sinus"
+    },
+    {
+     "letter": "B",
+     "text": "Blok (kanteel)"
+    },
+    {
+     "letter": "C",
+     "text": "Driehoek"
+    },
+    {
+     "letter": "D",
+     "text": "Cirkel"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 67,
+   "sub": "10.1",
+   "vraag": "Welke toestel kan doorgaans ook gebruikt worden als een HF-generator?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een voltmeter"
+    },
+    {
+     "letter": "B",
+     "text": "Een ontvanger"
+    },
+    {
+     "letter": "C",
+     "text": "Een zender"
+    },
+    {
+     "letter": "D",
+     "text": "Een oscilloscoop"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 68,
+   "sub": "10.1",
+   "vraag": "Indien met een zender gebruikt als HF-generator, en de spectrale zuiverheid voldoet niet aan de vereiste, kan men die verbeteren door gebruik te maken van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een hoogdoorlaat filter"
+    },
+    {
+     "letter": "B",
+     "text": "Een netfilter"
+    },
+    {
+     "letter": "C",
+     "text": "Een laagdoorlaat of banddoorlaat filter"
+    },
+    {
+     "letter": "D",
+     "text": "Een kristalfilter"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 69,
+   "sub": "10.1",
+   "vraag": "De nauwkeurigheid van een frequentieteller wordt bepaald door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de ingangsverzwakker"
+    },
+    {
+     "letter": "B",
+     "text": "de uitleesindicator"
+    },
+    {
+     "letter": "C",
+     "text": "de tijdsbasis"
+    },
+    {
+     "letter": "D",
+     "text": "de frequentiedeler"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 70,
+   "sub": "10.1",
+   "vraag": "Hoe meet een frequentieteller de frequentie van een signaal?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het telt het aantal pulsen in een schakeling"
+    },
+    {
+     "letter": "B",
+     "text": "het vergelijkt een referentiesignaal afkomstig van een ijkzender met het te meten signaal"
+    },
+    {
+     "letter": "C",
+     "text": "het telt het aantal input pulsen gedurende een bepaalde tijd"
+    },
+    {
+     "letter": "D",
+     "text": "het zet de faze van het gemeten ingangssignaal om in een spanning die proportioneel is met de frequentie"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 71,
+   "sub": "10.1",
+   "vraag": "Hoe kan men de nauwkeurigheid van een frequentieteller verhogen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "door tragere digitale schakelingen te gebruiken"
+    },
+    {
+     "letter": "B",
+     "text": "door de nauwkeurigheid van de frequentierespons te verbeteren"
+    },
+    {
+     "letter": "C",
+     "text": "door de nauwkeurigheid van de tijdsbasis te verhogen"
+    },
+    {
+     "letter": "D",
+     "text": "door snellere digitale schakelingen te gebruiken"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 72,
+   "sub": "10.1",
+   "vraag": "Wat bepaalt de resolutie van een digitale frequentiemeter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De nauwkeurigheid van de tijdbasis"
+    },
+    {
+     "letter": "B",
+     "text": "Het tijdsinterval binnen hetwelk periodes worden geteld"
+    },
+    {
+     "letter": "C",
+     "text": "Het aantal cijfers (digits) van de aflezing"
+    },
+    {
+     "letter": "D",
+     "text": "De frequentie van het te meten signaal"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 73,
+   "sub": "10.1",
+   "vraag": "Een frequentieteller heeft een tijdsbasis met een nauwkeurigheid van +/- 10 ppm. De aanduiding is 144.520.000 Hz. Hoeveel kan de echte frequentie afwijken van de aangeduide frequentie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "14.452 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "1.4452 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "144.52 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "1.4462 kHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 74,
+   "sub": "10.1",
+   "vraag": "Een digitale frequentiemeter",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Telt het aantal zwevingen per seconde"
+    },
+    {
+     "letter": "B",
+     "text": "Telt het aantal periodes gedurende een vaste tijd"
+    },
+    {
+     "letter": "C",
+     "text": "Telt de frequentie van de tijdbasis"
+    },
+    {
+     "letter": "D",
+     "text": "Telt het aantal periodes van de tijdsbasis"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 75,
+   "sub": "10.1",
+   "vraag": "Wat is een oscilloscoop",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een meettoestel dat toelaat heel preciese spannings– en stroom-metingen uit te voeren"
+    },
+    {
+     "letter": "B",
+     "text": "een meettoestel waar spanning zichtbaar wordt gemaakt als functie van tijd"
+    },
+    {
+     "letter": "C",
+     "text": "een meettoestel dat spanning zichtbaar maakt als functie van stroom"
+    },
+    {
+     "letter": "D",
+     "text": "een meettoestel dat de faze van een spanning toont als functie van de stroom"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 76,
+   "sub": "10.1",
+   "vraag": "Wat lees je af op de x-as (horizontale as) van een oscilloscoop voor in zijn klassieke toepassing?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Spanning"
+    },
+    {
+     "letter": "B",
+     "text": "Stroom"
+    },
+    {
+     "letter": "C",
+     "text": "Tijd"
+    },
+    {
+     "letter": "D",
+     "text": "Vermogen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 77,
+   "sub": "10.1",
+   "vraag": "Hoe ziet het signaal aan de horizontale platen (tijdsbasis-signaal) van een oscilloscoop eruit?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het is een driehoeksspanning"
+    },
+    {
+     "letter": "B",
+     "text": "het is een sinusoidale spanning"
+    },
+    {
+     "letter": "C",
+     "text": "het is een continu spanning"
+    },
+    {
+     "letter": "D",
+     "text": "het is een zaagtand spanning"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 78,
+   "sub": "10.1",
+   "vraag": "Als men het vermogen van een SSB-zender meet door gebruik te maken van een twee-toon test en een wattmeter die het gemiddelde vermogen aanduidt, dan …",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is het aangeduide vermogen op de wattmeter gelijk aan het piekuitgangsvermogen van de zender"
+    },
+    {
+     "letter": "B",
+     "text": "is het aangeduide vermogen op de wattmeter gelijk aan 2 x het piekuitgangsvermogen van de zender"
+    },
+    {
+     "letter": "C",
+     "text": "is het aangeduide vermogen op de wattmeter gelijk aan de helft van het piekuitgangsvermogen van de zender"
+    },
+    {
+     "letter": "D",
+     "text": "Een twee-toon test is daar niet voor geschikt"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 79,
+   "sub": "10.1",
+   "vraag": "De regelknop van de tijdsbasis van een oscilloscoop bevindt zich in de stand 2 ms per verdeling. Wat is ongeveer de frequentie van de spanning op het scherm?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "500 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "3300 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "330 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "5000 Hz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h10/fig-r79.png"
+  },
+  {
+   "id": 80,
+   "sub": "10.1",
+   "vraag": "Waartoe dient de trigger-schakeling van een oscilloscoop?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Om de gevoeligheid van het toestel te verbeteren"
+    },
+    {
+     "letter": "B",
+     "text": "Om de bandbreedte van het toestel te verbeteren"
+    },
+    {
+     "letter": "C",
+     "text": "Om verschillende beelden boven elkaar te kunnen waarnemen"
+    },
+    {
+     "letter": "D",
+     "text": "Om een stilstaand beeld van periodisch signaal te bekomen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 81,
+   "sub": "10.1",
+   "vraag": "Een oscilloscoop , in zijn klassieke toepassing, doet een meting",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "In het frequentiedomein"
+    },
+    {
+     "letter": "B",
+     "text": "In het tijdsdomein"
+    },
+    {
+     "letter": "C",
+     "text": "In het frequentiedomein of in het tijdsdomein"
+    },
+    {
+     "letter": "D",
+     "text": "In het frequentiedomein en in het tijdsdomein"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 82,
+   "sub": "10.1",
+   "vraag": "Wat duidt de y-as (verticale as) van een oscilloscoop in zijn klassiek gebruik aan?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Amplitude"
+    },
+    {
+     "letter": "B",
+     "text": "Fase"
+    },
+    {
+     "letter": "C",
+     "text": "Tijd"
+    },
+    {
+     "letter": "D",
+     "text": "Frequentie"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 83,
+   "sub": "10.1",
+   "vraag": "Een wisselspanning is aangesloten op de verticale ingang van een oscilloscoop, met een gevoeligheid van 10 V per verdeling. Wat is de effectieve waarde van de spanning op bijgaande figuur?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "14 V"
+    },
+    {
+     "letter": "B",
+     "text": "20 V"
+    },
+    {
+     "letter": "C",
+     "text": "40 V"
+    },
+    {
+     "letter": "D",
+     "text": "7 V"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h10/fig-r83.png"
+  },
+  {
+   "id": 84,
+   "sub": "10.1",
+   "vraag": "Wat duidt de x-as (horizontale as) van een oscilloscoop in zijn klassiek gebruik aan?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "amplitude"
+    },
+    {
+     "letter": "B",
+     "text": "fase"
+    },
+    {
+     "letter": "C",
+     "text": "tijd"
+    },
+    {
+     "letter": "D",
+     "text": "frequentie"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 85,
+   "sub": "10.1",
+   "vraag": "Wat duidt de y-as (verticale as) van een spectrumanalyser in zijn klassiek gebruik aan?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Amplitude"
+    },
+    {
+     "letter": "B",
+     "text": "Fase"
+    },
+    {
+     "letter": "C",
+     "text": "Tijd"
+    },
+    {
+     "letter": "D",
+     "text": "Frequentie"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 86,
+   "sub": "10.1",
+   "vraag": "Wat duidt de x-as (horizontale as) van een spectrumanalyser in zijn klassiek gebruik aan?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Amplitude"
+    },
+    {
+     "letter": "B",
+     "text": "Fase"
+    },
+    {
+     "letter": "C",
+     "text": "Tijd"
+    },
+    {
+     "letter": "D",
+     "text": "Frequentie"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 87,
+   "sub": "10.1",
+   "vraag": "Een spectrumanalyser is een ideaal toestel om",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De frequentie van een RF-signaal exact mee te bepalen"
+    },
+    {
+     "letter": "B",
+     "text": "De bandbreedte van een RF-signaal mee te meten"
+    },
+    {
+     "letter": "C",
+     "text": "De sterkte van een RF-signaal mee te meten"
+    },
+    {
+     "letter": "D",
+     "text": "De impedantie van een antenne te meten"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 88,
+   "sub": "10.1",
+   "vraag": "Een spectrumanalyser doet een meting",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "In het frequentiedomein"
+    },
+    {
+     "letter": "B",
+     "text": "in het tijdsdomein"
+    },
+    {
+     "letter": "C",
+     "text": "In het frequentiedomein of in het tijdsdomein"
+    },
+    {
+     "letter": "D",
+     "text": "In het frequentiedomein en in het tijdsdomein"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  }
+ ]
+}

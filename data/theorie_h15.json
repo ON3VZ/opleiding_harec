@@ -1,0 +1,98 @@
+{
+  "hoofdstuk": 15,
+  "titel": "Belgische regelgeving",
+  "bron": "UBA-handboek hoofdstuk 15 (bijlage, versie 2021) · Wet elektronische communicatie 13 juni 2005 · KB private radiocommunicatie",
+  "subhoofdstukken": [
+    {
+      "id": "15.1",
+      "titel": "Belgische regelgeving",
+      "blokken": [
+        { "type": "text", "inhoud": "De Belgische reglementering voor radioamateurs bestaat uit delen van de **Wet betreffende de elektronische communicatie** (13 juni 2005) en het **koninklijk besluit (KB) betreffende de private radiocommunicatie**. Anders dan de rest van de cursus draait dit hoofdstuk vooral om **vanbuiten leren**: op het examen worden concrete details gevraagd. De examenmaterie is identiek voor het HAREC-, Novice- en basisvergunningsexamen." },
+
+        { "type": "keybox", "titel": "Hiërarchie van de regelgeving", "inhoud": "Van hoog naar laag: **Wet** → **Koninklijk Besluit (KB)** → **Ministerieel Besluit (MB)** → **Besluit van de Raad van het BIPT**.\nEen lagere regeling mag nooit in tegenspraak zijn met een hogere: een KB niet met een wet, een MB niet met een wet of KB, enz." },
+
+        { "type": "text", "inhoud": "**Deel 1 — De Wet betreffende de elektronische communicatie (13 juni 2005).** Deze wet legt de basisdefinities vast en de bevoegdheden van het BIPT." },
+        { "type": "concept", "titel": "Definities (Artikel 2)", "essentie": "De wet definieert o.a. radiogolven (<3000 GHz), radiocommunicatie, radiostation en schadelijke storing.",
+          "detail": {
+            "uitleg": "Artikel 2 somt de definities op. **Radiogolven/hertzgolven**: elektromagnetische golven die zich zonder kunstmatige geleider voortplanten en waarvan de frequentie **onder 3000 GHz** ligt. **Radiocommunicatie**: elke overbrenging via radiogolven van inlichtingen van alle aard (klanken, teksten, beelden, seinen...). **Radiostation**: het geheel van zend- en/of ontvangtoestel, de antennes en alle onderdelen die nodig zijn om het te laten werken. **Schadelijke storing**: storing die een veiligheidsdienst (bv. radionavigatie) in gevaar brengt, of die een correct werkende radiodienst ernstig verslechtert, hindert of herhaaldelijk onderbreekt.",
+            "voorbeeld": "Let op de nuance bij 'schadelijke storing': het gaat enkel om storing van een radiodienst. Storing van een gewoon huishoudtoestel (bv. je zender die de radio van de buur stoort) valt niet onder deze wettelijke definitie.",
+            "analogie": "De definities zijn de 'woordenlijst' van de wet: elk begrip dat later gebruikt wordt, krijgt hier een exacte betekenis, zodat er geen discussie over kan bestaan."
+          }
+        },
+        { "type": "concept", "titel": "Het BIPT (Artikel 13)", "essentie": "Het BIPT (het Instituut) beheert het radiospectrum, onderzoekt aanvragen, coördineert frequenties en controleert het gebruik.",
+          "detail": {
+            "uitleg": "Artikel 13 belast het **Instituut** — het **BIPT** (Belgisch Instituut voor Postdiensten en Telecommunicatie) — met: (1) het **beheer van het radiofrequentiespectrum**, (2) het **onderzoek van de aanvragen** voor spectrumgebruik, (3) de **coördinatie** van frequenties op nationaal en internationaal vlak, en (4) de **controle** op het gebruik van de radiofrequenties. Het BIPT publiceert onder meer een **frequentietabel** met de toegelaten frequenties per vergunningsklasse, en houdt rekening met de internationale akkoorden, waaronder de ITU-radioregelgeving.",
+            "voorbeeld": "Als je wil weten welke frequentiebanden je met je klasse-A-vergunning mag gebruiken, raadpleeg je de frequentietabel die het BIPT publiceert. Het BIPT controleert ook of iedereen zich aan die toewijzingen houdt.",
+            "analogie": "Het BIPT is de 'verkeersleiding' van het radiospectrum: het verdeelt de banen (frequenties), geeft rijbewijzen (vergunningen) uit en controleert of iedereen zich aan de regels houdt."
+          }
+        },
+        { "type": "concept", "titel": "Vergunningsplicht (Artikel 13/1)", "essentie": "Niemand mag een zend- of ontvangtoestel houden of een radiostation gebruiken zonder schriftelijke vergunning, tenzij uitdrukkelijk vrijgesteld.",
+          "detail": {
+            "uitleg": "Artikel 13/1 stelt dat niemand in het Rijk (of aan boord van een Belgisch schip/vliegtuig) een zend- of ontvangtoestel mag **houden**, of een radiostation mag **aanleggen en doen werken**, zonder een **schriftelijke vergunning** (art. 39) of een gebruiksrecht (art. 18). Belangrijk: niet enkel het *gebruiken*, maar ook het loutere **houden** (bezitten, huren, in leen hebben) van een zender/ontvanger vereist een vergunning — tenzij het toestel uitdrukkelijk is vrijgesteld. De Koning kan bepalen in welke gevallen geen vergunning vereist is.",
+            "voorbeeld": "Zelfs als je een zender enkel in de kast hebt liggen zonder hem te gebruiken, heb je in principe een (houders)vergunning nodig. Kom je onverwacht in het bezit van een zender (bv. via een erfenis), dan heb je 60 dagen om een vergunning aan te vragen (art. 5/2 van het KB).",
+            "analogie": "Het is als een vuurwapen: niet alleen het gebruiken, maar al het bezit ervan is gereglementeerd en vergunningsplichtig, tenzij het om een uitdrukkelijk vrijgestelde categorie gaat."
+          }
+        },
+
+        { "type": "text", "inhoud": "**Deel 2 — Het KB betreffende de private radiocommunicatie.** Dit KB regelt de categorieën, de vergunningen, de bedieningscertificaten, de roepnamen en de rechten (bijdragen)." },
+        { "type": "concept", "titel": "Categorieën — radioamateurs zijn de 5de categorie (Artikel 4)", "essentie": "Vergunningen worden in categorieën ingedeeld. Radioamateurs vallen onder de 5de categorie: stations voor individuele opleiding, technische berichtenwisseling en studies.",
+          "detail": {
+            "uitleg": "Artikel 4 rangschikt de vergunde radiostations in categorieën volgens hun bestemming. De **5de categorie** zijn de **private radiostations voor individuele opleiding, technische berichtenwisseling en studies, gebruikt door radioamateurs** — dat zijn wij. Andere categorieën: 1e (private mobiele netten), 2e (private vaste netten), 3e (overheid, spoorwegen, ziekenhuizen, hulpdiensten), 4e (zeevaart/binnenvaart), 6e (luchtvaart), 7e (houdersvergunningen), enz. Bij controle van een station identificeert men zich dus als 'station van de 5de categorie'.",
+            "voorbeeld": "Vraagt een controleur naar de categorie van je station, dan antwoord je: de 5de categorie. Die categorie bepaalt welke regels (bedieningscertificaat, toegelaten communicatie) op jou van toepassing zijn.",
+            "analogie": "De categorieën zijn als rijbewijscategorieën (A voor motor, B voor auto, C voor vrachtwagen): radioamateurs hebben hun eigen 'categorie 5', met eigen regels en rechten."
+          }
+        },
+        { "type": "concept", "titel": "De drie klassen bedieningscertificaten (Artikel 17/1)", "essentie": "Klasse A = HAREC (hoogste, CEPT T/R 61-02), klasse B = beginner (ECC 05-06), klasse C = basis (ECC-rapport 89). Geldig 5 jaar, verlengbaar.",
+          "detail": {
+            "uitleg": "Voor de 5de categorie bestaan drie **klassen bedieningscertificaten**. **Klasse A** stemt overeen met het geharmoniseerde **HAREC**-certificaat (CEPT-aanbeveling **T/R 61-02**) en is de hoogste vergunning. **Klasse B** is het **beginnerscertificaat** (CEPT-aanbeveling **ECC (05)06**). **Klasse C** is het **basiscertificaat op instapniveau** (ECC-**rapport 89**). Een bedieningscertificaat is **vijf jaar geldig** vanaf de afgifte en is **verlengbaar**. Enkel houders van een **klasse A** (HAREC) mogen zelf radioapparatuur bouwen/wijzigen zonder de normale conformiteitsvereisten. Bij verlies, diefstal of wijziging moet je het BIPT informeren en een nieuw certificaat aanvragen.",
+            "voorbeeld": "Slaag je voor het HAREC-examen, dan krijg je een klasse A-bedieningscertificaat — het hoogste, dat je onder meer toelaat zelf apparatuur te bouwen en het volledige zendvermogen en alle banden te gebruiken.",
+            "analogie": "De klassen zijn als niveaus van een diploma: C is het instapniveau, B het tussenniveau, A (HAREC) het volledige, internationaal erkende diploma met de meeste rechten."
+          }
+        },
+        { "type": "concept", "titel": "Leeftijd, examens en herkansing (Artikel 5/1, 17/2, 17/3)", "essentie": "Minimumleeftijd 12 jaar voor de 5de categorie. Zakken? Na 1 maand opnieuw. Bedrog? 3 jaar uitsluiting en intrekking van certificaten.",
+          "detail": {
+            "uitleg": "De **minimumleeftijd** om deel te nemen aan het examen voor de 5de categorie is **12 jaar**; een vergunning voor een station van de 5de categorie kan verleend worden aan natuurlijke personen ouder dan **12 jaar** (voor andere categorieën geldt 18 jaar). Er wordt **geen vrijstelling** van examenstof verleend. Wie **zakt**, mag zich na **één maand** opnieuw inschrijven voor datzelfde examen. Wie betrapt wordt op **bedrog of poging tot bedrog**: het examen wordt nietig verklaard, de kandidaat mag gedurende **drie jaar** geen door het BIPT georganiseerd examen meer afleggen, en alle certificaten/vergunningen gebaseerd op dat examen worden ingetrokken.",
+            "voorbeeld": "Ben je 13 en slaag je voor het examen, dan kan je een vergunning van de 5de categorie krijgen. Zak je, dan wacht je minstens een maand voor een herkansing. Word je betrapt op spieken, dan ben je drie jaar uitgesloten.",
+            "analogie": "De examenregels lijken op die van het rijexamen: een minimumleeftijd, een wachttijd na een buis, en strenge sancties bij fraude."
+          }
+        },
+        { "type": "concept", "titel": "Roepnaam en identificatie (Artikel 6/1, 17/8)", "essentie": "Het BIPT kent de roepnaam toe. Je zendt hem uit aan begin en einde van elke uitzending, en minstens elke 5 minuten.",
+          "detail": {
+            "uitleg": "De **roepnaam** (art. 2, 12°: een combinatie van letters of letters en cijfers die het station identificeert) wordt door het **BIPT toegekend** — onder meer per houder van een bedieningscertificaat van de 5de categorie. Het BIPT bepaalt de samenstelling volgens de internationale regels en kan een roepnaam op elk moment wijzigen. Bij het uitzenden geldt (art. 17/8): de roepnaam wordt **ten minste één keer aan het begin en aan het einde** van elke uitzending gebruikt, en bij een langere uitzending **minstens om de vijf minuten** herhaald. In telefonie wordt hij duidelijk uitgesproken en indien nodig gespeld met het internationale spellingsalfabet (h14); in telegrafie in morsecode op de gebruikte snelheid.",
+            "voorbeeld": "Belgische roepnamen beginnen met een ON-prefix (bv. ON4XYZ). Tijdens een lang QSO moet je je roepnaam minstens elke vijf minuten herhalen, en zeker bij het begin en einde.",
+            "analogie": "De roepnaam is als je nummerplaat op de radio: hij identificeert je uniek, en je moet je 'kenteken' regelmatig tonen tijdens het 'rijden' (uitzenden)."
+          }
+        },
+        { "type": "concept", "titel": "Verplichtingen en verboden gebruik (Artikel 9, 12, 17)", "essentie": "Je bent verantwoordelijk voor je station, moet onbevoegd gebruik voorkomen, en mag geen berichten voor derden of met publicitair karakter uitzenden.",
+          "detail": {
+            "uitleg": "De vergunninghouder (art. 9) moet: het gebruik door **onbevoegden voorkomen**, de **verantwoordelijkheid dragen** voor elk gebruik, nagaan dat de gebruiker een passend certificaat heeft, en de uitzendingen kunnen **stoppen op verzoek** van de controleoverheden. Verboden is (art. 12, 17): berichten uitzenden die **geen betrekking hebben** op de toegelaten activiteit, uitzendingen met een **publicitair karakter**, en radiocommunicatie **voor rekening of ten voordele van derden** (met mogelijke afwijking door het BIPT). Een station van de 5de categorie wordt gebruikt voor uitzending in **duidelijke taal** over technische onderwerpen — versleuteling is enkel toegelaten voor stationsbeheer of bij noodhulp met toestemming.",
+            "voorbeeld": "Je mag geen boodschap doorseinen namens een bedrijf of familielid dat zelf geen radioamateur is (geen 'derde-partij-verkeer', tenzij het BIPT afwijking toestaat), en zeker geen reclame maken. Je station en alle uitzendingen erop blijven jouw verantwoordelijkheid.",
+            "analogie": "Je bent als de eigenaar van een auto die je uitleent: jij blijft verantwoordelijk, je moet zorgen dat enkel bevoegde bestuurders erin rijden, en je mag er geen taxidienst of reclamewagen van maken."
+          }
+        },
+        { "type": "concept", "titel": "Schorsing en intrekking (Artikel 10, 11)", "essentie": "Het BIPT kan een vergunning schorsen of intrekken bij het niet naleven van voorwaarden, weigeren storingen op te heffen of niet betalen. Onrechtmatig gebruik = onmiddellijke intrekking.",
+          "detail": {
+            "uitleg": "Het BIPT kan (art. 10) een vergunning op elk ogenblik **schorsen of intrekken** wanneer de houder: de vergunningsvoorwaarden niet naleeft; weigert voorgeschreven maatregelen te nemen om **storingen op te heffen**; de verschuldigde rechten niet tijdig **betaalt**; of een gemeenschappelijke/collectieve frequentie probeert **in te palmen** door blokkeren. Bij schorsing wordt de gebruiker gehoord (tenzij hoogdringendheid). Schorsing/intrekking geeft **geen recht op vergoeding** of terugbetaling. **Onrechtmatig gebruik** van een vergund station, zelfs door iemand anders dan de houder, leidt tot de **onmiddellijke intrekking** van de vergunning (art. 11).",
+            "voorbeeld": "Weiger je een filter te plaatsen nadat het BIPT vaststelde dat je station een veiligheidsdienst stoort, dan kan je vergunning geschorst of ingetrokken worden — zonder schadevergoeding.",
+            "analogie": "Zoals een rijbewijs kan worden ingetrokken bij zware overtredingen of het niet betalen van boetes, kan je zendvergunning worden geschorst of ingetrokken bij inbreuken."
+          }
+        },
+        { "type": "concept", "titel": "Rechten en vrijstellingen (Artikel 35, 36, 37)", "essentie": "Er is een dossierrecht (per aanvraag/examen) en een jaarlijks recht. 65-plussers, minderjarigen en personen met verminderde zelfredzaamheid zijn vrijgesteld van het dossierrecht voor een individueel station van de 5de categorie.",
+          "detail": {
+            "uitleg": "Er zijn twee soorten bijdragen. Het **dossierrecht** (art. 35) dekt de studiekosten en is verschuldigd bij o.a. een examen-inschrijving, een aanvraag voor een bedieningscertificaat, of een vergunningsaanvraag. Dien je een aanvraag **minder dan 20 werkdagen** vóór de gewenste indienststelling in, dan **verdubbelt** het dossierrecht; minder dan **5 werkdagen** vooraf: het **vervijfvoudigt**. Het **jaarlijks recht** (art. 37) dekt de terbeschikkingstelling van frequenties en de controlekosten. **Vrijgesteld van het dossierrecht** voor een individueel station van de 5de categorie zijn (art. 36): **65-plussers, minderjarigen**, en personen met een vermindering van zelfredzaamheid van ten minste 12 punten of een verminderd verdienvermogen tot een derde of minder (op vertoon van een attest).",
+            "voorbeeld": "Ben je 65 of ouder, of minderjarig, dan betaal je geen dossierrecht voor je individuele radioamateurvergunning. Vraag je je vergunning last-minute aan (minder dan 5 werkdagen vooraf), dan betaal je vijf keer het normale dossierrecht.",
+            "analogie": "Het dossierrecht is als een administratieve behandelingskost (eenmalig per aanvraag), het jaarlijks recht als een jaarlijkse verkeersbelasting. Bepaalde groepen krijgen vrijstelling, en wie te laat is betaalt een toeslag."
+          }
+        },
+        { "type": "concept", "titel": "Erkende verenigingen en noodcommunicatie (Artikel 17/4, 17/7)", "essentie": "Een erkende radioamateurvereniging (zoals de UBA) heeft stations in minstens 5 provincies en organiseert de opleidingen. Bij nood mag een radioamateur de nooddiensten bijstaan.",
+          "detail": {
+            "uitleg": "Het BIPT erkent een **radioamateurvereniging** (art. 17/4) als vzw naar Belgisch recht die de 5de-categorie-activiteiten bevordert, **vaste stations heeft in ten minste vijf Belgische provincies** (of vier + Brussel), de **opleidingen organiseert** (toegankelijk zonder voorafgaand lidmaatschap), en waarvan minstens twee gevolmachtigden een klasse A-certificaat hebben. Zulke verenigingen mogen ook **morsecode-toetsen** organiseren. Inzake **noodcommunicatie** (art. 17/7): op verzoek van de crisisbeheerautoriteiten mag een houder van een 5de-categorie-certificaat de Belgische **nooddiensten bijstaan** bij het uitvallen van de communicatie — en daarbij zelfs geëncrypteerde berichten verzenden en over de nooddienst-activiteiten communiceren.",
+            "voorbeeld": "De UBA is de erkende radioamateurvereniging in België: ze organiseert de opleidingen en examens en behartigt de belangen van de 5de categorie. Bij een grote ramp mogen radioamateurs, met toestemming, de hulpdiensten bijstaan met hun stations.",
+            "analogie": "De erkende vereniging is als een officieel erkende rijschool-plus-belangenvereniging; de noodcommunicatie-regel is als vrijwillige brandweerhulp: in crisis mag je binnen je bevoegdheid bijspringen."
+          }
+        },
+        { "type": "keybox", "titel": "Kerncijfers en -feiten om te onthouden", "inhoud": "**Wet elektronische communicatie**: 13 juni 2005. Radiogolven: frequentie **< 3000 GHz**.\n**Radioamateurs** = **5de categorie**.\n**Bedieningscertificaat**: 5 jaar geldig, verlengbaar. Klassen **A (HAREC, T/R 61-02)**, **B (ECC 05-06)**, **C (ECC-rapport 89)**.\n**Minimumleeftijd 5de categorie**: 12 jaar. Zakken → herkansing na **1 maand**. Bedrog → **3 jaar** uitsluiting.\n**Roepnaam**: begin + einde van elke uitzending, minstens elke **5 minuten**. Toegekend door het **BIPT**.\n**Onverwacht bezit**: 60 dagen om te regulariseren.\n**Dossierrecht**: ×2 bij < 20 werkdagen, ×5 bij < 5 werkdagen vooraf. Vrijstelling: **65-plussers, minderjarigen**, verminderde zelfredzaamheid.\nEnkel **klasse A** mag zelf apparatuur bouwen." }
+      ]
+    }
+  ]
+}

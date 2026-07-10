@@ -1,0 +1,2341 @@
+{
+ "hoofdstuk": "h07",
+ "vragen": [
+  {
+   "id": 2,
+   "sub": "7.2",
+   "vraag": "Wat is de frequentie van de tweede middenfrequenttrap?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "219 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "1 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "10,7 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "455 kHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h07/fig-r2.png"
+  },
+  {
+   "id": 3,
+   "sub": "7.2",
+   "vraag": "Geef  één van de redenen op waarom een goede ontvanger meestal een superheterodyne-ontvanger is met meer dan één middenfrequent?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om meer gevoeligheid te bekomen"
+    },
+    {
+     "letter": "B",
+     "text": "om de spiegelfrequentie beter te versterken"
+    },
+    {
+     "letter": "C",
+     "text": "om zowel een goede selectiviteit als een goede onderdrukking van de spiegelfrequentie te bekomen"
+    },
+    {
+     "letter": "D",
+     "text": "om de ruis beter te onderdrukken"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 4,
+   "sub": "7.2",
+   "vraag": "Waarom heeft een ontvanger dikwijls een (schakelbare) verzwakker in de ingang ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om de S-meter te kunnen ijken"
+    },
+    {
+     "letter": "B",
+     "text": "om de vervorming in de laagfrequent versterker te verminderen"
+    },
+    {
+     "letter": "C",
+     "text": "om te vermijden dat de ingangstrap of mengtrap wordt overstuurd door sterke signalen"
+    },
+    {
+     "letter": "D",
+     "text": "om het laagfrequent volume bij te regelen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 5,
+   "sub": "7.2",
+   "vraag": "Waarom heeft een ontvanger dikwijls een uitschakelbare voorversterkertrap",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om minder ruis te hebben als de versterker is ingeschakeld"
+    },
+    {
+     "letter": "B",
+     "text": "om te vermijden dat de mengtrap wordt overstuurd door sterke signalen"
+    },
+    {
+     "letter": "C",
+     "text": "om een hogere S-meter aanduiding te verkrijgen"
+    },
+    {
+     "letter": "D",
+     "text": "om een betere selectiviteit te bekomen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 6,
+   "sub": "7.2",
+   "vraag": "In de mengtrap van een superheterodyne-ontvanger wordt het hoogfrequent signaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "gedemoduleerd"
+    },
+    {
+     "letter": "B",
+     "text": "omgezet naar een andere frequentie"
+    },
+    {
+     "letter": "C",
+     "text": "gemoduleerd in frequentie"
+    },
+    {
+     "letter": "D",
+     "text": "tot stand gebracht"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 7,
+   "sub": "7.2",
+   "vraag": "Tegenover een rechtuit ontvanger heeft een superheteropdyne-ontvanger",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een betere selectiviteit"
+    },
+    {
+     "letter": "B",
+     "text": "een lagere kost"
+    },
+    {
+     "letter": "C",
+     "text": "een betere audio kwaliteit"
+    },
+    {
+     "letter": "D",
+     "text": "een groter bereik"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 8,
+   "sub": "7.2",
+   "vraag": "Wat is een van de redenen waarom in een dubbel-superheterodyne ontvanger de frequentie van het 1ste MF zo hoog mogelijk wordt gekozen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om een betere selectiviteit te bekomen"
+    },
+    {
+     "letter": "B",
+     "text": "om een zo groot mogelijke onderdrukking van de spiegelfrequentie te hebben"
+    },
+    {
+     "letter": "C",
+     "text": "om de gevoeligheid te verhogen"
+    },
+    {
+     "letter": "D",
+     "text": "om de signaal/ruis verhouding te verbeteren"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 9,
+   "sub": "7.2",
+   "vraag": "De gevoeligheid van een superheterodyne ontvanger wordt in hoofdzaak bepaald door de ruis die ontstaat in:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de MF-versterker"
+    },
+    {
+     "letter": "B",
+     "text": "de oscillator"
+    },
+    {
+     "letter": "C",
+     "text": "de HF-versterker"
+    },
+    {
+     "letter": "D",
+     "text": "de LF-versterker"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 10,
+   "sub": "7.2",
+   "vraag": "Een 2-meter ontvanger werkt op 144,275 MHz. Zijn middenfrequent is 10,7 MHz. De lokale oscillator wordt verdrievoudigd. Wat is de frequentie van de lokale oscillator?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "54,525 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "52.66 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "44,525 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "48,091 MHz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 11,
+   "sub": "7.2",
+   "vraag": "In een ontvanger wordt een LSB (lagere zijband) signaal van 3,8 MHz gemengd met een VFO frequentie van 5,2 MHz. De middenfrequentie is 9 MHz. Het resulterende MF-sgnaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is een LSB (lagere zijband) signaal"
+    },
+    {
+     "letter": "B",
+     "text": "is een USB (hogere zijband) signaal"
+    },
+    {
+     "letter": "C",
+     "text": "is een LSB of een USB signaal afhankelijk van de frequenties van de BFO"
+    },
+    {
+     "letter": "D",
+     "text": "is  een DSB (dubbel-zijband) signaal"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 12,
+   "sub": "7.2",
+   "vraag": "In een ontvanger wordt een USB (bovenste zijband) signaal van 14,2 MHz gemengd met een VFO frequentie van 5,2 MHz. De middenfrequenties is 9 MHz. Het resulterende MF-sgnaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is een LSB (lagere zijband) signaal"
+    },
+    {
+     "letter": "B",
+     "text": "is een USB (hogere zijband) signaal"
+    },
+    {
+     "letter": "C",
+     "text": "is een LSB of een USB signaal afhankelijk van de frequenties van de BFO"
+    },
+    {
+     "letter": "D",
+     "text": "is  een DSB (dubbel-zijband) signaal"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 13,
+   "sub": "7.2",
+   "vraag": "Wat is het blokschema van een DC-ontvanger of ontvanger met directe omzetting (Engels: direct conversion Receiver)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 14,
+   "sub": "7.2",
+   "vraag": "Wat is een voordeel van een DC-ontvanger of ontvanger met directe omzetting (Engels: direct conversion receiver) ten opzichte van een superheterodyne ontvanger ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "nog bruikbaar op frequenties die te hoog zijn voor een superheterodyne ontvanger"
+    },
+    {
+     "letter": "B",
+     "text": "beter bestand tegen zeer sterke ongewenste signalen aan de ingang van de ontvanger"
+    },
+    {
+     "letter": "C",
+     "text": "eenvoudige opbouw en minder onderdelen nodig"
+    },
+    {
+     "letter": "D",
+     "text": "betere frequentiestabiliteit"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 15,
+   "sub": "7.2",
+   "vraag": "Wat is een nadeel van een DC-ontvanger of ontvanger met directe omzetting (Engels: direct conversion receiver) ten opzichte van een superheterodyne ontvanger ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "niet bruikbaar op zeer lage frequenties"
+    },
+    {
+     "letter": "B",
+     "text": "meer ingewikkelde opbouw en meer onderdelen nodig"
+    },
+    {
+     "letter": "C",
+     "text": "slechtere frequentiestabiliteit"
+    },
+    {
+     "letter": "D",
+     "text": "minder goed bestand tegen zeer sterke ongewenste signalen aan de ingang van de ontvanger"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 16,
+   "sub": "7.2",
+   "vraag": "Men kan zonder meer morse (CW) signalen ontvangen met",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een AM ontvanger"
+    },
+    {
+     "letter": "B",
+     "text": "een EZB (SSB) ontvanger"
+    },
+    {
+     "letter": "C",
+     "text": "een FM ontvanger"
+    },
+    {
+     "letter": "D",
+     "text": "met geen van de drie bovengenoemde"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 17,
+   "sub": "7.2",
+   "vraag": "Wat stelt bijgaand blokschema voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een superheterodyne ontvanger voor AM"
+    },
+    {
+     "letter": "B",
+     "text": "een superheterodyne- ontvanger voor EZB (SSB)"
+    },
+    {
+     "letter": "C",
+     "text": "een superheterodyne- ontvanger voor CW (telegrafie)"
+    },
+    {
+     "letter": "D",
+     "text": "een superheterodyne-ontvanger voor FM"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h07/fig-r17.png"
+  },
+  {
+   "id": 18,
+   "sub": "7.2",
+   "vraag": "Het blokschema stelt een superheterodyne-ontvanger voor. Identificeer het blokje aangeduid met een kruis.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "MF-versterker"
+    },
+    {
+     "letter": "B",
+     "text": "Detector"
+    },
+    {
+     "letter": "C",
+     "text": "LF versterker"
+    },
+    {
+     "letter": "D",
+     "text": "Mengtrap"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h07/fig-r18.png"
+  },
+  {
+   "id": 19,
+   "sub": "7.2",
+   "vraag": "Het blokschema stelt een superheterodyne-ontvanger voor. Identificeer het blokje aangeduid met een kruis.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "MF versterker"
+    },
+    {
+     "letter": "B",
+     "text": "Detector"
+    },
+    {
+     "letter": "C",
+     "text": "HF versterker"
+    },
+    {
+     "letter": "D",
+     "text": "Mengtrap"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h07/fig-r19.png"
+  },
+  {
+   "id": 20,
+   "sub": "7.2",
+   "vraag": "Het blokschema stelt een superheterodyne-ontvanger voor. Identificeer het blokje aangeduid met een kruis.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "oscillator"
+    },
+    {
+     "letter": "B",
+     "text": "Detector"
+    },
+    {
+     "letter": "C",
+     "text": "HF versterker"
+    },
+    {
+     "letter": "D",
+     "text": "Mengtrap"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h07/fig-r20.png"
+  },
+  {
+   "id": 21,
+   "sub": "7.2",
+   "vraag": "Het blokschema stelt een superheterodyne-ontvanger voor. Identificeer het blokje aangeduid met een kruis.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "HF versterker"
+    },
+    {
+     "letter": "B",
+     "text": "Detector"
+    },
+    {
+     "letter": "C",
+     "text": "MF versterker"
+    },
+    {
+     "letter": "D",
+     "text": "Mengtrap"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h07/fig-r21.png"
+  },
+  {
+   "id": 22,
+   "sub": "7.2",
+   "vraag": "Wat stelt bijgaand blokschema voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een superheterodyne-ontvanger voor AM"
+    },
+    {
+     "letter": "B",
+     "text": "een superheterodyne- ontvanger voor EZB (SSB)"
+    },
+    {
+     "letter": "C",
+     "text": "eeen superheterodyne-ontvanger voor CW (telegrafie)"
+    },
+    {
+     "letter": "D",
+     "text": "een superheterodyne-ontvanger voor FM"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 23,
+   "sub": "7.2",
+   "vraag": "Wat stelt bijgaand schema voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een superheterodyne ontvanger voor AM."
+    },
+    {
+     "letter": "B",
+     "text": "een superheterodyne ontvanger voor EZB (SSB)"
+    },
+    {
+     "letter": "C",
+     "text": "een superheterodyne ontvanger voor PCM"
+    },
+    {
+     "letter": "D",
+     "text": "een superheterodyne ontvanger voor FM"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h07/fig-r23.png"
+  },
+  {
+   "id": 24,
+   "sub": "7.2",
+   "vraag": "Wat is de product-detector in een superheterodyne-ontvanger?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een FM-demodulator"
+    },
+    {
+     "letter": "B",
+     "text": "een demodulator voor SSTV"
+    },
+    {
+     "letter": "C",
+     "text": "een demodulator voor EZB (SSB) en CW"
+    },
+    {
+     "letter": "D",
+     "text": "een detector circuit voor AM"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 25,
+   "sub": "7.2",
+   "vraag": "Welke van volgende schakelingen vindt men in een FM-ontvanger ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een zwevingsoscillator (BFO)"
+    },
+    {
+     "letter": "B",
+     "text": "een modulator met variabele reactantie"
+    },
+    {
+     "letter": "C",
+     "text": "een frequentie-discriminator"
+    },
+    {
+     "letter": "D",
+     "text": "een pre-emphase schakeling"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 26,
+   "sub": "7.2",
+   "vraag": "Een BFO (beat frequency oscillator of zwevingscoscillator) wordt in een superheterodyne ontvanger normaal gebruikt voor het detecteren van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Enkel EZB (SSB) signalen"
+    },
+    {
+     "letter": "B",
+     "text": "EZB (SSB) en telegrafie signalen (CW)"
+    },
+    {
+     "letter": "C",
+     "text": "AM signalen"
+    },
+    {
+     "letter": "D",
+     "text": "FM signalen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 27,
+   "sub": "7.2",
+   "vraag": "Een BFO (beat frequency oscillator of zwevingscoscillator) wordt gebruikt in een superheterodyne ontvanger",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om het effect van fading te minimaliseren"
+    },
+    {
+     "letter": "B",
+     "text": "voor de demodulatie van CW en SSB signalen"
+    },
+    {
+     "letter": "C",
+     "text": "om de stations in FM gemakkelijker te kunnen afstemmen"
+    },
+    {
+     "letter": "D",
+     "text": "de invloed van storingen te minimaliseren"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 28,
+   "sub": "7.2",
+   "vraag": "Wat is het doel van de HF versterker (1ste trap) in een superheterodyne ontvanger?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een optimale signaal/ruis-verhouding bekomen"
+    },
+    {
+     "letter": "B",
+     "text": "genoeg audio volume bekomen"
+    },
+    {
+     "letter": "C",
+     "text": "de selectiviteit verbeteren"
+    },
+    {
+     "letter": "D",
+     "text": "de storingen te onderdrukken"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 29,
+   "sub": "7.2",
+   "vraag": "Kan men de versterking van een HF versterker (1ste trap) in een superheterodyne ontvanger blijven opdrijven?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Ja op voorwaarde dat de versterkertrap lineair is"
+    },
+    {
+     "letter": "B",
+     "text": "Ja op voorwaarde dat de aanpassing goed gebeurt"
+    },
+    {
+     "letter": "C",
+     "text": "Neen, omdat anders de mengtrap zal overstuurd worden."
+    },
+    {
+     "letter": "D",
+     "text": "Neen omdat anders er vervorming in het audiosignaal optreedt"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 30,
+   "sub": "7.2",
+   "vraag": "Wat is geen geldige reden om een afgestemde HF voorversterker voor de mengtap in een superheterodyne ontvanger te plaatsen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de gevoeligheid verhogen (signaal/ruis verhouding verbeteren)"
+    },
+    {
+     "letter": "B",
+     "text": "selectiviteit verbeteren om intermodulatie door ver-verwijderde sterke signalen te vermijden"
+    },
+    {
+     "letter": "C",
+     "text": "ontvangst van spiegelfrequentie vermijden"
+    },
+    {
+     "letter": "D",
+     "text": "stabiliteit te verbeteren"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 31,
+   "sub": "7.2",
+   "vraag": "Waarom wordt in moderne HF-ontvangers of zend-ontvangers de HF-voorversterker veelal uitschakelbaar gemaakt?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om te vermijden dat bij zeer sterke signalen de ontvanger zou overstuurd worden en intermodulatie zou optreden"
+    },
+    {
+     "letter": "B",
+     "text": "om de S-meter te kunnen ijken"
+    },
+    {
+     "letter": "C",
+     "text": "om het audio volume beter te kunnen regelen"
+    },
+    {
+     "letter": "D",
+     "text": "om geen hinder te ondervinden van statische ontladingen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 32,
+   "sub": "7.2",
+   "vraag": "Waarom wordt in moderne HF-ontvangers of zend-ontvangers een verzwakker (meestal instelbaar in stappen) voor de HF versterker ingebouwd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om te vermijden dat bij zeer sterke signalen de ontvanger zou overstuurd worden en intermodulatie zou optreden"
+    },
+    {
+     "letter": "B",
+     "text": "om de S-meter te kunnen ijken"
+    },
+    {
+     "letter": "C",
+     "text": "om het audio volume beter te kunnen regelen"
+    },
+    {
+     "letter": "D",
+     "text": "om geen hinder te ondervinden van statische ontladingen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 33,
+   "sub": "7.2",
+   "vraag": "Wat is de bijzonderste eis die aan de HF-voorversterker van een ontvanger wordt gesteld op VHF en UHF?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "laag ruisgetal"
+    },
+    {
+     "letter": "B",
+     "text": "hoge selectiviteit"
+    },
+    {
+     "letter": "C",
+     "text": "grote lineariteit"
+    },
+    {
+     "letter": "D",
+     "text": "zo hoog mogelijke versterking"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 34,
+   "sub": "7.2",
+   "vraag": "Waarom mag een HF versterkertrap van een superheterodyne-ontvanger slechts genoeg versterking hebben opdat zwakke signalen de ruis gegenereerd in de mengtrap zou overstemmen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om te vermijden dat men de sterke signalen niet zou kunnen ontvangen"
+    },
+    {
+     "letter": "B",
+     "text": "om te vermijden dat het versterkte HF signaal door de mengtrap heen zou lekken"
+    },
+    {
+     "letter": "C",
+     "text": "om te vermijden dat de mengtrap overstuurd zou worden"
+    },
+    {
+     "letter": "D",
+     "text": "om te vermijden dat het signaal van de lokale oscillator zou doorlekken"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 35,
+   "sub": "7.2",
+   "vraag": "Wat stelt het blokschema voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een faze-modulator"
+    },
+    {
+     "letter": "B",
+     "text": "een phase-locked loop oscillator"
+    },
+    {
+     "letter": "C",
+     "text": "een variable kristal-oscillator"
+    },
+    {
+     "letter": "D",
+     "text": "een Faze-modulatie detector"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h07/fig-r35.png"
+  },
+  {
+   "id": 36,
+   "sub": "7.2",
+   "vraag": "Wat is het resultaat van een lokale oscillator (in een superheterodyne-ontvanger) die te veel faze-ruis genereert?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het beperkt de mogelijkheid van de ontvanger om sterke signalen te ontvangen"
+    },
+    {
+     "letter": "B",
+     "text": "het beperkt het frequentiebereik van de ontvanger"
+    },
+    {
+     "letter": "C",
+     "text": "het vermindert het derde-orde intercept punt"
+    },
+    {
+     "letter": "D",
+     "text": "het draagt ertoe bij dat sterke nabuursignalen storen bij de ontvangst van zwakke signalen (wederkerige menging)."
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 37,
+   "sub": "7.2",
+   "vraag": "Een mengtrap",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is een trap waar het antennesignaal omgezet wordt naar het lokale-oscillator signaal"
+    },
+    {
+     "letter": "B",
+     "text": "is een niet lineair element waar signalen gecombineerd worden en waar door vervorming een aantal mengproducten ontstaan"
+    },
+    {
+     "letter": "C",
+     "text": "is een schakeling waar verschillende spanningen worden gecombineerd om een betere stabiliteit te bekomen"
+    },
+    {
+     "letter": "D",
+     "text": "is een logische schakeling bestaande uit OR en AND poorten."
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 38,
+   "sub": "7.2",
+   "vraag": "In een mengtrap van een superheterodyne-ontvanger wordt het ontvangen hoogfrequentsignaal:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "gemoduleerd"
+    },
+    {
+     "letter": "B",
+     "text": "gedemoduleerd"
+    },
+    {
+     "letter": "C",
+     "text": "omgezet naar een andere frequentie"
+    },
+    {
+     "letter": "D",
+     "text": "versterkt"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 39,
+   "sub": "7.2",
+   "vraag": "Wat is “mengen” ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de eliminatie van breedband-ruis in een breedband ontvanger door faze-technieken"
+    },
+    {
+     "letter": "B",
+     "text": "de eliminatie van breedband-ruis in een breedband ontvanger door sommatie technieken"
+    },
+    {
+     "letter": "C",
+     "text": "het herwinnen van de informatie uit een gemoduleerde draaggolf"
+    },
+    {
+     "letter": "D",
+     "text": "het combineren van signalen in een niet-lineair element met als doel som- en verschilfrequenties te genereren."
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 40,
+   "sub": "7.2",
+   "vraag": "Frequentieomzetting in een zender of ontvanger gebeurt in een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "balansversterker"
+    },
+    {
+     "letter": "B",
+     "text": "oscillator"
+    },
+    {
+     "letter": "C",
+     "text": "mengtrap"
+    },
+    {
+     "letter": "D",
+     "text": "filter"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 41,
+   "sub": "7.2",
+   "vraag": "Het voordeel van een dubbelgebalanceerde mengtrap is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "dat er enkel verschilproducten (verschilfrequenties) ontstaan"
+    },
+    {
+     "letter": "B",
+     "text": "dat er enkel somproducten (somfrequenties) ontstaan"
+    },
+    {
+     "letter": "C",
+     "text": "dat er enkel oneven som- en verschilfrequenties ontstaan"
+    },
+    {
+     "letter": "D",
+     "text": "dat de oorspronkelijke frequenties (van de 2 ingangssignalen) sterk onderdrukt worden"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 42,
+   "sub": "7.2",
+   "vraag": "Een MF-versterker van een superheterodyne ontvanger",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "versterkt het signaal uit de oscillatoren en voert het toe aan de mengtrap"
+    },
+    {
+     "letter": "B",
+     "text": "versterkt het signaal uit de detector en voert het toe aan de LF-versterker"
+    },
+    {
+     "letter": "C",
+     "text": "versterkt het signaal uit de mengtrap en voert het toe aan de detector"
+    },
+    {
+     "letter": "D",
+     "text": "versterkt het signaal uit de antenne en voert het toe aan de mengtrap"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 43,
+   "sub": "7.2",
+   "vraag": "Een HF general-coverage ontvanger (ontvangt het volldige frequentiebereik van 100 kHz tot 30 MHz) gebruikt een 1ste MF frequentie van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "typisch 10,7 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "typisch 455 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "steeds minder dan 30 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "typisch boven 40 MHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 44,
+   "sub": "7.2",
+   "vraag": "Signaal-selectiviteit in een ontvanger wordt meestal bekomen d.m.v.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "kristal-filters in de middenfrequent versterker"
+    },
+    {
+     "letter": "B",
+     "text": "kristal filters na de detector"
+    },
+    {
+     "letter": "C",
+     "text": "kristal filters in de HF-versterker"
+    },
+    {
+     "letter": "D",
+     "text": "laag-doorlaat filters in de MF-versterkertrappen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 45,
+   "sub": "7.2",
+   "vraag": "Wat is de met “?” gemarkeerde schakeling in bijgaand blokschema?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "phase locked loop oscillator"
+    },
+    {
+     "letter": "B",
+     "text": "zwevingsoscillator"
+    },
+    {
+     "letter": "C",
+     "text": "middenfrequentversterker"
+    },
+    {
+     "letter": "D",
+     "text": "Audio-versterker"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h07/fig-r45.png"
+  },
+  {
+   "id": 46,
+   "sub": "7.2",
+   "vraag": "Een kristal-filter wordt",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "meestal in het middenfrequent van ontvanger geplaatst om voldoende signaalselectiviteit te bekomen"
+    },
+    {
+     "letter": "B",
+     "text": "veelal in de antenne ingangskringen van een ontvanger gebruikt om de selectiviteit te verbeteren"
+    },
+    {
+     "letter": "C",
+     "text": "wordt courant gebruikt als loop filter in een phase locked loop oscillator"
+    },
+    {
+     "letter": "D",
+     "text": "bezit steeds 2 polen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 47,
+   "sub": "7.2",
+   "vraag": "Waarmee moet men rekening houden bij het bepalen van de frequentie van een middenfrequentversterker in een superheterodyne-ontvanger?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "crossmodulatie-vervorming en storing"
+    },
+    {
+     "letter": "B",
+     "text": "onderdrukking spiegelfrequentie en selectiviteit"
+    },
+    {
+     "letter": "C",
+     "text": "gevoeligheid en vervorming"
+    },
+    {
+     "letter": "D",
+     "text": "versterking en vervorming"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 48,
+   "sub": "7.2",
+   "vraag": "Een typische FM ontvanger",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "heeft een AVC-schakeling"
+    },
+    {
+     "letter": "B",
+     "text": "heeft een begrenzer"
+    },
+    {
+     "letter": "C",
+     "text": "heeft een zwevingoscillator (BFO)"
+    },
+    {
+     "letter": "D",
+     "text": "heeft een product detector"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 49,
+   "sub": "7.2",
+   "vraag": "In een FM ontvanger gebruikt men doorgaans",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een begrenzer om het audio niveau constant te houden"
+    },
+    {
+     "letter": "B",
+     "text": "AVR (automatische volume regeling) om het audio niveau constant te houden"
+    },
+    {
+     "letter": "C",
+     "text": "een automatische potentiometer om het audio niveau constant te houden"
+    },
+    {
+     "letter": "D",
+     "text": "een audio trap met automatische volume-regeling om het audio niveau constant te houden"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 50,
+   "sub": "7.2",
+   "vraag": "Waarom kan een begrenzer gebruikt worden in een FM-ontvanger om het audio niveau van de ontvanger constant te houden, en niet in een EZB (SSB)-ontvanger?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "omdat er bij een FM-signaal geen informatie zit in de amplitude van het signaal en bij SSB wel"
+    },
+    {
+     "letter": "B",
+     "text": "omdat in EZB (SSB) signaal geen de informatie in de amplitude van het signaal zit"
+    },
+    {
+     "letter": "C",
+     "text": "omdat een begrenzer alleen een FM-signaal begrenst in amplitude"
+    },
+    {
+     "letter": "D",
+     "text": "omdat een begrenzer een EZB (SSB) signaal niet begrenst"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 51,
+   "sub": "7.2",
+   "vraag": "Welk is de schakeling in een superheterodyne ontvanger voor CW dat het signaal afkomstig van de middenfrequentversterker mengt met het signaal afkomstig van de zwevinsgoscillator (BFO) met als doel een audiosignaal te produceren?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de AVC-schakeling"
+    },
+    {
+     "letter": "B",
+     "text": "de product-detector"
+    },
+    {
+     "letter": "C",
+     "text": "de voedingsschakeling"
+    },
+    {
+     "letter": "D",
+     "text": "de VFO (variable frequency oscillator)"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 52,
+   "sub": "7.2",
+   "vraag": "Een productdetector voor EZB (SSB) demodulatie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is een vorm van een mengtrap"
+    },
+    {
+     "letter": "B",
+     "text": "is een vorm van een faze-comparator"
+    },
+    {
+     "letter": "C",
+     "text": "is een vorm van een diode-detector"
+    },
+    {
+     "letter": "D",
+     "text": "is een vorm van een FM discriminator"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 53,
+   "sub": "7.2",
+   "vraag": "Als men een LSB (lagere zijband) signaal correct ontvangt (normale toon), en men verhoogt de ontvangstfrequentie lichtjes (vb. 100 Hz) dan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zal het audiosignaal lager in toon klinken"
+    },
+    {
+     "letter": "B",
+     "text": "zal het audiosignaal hoger in toon klinken"
+    },
+    {
+     "letter": "C",
+     "text": "zal het audiosignaal onveranderd klinken"
+    },
+    {
+     "letter": "D",
+     "text": "zal het audiosignaal zwakker klinken"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 54,
+   "sub": "7.2",
+   "vraag": "Als men een AM signaal correct ontvangt (normale toon), en men verhoogt de ontvangstfrequentie lichtjes (vb. 100 Hz) dan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zal het audiosignaal lager in toon klinken"
+    },
+    {
+     "letter": "B",
+     "text": "zal het audiosignaal hoger in toon klinken"
+    },
+    {
+     "letter": "C",
+     "text": "zal het audiosignaal onveranderd klinken"
+    },
+    {
+     "letter": "D",
+     "text": "zal het audiosignaal zwakker klinken"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 55,
+   "sub": "7.2",
+   "vraag": "Als men een FM signaal correct ontvangt (normale toon), en men verhoogt de ontvangstfrequentie lichtjes (vb. 100 Hz) dan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het audiosignaal lager in toon klinken"
+    },
+    {
+     "letter": "B",
+     "text": "zal het audiosignaal hoger in toon klinken"
+    },
+    {
+     "letter": "C",
+     "text": "zal het audiosignaal onveranderd klinken"
+    },
+    {
+     "letter": "D",
+     "text": "zal het audio signaal zwakker klinken"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 56,
+   "sub": "7.2",
+   "vraag": "Bij het demoduleren van een LSB (lagere zijband) signaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de BFO frequentie lager dan de frequentie van het te demoduleren signaal"
+    },
+    {
+     "letter": "B",
+     "text": "is de BFO frequentie hoger dan de frequentie van het te demoduleren signaal"
+    },
+    {
+     "letter": "C",
+     "text": "is de BFO frequentie gelijk aan de frequentie van het te demoduleren signaal"
+    },
+    {
+     "letter": "D",
+     "text": "wordt de BFO niet gebruikt"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 57,
+   "sub": "7.2",
+   "vraag": "Bij het demoduleren van een USB (hogere zijband) signaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de BFO frequentie lager dan de frequentie van het te demoduleren signaal"
+    },
+    {
+     "letter": "B",
+     "text": "is de BFO frequentie hoger dan de frequentie van het te demoduleren signaal"
+    },
+    {
+     "letter": "C",
+     "text": "is de BFO frequentie gelijk aan de frequentie van het te demoduleren signaal"
+    },
+    {
+     "letter": "D",
+     "text": "wordt de BFO niet gebruikt"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 58,
+   "sub": "7.2",
+   "vraag": "Bij demodulatie van een telegrafie (CW) signaal, dient, om een goede ontvangst te hebben",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de BFO frequentie steeds lager dan de frequentie van het te demoduleren signaal"
+    },
+    {
+     "letter": "B",
+     "text": "de BFO frequentie steeds hoger dan de frequentie van het te demoduleren signaal"
+    },
+    {
+     "letter": "C",
+     "text": "de BFO frequentie gelijk te zijn aan de frequentie van het te demoduleren signaal"
+    },
+    {
+     "letter": "D",
+     "text": "kan de BFO frequentie of hoger of lager dan de frequentie van het te demoduleren signaal worden ingesteld."
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 59,
+   "sub": "7.2",
+   "vraag": "Welke is de schakeling in een CW-ontvanger die het middenfrequent signaal combineert met het signaal van de zwevingsoscillator om een audio signaal te produceren?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een AVR schakeling"
+    },
+    {
+     "letter": "B",
+     "text": "een detectorschakeling"
+    },
+    {
+     "letter": "C",
+     "text": "een voedingsschakeling"
+    },
+    {
+     "letter": "D",
+     "text": "de VFO (\"Variable Frequency Oscillator\")"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 60,
+   "sub": "7.2",
+   "vraag": "De figuur geeft de doorlaatcurve van een MF-filter voor SSB-ontvangst. Wat zal de BFO frequentie zijn voor het ontvangen van een LSB (lagere zijband) signaal (op deze frequentie) ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "9,000 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "9,0015 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "8,9985 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "9,0015 of  8,9985 MHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h07/fig-r60.png"
+  },
+  {
+   "id": 61,
+   "sub": "7.2",
+   "vraag": "De figuur geeft de doorlaatcurve van een MF-filter voor SSB-ontvangst. Wat zal de BFO frequentie zijn voor het ontvangen van een USB (hogere zijband) signaal?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "9,000 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "9,0015 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "8,9985 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "9,0015 of  8,9985 MHz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h07/fig-r61.png"
+  },
+  {
+   "id": 62,
+   "sub": "7.2",
+   "vraag": "Waartoe dient de laagfrequent-versterker in een amateur-ontvanger.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om het gedetecteerde of gedemoduleerde signaal te versterken en aan de luidspreker of hoofdtelefoon toe te voeren."
+    },
+    {
+     "letter": "B",
+     "text": "Om de lage impedantie van de detector aan te passen aan een hogere impedantie van de luidspreker"
+    },
+    {
+     "letter": "C",
+     "text": "Om de nog resterende HF componenten in het signaal te onderdrukken"
+    },
+    {
+     "letter": "D",
+     "text": "Om het audio signaal te digitaliseren met als doel een betere luisterkwaliteit te bekomen."
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 63,
+   "sub": "7.2",
+   "vraag": "De minimale doorlaatbereik in de laagfrequent trap(pen) van een amateur-ontvanger is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "van ongeveer 300 tot 3000 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "van ongeveer 5 Hz tot 25000 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "van 125 Hz tot 800Hz"
+    },
+    {
+     "letter": "D",
+     "text": "van 10 Hz tot ca. 9 MHz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 64,
+   "sub": "7.2",
+   "vraag": "Onder automatische volumeregeling (AVR) van een ontvanger verstaat men",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het mechanisme dat de versterking van de HF, MF en AF trappen automatisch bijregelt in functie van de sterkte van het ontvangen signaal"
+    },
+    {
+     "letter": "B",
+     "text": "het mechanisme dat het signaal van de antenne automatisch verzwakt  als het ontvangen signaal sterker wordt"
+    },
+    {
+     "letter": "C",
+     "text": "het mechanisme dat de versterking van de HF en/of MF trappen automatisch bijregelt in functie van de sterkte van het ontvangen signaal"
+    },
+    {
+     "letter": "D",
+     "text": "het mechanisme dat de versterking van de audio trap van een ontvanger automatisch bijregelt in functie van de sterkte van het ontvangen signaal"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 65,
+   "sub": "7.2",
+   "vraag": "Wat is het doel van een AVR (automatische volumeregeling) in een superheterodyne ontvanger?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De gevoeligheid van de ontvanger op te drijven"
+    },
+    {
+     "letter": "B",
+     "text": "de totale versterking van de ontvanger constant te houden bij wisselende sterktes van ontvangen signalen."
+    },
+    {
+     "letter": "C",
+     "text": "Een S-meter te hebben"
+    },
+    {
+     "letter": "D",
+     "text": "Zowel FM als EZB te kunnen ontvangen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 66,
+   "sub": "7.2",
+   "vraag": "De totale versterking van een superheterodyne ontvanger, uitgerust met een AVR schakeling",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is ongeveer constant"
+    },
+    {
+     "letter": "B",
+     "text": "verandert in functie van de sterkte van het ontvangen signaal"
+    },
+    {
+     "letter": "C",
+     "text": "hangt alleen af van de instelling van de HF/MF gain potentiometer"
+    },
+    {
+     "letter": "D",
+     "text": "hangt alleen af van de instelling van de audio volume potentiometer"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 67,
+   "sub": "7.2",
+   "vraag": "De schaal van een S-meter van een amateur-ontvanger geeft gewoonlijk weer",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "µv"
+    },
+    {
+     "letter": "B",
+     "text": "dBi"
+    },
+    {
+     "letter": "C",
+     "text": "S-punten"
+    },
+    {
+     "letter": "D",
+     "text": "S-punten en dB’s (sterker dan S-9)"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 68,
+   "sub": "7.2",
+   "vraag": "Bij een S-meter van een amateur ontvanger is 1 S-punt gewoonlijk gelijk aan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3 dB"
+    },
+    {
+     "letter": "B",
+     "text": "6 dB"
+    },
+    {
+     "letter": "C",
+     "text": "10 dB"
+    },
+    {
+     "letter": "D",
+     "text": "1 dB"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 69,
+   "sub": "7.2",
+   "vraag": "In een klassieke superheterodyne ontvanger meet de S-meter in vaak",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de audio-uitgangsspanning"
+    },
+    {
+     "letter": "B",
+     "text": "de AVR (automatische volume regeling)–spanning"
+    },
+    {
+     "letter": "C",
+     "text": "de spanning aan de uitgang van de HF versterker"
+    },
+    {
+     "letter": "D",
+     "text": "de spanning aan de ingang van de MF versterker"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 70,
+   "sub": "7.2",
+   "vraag": "In een ontvanger voor de HF-banden is S9 gewoonlijk gelijk aan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 µV in 50 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "50 µV in 50 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "500 µV in 50 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "1 µV in 50 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 71,
+   "sub": "7.2",
+   "vraag": "Wat is een squelch-schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een schakeling die de ontvanger afschakelt als er geen signaal wordt ontvangen"
+    },
+    {
+     "letter": "B",
+     "text": "een schakeling die de LF-versterker spert als er geen signaal wordt ontvangen"
+    },
+    {
+     "letter": "C",
+     "text": "een schakeling die de signaal/ruisverhouding van een ontvanger verbetert"
+    },
+    {
+     "letter": "D",
+     "text": "een schakeling die de gevoeligheid van een ontvanger verhoogt"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 72,
+   "sub": "7.2",
+   "vraag": "Een schakeling die de ruis onderdrukt in een ontvanger als er geen signaal aanwezig is noemt men een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "AVC schakeling"
+    },
+    {
+     "letter": "B",
+     "text": "squelch schakeling"
+    },
+    {
+     "letter": "C",
+     "text": "notch schakeling"
+    },
+    {
+     "letter": "D",
+     "text": "stabilisatie schakeling"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 73,
+   "sub": "7.2",
+   "vraag": "De filters (afgestemde kringen) in de hoogfrequentversterker van een superheterodyne ontvanger dienen in eerste instantie om",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "motorstoringen te verminderen"
+    },
+    {
+     "letter": "B",
+     "text": "de oscillatorfrequentie te stabiliseren"
+    },
+    {
+     "letter": "C",
+     "text": "de spiegelfrequentie te onderdrukken"
+    },
+    {
+     "letter": "D",
+     "text": "de golobale selectiviteit van de ontvanger te verbeteren"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 74,
+   "sub": "7.2",
+   "vraag": "Welke tussen de vier vermelde frequenties zal men kiezen als eerste middenfrequent in een continu afstembare ontvanger van 100 kHz tot 30 MHz (\"general coverage\")",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10,7 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "455 KHz"
+    },
+    {
+     "letter": "C",
+     "text": "22 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "70 MHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 75,
+   "sub": "7.2",
+   "vraag": "Welke – 3 dB bandbreedte zal men, in normale omstandigheden gebruiken voor ontvangst van EZB (SSB) signalen:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "3.0"
+    },
+    {
+     "letter": "C",
+     "text": "1,5"
+    },
+    {
+     "letter": "D",
+     "text": "5 kHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 76,
+   "sub": "7.2",
+   "vraag": "Wat is het ongewenste effect als men in de MF-trap van een ontvanger een filter gerbuikt waarvan de bandbreedte te breed is?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "oversturing van de detector"
+    },
+    {
+     "letter": "B",
+     "text": "filter rinkelen (filter ringing)"
+    },
+    {
+     "letter": "C",
+     "text": "vervorming door thermische ruis"
+    },
+    {
+     "letter": "D",
+     "text": "ongewenste signalen zullen hoorbaar zijn in het audio signaal"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 77,
+   "sub": "7.2",
+   "vraag": "Wat is de ideale MF-bandbreedte in verhouding tot de bandbreedte van het ontvangen signaal?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "deze moet nauwelijks groter zijn dan de bandbreedte van het ontvangen signaal"
+    },
+    {
+     "letter": "B",
+     "text": "deze moet ongeveer de halve bandbreedte hebben van het ontvangen signaal"
+    },
+    {
+     "letter": "C",
+     "text": "deze moet ongeveer de dubbele bandbreedte hebben van het ontvangen signaal"
+    },
+    {
+     "letter": "D",
+     "text": "deze moet zo groot mogelijk zijn"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 78,
+   "sub": "7.2",
+   "vraag": "De optimale – 3 dB bandbreedte voor ontvangst van NBFM signalen in een raster plan van 12,5 kHz",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "7,5 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "12 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "15 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "25 kHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 79,
+   "sub": "7.2",
+   "vraag": "De gevoeligheid van een ontvanger wordt doorgaans gespecifieerd in",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "µV/m"
+    },
+    {
+     "letter": "B",
+     "text": "µV voor een bepaalde signaal/ruis verhouding in dB"
+    },
+    {
+     "letter": "C",
+     "text": "dB"
+    },
+    {
+     "letter": "D",
+     "text": "dBm"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 80,
+   "sub": "7.2",
+   "vraag": "Wat bepaalt het ruisgetal van een ontvanger?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het niveau van de ruis die een ontvanger te verwerken krijgt van de antenne"
+    },
+    {
+     "letter": "B",
+     "text": "de relatieve sterkte van het ontvangen signaal op 3 kHz verwijderd van de draaggolf frequentie"
+    },
+    {
+     "letter": "C",
+     "text": "het niveau van ruis dat gegenereerd wordt in de HF-versterker van de ontvanger en de daarop volgende trappen"
+    },
+    {
+     "letter": "D",
+     "text": "de mogelijkheid van de ontvanger om ongewenste signalen te onderdrukken dichtbij het gewenste signaal"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 81,
+   "sub": "7.2",
+   "vraag": "Welke soort variabele oscillator heeft de grootste intrinsieke frequentiestabiliteit",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Hartley LC oscillator"
+    },
+    {
+     "letter": "B",
+     "text": "Clapp LC-oscillator"
+    },
+    {
+     "letter": "C",
+     "text": "Phase Locked loop oscillator"
+    },
+    {
+     "letter": "D",
+     "text": "Een Wien-brug RC oscillator"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 82,
+   "sub": "7.2",
+   "vraag": "De stabiliteit van een Phase Locked Loop oscillator hangt alleen af van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de temperatuur"
+    },
+    {
+     "letter": "B",
+     "text": "de stabiliteit van de referentie kristal-oscillator"
+    },
+    {
+     "letter": "C",
+     "text": "de temperatuur en de frequentie"
+    },
+    {
+     "letter": "D",
+     "text": "de tijdsconstante van de loop filter"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 83,
+   "sub": "7.2",
+   "vraag": "We ontvangen een signaal van 800 kHz op een superheterodyne ontvanger. De lokale oscillator heeft een frequentie van 1255 kHz. Wat is de spiegelfrequentie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "455 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "1710 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "2055 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "2510 kHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 84,
+   "sub": "7.2",
+   "vraag": "Waarom is een hogere 1ste MF in een superheterodyne ontvanger gunstig voor het onderdrukken van de spiegelfrequentie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "omdat op de hogere MF een grotere selectiviteit kan worden bekomen"
+    },
+    {
+     "letter": "B",
+     "text": "omdat het de frequentie van het te ontvangen signaal en de spiegelfrequentie verder uit elkaar liggen"
+    },
+    {
+     "letter": "C",
+     "text": "omdat een hogere MF meer versterking heeft"
+    },
+    {
+     "letter": "D",
+     "text": "omdat een hogere MF het gewenste signaal beter versterkt"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 85,
+   "sub": "7.2",
+   "vraag": "Waar  wordt in een superheterodyne-ontvanger de spiegelfrequentie onderdrukt?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "in de product detector"
+    },
+    {
+     "letter": "B",
+     "text": "in de HF versterker"
+    },
+    {
+     "letter": "C",
+     "text": "in de AVC schakeling"
+    },
+    {
+     "letter": "D",
+     "text": "in het MF filter"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 86,
+   "sub": "7.2",
+   "vraag": "Derde-orde intermodulatieproducten in een ontvanger kunnen niet verminderd worden door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het derde-orde interceptiepunt van de ontvanger te verbeteren"
+    },
+    {
+     "letter": "B",
+     "text": "een verzwakker tussen de antenne en de ontvanger te plaatsen"
+    },
+    {
+     "letter": "C",
+     "text": "de HF-versterker uit te schakelen"
+    },
+    {
+     "letter": "D",
+     "text": "het volume van het audiosignaal te verminderen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 87,
+   "sub": "7.2",
+   "vraag": "Een ontvanger die weinig intermodulatieproducten produceert",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "heeft geen crossmodulatie"
+    },
+    {
+     "letter": "B",
+     "text": "heeft een hoog derde-orde interceptiepunt"
+    },
+    {
+     "letter": "C",
+     "text": "heeft een goede selectiviteit"
+    },
+    {
+     "letter": "D",
+     "text": "heeft een laag derde-orde interceptie punt"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 88,
+   "sub": "7.2",
+   "vraag": "Aan de ingang van een ontvanger zijn zeer sterke signalen aanwezig op 145 en op 144,8 MHz. Welke derde-orde intermodulatie-producten kunnen er ontstaan?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "145,5 en 146,2"
+    },
+    {
+     "letter": "B",
+     "text": "144,1 en 144,8"
+    },
+    {
+     "letter": "C",
+     "text": "145,2  en 144,6"
+    },
+    {
+     "letter": "D",
+     "text": "144,1 en 145,5"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 89,
+   "sub": "7.2",
+   "vraag": "Intermodulatie in een ontvanger wordt veroorzaakt door het mengen van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "twee sterke antennesignalen"
+    },
+    {
+     "letter": "B",
+     "text": "twee zwakke antennesignalen"
+    },
+    {
+     "letter": "C",
+     "text": "een sterk antennesignaal en het oscillatorsignaal"
+    },
+    {
+     "letter": "D",
+     "text": "een zwak en een sterk antennesignaal"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 90,
+   "sub": "7.2",
+   "vraag": "Wat is storing door kruismodulatie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "storing tussen twee zenders die een verschillende modulatie hebben"
+    },
+    {
+     "letter": "B",
+     "text": "storing veroorzaakt door audio detectie in de HF versterker van de ontvanger"
+    },
+    {
+     "letter": "C",
+     "text": "harmonische vervorming van het uitgezonden signaal"
+    },
+    {
+     "letter": "D",
+     "text": "modulatie van een ongewenst signaal wordt gehoord bovenop het gewenste signaal"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 91,
+   "sub": "7.2",
+   "vraag": "Wat is het effect van kruismodulatie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een vermindering van modulatie-niveau van het uitgezonden signaal"
+    },
+    {
+     "letter": "B",
+     "text": "blokkering van de ontvanger"
+    },
+    {
+     "letter": "C",
+     "text": "de modulatie van een ongewenst signaal wordt gehoord bovenop het gewenste signaal"
+    },
+    {
+     "letter": "D",
+     "text": "door een EZB-zender wordt nu ook de andere zijband uitgezonden, zij het zwakker."
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 92,
+   "sub": "7.2",
+   "vraag": "Wat veroorzaakt kruismodulatie in een versterker?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "te weinig versterking"
+    },
+    {
+     "letter": "B",
+     "text": "te veel versterking"
+    },
+    {
+     "letter": "C",
+     "text": "beïnvloeding van de versterking door een te sterk ingangssignaal"
+    },
+    {
+     "letter": "D",
+     "text": "positieve feedback"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 93,
+   "sub": "7.2",
+   "vraag": "Wederkerige menging (reciprocal mixing) in een ontvanger treedt op als",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de filters geen perfecten flankstijlheid hebben"
+    },
+    {
+     "letter": "B",
+     "text": "het oscillatorsignaal te veel faseruis bevat"
+    },
+    {
+     "letter": "C",
+     "text": "het oscillatorsignaal geen faseruis bevat"
+    },
+    {
+     "letter": "D",
+     "text": "het oscillatorsignaal te veel harmonische vervorming bevat"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 94,
+   "sub": "7.2",
+   "vraag": "De lokale oscillator die een mengtrap in een ontvanger voedt",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "geeft steeds  een puur signaal af zonder bandbreedte en zonder zijbanden"
+    },
+    {
+     "letter": "B",
+     "text": "heeft steeds een zekere bandbreedte omwille van de faseruis die in elke oscillator ontstaat"
+    },
+    {
+     "letter": "C",
+     "text": "heeft enkel een zekere bandbreedte omwille van de faseruis als het geen VCO is"
+    },
+    {
+     "letter": "D",
+     "text": "moet voldoende faseruis hebben om stabiel te kunnen werken"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  }
+ ]
+}

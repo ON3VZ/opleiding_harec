@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>H04 · Bouwstenen voor zenders en ontvangers — HAREC Leerplatform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/app.css">
+
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-mark">RA</span> HAREC Leerplatform</a>
+    <div class="spacer"></div>
+    <span class="callsign-chip" data-callsign-chip>gast</span>
+    <button class="btn-logout" data-logout>Afmelden</button>
+    <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</header>
+<div class="sidebar-backdrop"></div>
+<div class="app">
+  <main class="content" id="content">
+    <div class="crumbs"><a href="../index.html">Overzicht</a> &rsaquo; Hoofdstuk 4</div>
+    <div class="chapter-hero">
+      <div class="eyebrow">Hoofdstuk 4</div>
+      <h1>4. Bouwstenen voor zenders en ontvangers</h1>
+      <div class="src">Kies een subhoofdstuk om te studeren, of ga naar de oefenvragen.</div>
+    </div>
+    <div class="sub-list" id="sub-list"></div>
+    </main>
+  <aside class="sidebar" id="sidebar">
+    <h2>Voortgang</h2>
+    <div class="progress-global">
+      <div class="progress-bar"><i id="global-bar" style="width:0%"></i></div>
+      <div class="progress-label" id="global-label">0 / 75 subhoofdstukken voltooid</div>
+    </div>
+    <h2>Hoofdstukken</h2>
+    <div id="nav-list"></div>
+  </aside>
+</div>
+<script src="../assets/js/app.js"></script>
+<script>
+  if(!HAREC.requireLogin()){}
+  (async function(){
+    await HAREC.loadStructure();
+    HAREC.wireHeader();
+    const ch = HAREC.chapById('h04');
+    const list = document.getElementById('sub-list');
+    let html = ch.subs.map(s => {
+      const done = HAREC.isSubDone(s.id);
+      return `<a class="sub-tile ${done?'done':''}" href="h04-${s.id}.html">
+        <span class="st-id">${s.id}</span><span class="st-title">${HAREC.escapeHtml(s.titel)}</span>
+        ${done?'<span class="st-check">✓</span>':''}</a>`;
+    }).join('');
+    html += `<a class="sub-tile quiz" href="../quiz/h04.html"><span class="st-id">📝</span><span class="st-title">Oefenvragen van dit hoofdstuk</span></a>`;
+    list.innerHTML = html;
+    HAREC.buildSidebar('h04', null);
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proefexamen — HAREC Leerplatform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/app.css">
+<script>window.MathJax={tex:{inlineMath:[['$','$']],displayMath:[['$$','$$']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
+<script src="assets/vendor/mathjax/tex-mml-chtml.js" id="MathJax-script" async></script>
+<style>
+.exam-setup{background:var(--bg-panel);border:1px solid var(--line);border-radius:14px;padding:1.5rem;margin-bottom:1.25rem}
+.exam-mode-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
+@media(max-width:640px){.exam-mode-grid{grid-template-columns:1fr}}
+.mode-card{border:2px solid var(--line);border-radius:12px;padding:1.1rem;cursor:pointer;transition:.15s;background:var(--bg-panel)}
+.mode-card:hover{border-color:var(--signal)}
+.mode-card.sel{border-color:var(--signal);background:var(--signal-tint)}
+.mode-card h3{margin:0 0 .35rem;color:var(--signal-dark)}
+.mode-card .breakdown{font-size:.86rem;color:var(--ink-soft);line-height:1.5}
+.exam-bar{position:sticky;top:0;z-index:20;background:var(--signal-dark);color:#fff;border-radius:12px;padding:.7rem 1.1rem;display:flex;align-items:center;gap:1rem;margin-bottom:1rem;flex-wrap:wrap}
+.exam-bar .timer{font-family:'IBM Plex Mono',monospace;font-size:1.25rem;font-weight:700}
+.exam-bar .timer.warn{color:#ffcf8f}
+.exam-bar .prog{font-size:.9rem;opacity:.9}
+.exam-bar .spacer{flex:1}
+.exam-q{background:var(--bg-panel);border:1px solid var(--line);border-radius:12px;padding:1.1rem 1.25rem;margin-bottom:.9rem}
+.exam-q .qnum{font-family:'IBM Plex Mono',monospace;font-size:.8rem;color:var(--copper-dark);font-weight:600;text-transform:uppercase;letter-spacing:.03em}
+.exam-q .qcat{font-size:.72rem;background:var(--bg-sunken);color:var(--ink-soft);border-radius:20px;padding:.1rem .6rem;margin-left:.5rem}
+.exam-q .qtext{font-weight:600;margin:.5rem 0 .8rem;line-height:1.5}
+.exam-q .qfig{max-width:340px;margin:.4rem 0 .8rem;border:1px solid var(--line);border-radius:8px;background:#fff;padding:.4rem}
+.exam-opt{display:flex;gap:.7rem;align-items:flex-start;border:1.5px solid var(--line);border-radius:9px;padding:.6rem .8rem;margin:.4rem 0;cursor:pointer;transition:.12s}
+.exam-opt:hover{border-color:var(--signal)}
+.exam-opt.picked{border-color:var(--signal);background:var(--signal-tint)}
+.exam-opt .ol{font-weight:700;color:var(--signal-dark);min-width:1.2rem}
+.exam-opt.correct{border-color:#2f9e6f;background:#e7f6ee}
+.exam-opt.wrong{border-color:#cc5b5b;background:#fbeaea}
+.exam-opt .verdict{margin-left:auto;font-weight:700}
+.exam-result{background:var(--bg-panel);border:1px solid var(--line);border-radius:14px;padding:1.5rem;margin-bottom:1.25rem;text-align:center}
+.exam-result .score{font-size:3rem;font-weight:700;font-family:'IBM Plex Mono',monospace;line-height:1}
+.exam-result .verdict-big{font-size:1.4rem;font-weight:700;margin:.5rem 0}
+.exam-result .pass{color:#2f9e6f}.exam-result .fail{color:#cc5b5b}
+.exam-result .catbreak{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin:1.2rem 0}
+@media(max-width:560px){.exam-result .catbreak{grid-template-columns:1fr}}
+.exam-result .catbox{background:var(--bg-sunken);border-radius:10px;padding:.8rem}
+.exam-result .catbox .n{font-size:1.5rem;font-weight:700;font-family:'IBM Plex Mono',monospace}
+.exam-uitleg{margin-top:.6rem;padding:.7rem .9rem;background:var(--info-bg);border-radius:8px;font-size:.9rem;line-height:1.5}
+.btn-primary{background:var(--signal);color:#fff;border:none;border-radius:10px;padding:.7rem 1.4rem;font-size:1rem;font-weight:600;cursor:pointer;font-family:inherit}
+.btn-primary:hover{background:var(--signal-dark)}
+.btn-ghost{background:transparent;border:1.5px solid var(--line);border-radius:10px;padding:.7rem 1.4rem;font-weight:600;cursor:pointer;font-family:inherit;color:var(--ink)}
+.exam-info{font-size:.9rem;color:var(--ink-soft);line-height:1.6}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">RA</span> HAREC Leerplatform</a>
+    <div class="spacer"></div>
+    <span class="callsign-chip" data-callsign-chip>gast</span>
+    <button class="btn-logout" data-logout>Afmelden</button>
+  </div>
+</header>
+<div class="app">
+  <main class="content" id="content" style="max-width:820px;margin:0 auto">
+    <div class="crumbs"><a href="index.html">Overzicht</a> &rsaquo; Proefexamen</div>
+    <div class="chapter-hero">
+      <div class="eyebrow">Simulatie</div>
+      <h1>Proefexamen</h1>
+      <div class="src">Willekeurige vragen uit alle hoofdstukken, volgens de officiële examenstructuur.</div>
+    </div>
+    <div id="exam-root"></div>
+  </main>
+</div>
+<script src="assets/js/app.js"></script>
+<script>
+(function(){
+  "use strict";
+  // Examenprofiel (BIPT) — Klasse A = HAREC (48 vragen)
+  const PROFILE = {naam:"Klasse A — HAREC", techniek:30, wetgeving:10, procedures:8, minuten:90, slaag:0.80,
+        omschrijving:"48 vragen · 30 techniek + 10 wetgeving + 8 procedures · 1u30 · slagen vanaf 80%"};
+  // Categorie-indeling: techniek = h01-h13, procedures = h14, wetgeving = h15
+  const TECH = ["h01","h02","h03","h04","h05","h06","h07","h08","h09","h10","h11","h12","h13"];
+  const PROC = ["h14"];
+  const WET  = ["h15"];
+
+  const root = document.getElementById('exam-root');
+  let POOL = null;      // {techniek:[...], wetgeving:[...], procedures:[...]}
+  let exam = null;      // huidige examenstatus
+
+  function rel(p){return p;} // proefexamen ligt in de root
+
+  async function loadPool(){
+    if(POOL) return POOL;
+    const cats = {techniek:TECH, wetgeving:WET, procedures:PROC};
+    const out = {techniek:[], wetgeving:[], procedures:[]};
+    for(const [cat,chaps] of Object.entries(cats)){
+      for(const c of chaps){
+        try{
+          const d = await (await fetch(rel('data/vragen_'+c+'.json'))).json();
+          (d.vragen||[]).forEach(q=>{
+            // enkel vragen met een correct antwoord en 4 opties opnemen
+            if(q.correct && q.opties && q.opties.length>=2){
+              out[cat].push(Object.assign({__chap:c},q));
+            }
+          });
+        }catch(e){/* hoofdstuk ontbreekt: overslaan */}
+      }
+    }
+    POOL = out; return out;
+  }
+
+  function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+  function pick(arr,n){return shuffle(arr.slice()).slice(0,Math.min(n,arr.length));}
+
+  function fmtTime(s){const m=Math.floor(s/60),ss=s%60;return m+":"+String(ss).padStart(2,'0');}
+
+  // ---------- setup-scherm ----------
+  function renderSetup(){
+    root.innerHTML =
+      '<div class="exam-setup">'+
+        '<div class="mode-card sel" style="cursor:default">'+
+          '<h3>'+PROFILE.naam+'</h3>'+
+          '<div class="breakdown">'+PROFILE.omschrijving.split(' · ').join('<br>')+'</div>'+
+        '</div>'+
+        '<p class="exam-info" style="margin-top:1rem">Je krijgt 48 willekeurige vragen uit alle hoofdstukken, verdeeld zoals op het echte HAREC-examen: 30 techniek, 10 wetgeving en 8 procedures. '+
+        'Elk juist antwoord telt 1 punt; een fout of niet-beantwoorde vraag telt 0 punten (geen giscorrectie, dus antwoord altijd iets). Je bent geslaagd vanaf 80% (39 van 48).</p>'+
+        '<div style="margin-top:1rem">'+
+          '<button class="btn-primary" id="btn-start">Start proefexamen</button>'+
+        '</div>'+
+      '</div>';
+    document.getElementById('btn-start').addEventListener('click',startExam);
+  }
+
+  // ---------- examen starten ----------
+  async function startExam(){
+    const p = PROFILE;
+    root.innerHTML = '<p style="color:var(--ink-soft)">Vragen worden geladen…</p>';
+    const pool = await loadPool();
+    // te weinig vragen? waarschuw maar ga door met wat er is
+    const q = []
+      .concat(pick(pool.techniek, p.techniek).map(x=>({...x,__cat:'techniek'})))
+      .concat(pick(pool.wetgeving, p.wetgeving).map(x=>({...x,__cat:'wetgeving'})))
+      .concat(pick(pool.procedures, p.procedures).map(x=>({...x,__cat:'procedures'})));
+    exam = {
+      profile:p, vragen:q,
+      antwoord:new Array(q.length).fill(null),
+      seconds:p.minuten*60, timer:null, done:false
+    };
+    renderExam();
+    // timer starten
+    exam.timer = setInterval(()=>{
+      exam.seconds--;
+      const t=document.getElementById('exam-timer');
+      if(t){t.textContent=fmtTime(exam.seconds); if(exam.seconds<=120)t.classList.add('warn');}
+      if(exam.seconds<=0){clearInterval(exam.timer); finishExam();}
+    },1000);
+  }
+
+  function catLabel(c){return c==='techniek'?'Techniek':c==='wetgeving'?'Wetgeving':'Procedures';}
+
+  // ---------- examen tonen ----------
+  function renderExam(){
+    const e=exam;
+    let html='<div class="exam-bar">'+
+      '<span class="timer" id="exam-timer">'+fmtTime(e.seconds)+'</span>'+
+      '<span class="prog" id="exam-prog"></span>'+
+      '<span class="spacer"></span>'+
+      '<button class="btn-primary" id="btn-finish" style="padding:.45rem 1rem">Examen indienen</button>'+
+      '</div>';
+    e.vragen.forEach((q,i)=>{
+      html+='<div class="exam-q" id="q'+i+'">'+
+        '<span class="qnum">Vraag '+(i+1)+'</span>'+
+        '<span class="qcat">'+catLabel(q.__cat)+'</span>'+
+        '<div class="qtext">'+HAREC.mdInline(HAREC.escapeHtml(q.vraag))+'</div>'+
+        (q.figuur?'<img class="qfig" src="'+q.figuur+'" alt="figuur bij vraag" onerror="this.style.display=\'none\'">':'')+
+        '<div class="opts">'+
+          q.opties.map(o=>
+            '<div class="exam-opt" data-q="'+i+'" data-letter="'+o.letter+'">'+
+              '<span class="ol">'+o.letter+'</span>'+
+              '<span class="ot">'+HAREC.mdInline(HAREC.escapeHtml(o.text))+'</span>'+
+            '</div>').join('')+
+        '</div>'+
+      '</div>';
+    });
+    root.innerHTML=html;
+    root.querySelectorAll('.exam-opt').forEach(opt=>{
+      opt.addEventListener('click',()=>{
+        if(exam.done) return;
+        const qi=+opt.dataset.q;
+        root.querySelectorAll('.exam-opt[data-q="'+qi+'"]').forEach(o=>o.classList.remove('picked'));
+        opt.classList.add('picked');
+        exam.antwoord[qi]=opt.dataset.letter;
+        updateProg();
+      });
+    });
+    document.getElementById('btn-finish').addEventListener('click',()=>{
+      const onbeantwoord=exam.antwoord.filter(a=>a===null).length;
+      if(onbeantwoord>0 && !confirm('Je hebt nog '+onbeantwoord+' vraag/vragen niet beantwoord. Toch indienen?')) return;
+      finishExam();
+    });
+    updateProg();
+    if(window.MathJax&&MathJax.typesetPromise)MathJax.typesetPromise([root]);
+  }
+  function updateProg(){
+    const p=document.getElementById('exam-prog');
+    if(p){const n=exam.antwoord.filter(a=>a!==null).length;p.textContent=n+' / '+exam.vragen.length+' beantwoord';}
+  }
+
+  // ---------- examen afronden + verbeteren ----------
+  function finishExam(){
+    if(exam.done) return;
+    exam.done=true; clearInterval(exam.timer);
+    const e=exam, p=e.profile;
+    let correct=0; const perCat={techniek:[0,0],wetgeving:[0,0],procedures:[0,0]};
+    e.vragen.forEach((q,i)=>{
+      const ok = e.antwoord[i]===q.correct;
+      if(ok)correct++;
+      perCat[q.__cat][1]++; if(ok)perCat[q.__cat][0]++;
+    });
+    const total=e.vragen.length;
+    const pct=total?Math.round(correct/total*100):0;
+    const geslaagd = (correct/total)>=p.slaag;
+
+    // resultaatkaart
+    let html='<div class="exam-result">'+
+      '<div class="score">'+correct+' / '+total+'</div>'+
+      '<div class="verdict-big '+(geslaagd?'pass':'fail')+'">'+(geslaagd?'✓ Geslaagd':'✗ Niet geslaagd')+' ('+pct+'%)</div>'+
+      '<div class="exam-info">Slaaggrens: 80% ('+Math.ceil(p.slaag*total)+' van '+total+').</div>'+
+      '<div class="catbreak">'+
+        Object.entries(perCat).map(function(entry){var c=entry[0],g=entry[1][0],t=entry[1][1];
+          return '<div class="catbox"><div class="n">'+g+'/'+t+'</div>'+catLabel(c)+'</div>';
+        }).join('')+
+      '</div>'+
+      '<button class="btn-primary" id="btn-again">Nieuw proefexamen</button> '+
+      '<button class="btn-ghost" id="btn-review">Bekijk verbetering ↓</button>'+
+      '</div>';
+
+    // verbetering: elke vraag met correcte markering + uitleg
+    html+='<div id="review">';
+    e.vragen.forEach((q,i)=>{
+      const gekozen=e.antwoord[i];
+      html+='<div class="exam-q">'+
+        '<span class="qnum">Vraag '+(i+1)+'</span>'+
+        '<span class="qcat">'+catLabel(q.__cat)+'</span>'+
+        '<div class="qtext">'+HAREC.mdInline(HAREC.escapeHtml(q.vraag))+'</div>'+
+        (q.figuur?'<img class="qfig" src="'+q.figuur+'" alt="figuur" onerror="this.style.display=\'none\'">':'')+
+        '<div class="opts">'+
+          q.opties.map(o=>{
+            let cls='exam-opt';
+            if(o.letter===q.correct)cls+=' correct';
+            else if(o.letter===gekozen)cls+=' wrong';
+            let verdict='';
+            if(o.letter===q.correct)verdict='<span class="verdict" style="color:#2f9e6f">✓ juist</span>';
+            else if(o.letter===gekozen)verdict='<span class="verdict" style="color:#cc5b5b">jouw keuze</span>';
+            return '<div class="'+cls+'"><span class="ol">'+o.letter+'</span><span class="ot">'+HAREC.mdInline(HAREC.escapeHtml(o.text))+'</span>'+verdict+'</div>';
+          }).join('')+
+        '</div>'+
+        (gekozen===null?'<div class="exam-uitleg" style="background:var(--warn-bg)">Niet beantwoord — telt als fout (0 punten).</div>':'')+
+        (q.uitleg?'<div class="exam-uitleg"><strong>Uitleg:</strong> '+HAREC.mdInline(HAREC.escapeHtml(q.uitleg))+'</div>':'')+
+      '</div>';
+    });
+    html+='</div>';
+    root.innerHTML=html;
+    document.getElementById('btn-again').addEventListener('click',renderSetup);
+    document.getElementById('btn-review').addEventListener('click',()=>{
+      document.getElementById('review').scrollIntoView({behavior:'smooth'});
+    });
+    window.scrollTo({top:0,behavior:'smooth'});
+    if(window.MathJax&&MathJax.typesetPromise)MathJax.typesetPromise([root]);
+  }
+
+  // init
+  if(window.HAREC && HAREC.requireLogin) HAREC.requireLogin();
+  renderSetup();
+})();
+</script>
+</body>
+</html>

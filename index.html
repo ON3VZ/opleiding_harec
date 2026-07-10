@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HAREC Leerplatform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">RA</span> HAREC Leerplatform</a>
+    <div class="spacer"></div>
+    <span class="callsign-chip" data-callsign-chip>gast</span>
+    <button class="btn-logout" data-logout>Afmelden</button>
+    <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</header>
+<div class="sidebar-backdrop"></div>
+<div class="app">
+  <main class="content">
+    <div class="chapter-hero">
+      <div class="eyebrow">Radioamateurexamen · Klasse A (HAREC) · UBA-cursus</div>
+      <h1>Welkom terug<span id="hero-name"></span></h1>
+      <div class="src">Kies een hoofdstuk. De structuur volgt het UBA-handboek (15 hoofdstukken). Je voortgang staat rechts.</div>
+    </div>
+    <a href="proefexamen.html" class="exam-banner">
+      <div class="exam-banner-ic">📝</div>
+      <div class="exam-banner-txt">
+        <strong>Proefexamen</strong>
+        <span>48 willekeurige vragen uit alle hoofdstukken · HAREC klasse A · met timer en score</span>
+      </div>
+      <div class="exam-banner-arrow">→</div>
+    </a>
+    <div class="home-grid" id="home-grid"></div>
+  </main>
+  <aside class="sidebar" id="sidebar">
+    <h2>Voortgang</h2>
+    <div class="progress-global">
+      <div class="progress-bar"><i id="global-bar" style="width:0%"></i></div>
+      <div class="progress-label" id="global-label">0 / 75 subhoofdstukken voltooid</div>
+    </div>
+    <h2>Hoofdstukken</h2>
+    <div id="nav-list"></div>
+  </aside>
+</div>
+<script src="assets/js/app.js"></script>
+<script>
+  if(!HAREC.requireLogin()){}
+  (async function(){
+    await HAREC.loadStructure();
+    HAREC.wireHeader();
+    const u=HAREC.getUser();
+    if(u) document.getElementById('hero-name').textContent = u.name?(', '+u.name):(u.call?(', '+u.call):'');
+    const grid=document.getElementById('home-grid');
+    grid.innerHTML = HAREC.chapters().map(ch=>{
+      const pct=HAREC.chapProgressPct(ch);
+      const done=HAREC.chapDone(ch);
+      const nsub=ch.subs?ch.subs.length:0;
+      let badge='todo',bt='te doen';
+      if(done){badge='done';bt='voltooid';}
+      else if(pct>0){badge='busy';bt='bezig';}
+      return `<a class="tile ${done?'done':''}" href="chapters/${ch.id}.html">
+        <span class="badge ${badge}">${bt}</span>
+        <div class="t-num">H${String(ch.nr).padStart(2,'0')}</div>
+        <h3>${HAREC.escapeHtml(ch.titel)}</h3>
+        <div class="t-meta">${nsub} subhoofdstukken</div>
+        <div class="t-bar"><i style="width:${pct}%"></i></div>
+      </a>`;
+    }).join('');
+    HAREC.buildSidebar(null,null);
+  })();
+</script>
+</body>
+</html>

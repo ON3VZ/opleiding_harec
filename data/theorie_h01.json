@@ -1,0 +1,100 @@
+{
+  "hoofdstuk": 1,
+  "titel": "Wiskunde",
+  "bron": "UBA-handboek h1 · basisbegrippen wiskunde voor radioamateurs",
+  "subhoofdstukken": [
+    {
+      "id": "1.1",
+      "titel": "Algebra",
+      "blokken": [
+        { "type": "text", "inhoud": "Voor het HAREC-examen heb je enkele wiskundige basisgereedschappen nodig. We beginnen bij **algebra**: het rekenen met formules, machten (exponenten) en logaritmen — precies wat je nodig hebt voor de decibel, reactantie en resonantie." },
+        { "type": "concept", "titel": "Formules omvormen", "essentie": "Een formule kan je herschrijven om een andere grootheid vrij te maken, zolang je aan beide kanten hetzelfde doet.",
+          "detail": {
+            "uitleg": "Een formule is een gelijkheid: links en rechts van het =-teken staat evenveel. Je mag een formule **omvormen** (een andere grootheid 'vrijmaken') zolang je aan **beide kanten dezelfde bewerking** uitvoert. Deel je links door $R$, dan ook rechts. Zo maak je uit $U = I \\cdot R$ zowel $I = U/R$ (beide kanten delen door $R$) als $R = U/I$. Dit is het gereedschap om elke gevraagde grootheid uit een formule te berekenen.",
+            "voorbeeld": "Uit $P = U \\cdot I$ wil je $I$ vrijmaken: deel beide kanten door $U$ → $I = P/U$. Kies je $P = 100$ W en $U = 20$ V, dan is $I = 100/20 = 5$ A.",
+            "analogie": "Een formule omvormen is als een weegschaal in evenwicht houden: wat je aan de ene kant weghaalt of toevoegt, moet je ook aan de andere kant doen, anders klopt de balans niet meer."
+          }
+        },
+        { "type": "concept", "titel": "Machten en exponenten", "essentie": "Een exponent geeft aan hoe vaak je een getal met zichzelf vermenigvuldigt. Machten van 10 maken grote en kleine getallen hanteerbaar.",
+          "detail": {
+            "uitleg": "Een **exponent** (macht) zegt hoe vaak je een getal met zichzelf vermenigvuldigt: $10^3 = 10 \\times 10 \\times 10 = 1000$. Een **negatieve exponent** betekent delen: $10^{-3} = 1/1000 = 0{,}001$. Rekenregels: bij vermenigvuldigen tel je de exponenten op ($10^a \\cdot 10^b = 10^{a+b}$), bij delen trek je ze af ($10^a / 10^b = 10^{a-b}$). $10^0 = 1$. Machten van 10 zijn de basis van de **wetenschappelijke notatie** en van de metrische voorvoegsels (kilo = $10^3$, milli = $10^{-3}$, enz.).",
+            "voorbeeld": "$2{,}5 \\times 10^6$ Hz = 2 500 000 Hz = 2,5 MHz. En $470 \\times 10^{-12}$ F = 470 pF. Vermenigvuldigen: $10^3 \\times 10^6 = 10^9$ (kilo × mega = giga).",
+            "analogie": "Exponenten zijn een verkorte schrijfwijze voor 'veel nullen': in plaats van 1 000 000 schrijf je $10^6$. Handig, want in radio kom je voortdurend heel grote (MHz) en heel kleine (pF) getallen tegen."
+          }
+        },
+        { "type": "concept", "titel": "Logaritmen en de logaritmische schaal", "essentie": "De logaritme is het omgekeerde van een macht: hij zegt welke exponent je nodig hebt. Een logschaal comprimeert grote bereiken.",
+          "detail": {
+            "uitleg": "De **logaritme** (met grondtal 10) is het omgekeerde van een macht: $\\log(1000) = 3$, want $10^3 = 1000$. De logaritme beantwoordt dus de vraag: 'tot welke macht moet ik 10 verheffen om dit getal te krijgen?' Handige waarden: $\\log(1) = 0$, $\\log(10) = 1$, $\\log(100) = 2$. Een belangrijke regel: $\\log(a \\times b) = \\log(a) + \\log(b)$ — vermenigvuldigen wordt optellen. Op een **logaritmische schaal** staat elke stap voor een vermenigvuldiging (×10) in plaats van een optelling. Dat comprimeert een enorm bereik tot een leesbare schaal — precies wat de **decibel** doet (§3.7): $\\text{dB} = 10 \\log(P_2/P_1)$.",
+            "voorbeeld": "Omdat $\\log(100) = 2$, is een vermogensverhouding van 100 gelijk aan $10 \\times 2 = 20$ dB. En omdat vermenigvuldigen optellen wordt op een logschaal, mag je dB's langs een keten gewoon optellen.",
+            "analogie": "Een logaritmische schaal is als de schaal van Richter of de decibel: elke stap is niet '+1' maar '×10'. Zo pas je zowel een fluistering als een straalmotor op één leesbare schaal."
+          }
+        },
+        { "type": "formula", "naam": "Logaritme (grondtal 10)", "latex": "\\log(10^n) = n \\qquad \\log(a \\cdot b) = \\log a + \\log b", "symbolen": "De logaritme geeft de exponent van 10. Vermenigvuldigen ↔ optellen van logaritmen.", "voorbeeld": "$\\log(1000) = 3$; $\\log(2 \\times 100) = \\log 2 + \\log 100 \\approx 0{,}3 + 2 = 2{,}3$." }
+      ]
+    },
+    {
+      "id": "1.2",
+      "titel": "Goniometrie (driehoeksmeetkunde)",
+      "blokken": [
+        { "type": "text", "inhoud": "**Goniometrie** beschrijft de verhoudingen in een rechthoekige driehoek met de functies sinus, cosinus en tangens. Ze is de wiskunde achter de sinusgolf (§2.2), faze en impedantie." },
+        { "type": "concept", "titel": "Sinus, cosinus en tangens — SOSCASTOA", "essentie": "In een rechthoekige driehoek: sin = overstaande/schuine, cos = aanliggende/schuine, tan = overstaande/aanliggende.",
+          "detail": {
+            "uitleg": "In een **rechthoekige driehoek** (met één hoek van 90°) definieer je voor een hoek de verhoudingen tussen de zijden. De geheugensteun is **SOSCASTOA**: **S**inus = **O**verstaande / **S**chuine zijde; **C**osinus = **A**anliggende / **S**chuine zijde; **T**angens = **O**verstaande / **A**anliggende zijde. De 'schuine zijde' (hypotenusa) is de langste, tegenover de rechte hoek. Deze verhoudingen liggen vast voor elke hoek. De **sinusfunctie** beschrijft ook de vorm van wisselspanning: een punt dat een cirkel rondgaat, projecteert een sinus (§2.2).",
+            "voorbeeld": "In een rechthoekige driehoek met een overstaande zijde van 3, een aanliggende van 4 en een schuine van 5: $\\sin = 3/5 = 0{,}6$, $\\cos = 4/5 = 0{,}8$, $\\tan = 3/4 = 0{,}75$.",
+            "analogie": "SOSCASTOA is een kapstok om de drie verhoudingen te onthouden. De sinus 'meet' hoe hoog je klimt, de cosinus hoe ver je vooruit gaat, en de tangens de steilheid — voor elke hoek een vaste verhouding."
+          }
+        },
+        { "type": "concept", "titel": "De sinus als golf", "essentie": "Laat je een punt rond een cirkel draaien, dan tekent zijn hoogte een sinusgolf — de basis van wisselstroom.",
+          "detail": {
+            "uitleg": "Goniometrie en radio komen samen in de **sinusgolf**. Draait een punt met constante snelheid rond een cirkel, dan beweegt zijn hoogte (de sinus van de hoek) op en neer volgens een perfecte sinus: 0 bij 0°, maximaal (+1) bij 90°, 0 bij 180°, minimaal (−1) bij 270°, terug 0 bij 360°. Eén omwenteling = één cyclus = 360° (of $2\\pi$ radialen). Dit is precies de vorm van wisselspanning (§2.2), en verklaart waarom formules voor reactantie en resonantie de factor $2\\pi$ bevatten: dat is één volledige omwenteling in radialen.",
+            "voorbeeld": "Het lichtnet is een sinus: de spanning volgt exact de hoogte van een punt dat 50 keer per seconde rond een cirkel draait. Vandaar dat de 'faze' in graden (of radialen) wordt uitgedrukt.",
+            "analogie": "Bekijk een ronddraaiend reuzenrad van opzij: één gondel gaat op en neer volgens een sinus. Draai het rad sneller (hogere frequentie) en de op-en-neerbeweging versnelt — precies zoals wisselstroom."
+          }
+        }
+      ]
+    },
+    {
+      "id": "1.3",
+      "titel": "Complexe getallen",
+      "blokken": [
+        { "type": "text", "inhoud": "**Complexe getallen** breiden de gewone getallen uit met een 'imaginaire' eenheid. In de radio gebruikt men ze om **impedantie** te beschrijven: de combinatie van weerstand en reactantie in één getal. Voor het examen volstaan de basisbegrippen." },
+        { "type": "concept", "titel": "Wat is i (of j)?", "essentie": "i is de imaginaire eenheid, gedefinieerd als de wortel uit −1. In de elektronica schrijft men j om verwarring met stroom te vermijden.",
+          "detail": {
+            "uitleg": "Gewone (reële) getallen kunnen niet de wortel uit een negatief getal zijn — er is geen gewoon getal waarvan het kwadraat −1 is. Daarom definieert men de **imaginaire eenheid** $i$ met de afspraak $i^2 = -1$, oftewel $i = \\sqrt{-1}$. In de **elektronica** gebruikt men de letter **j** in plaats van $i$, om verwarring met de stroom $I$ te vermijden. Een **complex getal** heeft een **reëel deel** en een **imaginair deel**, bijvoorbeeld $3 + 4j$. Grafisch stel je het voor als een punt in een vlak: horizontaal het reële deel, verticaal het imaginaire.",
+            "voorbeeld": "Impedantie schrijf je als een complex getal: $Z = R + jX$, waarbij $R$ de weerstand (reëel) en $X$ de reactantie (imaginair) is. Zo vat één getal zowel het 'ohmse' als het 'faze-verschuivende' gedrag samen.",
+            "analogie": "De imaginaire eenheid is als een tweede richting die loodrecht op de gewone getallenlijn staat. Waar reële getallen enkel 'links-rechts' gaan, laten complexe getallen ook 'op-neer' toe — ideaal om twee eigenschappen (weerstand én reactantie) tegelijk te beschrijven."
+          }
+        },
+        { "type": "concept", "titel": "Basisregels en -afspraken", "essentie": "Reële en imaginaire delen tel je apart op. De belangrijkste afspraak: j² = −1.",
+          "detail": {
+            "uitleg": "Rekenen met complexe getallen volgt enkele afspraken. **Optellen/aftrekken**: tel de reële delen samen en de imaginaire delen samen, apart: $(3 + 2j) + (1 + 4j) = 4 + 6j$. **De kernafspraak** is $j^2 = -1$; daarmee vermenigvuldig je zoals gewone getallen en vervang je $j^2$ telkens door $-1$. De **grootte (modulus)** van $R + jX$ is $\\sqrt{R^2 + X^2}$ — precies de formule voor de grootte van de **impedantie** uit een weerstand en een reactantie. Voor het examen volstaat het te weten wat $j$ betekent, hoe je reële en imaginaire delen scheidt, en dat impedantie zo wordt voorgesteld.",
+            "voorbeeld": "De grootte van een impedantie $Z = 3 + 4j$ Ω is $|Z| = \\sqrt{3^2 + 4^2} = \\sqrt{9+16} = \\sqrt{25} = 5$ Ω. Zo combineer je 3 Ω weerstand en 4 Ω reactantie tot 5 Ω impedantie.",
+            "analogie": "Het reële en imaginaire deel zijn als de oost-west- en noord-zuid-afstand op een kaart: je telt ze apart op, en de rechtstreekse afstand (de modulus) vind je met de stelling van Pythagoras — net als de grootte van de impedantie."
+          }
+        }
+      ]
+    },
+    {
+      "id": "1.4",
+      "titel": "Afronden van getallen",
+      "blokken": [
+        { "type": "text", "inhoud": "Bij berekeningen krijg je vaak lange decimale getallen. **Afronden** en de **wetenschappelijke notatie** (met machten van 10) houden je antwoorden leesbaar en gepast nauwkeurig." },
+        { "type": "concept", "titel": "Afronden", "essentie": "Kijk naar het eerste cijfer dat wegvalt: 5 of meer → naar boven, minder dan 5 → naar beneden.",
+          "detail": {
+            "uitleg": "**Afronden** vervangt een getal door een kortere benadering. De regel: kijk naar het **eerste cijfer dat je weglaat**. Is dat **5 of meer**, dan rond je het laatste behouden cijfer naar **boven** af; is het **minder dan 5**, dan laat je het ongewijzigd (naar beneden). Kies een gepast aantal **beduidende cijfers**: meer cijfers dan je meetnauwkeurigheid toelaat, is schijnnauwkeurigheid. In de radiotechniek volstaan meestal 2 à 3 beduidende cijfers.",
+            "voorbeeld": "$3{,}14159$ afgerond op 2 decimalen wordt $3{,}14$ (het volgende cijfer is 1, dus naar beneden). $2{,}718$ op 1 decimaal wordt $2{,}7$. Maar $2{,}756$ op 2 decimalen wordt $2{,}76$ (het weggelaten cijfer is 6, dus naar boven).",
+            "analogie": "Afronden is als je horloge aflezen: je zegt 'kwart over drie', niet '15 minuten en 23,4 seconden over drie'. Je kiest de nauwkeurigheid die past bij wat je nodig hebt."
+          }
+        },
+        { "type": "concept", "titel": "Wetenschappelijke notatie (machten van 10)", "essentie": "Schrijf een getal als een cijfer tussen 1 en 10 maal een macht van 10. Zo blijven zeer grote en kleine getallen leesbaar.",
+          "detail": {
+            "uitleg": "In de **wetenschappelijke notatie** schrijf je een getal als een waarde tussen 1 en 10, vermenigvuldigd met een **macht van 10**. Zo wordt 2 500 000 gelijk aan $2{,}5 \\times 10^6$, en 0,000047 wordt $4{,}7 \\times 10^{-5}$. De exponent telt hoeveel plaatsen de komma verschuift: positief voor grote getallen (komma naar rechts), negatief voor kleine (naar links). Dit sluit naadloos aan bij de **metrische voorvoegsels**: $10^3$ = kilo, $10^6$ = mega, $10^{-3}$ = milli, $10^{-6}$ = micro, $10^{-12}$ = pico. Vóór je een formule invult, zet je alles best om naar deze notatie of naar de kale eenheid.",
+            "voorbeeld": "145 MHz = $145 \\times 10^6$ Hz = $1{,}45 \\times 10^8$ Hz. En 470 pF = $470 \\times 10^{-12}$ F = $4{,}7 \\times 10^{-10}$ F. Zo reken je zonder lange nullenrijen.",
+            "analogie": "Wetenschappelijke notatie is als een schaalaanduiding op een kaart: in plaats van elke meter uit te tekenen, schrijf je '1 : 100 000'. De macht van 10 is die schaalfactor voor getallen."
+          }
+        },
+        { "type": "keybox", "titel": "Onthoud — wiskundige basis", "inhoud": "**Exponenten**: $10^3 = 1000$, $10^{-3} = 0{,}001$; vermenigvuldigen = exponenten optellen.\n**Logaritme**: omgekeerde van een macht; $\\log(1000) = 3$; basis van de decibel.\n**SOSCASTOA**: sin = O/S, cos = A/S, tan = O/A.\n**Complex getal**: $j = \\sqrt{-1}$, $j^2 = -1$; impedantie $Z = R + jX$, grootte $\\sqrt{R^2+X^2}$.\n**Afronden**: ≥5 naar boven, <5 naar beneden.\n**Wetenschappelijke notatie**: cijfer (1–10) × macht van 10." }
+      ]
+    }
+  ]
+}

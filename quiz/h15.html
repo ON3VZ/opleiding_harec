@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oefenvragen H15 — HAREC Leerplatform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/app.css">
+<script>window.MathJax={tex:{inlineMath:[['$','$']],displayMath:[['$$','$$']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
+<script src="../assets/vendor/mathjax/tex-mml-chtml.js" id="MathJax-script" async></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-mark">RA</span> HAREC Leerplatform</a>
+    <div class="spacer"></div>
+    <span class="callsign-chip" data-callsign-chip>gast</span>
+    <button class="btn-logout" data-logout>Afmelden</button>
+    <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</header>
+<div class="sidebar-backdrop"></div>
+<div class="app">
+  <main class="content" id="content">
+    <div class="crumbs"><a href="../index.html">Overzicht</a> &rsaquo; <a href="../chapters/h15.html">H15 Belgische regelgeving</a> &rsaquo; Oefenvragen</div>
+    <div class="chapter-hero">
+      <div class="eyebrow">Hoofdstuk 15 · Belgische regelgeving</div>
+      <h1>Oefenvragen</h1>
+      <div class="src" id="quiz-src"></div>
+    </div>
+    <div class="quiz-head"><h2>Vragen</h2><span class="quiz-stats" id="quiz-stats">0/0 beantwoord</span></div>
+    <div class="quiz-filter" id="quiz-filter"></div>
+    <div class="quiz-body" id="quiz-body"><p style="color:var(--ink-soft)">Vragen worden geladen…</p></div>
+    </main>
+  <aside class="sidebar" id="sidebar">
+    <h2>Voortgang</h2>
+    <div class="progress-global">
+      <div class="progress-bar"><i id="global-bar" style="width:0%"></i></div>
+      <div class="progress-label" id="global-label">0 / 75 subhoofdstukken voltooid</div>
+    </div>
+    <h2>Hoofdstukken</h2>
+    <div id="nav-list"></div>
+  </aside>
+</div>
+<script src="../assets/js/app.js"></script>
+<script>
+  const CHAP_ID='h15';
+  if(!HAREC.requireLogin()){}
+  (async function(){
+    await HAREC.loadStructure();
+    HAREC.wireHeader();
+    const body=document.getElementById('quiz-body');
+    let qdata;
+    try{ qdata=await (await fetch('../data/vragen_h15.json')).json(); }
+    catch(e){ body.innerHTML='<div class="quiz-empty">De oefenvragen voor dit hoofdstuk worden binnenkort toegevoegd.</div>'; HAREC.buildSidebar(CHAP_ID,null); return; }
+    const vragen=qdata.vragen||[];
+    document.getElementById('quiz-src').textContent=vragen.length+' vragen';
+    // filters per subhoofdstuk
+    const subs=[...new Set(vragen.map(q=>q.sub).filter(Boolean))].sort();
+    let active='all';
+    const fr=document.getElementById('quiz-filter');
+    function chip(id,label){ return `<button data-f="${id}" class="${id===active?'active':''}">${label}</button>`; }
+    function drawFilters(){
+      fr.innerHTML=chip('all','Alle ('+vragen.length+')')
+        + subs.map(s=>chip(s,'§'+s+' ('+vragen.filter(q=>q.sub===s).length+')')).join('')
+        + chip('fout','✗ Enkel foute');
+      fr.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{active=b.dataset.f; drawFilters(); render();}));
+    }
+    function render(){
+      body.innerHTML='';
+      let list=vragen;
+      if(active==='fout'){ const ans=HAREC.getAnswers(CHAP_ID); list=vragen.filter(q=>ans[q.id]&&!ans[q.id].ok); }
+      else if(active!=='all'){ list=vragen.filter(q=>q.sub===active); }
+      if(!list.length){ body.innerHTML='<div class="quiz-empty">Geen vragen in deze selectie.</div>'; return; }
+      list.forEach(q=>body.appendChild(HAREC.renderQuestion(CHAP_ID,q)));
+      if(window.MathJax&&MathJax.typesetPromise) MathJax.typesetPromise([body]);
+      stats();
+    }
+    function stats(){
+      const ans=HAREC.getAnswers(CHAP_ID); const tot=vragen.length;
+      const done=Object.keys(ans).length; const good=Object.values(ans).filter(a=>a.ok).length;
+      document.getElementById('quiz-stats').textContent=`${done}/${tot} beantwoord · ${good} juist`;
+    }
+    document.addEventListener('harec:answered',stats);
+    drawFilters(); render();
+    HAREC.buildSidebar(CHAP_ID,null);
+  })();
+</script>
+</body>
+</html>

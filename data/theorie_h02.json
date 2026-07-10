@@ -1,0 +1,522 @@
+{
+ "hoofdstuk": 2,
+ "titel": "Elektriciteit",
+ "bron": "UBA-handboek h2 · IRTS HAREC Study Guide (2024) hfst. 3,4,5,6,7 · electriciteit.xls",
+ "subhoofdstukken": [
+  {
+   "id": "2.1",
+   "titel": "Gelijkspanning",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Gelijkspanning (DC, *direct current*) is spanning die niet van polariteit wisselt: de plus blijft plus. Dit is het startpunt van alle elektronica. We bouwen hier de basisbegrippen op — lading, stroom, spanning, weerstand — en de wetten die hun onderlinge verband beschrijven: de wet van Ohm en de twee wetten van Kirchhoff."
+    },
+    {
+     "type": "text",
+     "inhoud": "**Lading, stroom en spanning.** Elektrische **lading** ($Q$, in coulomb C) is de hoeveelheid elektriciteit. Beweegt die lading, dan spreken we van **stroom** ($I$, in ampère A): één ampère is één coulomb per seconde. De **spanning** ($U$, in volt V) is het potentiaalverschil dat de lading in beweging brengt — de 'druk' achter de stroom."
+    },
+    {
+     "type": "concept",
+     "titel": "Stroom, spanning en de conventionele stroomzin",
+     "essentie": "Stroom = ladingsverplaatsing per seconde (A). Spanning = de druk die de stroom drijft (V). Afspraak: stroom loopt van + naar −.",
+     "detail": {
+      "uitleg": "**Stroom** $I$ meet je in ampère: hoeveel lading er per seconde door een geleider passeert ($I = Q/t$). **Spanning** $U$ is het potentiaalverschil tussen twee punten, in volt. Zonder spanningsverschil geen stroom. De elektronen bewegen fysiek van de min- naar de pluspool, maar de afgesproken **conventionele stroomzin** loopt van plus naar min — die conventie gebruik je in elk schema.",
+      "voorbeeld": "Loopt er 2 A door een draad gedurende 5 seconden, dan is er $Q = I \\cdot t = 2 \\times 5 = 10$ coulomb aan lading gepasseerd.",
+      "analogie": "Spanning is de waterdruk, stroom is de hoeveelheid water per seconde. Geen drukverschil tussen twee punten → geen stroming, hoe dik de leiding ook is."
+     }
+    },
+    {
+     "type": "text",
+     "inhoud": "**Weerstand en de wet van Ohm.** Elke geleider werkt de stroom in zekere mate tegen: dat is de **weerstand** ($R$, in ohm Ω). Het verband tussen spanning, stroom en weerstand is de belangrijkste wet uit de hele elektronica."
+    },
+    {
+     "type": "formula",
+     "naam": "Wet van Ohm",
+     "latex": "U = I \\cdot R",
+     "symbolen": "$U$ = spanning (V), $I$ = stroom (A), $R$ = weerstand (Ω)",
+     "voorbeeld": "Over een weerstand van 100 Ω staat 20 V → $I = U/R = 20/100 = 0{,}2$ A = 200 mA."
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — de driehoek van Ohm",
+     "inhoud": "$U = I \\cdot R \\qquad I = \\dfrac{U}{R} \\qquad R = \\dfrac{U}{I}$\nKen je twee grootheden, dan bereken je de derde. Zet altijd eerst alles in de kale eenheden (V, A, Ω) — dus 200 mA → 0,2 A, 4,7 kΩ → 4700 Ω."
+    },
+    {
+     "type": "text",
+     "inhoud": "**De wetten van Kirchhoff.** Zodra een schakeling uit meer dan één component bestaat, beschrijven de twee wetten van Kirchhoff hoe stroom en spanning zich verdelen. Ze zijn eigenlijk behoudswetten: lading en energie gaan nergens verloren."
+    },
+    {
+     "type": "concept",
+     "titel": "Eerste wet van Kirchhoff — de stroomwet",
+     "essentie": "In een knooppunt is de som van de toevloeiende stromen gelijk aan de som van de wegvloeiende stromen. Wat binnenkomt, gaat er weer uit.",
+     "detail": {
+      "uitleg": "De **stroomwet** (eerste wet van Kirchhoff) zegt dat lading niet ophoopt of verdwijnt in een **knooppunt** (een punt waar meerdere draden samenkomen). Alle stroom die het knooppunt binnenvloeit, moet het ook weer verlaten. In formule: $\\sum I_{in} = \\sum I_{uit}$, of anders gezegd, de algebraïsche som van alle stromen in een knooppunt is nul. Dit is de basis om stromen in vertakte (parallelle) schakelingen te berekenen.",
+      "voorbeeld": "Vloeit in een knooppunt 5 A binnen langs één draad, en gaat er 2 A weg langs een tweede draad, dan moet er via de derde draad $5 - 2 = 3$ A wegvloeien. De som klopt: 5 A in = 2 A + 3 A uit.",
+      "analogie": "Een knooppunt is als een kruispunt van waterleidingen. Al het water dat toestroomt, moet ergens heen — er verdwijnt niets en er komt niets bij. Wat er langs de ene buis in gaat, komt langs de andere buizen weer buiten."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Stroomwet van Kirchhoff (knooppunt)",
+     "latex": "\\sum I_{\\text{in}} = \\sum I_{\\text{uit}}",
+     "symbolen": "De som van de toevloeiende stromen = de som van de wegvloeiende stromen in elk knooppunt.",
+     "voorbeeld": "In een knooppunt komen 20 mA en 5 mA binnen en gaat 10 mA weg langs één tak → langs de laatste tak vloeit $20 + 5 - 10 = 15$ mA weg."
+    },
+    {
+     "type": "concept",
+     "titel": "Tweede wet van Kirchhoff — de spanningswet",
+     "essentie": "In een gesloten kring is de som van de bronspanningen gelijk aan de som van de spanningsvallen over de componenten.",
+     "detail": {
+      "uitleg": "De **spanningswet** (tweede wet van Kirchhoff) zegt dat als je een gesloten lus doorloopt, de geleverde spanning (van de bron) volledig 'opgebruikt' wordt door de spanningsvallen over de componenten. In formule: $\\sum U_{\\text{bron}} = \\sum U_{\\text{val}}$, oftewel de som van alle spanningen rond een gesloten kring is nul. Dit verklaart waarom in een seriekring de deelspanningen samen de bronspanning vormen.",
+      "voorbeeld": "Een 12 V-batterij met twee weerstanden in serie: als over de eerste weerstand 8 V staat, dan staat over de tweede noodzakelijk $12 - 8 = 4$ V. De som van de spanningsvallen (8 + 4) is gelijk aan de bronspanning (12 V).",
+      "analogie": "Denk aan een wandeling die op een heuvel begint en eindigt op hetzelfde punt. De totale stijging is precies gelijk aan de totale daling — netto sta je weer op je startpunt. Zo 'daalt' de spanning over de componenten precies zoveel als de bron ze 'omhoog' bracht."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Spanningswet van Kirchhoff (kring)",
+     "latex": "\\sum U_{\\text{bron}} = \\sum U_{\\text{val}}",
+     "symbolen": "In elke gesloten kring is de som van de bronspanningen gelijk aan de som van de spanningsvallen over de componenten.",
+     "voorbeeld": "12 V-bron met drie serieweerstanden waarover 3 V, 5 V en $U_3$ staan → $U_3 = 12 - 3 - 5 = 4$ V."
+    },
+    {
+     "type": "text",
+     "inhoud": "**Weerstanden in serie en parallel.** Uit de wetten van Kirchhoff volgt hoe je meerdere weerstanden tot één vervangingswaarde herleidt."
+    },
+    {
+     "type": "grid2",
+     "titel": "Serie vs. parallel — de regels",
+     "kolommen": [
+      "In serie",
+      "In parallel"
+     ],
+     "inhoud": [
+      "Dezelfde **stroom** door elke weerstand.\nDe spanningen tellen op.\nVervangingsweerstand: $R = R_1 + R_2 + \\ldots$ (altijd **groter** dan de grootste).",
+      "Dezelfde **spanning** over elke weerstand.\nDe stromen tellen op.\nVervangingsweerstand: $\\dfrac{1}{R} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2} + \\ldots$ (altijd **kleiner** dan de kleinste)."
+     ]
+    },
+    {
+     "type": "formula",
+     "naam": "Weerstanden in serie",
+     "latex": "R_{\\text{tot}} = R_1 + R_2 + \\cdots + R_n",
+     "symbolen": "$R_{\\text{tot}}$ = vervangingsweerstand (Ω). De totale weerstand is de som.",
+     "voorbeeld": "100 Ω + 220 Ω in serie → $R_{\\text{tot}} = 320$ Ω."
+    },
+    {
+     "type": "formula",
+     "naam": "Weerstanden in parallel",
+     "latex": "\\dfrac{1}{R_{\\text{tot}}} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2} + \\cdots",
+     "symbolen": "Voor twee weerstanden vereenvoudigt dit tot $R_{\\text{tot}} = \\dfrac{R_1 \\cdot R_2}{R_1 + R_2}$.",
+     "voorbeeld": "100 Ω // 100 Ω → $R_{\\text{tot}} = \\dfrac{100 \\times 100}{200} = 50$ Ω (twee gelijke: de helft)."
+    },
+    {
+     "type": "example",
+     "inhoud": "**Spanningsdeler.** Twee weerstanden in serie op 12 V: $R_1 = 1\\,\\text{k}\\Omega$ en $R_2 = 2\\,\\text{k}\\Omega$. De stroom is $I = \\dfrac{U}{R_1+R_2} = \\dfrac{12}{3000} = 4$ mA. De spanning over $R_2$ is dan $U_2 = I \\cdot R_2 = 0{,}004 \\times 2000 = 8$ V. Merk op: $R_2$ krijgt 2/3 van de weerstand én dus 2/3 van de spanning — een spanningsdeler verdeelt de spanning naar verhouding van de weerstanden."
+    },
+    {
+     "type": "text",
+     "inhoud": "**Vermogen en energie.** Spanning en stroom samen bepalen het **vermogen** — hoe snel energie wordt omgezet (in warmte, licht, radiogolven...)."
+    },
+    {
+     "type": "formula",
+     "naam": "Elektrisch vermogen",
+     "latex": "P = U \\cdot I = I^2 R = \\dfrac{U^2}{R}",
+     "symbolen": "$P$ = vermogen (W), $U$ = spanning (V), $I$ = stroom (A), $R$ = weerstand (Ω)",
+     "voorbeeld": "Een weerstand van 100 Ω met 20 V erover: $P = U^2/R = 400/100 = 4$ W — die warmte moet de weerstand aankunnen."
+    },
+    {
+     "type": "formula",
+     "naam": "Elektrische energie",
+     "latex": "W = P \\cdot t",
+     "symbolen": "$W$ = energie (Wh of J), $P$ = vermogen (W), $t$ = tijd (h of s)",
+     "voorbeeld": "1000 W gedurende 1 uur = 1 kWh."
+    },
+    {
+     "type": "warning",
+     "titel": "Let op — vermogen bepaalt de warmte",
+     "inhoud": "Het vermogen in een weerstand komt vrij als **warmte**. Elke weerstand heeft een maximaal vermogen (bv. 0,25 W of 5 W). Reken je 4 W uit maar gebruik je een 0,25 W-weerstandje, dan brandt het door. Kies altijd een type met voldoende vermogensreserve."
+    },
+    {
+     "type": "text",
+     "inhoud": "**Spanningsbronnen: EMK, inwendige weerstand en klemspanning.** Een echte bron is niet perfect en levert onder belasting iets minder dan haar theoretische spanning."
+    },
+    {
+     "type": "concept",
+     "titel": "EMK, inwendige weerstand en klemspanning",
+     "essentie": "De EMK is de spanning zonder belasting. Door de inwendige weerstand zakt de klemspanning zodra er stroom vloeit.",
+     "detail": {
+      "uitleg": "De **elektromotorische kracht** (EMK, $E$, in volt) is de spanning die een bron levert als er *geen* stroom vloeit (onbelast). Elke echte bron heeft echter een **inwendige weerstand** $R_i$. Zodra je een verbruiker aansluit en er stroom loopt, valt er over $R_i$ een stukje spanning weg, en de overblijvende **klemspanning** $U = E - I \\cdot R_i$ is lager dan de EMK. Sluit je de bron kort, dan beperkt enkel $R_i$ de stroom tot de **kortsluitstroom** $I_k = E / R_i$.",
+      "voorbeeld": "Een batterij met EMK 12 V en $R_i = 0{,}2$ Ω die 10 A levert: de klemspanning zakt naar $U = 12 - 10 \\times 0{,}2 = 10$ V. Bij kortsluiting zou de stroom oplopen tot $12/0{,}2 = 60$ A.",
+      "analogie": "De EMK is de druk in de waterleiding met alle kranen dicht. Zet je één kraan wijd open (veel stroom), dan zakt de druk aan de kraan merkbaar — dat verlies gebeurt in de 'inwendige' vernauwing van de leiding."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Klemspanning van een bron",
+     "latex": "U = E - I \\cdot R_i",
+     "symbolen": "$U$ = klemspanning (V), $E$ = EMK (V), $I$ = belastingsstroom (A), $R_i$ = inwendige weerstand (Ω)",
+     "voorbeeld": "$E = 9$ V, $R_i = 1$ Ω, $I = 2$ A → $U = 9 - 2 = 7$ V."
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — samenvatting gelijkspanning",
+     "inhoud": "**Wet van Ohm:** $U = I \\cdot R$.\n**Kirchhoff stroom:** som van stromen in een knooppunt = 0.\n**Kirchhoff spanning:** som van spanningen in een kring = 0.\n**Serie:** $R = R_1+R_2$, zelfde stroom. **Parallel:** $1/R = 1/R_1 + 1/R_2$, zelfde spanning.\n**Vermogen:** $P = U \\cdot I = I^2R = U^2/R$.\n**Klemspanning:** $U = E - I R_i$."
+    }
+   ]
+  },
+  {
+   "id": "2.2",
+   "titel": "Wisselspanning",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Wisselspanning (AC, *alternating current*) keert voortdurend van polariteit om. Het lichtnet en vrijwel alle radiosignalen zijn wisselspanningen. De belangrijkste vorm is de **sinus**: begrijp je die, dan kan je elk AC-signaal beschrijven met amplitude, periode/frequentie en faze."
+    },
+    {
+     "type": "concept",
+     "titel": "De sinusgolf",
+     "essentie": "Eén sinuscyclus gaat van 0 → +piek (90°) → 0 (180°) → −piek (270°) → 0 (360°). Amplitude + periode beschrijven hem volledig.",
+     "detail": {
+      "uitleg": "Een sinus is de natuurlijke vorm van wisselspanning. In een tijdsdomein-grafiek (tijd horizontaal, spanning verticaal) doorloopt hij per cyclus vier fasen: van 0 stijgt hij naar de **positieve piek** $+A$ (bij 90°), terug naar 0 (180°), naar de **negatieve piek** $-A$ (270°), en terug naar 0 (360°). De negatieve helft betekent gewoon dat de stroom de andere kant op vloeit, met dezelfde spanning. Om een sinus volledig te beschrijven heb je maar twee gegevens nodig: de amplitude en de periode (of frequentie) — alle andere waarden volgen daaruit, omdat de vorm altijd dezelfde is.",
+      "voorbeeld": "Het lichtnet doorloopt 50 volledige sinuscycli per seconde. In elk van die cycli gaat de spanning van 0 naar +325 V, terug naar 0, naar −325 V en terug — vijftig keer per seconde.",
+      "analogie": "Denk aan een punt op een draaiend wiel, van opzij bekeken. Het gaat op en neer volgens een perfecte sinus: hoogste punt (piek), middendoor (nul), laagste punt (negatieve piek). Eén omwenteling = één cyclus = 360°."
+     }
+    },
+    {
+     "type": "text",
+     "inhoud": "**Periode, frequentie en golflengte.** Deze drie beschrijven 'hoe snel' de sinus trilt en 'hoe lang' een golf is."
+    },
+    {
+     "type": "formula",
+     "naam": "Periode ↔ frequentie",
+     "latex": "f = \\dfrac{1}{T}",
+     "symbolen": "$f$ = frequentie (Hz), $T$ = periode (s). De frequentie is het aantal cycli per seconde.",
+     "voorbeeld": "$T = 20$ ms → $f = 1/0{,}02 = 50$ Hz (lichtnet)."
+    },
+    {
+     "type": "formula",
+     "naam": "Golflengte ↔ frequentie",
+     "latex": "\\lambda = \\dfrac{c}{f} = \\dfrac{300}{f_{\\mathrm{MHz}}}",
+     "symbolen": "$\\lambda$ = golflengte (m), $c \\approx 3\\times10^8$ m/s (lichtsnelheid), $f$ = frequentie",
+     "voorbeeld": "$f = 145$ MHz → $\\lambda = 300/145 \\approx 2$ m (de 2-meterband)."
+    },
+    {
+     "type": "text",
+     "inhoud": "**Amplitude, effectieve en gemiddelde waarde.** Omdat een sinus voortdurend verandert, gebruiken we verschillende 'maten' om zijn grootte uit te drukken."
+    },
+    {
+     "type": "concept",
+     "titel": "Effectieve (RMS-)waarde",
+     "essentie": "De effectieve waarde is de gelijkspanning die evenveel vermogen levert. Voor een sinus: 0,707 × de piekwaarde.",
+     "detail": {
+      "uitleg": "De **effectieve waarde** (RMS, root mean square) is de gelijkspanning die in een weerstand *hetzelfde vermogen* zou opwekken als de wisselspanning. Voor een zuivere sinus geldt $U_{RMS} = 0{,}707 \\cdot U_{max}$ en omgekeerd $U_{max} = 1{,}414 \\cdot U_{RMS}$. Dit is de waarde die een AC-voltmeter aanwijst, en de waarde waarmee je de wet van Ohm en de vermogensformules gewoon mag toepassen zoals bij gelijkstroom. De **gemiddelde waarde** over een halve cyclus is $0{,}636 \\cdot U_{max}$ (over een volledige cyclus is het gemiddelde nul).",
+      "voorbeeld": "Het lichtnet heet '230 V' — dat is de effectieve waarde. De werkelijke piek is $1{,}414 \\times 230 \\approx 325$ V, en de piek-tot-piek $\\approx 650$ V. Het vermogen in een 500 Ω-belasting: $P = U_{RMS}^2/R = 230^2/500 \\approx 106$ W.",
+      "analogie": "De RMS-waarde is als het 'effectieve gemiddelde' dat evenveel effect heeft. Een schommelende waarde vervangen door één vast getal dat hetzelfde uitwerkt — voor vermogen is dat de effectieve waarde."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — waarden van een sinus",
+     "inhoud": "$U_{RMS} = 0{,}707 \\cdot U_{max}$  (effectieve waarde)\n$U_{max} = 1{,}414 \\cdot U_{RMS}$\n$U_{pp} = 2 \\cdot U_{max}$  (piek-tot-piek)\n$U_{gem} = 0{,}636 \\cdot U_{max}$  (gemiddelde over halve cyclus)"
+    },
+    {
+     "type": "concept",
+     "titel": "Faze en fazeverschil",
+     "essentie": "Faze beschrijft het tijdsverschil tussen twee signalen van dezelfde frequentie, in graden (één cyclus = 360°).",
+     "detail": {
+      "uitleg": "Twee sinussen van **dezelfde frequentie** die niet op hetzelfde moment door nul gaan, hebben een **fazeverschil**, uitgedrukt in graden. Het ene signaal *ijlt voor* (leading) of *ijlt na* (lagging) op het andere. Een fazeverschil van 180° betekent dat ze in tegenfaze zijn — perfect elkaars spiegelbeeld. Fazeverschil heeft alleen betekenis tussen signalen van gelijke frequentie. Dit begrip is cruciaal bij spoelen en condensatoren (2.3), waar stroom en spanning 90° uit faze lopen.",
+      "voorbeeld": "Tel je twee sinussen van gelijke amplitude en frequentie op die 180° uit faze zijn, dan heffen ze elkaar volledig op: het resultaat is nul. Zijn ze in faze (0°), dan verdubbelt de amplitude.",
+      "analogie": "Twee schommels die even snel schommelen maar niet gelijk vertrekken, hebben een fazeverschil. Gaan ze precies tegengesteld (de ene vooruit terwijl de andere achteruit gaat), dan zijn ze 180° uit faze."
+     }
+    }
+   ]
+  },
+  {
+   "id": "2.3",
+   "titel": "Netwerken met weerstanden, condensatoren en spoelen",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Naast de weerstand zijn de **condensator** en de **spoel** de twee andere passieve basiscomponenten. In wisselstroomkringen gedragen ze zich frequentie-afhankelijk — dat gedrag heet **reactantie** — en ze veroorzaken een fazeverschil van 90° tussen spanning en stroom."
+    },
+    {
+     "type": "concept",
+     "titel": "De condensator",
+     "essentie": "Een condensator slaat energie op in een elektrisch veld. Zijn capaciteit (farad) hangt af van plaatoppervlak, afstand en diëlektricum.",
+     "detail": {
+      "uitleg": "Een **condensator** bestaat uit twee geleidende platen gescheiden door een isolator (het **diëlektricum**). Hij slaat energie op in het **elektrische veld** tussen de platen. Zijn **capaciteit** $C$ (in farad F) is groter naarmate het plaatoppervlak groter is, de platen dichter bij elkaar staan, en het diëlektricum een hogere diëlektrische constante heeft. Voor gelijkstroom is een geladen condensator na verloop van tijd een onderbreking (hij laadt op en blokkeert dan); voor wisselstroom laat hij stroom door — des te makkelijker naarmate de frequentie hoger is.",
+      "voorbeeld": "Een variabele (draai)condensator wijzigt zijn capaciteit doordat de platen meer of minder over elkaar schuiven — zo stem je een oude radio af. Een grotere overlap = grotere capaciteit.",
+      "analogie": "Een condensator is als een klein oplaadbaar emmertje voor lading. Voor snel wisselende stroom (hoge frequentie) wordt het emmertje voortdurend gevuld en geleegd — het lijkt of de stroom er vlot doorheen gaat. Voor gelijkstroom raakt het vol en stopt de stroom."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Capacitieve reactantie & faze",
+     "essentie": "De reactantie van een condensator daalt bij hogere frequentie. De stroom ijlt 90° vóór op de spanning.",
+     "detail": {
+      "uitleg": "De tegenwerking die een condensator aan wisselstroom biedt heet **capacitieve reactantie** $X_C$, in ohm. Ze is omgekeerd evenredig met zowel de frequentie als de capaciteit: $X_C = \\dfrac{1}{2\\pi f C}$. Hoe hoger de frequentie, hoe lager de reactantie (de condensator 'laat meer door'). Bij een condensator **ijlt de stroom 90° vóór op de spanning** (de stroom is er eerst, de spanning volgt), omdat er eerst lading moet vloeien voor de spanning opbouwt.",
+      "voorbeeld": "Een condensator van 1 µF bij 100 kHz: $X_C = \\dfrac{1}{2\\pi \\cdot 100000 \\cdot 10^{-6}} \\approx 1{,}6$ Ω. Bij 1 kHz wordt dat $\\approx 159$ Ω — honderd keer meer, want de frequentie is honderd keer lager.",
+      "analogie": "Bij een condensator komt de stroom 'aanstormen' voordat de spanning volgt — zoals water dat al in een emmer stroomt voordat het waterpeil (de 'spanning') zichtbaar stijgt."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Capacitieve reactantie",
+     "latex": "X_C = \\dfrac{1}{2\\pi f C}",
+     "symbolen": "$X_C$ = capacitieve reactantie (Ω), $f$ = frequentie (Hz), $C$ = capaciteit (F)",
+     "voorbeeld": "$C = 1$ µF, $f = 100$ kHz → $X_C = \\dfrac{1}{2\\pi \\cdot 10^5 \\cdot 10^{-6}} \\approx 1{,}6$ Ω."
+    },
+    {
+     "type": "concept",
+     "titel": "De spoel",
+     "essentie": "Een spoel slaat energie op in een magnetisch veld. Zijn inductie (henry) hangt af van het aantal windingen en de kern.",
+     "detail": {
+      "uitleg": "Een **spoel** (inductor) is een opgerolde draad die energie opslaat in een **magnetisch veld**. Zijn **inductie** $L$ (in henry H) is groter naarmate er meer windingen zijn, de diameter groter is, en de windingen dichter opeen liggen. Een **ferrietkern** verhoogt de inductie sterk; een messing kern verlaagt ze. Verandert de stroom door de spoel, dan wekt het magnetische veld een **tegen-EMK** (back-emf) op die de verandering tegenwerkt. Voor gelijkstroom (na de inschakelfase) biedt een ideale spoel geen tegenwerking; voor wisselstroom des te meer naarmate de frequentie stijgt.",
+      "voorbeeld": "Een spoel wordt ook een *smoorspoel* (choke) genoemd omdat ze hoogfrequente wisselstroom 'afknijpt' terwijl ze gelijkstroom vrijwel ongehinderd doorlaat — handig om DC en RF te scheiden in een voeding.",
+      "analogie": "Een spoel is als een zwaar vliegwiel. Het komt traag op gang (verzet zich tegen toenemende stroom) maar wil daarna blijven draaien (verzet zich tegen afnemende stroom). Dat 'traagheidsverzet' tegen verandering is de tegen-EMK."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Inductieve reactantie & faze",
+     "essentie": "De reactantie van een spoel stijgt bij hogere frequentie. De stroom ijlt 90° na op de spanning.",
+     "detail": {
+      "uitleg": "De tegenwerking van een spoel aan wisselstroom heet **inductieve reactantie** $X_L$, in ohm. Ze is recht evenredig met de frequentie en de inductie: $X_L = 2\\pi f L$. Hoe hoger de frequentie, hoe groter de reactantie (de spoel 'houdt meer tegen'). Bij een spoel **ijlt de stroom 90° na op de spanning** (de spanning is er eerst, de stroom bouwt traag op) — precies omgekeerd aan een condensator.",
+      "voorbeeld": "Een spoel van 1 mH bij 100 kHz: $X_L = 2\\pi \\cdot 100000 \\cdot 10^{-3} \\approx 628$ Ω. Bij 1 MHz wordt dat tien keer zoveel, want de reactantie stijgt met de frequentie.",
+      "analogie": "Bij een spoel komt de spanning eerst en 'sleept' de stroom mee, die er traag achteraan komt — zoals je eerst hard moet duwen (spanning) voordat een zwaar karretje (stroom) op gang komt."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Inductieve reactantie",
+     "latex": "X_L = 2\\pi f L",
+     "symbolen": "$X_L$ = inductieve reactantie (Ω), $f$ = frequentie (Hz), $L$ = inductie (H)",
+     "voorbeeld": "$L = 1$ mH, $f = 100$ kHz → $X_L = 2\\pi \\cdot 10^5 \\cdot 10^{-3} \\approx 628$ Ω."
+    },
+    {
+     "type": "grid2",
+     "titel": "Spoel vs. condensator — spiegelbeeld",
+     "kolommen": [
+      "Spoel (L)",
+      "Condensator (C)"
+     ],
+     "inhoud": [
+      "Energie in **magnetisch** veld.\n$X_L = 2\\pi f L$ → **stijgt** met frequentie.\nStroom ijlt **90° na** op de spanning.\nSerie/parallel **als weerstanden**.",
+      "Energie in **elektrisch** veld.\n$X_C = \\dfrac{1}{2\\pi f C}$ → **daalt** met frequentie.\nStroom ijlt **90° vóór** op de spanning.\nSerie/parallel **omgekeerd** aan weerstanden."
+     ]
+    },
+    {
+     "type": "concept",
+     "titel": "Impedantie en resonantie",
+     "essentie": "Impedantie is de totale tegenwerking (R + reactantie). Bij resonantie heffen XL en XC elkaar op.",
+     "detail": {
+      "uitleg": "In een kring met weerstand én reactantie is de totale tegenwerking de **impedantie** $Z$ (in ohm). De totale reactantie is het *verschil* van beide: $X = X_L - X_C$. Bij een bepaalde frequentie zijn $X_L$ en $X_C$ precies gelijk en heffen ze elkaar op ($X = 0$): dat is de **resonantiefrequentie**. Een resonantiekring (spoel + condensator) is de basis van filters, oscillatoren en afgestemde kringen. Bij een seriekring is de impedantie dan minimaal (enkel de weerstand blijft over); bij een parallelkring maximaal.",
+      "voorbeeld": "Een spoel en condensator samen vormen een afgestemde kring. Op de resonantiefrequentie 'resoneert' die kring — precies het principe waarmee je radio afstemt op één zender en de rest wegfiltert.",
+      "analogie": "Resonantie is als een kind op een schommel op het juiste ritme aanduwen: op de resonantiefrequentie versterkt alles elkaar met minimale moeite. Daarnaast werkt het tegen."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Resonantiefrequentie",
+     "latex": "f_0 = \\dfrac{1}{2\\pi\\sqrt{LC}}",
+     "symbolen": "$f_0$ = resonantiefrequentie (Hz), $L$ = inductie (H), $C$ = capaciteit (F). Hier geldt $X_L = X_C$.",
+     "voorbeeld": "$L = 1$ µH, $C = 100$ pF → $f_0 = \\dfrac{1}{2\\pi\\sqrt{10^{-6}\\cdot10^{-10}}} \\approx 15{,}9$ MHz."
+    }
+   ]
+  },
+  {
+   "id": "2.4",
+   "titel": "Niet-ideale weerstanden, condensatoren en spoelen",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "In werkelijkheid is geen enkel component perfect. Een 'weerstand' heeft ook wat inductie, een 'condensator' wat weerstand, enzovoort. Deze **parasitaire** eigenschappen worden vooral bij hoge frequenties belangrijk."
+    },
+    {
+     "type": "concept",
+     "titel": "Parasitaire eigenschappen",
+     "essentie": "Elk echt component heeft ongewenste bij-eigenschappen: een weerstand heeft parasitaire inductie/capaciteit, een spoel heeft draadweerstand.",
+     "detail": {
+      "uitleg": "Een **echte weerstand** heeft naast zijn weerstand ook een kleine **parasitaire inductie** (door de aansluitdraadjes) en **parasitaire capaciteit**. Een **echte spoel** heeft de **ohmse weerstand** van de wikkeldraad (en bij hoge frequentie het *skineffect*, waardoor de stroom enkel aan de buitenkant van de draad loopt). Een **echte condensator** heeft een kleine lekweerstand (het diëlektricum is nooit een perfecte isolator) en een serie-inductie. Bij lage frequenties zijn deze effecten verwaarloosbaar, maar bij radiofrequenties bepalen ze mee het gedrag — daarom heeft elk echt component een 'eigen resonantiefrequentie' waarboven het zich anders gedraagt dan bedoeld.",
+      "voorbeeld": "Boven een bepaalde frequentie gedraagt een condensator zich als een spoel (door zijn serie-inductie) en een spoel als een condensator. Daarom kies je componenten die geschikt zijn voor de frequentie waarop je werkt.",
+      "analogie": "Het is als een 'zuivere' toon uit een echt instrument: er klinken altijd wat bijgeluiden (boventonen, ruis) mee. Bij lage tonen hoor je ze amper, bij hoge tonen worden ze storend hoorbaar."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Tolerantie en kwaliteitsfactor",
+     "essentie": "Tolerantie geeft de toegelaten afwijking van de nominale waarde. De Q-factor drukt uit hoe 'verliesarm' een spoel of kring is.",
+     "detail": {
+      "uitleg": "De **tolerantie** geeft aan hoeveel de werkelijke waarde van een component mag afwijken van de opgedrukte (nominale) waarde, bv. ±5 % of ±1 %. Voor precisiewerk (filters, oscillatoren) gebruik je componenten met lage tolerantie. De **kwaliteitsfactor** $Q$ van een spoel of afgestemde kring drukt uit hoe verliesarm ze is: een hoge Q betekent weinig verlies en een scherpe (smalle) resonantie. Verliezen in de draadweerstand of het diëlektricum verlagen de Q.",
+      "voorbeeld": "Een filterkring met hoge Q laat een heel smalle frequentieband door (scherpe selectie); een lage-Q kring laat een bredere band door. Voor een selectieve ontvanger wil je hoge Q.",
+      "analogie": "Q is als de 'zuiverheid' van een stemvork: een goede stemvork (hoge Q) blijft lang natrillen op precies één toon; een slechte (lage Q) dempt snel uit en klinkt onzuiver."
+     }
+    }
+   ]
+  },
+  {
+   "id": "2.5",
+   "titel": "Transformatoren",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een **transformator** koppelt twee spoelen via een gemeenschappelijk magnetisch veld. Hij zet wisselspanning om (hoger of lager) en scheidt tegelijk elektrisch de twee kringen. Transformatoren werken alleen op wisselstroom."
+    },
+    {
+     "type": "concept",
+     "titel": "Werking van de transformator",
+     "essentie": "Een wisselstroom in de primaire wikkeling wekt via het magnetische veld een spanning op in de secundaire. De windingsverhouding bepaalt de spanningsverhouding.",
+     "detail": {
+      "uitleg": "Een transformator heeft een **primaire** en een **secundaire** wikkeling rond een gemeenschappelijke (vaak ijzeren of ferriet-)kern. De wisselstroom in de primaire wekt een wisselend magnetisch veld op, dat in de secundaire een spanning induceert. De spanningsverhouding is gelijk aan de **windingsverhouding**: $\\dfrac{U_1}{U_2} = \\dfrac{N_1}{N_2}$. Meer secundaire windingen dan primaire → hogere spanning (optransformeren); minder → lagere spanning (aftransformeren). Bij een ideale transformator blijft het vermogen behouden, dus als de spanning stijgt, daalt de stroom evenredig ($U_1 I_1 = U_2 I_2$).",
+      "voorbeeld": "Een nettransformator met 1000 primaire en 100 secundaire windingen transformeert 230 V naar $230 \\times 100/1000 = 23$ V. De secundaire stroom kan dan tien keer groter zijn dan de primaire.",
+      "analogie": "Een transformator is als een tandwieloverbrenging: een groot tandwiel dat een klein aandrijft, ruilt 'kracht' voor 'snelheid'. Zo ruilt een transformator spanning voor stroom (of omgekeerd), met behoud van vermogen."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Windingsverhouding van een transformator",
+     "latex": "\\dfrac{U_1}{U_2} = \\dfrac{N_1}{N_2}",
+     "symbolen": "$U_1$, $U_2$ = primaire/secundaire spanning (V), $N_1$, $N_2$ = aantal primaire/secundaire windingen",
+     "voorbeeld": "$N_1 = 1000$, $N_2 = 100$, $U_1 = 230$ V → $U_2 = 230 \\cdot 100/1000 = 23$ V."
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — transformator",
+     "inhoud": "Werkt enkel op **wisselstroom** (een veranderend magnetisch veld is nodig).\nSpanningsverhouding = **windingsverhouding**.\nVermogen blijft (ideaal) behouden: stijgt de spanning, dan daalt de stroom evenredig.\nToepassingen: spanning aanpassen, kringen elektrisch scheiden, impedantie aanpassen."
+    },
+    {
+     "type": "concept",
+     "titel": "Impedantieaanpassing met een transformator",
+     "essentie": "Een transformator kan ook impedanties aanpassen: de impedantieverhouding is het kwadraat van de windingsverhouding.",
+     "detail": {
+      "uitleg": "Naast spanning omzetten kan een transformator ook **impedanties aanpassen** — belangrijk om maximaal vermogen over te dragen (bv. tussen een versterker en een luidspreker of antenne). De impedantieverhouding is het *kwadraat* van de windingsverhouding: $\\dfrac{Z_1}{Z_2} = \\left(\\dfrac{N_1}{N_2}\\right)^2$. Zo transformeer je bijvoorbeeld een 50 Ω-antenne-ingang naar de veel hogere impedantie die een buizen-eindtrap nodig heeft.",
+      "voorbeeld": "Met een windingsverhouding 2:1 transformeer je een impedantie van 200 Ω naar $200 / 2^2 = 50$ Ω — precies de aanpassing die je vaak nodig hebt naar een 50 Ω-antennelijn.",
+      "analogie": "Zoals versnellingen op een fiets je trapkracht aanpassen aan de helling, past een transformator de impedantie aan zodat bron en belasting optimaal 'op elkaar afgestemd' zijn."
+     }
+    }
+   ]
+  },
+  {
+   "id": "2.6",
+   "titel": "Niet-sinusvormige periodieke signalen",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Niet elk periodiek signaal is een zuivere sinus. Blokgolven, driehoeksgolven en zaagtandgolven herhalen zich net zo regelmatig, maar hebben een andere vorm. Wiskundig zijn ze allemaal op te bouwen uit een grondsinus plus **harmonischen**."
+    },
+    {
+     "type": "concept",
+     "titel": "Harmonischen",
+     "essentie": "Een harmonische is een sinus met een frequentie die een geheel veelvoud is van de grondfrequentie. Samen vormen ze complexe golfvormen.",
+     "detail": {
+      "uitleg": "Elke periodieke golf, hoe complex ook, is de som van een **grondgolf** (de laagste frequentie, ook eerste harmonische genoemd) en een reeks **harmonischen**: sinussen met een frequentie die een geheel veelvoud is van de grondfrequentie. De tweede harmonische heeft de dubbele frequentie, de derde de drievoudige, enz. De amplitude en het aantal harmonischen bepalen de vorm. Dit inzicht (de basis van de Fourier-analyse, zie hoofdstuk 11) verklaart waarom scherpe golfvormen veel hoge frequenties bevatten.",
+      "voorbeeld": "Een zuivere fluittoon is één sinus. Dezelfde toonhoogte op een viool klinkt rijker omdat er sterke harmonischen meeklinken — dat is de 'klankkleur'. Elektrisch geldt hetzelfde: de harmonischen bepalen de vorm van het signaal.",
+      "analogie": "Harmonischen zijn als de boventonen van een muzieknoot: de grondtoon bepaalt de toonhoogte, de boventonen de klankkleur. Samen maken ze het verschil tussen een fluit en een viool op dezelfde noot."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "De blokgolf",
+     "essentie": "Een blokgolf bestaat uit een grondsinus plus al zijn oneven harmonischen (3×, 5×, 7×...) met afnemende amplitude.",
+     "detail": {
+      "uitleg": "De **blokgolf** (vierkantsgolf) springt abrupt tussen een hoge en een lage waarde. Wiskundig is ze de som van de grondsinus en alle **oneven harmonischen** (3×, 5×, 7×, ...) met afnemende amplitude. Hoe steiler de flanken, hoe meer hoge harmonischen nodig zijn. Andere veelvoorkomende vormen zijn de **driehoeksgolf** en de **zaagtandgolf**, elk met hun eigen harmonische opbouw.",
+      "voorbeeld": "Een digitale klok in een computer is een blokgolf. Precies omdat ze zoveel hoge harmonischen bevat, kan zo'n kloksignaal storing (RFI) veroorzaken op radiofrequenties die veel hoger liggen dan de klokfrequentie zelf.",
+      "analogie": "Een blokgolf bouwen uit sinussen is als een hoekig gebouw optrekken uit ronde stenen: hoe scherper de hoek moet zijn, hoe meer (steeds kleinere) stenen — de hoge harmonischen — je nodig hebt."
+     }
+    },
+    {
+     "type": "warning",
+     "titel": "Let op — harmonischen en storing",
+     "inhoud": "Signalen met scherpe flanken bevatten veel hoge harmonischen. Een zender die zulke harmonischen uitstraalt, kan storen in andere (hogere) frequentiebanden. Daarom worden zenders gefilterd zodat enkel de gewenste frequentie wordt uitgezonden."
+    }
+   ]
+  },
+  {
+   "id": "2.7",
+   "titel": "Niet-periodieke signalen",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Niet-periodieke (aperiodieke) signalen herhalen zich niet regelmatig. De meeste signalen die we in radio overbrengen — spraak, muziek, data — zijn niet-periodiek."
+    },
+    {
+     "type": "concept",
+     "titel": "Niet-periodieke signalen en de spraakband",
+     "essentie": "Spraak is niet-periodiek en voortdurend veranderend. Voor verstaanbaarheid volstaat de band 300 Hz – 2,7 kHz.",
+     "detail": {
+      "uitleg": "Een **niet-periodiek signaal** heeft geen vaste, herhalende vorm; het verandert voortdurend. Menselijke spraak is hiervan het belangrijkste voorbeeld. Hoewel het gehoor van 20 Hz tot 20 kHz reikt, dragen voor de *verstaanbaarheid* van spraak vooral de frequenties tussen ongeveer **300 Hz en 2,7 kHz** bij. Radioamateurs beperken hun uitzending bewust tot die smalle band (vooral bij SSB): dat bespaart bandbreedte zonder de verstaanbaarheid te schaden.",
+      "voorbeeld": "Een SSB-spraakkanaal is meestal maar ~2,6 kHz breed. Dat volstaat om iemand goed te verstaan, terwijl er in dezelfde bandruimte veel meer stations passen dan met een breed signaal.",
+      "analogie": "Het klinkt 'dun' zoals een telefoongesprek — dat geeft ook enkel de spraakband door. Toch versta je elkaar prima; de rest van het geluidsspectrum voegt voor verstaanbaarheid weinig toe."
+     }
+    }
+   ]
+  },
+  {
+   "id": "2.8",
+   "titel": "Filters",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een **filter** laat bepaalde frequenties door en houdt andere tegen. Filters zijn overal in radio: om ongewenste frequenties te weren, banden te selecteren en signalen te scheiden. Ze zijn opgebouwd uit weerstanden, spoelen en condensatoren, waarvan de reactantie frequentie-afhankelijk is (zie 2.3)."
+    },
+    {
+     "type": "concept",
+     "titel": "De vier filtertypes",
+     "essentie": "Laagdoorlaat, hoogdoorlaat, banddoorlaat en bandsper — elk laat een ander frequentiegebied door.",
+     "detail": {
+      "uitleg": "Er zijn vier basistypes, genoemd naar wat ze **doorlaten**: een **laagdoorlaatfilter** (low-pass) laat lage frequenties door en houdt hoge tegen; een **hoogdoorlaatfilter** (high-pass) doet het omgekeerde; een **banddoorlaatfilter** (band-pass) laat enkel een bepaalde band door; een **bandsperfilter** (band-stop / notch) houdt net één band tegen. Ze werken doordat de reactantie van spoelen en condensatoren frequentie-afhankelijk is: een condensator laat hoge frequenties makkelijker door, een spoel net de lage. De **kantelfrequentie** (cutoff) is de grens waarbij het filter begint te verzwakken.",
+      "voorbeeld": "Een laagdoorlaatfilter aan de uitgang van een zender laat het nuttige signaal door maar onderdrukt de hoge harmonischen — zo voorkom je storing in hogere banden. Een banddoorlaatfilter in een ontvanger selecteert enkel de gewenste band.",
+      "analogie": "Filters zijn als zeven met verschillende maaswijdte: een laagdoorlaatfilter laat de 'grove' (lage) frequenties door en houdt de 'fijne' (hoge) tegen; een banddoorlaatfilter laat enkel één bepaalde korrelgrootte door."
+     }
+    },
+    {
+     "type": "grid2",
+     "titel": "De filtertypes",
+     "kolommen": [
+      "Laag- en hoogdoorlaat",
+      "Band-doorlaat en -sper"
+     ],
+     "inhoud": [
+      "**Laagdoorlaat**: laat lage frequenties door (bv. tegen harmonischen aan de zenderuitgang).\n**Hoogdoorlaat**: laat hoge frequenties door.",
+      "**Banddoorlaat**: laat één band door (bandselectie in ontvanger).\n**Bandsper (notch)**: houdt één storende frequentie tegen."
+     ]
+    },
+    {
+     "type": "concept",
+     "titel": "Afgestemde kringen als filter",
+     "essentie": "Een spoel en condensator samen vormen een resonantiekring die scherp op één frequentie selecteert.",
+     "detail": {
+      "uitleg": "Een **afgestemde kring** (spoel + condensator) is de kern van veel band-filters. Op zijn resonantiefrequentie $f_0 = \\dfrac{1}{2\\pi\\sqrt{LC}}$ heffen $X_L$ en $X_C$ elkaar op. Een seriekring biedt dan minimale impedantie (laat die frequentie makkelijk door), een parallelkring maximale impedantie (blokkeert of accentueert die frequentie). De **kwaliteitsfactor Q** bepaalt hoe scherp (smal) de selectie is: hoge Q = smalle doorlaatband.",
+      "voorbeeld": "De afstemkring van een ontvanger is een LC-kring waarvan je de resonantiefrequentie regelt (met een variabele condensator of spoel) om precies op één zender af te stemmen.",
+      "analogie": "Een afgestemde kring is als een stemvork die enkel meetrilt met haar eigen toon: alleen de resonantiefrequentie komt er goed doorheen, de rest wordt onderdrukt."
+     }
+    }
+   ]
+  },
+  {
+   "id": "2.9",
+   "titel": "Het kwartskristal",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een **kwartskristal** is een component dat mechanisch trilt op een zeer nauwkeurige, stabiele frequentie. Het is onmisbaar voor frequentiestabiliteit in oscillatoren en filters."
+    },
+    {
+     "type": "concept",
+     "titel": "Het piëzo-elektrisch effect",
+     "essentie": "Kwarts vervormt onder spanning en wekt spanning op bij vervorming. Daardoor trilt het op een zeer precieze eigenfrequentie.",
+     "detail": {
+      "uitleg": "Kwarts vertoont het **piëzo-elektrisch effect**: leg je er een spanning over, dan vervormt het kristal een beetje; vervorm je het, dan wekt het een spanning op. In een schakeling gaat een kwartskristal daardoor **mechanisch resoneren** op een zeer precieze en stabiele eigenfrequentie, bepaald door de afmetingen van het geslepen kristal. Elektrisch gedraagt het zich als een resonantiekring met een extreem hoge kwaliteitsfactor Q — veel hoger dan een gewone LC-kring.",
+      "voorbeeld": "Een kwartskristal in een polshorloge trilt op 32 768 Hz en houdt de tijd op enkele seconden per maand nauwkeurig. In een zender zorgt een kristal voor een rotsvaste, nauwkeurige zendfrequentie.",
+      "analogie": "Een kwartskristal is als een uiterst zuivere stemvork die je elektrisch kan 'aanslaan': ze trilt op precies één frequentie en houdt die met verbluffende nauwkeurigheid vast."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — kwartskristal",
+     "inhoud": "**Piëzo-elektrisch**: spanning ↔ mechanische vervorming.\nTrilt op een **zeer precieze, stabiele** eigenfrequentie.\nGedraagt zich als een resonantiekring met **zeer hoge Q**.\nToepassingen: stabiele oscillatoren (nauwkeurige zendfrequentie), zeer smalle kristalfilters, tijdbasis (klokken)."
+    }
+   ]
+  }
+ ]
+}

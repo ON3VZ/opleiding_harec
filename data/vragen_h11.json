@@ -1,0 +1,482 @@
+{
+ "hoofdstuk": "h11",
+ "vragen": [
+  {
+   "id": 282,
+   "sub": "11.1",
+   "vraag": "Wat is digitale signaalverwerking?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een techniek waarbij digitale signalen worden omgezet in analoge signalen om ze op een eenvoudige manier te kunnen behandelen"
+    },
+    {
+     "letter": "B",
+     "text": "een techniek waarbij analoge signalen worden omgezet in digitale signalen die door rekenprogramma’s op een efficiënte en flexibele manier kunnen worden bewerkt"
+    },
+    {
+     "letter": "C",
+     "text": "het digitaal samenstellen van signalen en converteren naar analoge signalen"
+    },
+    {
+     "letter": "D",
+     "text": "omzetten van digitale signalen naar analoge signalen en vice versa"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "DSP zet analoge signalen om naar digitale signalen die vervolgens met rekenprogramma's flexibel en efficiënt bewerkt kunnen worden (§1.7)."
+  },
+  {
+   "id": 283,
+   "sub": "11.1",
+   "vraag": "Digitale filters worden veelal gebruikt als:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "laagdoorlaatfilters in de eindtrap van een zender"
+    },
+    {
+     "letter": "B",
+     "text": "hoogdoorlaatfilters in de eindtrap van een zender"
+    },
+    {
+     "letter": "C",
+     "text": "filters van verschillende types in het audiogedeelte van ontvangers"
+    },
+    {
+     "letter": "D",
+     "text": "netfilters"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "In ontvangers worden digitale filters vooral gebruikt in het audiogedeelte, in verschillende filtertypes (bv. ruisonderdrukking, CW/SSB-filtering) (§1.7)."
+  },
+  {
+   "id": 284,
+   "sub": "11.1",
+   "vraag": "Digitale filters",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "worden vooral gebruikt op zeer hoge frequenties"
+    },
+    {
+     "letter": "B",
+     "text": "geven aanleiding tot een grotere signaalvertraging (delay) dan analoge filters"
+    },
+    {
+     "letter": "C",
+     "text": "geven aanleiding tot een kleinere signaalvertraging (delay) dan analoge filters"
+    },
+    {
+     "letter": "D",
+     "text": "zijn beperkt tot laag- en hoogdoorlaat filters"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Digitale filters geven door hun verwerkingstijd (bemonstering, berekening, buffering) doorgaans een grotere vertraging (delay) dan eenvoudige analoge filters (§1.7)."
+  },
+  {
+   "id": 285,
+   "sub": "11.1",
+   "vraag": "Wat is sampling (bemonstering) zoals gebruikt digitale signaalverwerking",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Sampling is het omzetten van het analoog signaal naar een digitaal signaal"
+    },
+    {
+     "letter": "B",
+     "text": "Sampling is het omzetten van het digitaal signaal naar een analoog signaal"
+    },
+    {
+     "letter": "C",
+     "text": "Sampling is het wiskundig bewerken van een digitaal signaal"
+    },
+    {
+     "letter": "D",
+     "text": "Sampling bestaat uit het vastleggen van de ogenblikkelijke waardes  van het analoge ingangssignaal"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Bemonsteren (sampling) is het op regelmatige tijdstippen vastleggen van de ogenblikkelijke waarde van het analoge ingangssignaal (§1.7)."
+  },
+  {
+   "id": 286,
+   "sub": "11.1",
+   "vraag": "Bij het omzetten van analoge naar digitale signalen is de  Nyquist-frequentie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het dubbele van de sampling rate (bemonsteringsfrequentie)"
+    },
+    {
+     "letter": "B",
+     "text": "gelijk aan de sampling rate (bemonsteringsfrequentie)"
+    },
+    {
+     "letter": "C",
+     "text": "de helft van de sampling rate (bemonsteringsfrequentie)"
+    },
+    {
+     "letter": "D",
+     "text": "het viervoudige van de sampling rate (bemonsteringsfrequentie)"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "De Nyquist-frequentie is per definitie de helft van de bemonsteringsfrequentie (§1.7, formule 14)."
+  },
+  {
+   "id": 287,
+   "sub": "11.1",
+   "vraag": "Bij het omzetten van analoge naar digitale signalen betekent quantizering",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het tellen van het aantal samples"
+    },
+    {
+     "letter": "B",
+     "text": "het bepalen van het tijdsinterval tussen twee samples"
+    },
+    {
+     "letter": "C",
+     "text": "dat men analoog signaal maar naar een beperkt aantal digitale waarden kan omzetten"
+    },
+    {
+     "letter": "D",
+     "text": "dat men analoog signaal naar een onbeperkt aantal digitale waarden kan omzetten"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Kwantisatie betekent dat een analoge waarde slechts naar één van een beperkt aantal digitale niveaus kan worden afgerond (§1.7)."
+  },
+  {
+   "id": 288,
+   "sub": "11.1",
+   "vraag": "Om digitale filters met een snelle reactietijd te maken",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "karakteriseren we het gedrag van het gewenste filter in het tijdsdomein"
+    },
+    {
+     "letter": "B",
+     "text": "gebruiken we minstens één Fouriertransformatie"
+    },
+    {
+     "letter": "C",
+     "text": "karakteriseren we het gedrag van het gewenste filter in het frequentiedomein"
+    },
+    {
+     "letter": "D",
+     "text": "gebruiken we zoveel mogelijk Fouriertransformaties"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Voor een snelle reactietijd karakteriseert men het filtergedrag in het tijdsdomein (rechtstreeks bewerken van de ingangssamples, zonder de vertraging van een Fourier-transformatie) (§1.7)."
+  },
+  {
+   "id": 289,
+   "sub": "11.1",
+   "vraag": "Het voordeel van een FIR-filter ten opzichte van een IIR-filter is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "dat we met een FIR-filter ook het gedrag van een actief filter met terugkoppeling kunnen nabootsen"
+    },
+    {
+     "letter": "B",
+     "text": "dat een FIR-filter steeds stabiel is"
+    },
+    {
+     "letter": "C",
+     "text": "dat we met een FIR-filter selectievere filters kunnen ontwerpen"
+    },
+    {
+     "letter": "D",
+     "text": "dat een FIR-filter sneller is"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Het grote voordeel van een FIR-filter is dat het (zonder terugkoppeling) per definitie steeds stabiel is (§1.7)."
+  },
+  {
+   "id": 290,
+   "sub": "11.1",
+   "vraag": "Wat stelt dit blokschema voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een laagdoorlaatfilter"
+    },
+    {
+     "letter": "B",
+     "text": "Een hoogdoorlaatfilter"
+    },
+    {
+     "letter": "C",
+     "text": "Een FIR-filter"
+    },
+    {
+     "letter": "D",
+     "text": "Een IIR-filter"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Dit blokschema toont enkel vermenigvuldigers, optellers en vertragingselementen op de ingang zonder terugkoppeling van de uitgang: een FIR-filter (§1.7, figuur h01-fig06).",
+   "figuur": "assets/img/h02/h01-fig06-fir-filter.png"
+  },
+  {
+   "id": 291,
+   "sub": "11.1",
+   "vraag": "Wat stelt dit blokschema voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een laagdoorlaatfilter"
+    },
+    {
+     "letter": "B",
+     "text": "Een hoogdoorlaatfilter"
+    },
+    {
+     "letter": "C",
+     "text": "Een FIR-filter"
+    },
+    {
+     "letter": "D",
+     "text": "Een IIR-filter"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Dit blokschema toont bijkomend een terugkoppeling van de uitgang (b-coëfficiënten): een IIR-filter (§1.7, figuur h01-fig07).",
+   "figuur": "assets/img/h02/h01-fig07-iir-filter.png"
+  },
+  {
+   "id": 292,
+   "sub": "11.1",
+   "vraag": "DDS (direct digital synthesis) wordt gebruikt om",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een signaal om te zetten van het tijdsdomein naar het frequentiedomein"
+    },
+    {
+     "letter": "B",
+     "text": "een signaal om te zetten van het frequentiedomein naar het tijdsdomein"
+    },
+    {
+     "letter": "C",
+     "text": "door middel van DSP (digitale signaalverwerking) een wisselspanningsignaal te genereren"
+    },
+    {
+     "letter": "D",
+     "text": "om een IIR filter te maken"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "DDS gebruikt digitale signaalverwerking om rechtstreeks een analoog wisselspanningssignaal van precieze frequentie te genereren (§1.7)."
+  },
+  {
+   "id": 293,
+   "sub": "11.1",
+   "vraag": "Bij DDS (direct digital synthesis) is de Nyquist-frequentie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "gelijk aan de sampling rate (bemonsteringsfrequentie)"
+    },
+    {
+     "letter": "B",
+     "text": "gelijk aan de helft van de sampling rate (bemonsteringsfrequentie)"
+    },
+    {
+     "letter": "C",
+     "text": "gelijk aan het dubbel van de sampling rate (bemonsteringsfrequentie)"
+    },
+    {
+     "letter": "D",
+     "text": "gelijk aan 70 % van de sampling rate (bemonsteringsfrequentie)"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Ook bij DDS geldt de algemene Nyquist-regel: de bruikbare (Nyquist-)frequentie is de helft van de gebruikte sampling rate (§1.7, formule 14)."
+  },
+  {
+   "id": 294,
+   "sub": "11.1",
+   "vraag": "Bij digitale signaalverwerking is convolutie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het omzetten van een signaal van het tijdsdomein naar het frequentiedomein"
+    },
+    {
+     "letter": "B",
+     "text": "het omzetten van analoog signaal naar een digitaal signaal"
+    },
+    {
+     "letter": "C",
+     "text": "het omzetten van een digitaal signaal naar een analoog signaal"
+    },
+    {
+     "letter": "D",
+     "text": "het omzetten van een signaal van het spanningsdomein naar het stroomdomein"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Convolutie in het tijdsdomein komt overeen met vermenigvuldiging in het frequentiedomein — vandaar de link met de Fourier-transformatie (§1.7)."
+  },
+  {
+   "id": 295,
+   "sub": "11.1",
+   "vraag": "Wat is juist?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Men kan elk willekeurig signaal zowel in het tijdsdomein als in het frequentiedomein weergeven"
+    },
+    {
+     "letter": "B",
+     "text": "Alleen digitale signalen kunnen in het tijdstomein worden voorgesteld"
+    },
+    {
+     "letter": "C",
+     "text": "Alleen analoge signalen kunnen in het tijdsdomein worden voorgesteld"
+    },
+    {
+     "letter": "D",
+     "text": "Analoge signalen worden alleen in het frequentiedomein voorgesteld"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Elk signaal kan zowel in het tijdsdomein als in het frequentiedomein worden voorgesteld (twee equivalente representaties van dezelfde informatie) (§1.7)."
+  },
+  {
+   "id": 296,
+   "sub": "11.1",
+   "vraag": "Een digitaal-analoog conversie (DAC)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "gebeurt steeds in het tijdsdomein"
+    },
+    {
+     "letter": "B",
+     "text": "gebeurt steeds in het frequentiedomein"
+    },
+    {
+     "letter": "C",
+     "text": "kan zowel in het tijdsdomein als in het frequentiedomein plaatsvinden"
+    },
+    {
+     "letter": "D",
+     "text": "gebeurt afwisselend in het tijdsdomein en in het frequentiedomein"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Een DAC werkt op de opeenvolgende (tijdsdomein-)samples van het digitale signaal om er een analoog signaal van te maken (§1.7)."
+  },
+  {
+   "id": 297,
+   "sub": "11.1",
+   "vraag": "Wat is aliasing?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het ontstaan van een \"spooksignaal\" omdat aan de ingang van de ADC signalen met een te hoge frequentie komen"
+    },
+    {
+     "letter": "B",
+     "text": "het ontstaan van een \"spooksignaal\" omdat aan de ingang van de ADC signalen met een te lage frequentie komen"
+    },
+    {
+     "letter": "C",
+     "text": "het ontstaan van een \"spooksignaal\" omdat aan de ingang van de DAC signalen met een te hoge frequentie komen"
+    },
+    {
+     "letter": "D",
+     "text": "het ontstaan van een \"spooksignaal\" omdat aan de ingang van de DAC signalen met een te lage frequentie komen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Aliasing is het ontstaan van een vals ('spook')signaal doordat aan de ADC-ingang signalen met een te hoge frequentie (boven de Nyquist-frequentie) worden aangeboden (§1.7)."
+  },
+  {
+   "id": 298,
+   "sub": "11.1",
+   "vraag": "Uit wat bestaat een anti-aliaseringsfilter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een hoogdoorlaatfilter aan de ingang van de ADC om te verhinderen dat bij een gegeven sampel-rate alias-signalen zouden ontstaan"
+    },
+    {
+     "letter": "B",
+     "text": "een laagdoorlaatfilter aan de ingang van de ADC om te verhinderen dat bij een gegeven sampel-rate alias-signalen zouden ontstaan"
+    },
+    {
+     "letter": "C",
+     "text": "een hoogdoorlaatfilter aan de ingang van de DAC om te verhinderen dat bij een gegeven sampel-rate alias-signalen zouden ontstaan"
+    },
+    {
+     "letter": "D",
+     "text": "een laagdoorlaatfilter aan de ingang van voor de DAC om te verhinderen dat bij een gegeven sampel-rate alias-signalen zouden ontstaan"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een anti-aliasfilter is een laagdoorlaatfilter vóór de ADC, dat frequenties boven de Nyquist-grens wegfiltert vóór de bemonstering (§1.7)."
+  },
+  {
+   "id": 299,
+   "sub": "11.1",
+   "vraag": "Wat betekent ADC?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "analoge naar digitale omzetting"
+    },
+    {
+     "letter": "B",
+     "text": "actieve directe contributiespanning"
+    },
+    {
+     "letter": "C",
+     "text": "analoge digitale crossing"
+    },
+    {
+     "letter": "D",
+     "text": "wisselspanning met een gelijkspanning gesuperponeerd"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "ADC betekent Analoog-Digitaal-Conversie/omzetting (§1.7)."
+  },
+  {
+   "id": 300,
+   "sub": "11.1",
+   "vraag": "Wat betekent DAC?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Directe Algemene Contributiespanning"
+    },
+    {
+     "letter": "B",
+     "text": "Digitaal naar Analoog omzetting"
+    },
+    {
+     "letter": "C",
+     "text": "digitale analoge crossing"
+    },
+    {
+     "letter": "D",
+     "text": "gelijkspanning met een wisselspanning gesuperponeerd"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "DAC betekent Digitaal-Analoog-Conversie/omzetting (§1.7)."
+  }
+ ]
+}

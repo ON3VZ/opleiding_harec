@@ -1,0 +1,1730 @@
+{
+ "hoofdstuk": "h14",
+ "vragen": [
+  {
+   "id": 2,
+   "sub": "14.1",
+   "vraag": "Hoe spelt me volgens het internnationaal alfabet voor fonetische spelling \"HI4LM\"?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "HONOLULU ISIDOR FOUR LONDON MEXICO  "
+    },
+    {
+     "letter": "B",
+     "text": "HOTEL INDIA FOUR LIMA MIKE "
+    },
+    {
+     "letter": "C",
+     "text": "HOTEL INDIANA FOUR LIMA MIKE "
+    },
+    {
+     "letter": "D",
+     "text": "HOTEL INDIA FOUR LIMA MEXICO "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 3,
+   "sub": "14.1",
+   "vraag": "Hoe spelt me volgens het internationaal alfabet voor fonetische spelling \"ON50UBA\"?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "OSCAR NORWAY FIVE ZERO UNITED BAKER ABLE "
+    },
+    {
+     "letter": "B",
+     "text": "OSCAR NOVEMBER FIVE ZERO UNIFORM BRAVO ALPHA "
+    },
+    {
+     "letter": "C",
+     "text": "OSCAR NORWAY FIFTY URUGUAY BRAZIL AMERICA "
+    },
+    {
+     "letter": "D",
+     "text": "OSCAR NOVEMBER FIVE ZERO UNIFORM BAKER ALPHA "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 4,
+   "sub": "14.1",
+   "vraag": "Hoe spelt me volgens het internationaal alfabet voor fonetische spelling \"ZMSTURN\"?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ZANZIBAR MEXICO SANTIAGO TEXAS UNITED ROMEO NORWAY "
+    },
+    {
+     "letter": "B",
+     "text": "ZULU MIKE SIERRA TANGO UNIFORM ROMEO NOVEMBER "
+    },
+    {
+     "letter": "C",
+     "text": "ZULU MIKE SIERRA TEXAS UNITED RADIO NOVEMBER "
+    },
+    {
+     "letter": "D",
+     "text": "ZULU MEXICO SANTIAGO TEXAS UNITED ROMEO NOVEMBER "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 5,
+   "sub": "14.1",
+   "vraag": "Hoe spelt me volgens het internationaal alfabet voor fonetische spelling \"SHQHJPW\"?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "SANTIAGO HONOLULU QUEBEC HOTEL JANUARY PAPA WASHINGTON  "
+    },
+    {
+     "letter": "B",
+     "text": "SIERRA HOTEL QUEBEC HOTEL JULIET PAPA WHISKY"
+    },
+    {
+     "letter": "C",
+     "text": "SIERRA HOTEL QUEBEC HONOLULU JULIET PAPA WASHINGTON"
+    },
+    {
+     "letter": "D",
+     "text": "SANTIAGO HOTEL QUEBEC HONOLULU JULIET PAPA WHISKY"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 6,
+   "sub": "14.1",
+   "vraag": "Hoe spelt me volgens het internationaal alfabet voor fonetische spelling \"CEGIKLD\"?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "CHARLY ECHO GUATEMALA INDIA KILOWATT LONDON DENMARK "
+    },
+    {
+     "letter": "B",
+     "text": "CHARLY ECHO GOLF INDIA KENTUCKY LONDON DENMARK "
+    },
+    {
+     "letter": "C",
+     "text": "CHARLY ECHO GOLF INDIA KILO LIMA DELTA "
+    },
+    {
+     "letter": "D",
+     "text": "CANADA ENGLAND GOLF INDIANA  KILOMETER LIMA DENMARK "
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 7,
+   "sub": "14.1",
+   "vraag": "Hoe spelt me volgens het internationaal alfabet voor fonetische spelling \"GHNQWYOS\"?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "GOLF HOTEL NORWAY QUEBEC WHISKY YANKEE OSCAR SIERRA "
+    },
+    {
+     "letter": "B",
+     "text": "GOLF HOTEL NOVEMBER QUEBEC WHISKY YANKEE OSCAR SIERRA "
+    },
+    {
+     "letter": "C",
+     "text": "GOLF HOTEL NOVEMBER QUEBEC WHISKY YANKEE OCEAN SIERRA "
+    },
+    {
+     "letter": "D",
+     "text": "GOLF HOTEL NOVEMBER QUEBEC WHISKY YANKEE OSCAR SANTIAGO "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 8,
+   "sub": "14.1",
+   "vraag": "Hoe spelt me volgens het internationaal alfabet voor fonetische spelling \"XZTUJBKA\"?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "X-RAY ZULU TANGO UNIFORM JULLIET BRAVO KILO ALFA "
+    },
+    {
+     "letter": "B",
+     "text": "X-RAY ZULU TOKIO UNITED JULLIET BRAVO KILO ALFA "
+    },
+    {
+     "letter": "C",
+     "text": "X-RAY ZULU TANGO UNITED JULLIET BRAVO KILO ALFA "
+    },
+    {
+     "letter": "D",
+     "text": "X-RAY ZULU TANGO UNIFORM JULLIET BAKER KILO ALFA "
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 9,
+   "sub": "14.1",
+   "vraag": "Hoe spelt me volgens het internationaal alfabet voor fonetische spelling \"IBUVWDEN\"?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ITALY BRAVO UNIFORM VICTOR WISKY DENMARK ECHO NORWAY"
+    },
+    {
+     "letter": "B",
+     "text": "INDIA BRAVO UNIFORM VICTOR WISKY DELTA ECHO NOVEMBER"
+    },
+    {
+     "letter": "C",
+     "text": "INDIA BRAVO UNITED VICTOR WISKY DELTA ECHO NORWAY"
+    },
+    {
+     "letter": "D",
+     "text": "INDIA BRAVO UNITED VICTOR WISKY DENMARK ECHO NORWAY"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 10,
+   "sub": "14.1",
+   "vraag": "Hoe spelt me volgens het internationaal alfabet voor fonetische spelling \" ON1KGB \"?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "OSCAR NORWAY ONE KILO GUATEMALA BAKER "
+    },
+    {
+     "letter": "B",
+     "text": "OSCAR NOVEMBER ONE KILO GOLF BRAVO "
+    },
+    {
+     "letter": "C",
+     "text": "ONTARIO NORWAY ONE KILOGRAM GOLF BRAVO "
+    },
+    {
+     "letter": "D",
+     "text": "OSCAR NOVEMBER ONE KILO GOLF BAKER "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 11,
+   "sub": "14.1",
+   "vraag": "Hoe spelt me volgens het internnationaal alfabet voor fonetische spelling \"F3GJK\"?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "FOXTROT THREE GUATEMALA JULIETT KILO "
+    },
+    {
+     "letter": "B",
+     "text": "FRANCE THREE GUATEMALA JAPAN KILO  "
+    },
+    {
+     "letter": "C",
+     "text": "FOXTROT THREE GERMANY JAPAN KILOWATT "
+    },
+    {
+     "letter": "D",
+     "text": "FOXTROT THREE GOLF JULIETT KILO "
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 12,
+   "sub": "14.1",
+   "vraag": "Hoeveel fonetische alfabetten bestaan er?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Eén  (internationaal) "
+    },
+    {
+     "letter": "B",
+     "text": "twee  (Engels en Frans) "
+    },
+    {
+     "letter": "C",
+     "text": "drie (Engels, Frans en Spaans) "
+    },
+    {
+     "letter": "D",
+     "text": "vier (Engels, Frans, Spaans en Nederlands) "
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 13,
+   "sub": "14.1",
+   "vraag": "In geval van een moeilijke verbinding, en indien men gevraagd wordt te spellen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "mag men alleen het fonetisch alfabet van één van de correspondenten gebruiken "
+    },
+    {
+     "letter": "B",
+     "text": "moet men steeds het fonetisch alfabet gebruiken aangepast aan degene die om de spelling vraagt "
+    },
+    {
+     "letter": "C",
+     "text": "moet men steeds het internationaal fonetisch alfabet gebruiken "
+    },
+    {
+     "letter": "D",
+     "text": "moet men het fonetisch alfabet gebruiken dat het best verstaanbaar is voor de beide correspondenten "
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 14,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QSL ?\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Zal ik trager uitzenden? "
+    },
+    {
+     "letter": "B",
+     "text": "Zal ik u mijn QSL-kaart sturen? "
+    },
+    {
+     "letter": "C",
+     "text": "Zend me uw QSL kaart "
+    },
+    {
+     "letter": "D",
+     "text": "Kan u de ontvangst bevestigen? "
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 15,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRM ?\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Wat is de sterkte van mijn signaal? "
+    },
+    {
+     "letter": "B",
+     "text": "Worden mijn uitzendigen gestoord? "
+    },
+    {
+     "letter": "C",
+     "text": "Zal ik mijn zendvermogen verhogen? "
+    },
+    {
+     "letter": "D",
+     "text": "Zal ik mijn zendvermogen verlagen? "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 16,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRO ?\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Wat is de sterkte van mijn signaal? "
+    },
+    {
+     "letter": "B",
+     "text": "Zijn mijn uitzendigen gestoord "
+    },
+    {
+     "letter": "C",
+     "text": "Zal ik mijn zendvermogen verhogen? "
+    },
+    {
+     "letter": "D",
+     "text": "Zal ik mijn zendvermogen verlagen? "
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 17,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRZ ?\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Wil er me iemand oproepen? "
+    },
+    {
+     "letter": "B",
+     "text": "Wie heeft me opgeroepen? "
+    },
+    {
+     "letter": "C",
+     "text": "Algemene oproep aan iedereen "
+    },
+    {
+     "letter": "D",
+     "text": "Bent u gereed? "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 18,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRN ?\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Wat is de sterkte van mijn signaal? "
+    },
+    {
+     "letter": "B",
+     "text": "Zijn mijn uitzendigen gestoord? "
+    },
+    {
+     "letter": "C",
+     "text": "Zijn er atmosferische storingen? "
+    },
+    {
+     "letter": "D",
+     "text": "Zal ik mijn zendvermogen verlagen? "
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 19,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRT ?\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Wat is de sterkte van min  signaal? "
+    },
+    {
+     "letter": "B",
+     "text": "Zijn mijn uitzendigen gestoord? "
+    },
+    {
+     "letter": "C",
+     "text": "Zal ik mijn uitzendingen stoppen? "
+    },
+    {
+     "letter": "D",
+     "text": "Zal ik mijn zendvermogen verlagen? "
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 20,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRV ?\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Bent u gereed? "
+    },
+    {
+     "letter": "B",
+     "text": "Zijn mijn uitzendigen gestoord? "
+    },
+    {
+     "letter": "C",
+     "text": "Zal ik mijn uitzendingen stoppen?"
+    },
+    {
+     "letter": "D",
+     "text": "Zal ik mijn zendvermogen verlagen? "
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 21,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QSY ?\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Wat is de sterkte van mijn  signaal? "
+    },
+    {
+     "letter": "B",
+     "text": "Zijn mijn uitzendigen gestoord? "
+    },
+    {
+     "letter": "C",
+     "text": "Moet ik zenden op een andere frequentie? "
+    },
+    {
+     "letter": "D",
+     "text": "Zal ik mijn zendvermogen verlagen? "
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 22,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRS ?\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Zal ik trager seinen? "
+    },
+    {
+     "letter": "B",
+     "text": "Zijn mijn uitzendigen gestoord? "
+    },
+    {
+     "letter": "C",
+     "text": "Wordt u gestoord door atmosferische storingen? "
+    },
+    {
+     "letter": "D",
+     "text": "Zal ik mijn zendvermogen verlagen? "
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 23,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRK \"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de neembaarheid van mijn signaal is … "
+    },
+    {
+     "letter": "B",
+     "text": "Zijn mijn uitzendigen gestoord? "
+    },
+    {
+     "letter": "C",
+     "text": "ik zal mijn zendvermogen verhogen "
+    },
+    {
+     "letter": "D",
+     "text": "Ik zal mijn zendvermogen verlagen "
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 24,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRM \"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de sterkte van mijn signaal is … "
+    },
+    {
+     "letter": "B",
+     "text": "Uw uitzendigen zijn gestoord? "
+    },
+    {
+     "letter": "C",
+     "text": "ik zal mijn zendvermogen verhogen "
+    },
+    {
+     "letter": "D",
+     "text": "ik zal mijn zendvermogen verlagen "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 25,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRO \"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de sterkte van mijn signaal is … "
+    },
+    {
+     "letter": "B",
+     "text": "Zijn mijn uitzendigen gestoord? "
+    },
+    {
+     "letter": "C",
+     "text": "ik zal mijn zendvermogen verhogen "
+    },
+    {
+     "letter": "D",
+     "text": "ik zal mijn zendvermogen verlagen "
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 26,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRP\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de sterkte van mijn signaal is … "
+    },
+    {
+     "letter": "B",
+     "text": "Zijn mijn uitzendigen gestoord? "
+    },
+    {
+     "letter": "C",
+     "text": "ik zal mijn zendvermogen verhogen "
+    },
+    {
+     "letter": "D",
+     "text": "ik zal mijn zendvermogen verlagen "
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 27,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRN\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de sterkte van mijn signaal is … "
+    },
+    {
+     "letter": "B",
+     "text": "Zijn mijn uitzendigen gestoord? "
+    },
+    {
+     "letter": "C",
+     "text": "de ontvangst wordt gestoord door atmosferische storingen "
+    },
+    {
+     "letter": "D",
+     "text": "ik zal mijn zendvermogen verlagen "
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 28,
+   "sub": "14.1",
+   "vraag": "Wat wil zeggen \"QRX\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de sterkte van mijn signaal is …"
+    },
+    {
+     "letter": "B",
+     "text": "mijn uitzendigen zijn gestoord"
+    },
+    {
+     "letter": "C",
+     "text": "ik word gestoord door atmosferische storingen"
+    },
+    {
+     "letter": "D",
+     "text": "ik roep u opnieuw op"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 29,
+   "sub": "14.1",
+   "vraag": "De Q-code",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "bestaat steeds uit 3 letters "
+    },
+    {
+     "letter": "B",
+     "text": "betsaat steeds uit drie letters en een cijfers van 1 tot 5 "
+    },
+    {
+     "letter": "C",
+     "text": "kan in sommige gevallen beginnen met de letter Z "
+    },
+    {
+     "letter": "D",
+     "text": "wordt niet gebruikt in de radioamateurdienst "
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 30,
+   "sub": "14.1",
+   "vraag": "De Q-code",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is een internationale code die communicatie vergemakkelijkt "
+    },
+    {
+     "letter": "B",
+     "text": "kan van land tot land verschillen "
+    },
+    {
+     "letter": "C",
+     "text": "bestaat in verschillende varianten "
+    },
+    {
+     "letter": "D",
+     "text": "wordt alleen in telegrafie gebruikt "
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 31,
+   "sub": "14.1",
+   "vraag": "Wat is het internationaal erkend noodsignaal in morse telegrafie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "HELP"
+    },
+    {
+     "letter": "B",
+     "text": "MAYDAY "
+    },
+    {
+     "letter": "C",
+     "text": "SOS "
+    },
+    {
+     "letter": "D",
+     "text": "QRX "
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 32,
+   "sub": "14.1",
+   "vraag": "Wat is het internationaal erkend noodsignaal in telefonie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "SOS"
+    },
+    {
+     "letter": "B",
+     "text": "MAYDAY "
+    },
+    {
+     "letter": "C",
+     "text": "HELP"
+    },
+    {
+     "letter": "D",
+     "text": "QRX "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 33,
+   "sub": "14.1",
+   "vraag": "Wat is een prefix van een roepnaam?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De eerste twee letters en het eerstvolgende cijfer van een roepnaam"
+    },
+    {
+     "letter": "B",
+     "text": "Het eerste letter of de eerste twee letters die komen vóór het eerste cijfer, plus dat cijfer"
+    },
+    {
+     "letter": "C",
+     "text": "In een roepnaam identificeert de prefix eenduidig het land van herkomst"
+    },
+    {
+     "letter": "D",
+     "text": "Het eerste letter of de eerste twee letters die komen vóór het eerste cijfer"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 34,
+   "sub": "14.1",
+   "vraag": "Wat specificeert de ITU betreffende de lengte van een suffix van een  roepnaam",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Dat de suffix maximaal 3 tekens lang mag zijn"
+    },
+    {
+     "letter": "B",
+     "text": "dat het eerste teken een cijfer moet zijn, dat het laatste teken geen cijfer mag zijn en dat tussenin een niet bepaald aantal letters mogen staan"
+    },
+    {
+     "letter": "C",
+     "text": "dat het eerste teken een cijfer  moet zijn, dat het laatste teken geen cijfer mag zijn en dat tussenin maximaal 3  letters mogen staan"
+    },
+    {
+     "letter": "D",
+     "text": "niets"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 35,
+   "sub": "14.1",
+   "vraag": "Volgens de geldende ITU regels, welke van volgende reeksen roepnamen roepnamen kunnen allemaal een Belgisch station identificeren?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ON4A, OU1ALD, OS125UBA, OO1A2B3C4D,OT1ABCDEF"
+    },
+    {
+     "letter": "B",
+     "text": "ON4A, OR1ALD, OS125UBA, OM1A2B3C4D,OT1ABCDEF"
+    },
+    {
+     "letter": "C",
+     "text": "ON4A, OR1ALD, OS125UBA, OP1A2B3C4D,OT1ABCDEF"
+    },
+    {
+     "letter": "D",
+     "text": "ON4A1, OR1ALD, OS125UBA, O01A2B3C4D,OT1ABCDEF"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 36,
+   "sub": "14.1",
+   "vraag": "Wat is de IARU?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een onderafdeling van de ITU"
+    },
+    {
+     "letter": "B",
+     "text": "Een onderafdeling van de VN (Verenigde Naties)"
+    },
+    {
+     "letter": "C",
+     "text": "Een internationale groepering van radaioamateurverenigingen in gans de werled"
+    },
+    {
+     "letter": "D",
+     "text": "Een onderfadeling van de EG (Europese Gemeenschap)"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 37,
+   "sub": "14.1",
+   "vraag": "Wat is niet het doel van de IARU-bandplanning?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "te duiden in welke bandsegmenten bepaalde soorten transmissies mogen worden gedaan"
+    },
+    {
+     "letter": "B",
+     "text": "te vermijden dat er te veel storingen zouden ontstaan"
+    },
+    {
+     "letter": "C",
+     "text": "te duiden waar in de banden de gebuikers voor bepaalde toepassingen terecht kunnen"
+    },
+    {
+     "letter": "D",
+     "text": "aan te duiden welke banden of bandsegmenten in de verschillende landen aan de amateurdienst zijn toegewezen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 38,
+   "sub": "14.1",
+   "vraag": "Volgens het reglement van de radiocommunicaties van de ITU betreft de radioamateurdienst:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de studie van de radiogolven in het kader van hun invloed op het menselijk lichaam "
+    },
+    {
+     "letter": "B",
+     "text": "zelfstudie, onderlinge communicatie en opzoekingen gedaan door daartoe gemachtigde personen die geïnteresseerd zijn in de radiotechniek, en dit alleen uit persoonlijke interesse en zonder enig winstoogmerk "
+    },
+    {
+     "letter": "C",
+     "text": "het gebruik van de radiogolven met als enig doel de communicatie van persoon tot persoon "
+    },
+    {
+     "letter": "D",
+     "text": "het aanleren van de Morse-code alsook de studie van de theoretische aspecten van radiocommunicatie "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 39,
+   "sub": "14.1",
+   "vraag": "Volgens het reglement van de radiocommunicaties van de ITU spreekt de definitie van de radioamateurdienst per satelliet over:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zelfstudie, onderlinge communicatie en opzoekingen gedaan door daartoe gemachtigde personen die geïnteresseerd zijn in de radiotechniek, en dit alleen uit persoonlijke interesse en zonder enig winstoogmerk "
+    },
+    {
+     "letter": "B",
+     "text": "het gebruik van satellieten met als doel radio-omroep uitzendingen te doen bestemd voor het grote publiek "
+    },
+    {
+     "letter": "C",
+     "text": "een radiocommunicatiedienst gelijkaardig aan de radioamateurdienst, maar welke gebruik maakt van ruimtestations "
+    },
+    {
+     "letter": "D",
+     "text": "de opleiding van astronauten met als doel deel te nemen aan ruimteprojecten die gebruik maken van technieken van telecommunicatie "
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 40,
+   "sub": "14.1",
+   "vraag": "Wat is de ITU",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een onderafdeling van de VN (Verenigde Naties)"
+    },
+    {
+     "letter": "B",
+     "text": "Een internationale groepering van radaioamateurverenigingen in gans de werled"
+    },
+    {
+     "letter": "C",
+     "text": "Een onderfadeling van de EG (Europese Gemeenschap)"
+    },
+    {
+     "letter": "D",
+     "text": "De overkoepelende vereniging van alle  radaioamateurverenigingen in gans de werled"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 41,
+   "sub": "14.1",
+   "vraag": "Wat is de definitie van een amateurstation volgens de Radio Regulations van de ITU",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een of meer zenders en/of ontvangers of zender-ontvangers waarmede de radioamateur kan uitzenden op de amateurbanden"
+    },
+    {
+     "letter": "B",
+     "text": "een of meerdere zenders en ontvangers, of een combinatie daarvan, samet met alle bijhorende toestellen tot en met de antenne(s), die vereist zijn om het station te doen werken."
+    },
+    {
+     "letter": "C",
+     "text": "de apparatuur die volgens de regelgeving van het betrokken land is toegestaan voor radioamateurs"
+    },
+    {
+     "letter": "D",
+     "text": "de apparatuur die volgens de regelgeving van het betrokken land is toegestaan voor radioamateurs inclusief de antennes"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 42,
+   "sub": "14.1",
+   "vraag": "Wat zegt het reglement van de Radiocommunicaties van de ITU?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "welke ook de gebruikte mode is, dienen de radioamateurs zich steeds in Morse-code te identificeren "
+    },
+    {
+     "letter": "B",
+     "text": "het roepnamen voor de radioamateurstations worden vrij gekozen door de lokale overheden "
+    },
+    {
+     "letter": "C",
+     "text": "de radioamateurs kiezen zelf hun roepnamen "
+    },
+    {
+     "letter": "D",
+     "text": "alle uitzendingen dienen te kunnen worden geïdentificeerd aan de hand van een roepnaam "
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 43,
+   "sub": "14.1",
+   "vraag": "In veband  met het gebruik van amateurbanden (status) toegewezen door de ITU, wat betekent de afkorting PEX",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "dat die band gedeeeld is met andere diensten"
+    },
+    {
+     "letter": "B",
+     "text": "dat die band gedeeld is met andere diensten maar dat de amateurdienst er prioritair is"
+    },
+    {
+     "letter": "C",
+     "text": "dat die band er alleen aan de amateurdienst is toegewezen"
+    },
+    {
+     "letter": "D",
+     "text": "dat die band gedeeld is met andere diensten maar dat de amateurdienst er secundair is"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 44,
+   "sub": "14.1",
+   "vraag": "In veband met het gebruik van amateurbanden (status) toegewezen door de ITU, wat betekent de afkorting P",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "dat die band gedeeld is met andere diensten"
+    },
+    {
+     "letter": "B",
+     "text": "dat die band gedeeld is met andere diensten maar dat de amateurdienst er prioritair is"
+    },
+    {
+     "letter": "C",
+     "text": "dat die band er alleen aan de amateurdienst is toegewezen"
+    },
+    {
+     "letter": "D",
+     "text": "dat die band gedeeld is met andere diensten maar dat de amateurdienst er secundair is"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 45,
+   "sub": "14.1",
+   "vraag": "In veband  met het gebruik van amateurbanden (status) toegewezen door de ITU, wat betekent de afkorting S",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "dat die band gedeeeld is met andere diensten"
+    },
+    {
+     "letter": "B",
+     "text": "dat die band gedeeld is met andere diensten maar dat de amateurdienst er prioritair is"
+    },
+    {
+     "letter": "C",
+     "text": "dat die band er alleen aan de amateurdienst is toegewezen"
+    },
+    {
+     "letter": "D",
+     "text": "dat die band gedeeld is met andere diensten maar dat de amateurdienst er secundair is"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 46,
+   "sub": "14.1",
+   "vraag": "Een amateurstation",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "mag alleen onder bepaalde voorwaarden uitzendingen doen op frequenties waar de amateurdienst secundair is"
+    },
+    {
+     "letter": "B",
+     "text": "mag alleen onder bepaalde voorwaarden uitzendingen doen op frequenties waar de amateurdienst  primair is"
+    },
+    {
+     "letter": "C",
+     "text": "mag alleen onder bepaalde voorwaarden uitzendingen doen op frequenties waar de amateurdienst primair en exclusief is"
+    },
+    {
+     "letter": "D",
+     "text": "mag steeds uitzendingen doen op frequenties waar de amateurdienst secundair is"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 47,
+   "sub": "14.1",
+   "vraag": "Hoeveel ITU radio-regio's zijn er?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1"
+    },
+    {
+     "letter": "B",
+     "text": "2"
+    },
+    {
+     "letter": "C",
+     "text": "3"
+    },
+    {
+     "letter": "D",
+     "text": "4"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 48,
+   "sub": "14.1",
+   "vraag": "Van welke ITU regio maakt België deel uit?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1"
+    },
+    {
+     "letter": "B",
+     "text": "2"
+    },
+    {
+     "letter": "C",
+     "text": "3"
+    },
+    {
+     "letter": "D",
+     "text": "4"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 49,
+   "sub": "14.1",
+   "vraag": "Van welke ITU regio maakt de Venigde Staten deel uit?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1"
+    },
+    {
+     "letter": "B",
+     "text": "2"
+    },
+    {
+     "letter": "C",
+     "text": "3"
+    },
+    {
+     "letter": "D",
+     "text": "4"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 50,
+   "sub": "14.1",
+   "vraag": "Van welke ITU regio maakt Afrika deel uit?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1"
+    },
+    {
+     "letter": "B",
+     "text": "2"
+    },
+    {
+     "letter": "C",
+     "text": "3"
+    },
+    {
+     "letter": "D",
+     "text": "4"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 51,
+   "sub": "14.1",
+   "vraag": "In de 3 ITU-regio's",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zijn de frequentiebanden toegewezen aan de radioamateurdienst dezelfde"
+    },
+    {
+     "letter": "B",
+     "text": "zijn de frequentiebanden toegewezen aan de radioamateurdienst niet volledig gelijk"
+    },
+    {
+     "letter": "C",
+     "text": "zijn de frequentiebanden toegewezen aan de radioamateurdienst dezelfde maar met hier en daar een verschillende status (PEX, P, S)"
+    },
+    {
+     "letter": "D",
+     "text": "zijn de frequentiebanden toegewezen aan de radioamateurdienst dezelfde op alle frequenties beneden 30 MHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 52,
+   "sub": "14.1",
+   "vraag": "De lijst van de landen die de Aanbeveling T/R 61 van het CEPT toepassen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "verandert constant "
+    },
+    {
+     "letter": "B",
+     "text": "is eenmalig en voor altijd vastgelegd "
+    },
+    {
+     "letter": "C",
+     "text": "is vastgelegd door een Koninklijk Besluit "
+    },
+    {
+     "letter": "D",
+     "text": "is vastgelegd door een Ministerieel Besluit "
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 53,
+   "sub": "14.1",
+   "vraag": "Wat is het CEPT?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een onderfadeling van de EG (Europese Gemeenschap)"
+    },
+    {
+     "letter": "B",
+     "text": "Een Europese instantie doe o.a tot doel heeft de regelgeving van de PTT diensten in de verschillende landen te standaardiseren"
+    },
+    {
+     "letter": "C",
+     "text": "Een werkgroep van de IARU die de belangen van de Europese radioamateurs op het niveau van de regelgeving bij de Europese instanties verdedigt"
+    },
+    {
+     "letter": "D",
+     "text": "Een onderafdeling van de VN (Verenigde Naties)"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 54,
+   "sub": "14.1",
+   "vraag": "De aanbeveling T/R 61-01 van het CEPT betreffende de radioamateurdienst maakt het mogelijk:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een vergunning te krijgen in een vreemd land, waar de kandidaat verblijft gedurende minstens 3 maand "
+    },
+    {
+     "letter": "B",
+     "text": "een radioamateurstation te bedienen in een vreemd land voor zover dat het verblijf van de kandidaat 3 maand niet overschrijdt"
+    },
+    {
+     "letter": "C",
+     "text": "een vast radioamateurstation op te stellen in het land dat men bezoekt "
+    },
+    {
+     "letter": "D",
+     "text": "een vergunning te krijgen in een vreemd land indien de kandidaat geslaagd is in een radioamateurexamen in een ander CEPT-land "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 55,
+   "sub": "14.1",
+   "vraag": "Voor de toepassing van de aanbeveling T/R 61-01 van het CPT betreffende de radioamateurdienst volstaat het in het bezit te zijn:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "van een identiteitsbewijs alsook van de vergunning van het land van herkomst van de kandidaat, waarbij de vergunning de conformiteit met de aanbeveling T/R 61-01 vermeldt "
+    },
+    {
+     "letter": "B",
+     "text": "het certificaat van operator "
+    },
+    {
+     "letter": "C",
+     "text": "van de speciale vergunning afgeleverd door de competente autoriteiten van het bezochte land "
+    },
+    {
+     "letter": "D",
+     "text": "van een radioamateurvergunning "
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 56,
+   "sub": "14.1",
+   "vraag": "In toepassing van de aanbeveling T/R 61-01 van het CPT betreffende de radioamateurdienst gebruikt men als roepnaam:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de prefix van het bezochte land, gevolgd door het \"/\" teken en zijn eigen roepnaam "
+    },
+    {
+     "letter": "B",
+     "text": "zijn eigen roepnaam gevolgd door het \"/\" prefix en de prefix van het bezochte land "
+    },
+    {
+     "letter": "C",
+     "text": "de prefix van het bezochte land, gevolgd door het \"/\" teken en zijn eigen roepnaam, gevolgd door \"/M\" of \"/P\" volgens het geval. "
+    },
+    {
+     "letter": "D",
+     "text": "De roepnaam die is toegewezen door de administratie van het bezochte land "
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 57,
+   "sub": "14.1",
+   "vraag": "Buitenlandse amateurs die houders zijn van een vergunning overeenkomstig CEPT T/R 61-01",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zijn gemachtigd gedurende hun verblijf in België een station aan te leggen in België zonder bijkomende voorwaarden "
+    },
+    {
+     "letter": "B",
+     "text": "zijn gemachtigd gedurende hun verblijf in België en dit voor een termijn van maximaal 3 maand een mobiel of draagbaar station aan te leggen in België zonder bijkomende voorwaarden "
+    },
+    {
+     "letter": "C",
+     "text": "zijn gemachtigd gedurende hun verblijf in België en dit voor een termijn van maximaal 3 maand een mobiel, draagbaar of vast station aan te leggen in België zonder bijkomende voorwaarden "
+    },
+    {
+     "letter": "D",
+     "text": "moeten steeds een vergunning aanvragen om in België een station te kunnen aanleggen "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 58,
+   "sub": "14.1",
+   "vraag": "Wat betreft de toepassing op de radioamateurdienst van de aanbeveling T/R 61 van het CEPT maakt men onderscheid tussen:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "radioamateurs die minder dan 3 weken in het buitenland verblijven en zij die meer dan 3 weken in het buitenland verblijven "
+    },
+    {
+     "letter": "B",
+     "text": "radioamateurs die al dan niet een identificatiebewijs hebben afgeleverd in een vreemd land "
+    },
+    {
+     "letter": "C",
+     "text": "radioamateurs die zich al dan niet in een vreemd land hebben laten naturaliseren "
+    },
+    {
+     "letter": "D",
+     "text": "radioamateurs die minder dan 3 maand in het buitenland verblijven en zij die meer dan 3 maand in het buitenland verblijven "
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 59,
+   "sub": "14.1",
+   "vraag": "Dient elke zender of ontvanger die een radioamateur gebruikt te zijn goedgekeurd door het BIPT?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Ja "
+    },
+    {
+     "letter": "B",
+     "text": "Neen "
+    },
+    {
+     "letter": "C",
+     "text": "Alleen als het een commercieel toestel is "
+    },
+    {
+     "letter": "D",
+     "text": "Alleen als het een zelfbouw toestel is "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 60,
+   "sub": "14.1",
+   "vraag": "Dient zelfbouwapparatuur voorzien te zijn van een CE-merkteken",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "steeds"
+    },
+    {
+     "letter": "B",
+     "text": "alleen als men gemaakt is vertrekken van een bouwdoos"
+    },
+    {
+     "letter": "C",
+     "text": "nooit"
+    },
+    {
+     "letter": "D",
+     "text": "ja, als het dateert van voor 8 april 2001"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 61,
+   "sub": "14.1",
+   "vraag": "Dient zendapparatuur geassembleerd uit een bouwpatten (kit) voorzien te zijn van een CE-label?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ja"
+    },
+    {
+     "letter": "B",
+     "text": "neen"
+    },
+    {
+     "letter": "C",
+     "text": "alleen als het in het buitenland is gekocht"
+    },
+    {
+     "letter": "D",
+     "text": "niet als men een vrijstelling heeft bekomen van het BIPT"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 62,
+   "sub": "14.1",
+   "vraag": "Dient apparatuur die op de markt is gebracht vóór 8 april 2001 een CE-label te dragen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ja"
+    },
+    {
+     "letter": "B",
+     "text": "nee, zonder verdere beperking"
+    },
+    {
+     "letter": "C",
+     "text": "neen maar ze moet in overeenstemming zijn met een voordien goedgekeurd type"
+    },
+    {
+     "letter": "D",
+     "text": "alleen als je het na 8 april 2001 hebt gekocht"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 63,
+   "sub": "14.1",
+   "vraag": "Onder welke voorwaarden mag een houder van een getuigschrift (en niet van een vergunning) een station bedienen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hij moet een (Harec) getuigschrift hebben waarvan de klasse minstens overeenkomt met de klasse van het station dat hij bedient als tweede operator "
+    },
+    {
+     "letter": "B",
+     "text": "hij moet een (Harec) getuigschrift hebben waarvan de klasse minstens overeenkomt met de klasse van het station dat hij bedient  "
+    },
+    {
+     "letter": "C",
+     "text": "hij moet een (Harec) getuigschrift hebben waarvan de klasse minstens overeenkomt met de klasse van het station dat hij bedient, en hiervan het BIPT inlichten "
+    },
+    {
+     "letter": "D",
+     "text": "hij mag dat niet "
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 64,
+   "sub": "14.1",
+   "vraag": "Van af waneer mag iemand die slaagde voor het C-examen uitzendingen doen op de 144,0 MHz band?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "van zodra hij het basisgetuigschrift heeft ontvangen"
+    },
+    {
+     "letter": "B",
+     "text": "van zodra hij een vergunning sectie C heeft ontvangen"
+    },
+    {
+     "letter": "C",
+     "text": "zodra hij de verschuldigde taks heeft betaald "
+    },
+    {
+     "letter": "D",
+     "text": "nooit "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 65,
+   "sub": "14.1",
+   "vraag": "Mag een radioamateur boodschappen ontvangen of trachten op te vangen die niet voor hem bestemd zijn?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Ja "
+    },
+    {
+     "letter": "B",
+     "text": "Neen "
+    },
+    {
+     "letter": "C",
+     "text": "Alleen in oorlogstijd "
+    },
+    {
+     "letter": "D",
+     "text": "Alleen als hij een scanner bezit "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 66,
+   "sub": "14.1",
+   "vraag": "Indien een radioamateur onopzettelijk een boodschap heeft ontvangen die niet voor hem is bestemd zal hij",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het BIPT ervan inlichten "
+    },
+    {
+     "letter": "B",
+     "text": "de inhoud ervan noteren in zijn logboek "
+    },
+    {
+     "letter": "C",
+     "text": "noch het bestaan van de boodschap noch de inhoud ervan aan wie dan ook bekend maken "
+    },
+    {
+     "letter": "D",
+     "text": "de nodige maatregelen nemen om dit in de toekomst onmogelijk te maken "
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 67,
+   "sub": "14.1",
+   "vraag": "Een radioamateur mag een zend of zend-ontvangstoestel verkopen, verhuren of in bruikleen geven aan:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "elkeen "
+    },
+    {
+     "letter": "B",
+     "text": "een radioamateur met een vergunning van de sectie die overeenkomt met het betreffende toestel "
+    },
+    {
+     "letter": "C",
+     "text": "een houder van het getuigschrift of van een vergunning van de sectie die overeenkomt met het betreffende toestel "
+    },
+    {
+     "letter": "D",
+     "text": "alleen na het te hebben aangevraagd aan het BIPT "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 68,
+   "sub": "14.1",
+   "vraag": "Elke radioamateur die een zender of zend-ontvanger verkoopt, verhuurt of in leen geeft of schenkt dient",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hiervoor een factuur of een uitleencontract te maken "
+    },
+    {
+     "letter": "B",
+     "text": "het BIPT hiervan in te lichten "
+    },
+    {
+     "letter": "C",
+     "text": "dit in te schrijven in zijn logboek "
+    },
+    {
+     "letter": "D",
+     "text": "dit eerst aan te vragen aan het BIPT "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 69,
+   "sub": "14.1",
+   "vraag": "Elke radioamateur die een zender of zend-ontvanger verkoopt dient aan het BIPT volgende gegevens mede te delen:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "naam en adres van de koper "
+    },
+    {
+     "letter": "B",
+     "text": "aard en datum van de verrichting, naam en adres van de verkrijger, roepnaam van de verkrijger "
+    },
+    {
+     "letter": "C",
+     "text": "aard en datum van de verrichting, naam en adres van de verkrijger "
+    },
+    {
+     "letter": "D",
+     "text": "kopie van de factuur, roepnaam van de verkrijger "
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 70,
+   "sub": "14.1",
+   "vraag": "Indien een radioamateur luistert naar radiocommunicatie tussen politie, brandweer, vliegtuigen enz",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zal bij vaststelling het gebruikte toestel steeds verbeurd worden verklaard"
+    },
+    {
+     "letter": "B",
+     "text": "kan naast de verbeurdverklaring geen administratieve sanctie worden opgelegd"
+    },
+    {
+     "letter": "C",
+     "text": "kan naast de verbeurdverklaring alleen een administratieve sanctie worden opgelegd"
+    },
+    {
+     "letter": "D",
+     "text": "kan naast de verbeurdverklaring alleen een administratieve sanctie worden opgelegd aslook een strafrechterlijke vervolging"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  }
+ ]
+}

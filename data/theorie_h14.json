@@ -1,0 +1,247 @@
+{
+ "hoofdstuk": 14,
+ "titel": "Internationale regelgeving",
+ "bron": "UBA-handboek h14 · IRTS HAREC Study Guide (2024) hfst. 20-29 · reglementering.xls (internationaal)",
+ "subhoofdstukken": [
+  {
+   "id": "14.1",
+   "titel": "Internationale tabel voor fonetische spelling",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Om roepnamen en woorden foutloos over te brengen — zeker bij ruis of zwakke signalen — gebruiken radioamateurs wereldwijd het **internationale spellingsalfabet** (NATO/ICAO)."
+    },
+    {
+     "type": "concept",
+     "titel": "Het internationale spellingsalfabet",
+     "essentie": "Elke letter krijgt een vast codewoord: Alpha, Bravo, Charlie, Delta... Zo vermijd je verwarring bij het spellen.",
+     "detail": {
+      "uitleg": "Het **internationale spellingsalfabet** koppelt aan elke letter een vast, internationaal herkenbaar codewoord: **A**lpha, **B**ravo, **C**harlie, **D**elta, **E**cho, **F**oxtrot, **G**olf, **H**otel, **I**ndia, **J**uliett, **K**ilo, **L**ima, **M**ike, **N**ovember, **O**scar, **P**apa, **Q**uebec, **R**omeo, **S**ierra, **T**ango, **U**niform, **V**ictor, **W**hiskey, **X**-ray, **Y**ankee, **Z**ulu. Zo klinkt 'B' (bee) niet meer als 'D' (dee), en kan je roepnamen ook bij slechte verbinding correct doorgeven. Dit gebruik is ook wettelijk voorzien voor het uitspreken/spellen van de roepnaam (h15).",
+      "voorbeeld": "De roepnaam ON4ABC spel je als 'Oscar November Four Alpha Bravo Charlie'. Bij ruis komt dat veel duidelijker over dan de losse letters.",
+      "analogie": "Het spellingsalfabet is als een set eenduidige gebaren in plaats van dubbelzinnige woorden: 'Bravo' kan je met niets anders verwarren, 'B' wel met 'D', 'P' of 'T'."
+     }
+    }
+   ]
+  },
+  {
+   "id": "14.2",
+   "titel": "Uittreksel uit de internationale Q-code",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "De **Q-code** is een internationale verzameling driecijferige afkortingen die met één 'woord' een hele vraag of mededeling overbrengen — ontstaan in de telegrafie, nog dagelijks gebruikt."
+    },
+    {
+     "type": "concept",
+     "titel": "Veelgebruikte Q-codes",
+     "essentie": "Elke Q-code (QRM, QSB, QTH...) staat voor een vaste betekenis, als vraag of als mededeling.",
+     "detail": {
+      "uitleg": "De **Q-code** begint altijd met Q en heeft een vaste betekenis, die zowel een **vraag** (met vraagteken) als een **mededeling** kan zijn. Belangrijke voorbeelden: **QRM** = storing (door andere stations), **QRN** = storing door atmosferische ruis, **QSB** = het signaal fadet (wisselt in sterkte), **QTH** = mijn locatie/standplaats, **QRZ?** = wie roept mij?, **QRT** = ik stop met uitzenden, **QRV** = ik ben gereed, **QSY** = ik verander van frequentie, **QSL** = ontvangst bevestigd, **QRP** = laag vermogen, **QRO** = hoog vermogen. Ontstaan in de morse-telegrafie, maar ook in spraak courant.",
+      "voorbeeld": "'QRZ?' betekent 'wie roept mij?'. 'QSB' betekent dat het signaal in sterkte wisselt (fading, §9.3). 'Mijn QTH is Gent' betekent 'mijn standplaats is Gent'.",
+      "analogie": "De Q-code is als een set internationale pictogrammen: één symbool (of code) draagt een volledige, ondubbelzinnige boodschap over, ongeacht ieders moedertaal."
+     }
+    }
+   ]
+  },
+  {
+   "id": "14.3",
+   "titel": "Operationele afkortingen in de radioamateurdienst",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Naast de Q-code gebruiken radioamateurs veel courante afkortingen, vooral afkomstig uit de morse-traditie."
+    },
+    {
+     "type": "concept",
+     "titel": "Courante afkortingen en het RST-rapport",
+     "essentie": "Afkortingen als CQ, DX, 73 en het RST-rapport (leesbaarheid, sterkte, toon) maken communicatie snel en internationaal.",
+     "detail": {
+      "uitleg": "Veelgebruikte afkortingen: **CQ** = algemene oproep aan alle stations, **DX** = verre verbinding/station, **73** = beste groeten, **88** = liefs, **OM** = old man (medeamateur), **RIG** = de zendinstallatie. Het **RST-rapport** beoordeelt een ontvangen signaal met drie cijfers: **R**eadability (leesbaarheid, 1–5), **S**trength (sterkte, 1–9) en **T**one (toon, enkel bij CW, 1–9). Een rapport '599' betekent perfect leesbaar, zeer sterk, zuivere toon.",
+      "voorbeeld": "Roep je 'CQ CQ CQ de ON4ABC', dan nodig je elk station uit te antwoorden. Geef je een tegenstation '59', dan is het perfect leesbaar (5) en zeer sterk (9) in SSB.",
+      "analogie": "Deze afkortingen zijn als de jargon-kortschrift van een vakgebied: 'CQ' en '73' zijn voor radioamateurs wat vaste afkortingen in een sms zijn — kort, herkenbaar, internationaal."
+     }
+    }
+   ]
+  },
+  {
+   "id": "14.4",
+   "titel": "Noodsignalen, noodcommunicatie en communicatie bij natuurrampen",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "In noodsituaties heeft veiligheidsverkeer **absolute voorrang**. Radioamateurs kunnen bij rampen een belangrijke rol spelen wanneer de gewone communicatie uitvalt."
+    },
+    {
+     "type": "concept",
+     "titel": "Noodverkeer en voorrang",
+     "essentie": "Een noodoproep (MAYDAY / SOS) heeft absolute voorrang. Radioamateurs mogen bij nood assisteren, ook buiten de gewone regels.",
+     "detail": {
+      "uitleg": "Het internationale gesproken noodsignaal is **MAYDAY** (in telegrafie **SOS**); het urgentiesignaal is **PAN-PAN**. Een noodoproep heeft **absolute voorrang** op al het andere verkeer: hoor je een noodoproep, dan zwijg je en verleen je indien mogelijk hulp. Bij **natuurrampen** of het uitvallen van de communicatie mogen radioamateurs de nooddiensten **bijstaan** — internationaal voorzien, en in België wettelijk geregeld (h15, art. 17/7): met toestemming mag je dan zelfs afwijken van de gewone regels (bv. berichten voor derden, versleuteling voor het noodverkeer).",
+      "voorbeeld": "Hoor je 'MAYDAY' op de band, dan stop je onmiddellijk je QSO, luister je, en help je het noodverkeer door te geven indien je het slachtoffer kan bereiken en anderen niet. Alle ander verkeer wijkt.",
+      "analogie": "Noodverkeer is als een ziekenwagen met sirene in het verkeer: iedereen gaat opzij, alle normale regels wijken voor de voorrang van de noodhulp."
+     }
+    }
+   ]
+  },
+  {
+   "id": "14.5",
+   "titel": "Frequentiebanden",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Radioamateurs krijgen specifieke **frequentiebanden** toegewezen, met een bepaald statuut. Kennis van de banden en hun statuut is essentieel."
+    },
+    {
+     "type": "concept",
+     "titel": "Amateurbanden en hun statuut",
+     "essentie": "Elke band heeft een status: primair (beschermd) of secundair (moet wijken voor primaire gebruikers). Je moet binnen de toegewezen banden blijven.",
+     "detail": {
+      "uitleg": "De ITU verdeelt de wereld in drie **regio's** (België = **regio 1**) en wijst frequentiebanden toe aan diensten. Voor de amateurdienst heeft een band een **primair** of **secundair** statuut. Op een band waar de amateurdienst **primair** is, is ze beschermd. Waar ze **secundair** is, moet ze **voorrang geven** aan de primaire gebruikers en mag ze die niet storen (en geniet ze zelf geen bescherming). Je moet steeds **binnen de toegewezen amateurbanden** blijven en het **bandplan** (afspraken over welke mode waar) respecteren. Het BIPT publiceert de toegelaten banden per vergunningsklasse (h15).",
+      "voorbeeld": "Op een band met secundair statuut moet je onmiddellijk wijken als een primaire gebruiker (bv. een militaire of commerciële dienst) verschijnt — je mag die niet storen en hebt zelf geen bescherming tegen hun uitzendingen.",
+      "analogie": "Primair statuut is als een eigen rijstrook; secundair statuut is als een bus die je alleen mag gebruiken als er geen bus aankomt — komt de 'primaire' gebruiker, dan moet je meteen opzij."
+     }
+    }
+   ]
+  },
+  {
+   "id": "14.6",
+   "titel": "Roepnamen",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een **roepnaam** identificeert je station uniek en verraadt via de **prefix** het land van herkomst."
+    },
+    {
+     "type": "concept",
+     "titel": "Opbouw van roepnamen",
+     "essentie": "De prefix (bv. ON voor België) geeft het land aan. De ITU wijst de prefixblokken toe aan de landen.",
+     "detail": {
+      "uitleg": "Een roepnaam bestaat uit een **prefix** (landkenletters + cijfer) en een **suffix** (individuele letters). De **prefix** identificeert het **land**: de ITU wijst elk land een of meer prefixblokken toe. België gebruikt onder meer **ON, OO, OP–OT**. Aan de roepnaam kan je dus meteen het land van een station herkennen. Bij het werken vanuit een ander CEPT-land plaats je de gastprefix vóór je eigen roepnaam (bv. F/ON4ABC in Frankrijk). De samenstelling en toewijzing volgen de internationale regels; in België kent het BIPT de roepnaam toe (h15).",
+      "voorbeeld": "Een station met roepnaam 'ON4ABC' is Belgisch (prefix ON). 'G' is het Verenigd Koninkrijk, 'DL' Duitsland, 'F' Frankrijk. Werk je tijdelijk in Frankrijk, dan teken je als 'F/ON4ABC'.",
+      "analogie": "De prefix van een roepnaam is als de landcode op een nummerplaat of een internationaal telefoonnummer: aan het begin zie je meteen uit welk land het komt."
+     }
+    }
+   ]
+  },
+  {
+   "id": "14.7",
+   "titel": "IARU",
+   "blokken": [
+    {
+     "type": "concept",
+     "titel": "De IARU",
+     "essentie": "De IARU is de internationale koepel van nationale radioamateurverenigingen; ze verdedigt de amateurbanden en stelt bandplannen op.",
+     "detail": {
+      "uitleg": "De **IARU** (International Amateur Radio Union) is de wereldwijde koepelorganisatie van de nationale radioamateurverenigingen (voor België de **UBA**). Ze vertegenwoordigt de radioamateurs bij internationale instanties zoals de **ITU**, **verdedigt de amateurfrequenties** tegen inperking, en stelt de **bandplannen** op (afspraken over welke modes op welk deel van een band). De IARU is opgedeeld in drie regio's, overeenkomend met de ITU-regio's.",
+      "voorbeeld": "Dankzij het lobbywerk van de IARU behouden radioamateurs wereldwijd hun frequentiebanden. De IARU-bandplannen zorgen dat CW-, SSB- en digitale stations elkaar niet in de weg zitten.",
+      "analogie": "De IARU is als een internationale sportfederatie: ze verdedigt de belangen van alle nationale bonden, maakt de gemeenschappelijke spelregels (bandplannen) en onderhandelt met de hogere overheden (ITU)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "14.8",
+   "titel": "Sociale verantwoordelijkheid van de radioamateur",
+   "blokken": [
+    {
+     "type": "concept",
+     "titel": "Verantwoord en hoffelijk uitzenden",
+     "essentie": "Zend hoffelijk uit, luister vóór je zendt, respecteer anderen en vermijd storing. Je vertegenwoordigt de hele hobby.",
+     "detail": {
+      "uitleg": "Radioamateurs delen de banden en dragen een **sociale verantwoordelijkheid**. De basisregels: **luister** altijd vóór je zendt (is de frequentie vrij?), wees **hoffelijk** en verdraagzaam, gebruik niet meer **vermogen dan nodig**, en vermijd bewust **storing** van anderen. Je houdt je aan de wet en de bandplannen, en gedraagt je correct — want elke amateur vertegenwoordigt de hele gemeenschap naar de buitenwereld toe. Discriminerende, beledigende of commerciële uitzendingen horen niet thuis op de banden.",
+      "voorbeeld": "Voor je op een frequentie begint, vraag je 'is deze frequentie in gebruik?' en luister je even. Zo voorkom je dat je een lopend (misschien zwak) QSO stoort dat je nog niet hoorde.",
+      "analogie": "De banden zijn als een gedeelde openbare ruimte: je luistert voor je binnenvalt, je houdt rekening met anderen, en je gedraagt je netjes — want jouw gedrag bepaalt mee de reputatie van iedereen."
+     }
+    }
+   ]
+  },
+  {
+   "id": "14.9",
+   "titel": "Operationele procedures",
+   "blokken": [
+    {
+     "type": "concept",
+     "titel": "Een verbinding maken",
+     "essentie": "Roep CQ om een verbinding te openen, of antwoord op een oproep. Identificeer je correct met je roepnaam, wissel rapporten uit en sluit netjes af.",
+     "detail": {
+      "uitleg": "Een typische verbinding (**QSO**) verloopt volgens vaste **procedures**. Je opent met een **CQ-oproep** ('CQ CQ CQ de ON4ABC') of je **antwoordt** op een CQ van een ander. Je **identificeert** je met je roepnaam (begin, einde, en minstens elke 5 minuten, h15), wisselt een **RST-rapport** en informatie uit (naam, QTH), en sluit hoffelijk af (bv. '73'). Kies een **vrije frequentie**, pas je mode aan het bandplan aan, en gebruik het internationale spellingsalfabet waar nodig. Bij CW gebruik je de Q-codes en afkortingen.",
+      "voorbeeld": "Een kort QSO: je hoort 'CQ de DL1XYZ', antwoordt 'DL1XYZ de ON4ABC', geeft een rapport '59 in Gent', ontvangt hetzelfde terug, en sluit af met '73'. Je roepnaam gaf je aan begin en einde.",
+      "analogie": "Een QSO volgt een vaste beleefdheidsvorm, zoals een telefoongesprek: je stelt je voor, wisselt informatie uit in een herkenbare volgorde, en neemt netjes afscheid."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Logboek en bakens",
+     "essentie": "Een logboek registreert je verbindingen (datum, tijd, roepnaam, frequentie, mode, rapport). Bakens (beacons) zijn automatische zenders die propagatie helpen beoordelen.",
+     "detail": {
+      "uitleg": "Een **logboek (logbook)** is het register van je verbindingen: per QSO noteer je datum, tijd (in UTC), de roepnaam van het tegenstation, de frequentie/band, de mode en de uitgewisselde rapporten. Hoewel een papieren logboek niet in alle landen meer verplicht is, is het sterk aanbevolen (en handig voor QSL-kaarten en diploma's); veel amateurs houden een elektronisch log bij. **Bakens (beacons)** zijn automatische zenders die continu of periodiek hun roepnaam en locatie uitzenden op vaste frequenties; door te luisteren welke bakens je hoort, beoordeel je in één oogopslag de **propagatiecondities** op een band.",
+      "voorbeeld": "Hoor je het baken van een ver land op 14,100 MHz (de internationale bakenfrequentie van het NCDXF-netwerk), dan weet je dat de band naar daar 'open' is — nuttige info voor je DX-jacht. In je log noteer je nadien elke verbinding netjes in UTC.",
+      "analogie": "Een logboek is als een reisdagboek van je verbindingen; bakens zijn als vuurtorens die je vertellen welke 'zeeroutes' (banden) op dit moment bevaarbaar zijn."
+     }
+    }
+   ]
+  },
+  {
+   "id": "14.10",
+   "titel": "De ITU-radioreglementering",
+   "blokken": [
+    {
+     "type": "concept",
+     "titel": "De ITU en het Radioreglement",
+     "essentie": "De ITU is de VN-organisatie die wereldwijd het radiospectrum verdeelt via het internationale Radioreglement, en definieert de amateurdienst.",
+     "detail": {
+      "uitleg": "De **ITU** (International Telecommunication Union) is de gespecialiseerde **VN-organisatie** voor telecommunicatie. Ze verdeelt wereldwijd het radiospectrum en legt de regels vast in het **Radioreglement (Radio Regulations)**. De ITU deelt de wereld in **drie regio's** (België = regio 1) en definieert de **amateurdienst** en de **amateur-satellietdienst**: een dienst voor **zelfopleiding, onderling berichtenverkeer en technische studie**, uitgeoefend door daartoe gemachtigde personen zonder geldelijk belang. De nationale overheden (in België het BIPT) passen dit toe in hun eigen regelgeving.",
+      "voorbeeld": "De ITU-definitie van de amateurdienst — zelfopleiding, intercommunicatie en technisch onderzoek, zonder winstoogmerk — vind je terug in de Belgische regelgeving (5de categorie, h15). Reclame of commercieel verkeer is daarom verboden.",
+      "analogie": "De ITU is als de wereldwijde 'grondwetgever' van de radio: ze legt de grote lijnen vast, waarna elk land (via zijn eigen BIPT) de details in nationale wetten giet."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Emissiedesignators (ITU)",
+     "essentie": "De ITU beschrijft elk uitzendtype met een driecijferige code: draaggolftype + signaaltype + informatietype (bv. A3E = AM-telefonie, J3E = SSB, F3E = FM, A1A = CW).",
+     "detail": {
+      "uitleg": "De ITU gebruikt gestandaardiseerde **emissiedesignators** die elk zendtype in drie tekens beschrijven. Het **eerste teken** (letter) geeft het type gemoduleerde draaggolf: **A** = AM (dubbelzijband), **J** = SSB met onderdrukte draaggolf, **F** = frequentiemodulatie. Het **tweede teken** (cijfer) geeft de aard van het modulerende signaal: **1** = digitaal zonder subdraaggolf (bv. morse-toetsing), **3** = analoog (spraak). Het **derde teken** (letter) geeft het type informatie: **A** = telegrafie (morse, met het oor), **E** = telefonie (spraak). Zo krijg je: **A1A** = CW/morse, **A3E** = AM-telefonie, **J3E** = SSB-telefonie, **F3E** = FM-telefonie, **F1B** = FSK-telegrafie.",
+      "voorbeeld": "Zie je in een bandplan of vergunning de code 'J3E', dan weet je meteen: enkelzijband-spraak (SSB). 'A1A' is morse. Deze codes zijn internationaal eenduidig, ongeacht de taal.",
+      "analogie": "Een emissiedesignator is als een korte 'formule' die in drie tekens precies zegt hoe je uitzendt — vergelijkbaar met een productcode die materiaal, maat en kleur in één reeks samenvat."
+     }
+    }
+   ]
+  },
+  {
+   "id": "14.11",
+   "titel": "CEPT-reglementering",
+   "blokken": [
+    {
+     "type": "concept",
+     "titel": "CEPT: werken over de grenzen heen",
+     "essentie": "Dankzij de CEPT-aanbevelingen (T/R 61-01, T/R 61-02) mag je met je vergunning tijdelijk in andere CEPT-landen werken zonder aparte vergunning.",
+     "detail": {
+      "uitleg": "De **CEPT** (Conférence Européenne des administrations des Postes et des Télécommunications) is de Europese samenwerking van telecomadministraties. Twee aanbevelingen zijn cruciaal. **T/R 61-01** laat je toe met je nationale vergunning **tijdelijk (< 3 maanden) in andere CEPT-landen** te zenden zonder aparte vergunning — je gebruikt dan de gastprefix. **T/R 61-02** legt het geharmoniseerde **HAREC**-examen vast, zodat een in één land behaald HAREC-certificaat in alle CEPT-landen erkend wordt (dit is het klasse A-certificaat, h15). Zo kan je met één examen internationaal actief zijn.",
+      "voorbeeld": "Met je Belgische HAREC-vergunning (klasse A) mag je dankzij T/R 61-01 tijdens vakantie in bijvoorbeeld Frankrijk zenden als 'F/ON4ABC', zonder daar een aparte vergunning aan te vragen — mits je verblijf korter is dan drie maanden.",
+      "analogie": "T/R 61-01 is als een rijbewijs dat in heel Europa geldig is: gehaald in eigen land, erkend over de grenzen. T/R 61-02 zorgt dat het 'rijexamen' overal gelijkwaardig is."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — internationale regelgeving",
+     "inhoud": "**Spellingsalfabet**: Alpha, Bravo, Charlie... voor foutloos spellen.\n**Q-code**: QRM (storing), QSB (fading), QTH (locatie), QRZ? (wie roept?), QRT (stoppen).\n**RST**: Readability-Strength-Tone.\n**Noodverkeer** (MAYDAY/SOS): absolute voorrang.\n**ITU**: verdeelt spectrum (Radioreglement), definieert amateurdienst, 3 regio's (België = regio 1).\n**CEPT T/R 61-01**: tijdelijk zenden in andere landen (< 3 maanden). **T/R 61-02**: geharmoniseerd HAREC-examen.\n**IARU**: koepel, verdedigt banden, bandplannen. **UBA** = Belgische vereniging."
+    }
+   ]
+  },
+  {
+   "id": "14.12",
+   "titel": "Belgische regelgeving",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "De internationale regels (ITU, CEPT) worden in België omgezet in nationale wetgeving. De volledige, gedetailleerde Belgische regelgeving wordt behandeld in **hoofdstuk 15**."
+    },
+    {
+     "type": "info",
+     "titel": "Zie hoofdstuk 15",
+     "inhoud": "De Belgische regelgeving (Wet elektronische communicatie van 13 juni 2005 en het KB private radiocommunicatie) wordt uitgebreid en in detail behandeld in hoofdstuk 15. Daar vind je onder meer de vergunningsklassen, de rol van het BIPT, de roepnaamregels, de rechten en de examenvoorwaarden."
+    }
+   ]
+  }
+ ]
+}

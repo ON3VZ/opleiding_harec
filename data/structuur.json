@@ -1,0 +1,110 @@
+{
+  "titel": "HAREC Leerplatform — UBA-structuur",
+  "hoofdstukken": [
+    { "nr": 1, "id": "h01", "titel": "Wiskunde", "subs": [
+      {"id":"1.1","titel":"Algebra"},
+      {"id":"1.2","titel":"Goniometrie (driehoeksmeetkunde)"},
+      {"id":"1.3","titel":"Complexe getallen"},
+      {"id":"1.4","titel":"Afronden van getallen"}
+    ]},
+    { "nr": 2, "id": "h02", "titel": "Elektriciteit", "excel":"electriciteit.xls", "subs": [
+      {"id":"2.1","titel":"Gelijkspanning"},
+      {"id":"2.2","titel":"Wisselspanning"},
+      {"id":"2.3","titel":"Netwerken met weerstanden, condensatoren en spoelen"},
+      {"id":"2.4","titel":"Niet-ideale weerstanden, condensatoren en spoelen"},
+      {"id":"2.5","titel":"Transformatoren"},
+      {"id":"2.6","titel":"Niet-sinusvormige periodieke signalen"},
+      {"id":"2.7","titel":"Niet-periodieke signalen"},
+      {"id":"2.8","titel":"Filters"},
+      {"id":"2.9","titel":"Het kwartskristal"}
+    ]},
+    { "nr": 3, "id": "h03", "titel": "Passieve en actieve componenten", "excel":"componenten.xls", "subs": [
+      {"id":"3.1","titel":"Passieve componenten"},
+      {"id":"3.2","titel":"Actieve componenten"},
+      {"id":"3.3","titel":"De diode"},
+      {"id":"3.4","titel":"De transistor"},
+      {"id":"3.5","titel":"Elektronenbuizen"},
+      {"id":"3.6","titel":"Geïntegreerde schakelingen (IC's)"},
+      {"id":"3.7","titel":"Een wiskundige afsluiter: de decibel (dB)"}
+    ]},
+    { "nr": 4, "id": "h04", "titel": "Bouwstenen voor zenders en ontvangers", "excel":"schakelingen.xls", "subs": [
+      {"id":"4.1","titel":"Voedingen"},
+      {"id":"4.2","titel":"Versterkers"},
+      {"id":"4.3","titel":"Oscillatoren"},
+      {"id":"4.4","titel":"Mengtrappen"}
+    ]},
+    { "nr": 5, "id": "h05", "titel": "Modulatie en demodulatie", "subs": [
+      {"id":"5.1","titel":"Modulatie"},
+      {"id":"5.2","titel":"Demodulatie"},
+      {"id":"5.3","titel":"Voor- en nadelen van de verschillende modulatiesoorten"}
+    ]},
+    { "nr": 6, "id": "h06", "titel": "Zenders", "excel":"zenders.xls", "subs": [
+      {"id":"6.1","titel":"Zenders zonder frequentietransformatie"},
+      {"id":"6.2","titel":"Zenders met frequentietransformatie"},
+      {"id":"6.3","titel":"Karakteristieken van een zender"}
+    ]},
+    { "nr": 7, "id": "h07", "titel": "Ontvangers", "excel":"ontvangers.xls", "subs": [
+      {"id":"7.1","titel":"Ontvanger zonder frequentietransformatie"},
+      {"id":"7.2","titel":"Ontvanger met frequentietransformatie"},
+      {"id":"7.3","titel":"Enkele specifieke onderdelen van ontvangers"},
+      {"id":"7.4","titel":"Karakteristieken van een ontvanger"}
+    ]},
+    { "nr": 8, "id": "h08", "titel": "Antennes en transmissielijnen", "excel":"antennes_en_transmissielijnen.xls", "subs": [
+      {"id":"8.1","titel":"Elektromagnetische golven"},
+      {"id":"8.2","titel":"Soorten antennes"},
+      {"id":"8.3","titel":"Antennekarakteristieken"},
+      {"id":"8.4","titel":"Transmissielijnen"},
+      {"id":"8.5","titel":"Impedantieaanpassing van antennes"}
+    ]},
+    { "nr": 9, "id": "h09", "titel": "Propagatie van radiogolven", "excel":"propagatie.xls", "subs": [
+      {"id":"9.1","titel":"Signaalverzwakking en signaalruisverhouding"},
+      {"id":"9.2","titel":"Optisch zicht of vrije ruimte propagatie"},
+      {"id":"9.3","titel":"De ionosfeer"},
+      {"id":"9.4","titel":"Propagatie op zeer hoge frequenties"},
+      {"id":"9.5","titel":"Ruis"},
+      {"id":"9.6","titel":"Propagatiebudget (verbindingsbilan)"}
+    ]},
+    { "nr": 10, "id": "h10", "titel": "Meettoestellen en meten", "excel":"metingen.xls", "subs": [
+      {"id":"10.1","titel":"Meettoestellen"},
+      {"id":"10.2","titel":"Meten"}
+    ]},
+    { "nr": 11, "id": "h11", "titel": "Digitale signaalverwerking (DSP)", "subs": [
+      {"id":"11.1","titel":"Wat is digitale signaalverwerking?"},
+      {"id":"11.2","titel":"Fouriertransformatie"},
+      {"id":"11.3","titel":"Digitale filters"},
+      {"id":"11.4","titel":"Direct Digital Synthesis (DDS)"}
+    ]},
+    { "nr": 12, "id": "h12", "titel": "Interferentie", "excel":"emcveiligheid.xls", "subs": [
+      {"id":"12.1","titel":"Inleiding"},
+      {"id":"12.2","titel":"Soorten interferenties"},
+      {"id":"12.3","titel":"Mogelijke oplossingen"}
+    ]},
+    { "nr": 13, "id": "h13", "titel": "Veiligheid", "excel":"emcveiligheid.xls", "subs": [
+      {"id":"13.1","titel":"Waarover gaat het?"},
+      {"id":"13.2","titel":"De elektrische processen in het menselijke lichaam"},
+      {"id":"13.3","titel":"Gevaren in functie van elektrische spanning"},
+      {"id":"13.4","titel":"Reële gevaren"},
+      {"id":"13.5","titel":"Voorzorgen tegen elektrisering en elektrocutie"},
+      {"id":"13.6","titel":"Wat doen bij een ongeval"},
+      {"id":"13.7","titel":"Bescherming tegen stralingsgevaar van antennes"},
+      {"id":"13.8","titel":"Gevaren bij monteren van antennes en antennemasten"}
+    ]},
+    { "nr": 14, "id": "h14", "titel": "Internationale regelgeving", "excel":"reglementering.xls", "subs": [
+      {"id":"14.1","titel":"Internationale tabel voor fonetische spelling"},
+      {"id":"14.2","titel":"Uittreksel uit de internationale Q-code"},
+      {"id":"14.3","titel":"Operationele afkortingen in de radioamateurdienst"},
+      {"id":"14.4","titel":"Noodsignalen, noodcommunicatie en natuurrampen"},
+      {"id":"14.5","titel":"Frequentiebanden"},
+      {"id":"14.6","titel":"Roepnamen"},
+      {"id":"14.7","titel":"IARU"},
+      {"id":"14.8","titel":"Sociale verantwoordelijkheid van de radioamateur"},
+      {"id":"14.9","titel":"Operationele procedures"},
+      {"id":"14.10","titel":"De ITU-radioreglementering"},
+      {"id":"14.11","titel":"CEPT-reglementering"},
+      {"id":"14.12","titel":"Belgische regelgeving"}
+    ]},
+    { "nr": 15, "id": "h15", "titel": "Belgische regelgeving", "excel":"reglementering.xls", "subs": [
+      {"id":"15.1","titel":"Belgische regelgeving"}
+    ]}
+  ]
+}

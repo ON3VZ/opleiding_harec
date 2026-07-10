@@ -1,0 +1,104 @@
+{
+  "hoofdstuk": 4,
+  "titel": "Bouwstenen voor zenders en ontvangers",
+  "bron": "UBA-handboek h4 · IRTS HAREC Study Guide (2024) hfst. 8.6, 10.6, 10.7, 12, 13 · schakelingen.xls",
+  "subhoofdstukken": [
+    {
+      "id": "4.1",
+      "titel": "Voedingen",
+      "blokken": [
+        { "type": "text", "inhoud": "Elk toestel heeft een stabiele **gelijkspanning** nodig, terwijl het lichtnet **wisselspanning** levert. Een voeding zet die om in vier stappen: transformeren, gelijkrichten, afvlakken en stabiliseren." },
+        { "type": "concept", "titel": "De vier stappen van een lineaire voeding", "essentie": "Transformeren (spanning verlagen) → gelijkrichten (AC naar DC) → afvlakken (rimpel wegwerken) → stabiliseren (constante spanning).",
+          "detail": {
+            "uitleg": "Een klassieke **lineaire voeding** werkt in vier stappen. (1) De **transformator** verlaagt de netspanning (230 V) naar de gewenste waarde en scheidt het toestel galvanisch van het net. (2) De **gelijkrichter** (dioden) zet de wisselspanning om in pulserende gelijkspanning. (3) De **afvlakcondensator** vult de dalen op zodat de rimpel afneemt. (4) De **spanningsregelaar (stabilisator)** houdt de uitgangsspanning constant, ongeacht belasting of netschommelingen. Lineaire voedingen zijn zwaar maar 'schoon': ze maken geen RF-ruis.",
+            "voorbeeld": "Een 13,8 V/30 A-voeding voor een transceiver bevat een forse transformator (enkele kilo's), een bruggelijkrichter, dikke afvlakcondensatoren en een regelaar. Precies omdat ze geen RF-ruis maakt, is ze geliefd in een radioshack.",
+            "analogie": "Denk aan water zuiveren: eerst de druk aanpassen (transformator), dan alle stroom één kant op leiden (gelijkrichten), dan een buffervat plaatsen tegen schokken (afvlakken), en ten slotte een drukregelaar voor een constante straal (stabiliseren)."
+          }
+        },
+        { "type": "concept", "titel": "Gelijkrichting: halve golf en bruggelijkrichter", "essentie": "Een enkele diode geeft halvegolfgelijkrichting. Vier dioden in brug geven dubbelzijdige (fullwave) gelijkrichting — efficiënter en gladder.",
+          "detail": {
+            "uitleg": "**Gelijkrichten** is het omzetten van AC naar DC. Bij **halvegolfgelijkrichting** laat één diode enkel de positieve helften door; tijdens de negatieve helft is er geen uitgang, wat een grove, pulserende gelijkspanning geeft. Een **bruggelijkrichter** met vier dioden benut *beide* helften van de wisselspanning (fullwave): de negatieve helft wordt 'omgeklapt' naar positief. Dat geeft dubbel zoveel pulsen per periode, waardoor de afvlakcondensator de spanning veel gladder houdt. Bij een dubbelfasige gelijkrichter moet elke diode een sperspanning van $2\\sqrt2 \\cdot U_{eff} = 2{,}82 \\cdot U_{eff}$ aankunnen (§3.3).",
+            "voorbeeld": "Een bruggelijkrichter op een 12 V-transformator geeft na afvlakking een veel stabielere gelijkspanning dan een enkele diode, omdat er twee keer per periode wordt 'bijgevuld' in plaats van één keer.",
+            "analogie": "Halvegolf is als een pomp die enkel bij het induwen water levert; een bruggelijkrichter is als een pomp die zowel bij in- als uitduwen levert — dubbel zo vaak, dus een gelijkmatiger straal."
+          }
+        },
+        { "type": "concept", "titel": "Afvlakken en stabiliseren", "essentie": "De afvlakcondensator dempt de rimpel. Een spanningsregelaar (bv. met zenerdiode) houdt de uitgang constant.",
+          "detail": {
+            "uitleg": "Na gelijkrichting is de spanning nog 'gerimpeld'. De **afvlakcondensator** laadt op tijdens de pieken en ontlaadt tussendoor, waardoor hij de dalen opvult en de **rimpel** vermindert. Een grotere condensator geeft minder rimpel. Voor een echt stabiele spanning volgt een **spanningsregelaar (stabilisator)**: die houdt de uitgangsspanning vast, onafhankelijk van belasting en netschommelingen. Een eenvoudige regelaar gebruikt een **zenerdiode** als referentie; moderne voedingen gebruiken geïntegreerde regelaars.",
+            "voorbeeld": "Zonder afvlakking zou een radio brommen op het ritme van het lichtnet (100 Hz-rimpel na fullwave-gelijkrichting). De afvlakcondensator plus regelaar maken er een stille, constante gelijkspanning van.",
+            "analogie": "De afvlakcondensator is een buffervat dat de schokken opvangt; de regelaar is de drukregelaar die er een perfect constante straal van maakt, wat er ook aan de kraan getapt wordt."
+          }
+        },
+        { "type": "concept", "titel": "De schakelende voeding (SMPS)", "essentie": "Een schakelende voeding zet het net eerst om naar hoge frequentie, waardoor de transformator veel kleiner en lichter kan. Nadeel: RF-ruis.",
+          "detail": {
+            "uitleg": "Een **schakelende voeding** (switched mode power supply, SMPS) verlaagt de spanning op een slimmere manier: ze stuurt met de netspanning een oscillator aan die op **hoge frequentie** (tot ~200 kHz) werkt. Omdat een transformator bij hogere frequentie veel kleiner en lichter kan zijn, is een SMPS compact en efficiënt. Het nadeel: de oscillator en zijn harmonischen wekken **RF-ruis** op, die zonder goede filtering en afscherming storing (EMC-problemen, zie h12) veroorzaakt. Goedkope SMPS'en (laders, LED-voedingen) zijn dan ook een belangrijke bron van storing in de radioshack.",
+            "voorbeeld": "De lichte USB-lader van je telefoon is een SMPS. Zet je een AM-radio ernaast, dan hoor je vaak geratel — dat is de RF-ruis van de schakelfrequentie en haar harmonischen.",
+            "analogie": "Een SMPS is als een efficiënte, lichte scooter in plaats van een zware vrachtwagen (lineaire voeding): sneller en zuiniger, maar hij maakt meer 'lawaai' (RF-ruis) dat je moet dempen."
+          }
+        },
+        { "type": "keybox", "titel": "Onthoud — voeding", "inhoud": "Volgorde: **transformeren → gelijkrichten → afvlakken → stabiliseren**.\n**Halvegolf** = 1 diode (grof). **Bruggelijkrichter** = 4 dioden, fullwave (gladder).\n**Afvlakcondensator** dempt de rimpel; **regelaar** houdt de spanning constant.\n**Lineaire voeding**: zwaar, geen RF-ruis. **SMPS**: licht/efficiënt, maar RF-ruis." }
+      ]
+    },
+    {
+      "id": "4.2",
+      "titel": "Versterkers",
+      "blokken": [
+        { "type": "text", "inhoud": "Een **versterker** maakt een signaal sterker met behulp van een actief component (transistor of buis) en een voeding. De belangrijkste eigenschappen zijn versterking, lineariteit, uitgangsvermogen en frequentiebereik." },
+        { "type": "concept", "titel": "Versterkereigenschappen", "essentie": "Versterking (dB), lineariteit (onvervormd), uitgangsvermogen (max) en frequentiebereik (AF of RF) kenmerken elke versterker.",
+          "detail": {
+            "uitleg": "Vier eigenschappen typeren een versterker. De **versterking (gain)** zegt hoeveel sterker het signaal wordt, meestal in dB (§3.7). **Lineariteit** betekent dat de versterking onafhankelijk is van het signaalniveau: een lineaire versterker vervormt niet. **Uitgangsvermogen** is het maximum dat de versterker kan leveren; stuur je hem te hard aan (**overdriving**), dan ontstaat vervorming en straling van ongewenste frequenties. Het **frequentiebereik** bepaalt of hij geschikt is voor audio (AF) of radiofrequenties (RF), en zo ja, welke banden.",
+            "voorbeeld": "Voor SSB heb je een lineaire eindtrap nodig: vervormt hij, dan ontstaan 'splatter' (ongewenste zijbanden) die naburige stations storen. Voor CW of FM mag de versterker niet-lineair (en dus efficiënter) zijn.",
+            "analogie": "Lineariteit is als een luidspreker die zowel zacht als hard getrouw weergeeft. Een niet-lineaire versterker is als een luidspreker die bij hoog volume gaat kraken — luider, maar vervormd."
+          }
+        },
+        { "type": "concept", "titel": "Versterkerklassen A, B, AB en C", "essentie": "De klasse zegt hoe lang de transistor per cyclus geleidt: A (volledig, lineair) tot C (kort, efficiënt maar vervormend).",
+          "detail": {
+            "uitleg": "De **klasse** geeft aan welk deel van de signaalcyclus het actieve component geleidt, wat lineariteit tegen efficiëntie afweegt. **Klasse A**: geleidt de volledige cyclus (360°) — zeer lineair maar weinig efficiënt (veel warmte). **Klasse B**: geleidt de helft (180°) — efficiënter, maar één transistor vervormt; daarom in tegenfase-paren (push-pull). **Klasse AB**: een tussenvorm, iets meer dan 180°, goede balans tussen lineariteit en rendement — veel gebruikt voor SSB. **Klasse C**: geleidt minder dan 180°, zeer efficiënt maar sterk vervormend — enkel bruikbaar voor signalen met constante amplitude (CW, FM) waar de vervorming er niet toe doet.",
+            "voorbeeld": "Een SSB-lineair versterker werkt in klasse AB (lineair genoeg, redelijk efficiënt). Een FM-zender kan een klasse C-eindtrap gebruiken, want de constante amplitude van FM verdraagt de vervorming en de hoge efficiëntie is meegenomen.",
+            "analogie": "De klassen zijn als rijstijlen: klasse A is gelijkmatig cruisen (soepel maar verbruikt veel), klasse C is vol gas en volledig loslaten (zuinig maar schokkerig). AB is de vlotte, evenwichtige rijstijl."
+          }
+        },
+        { "type": "grid2", "titel": "Versterkerklassen — lineariteit vs. efficiëntie", "kolommen": ["Klasse A / AB (lineair)", "Klasse C (efficiënt)"], "inhoud": ["Geleidt (bijna) de hele cyclus. **Lineair**, weinig vervorming. Geschikt voor **SSB/AM**. Lager rendement.", "Geleidt < 180°. **Zeer efficiënt** maar vervormend. Enkel voor **constante amplitude** (CW, FM)."] },
+        { "type": "warning", "titel": "Let op — overdriving", "inhoud": "Een versterker **te hard aansturen** (overdriving) doet hem zijn maximale uitgangsvermogen overschrijden. Gevolg: vervorming, ongewenste harmonischen en zijbanden (splatter), en mogelijk schade. Stuur nooit meer aan dan waarvoor de versterker ontworpen is." }
+      ]
+    },
+    {
+      "id": "4.3",
+      "titel": "Oscillatoren",
+      "blokken": [
+        { "type": "text", "inhoud": "Een **oscillator** wekt zelf een periodiek signaal op — hij is de 'toongenerator' van de radio. Zonder oscillator geen draaggolf, geen afstemming, geen klok. Het basisrecept: een versterker met positieve terugkoppeling via een frequentiebepalend filter." },
+        { "type": "concept", "titel": "Werking van een oscillator", "essentie": "Een oscillator = versterker + positieve terugkoppeling via een resonantiekring (LC of kristal) die de frequentie bepaalt.",
+          "detail": {
+            "uitleg": "Een **oscillator** bestaat uit een **versterker** met een **positieve terugkoppellus** die een deel van de uitgang terugvoert naar de ingang. In die lus zit een frequentiebepalend **filter** — meestal een afgestemde **LC-kring** of een **kwartskristal** — dat enkel op zijn resonantiefrequentie voldoende terugkoppelt. Daardoor gaat de schakeling spontaan trillen op precies die frequentie. Een LC-oscillator is afstembaar; een **kristaloscillator** is veel nauwkeuriger en stabieler (§2.9) en wordt gebruikt om precieze radiofrequenties op te wekken.",
+            "voorbeeld": "De draaggolf van een zender ontstaat in een oscillator. Voor een rotsvaste frequentie gebruikt men een kristaloscillator; voor afstembaarheid een VFO met een LC-kring of een moderne DDS/PLL.",
+            "analogie": "Een oscillator is als een kind op een schommel dat zichzelf aanduwt: elke keer op het juiste moment een zetje (positieve terugkoppeling) houdt de schommel (de trilling) op vaste frequentie aan de gang."
+          }
+        },
+        { "type": "concept", "titel": "VFO, kristaloscillator, PLL en DDS", "essentie": "VFO = afstembaar (LC). Kristaloscillator = zeer stabiel. PLL en DDS = moderne, nauwkeurige, digitaal instelbare oscillatoren.",
+          "detail": {
+            "uitleg": "Er zijn verschillende oscillatortypes voor verschillende doelen. Een **VFO** (Variable Frequency Oscillator) is afstembaar over een bereik — dit is wat je met de afstemknop van een transceiver verzet. Een **kristaloscillator** levert één zeer stabiele, nauwkeurige frequentie. Moderne toestellen combineren stabiliteit én afstembaarheid met een **PLL** (Phase Locked Loop), die een oscillator vergrendelt op een veelvoud van een stabiele kristalreferentie, of met **DDS** (Direct Digital Synthesis, §11.4), die de frequentie digitaal opbouwt tot op de hertz nauwkeurig.",
+            "voorbeeld": "In een moderne transceiver draai je aan de knop en verspringt de frequentie in stapjes van 1 Hz, kraakhelder en stabiel — dat is een DDS of PLL, gestuurd door een kristalreferentie. Onmogelijk met een klassieke vrije LC-oscillator.",
+            "analogie": "Een VFO is als een gitaarsnaar die je met de hand stemt (flexibel maar loopt uit). Een PLL/DDS is als een elektronische stemmachine die de toon exact vasthoudt op de referentie — flexibel én rotsvast."
+          }
+        },
+        { "type": "keybox", "titel": "Onthoud — oscillator", "inhoud": "Oscillator = **versterker + positieve terugkoppeling + frequentiebepalend filter** (LC of kristal).\nDe resonantiekring bepaalt de frequentie.\n**VFO**: afstembaar. **Kristal**: zeer stabiel. **PLL/DDS**: nauwkeurig én digitaal instelbaar." }
+      ]
+    },
+    {
+      "id": "4.4",
+      "titel": "Mengtrappen",
+      "blokken": [
+        { "type": "text", "inhoud": "Een **mengtrap** (mixer) verschuift een signaal naar een andere frequentie. Dit **frequentieverschuiven** (heterodyning) is het hart van elke moderne zender en ontvanger: het maakt het mogelijk signalen op één vaste, handige frequentie te verwerken." },
+        { "type": "concept", "titel": "Werking van een mengtrap", "essentie": "Een mixer combineert twee frequenties en levert de som en het verschil ervan op. Zo verschuif je een signaal naar een gewenste frequentie.",
+          "detail": {
+            "uitleg": "Een **mengtrap** krijgt twee signalen aan de ingang: het te verwerken signaal en dat van een **lokale oscillator (LO)**. Aan de uitgang verschijnen nieuwe frequenties, waaronder de **som** ($f_1 + f_2$) en het **verschil** ($f_1 - f_2$) van beide. Door met een filter de gewenste te selecteren, verschuif je het signaal naar een andere frequentie. Dit heet **heterodyning**. In een ontvanger zet de mixer het ontvangen signaal om naar een vaste **middenfrequentie (MF/IF)**, die veel makkelijker en selectiever te versterken en te filteren is dan het oorspronkelijke, variabele signaal — het principe van de **superheterodyne-ontvanger** (h7).",
+            "voorbeeld": "Ontvang je 14,200 MHz en gebruikt de LO 14,655 MHz, dan levert de mixer o.a. het verschil 455 kHz op — een handige vaste middenfrequentie waarop de rest van de ontvanger is afgestemd. Stem je af op een andere zender, dan verschuift enkel de LO mee.",
+            "analogie": "Een mengtrap is als het vertalen van elk gesprek naar één gemeenschappelijke taal (de middenfrequentie): waar het signaal ook vandaan komt, na de mixer 'spreekt' alles dezelfde frequentie, zodat je er met vaste, scherpe filters mee kan werken."
+          }
+        },
+        { "type": "formula", "naam": "Mengproducten", "latex": "f_{uit} = f_{LO} \\pm f_{in}", "symbolen": "$f_{LO}$ = lokale-oscillatorfrequentie, $f_{in}$ = ingangssignaal, $f_{uit}$ = som- of verschilfrequentie (de middenfrequentie)", "voorbeeld": "$f_{in} = 14{,}200$ MHz, $f_{LO} = 14{,}655$ MHz → verschil $= 455$ kHz (de middenfrequentie)." },
+        { "type": "keybox", "titel": "Onthoud — mengtrap", "inhoud": "Mixer combineert twee frequenties → levert **som en verschil** ($f_{LO} \\pm f_{in}$).\nEen filter selecteert de gewenste → **frequentieverschuiving (heterodyning)**.\nZet het signaal om naar een vaste **middenfrequentie (MF/IF)** → basis van de **superheterodyne**-ontvanger (h7) en -zender (h6)." }
+      ]
+    }
+  ]
+}

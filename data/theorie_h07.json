@@ -1,0 +1,124 @@
+{
+ "hoofdstuk": 7,
+ "titel": "Ontvangers",
+ "bron": "UBA-handboek h7 · IRTS HAREC Study Guide (2024) hfst. 13 · ontvangers.xls",
+ "subhoofdstukken": [
+  {
+   "id": "7.1",
+   "titel": "Ontvanger zonder frequentietransformatie",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een **ontvanger** haalt uit de vele signalen op de antenne het ene gewenste, versterkt het en demoduleert het tot geluid. De eenvoudigste ontvangers verwerken het signaal rechtstreeks op de ontvangstfrequentie, zonder het te verschuiven."
+    },
+    {
+     "type": "concept",
+     "titel": "De rechtuit-ontvanger",
+     "essentie": "Antenne → afgestemde kring (selectie) → HF-versterker → detector → audioversterker. Eenvoudig, maar beperkte selectiviteit.",
+     "detail": {
+      "uitleg": "Een **rechtuit-ontvanger** (TRF, tuned radio frequency) verwerkt het signaal op de ontvangstfrequentie zelf. Een **afgestemde kring** (LC, §2.3) selecteert de gewenste frequentie, een **HF-versterker** versterkt het zwakke antennesignaal, een **detector** demoduleert het (§5.2), en een **audioversterker** drijft de luidspreker. Het nadeel: de selectiviteit en gevoeligheid zijn beperkt en veranderen met de frequentie, omdat alle afgestemde kringen op de (variabele) ontvangstfrequentie moeten werken. Daarom stapte men over op de superheterodyne.",
+      "voorbeeld": "Een eenvoudige kristalontvanger of regeneratieve ontvanger is een rechtuit-ontvanger: goedkoop en leerzaam, maar hij scheidt naburige zenders slecht en is moeilijk stabiel af te stemmen.",
+      "analogie": "Een rechtuit-ontvanger is als proberen één gesprek te volgen in een rumoerige zaal door je oor gewoon die kant op te richten: het werkt, maar je hoort de buren nog goed mee."
+     }
+    }
+   ]
+  },
+  {
+   "id": "7.2",
+   "titel": "Ontvanger met frequentietransformatie",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "De **superheterodyne**-ontvanger verschuift elk ontvangen signaal naar één vaste **middenfrequentie (MF/IF)**. Daar kan hij met vaste, scherpe filters uitstekend selecteren en versterken. Dit is het principe van vrijwel elke moderne ontvanger."
+    },
+    {
+     "type": "concept",
+     "titel": "Het superheterodyne-principe",
+     "essentie": "Een mengtrap zet elk ontvangen signaal om naar een vaste middenfrequentie, waar scherpe filtering en sterke versterking mogelijk zijn.",
+     "detail": {
+      "uitleg": "In een **superheterodyne**-ontvanger mengt een **mengtrap** het ontvangen signaal met dat van een afstembare **lokale oscillator (LO)**. Het verschil van beide frequenties is een vaste **middenfrequentie (MF/IF)** — ongeacht op welke zender je afstemt, want de LO schuift mee. Op die vaste MF staan scherpe **banddoorlaatfilters** (vaak kristalfilters) en de **MF-versterker**, die de selectiviteit en gevoeligheid bepalen. Na de MF volgt de **detector** en de **audioversterker**. Omdat de zware filtering altijd op dezelfde frequentie gebeurt, is ze veel beter en constanter dan bij een rechtuit-ontvanger.",
+      "voorbeeld": "Stem je af van 14,100 naar 14,200 MHz, dan verschuift enkel de LO 100 kHz mee; de MF (bv. 455 kHz of 9 MHz) blijft hetzelfde, en dus ook de scherpe filtering. Daardoor scheidt de ontvanger overal even goed naburige stations.",
+      "analogie": "De superheterodyne is als elk gesprek eerst 'vertalen' naar één standaardtaal (de middenfrequentie) voordat je het beluistert: je hoeft maar één set uitstekende 'oren' (filters) te trainen, en die werken voor elke zender even goed."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Middenfrequentie",
+     "latex": "f_{MF} = |f_{LO} - f_{in}|",
+     "symbolen": "$f_{MF}$ = middenfrequentie, $f_{LO}$ = lokale oscillator, $f_{in}$ = ontvangen frequentie",
+     "voorbeeld": "$f_{in} = 14{,}200$ MHz, $f_{LO} = 14{,}655$ MHz → $f_{MF} = 455$ kHz."
+    },
+    {
+     "type": "concept",
+     "titel": "Spiegelfrequentie",
+     "essentie": "De superheterodyne is ook gevoelig voor een ongewenste 'spiegelfrequentie'. Een ingangsfilter onderdrukt die.",
+     "detail": {
+      "uitleg": "Het superheterodyne-principe heeft één zwakte: naast de gewenste frequentie is er nóg een frequentie die met de LO dezelfde middenfrequentie oplevert — de **spiegelfrequentie (image)**. Ze ligt op $2 \\times f_{MF}$ afstand van de gewenste. Zonder maatregel zou een sterk signaal op de spiegelfrequentie mee doorkomen. Daarom staat vóór de mengtrap een **ingangs-/voorselectiefilter** (preselector) dat de spiegelfrequentie onderdrukt. Een hogere middenfrequentie legt de spiegel verder weg en maakt onderdrukking makkelijker (**dubbele frequentieomzetting** gebruikt daarom eerst een hoge, dan een lage MF).",
+      "voorbeeld": "Bij een MF van 455 kHz ligt de spiegelfrequentie 910 kHz naast de gewenste. Het ingangsfilter moet die onderdrukken, anders hoor je een storende zender 'dubbel'. Moderne ontvangers gebruiken een hoge eerste MF om dit probleem te verkleinen.",
+      "analogie": "De spiegelfrequentie is als een echo die per ongeluk hetzelfde klinkt als het origineel na 'vertaling'. Het ingangsfilter is de portier die die echo al aan de deur tegenhoudt, vóór de vertaling gebeurt."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — superheterodyne",
+     "inhoud": "Antenne → **preselector** (onderdrukt spiegelfrequentie) → **mixer** (met LO) → vaste **middenfrequentie** → scherp **MF-filter** + versterker → **detector** → audio.\n$f_{MF} = |f_{LO} - f_{in}|$. Spiegelfrequentie ligt op $2 \\times f_{MF}$ afstand."
+    }
+   ]
+  },
+  {
+   "id": "7.3",
+   "titel": "Enkele specifieke onderdelen van ontvangers",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een goede ontvanger bevat enkele specifieke hulpschakelingen die het comfort en de prestaties sterk verbeteren."
+    },
+    {
+     "type": "concept",
+     "titel": "AGC, ruisonderdrukking en squelch",
+     "essentie": "AGC houdt het volume constant, een ruisblanker onderdrukt pulsstoring, en squelch dempt de ruis tussen signalen in.",
+     "detail": {
+      "uitleg": "De **automatische versterkingsregeling (AGC/AVR)** past de versterking automatisch aan de sterkte van het ontvangen signaal aan, zodat sterke en zwakke stations op ongeveer hetzelfde volume klinken. De **ruisblanker (noise blanker)** onderdrukt korte pulsstoringen (bv. van ontstekingen). De **squelch** (ruisonderdrukking) dempt de luidspreker zolang er geen signaal is, zodat je niet voortdurend naar ruis luistert — vooral handig bij FM: pas wanneer er een signaal is, gaat de audio open. De **BFO** (§5.2) voegt de draaggolf toe voor SSB/CW-ontvangst.",
+      "voorbeeld": "Op een FM-repeaterkanaal hoor je stilte tot iemand zendt: de squelch houdt de ruis dicht en opent pas bij een signaal. De AGC zorgt dan dat een nabij en een ver station ongeveer even luid klinken.",
+      "analogie": "AGC is als een geluidsinstallatie die zacht en luid automatisch bijregelt naar een aangenaam niveau; squelch is de knop die de ruis dempt zolang niemand aan het woord is."
+     }
+    }
+   ]
+  },
+  {
+   "id": "7.4",
+   "titel": "Karakteristieken van een ontvanger",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een ontvanger wordt beoordeeld op drie kernkwaliteiten: gevoeligheid, selectiviteit en stabiliteit."
+    },
+    {
+     "type": "concept",
+     "titel": "Gevoeligheid, selectiviteit en stabiliteit",
+     "essentie": "Gevoeligheid = zwakke signalen horen. Selectiviteit = naburige zenders scheiden. Stabiliteit = niet wegdriften.",
+     "detail": {
+      "uitleg": "De **gevoeligheid** is het vermogen om zeer zwakke signalen nog hoorbaar te maken; ze wordt beperkt door de eigen ruis van de ontvanger (vooral van de eerste trap — daarom een ruisarme FET-ingang). De **selectiviteit** is het vermogen om de gewenste zender te scheiden van naburige signalen; ze wordt bepaald door de scherpte van de MF-filters. De **stabiliteit** betekent dat de ontvanger niet wegdrijft van de ingestelde frequentie — bepaald door de kwaliteit van de oscillatoren (kristal, PLL, DDS). Daarnaast tellen het **dynamisch bereik** (sterke en zwakke signalen tegelijk aankunnen zonder vervorming) en de **spiegelonderdrukking**.",
+      "voorbeeld": "Een gevoelige maar weinig selectieve ontvanger hoort een zwak DX-station, maar een sterk buurstation 2 kHz ernaast overstemt het. Een selectieve ontvanger met scherp kristalfilter scheidt beide en laat het zwakke station toch horen.",
+      "analogie": "Gevoeligheid is scherp gehoor (zachte geluiden opvangen), selectiviteit is focus (één stem volgen tussen vele), en stabiliteit is concentratie (niet afdwalen). Een goede ontvanger heeft alle drie."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Blokkering, intermodulatie en kruismodulatie",
+     "essentie": "Sterke signalen kunnen een ontvanger overbelasten: blokkering (gevoeligheidsverlies), intermodulatie (valse mengproducten) en kruismodulatie (modulatie lekt over).",
+     "detail": {
+      "uitleg": "Sterke signalen op of nabij je frequentie kunnen de ontvanger overbelasten — dit bepaalt het **dynamisch bereik**. **Blokkering (desensitisatie)**: een zeer sterk signaal (ook buiten je kanaal) verlaagt de versterking, zodat je gewenste zwakke signaal wegvalt — de ontvanger wordt 'doof'. **Intermodulatie**: twee of meer sterke signalen mengen in een niet-lineaire trap en vormen **valse mengproducten** op frequenties waar niets zou mogen zijn. **Kruismodulatie (cross-modulation)**: de **modulatie** van een sterk naburig station lekt over op je gewenste draaggolf, zodat je dat andere station 'mee' hoort. Een goede ontvanger heeft een hoog dynamisch bereik en sterke, lineaire ingangstrappen om dit te vermijden; een preselector of verzwakker helpt.",
+      "voorbeeld": "Woon je dicht bij een sterke omroepzender, dan kan die je hele ontvanger blokkeren of zijn programma over je amateurband 'smeren' (kruismodulatie). Een banddoorlaatfilter of ingangsverzwakker lost dat vaak op.",
+      "analogie": "Het is als een gesprek voeren naast een luide luidspreker: je wordt overstemd (blokkering), je hoort valse echo's ontstaan (intermodulatie), of het andere geluid mengt zich in jouw gesprek (kruismodulatie)."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — ontvangerkarakteristieken",
+     "inhoud": "**Gevoeligheid**: zwakke signalen horen (beperkt door eigen ruis).\n**Selectiviteit**: naburige zenders scheiden (MF-filters).\n**Stabiliteit**: niet wegdriften (kwaliteit oscillatoren).\nOok belangrijk: **dynamisch bereik** en **spiegelonderdrukking**."
+    }
+   ]
+  }
+ ]
+}

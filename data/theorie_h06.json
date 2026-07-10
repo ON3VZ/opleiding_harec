@@ -1,0 +1,97 @@
+{
+ "hoofdstuk": 6,
+ "titel": "Zenders",
+ "bron": "UBA-handboek h6 · IRTS HAREC Study Guide (2024) hfst. 12 · zenders.xls",
+ "subhoofdstukken": [
+  {
+   "id": "6.1",
+   "titel": "Zenders zonder frequentietransformatie",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een **zender** wekt een gemoduleerd radiosignaal op en stuurt het naar de antenne. In de eenvoudigste vorm — zonder frequentietransformatie — wordt het signaal opgewekt op de uiteindelijke zendfrequentie en dan versterkt."
+    },
+    {
+     "type": "concept",
+     "titel": "De eenvoudige CW-zender",
+     "essentie": "Oscillator op de zendfrequentie → seinsleutel schakelt de draaggolf → eindversterker → antenne.",
+     "detail": {
+      "uitleg": "De eenvoudigste zender is een **CW-zender** (morse). Een **master-oscillator** wekt de draaggolf op precies de gewenste zendfrequentie op. Een **seinsleutel** schakelt die draaggolf aan en uit (on-off keying). Een **eindversterker (PA)** brengt het signaal op het gewenste vermogen, en een filter onderdrukt de harmonischen vóór de antenne. Omdat de frequentie hier direct wordt opgewekt, spreekt men van een zender *zonder* frequentietransformatie. Bij het sleutelen moeten de flanken zacht oplopen, anders ontstaan sleutelklikken (zie §2.6).",
+      "voorbeeld": "Een klassieke QRP-CW-zendertje bestaat uit een kristaloscillator op bijvoorbeeld 7,030 MHz, een sleutel, en een kleine eindtrap van enkele watts — genoeg voor verbindingen over honderden tot duizenden kilometers.",
+      "analogie": "Deze zender is als een fluitje op een vaste toon dat je met een klepje aan en uit laat: de toon (draaggolf) staat vast, jij bepaalt met het klepje (de sleutel) de morsecode."
+     }
+    },
+    {
+     "type": "warning",
+     "titel": "Let op — harmonischen en zuiverheid",
+     "inhoud": "Elke zender moet een **spectraal zuiver** signaal uitzenden. Harmonischen en ongewenste nevenproducten worden weggefilterd (laagdoorlaatfilter aan de uitgang, §2.8) om storing in andere banden te voorkomen. Overmodulatie en overdriving vergroten deze ongewenste uitstraling."
+    }
+   ]
+  },
+  {
+   "id": "6.2",
+   "titel": "Zenders met frequentietransformatie",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Moderne zenders wekken het signaal op een lage, vaste frequentie op (waar moduleren en filteren makkelijk is) en **verschuiven** het daarna met een mengtrap naar de gewenste zendband. Dat is een zender *met* frequentietransformatie."
+    },
+    {
+     "type": "concept",
+     "titel": "De SSB-zenderketen",
+     "essentie": "Microfoon → spraakversterker → gebalanceerde modulator → filter → mixer (met VFO) → lineaire eindtrap → antenne.",
+     "detail": {
+      "uitleg": "Een **SSB-zender** bouwt het signaal stap voor stap op. De **spraakversterker** versterkt het microfoonsignaal. De **gebalanceerde modulator** mengt het met een vaste draaggolf (van een kristaloscillator) en onderdrukt daarbij de draaggolf — er blijven twee zijbanden over. Een scherp **kristal-banddoorlaatfilter** (typisch 1,8–2,4 kHz breed) laat er één van door: nu heb je een SSB-signaal op een lage, vaste **middenfrequentie**. De **mixer** verschuift dat met de **VFO** naar de gewenste zendfrequentie (som- of verschilfrequentie). Ten slotte brengt een **lineaire eindversterker** (klasse AB, §4.2) het op vermogen. Een **ALC** (Automatic Level Control) voorkomt overdriving.",
+      "voorbeeld": "Wil je op 14,200 MHz zenden? De SSB wordt eerst opgebouwd op bijvoorbeeld 9 MHz (waar het kristalfilter zit), en de mixer verschuift dat met de VFO naar 14,200 MHz. Stem je af op een andere frequentie, dan verandert enkel de VFO.",
+      "analogie": "Het is als een tekst opstellen op je bureau in een handige standaardvorm (de vaste middenfrequentie) en die pas op het einde vertalen naar de taal van het doelland (de zendfrequentie). Het opstellen gebeurt altijd op dezelfde, comfortabele plek."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "De gebalanceerde modulator",
+     "essentie": "Een gebalanceerde modulator onderdrukt de draaggolf en levert enkel de twee zijbanden — de eerste stap naar SSB.",
+     "detail": {
+      "uitleg": "De **gebalanceerde modulator** is de sleutel tot SSB. Hij mengt het audiosignaal met de draaggolf op zo'n manier dat de **draaggolf zelf wordt onderdrukt** (uitgebalanceerd), zodat enkel de bovenste en onderste zijband overblijven — een DSB-signaal (dubbelzijband met onderdrukte draaggolf). Het daaropvolgende scherpe filter verwijdert dan één van beide zijbanden, wat het eigenlijke SSB-signaal oplevert.",
+      "voorbeeld": "Zonder de gebalanceerde modulator zou de draaggolf meegezonden worden en had je gewone AM, met alle vermogensverspilling van dien. Juist door de draaggolf hier al te onderdrukken, wordt SSB zo efficiënt.",
+      "analogie": "De gebalanceerde modulator is als een geluidstechnicus die de dominante bromtoon (draaggolf) wegmixt en enkel de nuttige stemmen (zijbanden) overhoudt."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — SSB-zenderketen",
+     "inhoud": "Microfoon → **spraakversterker** → **gebalanceerde modulator** (draaggolf onderdrukt) → **filter** (1 zijband) → **mixer** (met VFO, naar zendfrequentie) → **lineaire eindtrap** (klasse AB) → antenne.\n**ALC** voorkomt overdriving."
+    }
+   ]
+  },
+  {
+   "id": "6.3",
+   "titel": "Karakteristieken van een zender",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "De kwaliteit van een zender wordt beoordeeld op vermogen, frequentiestabiliteit, spectrale zuiverheid en de juiste bandbreedte."
+    },
+    {
+     "type": "concept",
+     "titel": "Belangrijke zenderkarakteristieken",
+     "essentie": "Uitgangsvermogen, frequentiestabiliteit, spectrale zuiverheid (weinig harmonischen/nevenproducten) en correcte bandbreedte.",
+     "detail": {
+      "uitleg": "Een goede zender voldoet aan vier eisen. Het **uitgangsvermogen** moet binnen de toegelaten limiet blijven (in België afhankelijk van de vergunningsklasse, zie h15). De **frequentiestabiliteit** moet hoog zijn: de zendfrequentie mag niet wegdriften — daarom gebruikt men kristal- of PLL/DDS-gestuurde oscillatoren. De **spectrale zuiverheid** eist dat harmonischen en ongewenste nevenproducten sterk onderdrukt zijn (filtering), om storing te vermijden. En de **bandbreedte** moet gepast zijn voor de mode (smal voor CW, ~2,4 kHz voor SSB, breder voor FM) — te breed betekent storing en verspilde bandruimte.",
+      "voorbeeld": "Een SSB-zender met een te breed of vervormd signaal veroorzaakt 'splatter' die naburige QSO's stoort. Een correct afgeregelde zender met nette ALC en filtering blijft binnen zijn 2,4 kHz en stoort niemand.",
+      "analogie": "Een goede zender is als een beleefde spreker op een druk feest: hij praat luid genoeg (vermogen), houdt vaste toonhoogte (stabiliteit), articuleert zuiver zonder bijgeluiden (spectrale zuiverheid) en neemt niet meer ruimte in dan nodig (bandbreedte)."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Duty cycle en transverter",
+     "essentie": "De duty cycle is de verhouding zend-tijd tot totale tijd; hoge duty cycle (FM, digitaal) belast de eindtrap zwaar. Een transverter verschuift een band naar een hogere.",
+     "detail": {
+      "uitleg": "De **duty cycle** (inschakelverhouding) is het deel van de tijd dat de zender werkelijk op vol vermogen staat. Modes met **constante amplitude en continu zenden** (FM, RTTY, veel digitale modes) hebben een **hoge duty cycle** (~100 %) en belasten de eindtrap en voeding thermisch veel zwaarder dan SSB of CW, waar het vermogen sterk wisselt (lage gemiddelde duty cycle). Bij hoge duty cycle moet je vaak het vermogen terugregelen om oververhitting te vermijden. Een **transverter** is een hulptoestel dat een hele band **omzet naar een hogere band**: het combineert een mixer met een lokale oscillator, zodat je bijvoorbeeld met een HF-transceiver op VHF/UHF of microgolf kan werken.",
+      "voorbeeld": "Zend je lang in FM of een digitale mode (100 % duty cycle), dan wordt je eindtrap veel heter dan bij SSB — verlaag dan het vermogen. Met een 144 MHz-transverter voor je HF-set werk je op de 23 cm-band zonder een nieuwe transceiver te kopen.",
+      "analogie": "Duty cycle is als het verschil tussen sprinten met pauzes (SSB/CW) en non-stop joggen (FM/digitaal): het tweede put je motor (eindtrap) veel sneller uit. Een transverter is als een versnellingsbak die je bestaande motor naar een hoger toerengebied (band) brengt."
+     }
+    }
+   ]
+  }
+ ]
+}

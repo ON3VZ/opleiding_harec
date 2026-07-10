@@ -1,0 +1,257 @@
+/* ============================================================
+   FreeCAD voor Radioamateurs — platform.css
+   PLACEHOLDER-STIJL. Kleuren/typografie hieronder zijn een
+   verantwoorde neutrale keuze, GEEN echte WLD/dB-dBm-huisstijl.
+   Vervang de tokens in :root zodra de echte assets (CSS, logo,
+   kleuren, fonts) van het dB/dBm-platform beschikbaar zijn.
+   ============================================================ */
+
+:root{
+  /* --- kleur: "signaal"-thema (petrol/koper), losstaand van elke
+     bestaande merkidentiteit, makkelijk te vervangen --- */
+  --bg:            #f2f4f3;
+  --bg-panel:      #ffffff;
+  --bg-sunken:     #e7ebe9;
+  --ink:           #16232a;
+  --ink-soft:      #47585f;
+  --line:          #d3dad8;
+
+  --signal:        #2b6e63;   /* petrol/teal — primaire actiekleur */
+  --signal-dark:   #1d4d45;
+  --copper:        #b5723a;   /* koper — accent, badges, "expert" */
+  --copper-dark:   #8f5726;
+
+  --status-todo:      #97a3a1;
+  --status-busy:      #c98a2c;
+  --status-done:      #2b6e63;
+
+  --warn-bg:       #fdf3e4;
+  --warn-line:     #e8c07f;
+  --tip-bg:        #eaf3f1;
+  --tip-line:      #a9cec6;
+  --info-bg:       #eef1f6;
+  --info-line:     #b9c4d6;
+
+  /* --- typografie --- */
+  --font-body:  "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono:  "IBM Plex Mono", "SF Mono", Consolas, monospace;
+
+  --fs-0: 0.8125rem;
+  --fs-1: 0.9375rem;
+  --fs-2: 1.0625rem;
+  --fs-3: 1.375rem;
+  --fs-4: 1.875rem;
+  --fs-5: 2.5rem;
+
+  --radius: 6px;
+  --radius-lg: 10px;
+  --space-1: 0.5rem;
+  --space-2: 0.875rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+
+  --shadow-sm: 0 1px 2px rgba(22,35,42,.06), 0 1px 1px rgba(22,35,42,.04);
+  --shadow-md: 0 4px 16px rgba(22,35,42,.08);
+}
+
+*{ box-sizing: border-box; }
+html{ scroll-behavior: smooth; }
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--font-body);
+  font-size:var(--fs-2);
+  line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{ font-family:var(--font-body); font-weight:700; line-height:1.2; margin:0 0 .5em; letter-spacing:-0.01em; }
+code, .mono{ font-family:var(--font-mono); }
+a{ color:var(--signal-dark); }
+:focus-visible{ outline:2px solid var(--signal); outline-offset:2px; }
+@media (prefers-reduced-motion: reduce){ *{ animation:none !important; transition:none !important; scroll-behavior:auto !important; } }
+
+/* ---------- layout shell ---------- */
+.shell{ max-width:960px; margin:0 auto; padding:0 var(--space-3); }
+
+.topbar{
+  border-bottom:1px solid var(--line);
+  background:var(--bg-panel);
+  position:sticky; top:0; z-index:20;
+}
+.topbar-inner{
+  max-width:960px; margin:0 auto; padding:.9rem var(--space-3);
+  display:flex; align-items:center; gap:var(--space-3);
+}
+.brand{ display:flex; align-items:center; gap:.6rem; font-weight:700; font-size:var(--fs-2); }
+.brand-mark{
+  width:30px; height:30px; border-radius:7px;
+  background:linear-gradient(135deg, var(--signal), var(--signal-dark));
+  display:flex; align-items:center; justify-content:center;
+  color:#fff; font-family:var(--font-mono); font-size:.7rem; font-weight:700;
+}
+.spacer{ flex:1; }
+
+.langswitch{ display:flex; border:1px solid var(--line); border-radius:999px; overflow:hidden; }
+.langswitch button{
+  border:0; background:transparent; padding:.35rem .75rem; font-family:var(--font-mono);
+  font-size:var(--fs-0); cursor:pointer; color:var(--ink-soft);
+}
+.langswitch button.active{ background:var(--signal); color:#fff; }
+
+.callsign-chip{
+  font-family:var(--font-mono); font-size:var(--fs-0); background:var(--bg-sunken);
+  border:1px solid var(--line); border-radius:999px; padding:.3rem .7rem; color:var(--ink-soft);
+}
+
+/* ---------- hero ---------- */
+.hero{ padding:var(--space-5) 0 var(--space-4); }
+.hero-eyebrow{
+  font-family:var(--font-mono); font-size:var(--fs-0); text-transform:uppercase; letter-spacing:.12em;
+  color:var(--copper-dark); margin-bottom:.75rem; display:flex; align-items:center; gap:.5rem;
+}
+.hero-eyebrow::before{ content:""; width:18px; height:2px; background:var(--copper); display:inline-block; }
+.hero h1{ font-size:var(--fs-5); max-width:20ch; }
+.hero p{ max-width:56ch; color:var(--ink-soft); font-size:var(--fs-3); }
+
+/* ---------- trajectbalk (signal-path) ---------- */
+.traject{ margin:var(--space-4) 0; }
+.traject-levels{ display:grid; grid-template-columns:repeat(4,1fr); gap:var(--space-2); position:relative; }
+.traject-levels::before{
+  content:""; position:absolute; top:19px; left:6%; right:6%; height:2px;
+  background:repeating-linear-gradient(90deg, var(--line) 0 6px, transparent 6px 11px);
+}
+.level{ position:relative; }
+.level-node{
+  width:38px; height:38px; border-radius:50%; background:var(--bg-panel); border:2px solid var(--line);
+  display:flex; align-items:center; justify-content:center; font-family:var(--font-mono); font-weight:700;
+  color:var(--ink-soft); margin:0 auto var(--space-1); position:relative; z-index:1;
+}
+.level.done .level-node{ background:var(--signal); border-color:var(--signal); color:#fff; }
+.level.busy .level-node{ background:var(--warn-bg); border-color:var(--status-busy); color:var(--copper-dark); }
+.level-label{ text-align:center; font-size:var(--fs-1); font-weight:600; }
+.level-progress{ text-align:center; font-size:var(--fs-0); color:var(--ink-soft); font-family:var(--font-mono); }
+
+/* ---------- chapter tile grid ---------- */
+.tiles{ display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:var(--space-2); margin-top:var(--space-2); }
+.tile{
+  background:var(--bg-panel); border:1px solid var(--line); border-radius:var(--radius-lg);
+  padding:var(--space-2); box-shadow:var(--shadow-sm); text-decoration:none; color:inherit; display:block;
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+.tile:hover{ transform:translateY(-2px); box-shadow:var(--shadow-md); }
+.tile-num{ font-family:var(--font-mono); font-size:var(--fs-0); color:var(--ink-soft); }
+.tile h3{ font-size:var(--fs-2); margin:.3rem 0 .5rem; }
+.status-badge{
+  display:inline-flex; align-items:center; gap:.35rem; font-family:var(--font-mono); font-size:var(--fs-0);
+  padding:.2rem .55rem; border-radius:999px; font-weight:600;
+}
+.status-badge::before{ content:""; width:7px; height:7px; border-radius:50%; background:currentColor; }
+.status-badge.todo{ background:var(--bg-sunken); color:var(--status-todo); }
+.status-badge.busy{ background:var(--warn-bg); color:var(--status-busy); }
+.status-badge.done{ background:var(--tip-bg); color:var(--status-done); }
+
+/* ---------- path-chip (voorkennis) ---------- */
+.path-chips{ display:flex; flex-wrap:wrap; gap:.4rem; margin:.5rem 0 var(--space-3); }
+.path-chip{
+  font-family:var(--font-mono); font-size:var(--fs-0); background:var(--bg-sunken); border:1px solid var(--line);
+  border-radius:6px; padding:.25rem .55rem; text-decoration:none; color:var(--ink-soft);
+}
+.path-chip:hover{ border-color:var(--signal); color:var(--signal-dark); }
+
+/* ---------- howto box ---------- */
+.howto{
+  background:var(--bg-panel); border:1px solid var(--line); border-left:4px solid var(--signal);
+  border-radius:var(--radius); padding:var(--space-2) var(--space-3); margin:var(--space-3) 0;
+}
+.howto-head{ display:flex; align-items:center; gap:.6rem; margin-bottom:var(--space-2); }
+.howto-head .wb{
+  font-family:var(--font-mono); font-size:var(--fs-0); background:var(--signal); color:#fff;
+  padding:.2rem .6rem; border-radius:5px; font-weight:700;
+}
+.howto ol{ margin:0; padding-left:1.3rem; }
+.howto li{ margin-bottom:.6rem; }
+.howto li:last-child{ margin-bottom:0; }
+
+/* ---------- callouts ---------- */
+.callout{ border-radius:var(--radius); padding:var(--space-2) var(--space-3); margin:var(--space-3) 0; border:1px solid; }
+.callout-head{ font-family:var(--font-mono); font-size:var(--fs-0); font-weight:700; text-transform:uppercase; letter-spacing:.06em; margin-bottom:.35rem; }
+.callout-tip{ background:var(--tip-bg); border-color:var(--tip-line); }
+.callout-tip .callout-head{ color:var(--signal-dark); }
+.callout-warn{ background:var(--warn-bg); border-color:var(--warn-line); }
+.callout-warn .callout-head{ color:var(--copper-dark); }
+.callout-info{ background:var(--info-bg); border-color:var(--info-line); }
+.callout-info .callout-head{ color:#3a4a63; }
+
+/* ---------- figure / bronvermelding ---------- */
+figure.shot{ margin:var(--space-3) 0; }
+figure.shot .frame{
+  border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; background:var(--bg-sunken);
+  position:relative;
+}
+figure.shot img{ display:block; width:100%; height:auto; }
+figure.shot figcaption{ font-size:var(--fs-0); color:var(--ink-soft); margin-top:.4rem; }
+figure.shot figcaption .src{ font-family:var(--font-mono); }
+.badge-temp{
+  position:absolute; top:.5rem; right:.5rem; background:rgba(22,35,42,.82); color:#fff;
+  font-family:var(--font-mono); font-size:.7rem; padding:.2rem .5rem; border-radius:5px;
+}
+
+/* ---------- doe-opdracht ---------- */
+.opdracht{
+  background:var(--ink); color:#fff; border-radius:var(--radius-lg); padding:var(--space-3);
+  margin:var(--space-4) 0;
+}
+.opdracht .callout-head{ color:var(--copper); }
+.opdracht a, .opdracht strong{ color:#fff; }
+
+/* ---------- veelgemaakte fouten ---------- */
+.fouten{ background:var(--bg-panel); border:1px solid var(--line); border-radius:var(--radius); padding:var(--space-3); margin:var(--space-3) 0; }
+.fouten ul{ margin:0; padding-left:1.2rem; }
+.fouten li{ margin-bottom:.5rem; }
+.fouten li:last-child{ margin-bottom:0; }
+
+/* ---------- memory box ---------- */
+.memory{
+  background:linear-gradient(135deg, var(--signal-dark), var(--signal));
+  color:#fff; border-radius:var(--radius-lg); padding:var(--space-3); margin:var(--space-4) 0;
+  display:flex; gap:var(--space-2); align-items:flex-start;
+}
+.memory-icon{ font-size:1.4rem; line-height:1; }
+.memory h4{ color:#fff; margin-bottom:.3rem; }
+.memory p{ margin:0; color:rgba(255,255,255,.9); }
+
+/* ---------- quiz ---------- */
+.quiz{ border:1px solid var(--line); border-radius:var(--radius); padding:var(--space-2) var(--space-3); margin:var(--space-3) 0; background:var(--bg-panel); }
+.quiz-q{ font-weight:600; margin-bottom:.5rem; }
+details.quiz-a{ font-size:var(--fs-1); }
+details.quiz-a summary{ cursor:pointer; color:var(--signal-dark); font-weight:600; list-style:none; }
+details.quiz-a summary::-webkit-details-marker{ display:none; }
+details.quiz-a summary::before{ content:"▸ "; }
+details.quiz-a[open] summary::before{ content:"▾ "; }
+details.quiz-a .a-body{ margin-top:.5rem; color:var(--ink-soft); }
+
+/* ---------- complete-button ---------- */
+.complete-btn{
+  display:inline-flex; align-items:center; gap:.5rem; background:var(--signal); color:#fff; border:0;
+  border-radius:999px; padding:.65rem 1.3rem; font-family:var(--font-body); font-weight:600; font-size:var(--fs-1);
+  cursor:pointer; margin-top:var(--space-3);
+}
+.complete-btn.is-done{ background:var(--status-done); }
+.complete-btn:hover{ background:var(--signal-dark); }
+
+/* ---------- lang-block ---------- */
+.lang-block{ display:none; }
+.lang-block.active{ display:block; }
+
+footer.site-footer{
+  border-top:1px solid var(--line); margin-top:var(--space-5); padding:var(--space-3) 0;
+  font-size:var(--fs-0); color:var(--ink-soft);
+}
+
+@media (max-width: 640px){
+  .traject-levels{ grid-template-columns:repeat(2,1fr); row-gap:var(--space-3); }
+  .traject-levels::before{ display:none; }
+  .hero h1{ font-size:var(--fs-4); }
+}

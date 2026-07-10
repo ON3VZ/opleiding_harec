@@ -1,0 +1,99 @@
+{
+  "hoofdstuk": 5,
+  "titel": "Modulatie en demodulatie",
+  "bron": "UBA-handboek h5 · IRTS HAREC Study Guide (2024) hfst. 11 · electriciteit.xls (modulatievragen)",
+  "subhoofdstukken": [
+    {
+      "id": "5.1",
+      "titel": "Modulatie",
+      "blokken": [
+        { "type": "text", "inhoud": "Een kale draaggolf draagt geen informatie. **Modulatie** is de kunst om spraak, morse of data op die draaggolf te 'schrijven' door een van haar eigenschappen — amplitude, frequentie of faze — te laten variëren met het signaal." },
+        { "type": "concept", "titel": "Draaggolf, zijbanden en bandbreedte", "essentie": "Modulatie voegt zijbanden toe rond de draaggolf. De bandbreedte loopt van de laagste tot de hoogste aanwezige frequentie.",
+          "detail": {
+            "uitleg": "Een zuivere **draaggolf** is een sinus die op zich geen informatie draagt. Zodra je er een modulerend signaal op zet, ontstaan **zijbanden**: extra frequenties net boven en onder de draaggolf. Het geheel beslaat een zekere **bandbreedte**, van de laagste tot de hoogste aanwezige frequentie. Vrijwel alle nuttige informatie zit in de zijbanden, niet in de draaggolf zelf. **ITU-emissiecodes** benoemen het type: A3E = AM-spraak, J3E = SSB-spraak, F3E = FM-spraak, A1A = CW/morse.",
+            "voorbeeld": "Moduleer je een draaggolf van 7,100 MHz met een 3 kHz audiosignaal (AM), dan ontstaan zijbanden van 7,097 tot 7,103 MHz — een bandbreedte van 6 kHz.",
+            "analogie": "De draaggolf is een blanco briefkaart: hij zegt niets tot je erop schrijft. De zijbanden zijn de inkt met je boodschap; hoe meer je schrijft (hogere audiofrequenties), hoe groter de kaart (bandbreedte)."
+          }
+        },
+        { "type": "concept", "titel": "AM — amplitudemodulatie", "essentie": "Bij AM volgt de amplitude van de draaggolf het geluid. Spectrum: draaggolf + 2 zijbanden; bandbreedte = 2× de audio.",
+          "detail": {
+            "uitleg": "Bij **amplitudemodulatie** volgt de amplitude (sterkte) van de draaggolf de vorm van het audiosignaal. In het frequentiedomein zie je de draaggolf, een **onderste zijband (LSB)** en een **bovenste zijband (USB)**. Elke zijband is even breed als het audiosignaal, dus de bandbreedte is *tweemaal* de audiobandbreedte. De **modulatiediepte** zegt hoe sterk je moduleert: bij 100 % raakt de amplitude even nul en verdubbelt op de piek. Boven 100 % treedt **overmodulatie** op: vervorming en storing. Nadeel van AM: de draaggolf blijft op volle sterkte meezenden maar draagt zelf geen info — vermogensverspilling.",
+            "voorbeeld": "Een AM-omroep met 4,5 kHz audio neemt 9 kHz bandbreedte in. Een groot deel van het vermogen zit in de nutteloze draaggolf; daarom stapten amateurs over op SSB.",
+            "analogie": "AM is als iemand die zijn boodschap doorgeeft door harder en zachter te praten, terwijl hij onophoudelijk een luide bromtoon (de draaggolf) laat horen. Die brom kost energie maar zegt niets."
+          }
+        },
+        { "type": "concept", "titel": "SSB — enkelzijband", "essentie": "SSB laat de draaggolf én één zijband weg. Halve bandbreedte (~2,6 kHz), al het vermogen in de nuttige zijband.",
+          "detail": {
+            "uitleg": "**Enkelzijband (SSB)** is een afgeslankte AM: men onderdrukt de **draaggolf** én één van de twee zijbanden. Wat overblijft is één zijband die alle informatie draagt. De bandbreedte zakt tot minder dan de helft van AM (ongeveer **2,6 kHz**), en omdat er geen vermogen naar de draaggolf gaat, zit *al* je zendvermogen in het nuttige signaal. Daarom is SSB (code J3E) de populairste spraakmodus op de HF-banden. Men kiest USB (bovenste zijband) of LSB (onderste) volgens afspraak per band.",
+            "voorbeeld": "Met dezelfde 100 W zendt een SSB-station veel verder dan een AM-station, want bij AM ging het meeste vermogen naar draaggolf en dubbele zijband. Bovendien passen er meer dan dubbel zoveel SSB-gesprekken in dezelfde bandruimte.",
+            "analogie": "AM stuurt je boodschap twee keer (beide zijbanden) plus een luide brom (draaggolf). SSB zegt: één keer is genoeg, en die brom mag weg. Minder plaats, minder energie, zelfde boodschap."
+          }
+        },
+        { "type": "concept", "titel": "FM — frequentiemodulatie", "essentie": "Bij FM volgt de frequentie van de draaggolf het geluid; de amplitude blijft constant. Betere ruisonderdrukking.",
+          "detail": {
+            "uitleg": "Bij **frequentiemodulatie** blijft de amplitude constant, maar wijzigt de *frequentie* van de draaggolf mee met het audiosignaal: luider geluid = grotere frequentieafwijking (**deviatie**). Er ontstaan vele zijbanden. Smalband-FM (NBFM) is ongeveer 11 kHz breed op VHF en 16 kHz op UHF. Het grote voordeel is de **ruisonderdrukking**: omdat de informatie in de frequentie zit en niet in de amplitude, storen amplitudestoringen (bliksem, elektrische ruis) veel minder.",
+            "voorbeeld": "Lokale VHF/UHF-repeaters werken bijna altijd in FM. Ook al rijd je door gebieden met veel elektrische ruis, de spraak blijft helder zolang het signaal sterk genoeg is — de ruis zit in de amplitude, die de FM-ontvanger negeert.",
+            "analogie": "AM is praten door harder/zachter te spreken (achtergrondlawaai verstoort dat). FM is praten door hoger/lager van toon te gaan: het lawaai verandert je toonhoogte niet, dus je blijft goed verstaanbaar."
+          }
+        },
+        { "type": "concept", "titel": "CW en digitale modes", "essentie": "CW is morse door de draaggolf aan/uit te schakelen. FSK schakelt tussen frequenties, PSK tussen fazen.",
+          "detail": {
+            "uitleg": "De oudste mode is **CW** (morse): je schakelt de draaggolf aan en uit (on-off keying, code A1A). Bij de digitale varianten schakelt de zender tussen vaste toestanden: **FSK** (Frequency Shift Keying) springt tussen twee frequenties (mark/space, een FM-variant), **PSK** (Phase Shift Keying) springt tussen fazestanden. Voor betrouwbaarheid voegt men foutcontrole toe: **CRC** *detecteert* fouten, **FEC** *corrigeert* ze zelf met redundante bits zonder herzending.",
+            "voorbeeld": "Digitale modes als FT8 gebruiken FSK met meerdere tonen en zware foutcorrectie, waardoor je berichten leest die zó zwak zijn dat je ze met het oor niet hoort.",
+            "analogie": "CW is morsen met een zaklamp (aan/uit). FSK is fluiten op twee toonhoogtes voor 0 en 1. PSK verspringt het ritme (de faze) zonder toon of sterkte te wijzigen — subtieler, maar zeer efficiënt."
+          }
+        },
+        { "type": "keybox", "titel": "Onthoud — modulatietypes", "inhoud": "**AM** (A3E): amplitude varieert · draaggolf + 2 zijbanden · bandbreedte 2× audio.\n**SSB** (J3E): draaggolf + 1 zijband weg · ≈2,6 kHz · efficiëntst op HF.\n**FM** (F3E): frequentie varieert · constante amplitude · beste ruisonderdrukking · NBFM ≈11 kHz (VHF)/16 kHz (UHF).\n**CW** (A1A): draaggolf aan/uit (morse). **FSK** = FM-variant, **PSK** = fazevariant." }
+      ]
+    },
+    {
+      "id": "5.2",
+      "titel": "Demodulatie",
+      "blokken": [
+        { "type": "text", "inhoud": "**Demodulatie** (detectie) is het omgekeerde van modulatie: uit het ontvangen gemoduleerde signaal het oorspronkelijke geluid of de data terugwinnen. Elk modulatietype vraagt een aangepaste **detector**." },
+        { "type": "concept", "titel": "AM-detectie", "essentie": "Een AM-detector volgt de omhullende van het signaal — een diode plus condensator volstaat.",
+          "detail": {
+            "uitleg": "Bij AM zit de informatie in de amplitude (de **omhullende**). Een eenvoudige **envelopedetector** — een diode die gelijkricht, gevolgd door een condensator die de omhullende volgt — wint het audiosignaal terug. De diode laat enkel de positieve toppen door, de condensator vlakt af tot de audiovorm overblijft. Dit is de klassieke 'diodedetector' uit de eerste radio's.",
+            "voorbeeld": "Een oude kristalontvanger deed precies dit: een diode (destijds een kristaldetector) plus een condensator haalde de spraak of muziek uit het AM-signaal, zonder enige voeding.",
+            "analogie": "De envelopedetector 'trekt een lijn' langs de toppen van het signaal — zoals je met een potlood de contour van een bergketen natekent. Die contour is het oorspronkelijke geluid."
+          }
+        },
+        { "type": "concept", "titel": "SSB- en CW-detectie: de BFO", "essentie": "SSB en CW hebben geen draaggolf, dus de ontvanger voegt er zelf één toe met een BFO (beat frequency oscillator).",
+          "detail": {
+            "uitleg": "Omdat bij **SSB** en **CW** de draaggolf onderdrukt of afwezig is, kan een envelopedetector niets terugwinnen. De ontvanger voegt daarom zelf een draaggolf toe met een **BFO** (Beat Frequency Oscillator, ook carrier insertion oscillator genoemd). Door die opnieuw ingevoegde draaggolf met het ontvangen signaal te mengen, ontstaat weer een hoorbaar audiosignaal. Voor CW hoor je zo een zuivere toon; voor SSB komt de spraak terug. Correcte afstemming is cruciaal — een verkeerd ingestelde BFO maakt SSB-spraak onverstaanbaar (te hoog of te laag).",
+            "voorbeeld": "Draai je een CW-signaal binnen, dan hoor je een fluittoon waarvan de toonhoogte afhangt van je afstemming — die toon ontstaat door het verschil tussen het signaal en de BFO. Bij SSB stem je de BFO zo af dat de spraak natuurlijk klinkt.",
+            "analogie": "SSB/CW ontvangen zonder BFO is als een lied horen waarvan de begeleiding ontbreekt — onherkenbaar. De BFO 'voegt de ontbrekende toon toe', waardoor de melodie (de boodschap) weer klopt."
+          }
+        },
+        { "type": "concept", "titel": "FM-detectie", "essentie": "Een FM-detector (discriminator) zet frequentievariaties om in amplitudevariaties, gevolgd door een begrenzer die ruis wegneemt.",
+          "detail": {
+            "uitleg": "Bij **FM** zit de informatie in de frequentievariatie. Een **FM-detector** (discriminator of ratiodetector) zet die frequentievariaties om in een variërende spanning: het audiosignaal. Vóór de detector zit vaak een **begrenzer (limiter)** die alle amplitudevariaties wegknipt — en daarmee de amplitudegebonden ruis. Dat is precies waarom FM zo ruisarm is: alles wat in de amplitude zit (ruis, storing) wordt weggegooid vóór de detectie.",
+            "voorbeeld": "Een FM-repeaterontvanger begrenst eerst de amplitude (weg met de ruis) en zet dan de frequentievariatie om naar audio. Zolang het signaal boven de drempel blijft, klinkt de spraak helder ongeacht amplitudestoringen.",
+            "analogie": "De limiter 'schaaft alle oneffenheden van de bovenkant af' (de ruis), en de discriminator leest dan enkel nog de zuivere toonhoogtevariatie — de boodschap."
+          }
+        },
+        { "type": "keybox", "titel": "Onthoud — demodulatie", "inhoud": "**AM**: envelopedetector (diode + condensator) volgt de omhullende.\n**SSB/CW**: ontvanger voegt draaggolf toe met een **BFO**; correcte afstemming vereist.\n**FM**: **begrenzer** (weg met amplitude-ruis) + **discriminator** (frequentie → audio)." }
+      ]
+    },
+    {
+      "id": "5.3",
+      "titel": "Voor- en nadelen van de verschillende modulatiesoorten",
+      "blokken": [
+        { "type": "text", "inhoud": "Elke modulatiesoort heeft zijn sterke en zwakke punten. De keuze hangt af van bandbreedte, efficiëntie, ruisgevoeligheid en toepassing." },
+        { "type": "table", "titel": "Vergelijking van de modulatiesoorten", "header": ["Mode", "Bandbreedte", "Sterk punt", "Zwak punt"], "rijen": [
+          ["AM (A3E)", "Breed (2× audio)", "Eenvoudige ontvanger", "Vermogensverspilling (draaggolf), ruisgevoelig"],
+          ["SSB (J3E)", "Smal (~2,6 kHz)", "Zeer efficiënt, groot bereik op HF", "Complexere afstemming (BFO)"],
+          ["FM (F3E)", "Breed (11–16 kHz)", "Zeer ruisarm, constante amplitude", "Brede band, drempeleffect bij zwak signaal"],
+          ["CW (A1A)", "Zeer smal", "Groot bereik met weinig vermogen, simpel", "Vereist morsekennis"]
+        ]},
+        { "type": "concept", "titel": "Welke mode wanneer?", "essentie": "SSB voor HF-DX, FM voor lokale VHF/UHF-verbindingen, CW voor maximaal bereik met minimaal vermogen.",
+          "detail": {
+            "uitleg": "De keuze volgt uit de eigenschappen. **SSB** is de standaard voor **HF-langeafstandsverbindingen (DX)**: smal en efficiënt, dus veel bereik en veel stations per band. **FM** is ideaal voor **lokale VHF/UHF-verbindingen en repeaters**: uitstekende ruisonderdrukking en constante, heldere audio, ten koste van bandbreedte. **CW** geeft het **grootste bereik met het minste vermogen** en de smalste band — populair bij DX en zwakke-signaalwerk. **AM** wordt in amateurradio nog weinig gebruikt wegens de vermogensverspilling.",
+            "voorbeeld": "Wil je met 5 W een verbinding over duizenden kilometers? Dan is CW je beste keuze — de smalle bandbreedte en efficiëntie halen het signaal door waar SSB het zou begeven. Voor een lokaal praatje via de repeater kies je FM.",
+            "analogie": "Het is als vervoer kiezen: CW is de fiets (zuinig, komt overal), SSB de auto (efficiënt voor lange afstand), FM de comfortabele tram voor in de stad (lokaal, soepel), en AM de oude, brandstofverslindende wagen die je enkel nog uit nostalgie gebruikt."
+          }
+        }
+      ]
+    }
+  ]
+}

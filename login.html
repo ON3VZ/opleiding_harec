@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aanmelden — HAREC Leerplatform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<div class="login-wrap">
+  <div class="login-card">
+    <div class="brand-mark">RA</div>
+    <h1>HAREC Leerplatform</h1>
+    <p>Meld je aan met je naam of roepnaam. Je voortgang wordt lokaal op dit toestel bewaard — er wordt niets naar een server gestuurd.</p>
+
+    <label for="name">Naam</label>
+    <input id="name" type="text" placeholder="bv. Jan" autocomplete="name">
+
+    <label for="call">Roepnaam <span style="font-weight:400;color:var(--ink-soft)">(optioneel)</span></label>
+    <input id="call" type="text" placeholder="bv. ON3ABC" autocomplete="off" style="text-transform:uppercase">
+
+    <button class="btn-primary" id="login-btn">Start met studeren</button>
+    <div class="login-note">Tip: je kan later altijd afmelden via de knop rechtsboven.</div>
+  </div>
+</div>
+
+<script src="assets/js/app.js"></script>
+<script>
+  // already logged in? go to dashboard
+  if(HAREC.getUser()){ location.href = 'index.html'; }
+  const btn = document.getElementById('login-btn');
+  const nameEl = document.getElementById('name');
+  const callEl = document.getElementById('call');
+  function doLogin(){
+    const name = nameEl.value.trim();
+    const call = callEl.value.trim().toUpperCase();
+    if(!name && !call){ nameEl.focus(); nameEl.style.borderColor = 'var(--bad)'; return; }
+    HAREC.setUser({ name, call, since: Date.now() });
+    location.href = 'index.html';
+  }
+  btn.addEventListener('click', doLogin);
+  [nameEl, callEl].forEach(el => el.addEventListener('keydown', e => { if(e.key==='Enter') doLogin(); }));
+</script>
+</body>
+</html>

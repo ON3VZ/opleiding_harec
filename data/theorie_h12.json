@@ -1,0 +1,82 @@
+{
+ "hoofdstuk": 12,
+ "titel": "Interferentie",
+ "bron": "UBA-handboek h12 · IRTS HAREC Study Guide (2024) hfst. 18 · emcveiligheid.xls (interferentie)",
+ "subhoofdstukken": [
+  {
+   "id": "12.1",
+   "titel": "Inleiding",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "**Interferentie** (storing) treedt op wanneer een radiosignaal de goede werking van een ander toestel verstoort. Als radioamateur wil je zowel voorkomen dat je zelf stoort, als je eigen ontvangst beschermen tegen storing van buitenaf. Dit vakgebied heet **elektromagnetische compatibiliteit (EMC)**."
+    },
+    {
+     "type": "concept",
+     "titel": "EMC: compatibiliteit en immuniteit",
+     "essentie": "EMC gaat over toestellen die elkaar niet storen. Emissie = wat een toestel uitzendt; immuniteit = hoe goed het bestand is tegen storing.",
+     "detail": {
+      "uitleg": "**Elektromagnetische compatibiliteit (EMC)** betekent dat elektrische toestellen samen kunnen werken zonder elkaar te storen. Twee kanten: de **emissie** (welke ongewenste signalen een toestel uitzendt) en de **immuniteit** (hoe goed een toestel bestand is tegen externe signalen). Storing van jouw zender in andermans apparatuur heet **TVI** (tv-storing), **BCI** (omroepstoring) of algemeen **RFI**. Vaak ligt de oorzaak niet bij een 'te sterke' zender maar bij de **gebrekkige immuniteit** van het gestoorde toestel. Let op: wettelijk (h15) slaat 'schadelijke storing' enkel op storing van radiodiensten, niet op storing van huishoudtoestellen.",
+      "voorbeeld": "Stoort je 2 m-zender de goedkope luidsprekers van de buur, dan ligt dat meestal aan de slechte immuniteit van die luidsprekers (ze detecteren je RF), niet aan een fout in je zender. De oplossing zit dan vaak aan de kant van het gestoorde toestel.",
+      "analogie": "EMC is als beleefdheid in een gedeelde ruimte: iedereen moet én zelf niet te veel lawaai maken (emissie) én goed genoeg kunnen concentreren ondanks wat achtergrondgeluid (immuniteit)."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Gestraalde en geleide emissie",
+     "essentie": "Storing kan gestraald (door de lucht, via antenne/kabels) of geleid (via de netleiding en verbindingskabels) verspreid worden.",
+     "detail": {
+      "uitleg": "Ongewenste signalen verspreiden zich op twee manieren. **Gestraalde emissie** (radiated) verlaat het toestel als een radiogolf door de lucht — via de antenne of via kabels die als antenne werken. **Geleide emissie** (conducted) loopt als stroom **via de netleiding** en verbindingskabels naar andere toestellen, en kan zich zo door het hele elektriciteitsnet van een huis verspreiden. Beide moeten onder controle: gestraalde emissie bestrijd je met afscherming en filtering aan de antennezijde, geleide emissie met **netfilters** en ferrieten op de voedings- en signaalkabels.",
+      "voorbeeld": "Een schakelende voeding stoort vaak via geleide emissie: de RF-ruis loopt terug het lichtnet in en duikt op bij toestellen elders in huis die op hetzelfde net hangen. Een netfilter aan de bron houdt die ruis tegen.",
+      "analogie": "Gestraalde emissie is als geluid dat door de lucht draagt; geleide emissie is als trillingen die zich via de muren en leidingen van het gebouw voortplanten naar andere kamers."
+     }
+    }
+   ]
+  },
+  {
+   "id": "12.2",
+   "titel": "Soorten interferenties",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Storing kan op verschillende manieren ontstaan en binnendringen. De belangrijkste mechanismen zijn harmonischen, blokkering (overbelasting), directe detectie en mantelstromen."
+    },
+    {
+     "type": "concept",
+     "titel": "Mechanismen van storing",
+     "essentie": "Harmonischen (ongewenste veelvouden), blokkering (te sterk signaal overbelast de ontvanger), directe detectie (RF in audio), en mantelstromen op de coax.",
+     "detail": {
+      "uitleg": "Er zijn verschillende storingsmechanismen. **Harmonischen**: een zender straalt ongewenste veelvouden van zijn frequentie uit (§2.6) die in andere banden storen — op te lossen met een goed laagdoorlaatfilter aan de zender. **Blokkering (overbelasting)**: een zeer sterk signaal (ook al is het op een andere frequentie) overbelast de ingangstrap van een ontvanger, zodat die 'dichtklapt'. **Directe detectie (laagfrequentdetectie)**: RF-energie dringt binnen in audio-apparatuur (versterkers, telefoons) en wordt daar gedetecteerd als hoorbaar geluid. **Mantelstromen (common mode)**: HF-stroom die op de buitenkant van de coaxmantel loopt en straalt of storing binnenbrengt.",
+      "voorbeeld": "Hoor je je eigen SSB-spraak uit de hifi-installatie van de buur komen, dan is dat meestal directe detectie: de audioversterker pikt je RF op en demoduleert die. Dat gebeurt vaak via de luidsprekerkabels, die als antenne werken.",
+      "analogie": "De mechanismen zijn als verschillende manieren waarop lawaai een kamer binnenkomt: door de muur (harmonischen), doordat het zo hard is dat je niets anders meer hoort (blokkering), of via een resonerend voorwerp dat het geluid oppikt en doorgeeft (directe detectie)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "12.3",
+   "titel": "Mogelijke oplossingen",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Storing bestrijd je aan de bron (je zender), op het pad (kabels), of aan het gestoorde toestel. Vaak is een combinatie nodig."
+    },
+    {
+     "type": "concept",
+     "titel": "Filters, ferrieten en aarding",
+     "essentie": "Laagdoorlaatfilter aan de zender, ferrietkernen tegen mantelstromen, netfilters, en een goede HF-aarding lossen de meeste storing op.",
+     "detail": {
+      "uitleg": "De belangrijkste oplossingen. Een **laagdoorlaatfilter** aan de zenderuitgang onderdrukt harmonischen. Een **banddoorlaatfilter** of **hoogdoorlaatfilter** aan de ontvangeringang (bv. van een tv) weert storende frequenties. **Ferrietkernen (mantelstroomsmoorspoelen)** rond kabels onderdrukken **mantelstromen** (common mode) — je wikkelt de kabel enkele keren door of om een ferrietkern. **Netfilters** houden HF uit het lichtnet. En een korte, degelijke **HF-aarding** is essentieel: ze voert ongewenste HF af. Bij directe detectie plaats je ferrieten op de luidspreker- en netkabels van het gestoorde toestel. Belangrijk: kies het juiste filtertype op de juiste plaats (bv. een hoogdoorlaatfilter op de tv-antenne-ingang tegen HF-instraling).",
+      "voorbeeld": "Loopt er HF over je coaxmantel en straalt die in huis, dan klik je enkele ferrietklemmen om de kabel bij het station: de mantelstroom wordt gesmoord, de storing verdwijnt vaak meteen. Voor een gestoorde hifi plaats je ferrieten op de luidsprekerkabels.",
+      "analogie": "Ferrieten zijn als geluiddempers die je op de juiste leidingen klikt; filters zijn als deuren die enkel de gewenste 'geluiden' (frequenties) doorlaten; een goede aarding is als een afvoerputje dat het ongewenste water (HF) wegleidt."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — storing oplossen",
+     "inhoud": "**Harmonischen**: laagdoorlaatfilter aan de zender.\n**Blokkering/instraling ontvanger**: banddoorlaat- of hoogdoorlaatfilter aan de ingang.\n**Mantelstromen**: ferrietkern (common-mode smoorspoel) om de kabel.\n**Directe detectie**: ferrieten op luidspreker- en netkabels van het gestoorde toestel.\n**Altijd**: korte, degelijke HF-aarding.\nStoring ligt vaak aan de **immuniteit** van het gestoorde toestel."
+    }
+   ]
+  }
+ ]
+}

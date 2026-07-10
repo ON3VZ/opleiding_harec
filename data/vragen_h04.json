@@ -1,0 +1,5868 @@
+{
+ "hoofdstuk": "h04",
+ "vragen": [
+  {
+   "id": 2,
+   "sub": "4.2",
+   "vraag": "Wat is het equivalent schema van een niet-ideale weerstand?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "B"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r2.png"
+  },
+  {
+   "id": 3,
+   "sub": "4.2",
+   "vraag": "Indien twee condensatoren van eenzelfde capaciteitswaarde in parallel worden geschakeld, wat is dan de totale waarde?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de helft van de waarde van 1 condensator"
+    },
+    {
+     "letter": "B",
+     "text": "het dubbele van de waarde van 1 condensator"
+    },
+    {
+     "letter": "C",
+     "text": "dezelfde waarde als voor elk van de twee condensatoren afzonderlijk"
+    },
+    {
+     "letter": "D",
+     "text": "4 x de waarde van 1 condensator"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 4,
+   "sub": "4.2",
+   "vraag": "Indien 2 condensatoren met eenzelfde capaciteitswaarde in serie worden geschakeld, wat is dan de totale capaciteit?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de helft van de waarde van 1 condensator"
+    },
+    {
+     "letter": "B",
+     "text": "het dubbele van de waarde van 1 condensator"
+    },
+    {
+     "letter": "C",
+     "text": "dezelfde waarde als voor elk van de twee condensatoren afzonderlijk"
+    },
+    {
+     "letter": "D",
+     "text": "¼ van de waarde van 1 condensator"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 5,
+   "sub": "4.2",
+   "vraag": "Indien twee spoelen met eenzelfde zelfinductie in parallel worden verbonden, en indien er geen onderlinge magnetische koppeling is tussen de spoelen, welk is dan de totale zelfinductie van de parallelschakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de helft van de waarde van 1 spoel"
+    },
+    {
+     "letter": "B",
+     "text": "het dubbele van de waarde van 1 spoel"
+    },
+    {
+     "letter": "C",
+     "text": "dezelfde waarde als voor elke spoel afzonderlijk"
+    },
+    {
+     "letter": "D",
+     "text": "¼ van de waarde van 1 spoel"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 6,
+   "sub": "4.2",
+   "vraag": "Indien twee spoelen met eenzelfde zelfinductie in serie worden geschakeld, en indien er geen onderlinge magnetische koppeling is tussen de spoelen, wat is dan de totale zelfinductie van de serieschakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de helft van de waarde van 1 spoel"
+    },
+    {
+     "letter": "B",
+     "text": "het dubbele van de waarde van 1 spoel"
+    },
+    {
+     "letter": "C",
+     "text": "de zelfde waarde als voor elke spoel afzonderlijk."
+    },
+    {
+     "letter": "D",
+     "text": "4 x de waarde van 1 spoel"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 7,
+   "sub": "4.2",
+   "vraag": "Wat is de totale weerstand van deze schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "300 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "700 O"
+    },
+    {
+     "letter": "C",
+     "text": "683 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "900Ω"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r7.png"
+  },
+  {
+   "id": 8,
+   "sub": "4.2",
+   "vraag": "Gegeven een weerstand van 7 Ω.  Hoe groot is de totale weerstand indien in serie met deze weerstand een parallelschakeling  van twee 6 Ω weerstanden plaatst?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "12 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "10 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "3 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "9 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 9,
+   "sub": "4.2",
+   "vraag": "Hoe berekent men de totale weerstand van deze schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "R = R3 + (R1 · R2) / (R1+ R2)"
+    },
+    {
+     "letter": "B",
+     "text": "R = R3 – (R1+ R2) / ( R1 · R2)"
+    },
+    {
+     "letter": "C",
+     "text": "R = R3 + (1 / R1) + (1 / R2)"
+    },
+    {
+     "letter": "D",
+     "text": "R = R3 + (R1 – R2)"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r9.png"
+  },
+  {
+   "id": 10,
+   "sub": "4.2",
+   "vraag": "Wat is de waarde van de capaciteit tussen de punten X en Y?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "35 nF"
+    },
+    {
+     "letter": "B",
+     "text": "37.5 nF"
+    },
+    {
+     "letter": "C",
+     "text": "20 nF"
+    },
+    {
+     "letter": "D",
+     "text": "30 nF"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r10.png"
+  },
+  {
+   "id": 11,
+   "sub": "4.2",
+   "vraag": "Drie weerstanden van respectievelijk 2, 3 en 6 Ω worden in parallel geschakeld. De totaalwaarde van de schakeling is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "0,5 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "0,25 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "0,75 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 12,
+   "sub": "4.2",
+   "vraag": "Een waarde van 75 nF wordt gegeven door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "schakeling A"
+    },
+    {
+     "letter": "B",
+     "text": "schakeling B"
+    },
+    {
+     "letter": "C",
+     "text": "schakeling C"
+    },
+    {
+     "letter": "D",
+     "text": "geen van deze schakelingen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r12.png"
+  },
+  {
+   "id": 13,
+   "sub": "4.2",
+   "vraag": "Om een totale weerstandswaarde van 2 Ω te bekomen moet men:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de schakeling laten zoals ze is"
+    },
+    {
+     "letter": "B",
+     "text": "een weerstand van 2 Ω in parallel bijschakelen"
+    },
+    {
+     "letter": "C",
+     "text": "een weerstand van 4 Ω verwijderen"
+    },
+    {
+     "letter": "D",
+     "text": "een weerstand van 1 Ω in serie plaatsen met de schakeling"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r13.png"
+  },
+  {
+   "id": 14,
+   "sub": "4.2",
+   "vraag": "Drie niet gekoppelde spoelen met waardes van 2 µH, 20 µH en 0,2 mH worden in serie geschakeld. Wat is de totale inductantie van de schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2,22 mH"
+    },
+    {
+     "letter": "B",
+     "text": "22,2 µH"
+    },
+    {
+     "letter": "C",
+     "text": "222 µH"
+    },
+    {
+     "letter": "D",
+     "text": "2,22 mH"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 15,
+   "sub": "4.2",
+   "vraag": "De weerstandswaarde gemeten tussen A en B is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "121 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "612 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "720 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "750 Ω"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r15.png"
+  },
+  {
+   "id": 16,
+   "sub": "4.2",
+   "vraag": "Wat is de impedantie van een zuiver ohmse weerstand van 100 Ω?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "(0 + j 100) Ω"
+    },
+    {
+     "letter": "B",
+     "text": "(100 + j 0) Ω"
+    },
+    {
+     "letter": "C",
+     "text": "(100 + j 100) Ω"
+    },
+    {
+     "letter": "D",
+     "text": "(100 - j 100) Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r16.png"
+  },
+  {
+   "id": 17,
+   "sub": "4.2",
+   "vraag": "Wat is de impedantie van een zuivere spoel van 1 mH, op een frequentie van 1000 Hz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "(6.28 + j 0) Ω"
+    },
+    {
+     "letter": "B",
+     "text": "(6.28 + j 6.28) Ω"
+    },
+    {
+     "letter": "C",
+     "text": "(0 + j 6.28 ) Ω"
+    },
+    {
+     "letter": "D",
+     "text": "(0 - j 6.28 ) Ω"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 18,
+   "sub": "4.2",
+   "vraag": "Wat is de impedantie van een netwerk bestaande uit de serieschakeling van een spoel van 0,1 mH en een weerstand van 20 Ω, en dit bij een frequentie van 5 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "(20 + j 19) Ω"
+    },
+    {
+     "letter": "B",
+     "text": "(20 – j 19) Ω"
+    },
+    {
+     "letter": "C",
+     "text": "(19 + j 20) Ω"
+    },
+    {
+     "letter": "D",
+     "text": "(19 – j 20) Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 19,
+   "sub": "4.2",
+   "vraag": "Wat is de impedantie Z van een seriekring van een ideale spoel L en een ideale condensator C als men weet dat XL = 500 Ω en Xc = 300 Ω zijn?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "800 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "200 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "1500 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "583 Ω"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 20,
+   "sub": "4.2",
+   "vraag": "Onderstaande figuur geeft het impedantieverloop weer van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een ideale spoel"
+    },
+    {
+     "letter": "B",
+     "text": "een ideale weerstand"
+    },
+    {
+     "letter": "C",
+     "text": "een weerstand in parallel met een spoel"
+    },
+    {
+     "letter": "D",
+     "text": "een weerstand is serie met een spoel"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 21,
+   "sub": "4.2",
+   "vraag": "Bij een frequentie van 10 MHz is de impedantie van een weerstand van 100 Ω in parallel met een spoel van 2 µH gelijk aan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "56 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "78 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "161 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "226 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 22,
+   "sub": "4.2",
+   "vraag": "Bij welke van de gegeven frequenties zal de impedantie van een netwerk gevormd door een weerstand van 150 Ω in parallel met een spoel van 5 µH het grootste zijn?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "2 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "3 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "4 MHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 23,
+   "sub": "4.2",
+   "vraag": "Bij een frequentie van 1MHz is de impedantie van een weerstand van 200 Ω in parallel met een condensator van 1 nF gelijk aan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "89 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "125 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "256 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "359 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 24,
+   "sub": "4.2",
+   "vraag": "Bij welke van de gegeven frequenties zal de impedantie van een netwerk gevormd door een weerstand van 150  Ω in parallel met een condensator van 750 pF het kleinste zijn?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "1,41 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "2,82 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "4 MHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 25,
+   "sub": "4.2",
+   "vraag": "Bij welke van de gegeven frequenties zal de impedantie van een netwerk gevormd door een weerstand van 150 Ω in parallel met een condensator van 750 pF het grootste zijn?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "1,41 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "2,82 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "4 MHz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 26,
+   "sub": "4.2",
+   "vraag": "Het laden van een condensator via een weerstand van 1 kΩ  verloopt volgens deze grafiek. Wat is de waarde van de condensator?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 µF"
+    },
+    {
+     "letter": "B",
+     "text": "100 µF"
+    },
+    {
+     "letter": "C",
+     "text": "1000 µF"
+    },
+    {
+     "letter": "D",
+     "text": "1 µF"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r26.png"
+  },
+  {
+   "id": 27,
+   "sub": "4.2",
+   "vraag": "Wat is de tijdsconstante van een schakeling bestaande uit een condensator van 2,2 µF microfarad in serie met een weerstand van 4.7 kO?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "103,4 µs"
+    },
+    {
+     "letter": "B",
+     "text": "10,34 µs"
+    },
+    {
+     "letter": "C",
+     "text": "1,034  ms"
+    },
+    {
+     "letter": "D",
+     "text": "10,34 ms"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 28,
+   "sub": "4.2",
+   "vraag": "Wat is de tijdsconstante van een schakeling bestaande uit een condensator van 10 µF microfarad in serie met een weerstand van 4.7 kO?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "47 µs"
+    },
+    {
+     "letter": "B",
+     "text": "470 ms"
+    },
+    {
+     "letter": "C",
+     "text": "4,7  ms"
+    },
+    {
+     "letter": "D",
+     "text": "47 ms"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 29,
+   "sub": "4.2",
+   "vraag": "Wat is de tijdsconstante van een schakeling bestaande uit een condensator van 47 µF microfarad in serie met een weerstand van 4.7 kO?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "221 µs"
+    },
+    {
+     "letter": "B",
+     "text": "22,1 ms"
+    },
+    {
+     "letter": "C",
+     "text": "2,21  ms"
+    },
+    {
+     "letter": "D",
+     "text": "221 ms"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 30,
+   "sub": "4.2",
+   "vraag": "Wat is de tijdsconstante van een schakeling bestaande uit een condensator van 68 µF microfarad in serie met een weerstand van 4.7 kO?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "320 µs"
+    },
+    {
+     "letter": "B",
+     "text": "32 ms"
+    },
+    {
+     "letter": "C",
+     "text": "3,2 s"
+    },
+    {
+     "letter": "D",
+     "text": "320 ms"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 31,
+   "sub": "4.2",
+   "vraag": "Welke term wordt gebuikt voor het aanduiden van de tijd die nodig is in een RC-schakeling om de condensator tot 63,2% van de aan de schakeling toegepaste spanning op te laden?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "exponentiele toename"
+    },
+    {
+     "letter": "B",
+     "text": "periode"
+    },
+    {
+     "letter": "C",
+     "text": "exponentiele periode"
+    },
+    {
+     "letter": "D",
+     "text": "tijdsconstante"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 32,
+   "sub": "4.2",
+   "vraag": "Wat is de definitie van \"tijdsconstante\" in een RC schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de tijd wanneer de spanning over de condensator gestegen is tot 36.8 % van de aangelegde spanning"
+    },
+    {
+     "letter": "B",
+     "text": "de tijd wanneer de spanning over de condensator gedaald is tot 36.8 % van de aangelegde spanning"
+    },
+    {
+     "letter": "C",
+     "text": "de tijd wanneer de spanning over de condensator gestegen is tot 63.2 % van de aangelegde spanning"
+    },
+    {
+     "letter": "D",
+     "text": "de tijd wanneer de spanning over de condensator gedaald is tot 86.3 % van de aangelegde spanning"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 33,
+   "sub": "4.2",
+   "vraag": "De kantelfrequentie (3 dB afsnijfrequentie) van het filter moet 5305 Hz zijn, Wat is de overeenstemmende waarde voor C?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 nF"
+    },
+    {
+     "letter": "B",
+     "text": "3,3 nF"
+    },
+    {
+     "letter": "C",
+     "text": "33 nF"
+    },
+    {
+     "letter": "D",
+     "text": "33 µF"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r33.png"
+  },
+  {
+   "id": 34,
+   "sub": "4.2",
+   "vraag": "De  kantelfrequentie (3 dB afsnijfrequentie) van het filter moet 2652 Hz zijn, Wat is de overeenstemmende waarde voor C?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2 nF"
+    },
+    {
+     "letter": "B",
+     "text": "6,8 nF"
+    },
+    {
+     "letter": "C",
+     "text": "68 nF"
+    },
+    {
+     "letter": "D",
+     "text": "68 µF"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r34.png"
+  },
+  {
+   "id": 35,
+   "sub": "4.2",
+   "vraag": "De  kantelfrequentie (3 dB afsnijfrequentie) van het filter moet 10610 Hz zijn, Wat is de overeenstemmende waarde voor C?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "500 pF"
+    },
+    {
+     "letter": "B",
+     "text": "1,47 nF"
+    },
+    {
+     "letter": "C",
+     "text": "14,7 nF"
+    },
+    {
+     "letter": "D",
+     "text": "14,7 µF"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r35.png"
+  },
+  {
+   "id": 36,
+   "sub": "4.2",
+   "vraag": "De  kantelfrequentie (3 dB afsnijfrequentie) van het filter moet 1326 Hz zijn, Wat is de overeenstemmende waarde voor C?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "4 nF"
+    },
+    {
+     "letter": "B",
+     "text": "22 nF"
+    },
+    {
+     "letter": "C",
+     "text": "2 nF"
+    },
+    {
+     "letter": "D",
+     "text": "2,2 µF"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r36.png"
+  },
+  {
+   "id": 37,
+   "sub": "4.2",
+   "vraag": "De  kantelfrequentie (3 dB afsnijfrequentie) van het filter moet 633 Hz zijn, Wat is de overeenstemmende waarde voor C?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "8 nF"
+    },
+    {
+     "letter": "B",
+     "text": "4 nF"
+    },
+    {
+     "letter": "C",
+     "text": "40 nF"
+    },
+    {
+     "letter": "D",
+     "text": "4 µF"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r37.png"
+  },
+  {
+   "id": 38,
+   "sub": "4.2",
+   "vraag": "Als begintoestand geldt dat C niet is opgeladen. Op het ogenblik t = 0 sluit men de schakelaar. Welke van de 4 curven stelt de spanning over de weerstand R voor.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r38.png"
+  },
+  {
+   "id": 39,
+   "sub": "4.2",
+   "vraag": "Als begintoestand geldt dat C niet is opgeladen. Op het ogenblik t = 0 sluit men de schakelaar. Welke van de 4 curven stelt de spanning over de condensator C voor.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r39.png"
+  },
+  {
+   "id": 40,
+   "sub": "4.2",
+   "vraag": "Als R = 1 Ω, wat is de waarde van U?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "6 V"
+    },
+    {
+     "letter": "B",
+     "text": "8 V"
+    },
+    {
+     "letter": "C",
+     "text": "10 V"
+    },
+    {
+     "letter": "D",
+     "text": "12 V"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r40.png"
+  },
+  {
+   "id": 41,
+   "sub": "4.2",
+   "vraag": "Een kring bestaat uit een weerstand (R) in serie met een spoel (L). Wat is de impedantie van deze kring?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "\nZ = v( R² + (2 · π ·f · L)² )"
+    },
+    {
+     "letter": "B",
+     "text": "\nZ = R + (2 · π · f · L)²"
+    },
+    {
+     "letter": "C",
+     "text": "\nZ =   R² + (2 · π · f · L)"
+    },
+    {
+     "letter": "D",
+     "text": "\nZ = R + (2 · π · f · L)"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 42,
+   "sub": "4.2",
+   "vraag": "Wat moet de waarde zijn van de weerstand X  opdat de stroom door de galvanometer nul zou zijn.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "175 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "250 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "500 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "0 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 43,
+   "sub": "4.2",
+   "vraag": "Twee weerstanden van elk 10 Ω staan in parallel. De totale stroom is 1 A. Welke stroom vloeit in elk der weerstanden?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 A"
+    },
+    {
+     "letter": "B",
+     "text": "2 A"
+    },
+    {
+     "letter": "C",
+     "text": "1 A"
+    },
+    {
+     "letter": "D",
+     "text": "0,5 A"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 44,
+   "sub": "4.2",
+   "vraag": "Bepaal U",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "40 V"
+    },
+    {
+     "letter": "B",
+     "text": "30 V"
+    },
+    {
+     "letter": "C",
+     "text": "20 V"
+    },
+    {
+     "letter": "D",
+     "text": "50 V"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r44.png"
+  },
+  {
+   "id": 45,
+   "sub": "4.2",
+   "vraag": "Bepaal Uout als Uin = 100 Veff en X = 10 nF",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "20 V"
+    },
+    {
+     "letter": "B",
+     "text": "80 V"
+    },
+    {
+     "letter": "C",
+     "text": "10 V"
+    },
+    {
+     "letter": "D",
+     "text": "40 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r45.png"
+  },
+  {
+   "id": 46,
+   "sub": "4.2",
+   "vraag": "Bepaal Uout als Uin = 100 Veff en X = 20 nF",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "33 V"
+    },
+    {
+     "letter": "B",
+     "text": "66 V"
+    },
+    {
+     "letter": "C",
+     "text": "16 V"
+    },
+    {
+     "letter": "D",
+     "text": "8 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r46.png"
+  },
+  {
+   "id": 47,
+   "sub": "4.2",
+   "vraag": "Bepaal Uout als Uin = 100 Veff en X = 80 nF",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "66 V"
+    },
+    {
+     "letter": "B",
+     "text": "33 V"
+    },
+    {
+     "letter": "C",
+     "text": "43 V"
+    },
+    {
+     "letter": "D",
+     "text": "16 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r47.png"
+  },
+  {
+   "id": 48,
+   "sub": "4.2",
+   "vraag": "Bepaal Uout als Uin = 100 Veff en X = 400 nF",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "91 V"
+    },
+    {
+     "letter": "B",
+     "text": "9 V"
+    },
+    {
+     "letter": "C",
+     "text": "0,9 V"
+    },
+    {
+     "letter": "D",
+     "text": "4,5 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r48.png"
+  },
+  {
+   "id": 49,
+   "sub": "4.2",
+   "vraag": "Bepaal Uout als Uin = 100 Veff en X = 4 nF",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "7 V"
+    },
+    {
+     "letter": "B",
+     "text": "91 V"
+    },
+    {
+     "letter": "C",
+     "text": "3,5 V"
+    },
+    {
+     "letter": "D",
+     "text": "46 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r49.png"
+  },
+  {
+   "id": 50,
+   "sub": "4.2",
+   "vraag": "Tussen de punten A en B staat een spanning van 9V. bereken de waarden van totale stroom I als R1 = R2 = R3 = R3 = R4 = 12 Ω.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1,5 A"
+    },
+    {
+     "letter": "B",
+     "text": "150 mA"
+    },
+    {
+     "letter": "C",
+     "text": "7,5 A"
+    },
+    {
+     "letter": "D",
+     "text": "300 mA"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r50.png"
+  },
+  {
+   "id": 51,
+   "sub": "4.2",
+   "vraag": "Wat is de spanning over de weerstand van 300 Ω?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "150 V"
+    },
+    {
+     "letter": "B",
+     "text": "210 V"
+    },
+    {
+     "letter": "C",
+     "text": "200 V"
+    },
+    {
+     "letter": "D",
+     "text": "280 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r51.png"
+  },
+  {
+   "id": 52,
+   "sub": "4.2",
+   "vraag": "Een condensator wordt aangesloten op een sinusvormige wisselspanning van 220 V (eff) bij 50 Hz. De stroom door de condensator is 50 mA. Bij 1000 Hz bedraagt de stroom door die condensator:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 A"
+    },
+    {
+     "letter": "B",
+     "text": "2 A"
+    },
+    {
+     "letter": "C",
+     "text": "2,5 mA"
+    },
+    {
+     "letter": "D",
+     "text": "5 mA"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 53,
+   "sub": "4.2",
+   "vraag": "Voor elk van de (ideaal veronderstelde) condensatoren is de toelaatbare spanning 80 V. Wat is de max. gelijkspanning die aan het circuit mag worden aangelegd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "40 V"
+    },
+    {
+     "letter": "B",
+     "text": "80 V"
+    },
+    {
+     "letter": "C",
+     "text": "120 V"
+    },
+    {
+     "letter": "D",
+     "text": "50 V"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r53.png"
+  },
+  {
+   "id": 54,
+   "sub": "4.2",
+   "vraag": "Bij evenwicht heeft men:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Z 1 · Z2 = Z3 · Z4"
+    },
+    {
+     "letter": "B",
+     "text": "Z1 / Z2 = Z3 / Z4"
+    },
+    {
+     "letter": "C",
+     "text": "Z1 + Z2 = Z3 + Z4"
+    },
+    {
+     "letter": "D",
+     "text": "Z1 – Z3 = Z2 – Z4"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r54.png"
+  },
+  {
+   "id": 55,
+   "sub": "4.2",
+   "vraag": "Het fazeverschil tussen IL en IC is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0°"
+    },
+    {
+     "letter": "B",
+     "text": "90°"
+    },
+    {
+     "letter": "C",
+     "text": "180°"
+    },
+    {
+     "letter": "D",
+     "text": "360°"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r55.png"
+  },
+  {
+   "id": 56,
+   "sub": "4.2",
+   "vraag": "Bereken de stromen I1, I2 en I3",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "I1 = 2 A, I2 = 1,33 A, I3 = 0,66 A"
+    },
+    {
+     "letter": "B",
+     "text": "I1 = 3 A, I2 = 1 A, I3 = 2 A"
+    },
+    {
+     "letter": "C",
+     "text": "I1 = 2 A, I2 = 0,66 A, I3 = 1,33 A"
+    },
+    {
+     "letter": "D",
+     "text": "I1 = 3 A, I2  = 2 A, I3 = 1 A"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r56.png"
+  },
+  {
+   "id": 57,
+   "sub": "4.2",
+   "vraag": "Bereken de kantelfrequentie van bijgaand RC-filter  als X = 10 nF",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "628 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "63 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "1592 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "159 Hz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r57.png"
+  },
+  {
+   "id": 58,
+   "sub": "4.2",
+   "vraag": "Bereken de kantelfrequentie van bijgaand RC-filter  als X = 22 nF",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1382 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "138 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "724 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "73 Hz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r58.png"
+  },
+  {
+   "id": 59,
+   "sub": "4.2",
+   "vraag": "Bereken de kantelfrequentie van bijgaand RC-filter  als X = 47 nF",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2950 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "295 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "339 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "34 Hz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r59.png"
+  },
+  {
+   "id": 60,
+   "sub": "4.2",
+   "vraag": "Bereken de kantelfrequentie van bijgaand RC-filter  als X = 4,7 nF",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "295 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "29,5 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "3390 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "340 Hz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r60.png"
+  },
+  {
+   "id": 61,
+   "sub": "4.2",
+   "vraag": "Bereken de kantelfrequentie van bijgaand RC-filter  als X = 470 nF",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2950 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "295 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "34 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "340 Hz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r61.png"
+  },
+  {
+   "id": 62,
+   "sub": "4.2",
+   "vraag": "De kantelfrequentie van een RC filter is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de frequentie waarop de verzwakking 3 dB is"
+    },
+    {
+     "letter": "B",
+     "text": "de frequentie waarop de verzwakking 6 dB is"
+    },
+    {
+     "letter": "C",
+     "text": "de frequentie waarop de verzwakking 10 dB is"
+    },
+    {
+     "letter": "D",
+     "text": "gelijk aan zijn resonantiefrequentie"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 63,
+   "sub": "4.2",
+   "vraag": "Wat is de waarde van de impedantie Z van een seriekring van een ideale spoel L (inductantie = XL) met een ideale condensator C (capacitantie = XC)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Z = XL + XC"
+    },
+    {
+     "letter": "B",
+     "text": "Z = XC – XL"
+    },
+    {
+     "letter": "C",
+     "text": "Z = | XC – XL |"
+    },
+    {
+     "letter": "D",
+     "text": "Z = | XL + XC |"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 64,
+   "sub": "4.2",
+   "vraag": "Wat is de waarde van de impedantie Z van een seriekring van een ideale spoel L (inductantie = XL) met een weerstand R ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Z = v( R² + XL² )"
+    },
+    {
+     "letter": "B",
+     "text": "Z = v( R² – L²)"
+    },
+    {
+     "letter": "C",
+     "text": "Z = v( XL² – R² )"
+    },
+    {
+     "letter": "D",
+     "text": "Z = | R + XL |"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 65,
+   "sub": "4.2",
+   "vraag": "Wat is de waarde van de impedantie Z van een seriekring van een ideale condensator C (capacitantie = XC) met een weerstand R ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Z = v( XC² – R² )"
+    },
+    {
+     "letter": "B",
+     "text": "Z = v( R² – XC² )"
+    },
+    {
+     "letter": "C",
+     "text": "Z =  XC + R"
+    },
+    {
+     "letter": "D",
+     "text": "Z  = v( XC² + R² )"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 66,
+   "sub": "4.2",
+   "vraag": "Wat is de impedantie Z van een serieschakeling van een weerstand R met een condensator C? Hun respectievelijke impedanties zijn: R = 700 Ω en Xc = 800 Ω.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Z = | 800 – 700 | = 100 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "Z = v(| 800² – 700² |) = 387 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "Z = v( 800² + 700² ) = 1063 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "Z = 800 + 700 = 1500 Ω"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 67,
+   "sub": "4.2",
+   "vraag": "Een wisselspanningsbron met een spanning van 20 Veff levert een stroom van 3 Aeff. Het faseverschil tussen spanning en stroom is 60°. Het vermogen geleverd door deze bron is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "60 W"
+    },
+    {
+     "letter": "B",
+     "text": "52 W"
+    },
+    {
+     "letter": "C",
+     "text": "30 W"
+    },
+    {
+     "letter": "D",
+     "text": "0 W"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 68,
+   "sub": "4.2",
+   "vraag": "Een wisselspanningsbron met een spanning met een amplitude van 20 V en levert een stroom met een amplitude van 3 A. Het faseverschil tussen spanning en stroom is 60°. Het vermogen geleverd door deze bron is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "60 W"
+    },
+    {
+     "letter": "B",
+     "text": "30 W"
+    },
+    {
+     "letter": "C",
+     "text": "15 W"
+    },
+    {
+     "letter": "D",
+     "text": "0 W"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 69,
+   "sub": "4.2",
+   "vraag": "Een wisselspanningsbron met een spanning van 20 Veff levert een stroom van 3 Aeff. Het faseverschil tussen spanning en stroom is 90°. Het vermogen geleverd door deze bron is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "60 W"
+    },
+    {
+     "letter": "B",
+     "text": "30 W"
+    },
+    {
+     "letter": "C",
+     "text": "15 W"
+    },
+    {
+     "letter": "D",
+     "text": "0 W"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 70,
+   "sub": "4.2",
+   "vraag": "Over een netwerk gevormd door een weerstand van 100 Ω in serie met een condensator van 250 pF wordt een wisselspanningsbron met en spanning van 10 V en een frequentie van 4 MHz aangesloten. Deze bron zal een stroom leveren van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "39 mA"
+    },
+    {
+     "letter": "B",
+     "text": "53 mA"
+    },
+    {
+     "letter": "C",
+     "text": "118 mA"
+    },
+    {
+     "letter": "D",
+     "text": "163 mA"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 71,
+   "sub": "4.2",
+   "vraag": "In de praktijk zal een weerstand",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "nooit perfect zijn, hij vertoont immers ook nog een inductiviteit door de aanwezigheid van de aansluitdraden"
+    },
+    {
+     "letter": "B",
+     "text": "nooit perfect zijn, hij vertoont immers ook nog een inductiviteit door de aanwezigheid van de aansluitdraden en een verdeelde capaciteit over zijn lichaam"
+    },
+    {
+     "letter": "C",
+     "text": "zich steeds als een perfecte component gedragen"
+    },
+    {
+     "letter": "D",
+     "text": "kunnen vervaardigd worden als een perfecte weerstand over een gebied van nul  tot vele honderden GHz."
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 72,
+   "sub": "4.2",
+   "vraag": "in de praktijk zal een condensator",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "nooit perfect zijn, hij vertoont immers ook nog een inductiviteit door de aanwezigheid van de aansluitdraden en zelfs een weerstandsgedeelte te wijten aan het verlies in het diëlectricum van de condensator."
+    },
+    {
+     "letter": "B",
+     "text": "nooit perfect zijn, hij vertoont immers ook nog een inductiviteit door de aanwezigheid van de aansluitdraden."
+    },
+    {
+     "letter": "C",
+     "text": "zich steeds gedragen als een perfecte component."
+    },
+    {
+     "letter": "D",
+     "text": "kunnen vervaardigd worden als een perfecte capaciteit over een gebied van nul tot vele honderden GHz."
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 73,
+   "sub": "4.2",
+   "vraag": "In werkelijkheid zal een spoel (een zelfinductie)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "nooit perfect zijn, zij vertoont immers ook nog een inductiviteit door de aanwezigheid van de aansluitdraden."
+    },
+    {
+     "letter": "B",
+     "text": "kunnen vervaardigd worden als een perfecte component over een gebied van nul tot vele honderden GHz."
+    },
+    {
+     "letter": "C",
+     "text": "zich steeds gedragen alsog het een perfecte componet is"
+    },
+    {
+     "letter": "D",
+     "text": "nooit perfect zijn, zij vertoont immersook nog  een weerstandsgedeelte te wijten aan de weerstand van de draad (in de spoel) en een capacitief gedeelte dat verdeeld is tussen de wikkelingen van de spoel."
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 74,
+   "sub": "4.2",
+   "vraag": "Van welke schakeling stelt de figuur het impedantieverloop voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een serie RLC-kring"
+    },
+    {
+     "letter": "B",
+     "text": "een RC-kring"
+    },
+    {
+     "letter": "C",
+     "text": "een parallel RLC-kring"
+    },
+    {
+     "letter": "D",
+     "text": "een  RL-kring"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r74.png"
+  },
+  {
+   "id": 75,
+   "sub": "4.2",
+   "vraag": "De waarde van de impedantie Z van een resonante RLC-parallelkring is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Z = R /1,41"
+    },
+    {
+     "letter": "B",
+     "text": "Z = R / 2"
+    },
+    {
+     "letter": "C",
+     "text": "Z = R"
+    },
+    {
+     "letter": "D",
+     "text": "Z = RL + RC + R"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 76,
+   "sub": "4.2",
+   "vraag": "De waarde van de impedantie Z van een resonante RLC-seriekring is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Z = R"
+    },
+    {
+     "letter": "B",
+     "text": "Z = 8"
+    },
+    {
+     "letter": "C",
+     "text": "Z = R + (L + 1/C)"
+    },
+    {
+     "letter": "D",
+     "text": "Z = 0"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 77,
+   "sub": "4.2",
+   "vraag": "Welk van de schema’s stelt een resonantiekring voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r77.png"
+  },
+  {
+   "id": 78,
+   "sub": "4.2",
+   "vraag": "Een kring bestaat uit een weerstand in serie met een condensator. Wat is de impedantie van deze kring?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Z =v( R² + ( 1/ (2 · p · f · C)²)"
+    },
+    {
+     "letter": "B",
+     "text": "Z = R + ( 1/ (( 2  ·p · f · C))"
+    },
+    {
+     "letter": "C",
+     "text": "Z =( R² – (1/ (2 · p · f ·C))"
+    },
+    {
+     "letter": "D",
+     "text": "Z = R + (1/ (2 · p · f · C))"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 79,
+   "sub": "4.2",
+   "vraag": "L1 = L2, C1 = C2, en R1 = R2. Wat is de spanningsverzwakking van dit filter bij resonantie van beide kringen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": ">  6 dB"
+    },
+    {
+     "letter": "B",
+     "text": "0 dB"
+    },
+    {
+     "letter": "C",
+     "text": "3 dB"
+    },
+    {
+     "letter": "D",
+     "text": "6 dB"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 80,
+   "sub": "4.2",
+   "vraag": "De weerstand heeft een waarde van 100 Ω, de stroom door de spoel is 100 mA en de stroom door de condensator is eveneens 100 mA. Wat is de totaalstroom (It) als de aangelegde spanning 10 V is?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0 mA"
+    },
+    {
+     "letter": "B",
+     "text": "100 mA"
+    },
+    {
+     "letter": "C",
+     "text": "200 mA"
+    },
+    {
+     "letter": "D",
+     "text": "300 mA"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r80.png"
+  },
+  {
+   "id": 81,
+   "sub": "4.2",
+   "vraag": "Bij resonantie is de stroom in een praktische parallel resonantiekring",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "maximaal"
+    },
+    {
+     "letter": "B",
+     "text": "minimaal"
+    },
+    {
+     "letter": "C",
+     "text": "nul"
+    },
+    {
+     "letter": "D",
+     "text": "oneindig"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 82,
+   "sub": "4.2",
+   "vraag": "Bij resonantie is de stroom in een practische serie-resonantiekring",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "maximaal"
+    },
+    {
+     "letter": "B",
+     "text": "minimaal"
+    },
+    {
+     "letter": "C",
+     "text": "nul"
+    },
+    {
+     "letter": "D",
+     "text": "oneindig"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 83,
+   "sub": "4.2",
+   "vraag": "Een parallel LC-kring heeft een resonantiefrequentie van 100 MHz. Voor een signaal van 90 MHz gedraagt de kring zich als",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een spoel"
+    },
+    {
+     "letter": "B",
+     "text": "een condensator"
+    },
+    {
+     "letter": "C",
+     "text": "een weerstand"
+    },
+    {
+     "letter": "D",
+     "text": "een doorverbinding"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 84,
+   "sub": "4.2",
+   "vraag": "Een parallel LC kring gedraagt zich boven zijn resonantiefrequentie als",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een spoel"
+    },
+    {
+     "letter": "B",
+     "text": "een condensator"
+    },
+    {
+     "letter": "C",
+     "text": "een weerstand"
+    },
+    {
+     "letter": "D",
+     "text": "een kortsluiting"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 85,
+   "sub": "4.2",
+   "vraag": "Een serie LC-ring gedraagt zich boven zijn resonantiefrequentie als",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een spoel"
+    },
+    {
+     "letter": "B",
+     "text": "een condensator"
+    },
+    {
+     "letter": "C",
+     "text": "een weerstand"
+    },
+    {
+     "letter": "D",
+     "text": "een kortsluiting"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 86,
+   "sub": "4.2",
+   "vraag": "Een serie LC-ring gedraagt zich beneden resonantiefrequentie als",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een spoel"
+    },
+    {
+     "letter": "B",
+     "text": "een condensator"
+    },
+    {
+     "letter": "C",
+     "text": "een weerstand"
+    },
+    {
+     "letter": "D",
+     "text": "een kortsluiting"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 87,
+   "sub": "4.2",
+   "vraag": "Een verliesvrije parallel LC-resonantiekring gedraagt zich op zijn resonantiefrequenties als",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een zuivere spoel"
+    },
+    {
+     "letter": "B",
+     "text": "een kortsluiting"
+    },
+    {
+     "letter": "C",
+     "text": "een oneindige impedantie (open)"
+    },
+    {
+     "letter": "D",
+     "text": "een zuivere capaciteit"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 88,
+   "sub": "4.2",
+   "vraag": "Wat is It bij resonantie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "It =∞"
+    },
+    {
+     "letter": "B",
+     "text": "It = 0"
+    },
+    {
+     "letter": "C",
+     "text": "It = IR"
+    },
+    {
+     "letter": "D",
+     "text": "It = IR + IC + IL"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r88.png"
+  },
+  {
+   "id": 89,
+   "sub": "4.2",
+   "vraag": "Een verliesvrije serie LC-resonantiekring gedraagt zich op zijn resonantiefrequentie als",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een zuivere spoel"
+    },
+    {
+     "letter": "B",
+     "text": "een kortsluiting"
+    },
+    {
+     "letter": "C",
+     "text": "een oneindige impedantie (open)"
+    },
+    {
+     "letter": "D",
+     "text": "een zuivere capaciteit"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 90,
+   "sub": "4.2",
+   "vraag": "Indien men bij een spoel het aantal windingen vermindert dan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "daalt de zelfinductie"
+    },
+    {
+     "letter": "B",
+     "text": "stijgt de zelfinductie"
+    },
+    {
+     "letter": "C",
+     "text": "blijft de zelfinductie ongewijzigd"
+    },
+    {
+     "letter": "D",
+     "text": "wordt de zelfinductie negatief"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 91,
+   "sub": "4.2",
+   "vraag": "Een spoel met een waarde van 2,5 mH en een condensator met een waarde van 400 pF worden in parallel geschakeld. Wat is de resonantiefrequentie van de aldus gevormde kring?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "159 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "15,9 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "159 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "159 kHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 92,
+   "sub": "4.2",
+   "vraag": "Indien we in een seriekring de waarde van de zelfinductie en de capaciteit beiden verdubbelen, dan zal de resonantiefrequentie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "4 x hoger zijn"
+    },
+    {
+     "letter": "B",
+     "text": "2 x hoger zijn"
+    },
+    {
+     "letter": "C",
+     "text": "gelijk blijven"
+    },
+    {
+     "letter": "D",
+     "text": "2 x verlagen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 93,
+   "sub": "4.2",
+   "vraag": "Wat is de resonantiefrequentie van een LC-netwerk?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de hoogste frequentie die stroom doorlaat"
+    },
+    {
+     "letter": "B",
+     "text": "de laagste frequentie  die stroom doorlaat"
+    },
+    {
+     "letter": "C",
+     "text": "de frequentie waar capacitieve reactantie gelijk is aan inductieve reactantie"
+    },
+    {
+     "letter": "D",
+     "text": "de frequente waar de vermogensfactor van de schakeling minimaal is"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 94,
+   "sub": "4.2",
+   "vraag": "Wat doet zich voor in een LC-schakeling als de inductieve reactantie gelijk is aan de capacitieve reactantie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "maximale Q-factor"
+    },
+    {
+     "letter": "B",
+     "text": "reactief evenwicht"
+    },
+    {
+     "letter": "C",
+     "text": "resonantie"
+    },
+    {
+     "letter": "D",
+     "text": "oververhitting"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 95,
+   "sub": "4.2",
+   "vraag": "Wat is de relatie tussen de stroom door een resonantiekring en de spanning over deze kring bij resonantie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de spanning ijlt de stroom 90º voor"
+    },
+    {
+     "letter": "B",
+     "text": "de stroom ijlt de spanning 90º voor"
+    },
+    {
+     "letter": "C",
+     "text": "spanning en stroom zijn in faze"
+    },
+    {
+     "letter": "D",
+     "text": "spanning en stroom zijn 180º uit faze"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 96,
+   "sub": "4.2",
+   "vraag": "De kwaliteitsfactor (Q-factor) van een parallelkring bij resonantie is gegeven door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Q = R / Xc"
+    },
+    {
+     "letter": "B",
+     "text": "Q = R · Xc"
+    },
+    {
+     "letter": "C",
+     "text": "Q = Xc / R"
+    },
+    {
+     "letter": "D",
+     "text": "Q = 1 / (R · Xc)"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 97,
+   "sub": "4.2",
+   "vraag": "De kwaliteitsfactor (Q-factor) van deze kring is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Q = R / Xc"
+    },
+    {
+     "letter": "B",
+     "text": "Q = Xc / R"
+    },
+    {
+     "letter": "C",
+     "text": "Q = R · Xc"
+    },
+    {
+     "letter": "D",
+     "text": "Q = 1 / (R · Xc)"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r97.png"
+  },
+  {
+   "id": 98,
+   "sub": "4.2",
+   "vraag": "Welke bewering is correct voor een parallel RLC-netwerk?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hoe groter R hoe kleiner de bandbreedte"
+    },
+    {
+     "letter": "B",
+     "text": "hoe kleiner R hoe kleiner de bandbreedte"
+    },
+    {
+     "letter": "C",
+     "text": "de bandbreedte is onafhankelijk van R"
+    },
+    {
+     "letter": "D",
+     "text": "de bandbreedte geldt alleen als de kring in resonantie is"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 99,
+   "sub": "4.2",
+   "vraag": "In een parallelschakeling van R, L en C wordt de waarde van de parallelweerstand verdubbeld. De bandbreedte van het filter",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "halveert"
+    },
+    {
+     "letter": "B",
+     "text": "wordt 4 x kleiner"
+    },
+    {
+     "letter": "C",
+     "text": "verdubbelt"
+    },
+    {
+     "letter": "D",
+     "text": "wordt 4 x zo groot"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 100,
+   "sub": "4.2",
+   "vraag": "Wat gebeurt er als men aan een resonantiekring een weerstand toevoegt?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de Q-factor verhoogt en de resonantiefrequentie verlaagt"
+    },
+    {
+     "letter": "B",
+     "text": "de Q-factor verlaagt en de resonantiefrequentie verhoogt"
+    },
+    {
+     "letter": "C",
+     "text": "de Q-factor verlaagt en de bandbreedte vergroot"
+    },
+    {
+     "letter": "D",
+     "text": "de Q-factor verhoogt en de bandbreedte verkleint"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 101,
+   "sub": "4.2",
+   "vraag": "Bijgaand schema stelt voor:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een hoogdoorlaatfilter"
+    },
+    {
+     "letter": "B",
+     "text": "een laagdoorlaatfilter"
+    },
+    {
+     "letter": "C",
+     "text": "een bandddoorlaatfilter"
+    },
+    {
+     "letter": "D",
+     "text": "een bandsperfilter"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r101.png"
+  },
+  {
+   "id": 102,
+   "sub": "4.2",
+   "vraag": "R is de verliesweerstand van de spoel. Als deze weerstand vergroot, dan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "verhoogt de resonantiefrequentie"
+    },
+    {
+     "letter": "B",
+     "text": "vergroot de bandbreedte van de kring"
+    },
+    {
+     "letter": "C",
+     "text": "verlaagt de resonantiefrequentie"
+    },
+    {
+     "letter": "D",
+     "text": "verkleint de bandbreedte van de kring"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r102.png"
+  },
+  {
+   "id": 103,
+   "sub": "4.2",
+   "vraag": "Bijgaand schema stelt voor:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een hoogdoorlaatfilter"
+    },
+    {
+     "letter": "B",
+     "text": "een laagdoorlaatfilter"
+    },
+    {
+     "letter": "C",
+     "text": "een bandddoorlaatfilter"
+    },
+    {
+     "letter": "D",
+     "text": "een bandsperfilter"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r103.png"
+  },
+  {
+   "id": 104,
+   "sub": "4.2",
+   "vraag": "De filter voorgesteld in het schema is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "laagdoorlaatfilter"
+    },
+    {
+     "letter": "B",
+     "text": "hoogdoorlaatfilter"
+    },
+    {
+     "letter": "C",
+     "text": "banddoorlaatfilter"
+    },
+    {
+     "letter": "D",
+     "text": "bandsperfilter"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r104.png"
+  },
+  {
+   "id": 105,
+   "sub": "4.2",
+   "vraag": "Wat blokkeert een signaal boven en onder een bepaald frequentiebereik?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een banddoorlaatfilter"
+    },
+    {
+     "letter": "B",
+     "text": "een hoogdoorlaatfilter"
+    },
+    {
+     "letter": "C",
+     "text": "een ingangsfilter"
+    },
+    {
+     "letter": "D",
+     "text": "een laagdoorlaatfilter"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 106,
+   "sub": "4.2",
+   "vraag": "Welk soort filter is dit?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Laagdoorlaat filter"
+    },
+    {
+     "letter": "B",
+     "text": "Hoogdoorlaat filter"
+    },
+    {
+     "letter": "C",
+     "text": "Banddoorlaat filter"
+    },
+    {
+     "letter": "D",
+     "text": "Bandsperfilter"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r106.png"
+  },
+  {
+   "id": 107,
+   "sub": "4.2",
+   "vraag": "Welk soort filter is dit?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Laagdoorlaat filter"
+    },
+    {
+     "letter": "B",
+     "text": "Hoogdoorlaat filter"
+    },
+    {
+     "letter": "C",
+     "text": "Banddoorlaat filter"
+    },
+    {
+     "letter": "D",
+     "text": "Bandsperfilter"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r107.png"
+  },
+  {
+   "id": 108,
+   "sub": "4.2",
+   "vraag": "Welk soort filter is dit?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Laagdoorlaat filter"
+    },
+    {
+     "letter": "B",
+     "text": "Hoogdoorlaat filter"
+    },
+    {
+     "letter": "C",
+     "text": "Banddoorlaat filter"
+    },
+    {
+     "letter": "D",
+     "text": "Bandsperfilter"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r108.png"
+  },
+  {
+   "id": 109,
+   "sub": "4.2",
+   "vraag": "Welk soort filter is dit?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Laagdoorlaat filter"
+    },
+    {
+     "letter": "B",
+     "text": "Hoogdoorlaat filter"
+    },
+    {
+     "letter": "C",
+     "text": "Banddoorlaat filter"
+    },
+    {
+     "letter": "D",
+     "text": "Bandsperfilter"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r109.png"
+  },
+  {
+   "id": 110,
+   "sub": "4.2",
+   "vraag": "Welk soort filter is dit?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Laagdoorlaat filter"
+    },
+    {
+     "letter": "B",
+     "text": "Hoogdoorlaat filter"
+    },
+    {
+     "letter": "C",
+     "text": "Banddoorlaat filter"
+    },
+    {
+     "letter": "D",
+     "text": "Bandsperfilter"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r110.png"
+  },
+  {
+   "id": 111,
+   "sub": "4.2",
+   "vraag": "De resonantiefrequenties van de 3 seriekringen zijn aangeduid in het schema. Het filter",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Laat 2000 Hz en 4000 Hz door"
+    },
+    {
+     "letter": "B",
+     "text": "Spert 2000 Hz en 4000 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "Laat 2000 Hz door en spert 4000 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "Laat 4000 Hz door en spert 2000 Hz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r111.png"
+  },
+  {
+   "id": 112,
+   "sub": "4.2",
+   "vraag": "Deze schakeling is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een laagdoorlaatfilter"
+    },
+    {
+     "letter": "B",
+     "text": "een hoogdoorlaatfilter"
+    },
+    {
+     "letter": "C",
+     "text": "een bandsperfilter"
+    },
+    {
+     "letter": "D",
+     "text": "een banddoorlaatfilter"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r112.png"
+  },
+  {
+   "id": 113,
+   "sub": "4.2",
+   "vraag": "Bijgaande grafiek geeft de doorlaatkromme weer  van een filter als functie van de frequentie. Het filter is een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "banddoorlaatfilter"
+    },
+    {
+     "letter": "B",
+     "text": "bandsperfilter"
+    },
+    {
+     "letter": "C",
+     "text": "hoogdoorlaatfilter"
+    },
+    {
+     "letter": "D",
+     "text": "laagdoorlaatfilter"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r113.png"
+  },
+  {
+   "id": 114,
+   "sub": "4.2",
+   "vraag": "Welke karakteristieke doorlaatcurve hoort er bij een bandsperfilter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r114.png"
+  },
+  {
+   "id": 115,
+   "sub": "4.2",
+   "vraag": "Welke karakteristieke doorlaatcurve hoort er bij een banddoorlaatflter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r115.png"
+  },
+  {
+   "id": 116,
+   "sub": "4.2",
+   "vraag": "Welke karakteristieke doorlaatcurve hoort er bij een laagdoorlaatflter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r116.png"
+  },
+  {
+   "id": 117,
+   "sub": "4.2",
+   "vraag": "Welke karakteristieke doorlaatcurve hoort er bij een hoogdoorlaatflter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r117.png"
+  },
+  {
+   "id": 118,
+   "sub": "4.2",
+   "vraag": "De spanning U op de secundaire van twee overkritisch gekoppelde kringen is gegeven door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r118.png"
+  },
+  {
+   "id": 119,
+   "sub": "4.2",
+   "vraag": "Een Pi-filter aan de uitgang van een zender heeft als doel:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De antennewinst te verhogen"
+    },
+    {
+     "letter": "B",
+     "text": "De rimpelspanning van de voedingsspanning van de eindtrap te verminderen"
+    },
+    {
+     "letter": "C",
+     "text": "De impedantie van de zender aan te passen aan 50 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "De impedantie van de zender aan te passen aan de belasting gevormd door transmissielijn en antenne"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 120,
+   "sub": "4.2",
+   "vraag": "Welk is het Pi-filter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r120.png"
+  },
+  {
+   "id": 121,
+   "sub": "4.2",
+   "vraag": "Welk is het T-filter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r121.png"
+  },
+  {
+   "id": 122,
+   "sub": "4.2",
+   "vraag": "Een kwartzkristal gedraagt zich als een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "detector"
+    },
+    {
+     "letter": "B",
+     "text": "oscillator"
+    },
+    {
+     "letter": "C",
+     "text": "resonantiekring"
+    },
+    {
+     "letter": "D",
+     "text": "capaciteit"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 123,
+   "sub": "4.2",
+   "vraag": "Een 10 MHz banddoorlaatfilter met en bandbreedte van 500 Hz zal steeds",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een LC-filter zijn"
+    },
+    {
+     "letter": "B",
+     "text": "een RL-filter zijn"
+    },
+    {
+     "letter": "C",
+     "text": "een CR-filter zijn"
+    },
+    {
+     "letter": "D",
+     "text": "een  kwartskristalfilter zijn"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 124,
+   "sub": "4.2",
+   "vraag": "Met het feit dat echte weerstanden, spoelen en condensatoren niet-ideale componenten zijn moet men vooral rekening houden op",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zeer hoge frequenties"
+    },
+    {
+     "letter": "B",
+     "text": "zeer lage frequenties"
+    },
+    {
+     "letter": "C",
+     "text": "boven de Nyquist-frequentie"
+    },
+    {
+     "letter": "D",
+     "text": "onder de Nyquist-frequentei"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 125,
+   "sub": "4.2",
+   "vraag": "Welk van volgende filters verbruikt (in het ideale geval) geen energie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een RC-filter (weerstand + condensator)"
+    },
+    {
+     "letter": "B",
+     "text": "een RL-filter (weerstand + spoel)"
+    },
+    {
+     "letter": "C",
+     "text": "een LC-filter (spoel + condensator)"
+    },
+    {
+     "letter": "D",
+     "text": "een LCR-filter (spoel + condensator + weerstand)"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 126,
+   "sub": "4.2",
+   "vraag": "De wisselspanning tussen de punten X en Y is 10 Veff. De spanning (onbelast) tussen de punten P en Q is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0 V"
+    },
+    {
+     "letter": "B",
+     "text": "14 V"
+    },
+    {
+     "letter": "C",
+     "text": "20 V"
+    },
+    {
+     "letter": "D",
+     "text": "28 V"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r126.png"
+  },
+  {
+   "id": 127,
+   "sub": "4.2",
+   "vraag": "Wat is de golfvorm op de uitgang van een dubbelfazige gelijkrichter, zonder filter ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "pure gelijkspanning"
+    },
+    {
+     "letter": "B",
+     "text": "een sinusoïdale spanning met als frequentie de helft van de frequenties van de gelijkgerichte wisselspanning"
+    },
+    {
+     "letter": "C",
+     "text": "een serie pulsen, met dezelfde frequentie als van de aangelegde wisselspanning"
+    },
+    {
+     "letter": "D",
+     "text": "een serie pulsen met als frequentie het dubbele van deze van de gelijkgerichte wisselspanning."
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 128,
+   "sub": "4.2",
+   "vraag": "Wat is de minimum vereiste sperpanning (doorslagspanning) van de gelijkrichterdiode in een enkelfazige gelijkrichterschakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "en vierde van de uitgangsspanning"
+    },
+    {
+     "letter": "B",
+     "text": "de helft van de uitgangsspanning"
+    },
+    {
+     "letter": "C",
+     "text": "gelijk aan de piekspanning van de transformator"
+    },
+    {
+     "letter": "D",
+     "text": "gelijk aan het dubbele van de piekspanning van de transformator"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 129,
+   "sub": "4.2",
+   "vraag": "Wat is de minimum vereiste sperpanning (doorslagspanning)  van de gelijkrichterdiode in een dubbelfazige gelijkrichterschakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "en vierde van de uitgangsspanning"
+    },
+    {
+     "letter": "B",
+     "text": "de helft van de uitgangsspanning"
+    },
+    {
+     "letter": "C",
+     "text": "gelijk aan de uitgangsspanning"
+    },
+    {
+     "letter": "D",
+     "text": "het dubbele van de piekspanning van de transformator"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 130,
+   "sub": "4.2",
+   "vraag": "Gedurende hoeveel graden van een cyclus geleidt een gelijkrichterdiode van een dubbelfazige gelijkrichterschakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "90°"
+    },
+    {
+     "letter": "B",
+     "text": "180°"
+    },
+    {
+     "letter": "C",
+     "text": "270°"
+    },
+    {
+     "letter": "D",
+     "text": "360°"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 131,
+   "sub": "4.2",
+   "vraag": "Gedurende hoeveel graden van een cyclus geleidt een gelijkrichterdiode van een enkelfazige gelijkrichterschakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "90°"
+    },
+    {
+     "letter": "B",
+     "text": "180°"
+    },
+    {
+     "letter": "C",
+     "text": "270°"
+    },
+    {
+     "letter": "D",
+     "text": "360°"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 132,
+   "sub": "4.2",
+   "vraag": "Waartoe dienen de weerstand en de condensator die veelal in parallel op gelijkrichtdiodes worden geplaatst (wanneer diodes in serie worden geschakeld om de werkspanning te verhogen)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ze verdubbelen de uitgangsspanning"
+    },
+    {
+     "letter": "B",
+     "text": "ze blokkeren de doorgang van wisselspanning"
+    },
+    {
+     "letter": "C",
+     "text": "ze zorgen dat de sperspanning over alle diodes gelijk is en beschermen ze aldus"
+    },
+    {
+     "letter": "D",
+     "text": "ze hebben min of meer de uitgangsspanning constant te houden"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 133,
+   "sub": "4.2",
+   "vraag": "Wat stelt het schema voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een spanningsverdubbeling"
+    },
+    {
+     "letter": "B",
+     "text": "Een detector"
+    },
+    {
+     "letter": "C",
+     "text": "Een dubbelfazige gelijkrichter"
+    },
+    {
+     "letter": "D",
+     "text": "Een clipper"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r133.png"
+  },
+  {
+   "id": 134,
+   "sub": "4.2",
+   "vraag": "Welk van bijgaande schema's werkt correct als gelijkrichter?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r134.png"
+  },
+  {
+   "id": 135,
+   "sub": "4.2",
+   "vraag": "Wat is de correcte weergave van de (onbelaste) spanning tussen de punten A en B?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r135.png"
+  },
+  {
+   "id": 136,
+   "sub": "4.2",
+   "vraag": "Wat stelt bijgaand schema voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een bruggelijkrichter"
+    },
+    {
+     "letter": "B",
+     "text": "een filter"
+    },
+    {
+     "letter": "C",
+     "text": "een spanningsverdubbelaar"
+    },
+    {
+     "letter": "D",
+     "text": "een frequentievermenigvuldiger"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h04/fig-r136.png"
+  },
+  {
+   "id": 137,
+   "sub": "4.2",
+   "vraag": "Wat is de correcte weergave van de (onbelaste) spanning tussen de punten A en B?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 138,
+   "sub": "4.2",
+   "vraag": "Wat is de correcte weergave van de spanning tussen de punten A en B, in de veronderstelling dat de voeding belast wordt op haar nominaal vermogen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 139,
+   "sub": "4.2",
+   "vraag": "De effectieve spanning van de secondaire van de transformatoren is 100 V. Wat zijn U1 en U2 (onder nominale belasting)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "140 en 140 V"
+    },
+    {
+     "letter": "B",
+     "text": "280 en 280 V"
+    },
+    {
+     "letter": "C",
+     "text": "140 en 280 V"
+    },
+    {
+     "letter": "D",
+     "text": "280 en 140 V"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 140,
+   "sub": "4.2",
+   "vraag": "Welk spanningsdiagramma is het juiste?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 141,
+   "sub": "4.2",
+   "vraag": "De frequentie van de rimpelspanning van een enkelfazige gelijkrichter is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "100 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "200 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "25 Hz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 142,
+   "sub": "4.2",
+   "vraag": "De frequentie van de rimpelspanning van een dubbelfazige gelijkrichter is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 Hz"
+    },
+    {
+     "letter": "B",
+     "text": "100 Hz"
+    },
+    {
+     "letter": "C",
+     "text": "200 Hz"
+    },
+    {
+     "letter": "D",
+     "text": "25 Hz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 143,
+   "sub": "4.2",
+   "vraag": "Het afvlakken van de gelijkspanning in een voeding gebeurt door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de diodes"
+    },
+    {
+     "letter": "B",
+     "text": "de transformator en 1 of meer transistoren"
+    },
+    {
+     "letter": "C",
+     "text": "een zenerdiode"
+    },
+    {
+     "letter": "D",
+     "text": "condensatoren en eventueel ook spoelen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 144,
+   "sub": "4.2",
+   "vraag": "Om een zo klein mogelijke rimpelspanning te bekomen bij een voeding gebruikt men:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "enkelzijdige gelijkrichting en afvlakking met een condensator van kleine waarde"
+    },
+    {
+     "letter": "B",
+     "text": "enkelzijdige gelijkrichting en afvlakking met een condensator van grote waarde"
+    },
+    {
+     "letter": "C",
+     "text": "dubbelzijdige gelijkrichting en afvlakking met een condensator van grote waarde"
+    },
+    {
+     "letter": "D",
+     "text": "dubbelzijdige gelijkrichting en afvlakking met een condensator van kleine waarde"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 145,
+   "sub": "4.2",
+   "vraag": "Bereken de weerstandwaarde van R en de vermogen verbruikt in R als je weet dat de zenerdiode een vermogen van 1 W verbruikt",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "25 Ω, 2,5 W"
+    },
+    {
+     "letter": "B",
+     "text": "25 Ω, 1 W"
+    },
+    {
+     "letter": "C",
+     "text": "50 Ω, 0,5 W"
+    },
+    {
+     "letter": "D",
+     "text": "50 Ω, 1 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 146,
+   "sub": "4.2",
+   "vraag": "Wat stelt deze schakeling voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een stroomstabilisator"
+    },
+    {
+     "letter": "B",
+     "text": "een spanningsstabilisator"
+    },
+    {
+     "letter": "C",
+     "text": "een spanningsverdubbelaar"
+    },
+    {
+     "letter": "D",
+     "text": "een LED-diode in geleiding"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 147,
+   "sub": "4.2",
+   "vraag": "Wat is de uitgangsspanning van deze schakeling (de transistor is een silicium-transistor)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "6,3 V"
+    },
+    {
+     "letter": "B",
+     "text": "7 V"
+    },
+    {
+     "letter": "C",
+     "text": "7,7 V"
+    },
+    {
+     "letter": "D",
+     "text": "8,4 V"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 148,
+   "sub": "4.2",
+   "vraag": "Wat is het doel van de diode D1 in bijgaand schema (capaciteitswaarden in µF) ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "stabiliseert de ingangsspanning"
+    },
+    {
+     "letter": "B",
+     "text": "zorgt voor een constante referentiespanning"
+    },
+    {
+     "letter": "C",
+     "text": "beperkt de pieken"
+    },
+    {
+     "letter": "D",
+     "text": "filtert de rimpelspanning"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 149,
+   "sub": "4.2",
+   "vraag": "Wat is het doel van de transistor Q1 in bijgaand schema (capaciteitswaarden in µF) ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Verminderen rimpelspanning"
+    },
+    {
+     "letter": "B",
+     "text": "Een constante belasting voorzien aan een spanningsbron"
+    },
+    {
+     "letter": "C",
+     "text": "zorgt ervoor de schakeling voldoende stroom kan leveren"
+    },
+    {
+     "letter": "D",
+     "text": "Voorziet stroom aan diode D1"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 150,
+   "sub": "4.2",
+   "vraag": "Wat is het doel van C3 in bijgaand schema (capaciteitswaarden in µF) ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "vermijden van oscilleren van de schakeling"
+    },
+    {
+     "letter": "B",
+     "text": "afvlakkking op de uitgang"
+    },
+    {
+     "letter": "C",
+     "text": "stabiliseren voorspanning van Q1"
+    },
+    {
+     "letter": "D",
+     "text": "verminderen rimpel op uitgang"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 151,
+   "sub": "4.2",
+   "vraag": "Wat is het doel van R1 in bijgaand schema (capaciteitswaarden in µF) ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "dient als constante belasting voor de spanningsbron"
+    },
+    {
+     "letter": "B",
+     "text": "LED, werkingsindicator"
+    },
+    {
+     "letter": "C",
+     "text": "zorgt voor de nodige stroom door D1"
+    },
+    {
+     "letter": "D",
+     "text": "afvlakking van bronspanning samen met C2"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 152,
+   "sub": "4.2",
+   "vraag": "Wat is het doel van R2 in bijgaand schema (capaciteitswaarden in µF) ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "voorzien van voorspanning aan Q1"
+    },
+    {
+     "letter": "B",
+     "text": "voorzien van voorspanning voor D1"
+    },
+    {
+     "letter": "C",
+     "text": "afvlakken uitgangsspanning"
+    },
+    {
+     "letter": "D",
+     "text": "zorgt voor een minimale belasting"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 153,
+   "sub": "4.2",
+   "vraag": "Geef één karakteristiek van een lineaire elektronische spanningsstabilisatie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het regelende element wordt aan en uit geschakeld, met een aan/uit verhouding die proportioneel is met de ingangsspanning of belastingsstroom"
+    },
+    {
+     "letter": "B",
+     "text": "de geleidbaarheid van het regelende element wordt veranderd in functie van de ingangsspanning of the belastingsstroom."
+    },
+    {
+     "letter": "C",
+     "text": "de serietransistor wordt aan en uitgeschakeld"
+    },
+    {
+     "letter": "D",
+     "text": "de paralleltransistor wordt aan en uitgeschakeld"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 154,
+   "sub": "4.2",
+   "vraag": "Wat is de onbelaste uitgangsspanning als men volgend signaal aanlegt aan  de “in”-klemmen van de schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0 V"
+    },
+    {
+     "letter": "B",
+     "text": "10 V"
+    },
+    {
+     "letter": "C",
+     "text": "77.1 V"
+    },
+    {
+     "letter": "D",
+     "text": "14.1 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 155,
+   "sub": "4.2",
+   "vraag": "Een schakelende voeding",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "heeft een zeer hoog rendement onafhankelijk van het geleverde vermogen"
+    },
+    {
+     "letter": "B",
+     "text": "heeft het nadeel zeer zwaar te zijn"
+    },
+    {
+     "letter": "C",
+     "text": "heeft het nadeel een ingangsspanning te vereisen die relatief stabiel is om een goede werking te kunnen garanderen"
+    },
+    {
+     "letter": "D",
+     "text": "benodigt grote filter-capaciteiten"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 156,
+   "sub": "4.2",
+   "vraag": "Een schakelende voeding",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "bestaat hoofdzakelijk uit een gelijkrichter, een filter-condensator, een spoel, een schakelend element en een filter-condensator op de uitgang"
+    },
+    {
+     "letter": "B",
+     "text": "gebruikt noodzakelijk een transformator aan de ingangom de netspanning (220V) te verlagen tot een meer handelbare waarde"
+    },
+    {
+     "letter": "C",
+     "text": "gebruikt een zn. Ballast-transistor die in lineaire regelmodus opereert"
+    },
+    {
+     "letter": "D",
+     "text": "kan alleen positieve spanningen genereren."
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 157,
+   "sub": "4.2",
+   "vraag": "In een schakelende voeding is de afmeting van de filtercondensator kleiner dan in een klassieke \"lineaire\" voeding",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "omdat de uitgangsspanning lager is dan de ingangsspanning"
+    },
+    {
+     "letter": "B",
+     "text": "omdat men de energie terugwint die niet is verloren in de transformator"
+    },
+    {
+     "letter": "C",
+     "text": "omdat de schakelfrequentie hoger is dan 50Hz, en hierdoor een lager capaciteitswaarde volstaat"
+    },
+    {
+     "letter": "D",
+     "text": "om het gewicht van de voeding te verminderen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 158,
+   "sub": "4.2",
+   "vraag": "Geef één karakteristiek van een schakelende elektronische spanningsregulator.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de geleidbaarheid van het regelende element wordt veranderd in functie van de ingangsspanning en de belastingsstroom"
+    },
+    {
+     "letter": "B",
+     "text": "heeft meer dan 1 uitgangsspanning"
+    },
+    {
+     "letter": "C",
+     "text": "het regelende element wordt aan en uitgeschakeld met een aan/uit verhouding die proportioneel is met de ingangsspanning en de uitgangsstroom."
+    },
+    {
+     "letter": "D",
+     "text": "De serietransistor dissipeert veel"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 159,
+   "sub": "4.2",
+   "vraag": "In een audio versterker wordt een koppelcondensator gebruikt om:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "AC en DC door te laten"
+    },
+    {
+     "letter": "B",
+     "text": "AC door te laten en DC tegen te houden"
+    },
+    {
+     "letter": "C",
+     "text": "DC door te laten en AC tegen te houden"
+    },
+    {
+     "letter": "D",
+     "text": "AC en DC tegen te houden"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 160,
+   "sub": "4.2",
+   "vraag": "In een HF vesterker wordt een HF-choke (RFC) gebruikt om:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "AC en DC tegen te houden"
+    },
+    {
+     "letter": "B",
+     "text": "AC en DC door te laten"
+    },
+    {
+     "letter": "C",
+     "text": "DC door te laten en AC tegen te houden"
+    },
+    {
+     "letter": "D",
+     "text": "AC door te laten en DC tegen te houden"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 161,
+   "sub": "4.2",
+   "vraag": "Wat is de functie van R1 en R2?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "juiste basis-emitter spanning (bias) instellen"
+    },
+    {
+     "letter": "B",
+     "text": "belastingsweerstanden"
+    },
+    {
+     "letter": "C",
+     "text": "tegenkoppeling"
+    },
+    {
+     "letter": "D",
+     "text": "terugkoppeling"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 162,
+   "sub": "4.2",
+   "vraag": "Wat is de functie van R3?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "basisstroom vergroten"
+    },
+    {
+     "letter": "B",
+     "text": "belastingsweerstand"
+    },
+    {
+     "letter": "C",
+     "text": "tegenkoppeling (beperkt de temperatuursgevoeligheid)"
+    },
+    {
+     "letter": "D",
+     "text": "terugkoppeling"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 163,
+   "sub": "4.2",
+   "vraag": "Dit is een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "breedbandige versterker"
+    },
+    {
+     "letter": "B",
+     "text": "smalbandige versterker"
+    },
+    {
+     "letter": "C",
+     "text": "frequentievermenigvuldiger"
+    },
+    {
+     "letter": "D",
+     "text": "mengtrap"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 164,
+   "sub": "4.2",
+   "vraag": "Welke componenten zorgen ervoor dat bij een versterker met transistoren in parallel  alle transistoren gelijkmatig belast worden?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de emitterweerstanden"
+    },
+    {
+     "letter": "B",
+     "text": "de basisweerstanden"
+    },
+    {
+     "letter": "C",
+     "text": "het ingangsnetwerk"
+    },
+    {
+     "letter": "D",
+     "text": "het uitgangsnetwerk"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 165,
+   "sub": "4.2",
+   "vraag": "Bij een versterker met twee transisoren in parallel moet men er zorg voor dragen dat",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de eerste transistor een grotere versterking heeft dan de tweede transistor"
+    },
+    {
+     "letter": "B",
+     "text": "de eerste transistor een kleinere versterking heeft dan de tweede transistor"
+    },
+    {
+     "letter": "C",
+     "text": "beide transistoren gelijkmatig belast worden"
+    },
+    {
+     "letter": "D",
+     "text": "beide transistoren ongelijkmatig belast worden"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 166,
+   "sub": "4.2",
+   "vraag": "een versterker met een ingangsimpedantie van 100 Ω en een uitgangsimpedantie van 50 Ω heeft een spanningsversterking van 10. Hoe groot is de vermogensversterking?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2"
+    },
+    {
+     "letter": "B",
+     "text": "10"
+    },
+    {
+     "letter": "C",
+     "text": "100"
+    },
+    {
+     "letter": "D",
+     "text": "200"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 167,
+   "sub": "4.2",
+   "vraag": "een versterker met een ingangsimpedantie van 100 Ω en een uitgangsimpedantie van 25 Ω heeft een vermogensversterking van 4. Hoe groot is de spanningsversterking?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1"
+    },
+    {
+     "letter": "B",
+     "text": "4"
+    },
+    {
+     "letter": "C",
+     "text": "16"
+    },
+    {
+     "letter": "D",
+     "text": "64"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 168,
+   "sub": "4.2",
+   "vraag": "Aan de hand van onderstaande karakteristiek van een versterker kan men bepalen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "welke de maximale spanning van het ingangssignaal mag zijn zonder de versterker te oversturen"
+    },
+    {
+     "letter": "B",
+     "text": "wat de maximale frequentie is waarbij de versterker bruikbaar is"
+    },
+    {
+     "letter": "C",
+     "text": "wat de minimale frequentie is waarbij de versterker bruikbaar is"
+    },
+    {
+     "letter": "D",
+     "text": "hoe groot het rendement van de versterker is"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 169,
+   "sub": "4.2",
+   "vraag": "Aan de hand van de  onderstaande karakteristiek van een versterker kan men bepalen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "of de versterker al dan niet overstuurd wordt"
+    },
+    {
+     "letter": "B",
+     "text": "hoeveel ruis de versterker produceert"
+    },
+    {
+     "letter": "C",
+     "text": "binnen welk frequentiebereik een versterker bruikbaar is"
+    },
+    {
+     "letter": "D",
+     "text": "hoe groot het rendement van de versterker is"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 170,
+   "sub": "4.2",
+   "vraag": "Bij een breedbandige versterker",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de versterking omgekeerd evenredig met de frequentie"
+    },
+    {
+     "letter": "B",
+     "text": "zijn er minstens 2 ingangen, zodat de signalen afkomstig van verschillende antennes gelijktijdig versterkt kunnen worden"
+    },
+    {
+     "letter": "C",
+     "text": "is de versterking binnen een relatief groot frequentiebereik onafhankelijk is van de frequentie"
+    },
+    {
+     "letter": "D",
+     "text": "neemt de versterking lineair toe met de frequentie"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 171,
+   "sub": "4.2",
+   "vraag": "Een signaal met een niveau van 0 dBm is gelijk aan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 mW"
+    },
+    {
+     "letter": "B",
+     "text": "1 mV in 50 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "S9"
+    },
+    {
+     "letter": "D",
+     "text": "100 dB µv"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 172,
+   "sub": "4.2",
+   "vraag": "Deze transfertkarakteristiek (Ia /Vg ) van een zendbuis  wijst op een instelling in klasse:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "AB"
+    },
+    {
+     "letter": "D",
+     "text": "C"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 173,
+   "sub": "4.2",
+   "vraag": "Deze transfertkarakteristiek (IA /Vg ) van een zendbuis  wijst op een instelling in klasse:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "AB"
+    },
+    {
+     "letter": "D",
+     "text": "C"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 174,
+   "sub": "4.2",
+   "vraag": "Deze transfertkarakteristiek (IA /Vg ) van een zendbuis  wijst op een instelling in klasse:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "AB"
+    },
+    {
+     "letter": "D",
+     "text": "C"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 175,
+   "sub": "4.2",
+   "vraag": "Deze dynamische transfertkarakteristiek (Ic/Ib ) van een transistor  wijst op een instelling in klasse:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "AB"
+    },
+    {
+     "letter": "D",
+     "text": "C"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 176,
+   "sub": "4.2",
+   "vraag": "Deze dynamische transfertkarakteristiek (Ic/Ib ) van een transistor  wijst op een instelling in klasse:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "AB"
+    },
+    {
+     "letter": "D",
+     "text": "C"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 177,
+   "sub": "4.2",
+   "vraag": "Met welke instelling van een versterker heeft men de minst vervorming?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "klasse A"
+    },
+    {
+     "letter": "B",
+     "text": "klasse B"
+    },
+    {
+     "letter": "C",
+     "text": "klasse AB"
+    },
+    {
+     "letter": "D",
+     "text": "klasse C"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 178,
+   "sub": "4.2",
+   "vraag": "Met welke instelling van een versterker heeft men de meeste vervorming?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "klasse A"
+    },
+    {
+     "letter": "B",
+     "text": "klasse B"
+    },
+    {
+     "letter": "C",
+     "text": "klasse AB"
+    },
+    {
+     "letter": "D",
+     "text": "klasse C"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 179,
+   "sub": "4.2",
+   "vraag": "Met welke instelling van een versterker heeft men het hoogste rendement?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "klasse A"
+    },
+    {
+     "letter": "B",
+     "text": "klasse B"
+    },
+    {
+     "letter": "C",
+     "text": "klasse AB"
+    },
+    {
+     "letter": "D",
+     "text": "klasse C"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 180,
+   "sub": "4.2",
+   "vraag": "Met welke instelling van een versterker heeft men het laagste rendement?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "klasse A"
+    },
+    {
+     "letter": "B",
+     "text": "klasse B"
+    },
+    {
+     "letter": "C",
+     "text": "klasse AB"
+    },
+    {
+     "letter": "D",
+     "text": "klasse C"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 181,
+   "sub": "4.2",
+   "vraag": "Het maximaal haalbare rendement van een klasse A versterker is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 %"
+    },
+    {
+     "letter": "B",
+     "text": "60 %"
+    },
+    {
+     "letter": "C",
+     "text": "70 %"
+    },
+    {
+     "letter": "D",
+     "text": "78,5 %"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 182,
+   "sub": "4.2",
+   "vraag": "Het maximaal haalbare rendement van een klasse B versterker is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "60 %"
+    },
+    {
+     "letter": "B",
+     "text": "70 %"
+    },
+    {
+     "letter": "C",
+     "text": "78,5 %"
+    },
+    {
+     "letter": "D",
+     "text": "90 %"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 183,
+   "sub": "4.2",
+   "vraag": "Een zender straalt minder harmonischen uit indien:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de eindtrap in klasse A wordt ingesteld i.p.v. klasse C"
+    },
+    {
+     "letter": "B",
+     "text": "de voedingsspanning van de oscillator beter wordt gestabiliseerd"
+    },
+    {
+     "letter": "C",
+     "text": "de eindtrap in klasse C wordt ingesteld i.p.v. klasse A"
+    },
+    {
+     "letter": "D",
+     "text": "een kristaloscillator wordt gebruikt in plaats van een LC-oscillator"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 184,
+   "sub": "4.2",
+   "vraag": "In welke configuratie heeft een klasse B versterker relatief weinig vervorming?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Bij een versterker met veldeffekttransistoren"
+    },
+    {
+     "letter": "B",
+     "text": "Bij balansversterkers"
+    },
+    {
+     "letter": "C",
+     "text": "Bij versterkers met transistoren in parallel"
+    },
+    {
+     "letter": "D",
+     "text": "Bij versterkers met radiobuizen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 185,
+   "sub": "4.2",
+   "vraag": "Wat is demodulatie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het mengen van twee signalen om een derde signaal te bekomen"
+    },
+    {
+     "letter": "B",
+     "text": "het terug verkrijgen van een LF-signaal waarmede een HF-signaal is gemoduleerd"
+    },
+    {
+     "letter": "C",
+     "text": "het gelijkrichten van een HF signaal"
+    },
+    {
+     "letter": "D",
+     "text": "het verminderen van de modulatiediepte om vervorming te vermijden."
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 186,
+   "sub": "4.2",
+   "vraag": "Wat is “detectie”?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Het elimineren van informatie op een draaggolf"
+    },
+    {
+     "letter": "B",
+     "text": "Het terugwinnen van informatie van een gemoduleerd hoogfrequent signaal"
+    },
+    {
+     "letter": "C",
+     "text": "De modulatie van een draaggolf"
+    },
+    {
+     "letter": "D",
+     "text": "Het mengen van ruis met een ontvangen signaal"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 187,
+   "sub": "4.2",
+   "vraag": "Wat is de vorm van de spanning die aanwezig is op de klem Eout?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 188,
+   "sub": "4.2",
+   "vraag": "Wat is de vorm van de spanning die aanwezig is op de klem Eout?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 189,
+   "sub": "4.2",
+   "vraag": "Wat is de vorm van de spanning die aanwezig is op de klem Eout?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 190,
+   "sub": "4.2",
+   "vraag": "Wat stelt volgend schema voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een product-detector"
+    },
+    {
+     "letter": "B",
+     "text": "een storingsbegrenzer"
+    },
+    {
+     "letter": "C",
+     "text": "een AVS (automatische volumeregeling) schakeling"
+    },
+    {
+     "letter": "D",
+     "text": "een diode AM-detector"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 191,
+   "sub": "4.2",
+   "vraag": "Een diodedetector is een typische detector voor",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "FM signalen"
+    },
+    {
+     "letter": "B",
+     "text": "AM signalen"
+    },
+    {
+     "letter": "C",
+     "text": "SSB (EZB) signalen"
+    },
+    {
+     "letter": "D",
+     "text": "RTTY (FSK) signalen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 192,
+   "sub": "4.2",
+   "vraag": "Welke onderdeel van een oscillator heeft de meeste invloed op de frequentie ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de afsluitweerstand"
+    },
+    {
+     "letter": "B",
+     "text": "de resonantiekring"
+    },
+    {
+     "letter": "C",
+     "text": "de terugkoppeling"
+    },
+    {
+     "letter": "D",
+     "text": "de transistor"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 193,
+   "sub": "4.2",
+   "vraag": "Het RC-netwerk aan de uitgang van een diodedetector dient om",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "te vermijden dat de schakeling zou oscilleren"
+    },
+    {
+     "letter": "B",
+     "text": "om de HF component van het gelijkgerichte signaal te onderdrukken"
+    },
+    {
+     "letter": "C",
+     "text": "om de HF component van het gelijkgerichte signaal te accentueren"
+    },
+    {
+     "letter": "D",
+     "text": "om de diode te beschermen tegen overbelasting"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 194,
+   "sub": "4.2",
+   "vraag": "Men kan de frequentiestabiliteit van een oscillator verbeteren door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de terugkoppeling te vergroten"
+    },
+    {
+     "letter": "B",
+     "text": "de oscillator af te schermen"
+    },
+    {
+     "letter": "C",
+     "text": "ervoor te zorgen dat de temperatuur van de oscillator constant blijft"
+    },
+    {
+     "letter": "D",
+     "text": "de voedingspanning te verhogen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 195,
+   "sub": "4.2",
+   "vraag": "Welke van de onderstaande oscillatoren zal de beste frequentiestabilitiet hebben?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een kristaloscillator"
+    },
+    {
+     "letter": "B",
+     "text": "een LC oscillator"
+    },
+    {
+     "letter": "C",
+     "text": "een RC oscillator"
+    },
+    {
+     "letter": "D",
+     "text": "een RL oscillator"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 196,
+   "sub": "4.2",
+   "vraag": "een dubbelgebalanceerde mengtrap (DBM) wordt gebruikt als demodulator voor",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "SSB signalen"
+    },
+    {
+     "letter": "B",
+     "text": "FM signalen"
+    },
+    {
+     "letter": "C",
+     "text": "PM signalen"
+    },
+    {
+     "letter": "D",
+     "text": "sterk overstuurde signalen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 197,
+   "sub": "4.2",
+   "vraag": "Wat doet een product detector?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "signaal van een lokale oscillator toevoeren aan de ingang van een versterker"
+    },
+    {
+     "letter": "B",
+     "text": "detecteert FM gemoduleerde HF signalen"
+    },
+    {
+     "letter": "C",
+     "text": "detecteert crossmodulatie producten"
+    },
+    {
+     "letter": "D",
+     "text": "zet door menging een HF signaal om in een audiosignaal"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 198,
+   "sub": "4.2",
+   "vraag": "In geval van detectie van een USB signaal (SSB, bovenste zijband) zal de frequentie van de zwevingsoscillator (of BFO)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hoger of lager zijn dan de frequenties van het SSB-signaal"
+    },
+    {
+     "letter": "B",
+     "text": "lager zijn dan de frequenties van het SSB-signaal"
+    },
+    {
+     "letter": "C",
+     "text": "hoger  zijn dan de frequenties van het SSB-signaal"
+    },
+    {
+     "letter": "D",
+     "text": "in het midden van het spectrum van het SSB signaal dienen te liggen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 199,
+   "sub": "4.2",
+   "vraag": "Een CW signaal kan worden gedecodeerd",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "met een AM ontvanger"
+    },
+    {
+     "letter": "B",
+     "text": "met een SSB ontvanger"
+    },
+    {
+     "letter": "C",
+     "text": "met een FM ontvanger"
+    },
+    {
+     "letter": "D",
+     "text": "met een AM of een FM ontvanger"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 200,
+   "sub": "4.2",
+   "vraag": "De demodulatie van een telegrafie-signaal (CW) gebeurt doorgaans in een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een AM diode detector"
+    },
+    {
+     "letter": "B",
+     "text": "een product detector"
+    },
+    {
+     "letter": "C",
+     "text": "een FM discriminator"
+    },
+    {
+     "letter": "D",
+     "text": "een AVR schakeling"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 201,
+   "sub": "4.2",
+   "vraag": "Wat is een frequentiediscriminator",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een modulator voor FM"
+    },
+    {
+     "letter": "B",
+     "text": "een demodulator voor FM"
+    },
+    {
+     "letter": "C",
+     "text": "een begrenzerschakeling voor FM"
+    },
+    {
+     "letter": "D",
+     "text": "de ingangskring van een frequentiemeter"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 202,
+   "sub": "4.2",
+   "vraag": "Welke van de volgende schakelingen is geschikt voor de demodulatie van een  FM of PM signaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een dubbelgebalanceerd mengtrap (DBM)"
+    },
+    {
+     "letter": "B",
+     "text": "een flankdetector"
+    },
+    {
+     "letter": "C",
+     "text": "een productdetector"
+    },
+    {
+     "letter": "D",
+     "text": "een diodedetector"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 203,
+   "sub": "4.2",
+   "vraag": "Waarom is een kristaloscillator stabieler dan een LC-oscillator?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "wegens zijn geringere afmetingen"
+    },
+    {
+     "letter": "B",
+     "text": "wegens zijn lage spanning"
+    },
+    {
+     "letter": "C",
+     "text": "wegens de zeer hoge Q-factor en grote temperatuursstabiliteit van het kristal"
+    },
+    {
+     "letter": "D",
+     "text": "wegens zijn gemak van constructie"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 204,
+   "sub": "4.2",
+   "vraag": "Welke van de volgende schakelingen is een FM/PM detector",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een product detector"
+    },
+    {
+     "letter": "B",
+     "text": "een Foster-Seeley schakeling"
+    },
+    {
+     "letter": "C",
+     "text": "een dubbel gebalanceerde mengtrap"
+    },
+    {
+     "letter": "D",
+     "text": "eem diode mengtrap"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 205,
+   "sub": "4.2",
+   "vraag": "Wat is een frequentiediscriminator?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een FM generator"
+    },
+    {
+     "letter": "B",
+     "text": "een schakeling om twee nabijgelegen signalen te scheiden"
+    },
+    {
+     "letter": "C",
+     "text": "een schakeling om FM gemoduleerde signalen te detecteren"
+    },
+    {
+     "letter": "D",
+     "text": "een schakeling om AM gemoduleerde signalen uit FM signalen te elimineren"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 206,
+   "sub": "4.2",
+   "vraag": "Flankdetectie wordt gebruikt bij:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het opwekken van fazemodulatie"
+    },
+    {
+     "letter": "B",
+     "text": "het ontvangen van EZB signalen"
+    },
+    {
+     "letter": "C",
+     "text": "het ontvangen van FM signalen"
+    },
+    {
+     "letter": "D",
+     "text": "het onderdrukken van storingen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 207,
+   "sub": "4.2",
+   "vraag": "Deze schakeling is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een frequentie-discriminator"
+    },
+    {
+     "letter": "B",
+     "text": "een spanningsverdubbelaar"
+    },
+    {
+     "letter": "C",
+     "text": "een fazedetector"
+    },
+    {
+     "letter": "D",
+     "text": "een balanced demodulator"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 208,
+   "sub": "4.2",
+   "vraag": "Het filter in een PLL schakeling bepaalt",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hoe de regelspanning van de VCO reageert op een frequentieverandering"
+    },
+    {
+     "letter": "B",
+     "text": "hoeveel harmonischen de VCO produceert"
+    },
+    {
+     "letter": "C",
+     "text": "de verhouding tussen de frequentie van de VCO en de referentie-oscillator"
+    },
+    {
+     "letter": "D",
+     "text": "de frequentie van de VCO"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 209,
+   "sub": "4.2",
+   "vraag": "Door ongewenste terugkoppeling in een versterker",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "kan het gebeuren dat een versterker soms niet oscilleert"
+    },
+    {
+     "letter": "B",
+     "text": "kan de ruisproductie van de versterker verbeteren"
+    },
+    {
+     "letter": "C",
+     "text": "kan niets gebeuren, want een versterker kan geen terugkoppeling hebben"
+    },
+    {
+     "letter": "D",
+     "text": "kan deze versterker soms oscilleren"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 210,
+   "sub": "4.2",
+   "vraag": "Zonder terugkoppeling",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "kan een versterker niet versterken"
+    },
+    {
+     "letter": "B",
+     "text": "kan een modulator niet moduleren"
+    },
+    {
+     "letter": "C",
+     "text": "kan een oscillator niet oscilleren"
+    },
+    {
+     "letter": "D",
+     "text": "kan een antenne niet uitstralen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 211,
+   "sub": "4.2",
+   "vraag": "Indien in een oscillator de terugkoppeling onvoldoende is dan zal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de oscillator te sterk oscilleren"
+    },
+    {
+     "letter": "B",
+     "text": "de oscillator niet oscilleren"
+    },
+    {
+     "letter": "C",
+     "text": "men dit moeten compenseren door de terugkoppeling in de eindversterker te vergroten"
+    },
+    {
+     "letter": "D",
+     "text": "men dit moeten compenseren door de terugkoppeling in de modulator te vergroten"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 212,
+   "sub": "4.2",
+   "vraag": "Wat stelt bijgaand schema voor",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een Hartley oscillator"
+    },
+    {
+     "letter": "B",
+     "text": "een Colpitts oscillator"
+    },
+    {
+     "letter": "C",
+     "text": "een Vackar oscillator"
+    },
+    {
+     "letter": "D",
+     "text": "een Clapp oscillator"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 213,
+   "sub": "4.2",
+   "vraag": "Wat stelt bijgaand schema voor",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een Hartley oscillator"
+    },
+    {
+     "letter": "B",
+     "text": "een Colpitts oscillator"
+    },
+    {
+     "letter": "C",
+     "text": "een Vackar oscillator"
+    },
+    {
+     "letter": "D",
+     "text": "een Clapp oscillator"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 214,
+   "sub": "4.2",
+   "vraag": "Bijgaand schema is het principeschema van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "frequentie-vermenigvuldiger"
+    },
+    {
+     "letter": "B",
+     "text": "oscillator"
+    },
+    {
+     "letter": "C",
+     "text": "mengtrap"
+    },
+    {
+     "letter": "D",
+     "text": "MF versterker"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 215,
+   "sub": "4.2",
+   "vraag": "Wat is een VXO?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een LC-oscillator die door een varicap wordt afgestemd"
+    },
+    {
+     "letter": "B",
+     "text": "een kristaloscillator waarvan men de frequentie over een beperkt bereik kan instellen "
+    },
+    {
+     "letter": "C",
+     "text": "een LC-oscillator die deel uitmaakt van een phase-locked loop"
+    },
+    {
+     "letter": "D",
+     "text": "een kristaloscillator"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 216,
+   "sub": "4.2",
+   "vraag": "Een overtone kristaloscillator oscilleert:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "op de grondfrequentie"
+    },
+    {
+     "letter": "B",
+     "text": "ongeveer op een even harmonische"
+    },
+    {
+     "letter": "C",
+     "text": "ongeveer op een oneven harmonische"
+    },
+    {
+     "letter": "D",
+     "text": "zowel op even als oneven harmonischen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 217,
+   "sub": "4.2",
+   "vraag": "In een overtone-oscillator zit een kristal met een grondfrequenties van 12 MHz.  Deze schakeling trilt op ongeveer:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "6 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "12 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "24 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "36 MHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 218,
+   "sub": "4.2",
+   "vraag": "Welke component wordt dikwijls gebruikt om de frequentie van een oscillator bij te stemmen d.m.v. een variabele DC-spanning?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een capaciteitsdiode (varicap)"
+    },
+    {
+     "letter": "B",
+     "text": "een kristal"
+    },
+    {
+     "letter": "C",
+     "text": "een zenerdiode"
+    },
+    {
+     "letter": "D",
+     "text": "een gundiode"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 219,
+   "sub": "4.2",
+   "vraag": "Wat is een spanninggestuurde oscillator (VCO)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een oscillator waarvan de uitgangsspanning varieert in functie van een stuurspanning."
+    },
+    {
+     "letter": "B",
+     "text": "Een oscillator waarvan de frequentie varieert in functie van een stuurspanning."
+    },
+    {
+     "letter": "C",
+     "text": "Een oscillator die een foutspanning genereert die evenredig is met zijn frequentieverloop (frequentiedrift)"
+    },
+    {
+     "letter": "D",
+     "text": "Een oscillator die een foutspanning genereert die evenredig is met zijn drift"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 220,
+   "sub": "4.2",
+   "vraag": "Wat is het intrinsiek nadeel van een PLL-schakeling t.o.v. een LC-oscillator of een kristal-oscillator?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hoger eigen ruisniveau"
+    },
+    {
+     "letter": "B",
+     "text": "lagere uitgangsspanning"
+    },
+    {
+     "letter": "C",
+     "text": "grotere temperatuursafhankelijkheid"
+    },
+    {
+     "letter": "D",
+     "text": "kleiner afstembereik"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 221,
+   "sub": "4.2",
+   "vraag": "In een schakeling wordt de frequentie, afkomstig van een VCO vergeleken met een referentiesignaal afkomstig van een kristaloscillator. Het verschil in faze tussen beide signalen genereert een gelijkspanning die de frequentie van de VCO bijstuurt.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Dit is een balansmodulator"
+    },
+    {
+     "letter": "B",
+     "text": "Dit is een PLL (phase locked loop) oscillator"
+    },
+    {
+     "letter": "C",
+     "text": "Dit is een differentieelversterker"
+    },
+    {
+     "letter": "D",
+     "text": "Dit is een variabele frequentie oscillator (VFO)"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 222,
+   "sub": "4.2",
+   "vraag": "Digitale schakelingen maken het mogelijk filters te ontwikkelen. De 2 meest bekende zijn:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "DFT en FFT filters"
+    },
+    {
+     "letter": "B",
+     "text": "FIR en IIR filters"
+    },
+    {
+     "letter": "C",
+     "text": "Chébyshev en Butterworth filters"
+    },
+    {
+     "letter": "D",
+     "text": "caviteitsfilters en oppervlakte-golven (SAW) filters"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 223,
+   "sub": "4.2",
+   "vraag": "Een signaal bestaat uit 2 sinusoidale signalen, 1000 en 1500 Hz, van gelijke amplitude met daarenboven een hoeveelheid ruis met een maximale amplitude die 20 dB zwakker is.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Het samengestelde signaal is makkelijker te herkennen in tijdsdomein dan in frequentiedomein"
+    },
+    {
+     "letter": "B",
+     "text": "Het samengestelde signaal is makkelijker te herkennen in frequentiedomein dan in tijdsdomein"
+    },
+    {
+     "letter": "C",
+     "text": "Het samengestelde signaal is onherkenbaar"
+    },
+    {
+     "letter": "D",
+     "text": "Dergelijk signaal kan niet samengesteld worden"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 224,
+   "sub": "4.2",
+   "vraag": "Door middel van een Fourier-transformatie kan men",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een zender verliesvrij aanpassen aan een antenne"
+    },
+    {
+     "letter": "B",
+     "text": "220 V wisselspanning omzetten naar 12 V wisselspanning"
+    },
+    {
+     "letter": "C",
+     "text": "het frequentiesprectrum van een signaal bepalen"
+    },
+    {
+     "letter": "D",
+     "text": "220 V wisselspanning omzetten naar 12 V gelijkspanning"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 225,
+   "sub": "4.2",
+   "vraag": "Bij een voorstelling van een signaal in het tijdsdomein",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is het resultaat steeds een sinusoide"
+    },
+    {
+     "letter": "B",
+     "text": "geeft een as de tijd weer en de andere de amplitude"
+    },
+    {
+     "letter": "C",
+     "text": "geeft een as de tijd weer en de andere de frequentie"
+    },
+    {
+     "letter": "D",
+     "text": "geven beide assen de tijd weer"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 226,
+   "sub": "4.2",
+   "vraag": "Bij een voorstelling van een signaal in het frequentiedomein",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "geven beide assen de frequentie weer"
+    },
+    {
+     "letter": "B",
+     "text": "is het resultaat steeds een sinusoide"
+    },
+    {
+     "letter": "C",
+     "text": "geeft een as het frequentie weer en de andere as de amplitude"
+    },
+    {
+     "letter": "D",
+     "text": "geeft een as de frequentie weer en de andere as de tijd"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 227,
+   "sub": "4.2",
+   "vraag": "Met een fouriertransformatie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "kan men een complex signaal ontbinden in zijn grondgolf en al zijn harmonische componenten, en elk van die componenten op een frequentieas weergeven (frequentiesdomein)"
+    },
+    {
+     "letter": "B",
+     "text": "kan men een complex signaal waarvan alle componenten (grondgolgf en harmonischen) gekend zijn samenstellen en weergeven op een tijdsas (tijdsdomein)"
+    },
+    {
+     "letter": "C",
+     "text": "kan men SSB-signalen omvormen in digitale signalen"
+    },
+    {
+     "letter": "D",
+     "text": "kan men digitale signalen omvormen in SSB signalen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 228,
+   "sub": "4.2",
+   "vraag": "Een vierkantsgolf (blokgolf) met frequentie f is een samenstelling van sinusoidale signalen met onder andere",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "frequentie f, 2.f, 3.f, 4.f en 5.f"
+    },
+    {
+     "letter": "B",
+     "text": "frequentie f, 3.f, 5.f, 7.f en 9.f"
+    },
+    {
+     "letter": "C",
+     "text": "frequentie f, 2.f, 4.f, 6.f en 8.f"
+    },
+    {
+     "letter": "D",
+     "text": "frequentie f, 2,f, 3.f, 5.f en 8.f"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 229,
+   "sub": "4.2",
+   "vraag": "Bij gebruik dan FFT voor een Fouriertransformatie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "kan men alleen periodische signalen bewerken"
+    },
+    {
+     "letter": "B",
+     "text": "dient het aantal samples een macht van 2 te zijn"
+    },
+    {
+     "letter": "C",
+     "text": "dient het aantal samples een macht van 1 te zijn"
+    },
+    {
+     "letter": "D",
+     "text": "is de berekeningstijd langer dan bij DFT"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 230,
+   "sub": "4.2",
+   "vraag": "Bij een Fouriertransformatie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de FFT techniek sneller dan de DFT techniek"
+    },
+    {
+     "letter": "B",
+     "text": "is de DFT techniek sneller dan de FFT techniek"
+    },
+    {
+     "letter": "C",
+     "text": "zijn ze beide even snel"
+    },
+    {
+     "letter": "D",
+     "text": "kan FFT alleen toegepast worden op periodische signalen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 231,
+   "sub": "4.2",
+   "vraag": "De Fouriertransformatie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is een mathematisch hulpmiddel dat toelaat om een signaal te ontbinden in zijn verschillende spanningscomponenten"
+    },
+    {
+     "letter": "B",
+     "text": "maakt het mogelijk een complex elektronisch circuit te ontbinden in een aantal elementaire circuits"
+    },
+    {
+     "letter": "C",
+     "text": "maakt het mogelijk de werking van antennes te simuleren"
+    },
+    {
+     "letter": "D",
+     "text": "is een mathematisch hulpmiddel dat toelaat om een signaal te ontbinden in zijn verschillende frequentiecomponenten"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 232,
+   "sub": "4.2",
+   "vraag": "Bij DDS (Direct Digital Synthesis) wordt een wisselspanning generereerd",
+   "opties": [
+    {
+     "letter": "A",
+     "text": " met behulp van een DAC (digitaal naar analoog convertor) schakeling"
+    },
+    {
+     "letter": "B",
+     "text": " met behulp van een PLL (phase locked loop) schakeling"
+    },
+    {
+     "letter": "C",
+     "text": "op basis van het mengproduct van 2 andere signalen"
+    },
+    {
+     "letter": "D",
+     "text": "door middel van een extreem stabiele LC oscillator"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 233,
+   "sub": "4.2",
+   "vraag": "Snelle Fourrier Transformatie (FFT of \"Fast Fourrier Transform\" in het Engels)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "laat toe het aantal monsters (samples) bij een discrete Fourier transformatie (DFT) te berekenen"
+    },
+    {
+     "letter": "B",
+     "text": "maakt het mogelijk de benodigde rekentijd te verminderen in vergelijking met een Discrete Fourier Transformatie (DST of \"discretely sampled Fourrier Transform\" in het Engels)"
+    },
+    {
+     "letter": "C",
+     "text": "maakt het mogelijk de precisie te verhogen die bekomen is door een Discrete Fourrier Transformatie (DFT)"
+    },
+    {
+     "letter": "D",
+     "text": "is het omgekeerde van Discrete Fourrier Transformatie (DFT)"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  }
+ ]
+}

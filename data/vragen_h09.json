@@ -1,0 +1,2205 @@
+{
+ "hoofdstuk": "h09",
+ "vragen": [
+  {
+   "id": 2,
+   "sub": "9.3",
+   "vraag": "Wat is de  ruis die men hoort in een HF-ontvanger, afgestemd op 80m, en die aan een antenne is gekoppeld?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "detectieruis"
+    },
+    {
+     "letter": "B",
+     "text": "ruis voortgebracht door menselijke activiteiten (' man made noise')"
+    },
+    {
+     "letter": "C",
+     "text": "ruis veroorzaakt in het ingangscircuit van de ontvanger"
+    },
+    {
+     "letter": "D",
+     "text": "ruis voortgebracht door menselijke activiteiten ('man made noise') samen met atmosferische ruis"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 3,
+   "sub": "9.3",
+   "vraag": "Wat betreft de signaal/ruisverhouding zal de ontvanger-ruis:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Vooral belangrijk zijn op de lagere HF banden"
+    },
+    {
+     "letter": "B",
+     "text": "Vooral belangrijk zijn op VHF/UHF/SHF"
+    },
+    {
+     "letter": "C",
+     "text": "Op alle frequenties even belangrijk zijn"
+    },
+    {
+     "letter": "D",
+     "text": "Geen rol spelen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 4,
+   "sub": "9.3",
+   "vraag": "In de context van signaal/ruisverhouding bij het ontvangen van radiosignalen kan externe ruis veroorzaakt worden door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Beweegbaarheid van moleculen"
+    },
+    {
+     "letter": "B",
+     "text": "onweder"
+    },
+    {
+     "letter": "C",
+     "text": "Wind"
+    },
+    {
+     "letter": "D",
+     "text": "Alle ruisbronnen zijn intern"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 5,
+   "sub": "9.3",
+   "vraag": "De dominante ruisbron",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Is steeds de atmosferische ruis"
+    },
+    {
+     "letter": "B",
+     "text": "Is steeds de ontvangerruis"
+    },
+    {
+     "letter": "C",
+     "text": "Is in eerste instantie afhankelijk van de werkfrequentie"
+    },
+    {
+     "letter": "D",
+     "text": "Kan nooit de zonneruis zijn"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 6,
+   "sub": "9.3",
+   "vraag": "Signaal/Ruis verhouding",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Is de verhouding van de sterkte van een ontvangen signaal ten opzichte van S9"
+    },
+    {
+     "letter": "B",
+     "text": "Is de verhouding van de sterkte van een ontvangen signaal ten opzichte van alle mogelijke ruis"
+    },
+    {
+     "letter": "C",
+     "text": "Is steeds de verhouding van de sterkte van een ontvangen signaal ten opzichte van externe ruis"
+    },
+    {
+     "letter": "D",
+     "text": "Is steeds de verhouding van de sterkte van een ontvangen signaal ten opzichte van ontvangerruis"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 7,
+   "sub": "9.3",
+   "vraag": "In de vrije ruimte",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Is er geen signaalverzwakking"
+    },
+    {
+     "letter": "B",
+     "text": "Is de signaalverzwakking evenredig met de afstand"
+    },
+    {
+     "letter": "C",
+     "text": "Is de signaalverzwakking evenredig met het kwadraat van de afstand"
+    },
+    {
+     "letter": "D",
+     "text": "Is de signaalverzwakking omgekeerd evenredig met het kwadraat van de afstand"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 8,
+   "sub": "9.3",
+   "vraag": "Een VHF antenne heeft een hoogte van 20 m. De radiohorizon",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "bestaat niet"
+    },
+    {
+     "letter": "B",
+     "text": "is gelijk aan de optische horizon"
+    },
+    {
+     "letter": "C",
+     "text": "is kleiner dan de optische horizon"
+    },
+    {
+     "letter": "D",
+     "text": "is groter dan de optische horizon"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 9,
+   "sub": "9.3",
+   "vraag": "Waarom reikt de radiohorizon verder dan de optische?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "wegens de skip-afstand"
+    },
+    {
+     "letter": "B",
+     "text": "door invloed van de D-laag"
+    },
+    {
+     "letter": "C",
+     "text": "wegens Aurora"
+    },
+    {
+     "letter": "D",
+     "text": "radiogolven worden gebogen."
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 10,
+   "sub": "9.3",
+   "vraag": "Op VHF/UHF, hoever reikt de radiohorizon verder dan de optische horizon?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ongeveer 20 %"
+    },
+    {
+     "letter": "B",
+     "text": "ongeveer 50 %"
+    },
+    {
+     "letter": "C",
+     "text": "ongeveer 100%"
+    },
+    {
+     "letter": "D",
+     "text": "ongeveer 200 %"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 11,
+   "sub": "9.3",
+   "vraag": "De verzwakking (att) van het signaal voor een afstand kleiner of gelijk aan de afstand tot de radiohorizon is gegeven  (d=afstand in km, f =frequentie in MHz) door r:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Att(dB) = 32.5+20·( log(d)+log( f))"
+    },
+    {
+     "letter": "B",
+     "text": "Att(dB) = 25+(20· log (d)+20·log( f))"
+    },
+    {
+     "letter": "C",
+     "text": "Att(dB) = 32.5+10·(log(d)+log( f))"
+    },
+    {
+     "letter": "D",
+     "text": "Att(dB) = 25+10·(log(d)+log( f))"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 12,
+   "sub": "9.3",
+   "vraag": "De afstand D (uitgedrukt in km)  tot de radiohorizon wordt berekend als volgt (h1 en h2 zijn de hoogtes van de beide antennes):",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "D = 3.56  · ( √h1 + √h2 )"
+    },
+    {
+     "letter": "B",
+     "text": "D = 3.56 · ( h1² + h2²  )"
+    },
+    {
+     "letter": "C",
+     "text": "D = 4.2 · ( √h1 + √h2 )"
+    },
+    {
+     "letter": "D",
+     "text": "D = 4.2 · ( h1² + h2² )"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 13,
+   "sub": "9.3",
+   "vraag": "De D-Laag van de ionosfeer is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de laagste laag in de ionosfeer"
+    },
+    {
+     "letter": "B",
+     "text": "de hoogste laag in de ionosfeer"
+    },
+    {
+     "letter": "C",
+     "text": "het meest geïoniseerd gedurende de nacht"
+    },
+    {
+     "letter": "D",
+     "text": "ca 300 km hoog"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 14,
+   "sub": "9.3",
+   "vraag": "Weerkaatsing van radiogolven op de ionosfeer",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de meest voortkomende propagatiemethode op VHF en UHF"
+    },
+    {
+     "letter": "B",
+     "text": "gebeurt doorgaans alleen op HF"
+    },
+    {
+     "letter": "C",
+     "text": "gebeurt alleen overdag"
+    },
+    {
+     "letter": "D",
+     "text": "gebeurt nooit boven 30 MHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 15,
+   "sub": "9.3",
+   "vraag": "De D-laag van de ionosfeer",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "weerkaatst de radiogolven gedurende de dag"
+    },
+    {
+     "letter": "B",
+     "text": "is grotendeels afwezig gedurende de nacht"
+    },
+    {
+     "letter": "C",
+     "text": "is grotendeels afwezig gedurende de dag"
+    },
+    {
+     "letter": "D",
+     "text": "absorbeert de radiogolven boven de 30 MHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 16,
+   "sub": "9.3",
+   "vraag": "De ionosfeer wordt vooral geïoniseerd door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "kosmische stralen"
+    },
+    {
+     "letter": "B",
+     "text": "temperatuursinversies"
+    },
+    {
+     "letter": "C",
+     "text": "straling van de zon"
+    },
+    {
+     "letter": "D",
+     "text": "ozonconcentratie in de troposfeer"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 17,
+   "sub": "9.3",
+   "vraag": "Welke zijn de ionosfeerlagen die samensmelten gedurende de nacht ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de E en F1 lagen"
+    },
+    {
+     "letter": "B",
+     "text": "de D en E  lagen"
+    },
+    {
+     "letter": "C",
+     "text": "de F1 en E2 lagen"
+    },
+    {
+     "letter": "D",
+     "text": "de F1 en F2 lagen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 18,
+   "sub": "9.3",
+   "vraag": "Welke is de laag van de ionosfeer die de meest nadelige invloed heeft op de voortplanting van HF-signalen op lange afstand ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de troposfeer"
+    },
+    {
+     "letter": "B",
+     "text": "de D-laag"
+    },
+    {
+     "letter": "C",
+     "text": "de E-laag"
+    },
+    {
+     "letter": "D",
+     "text": "de F2-laag"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 19,
+   "sub": "9.3",
+   "vraag": "Welke laag van de ionosfeer bevindt zich het dichtst bij de aarde?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de F2-laag"
+    },
+    {
+     "letter": "B",
+     "text": "de B-laag"
+    },
+    {
+     "letter": "C",
+     "text": "de E-laag"
+    },
+    {
+     "letter": "D",
+     "text": "de D-laag"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 20,
+   "sub": "9.3",
+   "vraag": "Welke laag van de ionosfeer beperkt de voortplanting op 80-meter gedurende de dag ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de D-laag"
+    },
+    {
+     "letter": "B",
+     "text": "de E-laag"
+    },
+    {
+     "letter": "C",
+     "text": "de F1-laag"
+    },
+    {
+     "letter": "D",
+     "text": "de F1 en de F2-lagen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 21,
+   "sub": "9.3",
+   "vraag": "Wat is de naam van de zone die op HF radiocommunicatie mogelijk maakt over grote afstanden?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de troposfeer"
+    },
+    {
+     "letter": "B",
+     "text": "de stratosfeer"
+    },
+    {
+     "letter": "C",
+     "text": "de ionosfeer"
+    },
+    {
+     "letter": "D",
+     "text": "de magnetosfeer"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 22,
+   "sub": "9.3",
+   "vraag": "Wat is de ionosfeer?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een zone in de atmosfeer waar een groot aantal vrije elektronen aanwezig zijn die de radiogolven kunnen weerkaatsen of absorberen"
+    },
+    {
+     "letter": "B",
+     "text": "een luchtmassa tussen twee zones met verschillende temperatuur of vochtigheidsgraad"
+    },
+    {
+     "letter": "C",
+     "text": "een geïoniseerde zone van de atmosfeer ten gevolge van de bliksem"
+    },
+    {
+     "letter": "D",
+     "text": "een geïoniseerde sfeer rond de zon, die de oorzaak is van de UV-stralen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 23,
+   "sub": "9.3",
+   "vraag": "Wat is de invloed van de D-laag op de lagere HF banden gedurende de dag?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ze absorbeert de signalen"
+    },
+    {
+     "letter": "B",
+     "text": "ze zendt de signalen terug naar de hemel"
+    },
+    {
+     "letter": "C",
+     "text": "ze refracteert de golven naar de aarde"
+    },
+    {
+     "letter": "D",
+     "text": "ze heeft weinig invloed op de 40, 80 en 160m banden"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 24,
+   "sub": "9.3",
+   "vraag": "Wanneer is de ionosfeer het minst geïoniseerd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "juist voor zonsopgang"
+    },
+    {
+     "letter": "B",
+     "text": "na de middag"
+    },
+    {
+     "letter": "C",
+     "text": "juist voor middernacht"
+    },
+    {
+     "letter": "D",
+     "text": "juist voor zonsondergang"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 25,
+   "sub": "9.3",
+   "vraag": "Wanner is de E-laag het meest geïoniseerd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "bij zonsondergang"
+    },
+    {
+     "letter": "B",
+     "text": "op de middag"
+    },
+    {
+     "letter": "C",
+     "text": "om middernacht"
+    },
+    {
+     "letter": "D",
+     "text": "bij zonsopgang"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 26,
+   "sub": "9.3",
+   "vraag": "De ionosfeer strekt zich uit van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 km tot 1000 km hoogte boven de aarde"
+    },
+    {
+     "letter": "B",
+     "text": "30 km tot 500 km hoogte boven de aarde"
+    },
+    {
+     "letter": "C",
+     "text": "boven de 500 km boven de aarde"
+    },
+    {
+     "letter": "D",
+     "text": "onder de 100 km boven de aarde"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 27,
+   "sub": "9.3",
+   "vraag": "De ionosfeer",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "sterkt zich uit boven de stratosfeer"
+    },
+    {
+     "letter": "B",
+     "text": "maakt deel uit van de stratosfeer"
+    },
+    {
+     "letter": "C",
+     "text": "strekt zich uit onder de stratosfeer"
+    },
+    {
+     "letter": "D",
+     "text": "bestaat alleen overdag"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 28,
+   "sub": "9.3",
+   "vraag": "De meest dense lagen van de ionosfeer",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "bevinden zich het verst van de aarde"
+    },
+    {
+     "letter": "B",
+     "text": "bevinden zich het dichtst bij de aarde"
+    },
+    {
+     "letter": "C",
+     "text": "zorgen voor de weerkaatsing op de hoogste frequenties in de HF banden"
+    },
+    {
+     "letter": "D",
+     "text": "zorgen voor de weerkaatsing op de laagste frequenties in de HF banden"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 29,
+   "sub": "9.3",
+   "vraag": "De kritische frequentie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de hoogste frequentie waarop verbinden via ionosferische reflectie kunnen worden gemaakt"
+    },
+    {
+     "letter": "B",
+     "text": "is de hoogste frequentie waarbij een radiogolf die vertikaal wordt uitgezonden nog naar de aarde wordt weerkaatst in de ionosfeer"
+    },
+    {
+     "letter": "C",
+     "text": "is de laagste frequentie waar radiogolven door de D-laag worden geabsorbeerd"
+    },
+    {
+     "letter": "D",
+     "text": "is de frequentie waarop voorplanting gebeurt door 1 enkele weerkaatsing op de ionosfeer"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 30,
+   "sub": "9.3",
+   "vraag": "De kritische frequentie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is steeds groter dan 20 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "varieert typisch tussen 5 en 9 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "is hetzelfde als de MUF"
+    },
+    {
+     "letter": "D",
+     "text": "is steeds hoger dan de MUF"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 31,
+   "sub": "9.3",
+   "vraag": "Op een frequentie die hoger is dan de kritische frequentie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "gebeurt weerkaatsing in de ionosfeer alleen voor radiogolven die onder een (op)stralingshoek van kleiner dan 90 graden worden uitgezonden"
+    },
+    {
+     "letter": "B",
+     "text": "gebeurt er nooit weerkaatsing in de ionosfeer"
+    },
+    {
+     "letter": "C",
+     "text": "gebeurt weerkaatsing in de ionosfeer alleen tijdens de nacht"
+    },
+    {
+     "letter": "D",
+     "text": "gebeurt weerkaatsing in de ionosfeer alleen als zeer grote vermogens worden gebruikt"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 32,
+   "sub": "9.3",
+   "vraag": "Wat noemt men de kritische hoek in de studie van de voortplanting langs ionosferische weg?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de minimum hoek waaronder een radiogolf naar de aarde terugkeert"
+    },
+    {
+     "letter": "B",
+     "text": "de richting (azimut) van het DX-station dat men wil contacteren"
+    },
+    {
+     "letter": "C",
+     "text": "de richting die het DX-station gebruikt om zijn antenne te richten"
+    },
+    {
+     "letter": "D",
+     "text": "de grootste (op)stralingshoek, waarvoor,  onder welbepaalde voortplantingscondities, een radiogolf teruggekaatst wordt naar de aarde. Voor een grotere hoek zal de radiogolf verloren gaan in de ruimte."
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 33,
+   "sub": "9.3",
+   "vraag": "Wat gebeurt er als de werkfrequentie hoger is dan de kritische frequentie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de vertikaal uitgestraalde radiogolf gaat verloren in de ruimte"
+    },
+    {
+     "letter": "B",
+     "text": "de vertikaal uitgestraalde radiogolf wordt geabsorbeerd door de ionosfeer"
+    },
+    {
+     "letter": "C",
+     "text": "de vertikaal uitgestraalde radiogolf ondergaat een Doppler-effect"
+    },
+    {
+     "letter": "D",
+     "text": "de vertikaal uitgestraalde radiogolf wordt teruggekaatst naar de bron"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 34,
+   "sub": "9.3",
+   "vraag": "De zonnevlekkencyclus duurt gemiddeld",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "11 jaar"
+    },
+    {
+     "letter": "B",
+     "text": "6 jaar"
+    },
+    {
+     "letter": "C",
+     "text": "13 jaar"
+    },
+    {
+     "letter": "D",
+     "text": "121 jaar"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 35,
+   "sub": "9.3",
+   "vraag": "Om goede voortplantingscondities te hebben over lange afstand op de 6-meter band dient de zonneflux:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "minder dan 50 te zijn"
+    },
+    {
+     "letter": "B",
+     "text": "ongeveer 75 te zijn"
+    },
+    {
+     "letter": "C",
+     "text": "groter dan 100 te zijn"
+    },
+    {
+     "letter": "D",
+     "text": "groter dan 250 te zijn"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 36,
+   "sub": "9.3",
+   "vraag": "Hoe zijn de voortplantingscondities op 10 m indien de zonneflux hoger is dan 120?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ze zijn goed"
+    },
+    {
+     "letter": "B",
+     "text": "er is geen voortplanting"
+    },
+    {
+     "letter": "C",
+     "text": "onvoorspelbaar"
+    },
+    {
+     "letter": "D",
+     "text": "slecht"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 37,
+   "sub": "9.3",
+   "vraag": "Hoe zijn de voortplantingscondities op 15 m indien de zonneflux ongeveer 60-70 bedraagt ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de condities zijn onvoorspelbaar"
+    },
+    {
+     "letter": "B",
+     "text": "voortplanting is onmogelijk"
+    },
+    {
+     "letter": "C",
+     "text": "de condities zijn zeer goed"
+    },
+    {
+     "letter": "D",
+     "text": "de condities zijn slecht"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 38,
+   "sub": "9.3",
+   "vraag": "Het meten we de zonneflux is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een methode om de afgelopen activiteit van de zon te meten"
+    },
+    {
+     "letter": "B",
+     "text": "een methode om de activiteit van de zon te meten vergeleken met de activiteit van de laatste 6 maand"
+    },
+    {
+     "letter": "C",
+     "text": "een methode om de geomagnetische activiteit van de zon te meten"
+    },
+    {
+     "letter": "D",
+     "text": "een methode om de zonneactiviteit dagelijks te meten"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 39,
+   "sub": "9.3",
+   "vraag": "Wat is de zonneflux?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de dichtheid van het magnetische veld van de zon"
+    },
+    {
+     "letter": "B",
+     "text": "de radioelectrische ruis uitgezonden door de zon"
+    },
+    {
+     "letter": "C",
+     "text": "het aantal zonnevlekken dat men kan tellen op de zon, zoals gezien van op aarde"
+    },
+    {
+     "letter": "D",
+     "text": "de meting van de lichtintensiteit van de zon"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 40,
+   "sub": "9.3",
+   "vraag": "De ionosfeer vertoont de grootste graad van ionisatie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "gedurende de nacht"
+    },
+    {
+     "letter": "B",
+     "text": "gedurende de winter"
+    },
+    {
+     "letter": "C",
+     "text": "bij het maximum van de zonnevlekkencyclus"
+    },
+    {
+     "letter": "D",
+     "text": "om de 12 u"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 41,
+   "sub": "9.3",
+   "vraag": "Tijdens het zonnevlekken-maximum",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de ionosfeer gemiddeld meer geïoniseerd dan tijdens het minimum"
+    },
+    {
+     "letter": "B",
+     "text": "is de ionosfeer gemiddeld minder geïoniseerd dan tijdens het minimum"
+    },
+    {
+     "letter": "C",
+     "text": "kan men dagelijks verbindingen maken op frequenties boven 100 MHz via ionosferische reflectie"
+    },
+    {
+     "letter": "D",
+     "text": "raakt de ionosfeer tot aan het aardoppervlakte"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 42,
+   "sub": "9.3",
+   "vraag": "De maximaal bruikbare frequentie (MUF)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de hoogste frequentie die men mag gebruiken volgens zijn vergunning"
+    },
+    {
+     "letter": "B",
+     "text": "is de hoogste frequentie op welke men, met een bepaalde zekerheid, betrouwbare radiocommunicatie heeft over een bepaald traject"
+    },
+    {
+     "letter": "C",
+     "text": "is de hoogste frequentie op welke men altijd met 100% zekerheid een betrouwbare communicatie heeft over een bepaald traject"
+    },
+    {
+     "letter": "D",
+     "text": "is hetzelfde als de kritische frequentie"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 43,
+   "sub": "9.3",
+   "vraag": "Als je een frequentie gebruikt die gelijk is aan de MUF (maximaal bruikbare frequentie)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "kan je steeds communiceren op HF met gelijk welk punt van de aarde"
+    },
+    {
+     "letter": "B",
+     "text": "wil dit zeggen dat je een bepaalde kans hebt  om te kunnen kan communiceren via ionosferische reflectie voor een welbepaald traject"
+    },
+    {
+     "letter": "C",
+     "text": "zullen de signalen steeds sterkst zijn"
+    },
+    {
+     "letter": "D",
+     "text": "gebeurt de voorplanting steeds via één enkele reflectie op de ionosfeer (1 enkele hop)"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 44,
+   "sub": "9.3",
+   "vraag": "De MUF (maximaal bruikbare frequentie)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is steeds gebonden aan een bepaald propagatietraject"
+    },
+    {
+     "letter": "B",
+     "text": "verandert alleen in functie van de zonnevlekkencyclus"
+    },
+    {
+     "letter": "C",
+     "text": "wordt gemeten door een ionosonde"
+    },
+    {
+     "letter": "D",
+     "text": "is steeds hoger dan 15 MHz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 45,
+   "sub": "9.3",
+   "vraag": "De MUF  (maximaal bruikbare frequentie)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "wordt gemeten door een ionosonde"
+    },
+    {
+     "letter": "B",
+     "text": "wordt afgeleid uit (de) kritische frequentie(s)"
+    },
+    {
+     "letter": "C",
+     "text": "blijft steeds constant voor een bepaalde plaats op aarde"
+    },
+    {
+     "letter": "D",
+     "text": "is onafhankelijk van de verticale (opstralings-)hoek van de gebruikte antenne"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 46,
+   "sub": "9.3",
+   "vraag": "Een hoge MUF (maximaal bruikbare frequentie)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "wil zeggen dat de propagatie op de lagere banden (1,8 en 3,5 MHz) best is gedurende de dag"
+    },
+    {
+     "letter": "B",
+     "text": "wil zeggen dat er goede propagatie is op 10 en 15 meter"
+    },
+    {
+     "letter": "C",
+     "text": "wil zeggen dat er veel fading is op de signalen"
+    },
+    {
+     "letter": "D",
+     "text": "wordt veroorzaakt door atmosferische storingen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 47,
+   "sub": "9.3",
+   "vraag": "Tijdens het zonnevlekkenmaximum kan een zeer hoge MUF (maximaal bruikbare frequentie)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "beduiden dat er mogelijk ionosferische propagatie is op 50 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "aanleiding geven tot black-outs (geen propagatie) op VHF en UHF"
+    },
+    {
+     "letter": "C",
+     "text": "beduiden dat er mogelijks atmosferische propagatie is boven de 400 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "er oorzaak van zijn dat alleen verbindingen gedurende de nacht mogelijk zijn"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 48,
+   "sub": "9.3",
+   "vraag": "Tengevolge van wat verandert de MUF (Maximum Usable Frequency) ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "tengevolge van de verandering van de temperatuur van de ionosfeer"
+    },
+    {
+     "letter": "B",
+     "text": "tengevolge van de verandering van de windsnelheden in de bovenste lagen van de ionosfeer"
+    },
+    {
+     "letter": "C",
+     "text": "ten gevolge van de verandering van de intensiteit van de zonnestraling"
+    },
+    {
+     "letter": "D",
+     "text": "tengevolge van de verandering van de refractie-index van de troposfeer"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 49,
+   "sub": "9.3",
+   "vraag": "Wat gebeurt met het bereik van de grondgolf als men de frequentie van een zender verhoogt?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het vergroot"
+    },
+    {
+     "letter": "B",
+     "text": "het verkleint"
+    },
+    {
+     "letter": "C",
+     "text": "het blijft gelijk"
+    },
+    {
+     "letter": "D",
+     "text": "radiosignalen planten zich niet voort langs de aarde"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 50,
+   "sub": "9.3",
+   "vraag": "Welke polarisatie heeft elk grondgolf signaal op HF?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Vertikaal"
+    },
+    {
+     "letter": "B",
+     "text": "Horizontaal"
+    },
+    {
+     "letter": "C",
+     "text": "Circulair"
+    },
+    {
+     "letter": "D",
+     "text": "Elliptisch"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 51,
+   "sub": "9.3",
+   "vraag": "De (op)stralingshoek van een radiogolf",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de hoek  van de radiogolf te opzichte van de aarde"
+    },
+    {
+     "letter": "B",
+     "text": "is de hoek  van de radiogolf ten opzichte van een lijn loodrecht op de aarde"
+    },
+    {
+     "letter": "C",
+     "text": "is steeds kleiner dan 90º"
+    },
+    {
+     "letter": "D",
+     "text": "hangt alleen af van de frequentie van de radiogolf"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 52,
+   "sub": "9.3",
+   "vraag": "Om een groter skip-afstand te bewerkstellen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Zal men de opstralingshoek moeten vergroten"
+    },
+    {
+     "letter": "B",
+     "text": "Zal men de opstralingshoek moeten verkleinen"
+    },
+    {
+     "letter": "C",
+     "text": "Zal me de opstralingshoek moeten vergroten of verkleinen afhankelijk van de gebruikte soort antenne"
+    },
+    {
+     "letter": "D",
+     "text": "De opstralingshoek beïnvloedt de skip-afstand niet"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 53,
+   "sub": "9.3",
+   "vraag": "Wat is de skip-afstand op HF niet:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "onafhankelijk van de dode zone"
+    },
+    {
+     "letter": "B",
+     "text": "Afhankelijk van de frequentie"
+    },
+    {
+     "letter": "C",
+     "text": "Afhankelijk van de opstralingshoek van de zendantenne"
+    },
+    {
+     "letter": "D",
+     "text": "Onafhankelijk van de opstralingshoek van de zendantenne"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 54,
+   "sub": "9.3",
+   "vraag": "De skip-afstand is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De langste afstand tussen de zender en de plaats waar door de ionosfeer weerkaatste golven worden ontvangen"
+    },
+    {
+     "letter": "B",
+     "text": "De kortste afstand tussen de zender en de dichtstbijgelegen plaats waar door de ionosfeer weerkaatste golven worden ontvangen"
+    },
+    {
+     "letter": "C",
+     "text": "De afstand tussen de zendantenne en de ontvangstantenne"
+    },
+    {
+     "letter": "D",
+     "text": "De afstand tussen het einde van de skip-zone en de ontvangstantenne"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 55,
+   "sub": "9.3",
+   "vraag": "Fading op de HF-banden wordt meestal veroorzaakt door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het gebruik van een te klein zendvermogen"
+    },
+    {
+     "letter": "B",
+     "text": "regengebieden tussen zender en ontvanger"
+    },
+    {
+     "letter": "C",
+     "text": "het samen bestaan van twee of meerdere verschillende propagatiewegen"
+    },
+    {
+     "letter": "D",
+     "text": "verontreiniging van de atmosfeer"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 56,
+   "sub": "9.3",
+   "vraag": "Welke signaal wordt door selectieve fading het meest gestoord qua verstaanbaarheid?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "AM"
+    },
+    {
+     "letter": "B",
+     "text": "CW"
+    },
+    {
+     "letter": "C",
+     "text": "SSB (EZB)"
+    },
+    {
+     "letter": "D",
+     "text": "FM"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 57,
+   "sub": "9.3",
+   "vraag": "Wat is multi-pad (Engels: multi path) ontvangst op VHF en hoger?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ontvangst door middel van meerdere antennes"
+    },
+    {
+     "letter": "B",
+     "text": "het fenomeen waarbij de ontvangen golven, bvb door reflectie uit verschillende richtingen worden ontvangen met daaruit volgende onderlinge faseverschuiving"
+    },
+    {
+     "letter": "C",
+     "text": "gelijktijdige ontvangst via het korte pad en het lange pad"
+    },
+    {
+     "letter": "D",
+     "text": "ontvangst van radiogolven via het lange pad"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 58,
+   "sub": "9.3",
+   "vraag": "Wat is een mogelijke oorzaak van propagatie op 432 MHz over een afstand van 1000 km?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een zone van lage luchtdruk"
+    },
+    {
+     "letter": "B",
+     "text": "een uitgestrekte zone van temperatuurinversie"
+    },
+    {
+     "letter": "C",
+     "text": "een hemel die bedekt is met cirruswolken"
+    },
+    {
+     "letter": "D",
+     "text": "een zone van hoge luchtdruk"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 59,
+   "sub": "9.3",
+   "vraag": "VHF-verbindingen over lange afstand worden sterk beïnvloed door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de ionosfeer"
+    },
+    {
+     "letter": "B",
+     "text": "de zonnevlekkencyclus"
+    },
+    {
+     "letter": "C",
+     "text": "de ultraviolet zonnestraling"
+    },
+    {
+     "letter": "D",
+     "text": "temperatuurinversies"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 60,
+   "sub": "9.3",
+   "vraag": "In welke laag van de atmosfeer treedt VHF ducting op?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "in de F2-laag"
+    },
+    {
+     "letter": "B",
+     "text": "in de ionosfeer"
+    },
+    {
+     "letter": "C",
+     "text": "in de troposfeer"
+    },
+    {
+     "letter": "D",
+     "text": "in de stratosfeer"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 61,
+   "sub": "9.3",
+   "vraag": "Wat veroorzaakt het fenomeen van ducting op VHF-UHF?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een enkele temperatuursinversie"
+    },
+    {
+     "letter": "B",
+     "text": "het noorderlicht (aurora)"
+    },
+    {
+     "letter": "C",
+     "text": "een stormzone tussenin de twee stations"
+    },
+    {
+     "letter": "D",
+     "text": "twee temperatuurinversies"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 62,
+   "sub": "9.3",
+   "vraag": "Scattering (verstrooiing) is het fenomeen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Dat alleen optreedt tijdens de winter"
+    },
+    {
+     "letter": "B",
+     "text": "Waarbij een radiogolf  een voorwerp raakt waardoor de golf afgebogen worden en in alle richtingen verspreid"
+    },
+    {
+     "letter": "C",
+     "text": "Dat alleen optreedt bij regen en sneeuw"
+    },
+    {
+     "letter": "D",
+     "text": "Waarbij radiogolven van verschillende bronnen met elkaar mengen en interfereren"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 63,
+   "sub": "9.3",
+   "vraag": "Scattering (verstrooiing) is een der fenomenen die het mogelijk maken",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Meer dan 5000km te overbruggen op 50 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "Te werken op 145 MHz via ionosferische reflectie"
+    },
+    {
+     "letter": "C",
+     "text": "Op locaties die visueel afgeschermd zijn van de zendantenne, toch ontvangst mogelijk is"
+    },
+    {
+     "letter": "D",
+     "text": "De echo van zijn eigen signaal te horen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 64,
+   "sub": "9.3",
+   "vraag": "Welk fenomeen kan laten vermoeden dat er sporadische E-reflectie kan optreden op 6m en 2m?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een hoog ruisniveau op de 80 meterband"
+    },
+    {
+     "letter": "B",
+     "text": "het ontbreken van alle signalen op 10 m"
+    },
+    {
+     "letter": "C",
+     "text": "goede lange-afstand propagatie op 10 m"
+    },
+    {
+     "letter": "D",
+     "text": "zeer sterke signalen op 10 komende van afstanden tussen 300 en 1000 km"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 65,
+   "sub": "9.3",
+   "vraag": "Wat is propagatie via sporadische E-reflectie ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "variaties in hoogte van de E-laag, veroorzaakt door variaties in de zonnevlekkencyclus"
+    },
+    {
+     "letter": "B",
+     "text": "een kortstondige verhoging van de sterkte van signalen op VHF, veroorzaakt door meteorieten die de E-laag binnendringen"
+    },
+    {
+     "letter": "C",
+     "text": "zones van dense ionisatiegraad in de E-laag"
+    },
+    {
+     "letter": "D",
+     "text": "een geleiding (duct) die zich vormt in de E-laag\t"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 66,
+   "sub": "9.3",
+   "vraag": "Op welke amateurband kan sporadische E propagatie er de oorzaak van dat contacten over afstanden tot 10000 km kunnen worden gemaakt?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2 meterband"
+    },
+    {
+     "letter": "B",
+     "text": "6 meterband"
+    },
+    {
+     "letter": "C",
+     "text": "20 meterband"
+    },
+    {
+     "letter": "D",
+     "text": "160 meterband"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 67,
+   "sub": "9.3",
+   "vraag": "Aurora-reflectie treedt voornamelijk op bij frequenties:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "lager dan 100 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "van 100 kHz tot 30 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "van 30 MHz tot 1 GHz"
+    },
+    {
+     "letter": "D",
+     "text": "boven 1 GHz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 68,
+   "sub": "9.3",
+   "vraag": "Om van uit België verbindingen te maken via aurora reflectie, moet men de antenne richten:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "in de richting van het station dat men wil contacteren"
+    },
+    {
+     "letter": "B",
+     "text": "90 graden uit de richting van het station dat men wil contacteren"
+    },
+    {
+     "letter": "C",
+     "text": "ongeveer naar het Noorden"
+    },
+    {
+     "letter": "D",
+     "text": "ongeveer naar het Zuiden"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 69,
+   "sub": "9.3",
+   "vraag": "Aurora-reflectie treedt op als indirect gevolg van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zonne-eruptie"
+    },
+    {
+     "letter": "B",
+     "text": "hoge luchtdruk"
+    },
+    {
+     "letter": "C",
+     "text": "onweersactiviteit"
+    },
+    {
+     "letter": "D",
+     "text": "temperatuursinversie"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 70,
+   "sub": "9.3",
+   "vraag": "Op welke amateurband komt lange-afstand voorplanting veroorzaakt door aurora meest frequent voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2 meter"
+    },
+    {
+     "letter": "B",
+     "text": "6 meter"
+    },
+    {
+     "letter": "C",
+     "text": "20 meter"
+    },
+    {
+     "letter": "D",
+     "text": "160 meter"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 71,
+   "sub": "9.3",
+   "vraag": "verbindingen via meteorscatter",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Geven een zeer betrouwbare link met constant sterke signalen"
+    },
+    {
+     "letter": "B",
+     "text": "Worden vooral gemaakt op de 80m en de 160m band"
+    },
+    {
+     "letter": "C",
+     "text": "Bestaan uit kortstondige propagatie-pieken"
+    },
+    {
+     "letter": "D",
+     "text": "Kunnen alleen gebeuren als zeer grote meteorieten in de dampkring van de aarde komen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 72,
+   "sub": "9.3",
+   "vraag": "Radioverbindingen via meteorscatter",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Gebeuren meestal op frequenties tussen 30 en 500 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "Gebeuren alleen op frequenties onder de 30 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "Gebeuren alleen op de 2meterband"
+    },
+    {
+     "letter": "D",
+     "text": "Gebeuren alleen op frequenties boven 200 MHz"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 73,
+   "sub": "9.3",
+   "vraag": "De typische duur van een meteor scatter signaal op 144 MHz is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "maximaal enkele fracties van een seconde"
+    },
+    {
+     "letter": "B",
+     "text": "enkele fracties van een seconde tot meer dan een minuut"
+    },
+    {
+     "letter": "C",
+     "text": "enkele tientallen seconden tot enkele minuten"
+    },
+    {
+     "letter": "D",
+     "text": "enkele minuten tot enkele uren"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 74,
+   "sub": "9.3",
+   "vraag": "Verbindingen via EME (reflectie op de maan)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Geven steeds een zeer betrouwbare communicatielink"
+    },
+    {
+     "letter": "B",
+     "text": "Gebeuren doorgaans op de 20 en 15m band"
+    },
+    {
+     "letter": "C",
+     "text": "Hebben een pad-verlies dat meer dan 500 dB bedraagt op 144 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "Hebben een pad-verlies dat meer dan 200 dB bedraagt op 144 MHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 75,
+   "sub": "9.3",
+   "vraag": "In het geval van EME (reflectie op de maan)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Kan men nooit een echo van zijn eigen signaal horen"
+    },
+    {
+     "letter": "B",
+     "text": "Is de tijd waarna men de echo van zijn signaal hoort afhankelijk van de frequentie waarop men werkt"
+    },
+    {
+     "letter": "C",
+     "text": "Is de tijd waarna men zijn echo hoort 2,5 seconden"
+    },
+    {
+     "letter": "D",
+     "text": "Moet het volle maan zijn om de beste resultaten te bereiken"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 76,
+   "sub": "9.3",
+   "vraag": "Welk van de onderstaande frequenties is het meest geschikt om een radioverbinding via maanreflecties te maken",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1,8 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "28 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "430 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "76 GHz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 77,
+   "sub": "9.3",
+   "vraag": "Men maakt gebruikt van radioreflecties aan de maan om",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Met een zeer klein zendvermogen zeer grote afstanden te overbruggen"
+    },
+    {
+     "letter": "B",
+     "text": "Op elk ogenblik eender welke plaats op aarde te kunnen bereiken"
+    },
+    {
+     "letter": "C",
+     "text": "Zeer grote afstanden te kunnen overbruggen op zeer lage frequenties"
+    },
+    {
+     "letter": "D",
+     "text": "Zeer grote afstanden te overbruggen op VHF of UHF, waar dit niet mogelijk is via andere propagatiemethodes"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 78,
+   "sub": "9.3",
+   "vraag": "Bij een radioverbinding die gebruik maakt van reflecties aan de maan duurt het ongeveer",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,025 seconden voordat het signaal terug de aarde bereikt"
+    },
+    {
+     "letter": "B",
+     "text": "0,25 seconden voordat het signaal terug de aarde bereikt"
+    },
+    {
+     "letter": "C",
+     "text": "2,5 seconden voordat het signaal terug de aarde bereikt"
+    },
+    {
+     "letter": "D",
+     "text": "25 seconden voordat het signaal terug de aarde bereikt"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 79,
+   "sub": "9.3",
+   "vraag": "Atmosferische ruis wordt veroorzaakt door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Kosmische stralen"
+    },
+    {
+     "letter": "B",
+     "text": "Onweer"
+    },
+    {
+     "letter": "C",
+     "text": "Zonne-uitbarstingen"
+    },
+    {
+     "letter": "D",
+     "text": "Stralende digitale schakelingen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 80,
+   "sub": "9.3",
+   "vraag": "Een mogelijke oorzaak van atmosferische ruis is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Slecht ontstoorde machines"
+    },
+    {
+     "letter": "B",
+     "text": "Onweer op grote afstand"
+    },
+    {
+     "letter": "C",
+     "text": "Zonne-activiteit"
+    },
+    {
+     "letter": "D",
+     "text": "Sterren en andere ruisbronnen in het heelal"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 81,
+   "sub": "9.3",
+   "vraag": "Zonneruis kan storend optreden bij:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Ontvangst op de lagere HF-banden"
+    },
+    {
+     "letter": "B",
+     "text": "Ontvangst van EME signalen als de maan in ongeveer dezelfde richting staat als de zon"
+    },
+    {
+     "letter": "C",
+     "text": "Ontvangst van signalen boven 28 MHz bij aurora"
+    },
+    {
+     "letter": "D",
+     "text": "Alleen gedurende jaren van hoge zonne-activiteit"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 82,
+   "sub": "9.3",
+   "vraag": "Galactische ruis wordt veroorzaakt door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "sterren en andere ruisbronnen in het heelal"
+    },
+    {
+     "letter": "B",
+     "text": "slecht ontstoorde machines"
+    },
+    {
+     "letter": "C",
+     "text": "onweer op grote afstand"
+    },
+    {
+     "letter": "D",
+     "text": "de ontvanger"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 83,
+   "sub": "9.3",
+   "vraag": "In stedelijke gebieden zal de signaal/ruiverhouding op de HF banden in eerste instantie bepaald zijn door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Ontvanger-ruis"
+    },
+    {
+     "letter": "B",
+     "text": "Atmosferische ruis"
+    },
+    {
+     "letter": "C",
+     "text": "Door de mens gegenereerde ruis"
+    },
+    {
+     "letter": "D",
+     "text": "Zonneruis en galactische ruis"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 84,
+   "sub": "9.3",
+   "vraag": "De thermische ruis",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is proportioneel met de temperatuur, uitgedrukt in graden Celcius"
+    },
+    {
+     "letter": "B",
+     "text": "is propertioneel met de absolute temperatuur, uitgedruk in Kelvin"
+    },
+    {
+     "letter": "C",
+     "text": "is proportioneel met het kwadraat van de absolute temperatuur"
+    },
+    {
+     "letter": "D",
+     "text": "is omgekeerd evenredig met het kwadraat van de absolute temperatuur"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 85,
+   "sub": "9.3",
+   "vraag": "In een weerstand produceren de vrije elektronen een ruisvermogen. Dit vermogen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is afhankelijk van de zonnevlekkencyclus"
+    },
+    {
+     "letter": "B",
+     "text": "is gelijk aan P = k·R·T·B waar K gelijk is aan de constante van Bolzman, R de weerstandwaarde, T de absolute temperatuur en B de bandbreedte"
+    },
+    {
+     "letter": "C",
+     "text": "is gelijk aan P = k·T·B waar K gelijk is aan de constante van Bolzman, T de absolute temperatuur en B de bandbreedte"
+    },
+    {
+     "letter": "D",
+     "text": "hangt alleen af van de bandbreedte van het systeem"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 86,
+   "sub": "9.3",
+   "vraag": "Een verbindingsbilan of propagartiebudget opmaken wil zeggen:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Het ingangsvermogen aan de ontvanger te kennen"
+    },
+    {
+     "letter": "B",
+     "text": "De ruis aan de ingang van de ontvanger te vergelijken met de ruis na demodulatie"
+    },
+    {
+     "letter": "C",
+     "text": "De mogelijkheden van voortplanting via difractie vast te stellen"
+    },
+    {
+     "letter": "D",
+     "text": "De mogelijkheden van voortplating via refractie vast te stellen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 87,
+   "sub": "9.3",
+   "vraag": "Een propagatiebudget (verbindingsbilan) openmaken wil zeggen:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Berekenen op welk ogenblik van de dag de kans het grootst is om tussen twee plaatsen een betrouwbare radiolink op te zetten"
+    },
+    {
+     "letter": "B",
+     "text": "De nodige berekeningen doen om alle technische parameters te kennen die nodig zijn om een betrouwbare radiolink op te zetten"
+    },
+    {
+     "letter": "C",
+     "text": "De nodige berekeningen doen om de vereiste investeringen te kennen om een betrouwbare radiolink op te zetten"
+    },
+    {
+     "letter": "D",
+     "text": "Berekenen hoeveel vermogen men nodig heeft om op een bepaalde frequentie een betrouwbare link op te zetten"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 88,
+   "sub": "9.3",
+   "vraag": "Het ruisvermogen (PR) van een ontvanger wordt gegeven door volgende formule",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "PR  = k·T·B  waarbij k = de constante van Ehlers, T = de temperatuur in Kelvin, en B de bandbreedte in Hz"
+    },
+    {
+     "letter": "B",
+     "text": "PR  = k·T·B  waarbij k = de constante van Ehlers, T = de temperatuur in º Celcius, en B de bandbreedte in Hz"
+    },
+    {
+     "letter": "C",
+     "text": "PR  = k·T·B  waarbij k = de constante van Bolzmann, T = de temperatuur in º Celcius, en B de bandbreedte in Hz"
+    },
+    {
+     "letter": "D",
+     "text": "PR  = k·T·B  waarbij k = de constante van Bolzmann, T = de temperatuur in Kelvin, en B de bandbreedte in Hz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 89,
+   "sub": "9.3",
+   "vraag": "Hoe kan men het vermogen van de interne ruis in een ontvanger verminderen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Door de totale versterking op te drijven"
+    },
+    {
+     "letter": "B",
+     "text": "Door de totale versterking te verminderen"
+    },
+    {
+     "letter": "C",
+     "text": "Door de bandbreedte te verkleinen"
+    },
+    {
+     "letter": "D",
+     "text": "Door de bandbreedte te vergroten"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  }
+ ]
+}

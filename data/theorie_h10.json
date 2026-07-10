@@ -1,0 +1,82 @@
+{
+ "hoofdstuk": 10,
+ "titel": "Meettoestellen en meten",
+ "bron": "UBA-handboek h10 · IRTS HAREC Study Guide (2024) hfst. 17 · metingen.xls",
+ "subhoofdstukken": [
+  {
+   "id": "10.1",
+   "titel": "Meettoestellen",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Om een station op te bouwen, af te regelen en te onderhouden, heb je meetinstrumenten nodig. De belangrijkste zijn de multimeter, de oscilloscoop, de SWR-/vermogensmeter, de dummy load en de frequentieteller."
+    },
+    {
+     "type": "concept",
+     "titel": "De multimeter",
+     "essentie": "Meet spanning (parallel), stroom (in serie) en weerstand. De ideale voltmeter heeft oneindige, de ampèremeter nul inwendige weerstand.",
+     "detail": {
+      "uitleg": "De **multimeter** meet spanning, stroom en weerstand. Een **voltmeter** meet je **parallel** over het te meten onderdeel; ideaal heeft hij een oneindig hoge inwendige weerstand, zodat hij geen stroom aftapt en de meting niet verstoort. Een **ampèremeter** plaats je **in serie** in de kring; ideaal heeft hij nul inwendige weerstand, zodat hij geen spanning wegneemt. Een **ohmmeter** meet weerstand (met de kring spanningsloos!). Analoge meters gebruiken een draaispoelmechanisme; digitale meters (DMM) tonen een cijferwaarde en belasten de kring minder.",
+      "voorbeeld": "Wil je de voedingsspanning van je transceiver meten, dan zet je de voltmeter parallel over de aansluitklemmen. Wil je de stroom meten, dan moet je de kring openbreken en de ampèremeter ertussen plaatsen.",
+      "analogie": "Een voltmeter meet het 'hoogteverschil' (spanning) zonder in de stroom te stappen — je kijkt van opzij. Een ampèremeter moet in de rivier gaan staan om te tellen hoeveel water er per seconde passeert."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Oscilloscoop, SWR-meter en dummy load",
+     "essentie": "De oscilloscoop toont het signaal in de tijd, de SWR-meter de aanpassing, en de dummy load laat je afregelen zonder uit te zenden.",
+     "detail": {
+      "uitleg": "De **oscilloscoop** toont de vorm van een signaal in het tijdsdomein (§1.8/2.2): amplitude tegen de tijd — ideaal om golfvormen, modulatie en vervorming te bekijken. De **SWR-/vermogensmeter** (§8.4) meet de staandegolfverhouding en het vermogen op de antennelijn, om de antenne af te regelen. De **dummy load** (kunstantenne) is een weerstand van 50 Ω die het zendvermogen in warmte omzet: zo kan je een zender testen en afregelen **zonder werkelijk uit te zenden** (en dus zonder anderen te storen). Een **frequentieteller** meet de frequentie nauwkeurig; een **dip-meter** helpt resonantiefrequenties opsporen.",
+      "voorbeeld": "Voor je een nieuwe zender op de antenne aansluit, test je hem op een dummy load: je regelt hem af, controleert het vermogen en het signaal, allemaal zonder de band te storen. Pas als alles klopt, ga je op de antenne.",
+      "analogie": "Een dummy load is als een geluiddichte oefenruimte: je kan er je 'instrument' (zender) volop testen en afregelen zonder dat de buren (andere radioamateurs) er iets van horen."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Spectrumanalyser, signaalgenerator, frequentieteller en antenne-analyser",
+     "essentie": "De spectrumanalyser toont het frequentiespectrum, de signaalgenerator levert een testsignaal, de frequentieteller meet de frequentie en de antenne-analyser meet SWR/impedantie over een bereik.",
+     "detail": {
+      "uitleg": "Naast de basisinstrumenten zijn er gespecialiseerde meettoestellen. De **spectrumanalyser** toont een signaal in het **frequentiedomein** (amplitude per frequentie) — ideaal om harmonischen, nevenproducten en de spectrale zuiverheid van een zender te controleren. De **signaalgenerator** levert een nauwkeurig, instelbaar testsignaal om ontvangers en filters af te regelen. De **frequentieteller** meet de frequentie zeer nauwkeurig (digitaal tellen van de cycli). De **veldsterktemeter** meet de relatieve sterkte van het uitgestraalde veld (handig bij het richten van antennes). De **antenne-analyser** meet de **SWR en impedantie** van een antenne over een heel frequentiebereik, zodat je de resonantiefrequentie en bandbreedte in één meting ziet — veel handiger dan enkel een SWR-meter bij één frequentie.",
+      "voorbeeld": "Met een antenne-analyser sluit je je antenne aan en zie je meteen op welke frequentie de SWR minimaal is (de resonantie) en hoe breed de bruikbare band is — zonder te moeten zenden. Met een spectrumanalyser controleer je of je zender geen te sterke harmonischen uitstraalt.",
+      "analogie": "De spectrumanalyser is als een prisma dat je signaal in 'kleuren' (frequenties) ontleedt; de antenne-analyser is als een dokter die in één scan de 'gezondheid' (SWR over de band) van je antenne toont."
+     }
+    },
+    {
+     "type": "warning",
+     "titel": "Let op — dummy load wordt heet",
+     "inhoud": "Een dummy load zet al het zendvermogen om in **warmte**. Bij langdurig of hoog vermogen wordt hij zeer heet en kan hij beschadigd raken. Respecteer de opgegeven vermogens- en tijdslimieten."
+    }
+   ]
+  },
+  {
+   "id": "10.2",
+   "titel": "Meten",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Correct meten vraagt de juiste methode en aandacht voor de invloed van het meetinstrument zelf. Enkele veelgebruikte metingen in de shack."
+    },
+    {
+     "type": "concept",
+     "titel": "Vermogen meten per modulatietype",
+     "essentie": "De manier om zendvermogen te meten hangt af van de mode: bij CW/FM is de draaggolf constant, bij AM/SSB varieert ze.",
+     "detail": {
+      "uitleg": "Het **zendvermogen** meet je met een vermogensmeter op de lijn, maar de aflezing hangt af van de mode. Bij **CW en FM** is de amplitude constant, dus je meet gewoon het draaggolfvermogen. Bij **AM** varieert de amplitude met de modulatie. Bij **SSB** is er geen constante draaggolf: het vermogen varieert voortdurend met de spraak, en men spreekt van **piekvermogen (PEP, peak envelope power)** — het vermogen op de toppen van de omhullende. De vergunningslimieten (h15) worden meestal in PEP uitgedrukt.",
+      "voorbeeld": "Een SSB-zender die '100 W PEP' levert, geeft die 100 W enkel op de luidste spraaktoppen; gemiddeld is het veel minder. Een CW-zender van 100 W levert daarentegen continu 100 W zolang de sleutel neer is.",
+      "analogie": "CW-vermogen meten is als de snelheid van een auto met vaste cruisecontrol aflezen (constant). SSB-vermogen is als de topsnelheid bij het inhalen aflezen (PEP): het gemiddelde ligt lager, maar de piek telt voor de limiet."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Invloed van het meetinstrument",
+     "essentie": "Elk instrument belast de kring een beetje. Kies een instrument dat de meting zo min mogelijk verstoort.",
+     "detail": {
+      "uitleg": "Elke meting verstoort de kring een beetje: een voltmeter tapt wat stroom af, een ampèremeter neemt wat spanning weg. Hoe dichter het instrument bij ideaal (voltmeter: hoge weerstand; ampèremeter: lage weerstand), hoe kleiner die invloed. Bij hoogfrequente metingen spelen ook de meetdraden en -sondes mee (parasitaire capaciteit/inductie, §2.4). Meet dus met geschikte instrumenten en methodes, en wees je bewust van de meetfout. Meet weerstand steeds in een **spanningsloze** kring, anders beschadig je de ohmmeter of lees je fout af.",
+      "voorbeeld": "Meet je een hoge weerstand met een goedkope voltmeter met lage ingangsweerstand, dan tapt die meter zoveel stroom af dat je een te lage spanning afleest. Een digitale meter met hoge ingangsweerstand geeft de juiste waarde.",
+      "analogie": "Meten is als de temperatuur van een klein kopje water meten met een grote, koude thermometer: het instrument beïnvloedt zelf het resultaat. Een klein, aangepast instrument verstoort minder."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1336 @@
+{
+ "hoofdstuk": "h06",
+ "vragen": [
+  {
+   "id": 2,
+   "sub": "6.1",
+   "vraag": "Welk soort zender stelt het blokschema voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een AM zender"
+    },
+    {
+     "letter": "B",
+     "text": "een zender met frequentievermenigvuldiging"
+    },
+    {
+     "letter": "C",
+     "text": "een EZB zender"
+    },
+    {
+     "letter": "D",
+     "text": "een zender met frequentietransformatie"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h06/fig-r2.png"
+  },
+  {
+   "id": 3,
+   "sub": "6.1",
+   "vraag": "Het principe van een zender met frequentievermenigvuldiging wordt",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "steeds meer en meer gebruikt"
+    },
+    {
+     "letter": "B",
+     "text": "vooral gebruikt in EZB zenders"
+    },
+    {
+     "letter": "C",
+     "text": "vooral gebruikt in eenvoudige FM zenders"
+    },
+    {
+     "letter": "D",
+     "text": "zo goed als niet meer gebruikt"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 4,
+   "sub": "6.1",
+   "vraag": "Indien men een kristal gebruikt op 8 MHz, wat kan het vermenigvuldigingsschema eruit zien om een FM-zender voor 144 MHz te bouwen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "x 3 x 3 x 2"
+    },
+    {
+     "letter": "B",
+     "text": "x 5 x 2 x 2"
+    },
+    {
+     "letter": "C",
+     "text": "x 2 x 2 x 2"
+    },
+    {
+     "letter": "D",
+     "text": "x 3 x 3 x 3"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 5,
+   "sub": "6.1",
+   "vraag": "Hoe noemt men de trap in een zender die ervoor zorgt dat de frequentie verhoogd wordt?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de lokale oscillator"
+    },
+    {
+     "letter": "B",
+     "text": "de frequentievermenigvuldiger"
+    },
+    {
+     "letter": "C",
+     "text": "de modulator"
+    },
+    {
+     "letter": "D",
+     "text": "de HF-versterker"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 6,
+   "sub": "6.1",
+   "vraag": "Een frequentievermenigvuldiger is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een lineaire trap waar de uitgangskring is afgestemd op een harmonische van de frequentie van de ingangskring"
+    },
+    {
+     "letter": "B",
+     "text": "een niet lineaire trap waar de uitgangskring is afgestemd op een harmonische van de frequentie van de ingangskring"
+    },
+    {
+     "letter": "C",
+     "text": "een niet lineaire trap waar de ingangskring en de uitgangskring afgestemd zijn op een harmonische van het stuursignaal"
+    },
+    {
+     "letter": "D",
+     "text": "een lineaire trap waar de ingangskring is afgestemd op een harmonische van de frequentie van de uitgangskring"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 7,
+   "sub": "6.1",
+   "vraag": "Zenders met frequentietransformatie worden",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "alleen gebruikt op VHF/UHF"
+    },
+    {
+     "letter": "B",
+     "text": "zeer courant gebruikt zowel op HF als op VHF/UHF"
+    },
+    {
+     "letter": "C",
+     "text": "alleen gebruikt op HF"
+    },
+    {
+     "letter": "D",
+     "text": "nooit gebruikt voor EZB-zenders"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 8,
+   "sub": "6.1",
+   "vraag": "Welk soort zender stelt het blokschema voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een AM zender"
+    },
+    {
+     "letter": "B",
+     "text": "een zender zonder frequentietransformatie"
+    },
+    {
+     "letter": "C",
+     "text": "een EZB zender"
+    },
+    {
+     "letter": "D",
+     "text": "een zender met frequentietransformatie"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h06/fig-r8.png"
+  },
+  {
+   "id": 9,
+   "sub": "6.1",
+   "vraag": "de modulator van een telegrafiezender bestaat uit",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een gebalanceerde ringmodulator"
+    },
+    {
+     "letter": "B",
+     "text": "een eenvoudige aan-uit schakeling van een versterker"
+    },
+    {
+     "letter": "C",
+     "text": "een enkelfazige amplitudemodulator"
+    },
+    {
+     "letter": "D",
+     "text": "een fazegstuurde ringmodulator"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 10,
+   "sub": "6.1",
+   "vraag": "de eindtrap van een telegrafiezender",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "moet steeds in klasse A werken"
+    },
+    {
+     "letter": "B",
+     "text": "mag in klasse C werken"
+    },
+    {
+     "letter": "C",
+     "text": "mag nooit in klasse C werken"
+    },
+    {
+     "letter": "D",
+     "text": "moet steeds in klasse A of AB werken"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 11,
+   "sub": "6.1",
+   "vraag": "De stuurtrap van een laag vermogen (vb 100 W) EZB zender werkt meestal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": " in klasse A"
+    },
+    {
+     "letter": "B",
+     "text": "klasse B"
+    },
+    {
+     "letter": "C",
+     "text": "in klasse AB"
+    },
+    {
+     "letter": "D",
+     "text": "in klasse C"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 12,
+   "sub": "6.1",
+   "vraag": "Een vermogenversterker van een EZB (SSB) zender",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "mag nooit in klasse-C werken"
+    },
+    {
+     "letter": "B",
+     "text": "moet steeds in klasse C werken"
+    },
+    {
+     "letter": "C",
+     "text": "moet steeds in klasse A werken"
+    },
+    {
+     "letter": "D",
+     "text": "moet steeds in klasse B werken"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 13,
+   "sub": "6.1",
+   "vraag": "In welke van volgende zenders wordt het frequentievermenigvuldigingsprincipe in de regel nooit toegepast voor het genereren van het signaal:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een CW zender"
+    },
+    {
+     "letter": "B",
+     "text": "Een PM-zender"
+    },
+    {
+     "letter": "C",
+     "text": "Een FM-zender"
+    },
+    {
+     "letter": "D",
+     "text": "Een EZB-zender (SSB)"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 14,
+   "sub": "6.1",
+   "vraag": "Wat is de benaming van de trap aangeduid met ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "HF versterker"
+    },
+    {
+     "letter": "B",
+     "text": "EZB-filter"
+    },
+    {
+     "letter": "C",
+     "text": "Audio processor"
+    },
+    {
+     "letter": "D",
+     "text": "Mengtrap"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h06/fig-r14.png"
+  },
+  {
+   "id": 15,
+   "sub": "6.1",
+   "vraag": "Wat is de benaming van de trap aangeduid met ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "HF versterker"
+    },
+    {
+     "letter": "B",
+     "text": "EZB-filter"
+    },
+    {
+     "letter": "C",
+     "text": "Audio processor"
+    },
+    {
+     "letter": "D",
+     "text": "Mengtrap"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h06/fig-r15.png"
+  },
+  {
+   "id": 16,
+   "sub": "6.1",
+   "vraag": "Wat is de benaming van de trap aangeduid met ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "HF versterker"
+    },
+    {
+     "letter": "B",
+     "text": "EZB-filter"
+    },
+    {
+     "letter": "C",
+     "text": "Balans-modulator"
+    },
+    {
+     "letter": "D",
+     "text": "Mengtrap"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h06/fig-r16.png"
+  },
+  {
+   "id": 17,
+   "sub": "6.1",
+   "vraag": "In een EZB (SSB) zender wordt een LSB signaal, opgewekt op 9 MHz gemengd met een signaal van 5 - 5.5 MHz om als mengproduct de 80 of 20 m band te bestrijken. De selectie gebeurt door gebruik van een gepast banddoorlaatfilter in te schakelen.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de mengproducten zijn een LSB signaal op 80 en op 20 meter"
+    },
+    {
+     "letter": "B",
+     "text": "de mengproducten zijn een LSB signaal op 80 m en een USB (hogere zijband) signaal op 20 meter"
+    },
+    {
+     "letter": "C",
+     "text": "de mengproducten zijn een USB (hogere zijband) signaal op 80 m en een LSB signaal op 20 meter"
+    },
+    {
+     "letter": "D",
+     "text": "de mengproducten zijn een USB (hogere zijband) signaal op 80 en op 20 meter"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 18,
+   "sub": "6.1",
+   "vraag": "Een mengtrap is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een lineaire trap"
+    },
+    {
+     "letter": "B",
+     "text": "een niet-lineaire trap"
+    },
+    {
+     "letter": "C",
+     "text": "een kwadratische trap"
+    },
+    {
+     "letter": "D",
+     "text": "een schakeling die niet bestaat"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 19,
+   "sub": "6.1",
+   "vraag": "Een VXO",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "heeft de stabiliteit van een kristaloscillator"
+    },
+    {
+     "letter": "B",
+     "text": "wordt courant gebruikt in commerciële FM-zenders om de zendfrequentie bij te sturen"
+    },
+    {
+     "letter": "C",
+     "text": "laat een grote frequentieverandering toe"
+    },
+    {
+     "letter": "D",
+     "text": "gebruikt een kristal om de spanning te stabiliseren"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 20,
+   "sub": "6.1",
+   "vraag": "Welke soort oscillator heeft de grootste stabiliteit ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een LC oscillator"
+    },
+    {
+     "letter": "B",
+     "text": "een kristaloscillator"
+    },
+    {
+     "letter": "C",
+     "text": "een RC oscillator"
+    },
+    {
+     "letter": "D",
+     "text": "een VCO"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 21,
+   "sub": "6.1",
+   "vraag": "De frequentiestabiliteit van een zender wordt bepaald door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de frequentiestabiliteit van de verschillende oscillatoren in de zender"
+    },
+    {
+     "letter": "B",
+     "text": "enkel de frequentiestabiliteit van de VFO"
+    },
+    {
+     "letter": "C",
+     "text": "de gebruikte modulatiesoort"
+    },
+    {
+     "letter": "D",
+     "text": "de klasse-instelling van de eindversterker"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 22,
+   "sub": "6.1",
+   "vraag": "De scheidingstrap of buffertrap in een zender",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "dient hoofdzakelijk om de belasting van de oscillator the minimaliseren"
+    },
+    {
+     "letter": "B",
+     "text": "dient hoofdzakelijk om de lagere van de hogere zijband te scheiden in een EZB-zender"
+    },
+    {
+     "letter": "C",
+     "text": "dient hoofdzakelijk om het HF signaal voldoende te versterken om aan de eindtrap toe te voeren"
+    },
+    {
+     "letter": "D",
+     "text": "wordt alleen gebruikt in een AM-zender"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 23,
+   "sub": "6.1",
+   "vraag": "De stuurtrap of driver in een zender is de trap",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "die ervoor zorgt dat de oscillator niet te veel wordt belast"
+    },
+    {
+     "letter": "B",
+     "text": "die ervoor zorgt dat er voldoende stuurvermogen of stuurspanning is om de eind versterker uit te sturen."
+    },
+    {
+     "letter": "C",
+     "text": "waar de modulatie gebeurt"
+    },
+    {
+     "letter": "D",
+     "text": "de signalen worden gegenereerd die de verschillende oscillatoren sturen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 24,
+   "sub": "6.1",
+   "vraag": "In een balansversterker worden",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de even harmonischen extra onderdrukt"
+    },
+    {
+     "letter": "B",
+     "text": "de oneven harmonischen extra onderdrukt"
+    },
+    {
+     "letter": "C",
+     "text": "alle harmonischen extra onderdrukt"
+    },
+    {
+     "letter": "D",
+     "text": "geen harmonischen opgewekt"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 25,
+   "sub": "6.1",
+   "vraag": "Hoe realiseert men de neutrodynisering van een versterker?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "door gedurende halve cycli energie van de uitgangskring in de ingangskring terug te koppelen"
+    },
+    {
+     "letter": "B",
+     "text": "door een signaal dat 360 graden in faze verschoven met het uitgangssignaal naar de ingang terug te koppelen"
+    },
+    {
+     "letter": "C",
+     "text": "door een signaal dat 180 graden in faze is verschoven met het uitgangssignaal naar de ingang terug te koppelen"
+    },
+    {
+     "letter": "D",
+     "text": "door een deel van het ingangssignaal naar de uitgangskring te voeren."
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 26,
+   "sub": "6.1",
+   "vraag": "Een der voordelen van een balansversterker (push pull)  is :",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het extra onderdrukken van de even harmonischen"
+    },
+    {
+     "letter": "B",
+     "text": "het extra onderdrukken van oneven harmonischen"
+    },
+    {
+     "letter": "C",
+     "text": "meer vermogen"
+    },
+    {
+     "letter": "D",
+     "text": "minder vervorming"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 27,
+   "sub": "6.1",
+   "vraag": "Neutrodyniseren betekent:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het opheffen van ongewenste terugkoppeling in een versterker"
+    },
+    {
+     "letter": "B",
+     "text": "het wegwerken van parasitaire AM modulatie in een FM-detector"
+    },
+    {
+     "letter": "C",
+     "text": "het wegwerken van parasitaire EZB (SSB) modulatie in een AM detector"
+    },
+    {
+     "letter": "D",
+     "text": "het opheffen van ongewenste terugkoppeling in een oscillator"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 28,
+   "sub": "6.1",
+   "vraag": "Wat is een geaarde roosterversterker (grounded-grid)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een versterker waar het stuurrooster voor HF en DC is geaard en waar de sturing via de kathode gebeurt."
+    },
+    {
+     "letter": "B",
+     "text": "een versterker waarin de eindbuis via de cathode wordt aangestuurd en waar het stuurrooster voor HF is geaard"
+    },
+    {
+     "letter": "C",
+     "text": "een versterker die meer dan 20 dB versterking geeft"
+    },
+    {
+     "letter": "D",
+     "text": "een versterker die alleen op VHF en UHF wordt gebruikt"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 29,
+   "sub": "6.1",
+   "vraag": "Waarom dient een gemeenschappelijke basisversterker niet geneutrodyniseerd te worden?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "omdat er geen parasitaire capaciteiten in de transistoren aanwezig zijn in die schakeling"
+    },
+    {
+     "letter": "B",
+     "text": "omdat de basis, die geaard is een natuurlijke afscherming vormt tussen de ingang en de uitgang van de versterker"
+    },
+    {
+     "letter": "C",
+     "text": "omdat de basis die geaard is geen capaciteit vertoont naar de collector"
+    },
+    {
+     "letter": "D",
+     "text": "omdat de basis die geaard is geen capaciteit vertoont naar de emitter"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 30,
+   "sub": "6.1",
+   "vraag": "Een smoorspoel (RF-choke of RFC) in de DC-voeding van een HF-versterker dient om :",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de oscillaties te bevorderen"
+    },
+    {
+     "letter": "B",
+     "text": "het HF-signaal te isoleren van de DC-voedingspanning"
+    },
+    {
+     "letter": "C",
+     "text": "het gebrom van de netspanning te elimineren"
+    },
+    {
+     "letter": "D",
+     "text": "parasitaire oscillaties te vermijden"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 31,
+   "sub": "6.1",
+   "vraag": "Het rendement van een klasse AB versterker is ongeveer",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "90 %"
+    },
+    {
+     "letter": "B",
+     "text": "60 %"
+    },
+    {
+     "letter": "C",
+     "text": "75 %"
+    },
+    {
+     "letter": "D",
+     "text": "80 %"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 32,
+   "sub": "6.1",
+   "vraag": "Het typisch rendement van een klasse C versterker is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "90 %"
+    },
+    {
+     "letter": "B",
+     "text": "70 %"
+    },
+    {
+     "letter": "C",
+     "text": "60 %"
+    },
+    {
+     "letter": "D",
+     "text": "50 %"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 33,
+   "sub": "6.1",
+   "vraag": "Het typisch rendement van een klasse A versterker is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "90 %"
+    },
+    {
+     "letter": "B",
+     "text": "75 %"
+    },
+    {
+     "letter": "C",
+     "text": "60 %"
+    },
+    {
+     "letter": "D",
+     "text": "< 50 %"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 34,
+   "sub": "6.1",
+   "vraag": "Om het hoogste rendement te bereiken zal een vermogenversterker voor FM",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "in klasse A staan"
+    },
+    {
+     "letter": "B",
+     "text": "in klasse B staan"
+    },
+    {
+     "letter": "C",
+     "text": "in klasse AB staan"
+    },
+    {
+     "letter": "D",
+     "text": "in klasse C staan"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 35,
+   "sub": "6.1",
+   "vraag": "Om het hoogste rendement te bereiken zal een vermogenversterker voor een telegrafiezender",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "in klasse A staan"
+    },
+    {
+     "letter": "B",
+     "text": "in klasse C staan"
+    },
+    {
+     "letter": "C",
+     "text": "in klasse AB staan"
+    },
+    {
+     "letter": "D",
+     "text": "in klasse B staan"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 36,
+   "sub": "6.1",
+   "vraag": "Wat verstaat men onder “uitgangsimpedantie van een zender” ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de nominale belastingsimpedantie waarbij er een maximaal vermogen door de zender wordt afgegeven "
+    },
+    {
+     "letter": "B",
+     "text": "50 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "de impedantie van de transmissielijn"
+    },
+    {
+     "letter": "D",
+     "text": "de impedantie van de antenne zoals getransformeerd op het einde van de transmissielijn"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 37,
+   "sub": "6.1",
+   "vraag": "Een laagdoorlaatfilter tussen de eindtrap van een zender en de antenne dient om:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de eindtrap te neutrodyniseren"
+    },
+    {
+     "letter": "B",
+     "text": "de harmonischen te onderdrukken"
+    },
+    {
+     "letter": "C",
+     "text": "het zendvermogen te stabiliseren"
+    },
+    {
+     "letter": "D",
+     "text": "de intermodulatie te verbeteren"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 38,
+   "sub": "6.1",
+   "vraag": "De onderdrukking van de harmonischen in een zender kan verbeterd worden door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de eindtrap in klasse C te laten werken"
+    },
+    {
+     "letter": "B",
+     "text": "de modulatiediepte te verminderen"
+    },
+    {
+     "letter": "C",
+     "text": "gebruik te maken van een X-tal oscillator in de zender"
+    },
+    {
+     "letter": "D",
+     "text": "gebruik te maken van een laagdoorlaat filter aan de uitgang van de eindtrap."
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 39,
+   "sub": "6.1",
+   "vraag": "Welk soort filter dient men gebruiken in de uitgang van een HF zender (160 - 10m) om alle harmonischen te onderdrukken op alle banden?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een laagdoorlaat filter met afsnijfrequentie 30 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "een hoogdoorlaat filter met afsnijfrequentie 30 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "een band-pass filter ontworpen voor elk der banden"
+    },
+    {
+     "letter": "D",
+     "text": "een hoog doorlaat filter voor de band in gebruik"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 40,
+   "sub": "6.1",
+   "vraag": "Een kristalfilter gebruikt voor het onderdrukken van de ongewenste zijband in een EZB zender heeft een –3dB bandbreedte van ca.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "5 kHz"
+    },
+    {
+     "letter": "B",
+     "text": " 2.5 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "< 2 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "10 kHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 41,
+   "sub": "6.1",
+   "vraag": "Een DBM (dubbelgebalanceerde mengtrap) als modulator in een EZB-zender dient voor",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de degradatie van het LF signaal te verminderen"
+    },
+    {
+     "letter": "B",
+     "text": "de zijband te onderdrukken"
+    },
+    {
+     "letter": "C",
+     "text": "de signaal/ruisverhouding van het LF-signaal te verbeteren"
+    },
+    {
+     "letter": "D",
+     "text": "de draaggolf te onderdrukken"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 42,
+   "sub": "6.1",
+   "vraag": "Wat is het effect van het gebruik van een te grote frequentiezwaai (deviatie) bij NBFM ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "verhoging van het vermogen van de zender"
+    },
+    {
+     "letter": "B",
+     "text": "de bandbreedte van het signaal wordt te groot"
+    },
+    {
+     "letter": "C",
+     "text": "verhoging van de draagwijdte van de zender"
+    },
+    {
+     "letter": "D",
+     "text": "slechte onderdrukking van de harmonischen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 43,
+   "sub": "6.1",
+   "vraag": "Met welk toestel kan je best nazien of je uitzending in SSB niet overstuurd is?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een geijkte wattmeter"
+    },
+    {
+     "letter": "B",
+     "text": "een ALC indicator op de zender"
+    },
+    {
+     "letter": "C",
+     "text": "een oscilloscoop"
+    },
+    {
+     "letter": "D",
+     "text": "een speech processor"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 44,
+   "sub": "6.1",
+   "vraag": "Wat is het resultaat van overmodulatie bij een draagbare FM zend-ontvanger werkend op 144,500 MHz met een nominaal uitgangsvermogen van 4 W?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "beduidend groter verbruik van de batterijen (ca 50 %)"
+    },
+    {
+     "letter": "B",
+     "text": "storingen op de naastliggende kanalen"
+    },
+    {
+     "letter": "C",
+     "text": "verhoogd uitgangsvermogen (ca 50 %)"
+    },
+    {
+     "letter": "D",
+     "text": "betere verstaanbaarheid"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 45,
+   "sub": "6.1",
+   "vraag": "Wat kan, bij SSB uitzendingen, nooit de oorzaak zijn van splatter",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "te hoge microfoon versterking"
+    },
+    {
+     "letter": "B",
+     "text": "oversturing van een HF versterker-trap"
+    },
+    {
+     "letter": "C",
+     "text": "een niet lineair werkende versterkertrap"
+    },
+    {
+     "letter": "D",
+     "text": "een microfoon met een slechte frequentiekaracteristiek"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 46,
+   "sub": "6.1",
+   "vraag": "Waaarom hoeven in FM de versterkertrappen in een zender niet lineair te werken?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "omdat FM een niet-lineaire modulatie is"
+    },
+    {
+     "letter": "B",
+     "text": "omdat men het verschil niet hoort"
+    },
+    {
+     "letter": "C",
+     "text": "omdat er geen informatie zit in de amplitude van het FM signaal"
+    },
+    {
+     "letter": "D",
+     "text": "omdat er geen informatie zit in de zijbanden van een FM signaal"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 47,
+   "sub": "6.1",
+   "vraag": "Een lineare versterkertrap zal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "enkel zeer hoge frequenties versterken"
+    },
+    {
+     "letter": "B",
+     "text": "steeds een faseverschuiving van 180° hebben"
+    },
+    {
+     "letter": "C",
+     "text": "het ingangssignaal zonder faseverschuiving versterken"
+    },
+    {
+     "letter": "D",
+     "text": "het ingangssignaal zonder vervorming versterken"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 48,
+   "sub": "6.1",
+   "vraag": "Bij SSB uitzendingen wordt splatter veroorzaakt door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "enkel door defecte eindtransistoren in de zender"
+    },
+    {
+     "letter": "B",
+     "text": "niet lineaire-instelling van een RF-versterkertrap of oversturing van een lineaire vesterkertrap"
+    },
+    {
+     "letter": "C",
+     "text": "door misaanpassing van de antenne aan de zender"
+    },
+    {
+     "letter": "D",
+     "text": "door een defecte microfoon"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 49,
+   "sub": "6.1",
+   "vraag": "Het rendement van de HF-versterkertrap van een zender is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de verhouding van het HF-uitgangsvermogen t.o.v.  het DC ingangsvermogen"
+    },
+    {
+     "letter": "B",
+     "text": "de verhouding van het HF ingangsvermogen t.o.v. het HF-uitgangsvermogen"
+    },
+    {
+     "letter": "C",
+     "text": "de verhouding van het HF-uitgangsvermogen t.o.v. het HF-ingangsvermogen"
+    },
+    {
+     "letter": "D",
+     "text": "de verhouding van het verbruik van de voeding van de zender t.o.v. het HF-uitgangsvermogen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 50,
+   "sub": "6.1",
+   "vraag": "Een eindversterker (PA) levert een vermogen van 80 W. Het stroomverbruik is 14 A en de voedingsspanning is 12 V. Wat is het rendement van deze versterker?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "40,8 %"
+    },
+    {
+     "letter": "B",
+     "text": "47,6 %"
+    },
+    {
+     "letter": "C",
+     "text": "52,4 %"
+    },
+    {
+     "letter": "D",
+     "text": "55,6 %"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 51,
+   "sub": "6.1",
+   "vraag": "Het veroorzaken van storingen door sleutelklikken van een telegrafiezender (A1A) kunnen worden voorkomen door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "afscherming van de eindtrap van de zender"
+    },
+    {
+     "letter": "B",
+     "text": "verhoging van de stuurspanning van de eindtrap"
+    },
+    {
+     "letter": "C",
+     "text": "de eindtrap in klasse A in te stellen"
+    },
+    {
+     "letter": "D",
+     "text": "het in- en uit-schakelen van het HF-signaal geleidelijk te laten geschieden"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 52,
+   "sub": "6.1",
+   "vraag": "Van twee telegrafiezenders (A1A) zijn de omhullende van het uitgangssignaal weergegeven. Welke bewering is de juiste?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "signaal B heeft een grotere bandbreedte dan signaal A"
+    },
+    {
+     "letter": "B",
+     "text": "signaal B heeft een kleinere bandbreedte dan A"
+    },
+    {
+     "letter": "C",
+     "text": "signaal B heeft dezelfde bandbreedte als signaal A"
+    },
+    {
+     "letter": "D",
+     "text": "er kan geen conclusie over de bandbreedte van het signaal worden getrokken."
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h06/fig-r52.png"
+  },
+  {
+   "id": 53,
+   "sub": "6.1",
+   "vraag": "Om de bandbeedte van een CW signaal zo klein mogelijk te houden",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "moet men het vermogen zo klein mogelijk houden"
+    },
+    {
+     "letter": "B",
+     "text": "moet men via filtering de flankenstijlheid van het CW-signaal optmilizeren"
+    },
+    {
+     "letter": "C",
+     "text": "moet men via filtering de flankenstijlheid van het CW-signaal zo klein mogelijk maken"
+    },
+    {
+     "letter": "D",
+     "text": "moet men via filtering de flankenstijlheid van het CW-signaal zo groot mogelijk maken"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 54,
+   "sub": "6.1",
+   "vraag": "Sleutelklikken kunnen veelal worden verminderd door tussen de seinsleutel en de gesleutelde schakeling in een zender een van de volgende schakelingen op te nemen. Welk is de passende schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B "
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  }
+ ]
+}

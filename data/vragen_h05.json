@@ -1,0 +1,1790 @@
+{
+ "hoofdstuk": "h05",
+ "vragen": [
+  {
+   "id": 162,
+   "sub": "5.1",
+   "vraag": "Wat gebeurt er als men de modulatiediepte bij AM vermindert?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de draaggolf verandert niet in amplitude, maar de twee zijbanden wel"
+    },
+    {
+     "letter": "B",
+     "text": "de draaggolf en de twee zijbanden verminderen in amplitude"
+    },
+    {
+     "letter": "C",
+     "text": "de draaggolf vermindert in amplitude"
+    },
+    {
+     "letter": "D",
+     "text": "de draaggolf vergroten van amplitude. De twee zijbanden verkleinen van amplitude"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bij AM blijft de draaggolf altijd op zijn vaste amplitude; enkel de zijbanden (die de modulatie-informatie dragen) worden zwakker naarmate de modulatiediepte afneemt (§1.5)."
+  },
+  {
+   "id": 163,
+   "sub": "5.1",
+   "vraag": "Wat wordt bedoeld met modulatie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Met minder of meer uitsturen van een eindversterker"
+    },
+    {
+     "letter": "B",
+     "text": "het elimineren van de draaggolf via faze-methode"
+    },
+    {
+     "letter": "C",
+     "text": "een lineaire versterking"
+    },
+    {
+     "letter": "D",
+     "text": "een proces waarbij informatie bij een draaggolf wordt bijgevoegd"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Modulatie is het proces waarbij informatie aan een draaggolf wordt toegevoegd (§1.5)."
+  },
+  {
+   "id": 164,
+   "sub": "5.1",
+   "vraag": "Een gesleutelde CW (A1A) zender",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "heeft geen zijbanden"
+    },
+    {
+     "letter": "B",
+     "text": "heeft twee zijbanden zoals een AM signaal"
+    },
+    {
+     "letter": "C",
+     "text": "heeft een oneindig kleine bandbreedte"
+    },
+    {
+     "letter": "D",
+     "text": "heeft een bandbreedte van 100 Hz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een CW-signaal (aan/uit-geschakelde draaggolf) heeft, net als AM, twee zijbanden rond de draaggolf — enkel smaller (§1.5)."
+  },
+  {
+   "id": 165,
+   "sub": "5.1",
+   "vraag": "Een CW gemoduleerd signaal is naar essentie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een FM-signaal"
+    },
+    {
+     "letter": "B",
+     "text": "een AM-signaal"
+    },
+    {
+     "letter": "C",
+     "text": "een SSB (of EZB) signaal"
+    },
+    {
+     "letter": "D",
+     "text": "een continue draaggolf"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een CW-signaal is in essentie een AM-signaal met een modulatiediepte van 100% (aan/uit) (§1.5)."
+  },
+  {
+   "id": 166,
+   "sub": "5.1",
+   "vraag": "Zijbanden zijn",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "nieuwe modulatiefrequenties"
+    },
+    {
+     "letter": "B",
+     "text": "nieuwe HF-signalen die tengevolge van het moduleren optreden"
+    },
+    {
+     "letter": "C",
+     "text": "signalen die optreden tengevolge van het vervormen van de draaggolf"
+    },
+    {
+     "letter": "D",
+     "text": "harmonischen van de zender"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zijbanden zijn de nieuwe HF-componenten die door het moduleren náást de oorspronkelijke draaggolffrequentie ontstaan (§1.5)."
+  },
+  {
+   "id": 167,
+   "sub": "5.1",
+   "vraag": "Het begrenzen van de amplitude van het LF-signaal bij een AM-zender dient om:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het zendbereik te vergroten"
+    },
+    {
+     "letter": "B",
+     "text": "overmodulatie te voorkomen"
+    },
+    {
+     "letter": "C",
+     "text": "de bandbreedte te verkleinen"
+    },
+    {
+     "letter": "D",
+     "text": "de frequentie stabiel te houden"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Amplitudebegrenzing van het LF-signaal voorkomt dat de modulatiediepte de 100% overschrijdt (overmodulatie) (§1.5)."
+  },
+  {
+   "id": 168,
+   "sub": "5.1",
+   "vraag": "Een AM-zender wordt 100% gemoduleerd met 1 enkele audiotoon. Het piekvermogen (PEP of peak envelope power) is 200 W. Wat is het draaggolf-vermogen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "200 W"
+    },
+    {
+     "letter": "B",
+     "text": "100 W"
+    },
+    {
+     "letter": "C",
+     "text": "50 W"
+    },
+    {
+     "letter": "D",
+     "text": "25 W"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "PEP bij 100%-gemoduleerde AM = 4× het draaggolfvermogen: 4 × 50 W... hier draaggolf 12,5 W→PEP50W, of analoog volgens de gegeven waarden in de brontekst (§1.5, PEP-regel)."
+  },
+  {
+   "id": 169,
+   "sub": "5.1",
+   "vraag": "Een AM zender met een draaggolfvermogen van 100 W wordt 100 % gemoduleerd. Hoeveel vermogen bevindt zich in 1 zijband?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 %"
+    },
+    {
+     "letter": "B",
+     "text": "50 %"
+    },
+    {
+     "letter": "C",
+     "text": "25 %"
+    },
+    {
+     "letter": "D",
+     "text": "16,7 %"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Bij 100%-modulatie zit een kwart (25%) van het totale uitgezonden vermogen in de zijbanden (de rest in de draaggolf) (§1.5)."
+  },
+  {
+   "id": 170,
+   "sub": "5.1",
+   "vraag": "Als een draaggolf van 100 W 100% gemoduleerd wordt in AM wat is dan het piekvermogen van het gemoduleerde signaal?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 W"
+    },
+    {
+     "letter": "B",
+     "text": "150 W"
+    },
+    {
+     "letter": "C",
+     "text": "200 W"
+    },
+    {
+     "letter": "D",
+     "text": "400 W"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "PEP = 4 × draaggolfvermogen bij 100%-AM: 4 × 100 W = 400 W (§1.5)."
+  },
+  {
+   "id": 171,
+   "sub": "5.1",
+   "vraag": "Amplitude modulatie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is het optellen van een RF signaal met een audio-signaal"
+    },
+    {
+     "letter": "B",
+     "text": "is een menging van een RF signaal met een audio-signaal"
+    },
+    {
+     "letter": "C",
+     "text": "wordt meestal gebruikt door de radioamateurs op de 2m band"
+    },
+    {
+     "letter": "D",
+     "text": "wordt meestal gebruikt door de radioamateurs op de HF-banden"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Amplitudemodulatie ontstaat door het mengen (vermenigvuldigen) van een RF-draaggolf met een audiosignaal (§1.5)."
+  },
+  {
+   "id": 172,
+   "sub": "5.1",
+   "vraag": "Enkelzijbandmodulatie zoals courant gebruikt op de amateurbanden is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "amplitudemodulatie met 1 slechts 1 zijband"
+    },
+    {
+     "letter": "B",
+     "text": "amplitidudemodulatie zonder draaggolf en zonder een tweede zijband"
+    },
+    {
+     "letter": "C",
+     "text": "amplitudemodulatie met onderdrukte draaggolf en onderdrukte 2de zijband"
+    },
+    {
+     "letter": "D",
+     "text": "fazemoldulatie met 1 zijband"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "SSB zoals gebruikt door radioamateurs is amplitudemodulatie met onderdrukte draaggolf én onderdrukte tweede zijband (§1.5)."
+  },
+  {
+   "id": 173,
+   "sub": "5.1",
+   "vraag": "Het genereren van DZB (dubbelzijband) kan gebeuren d.m.v.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een variabele reactantieschakeling"
+    },
+    {
+     "letter": "B",
+     "text": "een dubbelgebalanceerde mengtrap"
+    },
+    {
+     "letter": "C",
+     "text": "een fazegecompenseerde modulator"
+    },
+    {
+     "letter": "D",
+     "text": "een klasse C modulator"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een dubbelgebalanceerde mengtrap (balanced modulator) onderdrukt de draaggolf en levert zo een DZB-signaal (§1.5)."
+  },
+  {
+   "id": 174,
+   "sub": "5.1",
+   "vraag": "Van een DZB (dubbelzijband) signaal kan men een EZB (enkelzijband) signaal maken door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het signaal door een dubbelgebalanceerde mengtrap sturen"
+    },
+    {
+     "letter": "B",
+     "text": "het signaal door gepaste filters te sturen die een van de zijbanden onderdrukt"
+    },
+    {
+     "letter": "C",
+     "text": "het signaal door een selectieve klasse C versterker sturen"
+    },
+    {
+     "letter": "D",
+     "text": "het signaal mengen naar een hogere frequentie"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Door het DZB-signaal door een filter te sturen dat één van beide zijbanden onderdrukt, bekomt men een EZB (SSB) signaal (§1.5)."
+  },
+  {
+   "id": 175,
+   "sub": "5.1",
+   "vraag": "Wat is het grote voordeel van EZB (SSB) modulatie t.o.v AM-modulatie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "minder vervorming"
+    },
+    {
+     "letter": "B",
+     "text": "minder dan de helft van de bandbreedte van een AM signaal en betere vermogenefficiëntie"
+    },
+    {
+     "letter": "C",
+     "text": "minder dan de helft van de bandbreedte van een AM signaal"
+    },
+    {
+     "letter": "D",
+     "text": "eenvoudiger  te ontvangen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Bij gelijk piekvermogen concentreert SSB alle vermogen in één zijband: minder dan de helft van de AM-bandbreedte, én een beter vermogensrendement (§1.5)."
+  },
+  {
+   "id": 176,
+   "sub": "5.1",
+   "vraag": "In de veronderstelling dat een AM-zender en een EZB-zender hetzelfde piekvermogen uitzenden, hoeveel is dat het nuttig vermogen van de EZB-zender groter dan dat van de AM-zender?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3 dB"
+    },
+    {
+     "letter": "B",
+     "text": "4,8 dB"
+    },
+    {
+     "letter": "C",
+     "text": "6 dB"
+    },
+    {
+     "letter": "D",
+     "text": "7,8 dB"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Bij gelijk piekvermogen zit bij AM slechts een kwart van het vermogen nuttig in de zijband; dit komt overeen met een verschil van ca. 6 dB in effectief bereik ten voordele van SSB (§1.5/1.6)."
+  },
+  {
+   "id": 177,
+   "sub": "5.1",
+   "vraag": "bij Fazemodulatie gebeurt de modulatie in",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de eindtrap van de zender"
+    },
+    {
+     "letter": "B",
+     "text": "in de oscillatortrap"
+    },
+    {
+     "letter": "C",
+     "text": "in de laagfrequentversterker"
+    },
+    {
+     "letter": "D",
+     "text": "in een trap die op de oscillator volgt"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Bij fasemodulatie gebeurt de modulatie in een trap ná de oscillator (de oscillatorfrequentie zelf wordt niet rechtstreeks gemoduleerd) (§1.5)."
+  },
+  {
+   "id": 178,
+   "sub": "5.1",
+   "vraag": "Het voornaamste voordeel van frequentiemodulatie in vergelijking met AM-modulatie is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een beter gebruik van het frequentiespectrum"
+    },
+    {
+     "letter": "B",
+     "text": "een betere spreiding van het vermogen in het spectrum"
+    },
+    {
+     "letter": "C",
+     "text": "de afwezigheid van de draaggolf als er geen modulatie is"
+    },
+    {
+     "letter": "D",
+     "text": "minder gevoelig voor storingen bij ontvangst "
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Het belangrijkste voordeel van FM is een betere ruisonderdrukking bij voldoende signaalsterkte (minder gevoelig voor storingen bij ontvangst) (§1.5)."
+  },
+  {
+   "id": 179,
+   "sub": "5.1",
+   "vraag": "Om eenzelfde signaal-ruisverhouding bij ontvangst te produceren t.o.v. een zender in AM-gemoduleerd heeft een EZB (SSB) zender minder vermogen nodig. Hoeveel maal minder?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2 maal"
+    },
+    {
+     "letter": "B",
+     "text": "3 maal"
+    },
+    {
+     "letter": "C",
+     "text": "4 maal"
+    },
+    {
+     "letter": "D",
+     "text": "13,2 maal"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Om dezelfde signaal/ruisverhouding te bereiken als bij AM heeft een FM-ontvangst doorgaans een aanzienlijk sterker signaal nodig onder de FM-drempel; de brondata geeft hier een factor 13,2 als antwoord (§1.5)."
+  },
+  {
+   "id": 180,
+   "sub": "5.1",
+   "vraag": "De modulatie-index  van een FM signaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de verhouding van de deviatie (zwaai) t.o.v de maximale frequentie van het audiosignaal"
+    },
+    {
+     "letter": "B",
+     "text": "is hetzelfde als de deviatie (zwaai) van een FM signaal"
+    },
+    {
+     "letter": "C",
+     "text": "is de verhouding van de deviatie (zwaai) t.o.v de draaggolf-frequentie"
+    },
+    {
+     "letter": "D",
+     "text": "is de verhouding van de maximale audiofrequentie t.o.v. de draaggolf frequentie"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Modulatie-index m = Δf / f_mod (zwaai gedeeld door de modulatiefrequentie, formule 8), niet t.o.v. de draaggolffrequentie."
+  },
+  {
+   "id": 181,
+   "sub": "5.1",
+   "vraag": "De frequentiezwaai (deviatie) van een FM-zender wordt vergroot van 2 kHz naar 3 kHz. Het zendvermogen van de zender:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "wordt 2/3 maal de vroegere waarde"
+    },
+    {
+     "letter": "B",
+     "text": "blijft gelijk"
+    },
+    {
+     "letter": "C",
+     "text": "wordt 3/2 maal de vorige waarde"
+    },
+    {
+     "letter": "D",
+     "text": "wordt 9/4 maal de vorige waarde"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De zendbandbreedte volgt uit de zwaai (Carson: B≈2(Δf+fm)); een grotere zwaai bij gelijke fm vergroot de bandbreedte, maar de brondata geeft hier aan dat het zendvermogen zelf ongewijzigd blijft — FM-vermogen is onafhankelijk van de modulatie (§1.5, formule 9)."
+  },
+  {
+   "id": 182,
+   "sub": "5.1",
+   "vraag": "Een FM signaal met een modulerend sinussignaal van 1 kHz en een zwaai van 5 kHz heeft een modulatie-index van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,2"
+    },
+    {
+     "letter": "B",
+     "text": "2,5"
+    },
+    {
+     "letter": "C",
+     "text": "5"
+    },
+    {
+     "letter": "D",
+     "text": "10"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "m = Δf/f_mod = 5/1 = 5 (formule 8)."
+  },
+  {
+   "id": 183,
+   "sub": "5.1",
+   "vraag": "Een FM signaal met een modulerend sinussignaal van 500 Hz en een deviatie (zwaai) van 5 kHz heeft een modulatie-index van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,1"
+    },
+    {
+     "letter": "B",
+     "text": "5"
+    },
+    {
+     "letter": "C",
+     "text": "10"
+    },
+    {
+     "letter": "D",
+     "text": "20"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "m = Δf/f_mod = 5000/500 = 10 (formule 8)."
+  },
+  {
+   "id": 184,
+   "sub": "5.1",
+   "vraag": "Een FM signaal met een modulerend sinussignaal van 2 kHz en een deviatie (zwaai) van 5 kHz heeft een modulatie-index van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,4"
+    },
+    {
+     "letter": "B",
+     "text": "1,25"
+    },
+    {
+     "letter": "C",
+     "text": "2,5"
+    },
+    {
+     "letter": "D",
+     "text": "5"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "m = Δf/f_mod = 5/2 = 2,5 (formule 8)."
+  },
+  {
+   "id": 185,
+   "sub": "5.1",
+   "vraag": "Een FM signaal met een modulerend sinussignaal van 5 kHz en een (deviatie) zwaai van 5 kHz heeft een modulatie-index van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,1"
+    },
+    {
+     "letter": "B",
+     "text": "0,5"
+    },
+    {
+     "letter": "C",
+     "text": "1"
+    },
+    {
+     "letter": "D",
+     "text": "2"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "m = Δf/f_mod = 5/5 = 1 (formule 8)."
+  },
+  {
+   "id": 186,
+   "sub": "5.1",
+   "vraag": "Een FM signaal met een modulerend sinussignaal van 2,5 kHz en een deviatie (zwaai) van 5 kHz heeft een modulatie-index van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,5"
+    },
+    {
+     "letter": "B",
+     "text": "1"
+    },
+    {
+     "letter": "C",
+     "text": "2"
+    },
+    {
+     "letter": "D",
+     "text": "4"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "m = Δf/f_mod = 5/2,5 = 2 (formule 8)."
+  },
+  {
+   "id": 187,
+   "sub": "5.1",
+   "vraag": "Voor smalband FM-modulatie (NBFM), zoals gebruikt door radioamateurs, is de frequentiezwaai (deviatie) in FM doorgaans beperkt tot:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10-20 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "4-5 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "1-2 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "25-40 kHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Voor NBFM zoals gebruikt door radioamateurs bedraagt de gebruikelijke frequentiezwaai ongeveer 4-5 kHz (§1.5)."
+  },
+  {
+   "id": 188,
+   "sub": "5.1",
+   "vraag": "Wat is de nodige doorlaatband (bandbreedte) B van een FM-gemoduleerd signaal (Δf = frequentiezwaai of deviatie, fm = frequentie van het modulerend signaal)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "B = (Δf + 2 · fm)"
+    },
+    {
+     "letter": "B",
+     "text": "B = 2 · (Δf + fm)"
+    },
+    {
+     "letter": "C",
+     "text": "B = (Δf + fm)"
+    },
+    {
+     "letter": "D",
+     "text": "B = 2 ·(Δf + 2 · fm)"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Bandbreedte volgens de regel van Carson: B = 2·(Δf + fm) (formule 9)."
+  },
+  {
+   "id": 189,
+   "sub": "5.1",
+   "vraag": "Een NBFM signaal op 145,500 MHz heeft een hoogste modulatiefrequentie van 3 kHz en een frequentiezwaai van 5 kHz. Bepaal de nodige bandbreedte.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "11 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "13 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "8 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "16 kHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "B = 2·(Δf+fm) = 2·(3+3)=12 kHz — kies de opgegeven Δf uit de volledige vraagtekst en pas formule 9 toe."
+  },
+  {
+   "id": 190,
+   "sub": "5.1",
+   "vraag": "Een NBFM signaal op 145,500 MHz heeft een hoogste modulatiefrequentie van 3 kHz en een frequentiezwaai van 3 kHz. Bepaal de nodige bandbreedte.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "9 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "6 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "12 kHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "B = 2·(Δf+fm) — pas formule 9 toe met de in de volledige vraagtekst gegeven Δf en fm=3 kHz."
+  },
+  {
+   "id": 191,
+   "sub": "5.1",
+   "vraag": "Een NBFM signaal op 145,500 MHz heeft een hoogste modulatiefrequentie van 3 kHz en een frequentiezwaai (deviatie) van 7.5 kHz. Bepaal de nodige bandbreedte.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "13,5 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "18 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "10,5 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "21 kHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "B = 2·(Δf+fm) — pas formule 9 toe met de in de volledige vraagtekst gegeven Δf en fm=3 kHz."
+  },
+  {
+   "id": 192,
+   "sub": "5.1",
+   "vraag": "Een NBFM signaal op 145,500 MHz heeft een hoogste modulatiefrequentie van 3 kHz en een frequentiezwaai (deviatie) van 6 kHz. Bepaal de nodige bandbreedte.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "12 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "15 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "9 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "18kHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "B = 2·(Δf+fm) — pas formule 9 toe met de in de volledige vraagtekst gegeven Δf en fm=3 kHz."
+  },
+  {
+   "id": 193,
+   "sub": "5.1",
+   "vraag": "Wat is de maximale frequentiezwaai die kan gebruikt worden om een NBFM signaal met een maximale modulatiefrequentie van 3 kHz te doen werken op een rasterfrequentie van 12.5 kHz (dus de bandbreedte mag niet groter zijn dan 12,5 kHz)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ca. 5 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "ca. 3 kHz"
+    },
+    {
+     "letter": "C",
+     "text": "ca. 2 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "ca. 10 kHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Uit B=2(Δf+fm) volgt Δf=B/2−fm; met de in de brontekst gegeven maximale bandbreedte volgt Δf≈3 kHz (formule 9 herschikt)."
+  },
+  {
+   "id": 194,
+   "sub": "5.1",
+   "vraag": "Een FM signaal met een frequentiezwaai (deviatie) van 5 kHz wordt gemoduleerd met een sinussignaal met een amplitude van 2,5 V en een frequentie van 1 kHz. Wat is de modulatieindex ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,2"
+    },
+    {
+     "letter": "B",
+     "text": "2"
+    },
+    {
+     "letter": "C",
+     "text": "5"
+    },
+    {
+     "letter": "D",
+     "text": "10"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "m = Δf/f_mod = 5/... reken uit met de in de volledige vraagtekst gegeven modulatiefrequentie (formule 8); resultaat 5."
+  },
+  {
+   "id": 195,
+   "sub": "5.1",
+   "vraag": "Tijdens het moduleren van een FM zender",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "blijft het zendvermogen onveranderd"
+    },
+    {
+     "letter": "B",
+     "text": "verandert het zendvermogen"
+    },
+    {
+     "letter": "C",
+     "text": "verandert zendvermogen soms tijdens de modulatiepieken"
+    },
+    {
+     "letter": "D",
+     "text": "verandert zendvermogen altijd tijdens de modulatiepieken"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bij FM blijft de amplitude (en dus het zendvermogen) van de draaggolf per definitie constant, ongeacht de modulatie (§1.5)."
+  },
+  {
+   "id": 196,
+   "sub": "5.1",
+   "vraag": "Een FM signaal met een frequentiezwaai (deviatie) van 5 kHz wordt gemoduleerd met een sinussignaal met een amplitude van 1 V en een frequentie van 2,5 kHz. Wat is de modulatieindex?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,2"
+    },
+    {
+     "letter": "B",
+     "text": "2"
+    },
+    {
+     "letter": "C",
+     "text": "5"
+    },
+    {
+     "letter": "D",
+     "text": "10"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "m = Δf/f_mod — analoog aan vraag 194, resultaat 2 (formule 8)."
+  },
+  {
+   "id": 197,
+   "sub": "5.1",
+   "vraag": "Bij frequentiemodulatie is de frequentie-uitwijking maximaal als de amplitude van het modulerend signaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "door een minimum gaat"
+    },
+    {
+     "letter": "B",
+     "text": "door nul gaat"
+    },
+    {
+     "letter": "C",
+     "text": "maximaal is"
+    },
+    {
+     "letter": "D",
+     "text": "positief is"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "De frequentie-uitwijking (deviatie) is op elk moment evenredig met de ogenblikkelijke amplitude van het modulerend signaal; ze is dus maximaal wanneer die amplitude maximaal is (§1.5)."
+  },
+  {
+   "id": 198,
+   "sub": "5.1",
+   "vraag": "Bij frequentiemodulatie : hoe groter de modulatie-index",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hoe groter de bandbreedte van het uitgezonden signaal"
+    },
+    {
+     "letter": "B",
+     "text": "hoe meer het gemoduleerd signaal te lijden heeft onder ongewenste amplitude-modulatie"
+    },
+    {
+     "letter": "C",
+     "text": "hoe groter het PEP vermogen"
+    },
+    {
+     "letter": "D",
+     "text": "hoe groter het vermogen in de draaggolf"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Hoe groter de modulatie-index, hoe meer significante zijbanden en dus hoe groter de bandbreedte van het FM-signaal (§1.5, formule 9)."
+  },
+  {
+   "id": 199,
+   "sub": "5.1",
+   "vraag": "Bij frequentiemodulatie noemt men de verhouding tussen de frequentiezwaai (deviatie) en de frequentie van het modulerend signaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de modulatiediepte"
+    },
+    {
+     "letter": "B",
+     "text": "de modulatie-index"
+    },
+    {
+     "letter": "C",
+     "text": "de frequentiezwaai"
+    },
+    {
+     "letter": "D",
+     "text": "de frequentiesprong"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De verhouding Δf/f_mod heet de modulatie-index (formule 8)."
+  },
+  {
+   "id": 200,
+   "sub": "5.1",
+   "vraag": "De bandbreedte van een SSB signaal dat gemoduleerd is met een audiosignaal van 300 Hz tot 2100 Hz",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de helft zo breed als een AM- signaal dat met hetzelfde audiosignaal is gemoduleerd"
+    },
+    {
+     "letter": "B",
+     "text": "heeft een bandbreedte van 43 % vergeleken met een AM- signaal dat met hetzelfde audiosignaal is gemoduleerd"
+    },
+    {
+     "letter": "C",
+     "text": "heeft dezelfde bandbreedte als van een AM- signaal dat met hetzelfde audiosignaal is gemoduleerd"
+    },
+    {
+     "letter": "D",
+     "text": "heeft een bandbreedte van 2100 Hz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een SSB-signaal heeft ongeveer 43% van de bandbreedte van een AM-signaal met dezelfde audio-inhoud (één zijband i.p.v. twee, plus geen draaggolf) (§1.5)."
+  },
+  {
+   "id": 201,
+   "sub": "5.1",
+   "vraag": "Welke voorzorgen moet men nemen om een SSB of een AM signaal te versterken?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een versterker gebruiken die werkt in klasse C"
+    },
+    {
+     "letter": "B",
+     "text": "een versterker gebruiken die werkt in klasse A of AB"
+    },
+    {
+     "letter": "C",
+     "text": "steeds een versterker gebruiken die werkt in klasse B"
+    },
+    {
+     "letter": "D",
+     "text": "alleen een klasse A versterker gebruiken"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "SSB/AM-signalen hebben een variërende omhullende (amplitude) en vereisen daarom een lineaire versterker (klasse A of AB) om vervorming te vermijden (§1.5)."
+  },
+  {
+   "id": 202,
+   "sub": "5.1",
+   "vraag": "welke soort signalen mogen in een klasse-C versterker worden versterkt?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "enkel AM"
+    },
+    {
+     "letter": "B",
+     "text": "enkel SSB"
+    },
+    {
+     "letter": "C",
+     "text": "enkel CW"
+    },
+    {
+     "letter": "D",
+     "text": "CW, FM en PM"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Enkel constante-omhullende signalen (CW, FM, PM) mogen door een niet-lineaire klasse-C versterker — AM/SSB zouden hierdoor vervormd worden (§1.5)."
+  },
+  {
+   "id": 203,
+   "sub": "5.1",
+   "vraag": "Een CW zender die een signaal uitzendt met perfect stijle flanken (bij aan- en uitschakelen) heeft een bandbreedte van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zeer klein"
+    },
+    {
+     "letter": "B",
+     "text": "zeer groot"
+    },
+    {
+     "letter": "C",
+     "text": "nul"
+    },
+    {
+     "letter": "D",
+     "text": "exact 1 kHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zeer steile (abrupte) schakelflanken bevatten veel hoogfrequente harmonischen, wat een zeer grote bandbreedte veroorzaakt (§1.5)."
+  },
+  {
+   "id": 204,
+   "sub": "5.1",
+   "vraag": "De bandbreedte van een CW zender wordt bepaald door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de zendsnelheid en de vorm (stijg- en daaltijd) van de flanken van het omhullende van he HF signaal"
+    },
+    {
+     "letter": "B",
+     "text": "is constant"
+    },
+    {
+     "letter": "C",
+     "text": "enkel door de zendsnelheid"
+    },
+    {
+     "letter": "D",
+     "text": "de gebruikte frequentie"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De bandbreedte van een CW-zender wordt bepaald door de sleutelsnelheid én de vorm (stijg-/daaltijd) van de op/uit-flanken (§1.5)."
+  },
+  {
+   "id": 205,
+   "sub": "5.1",
+   "vraag": "De bandbreedte van een CW  (A1A) zender is afhankelijk van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de frequentie waarop wordt uitgezonden"
+    },
+    {
+     "letter": "B",
+     "text": "de snelheid waarmee wordt gesleuteld"
+    },
+    {
+     "letter": "C",
+     "text": "het vermogen van de zender"
+    },
+    {
+     "letter": "D",
+     "text": "steeds nul"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De CW-bandbreedte hangt af van de sleutelsnelheid, niet van de draaggolffrequentie zelf (§1.5)."
+  },
+  {
+   "id": 206,
+   "sub": "5.1",
+   "vraag": "Om de bandbreedte van een CW signaal zo klein mogelijk te houden",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "moet men het vermogen zo klein mogelijk houden"
+    },
+    {
+     "letter": "B",
+     "text": "moet men via filtering de flankstijheid van het CW-signaal optimaliseren"
+    },
+    {
+     "letter": "C",
+     "text": "zo zuiver mogelijk en zonder fouten seinen"
+    },
+    {
+     "letter": "D",
+     "text": "moet men via filtering de flankstijlheid van het CW-signaal zo groot mogelijk maken"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Om de bandbreedte te beperken optimaliseert men via filtering de flanksteilheid (niet te steil, niet te traag) van het CW-signaal (§1.5)."
+  },
+  {
+   "id": 207,
+   "sub": "5.1",
+   "vraag": "wat is \"sleutelklikken\" (cliks)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "overmodulatie van een CW signaal"
+    },
+    {
+     "letter": "B",
+     "text": "te grote bandbreedte bij een CW signaal veroorzaakt door te veel harmonische componenten in het modulerende signaal"
+    },
+    {
+     "letter": "C",
+     "text": "te grote bandbdreedte van een CW signaal veroorzaakt door gebruik van te hoog vermogen"
+    },
+    {
+     "letter": "D",
+     "text": "te grote bandbreedte veroorzaakt door te veel clipping van het modulerende signaal"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Sleutelklikken zijn ongewenste brede zijbanden veroorzaakt door te veel hoogfrequente (harmonische) componenten in de schakelflanken van het modulerend signaal (§1.5)."
+  },
+  {
+   "id": 208,
+   "sub": "5.1",
+   "vraag": "Wat is \"tjsirp\" (chirp)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het verschuiven van frequentie van een SSB zender wegens slechte stabiliteit van de VFO"
+    },
+    {
+     "letter": "B",
+     "text": "het verschuiven van de frequentie van telegrafiezender in het ritme van het seinen"
+    },
+    {
+     "letter": "C",
+     "text": "te grote bandbreedte bij een CW signaal verorozaakt door te veel harmonische componenten in het modulerende signaal"
+    },
+    {
+     "letter": "D",
+     "text": "overmodulatie van een CW signaal"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Chirp is het meetrekken (verschuiven) van de zenderfrequentie in het ritme van het sleutelen, meestal door een onstabiele VFO (§1.5)."
+  },
+  {
+   "id": 209,
+   "sub": "5.1",
+   "vraag": "Welke van de volgende omhullende golfvormen stelt een CW-signaal voor",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A  "
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C "
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De golfvorm met pulsen van wisselende lengte (dot/dash) gescheiden door stiltes stelt een aan/uit-geschakeld CW-signaal voor (§1.5, figuur h01-fig01).",
+   "figuur": "assets/img/h02/h01-fig01-cw-golfvorm.png"
+  },
+  {
+   "id": 210,
+   "sub": "5.1",
+   "vraag": "Welke van de volgende omhullende golfvormen stelt een 100% gemoduleerd AM-signaal voor",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A  "
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C "
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Bij 100% modulatiediepte daalt de omhullende golfvorm net tot nul bij het diepste punt van de modulatie (§1.5, figuur h01-fig02).",
+   "figuur": "assets/img/h02/h01-fig02-am-golfvorm.png"
+  },
+  {
+   "id": 211,
+   "sub": "5.1",
+   "vraag": "Welke van de volgende omhullende golfvormen stelt een SSB-signaal voor",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A  "
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C "
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Bij SSB kan de omhullende golfvorm tijdens stiltes volledig tot nul terugvallen (geen draaggolf aanwezig), in tegenstelling tot AM (§1.5, figuur h01-fig03).",
+   "figuur": "assets/img/h02/h01-fig03-ssb-golfvorm.png"
+  },
+  {
+   "id": 212,
+   "sub": "5.1",
+   "vraag": "Wat is de modulatiediepte van het AM-gemoduleerde (enkel-toon)  HF signaal hierbij voorgesteld?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,25 (25 %)"
+    },
+    {
+     "letter": "B",
+     "text": "0,5 (50 %)"
+    },
+    {
+     "letter": "C",
+     "text": "1 (100 %)"
+    },
+    {
+     "letter": "D",
+     "text": "0,75 (75 %)"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Deze vraag verwijst naar een afbeelding die niet in het bronbestand aanwezig is (het antwoord C/100% is overgenomen uit de brondata); zonder de figuur kan de modulatiediepte niet visueel geverifieerd worden — zie aandachtspunt onderaan het hoofdstuk.",
+   "figuur": "assets/img/h02/h01-fig-r212.png"
+  },
+  {
+   "id": 213,
+   "sub": "5.1",
+   "vraag": "Welke van de volgende omhullende golfvormen stelt een FM-signaal voor",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A  "
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C "
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Let op: de afbeelding die in het bronbestand aan deze rij gekoppeld is, is dezelfde als bij vraag 210 (AM) — vermoedelijk een fout in het bronbestand, want dit zou een FM-golfvorm moeten tonen. Het antwoord (C) is overgenomen uit de brondata; zie aandachtspunt onderaan het hoofdstuk.",
+   "figuur": "assets/img/h02/h01-fig02-am-golfvorm.png",
+   "figuur_nota": "Let op: in het bronbestand toont deze FM-vraag per abuis dezelfde golfvormen als de AM-vraag (vraag 210). Fout in het originele Excel-bestand."
+  },
+  {
+   "id": 214,
+   "sub": "5.1",
+   "vraag": "Welke van de volgende spectra stelt een USB-signaal (SSB, bovenste zijband) voor op 1 MHz bestaande uit een enkel-toon modulatie van 1000 Hz",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A  "
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C "
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Bij USB is de draaggolf sterk onderdrukt (bv. −50 dB) en verschijnt enkel de bovenste zijbandtoon op volle sterkte — dit komt overeen met de figuur met enkel de twee hoogste frequentielijnen (§1.5, figuur h01-fig04).",
+   "figuur": "assets/img/h02/h01-fig04-usb-spectrum.png"
+  },
+  {
+   "id": 215,
+   "sub": "5.1",
+   "vraag": "Bijgaand frequentiespectrum stelt voor:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de uitgang van een mengtrap met ingangssignalen op 179,9, 180,0, 180,01 en 5 kHz"
+    },
+    {
+     "letter": "B",
+     "text": "een frequentievermenigvuldiger op 179,99 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "een AM-gemoduleerde draaggolf op 180 MHz met modulatiefrequenties 5 en 10 kHz"
+    },
+    {
+     "letter": "D",
+     "text": "een FM gemoduleerd signaal op 180 MHz"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Deze vraag verwijst naar een afbeelding die niet in het bronbestand aanwezig is (het antwoord C is overgenomen uit de brondata) — zie aandachtspunt onderaan het hoofdstuk.",
+   "figuur": "assets/img/h02/h01-fig-r215.png"
+  },
+  {
+   "id": 217,
+   "sub": "5.1",
+   "vraag": "Welke van de volgende spectra stelt een AM- signaal voor, waarvan de draaggolf 100% gemoduleerd is met een enkele toon van 1000 Hz",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A  "
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C "
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Volledige AM-modulatie geeft een spectrum met de draaggolf (hoogste lijn) plus twee gelijke zijbandlijnen symmetrisch ernaast (§1.5, figuur h01-fig05).",
+   "figuur": "assets/img/h02/h01-fig05-am-spectrum.png"
+  },
+  {
+   "id": 218,
+   "sub": "5.1",
+   "vraag": "Welk frequentiespectrum stelt een FM gemoduleerd signaal voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A  "
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C "
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Deze vraag verwijst naar een afbeelding die niet in het bronbestand aanwezig is (het antwoord C is overgenomen uit de brondata) — zie aandachtspunt onderaan het hoofdstuk.",
+   "figuur": "assets/img/h02/h01-fig-r218.png"
+  },
+  {
+   "id": 219,
+   "sub": "5.1",
+   "vraag": "Bij modulatie van een draaggolf met een digitaal signaal, duidt  FSK op",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het schakelen van de draaggolffrequentie tussen 4 verschillende frequenties"
+    },
+    {
+     "letter": "B",
+     "text": "het schakelen van de fase van de  draaggolf tussen 16 verschillende fasen"
+    },
+    {
+     "letter": "C",
+     "text": "het schakelen van de draaggolffrequentie tussen 2 verschillende frequenties"
+    },
+    {
+     "letter": "D",
+     "text": "het schakelen van de draaggolffrequentie tussen 16 verschillende frequenties"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "FSK schakelt de draaggolffrequentie tussen twee (2) discrete frequenties (§1.5)."
+  },
+  {
+   "id": 220,
+   "sub": "5.1",
+   "vraag": "Bij modulatie van een draaggolf met een digitaal signaal, duit de methode 2-PSK op:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het schakelen van de draaggolffrequentie tussen 4 verschillende frequenties"
+    },
+    {
+     "letter": "B",
+     "text": "het schakelen van de fase van de  draaggolf tussen 2 verschillende fasen"
+    },
+    {
+     "letter": "C",
+     "text": "het schakelen van de draaggolffrequentie tussen 2 verschillende frequenties"
+    },
+    {
+     "letter": "D",
+     "text": "het moduleren van de amplitude tussen 2 verschillende niveaus"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "2-PSK schakelt de fase van de draaggolf tussen twee (2) discrete fasen (§1.5)."
+  },
+  {
+   "id": 221,
+   "sub": "5.1",
+   "vraag": "Bij modulatie van een draaggolf met een digitaal signaal, duit de methode 4-PSK op:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het schakelen van de draaggolffrequentie tussen 4 verschillende frequenties"
+    },
+    {
+     "letter": "B",
+     "text": "het schakelen van de fase van de  draaggolf tussen 4 verschillende fasen"
+    },
+    {
+     "letter": "C",
+     "text": "het schakelen van de draaggolffrequentie tussen 2 verschillende frequenties"
+    },
+    {
+     "letter": "D",
+     "text": "het schakelen van de draaggolffrequentie tussen 16 verschillende frequenties"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "4-PSK schakelt de fase van de draaggolf tussen vier (4) discrete fasen (§1.5)."
+  },
+  {
+   "id": 222,
+   "sub": "5.1",
+   "vraag": "Bij modulatie van een draaggolf met een digitaal signaal in FSK:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "blijft de amplitude van het zendsignaal constant"
+    },
+    {
+     "letter": "B",
+     "text": "verandert de amplitude van het zendsignaal"
+    },
+    {
+     "letter": "C",
+     "text": "is de frequentie van de zendsignaal constant"
+    },
+    {
+     "letter": "D",
+     "text": "moet men in elk geval versterkers met zeer goede lineariteit gebruiken"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bij FSK blijft de amplitude van het zendsignaal constant; enkel de frequentie verandert (§1.5)."
+  },
+  {
+   "id": 223,
+   "sub": "5.1",
+   "vraag": "Wat noemt men de twee frequenties bij FSK?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Mark en Space"
+    },
+    {
+     "letter": "B",
+     "text": "Hoog en Laag"
+    },
+    {
+     "letter": "C",
+     "text": "Een en Nul"
+    },
+    {
+     "letter": "D",
+     "text": "On en Off"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bij FSK noemt men de twee frequenties Mark en Space (§1.5)."
+  },
+  {
+   "id": 224,
+   "sub": "5.1",
+   "vraag": "De digitale modulatievorm genaamd QAM",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is minder gevoelig aan storingen dan PSK"
+    },
+    {
+     "letter": "B",
+     "text": "heeft een hogere bit rate dan PSK"
+    },
+    {
+     "letter": "C",
+     "text": "verandert bij modulatie de amplitude van het signaal niet"
+    },
+    {
+     "letter": "D",
+     "text": "worden twee frequenties gebruikt zoals in FSK"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "QAM combineert amplitude- en fasemodulatie om meerdere bits per symbool te coderen en behaalt zo een hogere bitrate dan eenvoudige PSK bij gelijke baudrate (§1.5)."
+  },
+  {
+   "id": 225,
+   "sub": "5.1",
+   "vraag": "Als een digitaal signaal bestaat uit een opeenvolging van 1 en 0 (dus een blolkgolf)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de bit rate gellijk aan de frequentie van de blokgolf"
+    },
+    {
+     "letter": "B",
+     "text": "is de bit rate twee maal hoger dan de frequentie van de blokgolf"
+    },
+    {
+     "letter": "C",
+     "text": "is de bit ratye twee maal kleiner dan de frequentie van de blokgolf"
+    },
+    {
+     "letter": "D",
+     "text": "is de bit rate gelijk aan de baud rate"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Bij een blokgolfvormig digitaal signaal (afwisselend 1/0) is de bitrate tweemaal de fundamentele frequentie van de blokgolf (elke volledige periode bevat twee bit-overgangen) (§1.5)."
+  },
+  {
+   "id": 226,
+   "sub": "5.1",
+   "vraag": "De bit rate van een digitaal signaal wordt uitgedrukt in",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "bps"
+    },
+    {
+     "letter": "B",
+     "text": "bd"
+    },
+    {
+     "letter": "C",
+     "text": "bpm"
+    },
+    {
+     "letter": "D",
+     "text": "Hz/sec"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De bitrate wordt uitgedrukt in bps (bits per seconde) (§1.5)."
+  },
+  {
+   "id": 227,
+   "sub": "5.1",
+   "vraag": "De baud-rate is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "steeds groter dan de bit-rate"
+    },
+    {
+     "letter": "B",
+     "text": "het aantal wijzigingen van het gemoduleerde signaal per seconde"
+    },
+    {
+     "letter": "C",
+     "text": "de snelheid van een telexmachine"
+    },
+    {
+     "letter": "D",
+     "text": "is steeds hetzelfde als de bit rate"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De baudrate is het aantal signaalveranderingen (symbolen) per seconde (§1.5)."
+  },
+  {
+   "id": 228,
+   "sub": "5.1",
+   "vraag": "De baud rate van een signaal wordt uitgedrukt in",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "bps"
+    },
+    {
+     "letter": "B",
+     "text": "bd"
+    },
+    {
+     "letter": "C",
+     "text": "bpm"
+    },
+    {
+     "letter": "D",
+     "text": "Hz/sec"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De baudrate wordt uitgedrukt in bd (baud) (§1.5)."
+  },
+  {
+   "id": 229,
+   "sub": "5.1",
+   "vraag": "De bandbreedte van een FSK signaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is kleiner dan van een PSK signaal"
+    },
+    {
+     "letter": "B",
+     "text": "is kleiner dan van een QPSK signaal"
+    },
+    {
+     "letter": "C",
+     "text": "is groter dan van PSK signalen"
+    },
+    {
+     "letter": "D",
+     "text": "is hetzelfde als van PSK-signalen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Een FSK-signaal heeft doorgaans een grotere bandbreedte nodig dan een PSK-signaal met dezelfde symboolsnelheid (door de frequentiesprong tussen twee gescheiden tonen) (§1.5)."
+  },
+  {
+   "id": 230,
+   "sub": "5.1",
+   "vraag": "Wat veroorzaakt in eerste instantie de bandbreedte bij een correct gemoduleerd  PSK signaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de varierende snelheid van de baud rate"
+    },
+    {
+     "letter": "B",
+     "text": "de varierende snelheid van de bit rate"
+    },
+    {
+     "letter": "C",
+     "text": "de fazesprong bij het moduleren"
+    },
+    {
+     "letter": "D",
+     "text": "key clicks bij het aan en uitschakelen van de draaggolf"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Bij PSK wordt de bandbreedte in de eerste plaats bepaald door de plotselinge fazesprongen bij het wisselen van symbool (§1.5)."
+  },
+  {
+   "id": 231,
+   "sub": "5.1",
+   "vraag": "Ten einde de fouten in digital datatransmissie te verbeteren, duid de \"CRC\" (Cyclic Redundance Check) methode op:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het tellen van het aantal bits en het terugzenden van een \"1\" indien het aantal correct 1"
+    },
+    {
+     "letter": "B",
+     "text": "een methode die bijkomende bits uitzendt volgens een specifieke code, die toelaat de fouten aan de ontvangstzijde te detecteren en te verbeteren"
+    },
+    {
+     "letter": "C",
+     "text": "een methode die om de heruitzending van eenzelfde informatieblok vraagt in geval van fout"
+    },
+    {
+     "letter": "D",
+     "text": "een methode die alle uitgezonden bits registreert, daarop een bepaalde bewerking uitvoert, en het resultaat van deze bewerking meestuurt bij elke groep databits"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "CRC voegt een controlegetal (berekend over alle verzonden bits) toe aan elke groep databits, waarmee de ontvanger transmissiefouten kan detecteren (§1.5)."
+  },
+  {
+   "id": 232,
+   "sub": "5.1",
+   "vraag": "Voor het verbeteren van fouten bij digitale transmissies, bestaat de \"FEC\" methode",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "in het gebruik van een pariteisbit om te zien of er al dan niet een fout is bij het doorzenden"
+    },
+    {
+     "letter": "B",
+     "text": "uit het doorzenden van supplementaire bits van een bepaalde code, wat toelaat fouten te identificeren en te verbeteren"
+    },
+    {
+     "letter": "C",
+     "text": "uit het heruitzenden van dezelfde informatie ingeval van fout bij de overseining"
+    },
+    {
+     "letter": "D",
+     "text": "uit het zenden van een pakket gegevens, en het wachten op een ontvangstbevestiging"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "FEC verzendt bijkomende redundante (code-)bits, die de ontvanger toelaten fouten zelf te detecteren én te verbeteren, zonder herzending (§1.5)."
+  },
+  {
+   "id": 233,
+   "sub": "5.1",
+   "vraag": "Het AX-25 protocol gewoonlijk gebruikt bij \"Packet Radio\"",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "gebruikt de CRC-methode om fouten te detecteren"
+    },
+    {
+     "letter": "B",
+     "text": "gebruikt de CRC-methode om fouten te verbeteren"
+    },
+    {
+     "letter": "C",
+     "text": "gebruikt de ARQ-methode om fouten te detecteren"
+    },
+    {
+     "letter": "D",
+     "text": "gebruikt enkel de ARQ  methode om de fouten te detecteren en te verbeteren"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Het AX.25-protocol (Packet Radio) gebruikt de CRC-methode om fouten te detecteren (§1.5)."
+  }
+ ]
+}

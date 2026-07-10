@@ -1,0 +1,192 @@
+{
+ "hoofdstuk": 8,
+ "titel": "Antennes en transmissielijnen",
+ "bron": "UBA-handboek h8 · IRTS HAREC Study Guide (2024) hfst. 7,14,15 · antennes_en_transmissielijnen.xls",
+ "subhoofdstukken": [
+  {
+   "id": "8.1",
+   "titel": "Elektromagnetische golven",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een antenne zet een hoogfrequente wisselstroom om in een **elektromagnetische golf** die zich door de ruimte voortplant — en omgekeerd. Om antennes te begrijpen, moet je eerst weten hoe die golf eruitziet."
+    },
+    {
+     "type": "concept",
+     "titel": "De elektromagnetische golf",
+     "essentie": "Een radiogolf bestaat uit een elektrisch én magnetisch veld, loodrecht op elkaar, die met de lichtsnelheid reizen.",
+     "detail": {
+      "uitleg": "Een radiogolf is **elektromagnetische straling**: een **elektrisch veld (E)** en een **magnetisch veld (H)** staan loodrecht op elkaar én op de voortplantingsrichting, en houden elkaar in stand terwijl de golf zich met de **lichtsnelheid** ($c \\approx 300\\,000$ km/s) voortplant. De **golflengte** hangt samen met de frequentie via $\\lambda = 300 / f_{MHz}$ (§2.2). De **polarisatie** wordt bepaald door de richting van het E-veld, en die volgt de stand van de antenne: een verticale antenne straalt verticaal gepolariseerd. Zender en ontvanger moeten dezelfde polarisatie gebruiken voor optimale verbinding.",
+      "voorbeeld": "Voor lokale FM-verbindingen op VHF gebruiken de meeste stations verticale antennes (verticale polarisatie). Een horizontale antenne 'hoort' een verticaal signaal veel slechter — het verschil kan tientallen dB's bedragen.",
+      "analogie": "Polarisatie is als de spleet van een brievenbus: een verticale brief past enkel door een verticale spleet. Staat de ontvangstantenne dwars op de golf, dan komt er nauwelijks iets door."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — polarisatie",
+     "inhoud": "Polarisatie = richting van het **E-veld** = stand van de antenne.\nVerticale antenne → verticaal gepolariseerd; horizontale → horizontaal.\nZender en ontvanger: **zelfde polarisatie** voor beste verbinding.\nDe ionosfeer maakt golven **elliptisch** gepolariseerd."
+    }
+   ]
+  },
+  {
+   "id": "8.2",
+   "titel": "Soorten antennes",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Er bestaan veel antennetypes, maar ze zijn bijna allemaal terug te voeren op de **halvegolfdipool**. Antennes zijn **resonant** wanneer hun lengte past bij de golflengte."
+    },
+    {
+     "type": "concept",
+     "titel": "De halvegolfdipool",
+     "essentie": "Een dipool is een halve golflengte lang, in het midden gevoed. Hij is resonant en straalt loodrecht op de draad het sterkst.",
+     "detail": {
+      "uitleg": "De **halvegolfdipool** is de basisantenne: een rechte geleider van een **halve golflengte** ($\\lambda/2$) lang, in het midden gevoed. Op zijn resonantiefrequentie gedraagt hij zich als een zuivere weerstand (geen reactantie), met een **voedingsimpedantie** van ongeveer 73 Ω — mooi passend bij 75 Ω-coax. Aan de uiteinden staat de maximale spanning, in het midden de maximale stroom. Een dipool straalt het sterkst **loodrecht op de draad** en nauwelijks in de richting van de draad. De **kwartgolf-verticaal** (ground plane) is een halve dipool tegen een aardvlak, met ~36 Ω voedingsimpedantie.",
+      "voorbeeld": "Voor de 40 m-band ($f \\approx 7$ MHz) is een halvegolfdipool ongeveer $\\lambda/2 = 150/7 \\approx 20$ m lang. Hang je hem horizontaal op, dan straalt hij het sterkst in de twee richtingen loodrecht op de draad.",
+      "analogie": "Een dipool is als een stemvork die op één toon (de resonantiefrequentie) meetrilt: de lengte bepaalt de toon, en hij 'klinkt' het luidst in de richtingen loodrecht op zijn armen."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Richtantennes: de Yagi",
+     "essentie": "Een Yagi voegt een reflector en directors toe aan een dipool, wat de straling in één richting bundelt (winst).",
+     "detail": {
+      "uitleg": "Een **Yagi-Uda-antenne** is een richtantenne: naast de gevoede dipool (de *stralende* of *actieve* element) staan passieve elementen — een iets langere **reflector** achter en een of meer iets kortere **directors** vóór. Die bundelen de straling in één hoofdrichting, wat **winst (gain)** oplevert (meer signaal in de gewenste richting) en het station richtinggevoelig maakt. Het **stralingsdiagram** toont een hoofdlus in de richting van de directors, met kleinere zijlussen. Meer elementen = meer winst en scherpere bundeling.",
+      "voorbeeld": "Met een 3-elements Yagi (reflector + dipool + director) win je ongeveer 6–7 dB in de hoofdrichting t.o.v. een dipool — je effectieve vermogen in die richting vervier- à verviervoudigt, terwijl je stoorsignalen van opzij en achter onderdrukt.",
+      "analogie": "Een Yagi is als een megafoon voor je stem: dezelfde stembanden (de dipool), maar de trechter (reflector en directors) bundelt het geluid in één richting, waardoor het daar veel luider klinkt."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Andere draadantennes",
+     "essentie": "Gevouwen dipool (hogere impedantie, bredere band), endfed (aan het uiteinde gevoed), trap-dipool (meerdere banden) en de kwartgolf-grondvlakantenne.",
+     "detail": {
+      "uitleg": "Naast de gewone dipool bestaan er varianten. De **gevouwen dipool** (folded dipole) is een dipool waarvan de uiteinden teruggevouwen en verbonden zijn; hij heeft een **viervoudige voedingsimpedantie** (~300 Ω i.p.v. ~73 Ω) en een grotere bandbreedte — vandaar het gebruik in FM-antennes en als stralend element in sommige Yagi's. De **endfed halvegolfantenne** (EFHW) wordt aan het **uiteinde** gevoed, waar de impedantie zeer hoog is (enkele kΩ), en vereist een aanpassingstransformator. De **trap-dipool** gebruikt afgestemde sperkringen ('traps') om op **meerdere banden** resonant te zijn. De **kwartgolf-grondvlakantenne** (ground plane) is een verticale kwartgolfstraler tegen een aardvlak of tegen **radialen** (tegengewicht/counterpoise), met een voedingsimpedantie van ~36 Ω.",
+      "voorbeeld": "Een verticale grondvlakantenne met vier radialen is populair voor VHF/UHF omdat ze rondom (omnidirectioneel) straalt en weinig plaats vraagt. Een endfed is geliefd bij portable werken omdat je hem aan één uiteinde kan voeden.",
+      "analogie": "Deze antennes zijn variaties op hetzelfde thema (de resonante draad), zoals verschillende snaarinstrumenten: allemaal gebaseerd op een trillende snaar, maar elk met een eigen vorm en klank (impedantie, bandbreedte, richtingsgevoeligheid)."
+     }
+    }
+   ]
+  },
+  {
+   "id": "8.3",
+   "titel": "Antennekarakteristieken",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Antennes worden gekenmerkt door hun winst, stralingsdiagram, bandbreedte, voedingsimpedantie en polarisatie."
+    },
+    {
+     "type": "concept",
+     "titel": "Winst, stralingsdiagram en bandbreedte",
+     "essentie": "Winst (dB, vaak dBi of dBd) meet de bundeling. Het stralingsdiagram toont de richtingen; de bandbreedte het bruikbare frequentiegebied.",
+     "detail": {
+      "uitleg": "De **winst (gain)** drukt uit hoeveel sterker een antenne in haar hoofdrichting straalt dan een referentie: **dBi** (t.o.v. een isotrope straler, die in alle richtingen gelijk straalt) of **dBd** (t.o.v. een dipool; 0 dBd = 2,15 dBi). Winst ontstaat niet uit 'extra' vermogen maar uit **bundeling**: meer in de gewenste richting betekent minder elders. Het **stralingsdiagram** is de grafische voorstelling van de straling in alle richtingen (hoofdlus, zijlussen). De **bandbreedte** is het frequentiegebied waarover de antenne goed werkt (lage SWR). De **voedingsimpedantie** moet passen bij de kabel (bv. 50 Ω) voor maximale vermogensoverdracht.",
+      "voorbeeld": "Een antenne met 3 dB winst straalt in haar hoofdrichting dubbel zoveel vermogen als de referentie — alsof je zendvermogen verdubbelde, maar enkel in die richting. In andere richtingen straalt ze net minder.",
+      "analogie": "Winst is als het bundelen van een zaklamp: dezelfde batterij (vermogen), maar door het licht te focussen schijnt het veel verder in één richting — ten koste van de brede omgeving."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Voor-achterverhouding en effectief oppervlak",
+     "essentie": "De front-to-back ratio meet hoeveel een richtantenne naar achter onderdrukt. Het effectief oppervlak (capture area) bepaalt hoeveel vermogen een antenne opvangt.",
+     "detail": {
+      "uitleg": "De **voor-achterverhouding (front-to-back ratio, F/B)** drukt in dB uit hoeveel sterker een richtantenne (bv. Yagi) naar voren straalt dan naar achteren — een hoge F/B onderdrukt storing uit de tegengestelde richting. Het **effectief oppervlak** (capture area of *effective aperture*) is het denkbeeldige oppervlak waarmee een ontvangantenne vermogen uit een passerende golf 'opvangt'; het hangt samen met de winst. Een antenne met meer winst heeft een groter effectief oppervlak en vangt dus meer signaal op.",
+      "voorbeeld": "Een Yagi met 20 dB voor-achterverhouding ontvangt een storend station recht achter je 100× zwakker dan het gewenste station vooraan — je draait de storing gewoon 'naar achteren' weg.",
+      "analogie": "De voor-achterverhouding is als een paraplu die de regen vooraan doorlaat maar achteraan tegenhoudt; het effectief oppervlak is als de grootte van een emmer die de regen (het signaal) opvangt."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Parabolische en hoornantennes",
+     "essentie": "Op zeer hoge frequenties (SHF) gebruikt men parabolische schotels en hoornantennes voor zeer hoge winst.",
+     "detail": {
+      "uitleg": "Op **microgolffrequenties (SHF, GHz)** worden de golflengtes zo klein dat compacte antennes met zeer hoge winst mogelijk zijn. Een **parabolische antenne** (schotel) bundelt de straling van een klein voedingselement in het brandpunt tot een zeer smalle, krachtige bundel — hoe groter de schotel t.o.v. de golflengte, hoe hoger de winst. Een **hoornantenne** (horn) is een trechtervormige golfpijp-uitgang, vaak gebruikt als voeding voor een schotel of als referentieantenne met goed gedefinieerde eigenschappen.",
+      "voorbeeld": "Voor amateurverbindingen op 10 GHz gebruikt men parabolische schotels die winsten van 30 dB en meer halen — nodig om de hoge vrije-ruimtedemping op die frequenties te overwinnen.",
+      "analogie": "Een parabolische schotel is als de reflector achter een zaklamplampje: hij bundelt alle straling in één scherpe, verre bundel. Een hoornantenne is als een megafoon die het geluid netjes richt."
+     }
+    }
+   ]
+  },
+  {
+   "id": "8.4",
+   "titel": "Transmissielijnen",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een **transmissielijn** (voedingslijn/feeder) brengt het signaal van de zender naar de antenne. De bekendste is de **coaxkabel**. Belangrijke begrippen: karakteristieke impedantie, verkortingsfactor en staandegolfverhouding."
+    },
+    {
+     "type": "concept",
+     "titel": "Karakteristieke impedantie & verkortingsfactor",
+     "essentie": "Elke lijn heeft een karakteristieke impedantie (bv. 50 Ω). Signalen lopen er trager dan in vrije ruimte: de verkortingsfactor.",
+     "detail": {
+      "uitleg": "Een transmissielijn heeft een **karakteristieke impedantie** $Z_0$ die enkel van haar constructie afhangt, niet van de lengte — voor amateurradio-coax meestal **50 Ω** (soms 75 Ω). Bij amateurfrequenties gedraagt een goede coax zich vrijwel weerstandsloos (geen reactantie). Signalen planten zich in de kabel **trager** voort dan in vrije ruimte; de verhouding heet de **verkortingsfactor (velocity factor)**, typisch 0,66 voor massieve-polyethyleen-coax en tot ~0,8 voor schuim. Daardoor is een elektrisch halvegolflange kabel fysiek korter dan een halve golflengte in lucht.",
+      "voorbeeld": "Een halvegolflengte coax voor 7 MHz zou in lucht 21 m zijn, maar met verkortingsfactor 0,66 is de fysieke lengte $21 \\times 0{,}66 \\approx 14$ m. Daar moet je rekening mee houden bij op maat gesneden kabellengtes.",
+      "analogie": "De verkortingsfactor is als lopen door water in plaats van door lucht: je gaat trager vooruit, dus in dezelfde tijd leg je een kortere afstand af. De 'elektrische lengte' en de 'fysieke lengte' verschillen daardoor."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Staandegolfverhouding (SWR)",
+     "essentie": "SWR meet hoe goed antenne en lijn op elkaar aangepast zijn. 1:1 is perfect; hoe hoger, hoe meer vermogen weerkaatst.",
+     "detail": {
+      "uitleg": "Wanneer de antenne-impedantie niet perfect past bij de kabelimpedantie, wordt een deel van het vermogen aan de antenne **teruggekaatst** naar de zender. Heen- en teruggaande golf vormen samen een **staande golf** op de lijn. De **staandegolfverhouding (SWR/VSWR)** meet dit: **1:1** betekent perfecte aanpassing (alle vermogen naar de antenne), hogere waarden betekenen meer reflectie. Een hoge SWR veroorzaakt vermogensverlies, kan de eindtrap beschadigen en wijst op een slecht aangepaste of defecte antenne. Een SWR-meter is dan ook onmisbaar (zie h10).",
+      "voorbeeld": "Een SWR van 1:1 is ideaal; tot ~1,5:1 is uitstekend; boven 2:1 verlies je merkbaar vermogen en beveiligen veel moderne zenders zichzelf door terug te regelen. Een oneindige SWR wijst op een onderbroken of kortgesloten antenne.",
+      "analogie": "SWR is als water door een slang naar een sproeier die niet past: past hij perfect (1:1), dan gaat al het water eruit. Past hij slecht, dan spat een deel terug in de slang — verlies, en druk op de pomp."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — transmissielijnen",
+     "inhoud": "**Karakteristieke impedantie** $Z_0$: constructie-eigenschap, meestal 50 Ω (coax).\n**Verkortingsfactor**: signaal loopt trager (typisch 0,66); fysieke lijn korter dan in lucht.\n**SWR/VSWR**: 1:1 = perfecte aanpassing; hoger = meer reflectie, verlies en risico voor de eindtrap."
+    },
+    {
+     "type": "concept",
+     "titel": "Parallelle lijn en golfpijp",
+     "essentie": "Naast coax bestaan de parallelle (tweedraads) lijn — laag verlies, hoge impedantie — en de golfpijp voor microgolven.",
+     "detail": {
+      "uitleg": "Naast coax zijn er andere transmissielijnen. De **parallelle lijn** (tweedraads- of ladderlijn) bestaat uit twee evenwijdige geleiders; ze heeft een **hoge karakteristieke impedantie** (300–600 Ω) en zeer **laag verlies**, maar is **symmetrisch** (vereist een balun naar coax) en gevoelig voor omgeving. De **golfpijp (waveguide)** is een holle metalen buis waarin microgolven zich voortplanten; ze heeft extreem laag verlies maar werkt enkel boven een bepaalde **grensfrequentie** (cutoff) en is daardoor enkel bruikbaar op SHF (GHz).",
+      "voorbeeld": "Een open ladderlijn naar een multiband-dipool heeft veel minder verlies dan coax, ook bij hoge SWR — vandaar populair bij antennes die op meerdere banden werken via een tuner. Golfpijpen zie je bij radar en satelliet-grondstations.",
+      "analogie": "Coax is als een afgeschermde tuinslang, de parallelle lijn als twee open leidingen naast elkaar (efficiënt maar gevoelig voor de omgeving), en de golfpijp als een buis waardoor je enkel water met voldoende druk (hoge frequentie) kan sturen."
+     }
+    }
+   ]
+  },
+  {
+   "id": "8.5",
+   "titel": "Impedantieaanpassing van antennes",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Voor maximale vermogensoverdracht moeten antenne, lijn en zender **op elkaar afgestemd** zijn qua impedantie. Waar dat niet vanzelf lukt, gebruikt men een aanpassingsnetwerk."
+    },
+    {
+     "type": "concept",
+     "titel": "Antennetuner en balun",
+     "essentie": "Een antennetuner past de impedantie aan zodat de zender een lage SWR ziet. Een balun koppelt een symmetrische antenne aan een asymmetrische kabel.",
+     "detail": {
+      "uitleg": "Een **antennetuner (ATU)** is een aanpassingsnetwerk (spoelen en condensatoren) dat de impedantie van antenne + lijn omzet naar de 50 Ω die de zender verwacht, zodat die een lage **SWR** ziet en zijn volle vermogen kan leveren. Let op: een tuner lost een slechte antenne niet echt op — hij 'verbergt' de mismatch voor de zender, maar verlies op de lijn blijft. Een **balun** (*balanced–unbalanced*) koppelt een **symmetrische** antenne (zoals een dipool) aan een **asymmetrische** kabel (coax), zodat er geen mantelstromen op de buitenkant van de coax lopen (wat straling en storing zou geven). Voor impedantieaanpassing kan ook een transformator dienen ($Z_1/Z_2 = n^2$, §2.5).",
+      "voorbeeld": "Wil je een 40 m-dipool ook op 20 m gebruiken, dan is de impedantie daar heel anders; een ATU past dat aan zodat de zender toch een lage SWR ziet. Een 1:1 balun op het voedingspunt van de dipool voorkomt dat de coaxmantel mee gaat stralen.",
+      "analogie": "Een antennetuner is als een adapterstekker die niet-passende contacten toch laat samenwerken. Een balun is de vertaler tussen een 'tweezijdig' apparaat (symmetrische antenne) en een 'eenzijdig' apparaat (coax), zodat ze netjes samenwerken."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Spannings- en stroombalun",
+     "essentie": "Een stroombalun (mantelstroomsmoorspoel) onderdrukt mantelstromen; een spanningsbalun forceert een symmetrische spanning. Een unun koppelt twee asymmetrische systemen.",
+     "detail": {
+      "uitleg": "Er zijn twee soorten baluns. Een **stroombalun** (current balun, tevens **mantelstroomsmoorspoel** / common-mode choke) dwingt gelijke maar tegengestelde stromen af en **onderdrukt zo de mantelstroom** op de coax — de meest aanbevolen soort. Een **spanningsbalun** (voltage balun) forceert een symmetrische spanning aan de uitgang. Een **unun** (unbalanced-unbalanced) koppelt twee **asymmetrische** systemen met verschillende impedantie (bv. voor een endfed). De keuze hangt af van de antenne: voor een gewone dipool met coax is een 1:1 stroombalun meestal de beste keuze.",
+      "voorbeeld": "Straalt je coaxmantel mee (je meet RF in de shack, of de SWR verandert als je de kabel aanraakt), dan plaats je een 1:1 stroombalun (mantelstroomsmoorspoel) op het voedingspunt — die dwingt de stroom in de antenne en niet op de mantel.",
+      "analogie": "Een stroombalun is als een keerklep die zorgt dat het water enkel door de juiste leiding (de antenne) gaat en niet terug langs de buitenkant lekt (mantelstroom)."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — impedantieaanpassing",
+     "inhoud": "Doel: **maximale vermogensoverdracht** → antenne/lijn/zender aangepast (lage SWR).\n**Antennetuner (ATU)**: past impedantie aan naar 50 Ω (verbergt mismatch, lost slechte antenne niet op).\n**Balun**: koppelt symmetrische antenne aan asymmetrische coax; voorkomt mantelstromen.\n**Transformator**: impedantie via $Z_1/Z_2 = n^2$."
+    }
+   ]
+  }
+ ]
+}

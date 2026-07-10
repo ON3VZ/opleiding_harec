@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5.3 Voor- en nadelen van de verschillende modulatiesoorten — HAREC Leerplatform</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/app.css">
+<script>window.MathJax={tex:{inlineMath:[['$','$']],displayMath:[['$$','$$']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
+<script src="../assets/vendor/mathjax/tex-mml-chtml.js" id="MathJax-script" async></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html"><span class="brand-mark">RA</span> HAREC Leerplatform</a>
+    <div class="spacer"></div>
+    <span class="callsign-chip" data-callsign-chip>gast</span>
+    <button class="btn-logout" data-logout>Afmelden</button>
+    <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</header>
+<div class="sidebar-backdrop"></div>
+<div class="app">
+  <main class="content" id="content">
+    <div class="crumbs"><a href="../index.html">Overzicht</a> &rsaquo; <a href="h05.html">H5 Modulatie en demodulatie</a> &rsaquo; §5.3</div>
+    <div class="chapter-hero">
+      <div class="eyebrow">Hoofdstuk 5 · Modulatie en demodulatie</div>
+      <h1>5.3 Voor- en nadelen van de verschillende modulatiesoorten</h1>
+    </div>
+    <div id="theory"><p style="color:var(--ink-soft)">Inhoud wordt geladen…</p></div>
+    <div class="sub-done-wrap"><button class="btn-primary" id="done-btn">Markeer subhoofdstuk als gelezen</button></div>
+    <div class="sub-nav" id="sub-nav"></div>
+    </main>
+  <aside class="sidebar" id="sidebar">
+    <h2>Voortgang</h2>
+    <div class="progress-global">
+      <div class="progress-bar"><i id="global-bar" style="width:0%"></i></div>
+      <div class="progress-label" id="global-label">0 / 75 subhoofdstukken voltooid</div>
+    </div>
+    <h2>Hoofdstukken</h2>
+    <div id="nav-list"></div>
+  </aside>
+</div>
+<script src="../assets/js/app.js"></script>
+<script>
+  const CHAP_ID='h05', SUB_ID='5.3';
+  if(!HAREC.requireLogin()){}
+  (async function(){
+    await HAREC.loadStructure();
+    HAREC.wireHeader();
+    HAREC.markSubSeen(SUB_ID);
+    // laad theorie-data van dit subhoofdstuk
+    const root=document.getElementById('theory');
+    try{
+      const data=await (await fetch('../data/theorie_h05.json')).json();
+      const sub=(data.subhoofdstukken||[]).find(x=>x.id===SUB_ID);
+      if(sub && sub.blokken && sub.blokken.length){
+        root.innerHTML=sub.blokken.map(b=>HAREC.renderBlock(b)).join('');
+        HAREC.wireConcepts(root);
+        if(window.MathJax&&MathJax.typesetPromise) MathJax.typesetPromise([root]);
+      } else {
+        root.innerHTML='<div class="box box-info"><div class="box-title">Nog in voorbereiding</div><div>De theorie voor dit subhoofdstuk wordt binnenkort toegevoegd.</div></div>';
+      }
+    }catch(e){
+      root.innerHTML='<div class="box box-info"><div class="box-title">Nog in voorbereiding</div><div>De theorie voor dit hoofdstuk wordt binnenkort toegevoegd.</div></div>';
+    }
+    // done-knop
+    const db=document.getElementById('done-btn');
+    function refresh(){ const d=HAREC.isSubDone(SUB_ID); db.textContent=d?'✓ Gelezen — klik om terug te zetten':'Markeer subhoofdstuk als gelezen'; db.classList.toggle('is-done',d); }
+    db.addEventListener('click',()=>{ HAREC.toggleSubDone(SUB_ID); refresh(); HAREC.buildSidebar(CHAP_ID,SUB_ID); });
+    refresh();
+    document.getElementById('sub-nav').innerHTML=`<a class="prev" href="h05-5.2.html"><div class="sn-label">← Vorige</div><div class="sn-title">5.2 Demodulatie</div></a>`+`<a class="next" href="../quiz/h05.html"><div class="sn-label">Volgende →</div><div class="sn-title">📝 Oefenvragen</div></a>`;
+    HAREC.buildSidebar(CHAP_ID,SUB_ID);
+  })();
+</script>
+</body>
+</html>

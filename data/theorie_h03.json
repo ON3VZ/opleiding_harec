@@ -1,0 +1,339 @@
+{
+ "hoofdstuk": 3,
+ "titel": "Passieve en actieve componenten",
+ "bron": "UBA-handboek h3 · IRTS HAREC Study Guide (2024) hfst. 4,8,9,10 · componenten.xls",
+ "subhoofdstukken": [
+  {
+   "id": "3.1",
+   "titel": "Passieve componenten",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "**Passieve** componenten leveren zelf geen energie of versterking; ze verbruiken, slaan op of vervormen een signaal. De drie basissoorten zijn de **weerstand**, de **condensator** en de **spoel**. De frequentie-afhankelijke werking (reactantie) is behandeld in hoofdstuk 2.3; hier bekijken we de componenten zelf, hun types en hun niet-ideale gedrag."
+    },
+    {
+     "type": "concept",
+     "titel": "De weerstand",
+     "essentie": "Een weerstand beperkt de stroom. Types: koolstoffilm, metaalfilm (precisie) en draadgewonden (hoog vermogen). De potentiometer is regelbaar.",
+     "detail": {
+      "uitleg": "Een **weerstand** zet elektrische energie om in warmte en beperkt zo de stroom (wet van Ohm, §2.1). De courantste vaste types zijn **koolstoffilm** (goedkoop), **metaalfilm** (nauwkeurig, laag ruis — voor precisie) en **draadgewonden** (voor hoge vermogens, want ze voeren veel warmte af). Een **potentiometer** is een regelbare weerstand met een sleepcontact, waarmee je de weerstand traploos instelt. Elke weerstand heeft een **tolerantie** (toegelaten afwijking, bv. ±5 %) en een **maximaal vermogen** (bv. 0,25 W of 5 W).",
+      "voorbeeld": "Moet een weerstand 4 W dissiperen, dan kies je een draadgewonden type van bijvoorbeeld 5 W — een klein koolstoffilm-weerstandje van 0,25 W zou onmiddellijk doorbranden.",
+      "analogie": "Een weerstand is als een vernauwing in een waterleiding: hoe nauwer, hoe meer hij de stroom afremt. Een potentiometer is een verstelbare kraan waarmee je de doorstroming regelt."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "De condensator",
+     "essentie": "Slaat energie op in een elektrisch veld. Capaciteit (farad) hangt af van plaatoppervlak, plaatafstand en diëlektricum.",
+     "detail": {
+      "uitleg": "Een **condensator** bestaat uit twee geleidende platen met een isolator (**diëlektricum**) ertussen, en slaat energie op in het **elektrische veld**. De **capaciteit** $C$ (farad, F) is groter bij een groter plaatoppervlak, een kleinere plaatafstand en een diëlektricum met hogere diëlektrische constante. Het verband tussen lading, spanning en capaciteit is $Q = C \\cdot U$. Voor wisselstroom biedt een condensator capacitieve reactantie ($X_C = \\frac{1}{2\\pi f C}$, §2.3); voor gelijkstroom laadt hij op en blokkeert dan. Bij een **variabele** condensator regel je de capaciteit door de effectieve plaatoverlap te wijzigen.",
+      "voorbeeld": "Schuif de platen van een draaicondensator half uit elkaar en de capaciteit halveert — precies zo stem je de afgestemde kring van een ontvanger af.",
+      "analogie": "Een condensator is als een klein reservoir voor lading: groter oppervlak of dichter bij elkaar = groter reservoir = meer capaciteit."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Lading, capaciteit en spanning",
+     "latex": "Q = C \\cdot U",
+     "symbolen": "$Q$ = lading (C), $C$ = capaciteit (F), $U$ = spanning (V)",
+     "voorbeeld": "$C = 100$ µF opgeladen tot $U = 12$ V → $Q = 100\\cdot10^{-6} \\times 12 = 1{,}2 \\times 10^{-3}$ C."
+    },
+    {
+     "type": "concept",
+     "titel": "De spoel",
+     "essentie": "Slaat energie op in een magnetisch veld. Inductie (henry) stijgt met meer windingen en een ferrietkern.",
+     "detail": {
+      "uitleg": "Een **spoel** (inductor) is een gewikkelde draad die energie opslaat in een **magnetisch veld**. De **inductie** $L$ (henry, H) neemt toe met het aantal windingen (kwadratisch: $L \\propto N^2$), een grotere diameter en dicht opeen liggende windingen. Een **ferrietkern** of ijzerkern verhoogt de inductie sterk (hoge permeabiliteit); een messing kern verlaagt ze. Een spoel verzet zich tegen stroom­verandering via de **tegen-EMK**. Een **toroïde** (ringkern) houdt het magnetische veld binnenin, zodat er weinig straling naar buiten lekt. Voor wisselstroom biedt een spoel inductieve reactantie ($X_L = 2\\pi f L$, §2.3).",
+      "voorbeeld": "Verdubbel je het aantal windingen van een spoel, dan wordt de inductie vier keer zo groot (want $L \\propto N^2$). Voeg je een ferrietkern toe, dan stijgt ze nog veel meer.",
+      "analogie": "Een spoel is als een zwaar vliegwiel voor elektrische stroom: het verzet zich tegen elke snelheidsverandering. Meer windingen = een zwaarder wiel = meer 'traagheid' (inductie)."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "De transformator",
+     "essentie": "Twee gekoppelde spoelen die wisselspanning omzetten volgens de windingsverhouding. Kan ook impedanties aanpassen.",
+     "detail": {
+      "uitleg": "Een **transformator** koppelt een primaire en secundaire wikkeling via een gemeenschappelijk magnetisch veld (§2.5). De spanningsverhouding is gelijk aan de windingsverhouding $\\frac{U_1}{U_2} = \\frac{N_1}{N_2}$, en bij een ideale transformator blijft het vermogen behouden. Hij kan ook **impedanties aanpassen**, waarbij $\\frac{Z_1}{Z_2} = \\left(\\frac{N_1}{N_2}\\right)^2$ — belangrijk om maximaal vermogen over te dragen (bv. naar een 50 Ω-antenne). Een **autotransformator** heeft één wikkeling met een aftakking. Een echte transformator heeft verliezen (koper-, ijzer- en strooiverliezen) die een ideale niet heeft.",
+      "voorbeeld": "Met een windingsverhouding 2:1 transformeer je 200 Ω naar $200/2^2 = 50$ Ω — precies de aanpassing die je vaak nodig hebt naar een 50 Ω-antennelijn.",
+      "analogie": "Een transformator is als een tandwieloverbrenging die spanning ruilt voor stroom (of impedantie aanpast), met behoud van vermogen."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — passieve componenten",
+     "inhoud": "**Weerstand**: beperkt stroom, zet om in warmte. Draadgewonden = hoog vermogen.\n**Condensator**: energie in elektrisch veld, $Q = C\\cdot U$. Meer oppervlak / kleinere afstand = meer capaciteit.\n**Spoel**: energie in magnetisch veld, $L \\propto N^2$. Ferrietkern verhoogt L.\n**Transformator**: $U_1/U_2 = N_1/N_2$; impedantie $Z_1/Z_2 = (N_1/N_2)^2$."
+    }
+   ]
+  },
+  {
+   "id": "3.2",
+   "titel": "Actieve componenten",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Waar passieve componenten een signaal enkel kunnen verzwakken, opslaan of vervormen, kunnen **actieve** componenten een signaal **versterken** of **regelen** — ze sturen een grote stroom met een klein signaal. Daarvoor is een externe voedingsbron nodig. De belangrijkste actieve componenten zijn de diode, de transistor, de elektronenbuis en de geïntegreerde schakeling."
+    },
+    {
+     "type": "concept",
+     "titel": "Passief versus actief",
+     "essentie": "Passief = geen versterking (weerstand, condensator, spoel). Actief = kan versterken/regelen (diode, transistor, buis, IC), met voeding.",
+     "detail": {
+      "uitleg": "Het onderscheid is fundamenteel. Een **passief** component (weerstand, condensator, spoel, transformator) voegt geen energie toe: het signaal komt er hooguit even sterk of zwakker uit. Een **actief** component kan met een klein stuurstroom of -spanning een veel grotere stroom regelen, en dus **versterken** — maar het put die extra energie uit een externe **voedingsbron**. Halfgeleiders (diode, transistor) en elektronenbuizen zijn de klassieke actieve bouwstenen; geïntegreerde schakelingen (IC's) bundelen er vele in één behuizing.",
+      "voorbeeld": "Een microfoonsignaal is te zwak om een luidspreker aan te drijven. Een transistor (actief) gebruikt dat zwakke signaal om een veel grotere stroom uit de voeding te sturen — zo ontstaat versterking. Een weerstand zou dat nooit kunnen.",
+      "analogie": "Een passief component is als een waterkraan die je zelf moet dichtknijpen — hij kan de stroom enkel beperken. Een actief component is als een pompgemaal: met een lichte druk op de knop stuur je een krachtige waterstroom aan, gevoed door het elektriciteitsnet."
+     }
+    }
+   ]
+  },
+  {
+   "id": "3.3",
+   "titel": "De diode",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een **diode** is de eenvoudigste halfgeleider: ze laat stroom maar in **één richting** door. Dat maakt ze onmisbaar voor gelijkrichting, bescherming, stabilisatie en nog veel meer."
+    },
+    {
+     "type": "concept",
+     "titel": "Werking: doorlaat en sper",
+     "essentie": "Een diode geleidt in doorlaatrichting (anode positiever dan kathode) en blokkeert in sperrichting. Silicium geleidt vanaf ~0,6–0,7 V.",
+     "detail": {
+      "uitleg": "Een diode heeft een **anode** en een **kathode**. Is de anode positiever dan de kathode (**doorlaatrichting**), dan geleidt ze — maar pas vanaf de **drempel- of kniespanning** (bij silicium ongeveer 0,6–0,7 V, bij germanium ~0,3 V). Is de anode negatiever (**sperrichting**), dan blokkeert ze; er vloeit enkel een verwaarloosbare **lekstroom**. Wordt de sperspanning te groot, dan treedt bij de **doorslagspanning** (PIV, *peak inverse voltage*) plots geleiding op — bij een gewone diode beschadigend, bij een zenerdiode net gewenst. De twee belangrijkste parameters van een gelijkrichtdiode zijn dan ook de **maximale sperspanning** en de **maximale stroom**.",
+      "voorbeeld": "In een voeding zet een gelijkrichtdiode wisselspanning om in pulserende gelijkspanning door enkel de positieve helften door te laten. Voor 230 V-netgelijkrichting kies je een diode met ruim voldoende PIV.",
+      "analogie": "Een diode is als een terugslagklep in een waterleiding: water (stroom) mag maar één kant op. Duw je te hard van de verkeerde kant (te hoge sperspanning), dan bezwijkt de klep."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Sperspanning bij dubbelfasige gelijkrichting",
+     "latex": "U_{sper} = 2{,}82 \\cdot U_i",
+     "symbolen": "$U_{sper}$ = vereiste sperspanning, $U_i$ = effectieve (RMS) ingangsspanning. ($2{,}82 = 2\\sqrt{2}$)",
+     "voorbeeld": "Bij een dubbelfasige gelijkrichter met $U_i = 12$ V (eff.) moet elke diode $2{,}82 \\times 12 \\approx 34$ V kunnen sperren."
+    },
+    {
+     "type": "concept",
+     "titel": "Speciale dioden",
+     "essentie": "Zenerdiode (spanningsstabilisatie), LED (licht), capaciteitsdiode/varicap (afstembare condensator).",
+     "detail": {
+      "uitleg": "Naast de gewone gelijkrichtdiode bestaan er gespecialiseerde types. De **zenerdiode** geleidt in sperrichting bij een welbepaalde **zenerspanning** en houdt die spanning constant — ideaal voor **spanningsstabilisatie**. De **LED** (Light Emitting Diode) geeft licht wanneer ze in doorlaat geleidt. De **capaciteitsdiode** (varicap of afstemdiode) gedraagt zich in sperrichting als een condensator waarvan de capaciteit afhangt van de aangelegde spanning — waarmee je een kring elektronisch kan afstemmen (bv. in een PLL of VFO).",
+      "voorbeeld": "In een moderne ontvanger stem je af door een regelspanning op een varicap te zetten: hoe hoger de spanning, hoe kleiner de capaciteit, hoe hoger de afstemfrequentie — geen mechanische draaicondensator meer nodig.",
+      "analogie": "De varicap is als een elektronisch bediende draaicondensator: in plaats van te draaien, verander je gewoon een spanning om de 'capaciteitsknop' te verzetten."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — diode",
+     "inhoud": "Geleidt in **doorlaat** (anode +), blokkeert in **sper**. Drempel Si ≈ 0,6–0,7 V.\n**Lekstroom**: kleine sperstroom. **PIV/doorslagspanning**: max. sperspanning.\n**Zener**: stabiliseert spanning. **LED**: geeft licht. **Varicap**: spanningsgestuurde condensator (afstemming)."
+    }
+   ]
+  },
+  {
+   "id": "3.4",
+   "titel": "De transistor",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "De **transistor** is de bouwsteen van alle moderne elektronica: hij kan versterken en schakelen. Met een klein stuursignaal regel je een veel grotere stroom. Er zijn twee hoofdfamilies: de **bipolaire transistor** (BJT) en de **veldeffecttransistor** (FET)."
+    },
+    {
+     "type": "concept",
+     "titel": "De bipolaire transistor (BJT)",
+     "essentie": "Drie aansluitingen: basis, collector, emitter. Een kleine basisstroom stuurt een grote collectorstroom. Types NPN en PNP.",
+     "detail": {
+      "uitleg": "Een **bipolaire junctietransistor (BJT)** heeft twee halfgeleiderjuncties en drie aansluitingen: **basis**, **collector** en **emitter**. Afhankelijk van de opbouw is het een **NPN** of een **PNP** transistor (het pijltje op de emitter in het symbool wijst in de stroomrichting; bij NPN wijst het naar buiten, bij PNP naar binnen). Zonder spanning tussen basis en emitter vloeit er geen collectorstroom. Zodra de basis-emitterspanning boven de drempel komt (~0,6–0,7 V bij silicium) 'opent' de transistor: een kleine **basisstroom** $I_b$ stuurt dan een veel grotere **collectorstroom** $I_c$. De emitter voert de som: $I_e = I_b + I_c$. Bij een NPN staat de collector positief t.o.v. de emitter, bij een PNP negatief.",
+      "voorbeeld": "Een basisstroom van 0,1 mA kan bij een transistor met β = 100 een collectorstroom van 10 mA sturen — honderd keer zoveel. Zo versterkt één transistor een zwak signaal.",
+      "analogie": "Een transistor is als een kraan die je met één vinger bedient: een kleine beweging (basisstroom) regelt een krachtige waterstroom (collectorstroom). Het kleine signaal 'stuurt' het grote."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Stroomversterkingsfactor β",
+     "essentie": "β (bèta) = collectorstroom gedeeld door basisstroom. Ze zegt hoeveel keer de transistor de stroom versterkt.",
+     "detail": {
+      "uitleg": "De **stroomversterkingsfactor** $\\beta$ (bèta, ook $h_{FE}$ genoemd) is de verhouding van de collectorstroom tot de basisstroom: $\\beta = I_c / I_b$. Een typische kleinsignaaltransistor heeft een β tussen 100 en 300. Ze bepaalt hoeveel de transistor 'versterkt'. Het **instellen van het werkpunt** met een basis-spanningsdeler (R1/R2) heet **biasing**: het bepaalt bij welke ruststroom de transistor werkt, en dus in welke klasse (A, B, C) de versterker functioneert.",
+      "voorbeeld": "Bij een correct ingestelde versterker in gemeenschappelijke emitter (GES) staat de collector op ongeveer de halve voedingsspanning — dat geeft de grootste onvervormde uitsturing in beide richtingen.",
+      "analogie": "β is de 'hefboomfactor' van de transistor: hoe groot de duw op de grote stroom is voor elke eenheid stuurstroom. Een β van 100 betekent een hefboom van honderd."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Stroomversterkingsfactor",
+     "latex": "\\beta = \\dfrac{I_c}{I_b} \\qquad I_e = I_b + I_c",
+     "symbolen": "$\\beta$ = stroomversterking, $I_c$ = collectorstroom, $I_b$ = basisstroom, $I_e$ = emitterstroom (A)",
+     "voorbeeld": "$I_b = 0{,}1$ mA, $\\beta = 100$ → $I_c = 10$ mA, $I_e = 10{,}1$ mA."
+    },
+    {
+     "type": "concept",
+     "titel": "De veldeffecttransistor (FET)",
+     "essentie": "Drie aansluitingen: source, gate, drain. Spanningsgestuurd, zeer hoge ingangsimpedantie.",
+     "detail": {
+      "uitleg": "De **veldeffecttransistor (FET)** heeft de aansluitingen **source**, **gate** en **drain**. Anders dan de BJT wordt de FET **spanningsgestuurd**: de spanning op de gate regelt de stroom tussen source en drain, vrijwel zonder gatestroom. Daardoor heeft een FET een **zeer hoge ingangsimpedantie** — ideaal als eerste trap in een ontvanger, waar je de bron zo weinig mogelijk wil belasten. De **MOSFET** (met geïsoleerde gate) is de meest voorkomende variant in moderne schakelingen.",
+      "voorbeeld": "In de ingangstrap van een gevoelige ontvanger gebruikt men vaak een FET, precies omdat zijn hoge ingangsimpedantie het zwakke antennesignaal nauwelijks belast.",
+      "analogie": "Waar de BJT een 'stroomkraan' is die je met stroom bedient, is de FET een kraan die je bedient met een naderende hand (een spanningsveld) — je hoeft de kraan zelf niet aan te raken (nauwelijks gatestroom)."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "De drie basisschakelingen",
+     "essentie": "Gemeenschappelijke emitter (spanning + stroom), gemeenschappelijke basis (spanning, lage ingang), gemeenschappelijke collector (stroom, volger).",
+     "detail": {
+      "uitleg": "Een transistor kan op drie manieren in een versterker geschakeld worden, naargelang welke aansluiting gemeenschappelijk is. **Gemeenschappelijke emitter (GES)**: hoge spannings- én stroomversterking, keert het signaal 180° om — de meest gebruikte. **Gemeenschappelijke basis (GBS)**: hoge spanningsversterking maar stroomversterking < 1, lage ingangsimpedantie — geschikt voor hoge frequenties. **Gemeenschappelijke collector (GCS)** of **emittervolger**: spanningsversterking ≈ 1, hoge ingangs- en lage uitgangsimpedantie — voor impedantieaanpassing. Bij de FET heten de equivalenten gemeenschappelijke source, gate en drain.",
+      "voorbeeld": "Een emittervolger (GCS) versterkt de spanning niet, maar zet een hoge bronimpedantie om naar een lage — precies wat je nodig hebt om een luidspreker of een volgende trap aan te drijven zonder de bron te belasten.",
+      "analogie": "De drie schakelingen zijn als drie versnellingen: één voor kracht (spanningsversterking, GES), één voor snelheid bij hoge frequentie (GBS), en één voor soepele koppeling (emittervolger, GCS)."
+     }
+    },
+    {
+     "type": "grid2",
+     "titel": "Verzadiging en cut-off (schakelaarwerking)",
+     "kolommen": [
+      "Verzadiging (saturatie)",
+      "Cut-off (geblokkeerd)"
+     ],
+     "inhoud": [
+      "De transistor geleidt **maximaal**; $V_{ce}$ is minimaal. De transistor is 'volledig aan'.",
+      "De transistor is **geblokkeerd**; er vloeit geen collectorstroom. De transistor is 'volledig uit'."
+     ]
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — transistor",
+     "inhoud": "**BJT**: basis, collector, emitter. Kleine $I_b$ stuurt grote $I_c$. $\\beta = I_c/I_b$, $I_e = I_b + I_c$.\n**FET**: source, gate, drain. Spanningsgestuurd, zeer hoge ingangsimpedantie.\n**GES**: spanning+stroom, faze-omkering. **GBS**: hoge freq. **GCS/emittervolger**: volger, impedantieaanpassing.\n**Schakelaar**: verzadigd (aan) of cut-off (uit)."
+    }
+   ]
+  },
+  {
+   "id": "3.5",
+   "titel": "Elektronenbuizen",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "De **elektronenbuis** (vacuümbuis) is de historische voorloper van de transistor. In amateurradio blijft ze relevant voor **hoogvermogen-eindtrappen**, waar buizen robuust en tolerant zijn voor overbelasting."
+    },
+    {
+     "type": "concept",
+     "titel": "Werking van de elektronenbuis",
+     "essentie": "In een vacuümbuis stromen elektronen van de gloeiende kathode naar de anode; een rooster regelt die stroom.",
+     "detail": {
+      "uitleg": "Een elektronenbuis bevat in een vacuüm een **kathode**, een **anode** (plaat) en meestal een of meer **roosters**. De verhitte kathode zendt elektronen uit die naar de positieve anode bewegen — de elektronenstroom loopt dus **van kathode naar anode**. Een **stuurrooster** tussen beide regelt met een kleine spanning die elektronenstroom, net zoals de basis/gate bij een transistor. Een **triode** heeft één rooster, een **pentode** drie. Buizen werken met hoge anodespanningen (honderden tot duizenden volt).",
+      "voorbeeld": "In een hoogvermogen RF-eindtrap wordt vaak een buis in **geaarde-roosterschakeling** (common grid) gebruikt: het rooster is de gemeenschappelijke elektrode. Zulke trappen leveren betrouwbaar honderden watts.",
+      "analogie": "Een buis is als een waterval van elektronen van kathode naar anode; het rooster is een sluis die met lichte bediening de hele stroom regelt — het transistorprincipe, maar dan in vacuüm en bij hoge spanning."
+     }
+    },
+    {
+     "type": "warning",
+     "titel": "Let op — hoogspanning",
+     "inhoud": "Buizen-eindtrappen werken met **levensgevaarlijke anodespanningen** (vaak > 1000 V). Werk nooit aan een ingeschakelde of pas uitgeschakelde buizentrap: condensatoren kunnen nog lang geladen blijven. Zie hoofdstuk 13 Veiligheid."
+    }
+   ]
+  },
+  {
+   "id": "3.6",
+   "titel": "Geïntegreerde schakelingen (IC's)",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een **geïntegreerde schakeling (IC)** bundelt vele transistoren, weerstanden en condensatoren in één klein halfgeleiderplaatje. Ze bestaan in **analoge** (bv. versterkers, spanningsregelaars) en **digitale** (bv. logica, processoren) uitvoeringen. De belangrijkste analoge bouwsteen voor het examen is de operationele versterker."
+    },
+    {
+     "type": "concept",
+     "titel": "De operationele versterker (opamp)",
+     "essentie": "Een opamp is een versterker met zeer hoge versterking, twee ingangen en één uitgang. Ideaal: oneindige versterking, oneindige ingangsimpedantie, nul uitgangsimpedantie.",
+     "detail": {
+      "uitleg": "De **operationele versterker** (opamp) is een differentiële versterker met een **niet-inverterende (+)** en een **inverterende (−)** ingang en één uitgang; hij versterkt het *verschil* tussen beide ingangen. De **ideale opamp** heeft: oneindige (open-lus) versterking, oneindige **ingangsimpedantie** (belast de bron niet) en nul **uitgangsimpedantie** (kan elke last aandrijven). In de praktijk bepaalt niet de opamp zelf, maar de **externe weerstanden** in de terugkoppeling de versterking van de schakeling. Voor een niet-inverterende schakeling geldt $A = 1 + \\dfrac{R_f}{R_i}$.",
+      "voorbeeld": "Een niet-inverterende opamp met $R_f = 150$ kΩ en $R_i = 1$ kΩ heeft een versterking $A = 1 + 150/1 = 151$. De opamp zelf heeft een veel hogere 'open' versterking, maar de weerstanden temmen die tot precies 151.",
+      "analogie": "Een opamp is een enorm sterke, maar 'domme' krachtbron; de externe weerstanden zijn de teugels die bepalen hoe hard hij precies mag trekken. Zonder teugels (open lus) slaat hij meteen door naar het maximum."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Versterking niet-inverterende opamp",
+     "latex": "A = 1 + \\dfrac{R_f}{R_i}",
+     "symbolen": "$A$ = spanningsversterking, $R_f$ = terugkoppelweerstand, $R_i$ = ingangsweerstand (Ω)",
+     "voorbeeld": "$R_f = 150$ kΩ, $R_i = 1$ kΩ → $A = 1 + 150 = 151$."
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — opamp",
+     "inhoud": "Twee ingangen (+ en −), één uitgang; versterkt het **verschil**.\n**Ideaal**: oneindige versterking, oneindige ingangsimpedantie, nul uitgangsimpedantie.\nDe **externe weerstanden** bepalen de versterking, niet de opamp zelf.\nNiet-inverterend: $A = 1 + R_f/R_i$."
+    }
+   ]
+  },
+  {
+   "id": "3.7",
+   "titel": "Een wiskundige afsluiter: de decibel (dB)",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "De **decibel** is geen component maar een rekenmiddel: een handige, logaritmische manier om verhoudingen van vermogen (of spanning) uit te drukken. Ze is onmisbaar om versterking en verzwakking langs een keten op te tellen."
+    },
+    {
+     "type": "concept",
+     "titel": "Wat de decibel doet",
+     "essentie": "De decibel drukt een verhouding logaritmisch uit. Voordeel: je telt dB's op in plaats van verhoudingen te vermenigvuldigen.",
+     "detail": {
+      "uitleg": "De **decibel (dB)** vergelijkt twee vermogens op een logaritmische schaal: $\\text{dB} = 10 \\log_{10}\\!\\left(\\dfrac{P_2}{P_1}\\right)$. Het grote voordeel is dat je langs een keten (zender → kabel → antenne) de winsten en verliezen gewoon mag **optellen** in plaats van verhoudingen te vermenigvuldigen. Voor **spanning of stroom** geldt de factor **20** in plaats van 10, omdat vermogen met het kwadraat van de spanning meegroeit. Gekoppeld aan een vaste referentie krijg je absolute eenheden: **dBW** (t.o.v. 1 W) en **dBm** (t.o.v. 1 mW).",
+      "voorbeeld": "Een versterker maakt van 10 W → 1000 W: een factor 100 = 20 dB. Verlies je daarna 3 dB in de kabel, dan hou je 20 − 3 = 17 dB over — optellen in plaats van vermenigvuldigen.",
+      "analogie": "De decibel is als de schaal van Richter: elke stap is geen 'beetje meer' maar een vermenigvuldiging. +3 dB is dubbel, +10 dB is tien keer — je telt trappen op een logaritmische ladder."
+     }
+    },
+    {
+     "type": "table",
+     "titel": "dB → vermogensverhouding (uit het hoofd!)",
+     "header": [
+      "dB",
+      "Verhouding"
+     ],
+     "rijen": [
+      [
+       "10 dB",
+       "× 10"
+      ],
+      [
+       "3 dB",
+       "× 2 (verdubbeling)"
+      ],
+      [
+       "0 dB",
+       "× 1 (gelijk)"
+      ],
+      [
+       "−3 dB",
+       "÷ 2 (helft)"
+      ],
+      [
+       "−10 dB",
+       "÷ 10"
+      ],
+      [
+       "20 dB",
+       "× 100"
+      ],
+      [
+       "−20 dB",
+       "÷ 100"
+      ]
+     ]
+    },
+    {
+     "type": "formula",
+     "naam": "Decibel (vermogen)",
+     "latex": "\\mathrm{dB} = 10 \\log_{10}\\!\\left(\\dfrac{P_2}{P_1}\\right)",
+     "symbolen": "$P_1$ = ingangsvermogen, $P_2$ = uitgangsvermogen (W)",
+     "voorbeeld": "1000 W uit bij 10 W in → verhouding 100 → 20 dB."
+    },
+    {
+     "type": "formula",
+     "naam": "Decibel (spanning / stroom)",
+     "latex": "\\mathrm{dB} = 20 \\log_{10}\\!\\left(\\dfrac{U_2}{U_1}\\right)",
+     "symbolen": "$U_1$, $U_2$ = in- en uitgangsspanning (V). Factor 20 want $P \\propto U^2$.",
+     "voorbeeld": "spanningsverhouding 8× → $20 \\log 8 \\approx 18$ dB."
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — decibel",
+     "inhoud": "**Vermogen**: dB $= 10 \\log(P_2/P_1)$. **Spanning**: dB $= 20 \\log(U_2/U_1)$.\n+3 dB = ×2 · +10 dB = ×10 · +20 dB = ×100 (en de min-varianten omgekeerd).\ndB's langs een keten mag je **optellen**.\n**dBW** = t.o.v. 1 W · **dBm** = t.o.v. 1 mW."
+    }
+   ]
+  }
+ ]
+}

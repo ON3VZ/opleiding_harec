@@ -1,0 +1,177 @@
+{
+ "hoofdstuk": 13,
+ "titel": "Veiligheid",
+ "bron": "UBA-handboek h13 · IRTS HAREC Study Guide (2024) hfst. 19 · emcveiligheid.xls (veiligheid)",
+ "subhoofdstukken": [
+  {
+   "id": "13.1",
+   "titel": "Waarover gaat het?",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Een radioamateurstation werkt met gevaarlijke spanningen, hoge masten en uitgestraald RF-vermogen. **Veiligheid** — voor jezelf, je omgeving en anderen — is jouw verantwoordelijkheid. Dit hoofdstuk behandelt de elektrische gevaren, RF-straling en het veilig werken aan antennes."
+    }
+   ]
+  },
+  {
+   "id": "13.2",
+   "titel": "De elektrische processen in het menselijke lichaam",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Elektriciteit is gevaarlijk omdat het lichaam zelf stroom geleidt. Niet de spanning maar de **stroom door het lichaam** bepaalt de ernst."
+    },
+    {
+     "type": "concept",
+     "titel": "Stroom door het lichaam",
+     "essentie": "De stroom (in mA) door het lichaam bepaalt het gevaar: van voelbaar, over niet meer kunnen loslaten, tot hartstilstand.",
+     "detail": {
+      "uitleg": "Wat een elektrische schok gevaarlijk maakt, is de **stroom** die door het lichaam vloeit, bepaald door de spanning én de lichaamsweerstand (die daalt bij vochtige huid). Ruwe richtwaarden bij wisselstroom: rond **1 mA** wordt de stroom voelbaar; vanaf ongeveer **10 mA** kunnen de spieren verkrampen zodat je een vastgehouden geleider **niet meer kan loslaten**; vanaf ongeveer **30–50 mA** wordt het levensbedreigend; rond **100 mA** door het hart kan **hartfibrillatie** (hartstilstand) optreden. Het pad is cruciaal: van hand tot hand of hand tot voet loopt de stroom door het hart.",
+      "voorbeeld": "Daarom is de klassieke regel: werk aan spanning met één hand achter je rug, zodat er geen stroom van hand tot hand (dwars door het hart) kan lopen als je iets aanraakt.",
+      "analogie": "Het lichaam is een weerstand: zet er spanning over, dan vloeit er stroom. Net als bij een component telt niet de spanning op zich, maar hoeveel stroom er door 'het kwetsbare deel' (het hart) gaat."
+     }
+    }
+   ]
+  },
+  {
+   "id": "13.3",
+   "titel": "Gevaren in functie van elektrische spanning",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Hoe hoger de spanning, hoe groter de stroom die door het lichaam kan vloeien — en dus het gevaar. Verschillende spanningsniveaus in het station vragen verschillende voorzorgen."
+    },
+    {
+     "type": "concept",
+     "titel": "Laag- en hoogspanning in het station",
+     "essentie": "Het lichtnet (230 V) is al dodelijk. Buizen-eindtrappen werken met honderden tot duizenden volt: extra gevaarlijk.",
+     "detail": {
+      "uitleg": "Het **lichtnet (230 V wisselspanning)** is op zich al levensgevaarlijk: het kan ruim voldoende stroom door het lichaam drijven. Nog gevaarlijker zijn de **hoge gelijkspanningen** in buizen-eindtrappen (anodespanningen van honderden tot **meer dan 1000 V**). Bovendien blijven **afvlakcondensatoren** in voedingen na het uitschakelen nog lang **geladen** — ze kunnen een dodelijke lading vasthouden. Lage spanningen (bv. 13,8 V) geven weinig schokgevaar, maar kunnen bij kortsluiting wel grote stromen en brand veroorzaken.",
+      "voorbeeld": "Voor je aan een buizen-eindtrap werkt, schakel je niet alleen uit, maar ontlaad je ook de afvlakcondensatoren bewust (met een ontlaadweerstand) — anders staat er nog honderden volt op, ook al is het toestel 'uit'.",
+      "analogie": "Een geladen condensator na het uitschakelen is als een geladen wapen dat 'uit' lijkt: het ziet er ongevaarlijk uit, maar het kan nog altijd afgaan tot je het bewust ontlaadt."
+     }
+    }
+   ]
+  },
+  {
+   "id": "13.4",
+   "titel": "Reële gevaren",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Naast elektrocutie zijn er in een station reële gevaren zoals brand, brandwonden en de effecten van uitgestraald RF-vermogen."
+    },
+    {
+     "type": "concept",
+     "titel": "RF-straling en andere gevaren",
+     "essentie": "Sterk RF-vermogen kan weefsel opwarmen (zoals een magnetron). Hou voldoende afstand tot antennes bij uitzending. Ook brand en brandwonden zijn reële risico's.",
+     "detail": {
+      "uitleg": "Uitgestraald **RF-vermogen** kan lichaamsweefsel **opwarmen** — hetzelfde principe als een magnetron. Dicht bij een zendende antenne (of bij een open eindtrap) kan de veldsterkte de veilige limieten overschrijden; ogen en andere gevoelige weefsels zijn kwetsbaar. Daarom gelden er **blootstellingslimieten** en hou je voldoende **afstand** tussen antenne en personen, zeker bij hoog vermogen. De **SAR** (Specific Absorption Rate) drukt uit hoeveel RF-energie het lichaam opneemt. Verder zijn er 'gewone' gevaren: **brand** (oververhitting, kortsluiting), **brandwonden** (hete componenten, dummy load), en RF-**brandwonden** bij aanraking van een antenne onder vermogen.",
+      "voorbeeld": "Raak nooit een antenne aan terwijl je zendt met hoog vermogen: je kan een pijnlijke RF-brandwond oplopen. En plaats een zendende antenne niet vlak naast een slaapkamer — hou de voorgeschreven veilige afstand aan.",
+      "analogie": "Een zendende antenne is als een verwarmingselement: op afstand voel je niets, maar te dichtbij warm je op. Hoe meer vermogen, hoe groter de veilige afstand die je moet houden."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Batterij- en chemische gevaren",
+     "essentie": "Accu's kunnen bij kortsluiting enorme stromen leveren (brand, ontploffing). Loodzuuraccu's bevatten bijtend zuur en produceren explosief waterstofgas.",
+     "detail": {
+      "uitleg": "Voedingsbronnen brengen eigen gevaren mee. Een **accu (batterij)** kan bij **kortsluiting** een enorme stroom leveren — genoeg om kabels te laten smelten, brand te veroorzaken of de accu te doen ontploffen; zekeringen dicht bij de accu zijn essentieel. **Loodzuuraccu's** bevatten **bijtend zwavelzuur** (draag oogbescherming) en produceren bij het laden **explosief waterstofgas** — laad ze daarom in een goed geventileerde ruimte, weg van vonken of vlammen. **Lithiumaccu's** kunnen bij beschadiging of overlading in brand vliegen (thermal runaway). Ga voorzichtig om met defecte of gezwollen accu's.",
+      "voorbeeld": "Leg nooit metalen gereedschap over de polen van een auto- of shackaccu: de kortsluitstroom kan honderden ampères bedragen, de sleutel roodgloeiend maken en de accu doen barsten. Plaats een zekering vlak bij de pluspool.",
+      "analogie": "Een geladen accu is als een gespannen veer vol energie: gecontroleerd nuttig, maar bij een kortsluiting ontlaadt alles in een flits — met vonken, hitte en brandgevaar."
+     }
+    }
+   ]
+  },
+  {
+   "id": "13.5",
+   "titel": "Voorzorgen tegen elektrisering en elektrocutie",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "De meeste elektrische ongevallen zijn te voorkomen met de juiste beveiligingen en werkwijze."
+    },
+    {
+     "type": "concept",
+     "titel": "Aarding, zekeringen en verliesstroomschakelaar",
+     "essentie": "Een goede veiligheidsaarding, correct gedimensioneerde zekeringen en een verliesstroomschakelaar (differentieel) beschermen tegen elektrocutie.",
+     "detail": {
+      "uitleg": "Enkele basisvoorzorgen. Een **veiligheidsaarding** verbindt de metalen behuizing met de aarde, zodat een defect geen gevaarlijke spanning op de kast zet en de beveiliging aanslaat. **Zekeringen** en automaten beschermen tegen te hoge stromen (brand): gebruik nooit een **te zware zekering** — die beschermt niet meer en laat een gevaarlijke stroom toe. Een **verliesstroomschakelaar (differentieel/RCD)** meet het verschil tussen heen- en terugstroom en schakelt bliksemsnel uit als er stroom 'weglekt' (bv. door een lichaam), en beschermt zo tegen elektrocutie. Werk aan apparatuur bij voorkeur **spanningsloos**, en gebruik de **één-hand-regel** als je toch onder spanning moet meten.",
+      "voorbeeld": "Vervang je een doorgebrande zekering, gebruik dan exact de voorgeschreven waarde. Een 'dikkere' zekering (of een stukje draad) lost het probleem niet op maar creëert brandgevaar, want ze onderbreekt niet meer bij overbelasting.",
+      "analogie": "De aarding is een vluchtweg voor foutstroom, de zekering een veiligheidsklep tegen overdruk, en de verliesstroomschakelaar een waakhond die onmiddellijk ingrijpt zodra er stroom 'ontsnapt' — samen vormen ze je vangnet."
+     }
+    },
+    {
+     "type": "warning",
+     "titel": "Let op — nooit een te zware zekering",
+     "inhoud": "Een zekering die 'te zwaar' is voor de kring beschermt niet meer: ze laat een te hoge stroom toe, wat oververhitting en **brand** kan veroorzaken. Gebruik altijd de voorgeschreven waarde."
+    }
+   ]
+  },
+  {
+   "id": "13.6",
+   "titel": "Wat doen bij een ongeval",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Bij een elektrisch ongeval telt elke seconde. Weten wat te doen — en vooral in welke volgorde — kan een leven redden."
+    },
+    {
+     "type": "concept",
+     "titel": "Eerste hulp bij elektrocutie",
+     "essentie": "Eerst de stroom uitschakelen (raak het slachtoffer niet aan onder spanning!), dan hulp bellen, dan indien nodig reanimeren (CPR).",
+     "detail": {
+      "uitleg": "De juiste volgorde bij een elektrocutie is cruciaal. **Eerst**: schakel de **stroom uit** (hoofdschakelaar, stekker) — raak het slachtoffer nooit aan zolang het nog onder spanning staat, anders word je zelf mee geëlektrocuteerd. Kan je de stroom niet uitschakelen, gebruik dan een niet-geleidend voorwerp om het slachtoffer los te maken. **Dan**: bel de **hulpdiensten (112)**. **Dan**: controleer bewustzijn en ademhaling en start indien nodig **reanimatie (CPR)**. De **hoofdschakelaar** moet daarom goed bereikbaar zijn, zodat je in geval van nood de installatie snel spanningsloos kan maken.",
+      "voorbeeld": "Vindt iemand aan een spanning vast, spring dan niet toe om hem weg te trekken — je zou zelf vastraken. Schakel eerst de hoofdschakelaar uit, en pas dan help je. Daarom plaats je die schakelaar op een goed bereikbare plaats.",
+      "analogie": "Het is als iemand redden uit stromend water: spring er niet blindelings in (dan zijn er twee slachtoffers). Zet eerst de 'kraan' (stroom) uit, dan help je veilig."
+     }
+    }
+   ]
+  },
+  {
+   "id": "13.7",
+   "titel": "Bescherming tegen stralingsgevaar van antennes",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Antennes onder vermogen stralen RF-energie uit die op korte afstand schadelijk kan zijn. Correcte plaatsing en afstand beschermen jou en je omgeving."
+    },
+    {
+     "type": "concept",
+     "titel": "Veilige afstand en plaatsing",
+     "essentie": "Hou antennes buiten bereik van personen tijdens uitzending, respecteer de blootstellingslimieten en de opgelegde veilige afstand.",
+     "detail": {
+      "uitleg": "De **veldsterkte** (en dus het stralingsgevaar) neemt snel af met de afstand tot de antenne (§8.1). Plaats zendantennes daarom zo dat personen zich tijdens uitzending niet in het **nabije veld** bevinden: niet op ooghoogte langs een balkon, niet vlak bij verblijfplaatsen. Bij hoog vermogen gelden er **wettelijke blootstellingslimieten** (in België via een KB inzake straling), die een minimale veilige afstand opleggen. Hoe hoger het vermogen en hoe hoger de frequentie, hoe belangrijker deze afstand. Zend niet met hoog vermogen als iemand zich vlak bij de antenne bevindt.",
+      "voorbeeld": "Een handzender vlak bij het hoofd is laag vermogen en meestal geen probleem, maar een 100 W-station op een dipool vlak boven een terras waar mensen zitten, kan de limieten overschrijden. Plaats de antenne hoger en verder van verblijfplaatsen.",
+      "analogie": "Een zendantenne is als een warmtelamp: hoe dichterbij en hoe krachtiger, hoe meer je de energie voelt. Voldoende afstand houdt iedereen veilig."
+     }
+    }
+   ]
+  },
+  {
+   "id": "13.8",
+   "titel": "Gevaren bij monteren van antennes en antennemasten",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Antennewerk gebeurt vaak op hoogte en in de buurt van elektriciteitsleidingen — twee van de gevaarlijkste situaties voor een radioamateur."
+    },
+    {
+     "type": "concept",
+     "titel": "Werken op hoogte en nabij leidingen",
+     "essentie": "Gebruik valbeveiliging, werk nooit alleen op hoogte, en hou antennes ver van elektriciteitsleidingen — een neervallende antenne op een hoogspanningslijn is dodelijk.",
+     "detail": {
+      "uitleg": "Bij het monteren van masten en antennes zijn er twee grote gevaren. **Vallen van hoogte**: gebruik een gekeurde **valbeveiliging** (harnas met vanglijn), stabiele ladders, en werk **nooit alleen** — laat iemand meekijken. **Elektriciteitsleidingen**: plaats en manipuleer een mast of antenne nooit zo dat ze bij het optrekken of neervallen een **elektriciteitsleiding** kan raken. De vuistregel: de afstand tot een luchtlijn moet groter zijn dan de totale lengte van mast + antenne, zodat ze bij omvallen de lijn niet kan bereiken. Een antenne die op een hoogspanningslijn valt, is **levensgevaarlijk**. Let ook op weersomstandigheden (wind, onweer) en op de bliksembeveiliging van je installatie.",
+      "voorbeeld": "Voor je een mast optrekt, controleer je of er binnen de valstraal (mastlengte + antenne) geen elektriciteitsleiding ligt. Draag een valbeveiliging en zorg dat er iemand bij is die kan helpen of alarm slaan.",
+      "analogie": "Een mast opzetten naast een hoogspanningslijn is als een lange ladder hanteren onder een stroomdraad: één misstap en het loopt fataal af. Hou altijd meer dan een 'maslengte' afstand."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — veiligheid",
+     "inhoud": "**Gevaar = stroom door het lichaam** (mA): ~10 mA niet meer loslaten, ~100 mA hartstilstand.\n**Condensatoren** blijven na uitschakelen geladen → bewust ontladen.\n**Zekering**: nooit te zwaar. **Verliesstroomschakelaar** beschermt tegen elektrocutie. **Hoofdschakelaar** goed bereikbaar.\n**Ongeval**: eerst stroom uit (niet aanraken!), dan 112, dan CPR.\n**RF-straling**: veilige afstand houden bij uitzending.\n**Masten**: valbeveiliging, nooit alleen, uit de buurt van elektriciteitsleidingen (afstand > mastlengte)."
+    }
+   ]
+  }
+ ]
+}

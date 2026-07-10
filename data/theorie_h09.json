@@ -1,0 +1,162 @@
+{
+ "hoofdstuk": 9,
+ "titel": "Propagatie van radiogolven",
+ "bron": "UBA-handboek h9 · IRTS HAREC Study Guide (2024) hfst. 16 · propagatie.xls",
+ "subhoofdstukken": [
+  {
+   "id": "9.1",
+   "titel": "Signaalverzwakking en signaalruisverhouding",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Onderweg van zender naar ontvanger verzwakt een radiosignaal. Of het aan de andere kant nog leesbaar is, hangt niet af van de absolute sterkte, maar van de verhouding tot de **ruis**."
+    },
+    {
+     "type": "concept",
+     "titel": "Verzwakking en signaal-ruisverhouding",
+     "essentie": "Signalen verzwakken met de afstand. Bepalend voor leesbaarheid is de signaal-ruisverhouding (S/N), niet de absolute sterkte.",
+     "detail": {
+      "uitleg": "Een radiogolf **verzwakt** naarmate hij zich verder verspreidt: de vermogensdichtheid daalt met het kwadraat van de afstand (§8.1). Maar of een signaal nog *leesbaar* is, bepaalt de **signaal-ruisverhouding (S/N of SNR)**: de verhouding tussen het nuttige signaal en de aanwezige ruis, meestal in dB (§3.7). Een zwak signaal in een stille omgeving kan perfect leesbaar zijn, terwijl een sterker signaal in veel ruis onverstaanbaar is. Ruis komt van de ontvanger zelf, van de atmosfeer (QRN) en van door mensen gemaakte bronnen (SMPS, LED's, §4.1).",
+      "voorbeeld": "Een CW-signaal van amper enkele microvolt is nog leesbaar als de ruis nóg lager ligt — daarom haalt CW verbindingen die voor SSB onmogelijk zijn: de smalle bandbreedte laat minder ruis door, dus een betere S/N.",
+      "analogie": "Het gaat niet om hoe hard iemand roept (signaalsterkte), maar of je hem verstaat boven het achtergrondlawaai (ruis). Fluisteren in een stille kamer werkt beter dan roepen op een druk feest."
+     }
+    }
+   ]
+  },
+  {
+   "id": "9.2",
+   "titel": "Optisch zicht of vrije ruimte propagatie",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Op hogere frequenties (VHF en hoger) planten radiogolven zich vooral in rechte lijn voort, net als licht — de **directe golf** of zichtlijnpropagatie."
+    },
+    {
+     "type": "concept",
+     "titel": "Zichtlijnpropagatie",
+     "essentie": "VHF/UHF-golven reizen in rechte lijn (line of sight). Het bereik reikt iets verder dan de optische horizon.",
+     "detail": {
+      "uitleg": "Bij **zichtlijnpropagatie** (line of sight) reist de golf in een rechte lijn van zend- naar ontvangantenne, zoals licht. Dit domineert op **VHF, UHF en hoger**. Het bereik wordt beperkt door de **horizon**, maar radiogolven buigen door de atmosfeer iets af, waardoor de **radiohorizon** wat verder ligt dan de optische. Hoger opgestelde antennes vergroten het bereik aanzienlijk. Hindernissen (gebouwen, heuvels) blokkeren of verzwakken het signaal.",
+      "voorbeeld": "Voor een lokaal 2 m-contact via een repeater op een hoge mast telt vooral de antennehoogte: hoe hoger je antenne, hoe verder de radiohorizon en hoe groter je bereik. Een berg ertussen breekt de verbinding.",
+      "analogie": "Zichtlijnpropagatie is als elkaar zien met een verrekijker: je moet vrij zicht hebben. Sta je hoger, dan kijk je verder over de horizon; staat er een berg tussen, dan zie je elkaar niet."
+     }
+    }
+   ]
+  },
+  {
+   "id": "9.3",
+   "titel": "De ionosfeer",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Op de **HF-banden** (3–30 MHz) maakt de **ionosfeer** verbindingen over duizenden kilometers mogelijk: ze weerkaatst radiogolven terug naar de aarde. Dit is de basis van HF-DX."
+    },
+    {
+     "type": "concept",
+     "titel": "Weerkaatsing via de ionosfeer",
+     "essentie": "De ionosfeer (geïoniseerde lagen op 60–400 km) buigt HF-golven terug naar de aarde, waardoor verbindingen ver voorbij de horizon ontstaan.",
+     "detail": {
+      "uitleg": "De **ionosfeer** bestaat uit lagen (D, E, F) geïoniseerd gas op 60 tot 400 km hoogte, gevormd door zonnestraling. Ze kan HF-golven **terugbuigen** naar de aarde (**ruimtegolf** of *sky wave*), zodat die ver voorbij de horizon terugkomen — soms na meerdere 'sprongen' (hops) rond de aarde. De **D-laag** (overdag) verzwakt vooral de lage HF-frequenties; de **F-laag** zorgt voor de langeafstandsweerkaatsing. Omdat de ionisatie afhangt van de zon, verandert de propagatie met het **tijdstip van de dag, het seizoen en de 11-jarige zonnecyclus**. De **grondgolf** (ground wave) volgt langs het aardoppervlak en is vooral op lage frequenties bruikbaar over kortere afstand.",
+      "voorbeeld": "'s Nachts verdwijnt de D-laag en kan je op de 80 m-band verbindingen over heel Europa maken die overdag onmogelijk zijn. In een zonnemaximum openen zelfs de 10 m- en 6 m-band voor wereldwijde DX.",
+      "analogie": "De ionosfeer is als een spiegel hoog in de lucht: je kaatst je signaal ertegen om achter de horizon te komen, zoals je met een spiegel om een hoek kan kijken. De 'spiegel' verandert wel met dag, nacht en seizoen."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "MUF en kritische frequentie",
+     "essentie": "Boven de maximaal bruikbare frequentie (MUF) breekt de golf door de ionosfeer heen in plaats van terug te keren.",
+     "detail": {
+      "uitleg": "De ionosfeer weerkaatst enkel tot een bepaalde frequentie. De **kritische frequentie** is de hoogste frequentie die recht omhoog nog wordt teruggekaatst. Voor schuine paden geldt de **maximaal bruikbare frequentie (MUF)**: boven de MUF **breekt de golf door** de ionosfeer heen (verdwijnt de ruimte in) in plaats van terug te keren. Onder een bepaalde **laagste bruikbare frequentie (LUF)** wordt de golf te sterk verzwakt. Voor een goede HF-verbinding kies je dus een frequentie tussen LUF en MUF — vaak net onder de MUF voor het beste bereik.",
+      "voorbeeld": "Is de MUF op een bepaald moment 21 MHz, dan werkt de 15 m-band (21 MHz) mooi, maar 'gaat de 10 m-band (28 MHz) dicht' — signalen daarboven schieten de ruimte in en komen niet terug.",
+      "analogie": "De MUF is als de maximale hoek waaronder een steen nog over het water 'ketst': gooi je te steil (te hoge frequentie), dan plonst de steen erin (door de ionosfeer heen) in plaats van te stuiteren."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Zonnecyclus, zonnevlekken en geomagnetische stormen",
+     "essentie": "De zon stuurt de ionosfeer aan. Meer zonnevlekken = betere HF-condities. Zonne-uitbarstingen en geomagnetische stormen kunnen de propagatie juist verstoren.",
+     "detail": {
+      "uitleg": "De ionisatie van de ionosfeer wordt gedreven door de **zon**, die een cyclus van ongeveer **11 jaar** doorloopt. Het aantal **zonnevlekken (sunspots)** is een maat voor de zonneactiviteit: in een **zonnemaximum** (veel vlekken) is de ionisatie sterk en gaan de hoge HF-banden (bv. 10 m, 6 m) wereldwijd open; in een minimum blijven die vaak dicht. Maar de zon kan ook verstoren: een **zonne-uitbarsting (solar flare)** kan plots de D-laag versterken en HF tijdelijk 'uitdoven' (radioblack-out), en een **geomagnetische storm** (door geladen deeltjes van de zon) verstoort vooral de propagatie via de poolgebieden en kan **aurora** veroorzaken. De **A- en K-index** meten de geomagnetische activiteit.",
+      "voorbeeld": "Tijdens een zonnemaximum kan je met bescheiden vermogen op 10 m de hele wereld werken. Maar breekt er een zware zonnevlam uit, dan kan de HF plots minutenlang tot uren volledig wegvallen (Dellinger-effect).",
+      "analogie": "De zon is de 'motor' van de ionosfeer: draait ze op volle toeren (zonnemaximum), dan werken de hoge banden prima. Maar een plotse 'oprisping' (flare) kan de boel tijdelijk kortsluiten."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — ionosfeer",
+     "inhoud": "**Ionosfeer** (D/E/F-lagen) weerkaatst HF-golven → verbindingen ver voorbij de horizon (ruimtegolf).\nHangt af van **dag/nacht, seizoen, zonnecyclus**.\n**MUF**: hoogste bruikbare frequentie; erboven breekt de golf door.\n**Grondgolf**: langs het oppervlak, vooral lage frequenties, korte afstand."
+    }
+   ]
+  },
+  {
+   "id": "9.4",
+   "titel": "Propagatie op zeer hoge frequenties",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Op VHF en hoger domineert zichtlijnpropagatie, maar er bestaan bijzondere mechanismen die af en toe veel groter bereik geven."
+    },
+    {
+     "type": "concept",
+     "titel": "Bijzondere VHF-propagatie",
+     "essentie": "Tropo (temperatuurinversie), sporadische E en aurora kunnen op VHF tijdelijk verbindingen over honderden km geven.",
+     "detail": {
+      "uitleg": "Naast zichtlijn zijn er op VHF bijzondere mechanismen. **Troposferische propagatie (tropo)** ontstaat bij temperatuurinversies in de lagere atmosfeer, die golven laten meebuigen over grote afstand — vooral bij mooi, stabiel weer. **Sporadische E (Es)** is een tijdelijke, sterk geïoniseerde wolk in de E-laag die VHF-signalen (tot 6 m en soms 2 m) over honderden tot >1000 km weerkaatst, vooral in de zomer. **Aurora**-reflectie via het noorderlicht en **meteorscatter** (weerkaatsing tegen de ionisatiesporen van meteoren) geven kortstondige, bijzondere openingen.",
+      "voorbeeld": "In de zomer 'opent' de 6 m-band (50 MHz) regelmatig via sporadische E, waardoor je plots stations uit heel Europa hoort die er normaal niet zijn — soms maar enkele minuten lang.",
+      "analogie": "Deze mechanismen zijn als onverwachte 'luchtbruggen' die af en toe verschijnen: normaal reikt VHF niet ver, maar bij de juiste omstandigheden ontstaat tijdelijk een pad dat je veel verder brengt."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "Nog meer VHF/UHF-mechanismen",
+     "essentie": "Troposcatter, aircraft scatter, troposferische ducting, EME (maanreflectie) en satellieten breiden het bereik op VHF en hoger uit.",
+     "detail": {
+      "uitleg": "Er zijn nog meer bijzondere paden. **Troposcatter** verstrooit signalen tegen onregelmatigheden in de troposfeer, wat verbindingen tot enkele honderden km geeft (met veel demping). **Aircraft scatter** gebruikt de reflectie tegen **passerende vliegtuigen** voor korte, sterke VHF-openingen. **Troposferische ducting** ontstaat bij sterke temperatuurinversies: de golf wordt in een 'pijp' (duct) tussen luchtlagen geleid over honderden tot >1000 km. **EME** (Earth-Moon-Earth, *moonbounce*) kaatst signalen tegen de **maan** — extreem zwak maar wereldwijd, geliefd op VHF/UHF/SHF met veel vermogen en grote antennes. Via **amateursatellieten** (en het ISS) maak je verbindingen door de satelliet als repeater in de ruimte te gebruiken.",
+      "voorbeeld": "Met EME bereik je stations aan de andere kant van de wereld door je signaal 384 000 km naar de maan en terug te sturen — je hoort dan zelfs je eigen echo met een halve seconde vertraging. Via een amateursatelliet werk je DX met bescheiden apparatuur.",
+      "analogie": "Deze mechanismen zijn als extra 'spiegels' en 'kaatsvlakken': een vliegtuig, een luchtlaag, of zelfs de maan wordt tijdelijk je reflector om verder te reiken dan de horizon."
+     }
+    }
+   ]
+  },
+  {
+   "id": "9.5",
+   "titel": "Ruis",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "**Ruis** bepaalt de ondergrens van wat je nog kan ontvangen. Ze komt uit verschillende bronnen."
+    },
+    {
+     "type": "concept",
+     "titel": "Ruisbronnen",
+     "essentie": "Ruis komt van de ontvanger zelf (thermisch), uit de atmosfeer (onweer, kosmisch) en van door mensen gemaakte bronnen (QRM).",
+     "detail": {
+      "uitleg": "Er zijn drie hoofdbronnen. **Ontvangerruis** is de thermische ruis die het toestel zelf opwekt, vooral in de eerste trap — daarom een ruisarme ingang. **Atmosferische en kosmische ruis** komt van onweer (QRN, vooral op lage frequenties), en van buitenaardse bronnen (op hogere frequenties). **Door mensen gemaakte ruis (QRM)** komt van schakelende voedingen, LED-lampen, computers, dimmers en dergelijke — vaak de grootste stoorbron in een stadsomgeving. De signaal-ruisverhouding (§9.1) bepaalt uiteindelijk wat leesbaar is.",
+      "voorbeeld": "Zet je een goedkope LED-lamp of USB-lader aan naast je ontvanger, dan stijgt de ruis vaak enkele S-punten — zwakke DX-signalen verdwijnen daaronder. Uitschakelen of ontstoren (h12) brengt ze terug.",
+      "analogie": "Ruis is het achtergrondlawaai in een kamer. Het maakt niet uit hoe stil de spreker is, als het lawaai (van apparaten, buiten, of je eigen oren) hem overstemt."
+     }
+    }
+   ]
+  },
+  {
+   "id": "9.6",
+   "titel": "Propagatiebudget (verbindingsbilan)",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "Het **propagatiebudget** (link budget) telt alle winsten en verliezen tussen zender en ontvanger op om te voorspellen of een verbinding zal lukken."
+    },
+    {
+     "type": "concept",
+     "titel": "Het verbindingsbilan",
+     "essentie": "Zendvermogen + antennewinsten − alle verliezen = ontvangen vermogen. Blijft dat boven de ruis, dan is er verbinding.",
+     "detail": {
+      "uitleg": "Het **verbindingsbilan** is een optelsom in dB (§3.7): je begint bij het **zendvermogen**, telt de **antennewinst** aan zender- en ontvangerzijde erbij op, en trekt alle **verliezen** af: kabelverlies, de vrije-ruimte-demping (die met de afstand toeneemt) en eventuele extra verzwakking. Wat overblijft is het **ontvangen vermogen**. Ligt dat voldoende boven de ruisvloer van de ontvanger (§9.1), dan is de verbinding mogelijk. Omdat alles in dB staat, is het gewoon optellen en aftrekken — het grote nut van de decibel.",
+      "voorbeeld": "100 W (+50 dBm) + 6 dBd antennewinst − 3 dB kabelverlies − 140 dB padverlies + 6 dBd ontvangstantenne = −81 dBm ontvangen. Ligt de ruisvloer op −120 dBm, dan is er ruim 39 dB marge: verbinding verzekerd.",
+      "analogie": "Het verbindingsbilan is als een huishoudbudget: inkomsten (vermogen, antennewinst) min uitgaven (alle verliezen). Blijft er genoeg over (boven de ruis), dan 'kom je rond' — de verbinding lukt."
+     }
+    }
+   ]
+  }
+ ]
+}

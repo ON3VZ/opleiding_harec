@@ -1,0 +1,3308 @@
+{
+ "hoofdstuk": "h08",
+ "vragen": [
+  {
+   "id": 2,
+   "sub": "8.2",
+   "vraag": "Wat is ongeveer de lengte van een halvegolfdipool die resoneert op 14,2 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "5 m"
+    },
+    {
+     "letter": "B",
+     "text": "10 m"
+    },
+    {
+     "letter": "C",
+     "text": "20 m"
+    },
+    {
+     "letter": "D",
+     "text": "40 m"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 3,
+   "sub": "8.2",
+   "vraag": "Wat is ongeveer de lengte van een halvegolfdipool die resoneert op 21 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3,75 m"
+    },
+    {
+     "letter": "B",
+     "text": "7,5 m"
+    },
+    {
+     "letter": "C",
+     "text": "15 m"
+    },
+    {
+     "letter": "D",
+     "text": "30 m"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 4,
+   "sub": "8.2",
+   "vraag": "Wat is ongeveer de lengte van een halvegolfdipool die resoneert op 28 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "22,5 m"
+    },
+    {
+     "letter": "B",
+     "text": "5 m"
+    },
+    {
+     "letter": "C",
+     "text": "10 m"
+    },
+    {
+     "letter": "D",
+     "text": "20 m"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 5,
+   "sub": "8.2",
+   "vraag": "Wat is ongeveer de lengte van een halvegolfdipool die resoneert op 144 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,5 m"
+    },
+    {
+     "letter": "B",
+     "text": "1 m"
+    },
+    {
+     "letter": "C",
+     "text": "2 m"
+    },
+    {
+     "letter": "D",
+     "text": "4 m"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 6,
+   "sub": "8.2",
+   "vraag": "Wat is ongeveer de lengte van een halvegolfdipool die resoneert op 7 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "40 m"
+    },
+    {
+     "letter": "B",
+     "text": "20 m"
+    },
+    {
+     "letter": "C",
+     "text": "80 m"
+    },
+    {
+     "letter": "D",
+     "text": "160 m"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 7,
+   "sub": "8.2",
+   "vraag": "Om beter te werken dient een halvegolfdipool",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "resonant te zijn op de werkfrequentie"
+    },
+    {
+     "letter": "B",
+     "text": "gevoed te worden met een coaxiale kabel"
+    },
+    {
+     "letter": "C",
+     "text": "vrij te worden opgehangen"
+    },
+    {
+     "letter": "D",
+     "text": "perfect horizontaal en rechtlijnig te zijn opgehangen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 8,
+   "sub": "8.2",
+   "vraag": "Het voedingspunt van een halvegolfantenne, gevoed in het midden is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "asymmetrisch"
+    },
+    {
+     "letter": "B",
+     "text": "symmetrisch"
+    },
+    {
+     "letter": "C",
+     "text": "onevenwichtig"
+    },
+    {
+     "letter": "D",
+     "text": "van hoge spanning"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 9,
+   "sub": "8.2",
+   "vraag": "De halvegolf-antenne met voeding op het einde is ook genoemd",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "open-end antenne"
+    },
+    {
+     "letter": "B",
+     "text": "zepp-antenne"
+    },
+    {
+     "letter": "C",
+     "text": "langedraad-antenne"
+    },
+    {
+     "letter": "D",
+     "text": "Levy antenne"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 10,
+   "sub": "8.2",
+   "vraag": "De halvegolfantenne gevoed op het einde heeft een versterking t.o.v een halvegolfantenne gevoed in met midden van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3 dB"
+    },
+    {
+     "letter": "B",
+     "text": "–3 dB"
+    },
+    {
+     "letter": "C",
+     "text": "0 dB"
+    },
+    {
+     "letter": "D",
+     "text": "1,24 dB"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 11,
+   "sub": "8.2",
+   "vraag": "Een halve golf antenne met voeding aan het einde wordt op het einde wordt gewoonlijk gevoed via:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een 75 Ω coaxiale kabel"
+    },
+    {
+     "letter": "B",
+     "text": "een 50 Ω coaxiale kabel"
+    },
+    {
+     "letter": "C",
+     "text": "een 300 Ω twinlead"
+    },
+    {
+     "letter": "D",
+     "text": "een paralleldraad ('open wire') transmissielijn"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 12,
+   "sub": "8.2",
+   "vraag": "In de vrije ruimte is de voedingsimpedantie van een resonante halvegolfdipool met voeding in het midden",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "steeds 73 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "steeds 300 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "variabel van 72 Ω tot zeer hoogohmig"
+    },
+    {
+     "letter": "D",
+     "text": "steeds zeer hoogohmig"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 13,
+   "sub": "8.2",
+   "vraag": "Een halvegolfantenne gevoed op het einde heeft als voorkeurstraalrichting(en):",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "geen (is een rondstraler)"
+    },
+    {
+     "letter": "B",
+     "text": "loodrecht op de antenne"
+    },
+    {
+     "letter": "C",
+     "text": "in het verlengde van de antenne"
+    },
+    {
+     "letter": "D",
+     "text": "loodrecht op de transmissielijn"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 14,
+   "sub": "8.2",
+   "vraag": "De bandbreedte van een gevouwen dipool, ten opzichte van de bandbreedte van een open dipool is (beide gemaakt uit geleiders van gelijke diameters)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "steeds groter"
+    },
+    {
+     "letter": "B",
+     "text": "steeds kleiner"
+    },
+    {
+     "letter": "C",
+     "text": "gelijk"
+    },
+    {
+     "letter": "D",
+     "text": "dikwijls kleiner"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 15,
+   "sub": "8.2",
+   "vraag": "Het voedingspunt van een gevouwen dipool is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "asymmetrisch"
+    },
+    {
+     "letter": "B",
+     "text": "symmetrisch"
+    },
+    {
+     "letter": "C",
+     "text": "onevenwichtig"
+    },
+    {
+     "letter": "D",
+     "text": "geaard"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 16,
+   "sub": "8.2",
+   "vraag": "Gevouwen dipolen worden veelal gebruikt",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "als dipolen op de HF banden (< 30 MHz)"
+    },
+    {
+     "letter": "B",
+     "text": "als dipolen in VHF/UHF yagi antennes"
+    },
+    {
+     "letter": "C",
+     "text": "als dipolen in HF yagi antennes"
+    },
+    {
+     "letter": "D",
+     "text": "om storingen te vermijden"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 17,
+   "sub": "8.2",
+   "vraag": "Wat gebeurt er met de voedingsimpedantie van een groundplane wanneer men de radialen schuin omhaag laat lopen in plaats van horizontaal?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de voedingsimpedantie verkleint"
+    },
+    {
+     "letter": "B",
+     "text": "de voedingsimpedantie vergroot"
+    },
+    {
+     "letter": "C",
+     "text": "de voedingsimpedantie blijft gelijk"
+    },
+    {
+     "letter": "D",
+     "text": "de voedingsimpedantie wordt puur capacitief"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 18,
+   "sub": "8.2",
+   "vraag": "Wat is het voordeel van het schuin onlaag laten lopen van de radialen van een groundplane antenne ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "verhoogt de antennewinst"
+    },
+    {
+     "letter": "B",
+     "text": "brengt de voedingsimpedantie op ongeveer 300 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "zorgt voor een beter afwatering van regen op de radialen"
+    },
+    {
+     "letter": "D",
+     "text": "brengt de impedantie op ongeveer 50 Ω"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 19,
+   "sub": "8.2",
+   "vraag": "Een groundplane antenne (kwart golf verticale) zendt een elektromagnetische golf uit met een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "horizontale polarisatie"
+    },
+    {
+     "letter": "B",
+     "text": "verticale polarisatie"
+    },
+    {
+     "letter": "C",
+     "text": "circulaire polarisatie"
+    },
+    {
+     "letter": "D",
+     "text": "willekeurige polarisatie"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 20,
+   "sub": "8.2",
+   "vraag": "Een verticale antenne, die elektrisch een kwart golf lang is, maar fysisch slechts 1/8 golf, wordt in resonantie gebracht door een spoel. Waar plaatst men best de spoel om de grootste efficiëntie te bereiken?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "aan de voet van de antenne"
+    },
+    {
+     "letter": "B",
+     "text": "halfweg de antenne"
+    },
+    {
+     "letter": "C",
+     "text": "aan de top van de antenne"
+    },
+    {
+     "letter": "D",
+     "text": "aan de zender"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 21,
+   "sub": "8.2",
+   "vraag": "Wat gebeurt met de SWR (SGV) bandbreedte van een antenne indien deze gebruik maakt van spoelen (traps) om de korte elementen elektrisch te verlengen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ze vergroot"
+    },
+    {
+     "letter": "B",
+     "text": "ze verkleint"
+    },
+    {
+     "letter": "C",
+     "text": "ze blijft gelijk"
+    },
+    {
+     "letter": "D",
+     "text": "de bandbreedte hangt af van de golflengte"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 22,
+   "sub": "8.2",
+   "vraag": "Wat is de lengte van een reflector van een yagi antenne voor 28,1 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ongeveer 2,7 m"
+    },
+    {
+     "letter": "B",
+     "text": "ongeveer 5,0 m"
+    },
+    {
+     "letter": "C",
+     "text": "ongeveer 5,3 m"
+    },
+    {
+     "letter": "D",
+     "text": "ongeveer 10,7 m"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 23,
+   "sub": "8.2",
+   "vraag": "Wat is de lengte van een director van een yagi antenne voor 21,1 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ongeveer 12,8 m"
+    },
+    {
+     "letter": "B",
+     "text": "ongeveer 6,6 m"
+    },
+    {
+     "letter": "C",
+     "text": "ongeveer 5,1 m"
+    },
+    {
+     "letter": "D",
+     "text": "ongeveer 5,1 m"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 24,
+   "sub": "8.2",
+   "vraag": "Wat is de lengte van het gevoede element van een yagi antenne voor 14,0 MHz?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ongeveer 5,2 m"
+    },
+    {
+     "letter": "B",
+     "text": "ongeveer 9,8 m"
+    },
+    {
+     "letter": "C",
+     "text": "ongeveer 10,7 m"
+    },
+    {
+     "letter": "D",
+     "text": "ongeveer 20,2 m"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 25,
+   "sub": "8.2",
+   "vraag": "Waarom maken radioamateurs dikwijls gebruik van yagi antennes op de 20-meterband?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ze geven een zeer goede omnidirectionele dekking in het horizontale vlak"
+    },
+    {
+     "letter": "B",
+     "text": "ze zijn kleiner, minder duur en gemakkelijker te monteren dan een dipool of een verticale antenne"
+    },
+    {
+     "letter": "C",
+     "text": "door hun richtingsgevoeligheid laten ze toe de storingen veroorzaakt door andere stations op dezelfde frequentie te verminderen"
+    },
+    {
+     "letter": "D",
+     "text": "ze hebben een grotere opstralingshoek op de decameterbanden"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 26,
+   "sub": "8.2",
+   "vraag": "Wat is de typische winst van een 3-element yagi t.o.v een isotrope antenne?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "8 dB"
+    },
+    {
+     "letter": "B",
+     "text": "12 dB"
+    },
+    {
+     "letter": "C",
+     "text": "6 dB"
+    },
+    {
+     "letter": "D",
+     "text": "14 dB"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 27,
+   "sub": "8.2",
+   "vraag": "Wat bepaalt in eerste instantie de winst van een yagi met veel elementen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het aantal elementen"
+    },
+    {
+     "letter": "B",
+     "text": "de lengte van de antenne(boom)"
+    },
+    {
+     "letter": "C",
+     "text": "de lengte van de elementen"
+    },
+    {
+     "letter": "D",
+     "text": "de dikte van de elementen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 28,
+   "sub": "8.2",
+   "vraag": "De voedingsimpedantie (zonder aanpassingssysteem) van een typische 3-element yagi is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ca 300 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "ca 25 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "50 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "> 50 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 29,
+   "sub": "8.2",
+   "vraag": "Een Yagi-antenne heeft t.o.v. een groundplane antenne:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een grotere winst en een groter richteffect"
+    },
+    {
+     "letter": "B",
+     "text": "een kleinere winst en een kleiner richteffect"
+    },
+    {
+     "letter": "C",
+     "text": "een kleinere winst en een groter richteffect"
+    },
+    {
+     "letter": "D",
+     "text": "een grotere winst en een kleiner richteffect"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 30,
+   "sub": "8.2",
+   "vraag": "Als men de drager (boom) van een yagi verlengt, en de elementen optimaal afstemt, wat gebeurt dan?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de winst verhoogt"
+    },
+    {
+     "letter": "B",
+     "text": "de SGV (SWR) verlaagt"
+    },
+    {
+     "letter": "C",
+     "text": "de voor- achter-verhouding verhoogt maar de winst daalt"
+    },
+    {
+     "letter": "D",
+     "text": "de winst-bandbreedte verlaagt gevoelig"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 31,
+   "sub": "8.2",
+   "vraag": "Welk zijn de parasitaire elementen in een Yagi-antenne?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de beide dipoolhelften"
+    },
+    {
+     "letter": "B",
+     "text": "de reflectoren"
+    },
+    {
+     "letter": "C",
+     "text": "de directoren"
+    },
+    {
+     "letter": "D",
+     "text": "de reflectoren en de directoren"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 32,
+   "sub": "8.2",
+   "vraag": "De winst van een yagi",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is steeds het grootst op de frequentie waar de SGV t.o.v. de Zk van de transmissielijn laagst is"
+    },
+    {
+     "letter": "B",
+     "text": "is nooit het hoogst op de frequentie waar de SGV t.o.v. de Zk van de transmissielijn laagst is"
+    },
+    {
+     "letter": "C",
+     "text": "heeft geen verband met de SGV t.o.v. de Zk van de transmissielijn"
+    },
+    {
+     "letter": "D",
+     "text": "is steeds het hoogst op de frequentie waar de voor/achterverhouding grootst is"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 33,
+   "sub": "8.2",
+   "vraag": "Een paraboolantenne met een schoteldiameter van 1 m wordt gebruikt op 5,6 GHz. Als we dezelfde schotel gebruiken op een frequentie van 10,5 GHz, wordt de:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "antennewinst groter en de openingshoek kleiner"
+    },
+    {
+     "letter": "B",
+     "text": "antennewinst kleiner en de openingshoek kleiner"
+    },
+    {
+     "letter": "C",
+     "text": "antennewinst kleiner and de openingshoek groter"
+    },
+    {
+     "letter": "D",
+     "text": "antennewinst groter en de openingshoek groter"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 34,
+   "sub": "8.2",
+   "vraag": "Een hoornantenne",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "gebruikt een primair stralingselement dat de hoofdstraling ontvangt"
+    },
+    {
+     "letter": "B",
+     "text": "kan niet voor horizontale en verticale polarisatie gebruikt worden"
+    },
+    {
+     "letter": "C",
+     "text": "wordt gebruikt in het microgolfgebied"
+    },
+    {
+     "letter": "D",
+     "text": "is gevoelig aan ijsafzetting en wordt nooit in montage gebruikt"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 35,
+   "sub": "8.2",
+   "vraag": "Een hoornantenne",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is een populaire antenne voor de 80m band die weinig plaats inneemt"
+    },
+    {
+     "letter": "B",
+     "text": "straalt steeds onmidirectioneel"
+    },
+    {
+     "letter": "C",
+     "text": "is een veel gebruikte belichtingsantenne voor een parabolische reflector"
+    },
+    {
+     "letter": "D",
+     "text": "is een populaire antenne voor de 2m band"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 36,
+   "sub": "8.2",
+   "vraag": "Wat is het doel van afgestemde traps in een dipool-antenne?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "meer winst te bekomen"
+    },
+    {
+     "letter": "B",
+     "text": "een betere voor/achter verhouding te bekomen"
+    },
+    {
+     "letter": "C",
+     "text": "de dipoolantenne resonant te maken op verschillende frequenties"
+    },
+    {
+     "letter": "D",
+     "text": "een constante voedingsimpedantie te bekomen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 37,
+   "sub": "8.2",
+   "vraag": "Wat is de resonantiefrequentie van de traps in een tweeband dipool voor 80 en 40 m?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3,6 Mhz"
+    },
+    {
+     "letter": "B",
+     "text": "7 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "3,6 en 7 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "14 MHz"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 38,
+   "sub": "8.2",
+   "vraag": "Een dipool met afgestemde traps",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "heeft doorgaans een kleinere SWR (SGV) bandbreedte dan een dipool zonder traps"
+    },
+    {
+     "letter": "B",
+     "text": "heeft doorgaans een grotere SWR (SGV) bandbreedte dan een dipool zonder traps"
+    },
+    {
+     "letter": "C",
+     "text": "heeft principieel dezelfde SWR (SGV) curve als de dipool zonder traps"
+    },
+    {
+     "letter": "D",
+     "text": "heeft steeds minstens 3 dB minder winst dan een dipool zonder traps"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 39,
+   "sub": "8.2",
+   "vraag": "Wat is een nadeel van een antenne met traps?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ze zendt in vele gevallen efficiënt de harmonischen van de zender uit"
+    },
+    {
+     "letter": "B",
+     "text": "ze kan alleen op 1 band gebruikt worden"
+    },
+    {
+     "letter": "C",
+     "text": "ze heeft te veel directiviteit op de lage frequenties"
+    },
+    {
+     "letter": "D",
+     "text": "haar efficiëntie is zeer slecht"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 40,
+   "sub": "8.2",
+   "vraag": "Wat is een voordeel van een antenne met traps?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ze heeft een grote directiviteit op de hogere frequenties"
+    },
+    {
+     "letter": "B",
+     "text": "ze heeft een grotere winst"
+    },
+    {
+     "letter": "C",
+     "text": "ze helpt harmonischen van de zender onderdrukken"
+    },
+    {
+     "letter": "D",
+     "text": "ze kan gebruikt worden op verschillende banden"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 41,
+   "sub": "8.2",
+   "vraag": "De stroom in het midden van de halvegolfdipool is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "maximaal"
+    },
+    {
+     "letter": "B",
+     "text": "minimaal"
+    },
+    {
+     "letter": "C",
+     "text": "dezelfde als op het uiteinde van de dipool"
+    },
+    {
+     "letter": "D",
+     "text": "4 x de stroom op het uiteinde van de dipool"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 42,
+   "sub": "8.2",
+   "vraag": "In een halvegolfdipool is de stroom maximaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "op de uiteinden"
+    },
+    {
+     "letter": "B",
+     "text": "in het midden"
+    },
+    {
+     "letter": "C",
+     "text": "eender waar"
+    },
+    {
+     "letter": "D",
+     "text": "hangt af van de hoogte boven de grond"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 43,
+   "sub": "8.2",
+   "vraag": "Bij een kwart golf verticale antenne is de spanning maximaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "op de top"
+    },
+    {
+     "letter": "B",
+     "text": "aan de basis"
+    },
+    {
+     "letter": "C",
+     "text": "waar de antenne gevoed wordt"
+    },
+    {
+     "letter": "D",
+     "text": "overal gelijk"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 44,
+   "sub": "8.2",
+   "vraag": "Bij een halvegolf antenne is de stroomverdeling in de geleider(s):",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "lineair"
+    },
+    {
+     "letter": "B",
+     "text": "sinusoidaal"
+    },
+    {
+     "letter": "C",
+     "text": "constant"
+    },
+    {
+     "letter": "D",
+     "text": "exponentieel"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 45,
+   "sub": "8.2",
+   "vraag": "Bij een Yagi antenne is de stroom steeds grootst in",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de reflector"
+    },
+    {
+     "letter": "B",
+     "text": "de director"
+    },
+    {
+     "letter": "C",
+     "text": "de gevoede dippool"
+    },
+    {
+     "letter": "D",
+     "text": "overal gelijk"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 46,
+   "sub": "8.2",
+   "vraag": "Als de stroom in de stroombuik van een  halvegolfdipool verdubbelt",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "dan verdubbelt de stroom op de uiteindes van de antenne"
+    },
+    {
+     "letter": "B",
+     "text": "dan verviervoudigt de stroom op de uiteindes van de antenne"
+    },
+    {
+     "letter": "C",
+     "text": "blijft de stroom op het einde gelijk"
+    },
+    {
+     "letter": "D",
+     "text": "halveert de spanning in dat punt"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 47,
+   "sub": "8.2",
+   "vraag": "Welke van de volgende figuren geeft de stroom en de spanningsvorm weer op een halvegolfdipool?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h08/fig-r47.png"
+  },
+  {
+   "id": 48,
+   "sub": "8.2",
+   "vraag": "Een halvegolfantenne is aan 1 einde met een antenne-aanpaseenheid aan een zender aangesloten. Aan het andere uiteinde van de antenne is er een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "spanningsminimum en een stroommaximum"
+    },
+    {
+     "letter": "B",
+     "text": "spanningsmaximum en een stroomminimum"
+    },
+    {
+     "letter": "C",
+     "text": "een spanningsmaximum en een stroommaximum"
+    },
+    {
+     "letter": "D",
+     "text": "een spanningsminimum en een stroomminimum"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 49,
+   "sub": "8.2",
+   "vraag": "Bijgaande figuur stelt het stroomdiagramma voor van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een 5/8 golf verticale"
+    },
+    {
+     "letter": "B",
+     "text": "een ¼ golf verticale"
+    },
+    {
+     "letter": "C",
+     "text": "een ½ golf verticale"
+    },
+    {
+     "letter": "D",
+     "text": "een 3/8 golf verticale"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h08/fig-r49.png"
+  },
+  {
+   "id": 50,
+   "sub": "8.2",
+   "vraag": "Bijgaande figuur stelt het stroomdiagramma voor van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een 5/8 golf verticale"
+    },
+    {
+     "letter": "B",
+     "text": "een ¼ golf verticale"
+    },
+    {
+     "letter": "C",
+     "text": "een ½ golf vertcale"
+    },
+    {
+     "letter": "D",
+     "text": "een 3/8 golf verticale"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk.",
+   "figuur": "assets/img/h08/fig-r50.png"
+  },
+  {
+   "id": 51,
+   "sub": "8.2",
+   "vraag": "De voedingsimpedantie van een halvegolfantenne, met voeding in het midden",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hangt af van de hoogte van de antenne boven de grond"
+    },
+    {
+     "letter": "B",
+     "text": "is 75 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "is 50 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "is 600 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 52,
+   "sub": "8.2",
+   "vraag": "De voedingsimpedantie van een halvegolfdipool met voeding in het midden is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "onafhankelijk van de hoogte van de antenne"
+    },
+    {
+     "letter": "B",
+     "text": "stijgt naarmate de antenne hoger is opgesteld"
+    },
+    {
+     "letter": "C",
+     "text": "daalt naarmate de antenne hoger is opgesteld"
+    },
+    {
+     "letter": "D",
+     "text": "stijgt eerst, daalt dan weer, enz,  als in een golf"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 53,
+   "sub": "8.2",
+   "vraag": "De impedantie aan het voedingspunt van een open halvegolf antenne steeds",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "75 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "50 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "hangt af van waar ze wordt gevoed"
+    },
+    {
+     "letter": "D",
+     "text": "300 Ω"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 54,
+   "sub": "8.2",
+   "vraag": "De voedingsimpedantie van een resonante halvegolf antenne, gevoed op een der uiteindes is in de vrije ruimte",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "72 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "zeer hoogohmig"
+    },
+    {
+     "letter": "C",
+     "text": "600 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "onbepaald"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 55,
+   "sub": "8.2",
+   "vraag": "De voedingsimpedantie van een halvegolf gevouwen dipool in de vrije ruimte is ongeveer:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "75 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "100 "
+    },
+    {
+     "letter": "D",
+     "text": "300 Ω"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 56,
+   "sub": "8.2",
+   "vraag": "De voedingsimpedantie van een gevouwen  dipool (beide geleiders van eenzelfde diameter) is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3 x de impedantie van een gestrekte dipool (ven gelijke lengte)"
+    },
+    {
+     "letter": "B",
+     "text": "4 x de impedantie van een gestrekte dipool (van gelijke lengte)"
+    },
+    {
+     "letter": "C",
+     "text": "gelijk aan deze van een gestrekte dipool van gelijke lengte"
+    },
+    {
+     "letter": "D",
+     "text": "300 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 57,
+   "sub": "8.2",
+   "vraag": "Wat is de impedantie van een kwartgolf verticale antenne (gemaakt uit zeer dunne geleider), opgesteld op een perfect geleidend grondvlak?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ongeveer 18 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "ongeveer 36 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "ongeveer 52 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "ongeveer 72 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 58,
+   "sub": "8.2",
+   "vraag": "De impedantie aan het voedingspunt van een kwartgolf verticale die is opgesteld met het voedingspunt op de grond",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is ca 36 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "hangt af van de verliezen in de grond"
+    },
+    {
+     "letter": "C",
+     "text": "is ca 50 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "steeds kleiner dan 75 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 59,
+   "sub": "8.2",
+   "vraag": "De impedantie van een open halvegolfdipool gedraagt zich beneden de resonantiefrequentie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "capacitief"
+    },
+    {
+     "letter": "B",
+     "text": "inductief"
+    },
+    {
+     "letter": "C",
+     "text": "reëel en laagohmig"
+    },
+    {
+     "letter": "D",
+     "text": "reëel en hoogohmig"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 60,
+   "sub": "8.2",
+   "vraag": "De impedantie van een open halvegolfdipool gedraagt zich boven de resonantiefrequentie",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "capacitief"
+    },
+    {
+     "letter": "B",
+     "text": "inductief"
+    },
+    {
+     "letter": "C",
+     "text": "reëel en laagohmig"
+    },
+    {
+     "letter": "D",
+     "text": "reëel en hoogohmig"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 61,
+   "sub": "8.2",
+   "vraag": "De resonantiefrequentie van een antenne is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de frequentie waarop de voedingsimpedantie reëel is"
+    },
+    {
+     "letter": "B",
+     "text": "de frequentie (f)  waar de lengte = 146/f (uitgedrukt in m)"
+    },
+    {
+     "letter": "C",
+     "text": "de frequentie waar de SGV (SWR) meter in de transmissielijn de kleinste waarde aanduidt"
+    },
+    {
+     "letter": "D",
+     "text": "de frequentie opgegeven in de brochure van de constructeur"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 62,
+   "sub": "8.2",
+   "vraag": "Een antenne gemaakt uit horizontaal opgestelde geleiders",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "produceert in de meeste gevallen een horizontaal gepolariseerd signaal"
+    },
+    {
+     "letter": "B",
+     "text": "produceert steeds een horizontaal gepolariseerd signaal"
+    },
+    {
+     "letter": "C",
+     "text": "produceert steeds een vertikaal gepolariseerd signaal"
+    },
+    {
+     "letter": "D",
+     "text": "de polarisatie is willekeurig"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 63,
+   "sub": "8.2",
+   "vraag": "Wanneer we in een omgeving zonder obstructies, een VHF signaal dat vertikaal is gepolariseerd, opvangen met een horizontaal gepolariseerde antenne, zal het signaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hiervan  geen invloed ondervinden"
+    },
+    {
+     "letter": "B",
+     "text": "hierdoor ca 25 tot 35 dB verzwakt zijn"
+    },
+    {
+     "letter": "C",
+     "text": "niet hoorbaar zijn"
+    },
+    {
+     "letter": "D",
+     "text": "hierdoor ca 3 dB verzwakt zijn"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 64,
+   "sub": "8.2",
+   "vraag": "HF signalen die door de ionosfeer worden afgebogen en weerkaatst vertonen na weerkaatsing",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "exact dezelfde polarisatie als van het uitgezonden signaal"
+    },
+    {
+     "letter": "B",
+     "text": "een polarisatie die 90° is gedraaid"
+    },
+    {
+     "letter": "C",
+     "text": "een willekeurige polarisatie"
+    },
+    {
+     "letter": "D",
+     "text": "geen polarisatie"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 65,
+   "sub": "8.2",
+   "vraag": "Op de HF-banden kunnen we de verminderde signaal/ruisverhouding bij ontvangst, veroorzaakt door atmosferisch ruisen (onweer) verbeteren door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De ruisonderdrukker (“noise blanker”) in de ontvanger in te schakelen"
+    },
+    {
+     "letter": "B",
+     "text": "Antennes met richtingseffect te gebruiken"
+    },
+    {
+     "letter": "C",
+     "text": "Een ontvanger met lager eigen ruisniveau te gebruiken"
+    },
+    {
+     "letter": "D",
+     "text": "Het vermogen van onze zender te verhogen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 66,
+   "sub": "8.2",
+   "vraag": "Welke van volgende antennes kan je niet opstellen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Yagi antenne"
+    },
+    {
+     "letter": "B",
+     "text": "1/4 golf verticale antenne"
+    },
+    {
+     "letter": "C",
+     "text": "isotrope antenne"
+    },
+    {
+     "letter": "D",
+     "text": "parabolische antenne"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 67,
+   "sub": "8.2",
+   "vraag": "De antennewinst wordt meestal uitgedrukt in",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "dB t.o.v. een isotrope antenne in de vrije ruimte"
+    },
+    {
+     "letter": "B",
+     "text": "V/m"
+    },
+    {
+     "letter": "C",
+     "text": "dB"
+    },
+    {
+     "letter": "D",
+     "text": "db · mV"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 68,
+   "sub": "8.2",
+   "vraag": "Twee identieke yagi antennes met elk 10 dBi winst worden in faze gevoed. Wat is de de maximale winst die kan bereikt worden?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10 dBi"
+    },
+    {
+     "letter": "B",
+     "text": "13 dBi"
+    },
+    {
+     "letter": "C",
+     "text": "16 dBi"
+    },
+    {
+     "letter": "D",
+     "text": "20 dBi"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 69,
+   "sub": "8.2",
+   "vraag": "Een antenne heeft een winst van 2.14 dB t.o.v. een isotrope antenne. Wat is haar maximale winst t.o.v. een halvegolf dipool?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2,14 dB"
+    },
+    {
+     "letter": "B",
+     "text": "0 dB"
+    },
+    {
+     "letter": "C",
+     "text": "3 dB"
+    },
+    {
+     "letter": "D",
+     "text": "5,14 dB"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 70,
+   "sub": "8.2",
+   "vraag": "Wat is antennewinst?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De verhouding van de sterkte van het uitgestraalde vermogen van een antenne vergeleken met een referentie-antenne (dipool of isotrope antenne)"
+    },
+    {
+     "letter": "B",
+     "text": "De verhouding van de sterkte van het signaal uitgezonden door een antenne in de voorwaartse richting vergeleken met de sterkte uitgezonden langs de achterzijde"
+    },
+    {
+     "letter": "C",
+     "text": "De verhouding van de sterkte van het signaal uitgezonden door een antenne t.o.v. het uitgangsvermogen van de zender"
+    },
+    {
+     "letter": "D",
+     "text": "De winst van de eindversterker min de verliezen in de transmissielijn."
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 71,
+   "sub": "8.2",
+   "vraag": "wat is de efficiëntie van een antenne",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Het vermogen van de zender min de verliezen in de kabel gedeeld door het vermogen van de zender"
+    },
+    {
+     "letter": "B",
+     "text": "Het door de antenne uitgestraalde vermogen gedeeld door het aan de antenne toegevoerde vermogen"
+    },
+    {
+     "letter": "C",
+     "text": "Het vermogen van de zender gedeeld door de SGV"
+    },
+    {
+     "letter": "D",
+     "text": "Het vermogen van de zender min de verliezen in de coaxiaalkabel"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 72,
+   "sub": "8.2",
+   "vraag": "Een halvegolfdipool boven de grond heeft t.o.v. dezelfde dipool in de vrij ruimte",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een winst van minsten 3 dB"
+    },
+    {
+     "letter": "B",
+     "text": "een winst van maximaal 3 dB"
+    },
+    {
+     "letter": "C",
+     "text": "een winst die afhangt van de kwaliteit van de grond"
+    },
+    {
+     "letter": "D",
+     "text": "geen winst"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 73,
+   "sub": "8.2",
+   "vraag": "Wat bepaalt de efficiëntie van een antenne?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De SGV (SWR) van de antenne"
+    },
+    {
+     "letter": "B",
+     "text": "De SGV (SWR) van de antenne en de hoogte van de antenne"
+    },
+    {
+     "letter": "C",
+     "text": "Allerlei verliezen in het antennesysteem (antenne plus grond)"
+    },
+    {
+     "letter": "D",
+     "text": "Enkel de verliezen in de antenne"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 74,
+   "sub": "8.2",
+   "vraag": "Waarom is de efficiëntie van een antenne met traps steeds lager dan deze zonder (volle lengte, enkelband)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Omdat de antenne korter is"
+    },
+    {
+     "letter": "B",
+     "text": "Omdat de impedantie lager is"
+    },
+    {
+     "letter": "C",
+     "text": "Omdat er meer verliezen zijn in de grond"
+    },
+    {
+     "letter": "D",
+     "text": "Omdat er steeds verliezen zijn in de traps"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 75,
+   "sub": "8.2",
+   "vraag": "Waarom is de winst van eenzelfde antenne boven de grond altijd minstens 3 dB groter dan in de vrije ruimte",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Omdat boven de grond eenzelfde vermogen nu uitgestraald wordt in een  halve sfeer in plaats van een sfeer"
+    },
+    {
+     "letter": "B",
+     "text": "Omdat het teruggekaatst vermogen nu wordt bijgeteld"
+    },
+    {
+     "letter": "C",
+     "text": "Omdat de vrije ruimte niet bestaat"
+    },
+    {
+     "letter": "D",
+     "text": "Omdat de dipool 2.14 dB winst heeft t.o.v de isotrope dipoo"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 76,
+   "sub": "8.2",
+   "vraag": "Bij een antenne boven de grond hebben de rechtstreekse ruimtegolf en de op de grond teruggekaatste golf een invloed op",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Het verticale stralingsdiagram"
+    },
+    {
+     "letter": "B",
+     "text": "Het horizontale stralingsdiagram"
+    },
+    {
+     "letter": "C",
+     "text": "De staande golven"
+    },
+    {
+     "letter": "D",
+     "text": "De lopende golven"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 77,
+   "sub": "8.2",
+   "vraag": "Een dipool boven perfect geleidende grond heeft een maximale winst t.o.v. een dipool in de vrije ruimte van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0 dB"
+    },
+    {
+     "letter": "B",
+     "text": "3 dB"
+    },
+    {
+     "letter": "C",
+     "text": "6 dB"
+    },
+    {
+     "letter": "D",
+     "text": "8.14 dB"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 78,
+   "sub": "8.2",
+   "vraag": "Waarom worden bij een verticale antenne met de basis op de grond radialen in (op) de grond geplaatst?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "In de eerste instantie om de verliezen in de grond te verminderen"
+    },
+    {
+     "letter": "B",
+     "text": "In de eerste instantie om de reflectieverliezen in de grond te verminderen"
+    },
+    {
+     "letter": "C",
+     "text": "Om de impedantie van de verticale aan te passen"
+    },
+    {
+     "letter": "D",
+     "text": "Om een lage SGV te bekomen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 79,
+   "sub": "8.2",
+   "vraag": "Hoe wordt het verticale stralingsdiagramma van een kwartgolf verticale antenne beïnvloed als men de antenne verplaatst van boven zandgrond naar boven zeewater?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de straling op lage hoeken verkleint"
+    },
+    {
+     "letter": "B",
+     "text": "de straling op lage hoeken vergroot"
+    },
+    {
+     "letter": "C",
+     "text": "de straling op lage en hoge hoeken verkleint"
+    },
+    {
+     "letter": "D",
+     "text": "de straling op hoge hoeken vermindert"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 80,
+   "sub": "8.2",
+   "vraag": "Acht gelijke yagi antennes worden in faze gevoed. Elke antenne heeft een winst van 8 dBi. Wat is de maximale totale winst van deze antennegroep uitgedrukt in dBd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "14,9 dBd"
+    },
+    {
+     "letter": "B",
+     "text": "17 dBd"
+    },
+    {
+     "letter": "C",
+     "text": "24,9 dBd"
+    },
+    {
+     "letter": "D",
+     "text": "11,9 dBd"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 81,
+   "sub": "8.2",
+   "vraag": "Vier identieke yagi antennes met elk 10 dBi winst worden in faze gevoed. Wat is de de maximale winst die kan bereikt worden?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "8.9 dBd"
+    },
+    {
+     "letter": "B",
+     "text": "10.9 dBd"
+    },
+    {
+     "letter": "C",
+     "text": "13.9 dBd"
+    },
+    {
+     "letter": "D",
+     "text": "18.9 dBd"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 82,
+   "sub": "8.2",
+   "vraag": "Acht identieke yagi antennes met elk 10 dBi winst worden in faze gevoed. Wat is de de maximale winst die kan bereikt worden in vergelijking met 1 antenne?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "5 dB"
+    },
+    {
+     "letter": "B",
+     "text": "6 dB"
+    },
+    {
+     "letter": "C",
+     "text": "8 dB"
+    },
+    {
+     "letter": "D",
+     "text": "9 dB"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 83,
+   "sub": "8.2",
+   "vraag": "De EIRP of ERP (EIUV of EUV)  van een station wordt uitgedrukt",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "in dB"
+    },
+    {
+     "letter": "B",
+     "text": "in dBd"
+    },
+    {
+     "letter": "C",
+     "text": "in Watt"
+    },
+    {
+     "letter": "D",
+     "text": "in dB/Watt"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 84,
+   "sub": "8.2",
+   "vraag": "De EIRP (EIUV) van een station",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is het fictief vermogen dat, uitgezonden door een isotrope antenne, eenzelfde maximale veldsterkte tewerkstelt als de betreffende installatie"
+    },
+    {
+     "letter": "B",
+     "text": "is het fictief vermogen dat, uitgezonden door een dipool antenne, eenzelfde maximale veldsterkte tewerkstelt als de betreffende installatie"
+    },
+    {
+     "letter": "C",
+     "text": "het vermogen van de zender vermenigvuldigd met de antennewinst uitgedrukt in dBi"
+    },
+    {
+     "letter": "D",
+     "text": "het vermogen van de zender vermenigvuldigd met de antennewinst uitgedrukt in dBd"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 85,
+   "sub": "8.2",
+   "vraag": "De ERP (EUV) wordt bepaald door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de zender en het antennesysteem"
+    },
+    {
+     "letter": "B",
+     "text": "de antenne"
+    },
+    {
+     "letter": "C",
+     "text": "het antennesysteem"
+    },
+    {
+     "letter": "D",
+     "text": "de transmissielijn"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 86,
+   "sub": "8.2",
+   "vraag": "De EIRP (EIUV) van een station bestaande uit een zender met een vermogen van 100 W, een transmissielijn met een totaal verlies van 6 dB, en een antenne met een winst van 10 dBi is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "125 W"
+    },
+    {
+     "letter": "B",
+     "text": "250 W"
+    },
+    {
+     "letter": "C",
+     "text": "500 W"
+    },
+    {
+     "letter": "D",
+     "text": "375 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 87,
+   "sub": "8.2",
+   "vraag": "De EIRP (EIUV) van een station bestaande uit een zender met een vermogen van 100 W, een transmissielijn met een totaal verlies van 3 dB, en een antenne met een winst van 10 dBi is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "250 W"
+    },
+    {
+     "letter": "B",
+     "text": "500 W"
+    },
+    {
+     "letter": "C",
+     "text": "1000 W"
+    },
+    {
+     "letter": "D",
+     "text": "750 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 88,
+   "sub": "8.2",
+   "vraag": "De EIRP (EIUV) van een station bestaande uit een zender met een vermogen van 100 W, een transmissielijn met een totaal verlies van 0dB, en een antenne met een winst van 10 dBi is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "500 W"
+    },
+    {
+     "letter": "B",
+     "text": "1000 W"
+    },
+    {
+     "letter": "C",
+     "text": "2000 W"
+    },
+    {
+     "letter": "D",
+     "text": "1500 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 89,
+   "sub": "8.2",
+   "vraag": "De EIRP (EIUV) van een station bestaande uit een zender met een vermogen van 100 W, een transmissielijn met een totaal verlies van 10 dB, en een antenne met een winst van 10 dBi is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 W"
+    },
+    {
+     "letter": "B",
+     "text": "100 W"
+    },
+    {
+     "letter": "C",
+     "text": "200 W"
+    },
+    {
+     "letter": "D",
+     "text": "150 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 90,
+   "sub": "8.2",
+   "vraag": "De EIRP (EIUV) van een station bestaande uit een zender met een vermogen van 100 W, een transmissielijn met een totaal verlies van 9 dB, en een antenne met een winst van 10 dBi is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "63 W"
+    },
+    {
+     "letter": "B",
+     "text": "125 W"
+    },
+    {
+     "letter": "C",
+     "text": "250 W"
+    },
+    {
+     "letter": "D",
+     "text": "188 W"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 91,
+   "sub": "8.2",
+   "vraag": "De voor/achter verhouding van een antenne wordt uitgedrukt in",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "dB"
+    },
+    {
+     "letter": "B",
+     "text": "dBd"
+    },
+    {
+     "letter": "C",
+     "text": "dBi"
+    },
+    {
+     "letter": "D",
+     "text": "aantal malen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 92,
+   "sub": "8.2",
+   "vraag": "Het verticale stralingshoek van een halvegolfdipool hangt in eerste instantie af van",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de kwaliteit van de grond"
+    },
+    {
+     "letter": "B",
+     "text": "de exacte lengte van de dipool"
+    },
+    {
+     "letter": "C",
+     "text": "de hoogte van de antenne boven de grond"
+    },
+    {
+     "letter": "D",
+     "text": "de diameter van de gebruikte antennegeleider"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 93,
+   "sub": "8.2",
+   "vraag": "De straling van een halvegolfdipool in de vrije ruimte is maximaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "in de lengterichting van de antennegeleider"
+    },
+    {
+     "letter": "B",
+     "text": "in de richting loodrecht op de antenne"
+    },
+    {
+     "letter": "C",
+     "text": "onder een hoek van 30 graden met de antenne"
+    },
+    {
+     "letter": "D",
+     "text": "onder een hoek van 45 graden met de antenne"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 94,
+   "sub": "8.2",
+   "vraag": "De verticale stralingshoek (opstralingshoek) van een Yagi antenne op HF wordt in eerste instantie bepaald door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het aantal elementen van de yagi"
+    },
+    {
+     "letter": "B",
+     "text": "de winst van de yagi"
+    },
+    {
+     "letter": "C",
+     "text": "de hoogte boven de grond"
+    },
+    {
+     "letter": "D",
+     "text": "de kwaliteit van de grond"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 95,
+   "sub": "8.2",
+   "vraag": "Het horizontaal stralingsdiagramma van een verticale antenne",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is  een 8 figuur"
+    },
+    {
+     "letter": "B",
+     "text": "is een circel (omnidirectioneel)"
+    },
+    {
+     "letter": "C",
+     "text": "heeft de vorm van een klaver"
+    },
+    {
+     "letter": "D",
+     "text": "bestaat niet"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 96,
+   "sub": "8.2",
+   "vraag": "Een  coaxiale voedingsslijn",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "straalt als de SGV (SWR) op de lijn laag is"
+    },
+    {
+     "letter": "B",
+     "text": "straalt als de SGV (SWR) op de lijn hoog is"
+    },
+    {
+     "letter": "C",
+     "text": "straalt als de lijn symmetrisch is belast"
+    },
+    {
+     "letter": "D",
+     "text": "straalt nooit"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 97,
+   "sub": "8.2",
+   "vraag": "De karakteristieke impedantie van tweedraad-transmissielijnen (open wire feeder) met lucht- dielectricum en van klassieke afmetingen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is ca 500 – 1000 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "is 300 – 400 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "is < 100 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "is > 1000 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 98,
+   "sub": "8.2",
+   "vraag": "Voor de koppeling van een antenne aan een zender wordt vaak een coaxiale kabel  gebruikt. De belangrijkste reden hiervoor is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "lage verzwakking"
+    },
+    {
+     "letter": "B",
+     "text": "straalt niet in tegenstelling tot andere transmissielijnen"
+    },
+    {
+     "letter": "C",
+     "text": "goede SGV (SWR)"
+    },
+    {
+     "letter": "D",
+     "text": "gemakkelijk handelbaar en te installeren"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 99,
+   "sub": "8.2",
+   "vraag": "Golfgeleiders (golfpijpen) worden toegepast in het frequentiegebied:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3 – 30 MHz"
+    },
+    {
+     "letter": "B",
+     "text": "30 – 300 MHz"
+    },
+    {
+     "letter": "C",
+     "text": "300 – 3000 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "3000 – 30000 MHz"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 100,
+   "sub": "8.2",
+   "vraag": "Een ronde golfgeleider (golfpijp) heeft een inwendige diameter van 10 cm. Om hoogfrequente energie te kunnen transporteren moet de golflengte van het signaal zijn:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "groter dan 20 cm"
+    },
+    {
+     "letter": "B",
+     "text": "gelijk aan 20 cm"
+    },
+    {
+     "letter": "C",
+     "text": "kleiner dan 20 cm"
+    },
+    {
+     "letter": "D",
+     "text": "de golflengte is van geen belang"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 101,
+   "sub": "8.2",
+   "vraag": "Een golfgeleider (golfpijp):",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "kan signalen op elke frequentie transporteren"
+    },
+    {
+     "letter": "B",
+     "text": "kan alleen signalen beneden een bepaalde grensfrequentie transporteren"
+    },
+    {
+     "letter": "C",
+     "text": "kan alleen signalen boven een bepaalde grensfrequentie transporteren"
+    },
+    {
+     "letter": "D",
+     "text": "kan alleen ongemoduleerde signalen transporteren"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 102,
+   "sub": "8.2",
+   "vraag": "De karakteristieke impedantie van een coaxiaalkabel wordt bepaald door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zijn belasting"
+    },
+    {
+     "letter": "B",
+     "text": "de lengte van de kabel"
+    },
+    {
+     "letter": "C",
+     "text": "de karakteristieken van het isolatiemateriaal van de buitenmantel"
+    },
+    {
+     "letter": "D",
+     "text": "de doorsnede van de kern en de afstand van deze tot de buitenste geleider"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 103,
+   "sub": "8.2",
+   "vraag": "Voor eenzelfde kabeldiameter van coaxiale kabel, en eenzelfde isolatiemateriaal",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de karakteristieke impedantie hoogst voor de kabel met de kleinste diameter van binnengeleider"
+    },
+    {
+     "letter": "B",
+     "text": "is de karakteristieke impedantie hoogst voor de kabel met de grootste diameter van binnengeleider"
+    },
+    {
+     "letter": "C",
+     "text": "is de karakteristieke impedantie alleen afhankelijk van de belastingsimpedantie van de kabel"
+    },
+    {
+     "letter": "D",
+     "text": "is de karakteristieke kabelimpedantie steeds gelijk"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 104,
+   "sub": "8.2",
+   "vraag": "Voor een gegeven kabeldiameter en isolatiemateriaal, welke kabelimpedantie zal u kiezen om de laagste verliezen te bewerkstelligen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "52 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "75 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "35 Ω"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 105,
+   "sub": "8.2",
+   "vraag": "Voor een gegeven kabeldiameter en isolatiemateriaal, welke kabelimpedantie zal u kiezen om de grootste vermogencapaciteit te bewerkstelligen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "30 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "50 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "52 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "75 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 106,
+   "sub": "8.2",
+   "vraag": "De karakteristieke impedantie van een coaxiale kabel",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "hangt af van de lengte van de kabel"
+    },
+    {
+     "letter": "B",
+     "text": "hangt af van de belastingsimpedantie"
+    },
+    {
+     "letter": "C",
+     "text": "hangt af van zijn afmetingen en van het isolatiemateriaal"
+    },
+    {
+     "letter": "D",
+     "text": "is 50 Ω"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 107,
+   "sub": "8.2",
+   "vraag": "De karakteristieke impedantie van een transmissielijn gebruikt op HF/ VHF / UHF",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is afhankelijk van de frequentie waarop die wordt gebruikt"
+    },
+    {
+     "letter": "B",
+     "text": "is afhankelijk van de lengte van de kabel"
+    },
+    {
+     "letter": "C",
+     "text": "is verschillend in elk punt van de lijn als de SGV (SWR) >1 is"
+    },
+    {
+     "letter": "D",
+     "text": "is dezelfde in elk punt van de transmissielijn"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 108,
+   "sub": "8.2",
+   "vraag": "De karakteristieke impedantie van een verliesvrije transmissielijn wordt gegeven door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Zk  = ( L · C )²"
+    },
+    {
+     "letter": "B",
+     "text": "Zk =v( L / C )"
+    },
+    {
+     "letter": "C",
+     "text": "Zk = v( Q / C )"
+    },
+    {
+     "letter": "D",
+     "text": "Zk  = ( Q · C )²"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 109,
+   "sub": "8.2",
+   "vraag": "De karakteristieke impedantie van een tweedraad-transmissielijnen (open wire feeder) wordt bepaald door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zijn belasting"
+    },
+    {
+     "letter": "B",
+     "text": "de lengte van de geleiders"
+    },
+    {
+     "letter": "C",
+     "text": "de afstand tussen de geleiders en de grond"
+    },
+    {
+     "letter": "D",
+     "text": "de doorsnede van de geleiders en hun onderlinge afstand"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 110,
+   "sub": "8.2",
+   "vraag": "De voortplantingssnelheid in een transmissielijn is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "300.000 km/sec"
+    },
+    {
+     "letter": "B",
+     "text": "steeds groter dan 300.000 km/sec"
+    },
+    {
+     "letter": "C",
+     "text": "steeds kleiner dan 300.000 km/sec"
+    },
+    {
+     "letter": "D",
+     "text": "steeds groter naarmate de transmissielijn langer wordt"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 111,
+   "sub": "8.2",
+   "vraag": "De voortplantingssnelheid in een coaxiale transmissielijn wordt bepaald door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de diameter van de kabel"
+    },
+    {
+     "letter": "B",
+     "text": "de lengte van de kabel"
+    },
+    {
+     "letter": "C",
+     "text": "de diëlektrische constante van het gebruikte isolatiemateriaal"
+    },
+    {
+     "letter": "D",
+     "text": "de belastingsimpedantie"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 112,
+   "sub": "8.2",
+   "vraag": "Voor welke waarde van de relatieve diëlektrische constante is de voortplantingssnelheid van een transmissielijn gelijk aan 300.000 km/sec?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "oneindig"
+    },
+    {
+     "letter": "B",
+     "text": "1"
+    },
+    {
+     "letter": "C",
+     "text": "0"
+    },
+    {
+     "letter": "D",
+     "text": "3.14"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 113,
+   "sub": "8.2",
+   "vraag": "Een coaxiale kabel heeft een verkortingsfactor van 0,66 (66%). Wat is de dielektrische constante van het gebruikte isolatiemedium?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1,5"
+    },
+    {
+     "letter": "B",
+     "text": "2,3"
+    },
+    {
+     "letter": "C",
+     "text": "0,66"
+    },
+    {
+     "letter": "D",
+     "text": "2,13"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 114,
+   "sub": "8.2",
+   "vraag": "Een coaxiale kabel met een grotere verkortingsfactor",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "heeft een grotere diëlektrische constante"
+    },
+    {
+     "letter": "B",
+     "text": "heeft een kleinere diëlektrische constante"
+    },
+    {
+     "letter": "C",
+     "text": "is een langer kabel"
+    },
+    {
+     "letter": "D",
+     "text": "heeft steeds minder verliezen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 115,
+   "sub": "8.2",
+   "vraag": "De verkortingsfactor van een transmissielijn is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "afhankelijk van de frequentie"
+    },
+    {
+     "letter": "B",
+     "text": "de  lichtsnelheid gedeeld door de snelheid van voortplanting in de lijn "
+    },
+    {
+     "letter": "C",
+     "text": "de verhouding van de golflengte in de lijn tot de golflengte in het luchtledige"
+    },
+    {
+     "letter": "D",
+     "text": "de verhouding van de golflengte in het luchtledige tot de golflengte in de lijn"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 116,
+   "sub": "8.2",
+   "vraag": "De verkortingsfactor van een transmissielijn  is bepaald door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de afsluitweerstand"
+    },
+    {
+     "letter": "B",
+     "text": "de lengte van de lijn"
+    },
+    {
+     "letter": "C",
+     "text": "het diëlectricum gebruikt in de lijn"
+    },
+    {
+     "letter": "D",
+     "text": "de resistiviteit van de conductors in de lijn"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 117,
+   "sub": "8.2",
+   "vraag": "Wat bestaat wel (slechts 1 term is correct) ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de SGV (SWR) van een antenne"
+    },
+    {
+     "letter": "B",
+     "text": "de SGV op een transmissielijn afgesloten op  een antenne"
+    },
+    {
+     "letter": "C",
+     "text": "de SGV van een transmissielijn"
+    },
+    {
+     "letter": "D",
+     "text": "de SGV van een zender"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 118,
+   "sub": "8.2",
+   "vraag": "In het geval van een transmissielijn met verliezen, en waar de transmissielijn is afgesloten met een impedantie die NIET gelijk is aan de Zk (karakteristieke impedantie) van de lijn,",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de SWR (SGV) gelijk in elk punt van de lijn"
+    },
+    {
+     "letter": "B",
+     "text": "is de SWR (SGV) het hoogst aan de antenne"
+    },
+    {
+     "letter": "C",
+     "text": "is de SWR (SGV) het  laagst aan de antenne"
+    },
+    {
+     "letter": "D",
+     "text": "is de SWR (SGV) het hoogst aan de zender"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 119,
+   "sub": "8.2",
+   "vraag": "Wat is de ingangsimpedantie van een oneindig lange echte transmissielijn (met verliezen) met Zk = 50 Ω",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "oneindig"
+    },
+    {
+     "letter": "C",
+     "text": "50 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "hangt af van de hoeveelheid verliezen per lengte-eenheid"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 120,
+   "sub": "8.2",
+   "vraag": "In de context van de Staande Golf Verhouding (SGV) op een lijn is de reflectiecoëfficient (ρ)  gegeven door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ρ = (( SGV – 1 ) / ( SGV + 1))2"
+    },
+    {
+     "letter": "B",
+     "text": "ρ = (( SGV + 1) / ( SGV – 1 ))2"
+    },
+    {
+     "letter": "C",
+     "text": "ρ = ( SGV – 1 ) / ( SGV + 1)"
+    },
+    {
+     "letter": "D",
+     "text": "ρ = ( SGV + 1 ) / ( SGV – 1 )"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 121,
+   "sub": "8.2",
+   "vraag": "Welk van volgende metingen duidt een misaanpassing aan tussen belasting (antenne) en transmissielijn?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een SWR (SGV) < 1"
+    },
+    {
+     "letter": "B",
+     "text": "Een reflectiecoëfficiënt > 1"
+    },
+    {
+     "letter": "C",
+     "text": "Een dielectrsiche constante > 1"
+    },
+    {
+     "letter": "D",
+     "text": "Een SWR (SGV) > 1"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 122,
+   "sub": "8.2",
+   "vraag": "Wat is de ingangsimpedantie van een zeer lange transmissielijn van 50 Ω karakteristieke impedantie (met een totaal verlies van meer dan 30 dB) , waarvan het einde van de kabel is kortgesloten?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "8 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "50 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "zeer klein"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 123,
+   "sub": "8.2",
+   "vraag": "Wat is de ingangsimpedantie van een zeer lange tranmsmissielijn van 50 Ω karakteristieke impedantie (met een totaal verlies van meer dan 30 dB) , waarvan het einde van de kabel open is?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "8 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "50 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "zeer klein"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 124,
+   "sub": "8.2",
+   "vraag": "In een klassieke toepassing van een transmissielijn is, in het ideaal geval is de staandegolfverhouding (SGV)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0"
+    },
+    {
+     "letter": "B",
+     "text": "1"
+    },
+    {
+     "letter": "C",
+     "text": "zo klein mogelijk"
+    },
+    {
+     "letter": "D",
+     "text": "<1"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 125,
+   "sub": "8.2",
+   "vraag": "De staandegolfverhouding (SGV of SWR) is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een karakteristieke eigenschap van een antenne"
+    },
+    {
+     "letter": "B",
+     "text": "een karakteristieke eigenschap van een transmissielijn"
+    },
+    {
+     "letter": "C",
+     "text": "een indicatie van de werkomstandigheden van een transmissielijn"
+    },
+    {
+     "letter": "D",
+     "text": "een indicatie van de kwaliteit van een antenne"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 126,
+   "sub": "8.2",
+   "vraag": "De verliezen in een coaxiale kabel",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "nemen af bij hogere frequentie"
+    },
+    {
+     "letter": "B",
+     "text": "zijn onafhankelijk van de frequentie"
+    },
+    {
+     "letter": "C",
+     "text": "zijn afhankelijk van het vermogen in de kabel"
+    },
+    {
+     "letter": "D",
+     "text": "nemen toe met de frequentie"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 127,
+   "sub": "8.2",
+   "vraag": "Op HF en VHF dient men, om minder verliezen te hebben",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een dikkere coaxiale kabel te nemen"
+    },
+    {
+     "letter": "B",
+     "text": "een aanpassingseenheid te schakelen tussen de transmissielijn en de zender"
+    },
+    {
+     "letter": "C",
+     "text": "een dubbel afgeschermde coaxiale kabel te nemen"
+    },
+    {
+     "letter": "D",
+     "text": "een duurdere coaxiale kabel te kopen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 128,
+   "sub": "8.2",
+   "vraag": "Een balun dient om",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de impedantie van een antenne aan te passen aan de impedantie van de transmissielijn"
+    },
+    {
+     "letter": "B",
+     "text": "een antenne met een symmetrisch voedingspunt te voeden met een asymmetrische transmissielijn"
+    },
+    {
+     "letter": "C",
+     "text": "minder TVI te maken"
+    },
+    {
+     "letter": "D",
+     "text": "de SWR (SGV) op een transmissielijn te verbeteren"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 129,
+   "sub": "8.2",
+   "vraag": "Indien een antenne met een symmetrisch voedingspunt gevoed wordt door een asymmetrische transmissielijn, zonder gebruik te maken van een balun, dan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is er een hoge SWR (SGV) op de transmissielijn"
+    },
+    {
+     "letter": "B",
+     "text": "zal de transmissielijn stralen"
+    },
+    {
+     "letter": "C",
+     "text": "dient de transmissielijn steeds een aantal halve golven lang te zijn"
+    },
+    {
+     "letter": "D",
+     "text": "worden er meer harmonischen uitgestraald"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 130,
+   "sub": "8.2",
+   "vraag": "Om de SGV (SWR) op de transmissielijn naar de zendantenne zo laag mogelijk te houden dient men:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een juiste aanpassing tussen de antenne en de transmissielijn te maken"
+    },
+    {
+     "letter": "B",
+     "text": "een juiste aanpassing tussen de zender en de transmissielijn te maken"
+    },
+    {
+     "letter": "C",
+     "text": "de lengte van de transmissielijn met zorg te kiezen"
+    },
+    {
+     "letter": "D",
+     "text": "steeds een coaxiale kabel als transmissielijn te gebruiken"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 131,
+   "sub": "8.2",
+   "vraag": "Een antenneaanpassingseenheid (ATU), geschakeld tussen de zender (nominaal 50 Ω uitgangsimpedantie) en de transmissielijn, indien correct afgestemd,",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zorgt ervoor dat de SGV (SWR) op de transmissielijn 1/1 wordt"
+    },
+    {
+     "letter": "B",
+     "text": "zorgt ervoor dat de impedantie van de antenne 50 Ω wordt"
+    },
+    {
+     "letter": "C",
+     "text": "zorgt ervoor dat de zender met een impedantie van 50 Ω belast wordt"
+    },
+    {
+     "letter": "D",
+     "text": "zorgt ervoor dat de uitgangsimpedantie van de zender verandert wordt naar deze van de antenne"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 132,
+   "sub": "8.2",
+   "vraag": "Indien de antenne-impedantie afwijkt van de karakteriestieke impedantie van de transmissielijn, waar dient dan de antenneaanpassingseenheid (ATU) te worden geplaatst om ook minimale verliezen te hebben",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "aan de antennekant"
+    },
+    {
+     "letter": "B",
+     "text": "aan de zenderkant"
+    },
+    {
+     "letter": "C",
+     "text": "aan een van beide kanten"
+    },
+    {
+     "letter": "D",
+     "text": "om het even waar in de transmissielijn"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  },
+  {
+   "id": 133,
+   "sub": "8.2",
+   "vraag": "Een antenneaanpassingseenheid (ATU) geschakeld tussen de transmissielijn (Zk = 50 Ω) en de antenne zorgt ervoor dat",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de antenne-impedantie gelijk wordt aan de karakteristieke impedantie van de transmissielijn"
+    },
+    {
+     "letter": "B",
+     "text": "de transmissielijn belast wordt met zijn eigen karakteristieke impedantie"
+    },
+    {
+     "letter": "C",
+     "text": "de antenne-SWR 1/1 is"
+    },
+    {
+     "letter": "D",
+     "text": "de antenne-impedantie gelijk wordt aan de uitgangsimpedantie van de zender"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Zie de theorie van dit hoofdstuk."
+  }
+ ]
+}

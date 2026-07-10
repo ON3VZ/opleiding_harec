@@ -1,0 +1,4867 @@
+{
+ "hoofdstuk": "h03",
+ "vragen": [
+  {
+   "id": 2,
+   "sub": "3.1",
+   "vraag": "Welke zijn de meeste voorkomende types weerstanden?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "weerstanden met plasticfilm en met keramiekfilm"
+    },
+    {
+     "letter": "B",
+     "text": "weerstand met metaalfilm en draadgewonden weerstanden"
+    },
+    {
+     "letter": "C",
+     "text": "elektrolytische weerstanden en metaalfilm-weerstanden"
+    },
+    {
+     "letter": "D",
+     "text": "koolzuurweerstanden"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De courantste weerstandstypes zijn koolstoffilm-, metaalfilm- en draadgewonden weerstanden (§3.1)."
+  },
+  {
+   "id": 3,
+   "sub": "3.1",
+   "vraag": "Wat is een potentiometer?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een toestel dat het uitgangsvermogen van een zender aangeeft"
+    },
+    {
+     "letter": "B",
+     "text": "een regelbare weerstand"
+    },
+    {
+     "letter": "C",
+     "text": "een veldsterktemeter"
+    },
+    {
+     "letter": "D",
+     "text": "een vermogenmeter"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een potentiometer is een regelbare (variabele) weerstand met een sleepcontact (§3.1)."
+  },
+  {
+   "id": 4,
+   "sub": "3.1",
+   "vraag": "Wat is de functie van een variabele weerstand of potentiometer?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zijn waarde verandert als men er een wisselspanning op aansluit"
+    },
+    {
+     "letter": "B",
+     "text": "transformeert een veranderlijke spanning in een constante spanning"
+    },
+    {
+     "letter": "C",
+     "text": "zijn weerstand verandert in functie van de stand van het sleepcontact"
+    },
+    {
+     "letter": "D",
+     "text": "zijn weerstand verandert als hij wordt verwarmd"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Met een potentiometer regel je de weerstand traploos via de stand van het sleepcontact (§3.1)."
+  },
+  {
+   "id": 5,
+   "sub": "3.1",
+   "vraag": "Draadgewonden weerstanden worden hoofdzakelijk gebruikt",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "als precisieweerstanden"
+    },
+    {
+     "letter": "B",
+     "text": "om grote vermogens te dissiperen"
+    },
+    {
+     "letter": "C",
+     "text": "als men een kleine parasitaire capaciteit nastreeft"
+    },
+    {
+     "letter": "D",
+     "text": "om de cos ( van een installatie te verbeteren"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Draadgewonden weerstanden worden gebruikt voor hoge vermogens (ze kunnen veel warmte afvoeren) (§3.1)."
+  },
+  {
+   "id": 6,
+   "sub": "3.1",
+   "vraag": "Welke soorten weerstanden worden doorgaans gebruikt om grote vermogens te dissiperen (op gelijkspanning) ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "kristalweerstanden"
+    },
+    {
+     "letter": "B",
+     "text": "chipweerstanden"
+    },
+    {
+     "letter": "C",
+     "text": "draadgewonden weerstanden"
+    },
+    {
+     "letter": "D",
+     "text": "metaalfilweerstanden"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Voor grote vermogens gebruikt men draadgewonden weerstanden (§3.1)."
+  },
+  {
+   "id": 7,
+   "sub": "3.1",
+   "vraag": "Hoe kan men een condensator omschrijven?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "twee of meerdere geleidende platen gescheiden door een diëlectricum"
+    },
+    {
+     "letter": "B",
+     "text": "twee of meerdere isolerende platen gescheiden door geleidende platen"
+    },
+    {
+     "letter": "C",
+     "text": "twee of meerdere lagen samengekleefd silicium"
+    },
+    {
+     "letter": "D",
+     "text": "twee of meerdere lagen keramiek gescheiden door een diëlectricum"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Een condensator = twee geleidende platen gescheiden door een diëlektricum (isolator) (§3.1, §2.3)."
+  },
+  {
+   "id": 8,
+   "sub": "3.1",
+   "vraag": "Welk onderdeel kan energie onder de vorm van een elektrisch veld opslaan?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "spoel"
+    },
+    {
+     "letter": "B",
+     "text": "weerstand"
+    },
+    {
+     "letter": "C",
+     "text": "transistor"
+    },
+    {
+     "letter": "D",
+     "text": "condensator"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Een condensator slaat energie op in een elektrisch veld (§3.1, §2.3)."
+  },
+  {
+   "id": 9,
+   "sub": "3.1",
+   "vraag": "Welk onderdeel wordt gebruikt om elektrische energie in op te slaan onder de vorm van een magnetisch veld?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een batterij"
+    },
+    {
+     "letter": "B",
+     "text": "een transformator"
+    },
+    {
+     "letter": "C",
+     "text": "een condensator"
+    },
+    {
+     "letter": "D",
+     "text": "een spoel"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Een condensator wordt gebruikt om elektrische energie op te slaan in een elektrisch veld (§3.1)."
+  },
+  {
+   "id": 10,
+   "sub": "3.1",
+   "vraag": "De elektrische energie opgeslagen in het elektrisch veld van een condensator wordt uitgedrukt in:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Coulomb"
+    },
+    {
+     "letter": "B",
+     "text": "Joule"
+    },
+    {
+     "letter": "C",
+     "text": "Watt"
+    },
+    {
+     "letter": "D",
+     "text": "Volt"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De energie in het elektrisch veld van een condensator wordt uitgedrukt in joule (J) (§3.1)."
+  },
+  {
+   "id": 11,
+   "sub": "3.1",
+   "vraag": "Wanneer op een condensator met luchtisolatie en van constante geometrie de spanning wordt verhoogd, zal de capaciteit",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "vergroten"
+    },
+    {
+     "letter": "B",
+     "text": "kleiner worden"
+    },
+    {
+     "letter": "C",
+     "text": "gelijk blijven"
+    },
+    {
+     "letter": "D",
+     "text": "vergroten of verkleinen afhankelijk van de aangelegde frequentie"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Bij een luchtcondensator met vaste geometrie blijft de capaciteit gelijk, ongeacht de frequentie — capaciteit is een constructie-eigenschap (§2.3)."
+  },
+  {
+   "id": 12,
+   "sub": "3.1",
+   "vraag": "Wat is een Farad?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de eenheid van weerstand"
+    },
+    {
+     "letter": "B",
+     "text": "de eenheid van capaciteit"
+    },
+    {
+     "letter": "C",
+     "text": "de eenheid van inductantie"
+    },
+    {
+     "letter": "D",
+     "text": "de eenheid van admittantie"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De farad (F) is de eenheid van capaciteit (§2.3)."
+  },
+  {
+   "id": 13,
+   "sub": "3.1",
+   "vraag": "Wat is de eenheid van capaciteit?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de Farad"
+    },
+    {
+     "letter": "B",
+     "text": "de Ohm"
+    },
+    {
+     "letter": "C",
+     "text": "de Volt"
+    },
+    {
+     "letter": "D",
+     "text": "de Henry"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De eenheid van capaciteit is de farad (§2.3)."
+  },
+  {
+   "id": 14,
+   "sub": "3.1",
+   "vraag": "De verhouding tussen lading (Q), Spanning (U) en capaciteit in een condensator wordt gegeven door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "C = Q ·U"
+    },
+    {
+     "letter": "B",
+     "text": "C =  Q / U"
+    },
+    {
+     "letter": "C",
+     "text": "U =  Q / C"
+    },
+    {
+     "letter": "D",
+     "text": "U = C ·Q"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Verband lading-spanning-capaciteit: Q = C·U, dus C = Q/U (§2.3)."
+  },
+  {
+   "id": 15,
+   "sub": "3.1",
+   "vraag": "Indien men de oppervlakte van de platen van een condensator vergroot, wat gebeurt met de capaciteitswaarde?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ze verkleint"
+    },
+    {
+     "letter": "B",
+     "text": "ze vergroot"
+    },
+    {
+     "letter": "C",
+     "text": "ze verkleint als de temperatuurscoëfficiënt positief is, zoniet verkleint ze"
+    },
+    {
+     "letter": "D",
+     "text": "ze vergroot op voorwaarde dat men de afstand tussen de platen eveneens vergroot"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Grotere plaatoppervlakte → grotere capaciteit (§2.3)."
+  },
+  {
+   "id": 16,
+   "sub": "3.1",
+   "vraag": "Indien men de afstand tussen de platen van een condensator vergroot, wat gebeurt er met de capaciteitswaarde?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ze vergroot"
+    },
+    {
+     "letter": "B",
+     "text": "ze verkleint"
+    },
+    {
+     "letter": "C",
+     "text": "ze blijft onveranderd"
+    },
+    {
+     "letter": "D",
+     "text": "ze verkleint op voorwaarde dat eveneens de oppervlakte van de condensator verkleint"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Grotere afstand tussen de platen → kleinere capaciteit (§2.3)."
+  },
+  {
+   "id": 17,
+   "sub": "3.1",
+   "vraag": "Tussen de platen van een luchtcondensator wordt een passende plaat geschoven bestaande uit een isolatiemateriaal met een relatieve  diëlektrische constante van 5. De waarde van de capaciteit:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is 5 x kleiner geworden"
+    },
+    {
+     "letter": "B",
+     "text": "is 25 x kleiner geworden"
+    },
+    {
+     "letter": "C",
+     "text": "is 5 x groter geworden"
+    },
+    {
+     "letter": "D",
+     "text": "is 25 x groter geworden"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Een diëlektricum met hogere diëlektrische constante verhoogt de capaciteit (§2.3)."
+  },
+  {
+   "id": 18,
+   "sub": "3.1",
+   "vraag": "Bij een regelbare condensator verandert men de capaciteit door",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de platen van de condensator ten opzichte van elkaar te bewegen"
+    },
+    {
+     "letter": "B",
+     "text": "de temperatuur van de condensator te wijzigen"
+    },
+    {
+     "letter": "C",
+     "text": "door de spanning over de condensator te wijzigen"
+    },
+    {
+     "letter": "D",
+     "text": "door de stroom door de condensator te wijzigen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bij een regelbare condensator wijzig je de capaciteit door de effectieve plaatoppervlakte te veranderen (platen over elkaar schuiven) (§2.3)."
+  },
+  {
+   "id": 19,
+   "sub": "3.1",
+   "vraag": "Een sinusvormig signaal met een frequentie van 100 kHz wordt aangelegd aan een condensator met een waarde van 25 nF. Wat is de reactantie van deze condensator (afgeronde waarde)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "63 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "127 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "400 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "625 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Xc = 1/(2πfC) met f = 100 kHz → 63 Ω (§2.3, capacitieve reactantie)."
+  },
+  {
+   "id": 20,
+   "sub": "3.1",
+   "vraag": "Een sinusvormig signaal met een frequentie van 100 kHz wordt aangelegd aan een condensator met een waarde van 10 nF. Wat is de reactantie van deze condensator (afgeronde waarde)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "157 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "314 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "400 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "620 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Xc = 1/(2πfC) met f = 100 kHz → 157 Ω (§2.3)."
+  },
+  {
+   "id": 21,
+   "sub": "3.1",
+   "vraag": "Een sinusvormig signaal met een frequentie van 100 kHz wordt aangelegd aan een condensator met een waarde van 50 nF. Wat is de reactantie van deze condensator (afgeronde waarde)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "32 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "64 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "123 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "132 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Xc = 1/(2πfC) met f = 100 kHz → 32 Ω (§2.3)."
+  },
+  {
+   "id": 22,
+   "sub": "3.1",
+   "vraag": "Een sinusvormig signaal met een frequentie van 100 kHz wordt aangelegd aan een condensator met een waarde van 100 nF. Wat is de reactantie van deze condensator (afgeronde waarde)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "16 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "32 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "40 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "60 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Xc = 1/(2πfC) met f = 100 kHz → 16 Ω (§2.3)."
+  },
+  {
+   "id": 23,
+   "sub": "3.1",
+   "vraag": "Een sinusvormig signaal met een frequentie van 100 kHz wordt aangelegd aan een condensator met een waarde van 20 nF. Wat is de reactantie van deze condensator (afgeronde waarde)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "78 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "156 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "178 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "211 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Xc = 1/(2πfC) met f = 100 kHz → 78 Ω (§2.3)."
+  },
+  {
+   "id": 24,
+   "sub": "3.1",
+   "vraag": "Wat is Vout als Vin 50 V  is (sinusoïdale wisselspanning).",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "17 V"
+    },
+    {
+     "letter": "B",
+     "text": "25 V"
+    },
+    {
+     "letter": "C",
+     "text": "33 V"
+    },
+    {
+     "letter": "D",
+     "text": "20 V"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Een RC-laagdoorlaatfilter (40 nF/20 nF spanningsdeler): Vout volgt uit de capacitieve deler. Zie de figuur (§2.8).",
+   "figuur": "assets/img/h03/h03-fig-r24.png"
+  },
+  {
+   "id": 25,
+   "sub": "3.1",
+   "vraag": "Wat is Vout als Vin 100 V  is (sinusoïdale wisselspanning).",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "35 V"
+    },
+    {
+     "letter": "B",
+     "text": "50 V"
+    },
+    {
+     "letter": "C",
+     "text": "66 V"
+    },
+    {
+     "letter": "D",
+     "text": "40 V"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "RC-spanningsdeler zoals in de figuur; Vout uit de capacitieve deler (§2.8).",
+   "figuur": "assets/img/h03/h03-fig-r25.png"
+  },
+  {
+   "id": 26,
+   "sub": "3.1",
+   "vraag": "Wat is Vout als Vin 200 V  is (sinusoïdale wisselspanning).",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "67 V"
+    },
+    {
+     "letter": "B",
+     "text": "100 V"
+    },
+    {
+     "letter": "C",
+     "text": "132 V"
+    },
+    {
+     "letter": "D",
+     "text": "80 V"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "RC-spanningsdeler zoals in de figuur; Vout uit de capacitieve deler (§2.8).",
+   "figuur": "assets/img/h03/h03-fig-r26.png"
+  },
+  {
+   "id": 27,
+   "sub": "3.1",
+   "vraag": "Wat is Vout als Vin 150 V  is (sinusoïdale wisselspanning).",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 V"
+    },
+    {
+     "letter": "B",
+     "text": "75 V"
+    },
+    {
+     "letter": "C",
+     "text": "100 V"
+    },
+    {
+     "letter": "D",
+     "text": "60 V"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "RC-spanningsdeler zoals in de figuur; Vout uit de capacitieve deler (§2.8).",
+   "figuur": "assets/img/h03/h03-fig-r27.png"
+  },
+  {
+   "id": 28,
+   "sub": "3.1",
+   "vraag": "Wat is Vout als Vin 250 V  is (sinusoïdale wisselspanning).",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "83 V"
+    },
+    {
+     "letter": "B",
+     "text": "125 V"
+    },
+    {
+     "letter": "C",
+     "text": "166"
+    },
+    {
+     "letter": "D",
+     "text": "100 V"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "RC-spanningsdeler zoals in de figuur; Vout uit de capacitieve deler (§2.8).",
+   "figuur": "assets/img/h03/h03-fig-r28.png"
+  },
+  {
+   "id": 29,
+   "sub": "3.1",
+   "vraag": "verst",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De impedantie van een ideale condensator"
+    },
+    {
+     "letter": "B",
+     "text": "De impedantie van een condensator bij zijn resonantiefrequentie"
+    },
+    {
+     "letter": "C",
+     "text": "De verhouding tussen impedantie van een condensator en zijn verliesweerstand"
+    },
+    {
+     "letter": "D",
+     "text": "De impedantie van een condensator bij gelijkspanning"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De impedantie van een ideale condensator wordt bepaald door de capacitieve reactantie Xc (§2.3)."
+  },
+  {
+   "id": 30,
+   "sub": "3.1",
+   "vraag": "De inductantie is de eigenschap",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "die een component heeft om zich te verzetten tegen elke stroomverandering in een kring"
+    },
+    {
+     "letter": "B",
+     "text": "die een component bezit om zich tegen elke spanningsverandering in een kring te verzetten"
+    },
+    {
+     "letter": "C",
+     "text": "die een component bezit om stroom te stabiliseren"
+    },
+    {
+     "letter": "D",
+     "text": "die een component bezit om spanning te stabiliseren"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De inductantie is de eigenschap van een spoel om zich te verzetten tegen stroomverandering (§2.3)."
+  },
+  {
+   "id": 31,
+   "sub": "3.1",
+   "vraag": "Een spoel van 0,5 H heeft een eigenweerstand van 2 Ω. De spoel wordt aangesloten op een batterij met een EMK van 12 volt en een Ri van 1 Ω. Wat bedraagt de stroom in de kring na een lange tijd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2 A"
+    },
+    {
+     "letter": "B",
+     "text": "3 A"
+    },
+    {
+     "letter": "C",
+     "text": "4 A"
+    },
+    {
+     "letter": "D",
+     "text": "12 A"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Bij een spoel van 0,5 H met eigenweerstand 2 Ω bepaal je de impedantie uit R en XL (§2.3)."
+  },
+  {
+   "id": 32,
+   "sub": "3.1",
+   "vraag": "Een geïnduceerde wisselspanning in een spoel ontstaat onder invloed van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een wisselend magnetisch veld"
+    },
+    {
+     "letter": "B",
+     "text": "een contant magnetische veld"
+    },
+    {
+     "letter": "C",
+     "text": "een Noord- en een Zuidpool"
+    },
+    {
+     "letter": "D",
+     "text": "een elektrostatisch veld"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Een geïnduceerde wisselspanning in een spoel ontstaat door een veranderend magnetisch veld (§2.3)."
+  },
+  {
+   "id": 33,
+   "sub": "3.1",
+   "vraag": "Welke van de volgende componenten heeft de eigenschap magnetische energie te kunnen opslaan?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een admittantie"
+    },
+    {
+     "letter": "B",
+     "text": "een condensator"
+    },
+    {
+     "letter": "C",
+     "text": "een weerstand"
+    },
+    {
+     "letter": "D",
+     "text": "een spoel"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Een spoel heeft de eigenschap energie in een magnetisch veld op te slaan (§2.3)."
+  },
+  {
+   "id": 34,
+   "sub": "3.1",
+   "vraag": "Wat is een Henry?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een meeteenheid van admittantie"
+    },
+    {
+     "letter": "B",
+     "text": "een eenheid van capaciteit"
+    },
+    {
+     "letter": "C",
+     "text": "de eenheid van inductantie"
+    },
+    {
+     "letter": "D",
+     "text": "een meeteenheid van weerstand"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "De henry (H) is de eenheid van inductantie (§2.3)."
+  },
+  {
+   "id": 35,
+   "sub": "3.1",
+   "vraag": "Wat is de eenheid van inductantie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de Coulomb"
+    },
+    {
+     "letter": "B",
+     "text": "de Farad"
+    },
+    {
+     "letter": "C",
+     "text": "de Henry"
+    },
+    {
+     "letter": "D",
+     "text": "de Ohm"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "De eenheid van inductantie is de henry (§2.3)."
+  },
+  {
+   "id": 36,
+   "sub": "3.1",
+   "vraag": "De inductantie die de eigenschap heeft zich te verzetten tegen elke stroomverandering in een kring wordt uitgedrukt in:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Farad"
+    },
+    {
+     "letter": "B",
+     "text": "Ohm"
+    },
+    {
+     "letter": "C",
+     "text": "Henry"
+    },
+    {
+     "letter": "D",
+     "text": "Pascal"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Inductantie verzet zich tegen verandering van stroom (via de tegen-EMK) (§2.3)."
+  },
+  {
+   "id": 37,
+   "sub": "3.1",
+   "vraag": "het materiaal dat men in de kern van een spoel (te gebruiken in HF-toepassingen)  aanbrengt om de zelfinductie te vergroten",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "heeft een permeabiliteit die groter is dan deze van lucht"
+    },
+    {
+     "letter": "B",
+     "text": "heeft een relatieve permeabiliteit typisch tussen 500 en 5000"
+    },
+    {
+     "letter": "C",
+     "text": "heeft een permeabiliteit die ongeveer gelijk is aan deze van lucht"
+    },
+    {
+     "letter": "D",
+     "text": "heeft een permeabiliteit die kleiner is dan deze van lucht"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Een ferrietkern verhoogt de inductantie van een spoel (§2.3)."
+  },
+  {
+   "id": 38,
+   "sub": "3.1",
+   "vraag": "Indien een ijzerkern in het midden van een spoel wordt aangebracht,",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "verhoogt de zelfinductie"
+    },
+    {
+     "letter": "B",
+     "text": "velaagt de zelfinductie"
+    },
+    {
+     "letter": "C",
+     "text": "verhoogt de parasitaire capaciteit"
+    },
+    {
+     "letter": "D",
+     "text": "verhoogt de vermogencapaciteit"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Een ijzerkern in een spoel verhoogt de inductantie (§2.3)."
+  },
+  {
+   "id": 39,
+   "sub": "3.1",
+   "vraag": "Wat verstaat men onder permeabiliteit van een magnetisch lichaam?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de eigenschap die aangeeft in welke mate het materiaal energie kan opslaan in een magnetisch veld."
+    },
+    {
+     "letter": "B",
+     "text": "de eigenschap van een stof om de magnetische lijnen te concentreren"
+    },
+    {
+     "letter": "C",
+     "text": "de eigenschap van sommige metalen om het magnetisme te bewaren"
+    },
+    {
+     "letter": "D",
+     "text": "de lichte vertraging tussen de toepassing van een magnetische kracht en het magnetisme"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Permeabiliteit is de mate waarin een materiaal een magnetisch veld geleidt/versterkt (§2.3)."
+  },
+  {
+   "id": 40,
+   "sub": "3.1",
+   "vraag": "De zelfinductie van een spoel met 1000 windingen is 100 mH. We verwijderen 500 toeren. Wat is de nieuwe zelfinductie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "25 mH"
+    },
+    {
+     "letter": "B",
+     "text": "50 mH"
+    },
+    {
+     "letter": "C",
+     "text": "10 mH"
+    },
+    {
+     "letter": "D",
+     "text": "200 mH"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bij 1000 windingen en 100 mH bereken je de nieuwe inductantie via L ∝ N² (§2.3)."
+  },
+  {
+   "id": 41,
+   "sub": "3.1",
+   "vraag": "De voornaamste reden waarom men een op een ringkern gewikkelde spoel gebruikt is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "omdat rondom de ringkern een sterk elektromagnetisch veld (strooiveld) ontstaat"
+    },
+    {
+     "letter": "B",
+     "text": "omdat rondom de ringkern geen elektromagnetisch veld (strooiveld) ontstaat"
+    },
+    {
+     "letter": "C",
+     "text": "omdat een ringkern zeer elastisch is"
+    },
+    {
+     "letter": "D",
+     "text": "omdat een ringkern mechanisch zeer stabiel is"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een ringkern (toroïde) houdt het magnetische veld binnenin → weinig straling en koppeling naar buiten (§2.3)."
+  },
+  {
+   "id": 42,
+   "sub": "3.1",
+   "vraag": "Bij een spoel met een parasitaire capaciteit ontstaat volgend fenomeen:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een verhoging van de impedantie op de resonantiefrequentie"
+    },
+    {
+     "letter": "B",
+     "text": "een vermindering van de impedantie op de resonantiefrequentie"
+    },
+    {
+     "letter": "C",
+     "text": "een abnormale opwarming op de resonantiefrequentie"
+    },
+    {
+     "letter": "D",
+     "text": "de onmogelijkheid de spoel op een frequentie te gebruiken die lager is dan de eigen resonantiefrequentie."
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Een spoel met parasitaire capaciteit vertoont een eigen resonantie (§2.4)."
+  },
+  {
+   "id": 43,
+   "sub": "3.1",
+   "vraag": "Waarom kunnen spoelen een eigen resonantiefrequentie hebben?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "wegens het parasitair magnetisch veld"
+    },
+    {
+     "letter": "B",
+     "text": "wegens de Foucault-stromen"
+    },
+    {
+     "letter": "C",
+     "text": "wegens de parasitaire capaciteit"
+    },
+    {
+     "letter": "D",
+     "text": "wegens het hysteresis-effect"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Spoelen hebben een eigen resonantiefrequentie door hun parasitaire capaciteit tussen de windingen (§2.4)."
+  },
+  {
+   "id": 44,
+   "sub": "3.1",
+   "vraag": "De impedantie van een niet-verliesvrije spoel zoals opgegeven bedraagt bij 1 kHz:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "4 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "7 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "6 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "is niet te berekenen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De impedantie van de niet-verliesvrije spoel (1 mH, 3 Ω) volgt uit Z = √(R² + XL²); zie figuur (§2.3, §2.4).",
+   "figuur": "assets/img/h03/h03-fig-r44.png"
+  },
+  {
+   "id": 45,
+   "sub": "3.1",
+   "vraag": "Wat is \"reactantie\"?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de tegenwerking tegen het vloeien van een gelijkstroom, veroorzaakt door een weerstand"
+    },
+    {
+     "letter": "B",
+     "text": "de tegenwerking tegen het vloeien van een wisselstroom, veroorzaakt door spoelen (zelfinducties) en condensatoren (capaciteiten)."
+    },
+    {
+     "letter": "C",
+     "text": "een eigenschap van ideale weerstanden in wisselstroomschakelingen"
+    },
+    {
+     "letter": "D",
+     "text": "de vonk die veroorzaakt wordt bij het openen van een contact in een uitgesproken inductieve schakeling."
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Reactantie is de frequentie-afhankelijke tegenwerking van spoelen (XL) en condensatoren (Xc) (§2.3)."
+  },
+  {
+   "id": 46,
+   "sub": "3.1",
+   "vraag": "Wat wordt bedoeld met de uitdrukking \"impedantie\"?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de elektrische lading opgeslagen door een condensator"
+    },
+    {
+     "letter": "B",
+     "text": "de tegenwerking tegen het vloeien van stroom in een wisselstroomcircuit dat geen capaciteit bevat"
+    },
+    {
+     "letter": "C",
+     "text": "tegenwerking tegen het vloeien van stroom door één of meer componenten die zowel een weerstand als reactantie kunnen bevatten"
+    },
+    {
+     "letter": "D",
+     "text": "afstoting van een elektrisch veld door een ander elektrisch veld met hetzelfde teken"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Impedantie is de totale tegenwerking in een AC-kring: combinatie van weerstand en reactantie (§2.3)."
+  },
+  {
+   "id": 47,
+   "sub": "3.1",
+   "vraag": "Wat is de inductantie van een spoel met L = 500 µH bij een frequentie van 850 Hz",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2,67 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "0,43 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "26,7 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "267 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "XL = 2πfL met L = 500 µH → de inductieve reactantie op de gegeven frequentie (§2.3)."
+  },
+  {
+   "id": 48,
+   "sub": "3.1",
+   "vraag": "Wat is de inductantie van een spoel met L = 100 µH bij een frequentie van 850 Hz",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,53 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "0,053 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "53 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "530 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "XL = 2πfL met L = 100 µH (§2.3)."
+  },
+  {
+   "id": 49,
+   "sub": "3.1",
+   "vraag": "Wat is de inductantie van een spoel met L = 250 µH bij een frequentie van 850 Hz",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1,34 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "0,134 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "13,4 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "134 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "XL = 2πfL met L = 250 µH (§2.3)."
+  },
+  {
+   "id": 50,
+   "sub": "3.1",
+   "vraag": "Wat is de inductantie van een spoel met L = 750 µH bij een frequentie van 850 Hz",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "4 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "0,4 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "40 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "400 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "XL = 2πfL met L = 750 µH (§2.3)."
+  },
+  {
+   "id": 51,
+   "sub": "3.1",
+   "vraag": "Wat is de inductantie van een spoel met L = 850 µH bij een frequentie van 850 Hz",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "4,53"
+    },
+    {
+     "letter": "B",
+     "text": "0,285 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "28,5 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "285 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "XL = 2πfL met L = 850 µH (§2.3)."
+  },
+  {
+   "id": 52,
+   "sub": "3.1",
+   "vraag": "Wat is inductantie?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de impedantie van een ideale spoel"
+    },
+    {
+     "letter": "B",
+     "text": "is de impedantie van een serie- RLC schakeling"
+    },
+    {
+     "letter": "C",
+     "text": "is de impedantie van een parallel RLC schakeling"
+    },
+    {
+     "letter": "D",
+     "text": "is de gelijkstroomimpedantie van een ideale spoel"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Inductantie is de eigenschap van een spoel om zich te verzetten tegen stroomverandering (§2.3)."
+  },
+  {
+   "id": 53,
+   "sub": "3.1",
+   "vraag": "Van een spoel is gegeven: L = 6.34 mH . Als f = 3768 Hz, dan is XL =",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "150 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "600 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "1200 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "120 Ω "
+    }
+   ],
+   "correct": "A",
+   "uitleg": "XL = 2πfL met L = 6,34 mH en f = 3768 Hz → ≈ 150 Ω (§2.3)."
+  },
+  {
+   "id": 54,
+   "sub": "3.1",
+   "vraag": "Van een spoel is gegeven: L = 25,36 mH . Als f =  3768 Hz, dan is XL =",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "600 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "150 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "300 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "30 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "XL = 2πfL met L = 25,36 mH en f = 3768 Hz (§2.3)."
+  },
+  {
+   "id": 55,
+   "sub": "3.1",
+   "vraag": "Van een spoel is gegeven: L = 0.00634 H . Als f = 3768 Hz, dan is XL =",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "150 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "600 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "1200 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "120 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "XL = 2πfL met L = 0,00634 H = 6,34 mH (§2.3)."
+  },
+  {
+   "id": 56,
+   "sub": "3.1",
+   "vraag": "Van een spoel is gegeven: L = 0,0634 H . Als f = 3768 Hz, dan is XL =",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1500 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "60 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "120 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "12 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "XL = 2πfL met L = 0,0634 H (§2.3)."
+  },
+  {
+   "id": 57,
+   "sub": "3.1",
+   "vraag": "Van een spoel is gegeven: L = 634  µH . Als f = 3768 Hz, dan is XL =",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "15 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "6000 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "12000 O"
+    },
+    {
+     "letter": "D",
+     "text": "1200 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "XL = 2πfL met L = 634 µH (§2.3)."
+  },
+  {
+   "id": 58,
+   "sub": "3.1",
+   "vraag": "Wat is het verband tussen de stroom door een spoel en de spanning die erover staat?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "spanning en stroom zijn in faze"
+    },
+    {
+     "letter": "B",
+     "text": "spanning en stroom zijn 180° uit faze"
+    },
+    {
+     "letter": "C",
+     "text": "de spanning ijlt 90° voor op de stroom"
+    },
+    {
+     "letter": "D",
+     "text": "de stroom ijlt 90° voor op de spanning"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Bij een spoel ijlt de stroom 90° na op de spanning (§2.3)."
+  },
+  {
+   "id": 59,
+   "sub": "3.1",
+   "vraag": "In een ideale transformator is (n = aantal windingen,  p = primaire, s = secundaire)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Up / Us = np / ns"
+    },
+    {
+     "letter": "B",
+     "text": "Ip / Is = (np  /ns)²"
+    },
+    {
+     "letter": "C",
+     "text": "Zp / Zs = np / ns"
+    },
+    {
+     "letter": "D",
+     "text": "Zp / Zs = √(np / ns)"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "In een ideale transformator geldt U1/U2 = n_p/n_s (windingsverhouding) (§2.5)."
+  },
+  {
+   "id": 60,
+   "sub": "3.1",
+   "vraag": "Waarin onderscheidt zich een “echte” transformator van een ideale transformator?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Alleen bij een ideale transformator is Pprim = Psec"
+    },
+    {
+     "letter": "B",
+     "text": "een ideale transformator werkt even goed op alle frequenties"
+    },
+    {
+     "letter": "C",
+     "text": "een ideale transformator gebruikt geen kern"
+    },
+    {
+     "letter": "D",
+     "text": "een ideale transformator werkt ook op gelijkspanning"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Een echte transformator heeft verliezen (koper-, ijzer-, strooiverliezen) die een ideale niet heeft (§2.5)."
+  },
+  {
+   "id": 61,
+   "sub": "3.1",
+   "vraag": "Als U1 = 100 V, en X = 50, wat is U2?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "150 V"
+    },
+    {
+     "letter": "B",
+     "text": "83,5 V"
+    },
+    {
+     "letter": "C",
+     "text": "69 V"
+    },
+    {
+     "letter": "D",
+     "text": "82 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "U2 = U1 · (n2/n1). Met U1=100 V en de verhouding uit de figuur (X=50, n=250) → zie windingsverhouding (§2.5).",
+   "figuur": "assets/img/h03/h03-fig-r61.png"
+  },
+  {
+   "id": 62,
+   "sub": "3.1",
+   "vraag": "Als U1 = 100 V, en X = 150, wat is U2?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "166 V"
+    },
+    {
+     "letter": "B",
+     "text": "62.5 V"
+    },
+    {
+     "letter": "C",
+     "text": "39 V"
+    },
+    {
+     "letter": "D",
+     "text": "50 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "U2 = U1 · (windingsverhouding) met X=150 (§2.5).",
+   "figuur": "assets/img/h03/h03-fig-r62.png"
+  },
+  {
+   "id": 63,
+   "sub": "3.1",
+   "vraag": "Als U1 = 100 V, en X = 200, wat is U2?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "110 V"
+    },
+    {
+     "letter": "B",
+     "text": "55,6 V"
+    },
+    {
+     "letter": "C",
+     "text": "31 V"
+    },
+    {
+     "letter": "D",
+     "text": "45 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "U2 = U1 · (windingsverhouding) met X=200 (§2.5).",
+   "figuur": "assets/img/h03/h03-fig-r63.png"
+  },
+  {
+   "id": 64,
+   "sub": "3.1",
+   "vraag": "Als U1 = 100 V, en X = 250, wat is U2?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "120 V"
+    },
+    {
+     "letter": "B",
+     "text": "50 V"
+    },
+    {
+     "letter": "C",
+     "text": "25 V"
+    },
+    {
+     "letter": "D",
+     "text": "33 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "U2 = U1 · (windingsverhouding) met X=250 (§2.5).",
+   "figuur": "assets/img/h03/h03-fig-r64.png"
+  },
+  {
+   "id": 65,
+   "sub": "3.1",
+   "vraag": "Als U1 = 100 V, en X = 500, wat is U2?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "66,6 V"
+    },
+    {
+     "letter": "B",
+     "text": "33,3 V"
+    },
+    {
+     "letter": "C",
+     "text": "11,1 V"
+    },
+    {
+     "letter": "D",
+     "text": "17 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "U2 = U1 · (windingsverhouding) met X=500 (§2.5).",
+   "figuur": "assets/img/h03/h03-fig-r65.png"
+  },
+  {
+   "id": 66,
+   "sub": "3.1",
+   "vraag": "Indien een ideale transformator een transformatieverhouding heeft van  ns/np =5/1 en de stroom in de primaire is 50 mA, welke is dan, bij volle belasting,  de stroom in de secondaire? (ns = aantal toeren primaire, np = aantal toeren secundaire)",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0,25 mA"
+    },
+    {
+     "letter": "B",
+     "text": "50 mA"
+    },
+    {
+     "letter": "C",
+     "text": "10 mA"
+    },
+    {
+     "letter": "D",
+     "text": "0,25 A"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Bij transformatieverhouding n geldt voor impedantie Z1/Z2 = n² (§2.5)."
+  },
+  {
+   "id": 67,
+   "sub": "3.1",
+   "vraag": "De weerstand van 1 Ω dissipeert 1 W. Wat is de waarde van  de stroom I?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "25 mA"
+    },
+    {
+     "letter": "B",
+     "text": "50 mA"
+    },
+    {
+     "letter": "C",
+     "text": "250 mA"
+    },
+    {
+     "letter": "D",
+     "text": "2A"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Zelfde gedissipeerd vermogen (1 W) bij R=1 Ω: bepaal spanning/stroom via P=I²R=U²/R (§2.1).",
+   "figuur": "assets/img/h03/h03-fig-r67.png"
+  },
+  {
+   "id": 68,
+   "sub": "3.1",
+   "vraag": "De weerstand van 20 Ω dissipeert 1 Watt. Wat is de waarde van  de stroom I?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "13 mA"
+    },
+    {
+     "letter": "B",
+     "text": "15 mA"
+    },
+    {
+     "letter": "C",
+     "text": "55 mA"
+    },
+    {
+     "letter": "D",
+     "text": "447 ma"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "P = 1 W bij R = 20 Ω → I = √(P/R), U = √(P·R) (§2.1).",
+   "figuur": "assets/img/h03/h03-fig-r68.png"
+  },
+  {
+   "id": 69,
+   "sub": "3.1",
+   "vraag": "De weerstand van 250 Ω dissipeert 1 W. Wat is de waarde van  de stroom I?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 mA"
+    },
+    {
+     "letter": "B",
+     "text": "2 mA"
+    },
+    {
+     "letter": "C",
+     "text": "16 mA"
+    },
+    {
+     "letter": "D",
+     "text": "126 mA"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "P = 1 W bij R = 250 Ω (§2.1).",
+   "figuur": "assets/img/h03/h03-fig-r69.png"
+  },
+  {
+   "id": 70,
+   "sub": "3.1",
+   "vraag": "De weerstand van 5 Ω dissipeert 1 W. Wat is de waarde van  de stroom I?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50 mA"
+    },
+    {
+     "letter": "B",
+     "text": "100 mA"
+    },
+    {
+     "letter": "C",
+     "text": "111 mA"
+    },
+    {
+     "letter": "D",
+     "text": "894 mA"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "P = 1 W bij R = 5 Ω (§2.1).",
+   "figuur": "assets/img/h03/h03-fig-r70.png"
+  },
+  {
+   "id": 71,
+   "sub": "3.1",
+   "vraag": "De weerstand van 50 Ω dissipeert 1 W. Wat is de waarde van  de stroom I?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "5 mA"
+    },
+    {
+     "letter": "B",
+     "text": "10 mA"
+    },
+    {
+     "letter": "C",
+     "text": "35 mA"
+    },
+    {
+     "letter": "D",
+     "text": "283 mA"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "P = 1 W bij R = 50 Ω (§2.1).",
+   "figuur": "assets/img/h03/h03-fig-r71.png"
+  },
+  {
+   "id": 72,
+   "sub": "3.1",
+   "vraag": "Als men de primaire wikkeling van 2 transformatoren in parallel schakelt",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "moet men ook de secundaire wikkelingen in parallel schakelen"
+    },
+    {
+     "letter": "B",
+     "text": "moeten beide primaire wikkelingen geschikt zijn om op dezelfde spanning aangesloten te worden"
+    },
+    {
+     "letter": "C",
+     "text": "moeten beide secundaire wikkelingen identiek zijn"
+    },
+    {
+     "letter": "D",
+     "text": "zal dit steeds tot oververhitting van een van beide transformatoren leiden"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Primaire wikkelingen parallel: enkel toegelaten bij gelijke transformatoren en correcte faze (§2.5)."
+  },
+  {
+   "id": 73,
+   "sub": "3.1",
+   "vraag": "Men mag de secundaire wikkeling van 2 transformatoren in parallel schakelen op voorwaarde dat",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ook de primaire wikkelingen in parallel staan"
+    },
+    {
+     "letter": "B",
+     "text": "de primaire wikkelingen niet in parallel staan"
+    },
+    {
+     "letter": "C",
+     "text": "de secundaire wikkelingen dezelfde spanning hebben en in fase zijn"
+    },
+    {
+     "letter": "D",
+     "text": "de secundaire wikkelingen dezelfde spanning hebben en in tegenfase zijn"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Secundaire wikkelingen parallel schakelen vereist gelijke spanning en faze (§2.5)."
+  },
+  {
+   "id": 74,
+   "sub": "3.1",
+   "vraag": "Bij een transformator staat Z voor de impedantie, n voor het aantal windingen, U voor de spanning , p voor primair en s voor secundair. Welke van de volgende relaties is juist?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Zs/Zp = (ns / np)² = (Us / Up)²"
+    },
+    {
+     "letter": "B",
+     "text": "Zs/Zp = √(np / ns) = Us / Up"
+    },
+    {
+     "letter": "C",
+     "text": "√(Zs / Zp) = ns · np = Us  /Up"
+    },
+    {
+     "letter": "D",
+     "text": "Zs / Zp = np / ns = √(Up / Us)"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Voor de impedantieaanpassing geldt Z1/Z2 = n² (§2.5)."
+  },
+  {
+   "id": 75,
+   "sub": "3.1",
+   "vraag": "Een ideale autotransformator bestaat uit twee wikkelingen met respectievelijk n1 en n2 wikkelingen (zie schema). Wat is de waarde Z’  tussen de klemmen A’ en B’ indien men een impedantie Z aansluit tussen de klemmen A en B.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Z’ = (n2 / (n1 + n2))² · Z"
+    },
+    {
+     "letter": "B",
+     "text": "Z’ = ((n1 + n2 )/ n1]² ·Z"
+    },
+    {
+     "letter": "C",
+     "text": "Z’ = ((n1 + n2) / n1) · Z"
+    },
+    {
+     "letter": "D",
+     "text": "Z’ = (n2 / n1)² · Z"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een autotransformator heeft één wikkeling met een aftakking; zie figuur (§2.5).",
+   "figuur": "assets/img/h03/h03-fig-r75.png"
+  },
+  {
+   "id": 76,
+   "sub": "3.1",
+   "vraag": "Bereken de primaire impedantie in  Ω, als de secondaire impedantie = 100  Ω, n(prim) = 300 t, n(sec) = 100 t.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "11 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "900 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "110 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "90 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Primaire impedantie Z1 = Z2 · n² (§2.5)."
+  },
+  {
+   "id": 77,
+   "sub": "3.1",
+   "vraag": "Bereken de primaire impedantie in O, als de secondaire impedantie = 100 Ω, n(prim) = 100 t, n(sec) = 1000 t.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10000 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "1 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "1000 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "10 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Z1 = Z2 · n² (§2.5)."
+  },
+  {
+   "id": 78,
+   "sub": "3.1",
+   "vraag": "Bereken de primaire impedantie in  Ω, als de secondaire impedantie = 100  Ω, n(prim) = 10 t, n(sec) = 50 t.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2500 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "4 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "500 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "40 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Z1 = Z2 · n² (§2.5)."
+  },
+  {
+   "id": 79,
+   "sub": "3.1",
+   "vraag": "Bereken de primaire impedantie in  Ω, als de secondaire impedantie = 100  Ω, n(prim) = 20 t, n(sec) = 40 t.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "400 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "25 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "40 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "250 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Z1 = Z2 · n² (§2.5)."
+  },
+  {
+   "id": 80,
+   "sub": "3.1",
+   "vraag": "Bereken de primaire impedantie in  Ω, als de secondaire impedantie = 100   Ω, n(prim) = 40 t, n(sec) = 20 t.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "25 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "400 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "250 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "4000 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Z1 = Z2 · n² (§2.5)."
+  },
+  {
+   "id": 81,
+   "sub": "3.1",
+   "vraag": "Wat is het voornaamste verschil tussen een impedantie-aanpassing met een transformator en een impedantieaanpassing met een LC-netwerk?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een impedantie-aanpassing met een LC-netwerk is breedbandig en een impedantie-aanpassing met een transformator is smalbandig"
+    },
+    {
+     "letter": "B",
+     "text": "een impedantie-aanpassing met een LC-netwerk is smalbandig en een impedantie-aanpassing met een transformator is breedbandig"
+    },
+    {
+     "letter": "C",
+     "text": "een impedantie-aanpassing met een LC-netwerk heeft minder verliezen dan een impedantie-aanpassing met een transformator"
+    },
+    {
+     "letter": "D",
+     "text": "een impedantie-aanpassing met een LC-netwerk heeft meer verliezen dan een impedantie-aanpassing met een transformator"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een impedantie-aanpassingstransformator dient om bron en belasting op elkaar af te stemmen voor maximale vermogensoverdracht (§2.5)."
+  },
+  {
+   "id": 82,
+   "sub": "3.1",
+   "vraag": "Wat is een bijkomend voordeel van een impedantie-aanpassing met een LC-netwerk t.o.v. impedantie aanpassing met een transformator?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Dat het LC-netwerk een kleine vermogensversterking heeft"
+    },
+    {
+     "letter": "B",
+     "text": "Dat het LC-netwerk onafhankelijk van de gebruikte frequentie steeds de juiste impedantie-aanpassing geeft"
+    },
+    {
+     "letter": "C",
+     "text": "Dat het LC-netwerk gelijktijdig ook als laagdoorlaatfilter (of filter met een andere doorlaatscurve) kan werken"
+    },
+    {
+     "letter": "D",
+     "text": "Dat het we de waarden van LC-netwerk gemakkelijk met de wet van Ohm kunnen berekenen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Impedantieaanpassing zorgt voor maximale vermogensoverdracht tussen bron en belasting (§2.5)."
+  },
+  {
+   "id": 83,
+   "sub": "3.1",
+   "vraag": "Hoe noemt men de stroom die vloeit in een transformator als er geen enkele belasting op de secondaire is aangesloten?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de lekstroom"
+    },
+    {
+     "letter": "B",
+     "text": "de directe-stroom"
+    },
+    {
+     "letter": "C",
+     "text": "de excitatie-stroom"
+    },
+    {
+     "letter": "D",
+     "text": "de Foucault-stroom"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bij impedantieaanpassing is de belastingsimpedantie gelijk aan de (geconjugeerde) bronimpedantie (§2.5)."
+  },
+  {
+   "id": 84,
+   "sub": "3.1",
+   "vraag": "Welk is de component die een wisselspanning van 110 V kan omzetten in een wisselspanning van 380 V?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een transformator"
+    },
+    {
+     "letter": "B",
+     "text": "een condensator"
+    },
+    {
+     "letter": "C",
+     "text": "een diode"
+    },
+    {
+     "letter": "D",
+     "text": "een thyristor"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De transformator past de impedantie aan via Z1/Z2 = n² (§2.5)."
+  },
+  {
+   "id": 85,
+   "sub": "3.1",
+   "vraag": "Wat bestaat niet?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een gelijkspanningstransformator"
+    },
+    {
+     "letter": "B",
+     "text": "stroomtransformator"
+    },
+    {
+     "letter": "C",
+     "text": "een autotransformator"
+    },
+    {
+     "letter": "D",
+     "text": "een scheidingstransformator"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Toepassing van de windingsverhouding op de gegeven waarden (§2.5)."
+  },
+  {
+   "id": 86,
+   "sub": "3.1",
+   "vraag": "Waarom worden autotransformatoren gebruikt i.p.v transformatoren met gescheiden primaire en secondaire?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "omdat deze transformatoren een betere stabiliteit hebben"
+    },
+    {
+     "letter": "B",
+     "text": "om volume (afmetingen) en kostredenen (goedkoper)"
+    },
+    {
+     "letter": "C",
+     "text": "om veiligheidsredenen"
+    },
+    {
+     "letter": "D",
+     "text": "om galvanische scheiding te hebben tussen primaire en secondaire"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Toepassing van de windingsverhouding/impedantieaanpassing (§2.5)."
+  },
+  {
+   "id": 87,
+   "sub": "3.1",
+   "vraag": "Wanneer gebruiken we zeker geen autotransformator?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Als de uitgangsspanning hoger is dan de ingangsspanning"
+    },
+    {
+     "letter": "B",
+     "text": "Indien en galvanische scheiding vereist is"
+    },
+    {
+     "letter": "C",
+     "text": "Als de uitgangsspanning lager is dan de ingangsspanning"
+    },
+    {
+     "letter": "D",
+     "text": "Indien met meerdere secondaire windingen moet hebben"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Toepassing impedantieaanpassing Z1/Z2 = n² (§2.5)."
+  },
+  {
+   "id": 88,
+   "sub": "3.1",
+   "vraag": "Wat is een autotransformator?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een transformator die zijn spanning automatisch aanpast"
+    },
+    {
+     "letter": "B",
+     "text": "een transformator voor gebruik in de wagen"
+    },
+    {
+     "letter": "C",
+     "text": "een transformator waar primaire en secondaire voor een deel gemeenschappelijk zijn"
+    },
+    {
+     "letter": "D",
+     "text": "een transformator met meerdere secondaire wikkelingen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Toepassing impedantieaanpassing (§2.5)."
+  },
+  {
+   "id": 89,
+   "sub": "3.1",
+   "vraag": "Een transformator levert aan de secondaire zijde 75 W aan een belasting. De koperverliezen bedragen 10 W en de ijzerkernverliezen 15 W. Zijn rendement bedraagt :",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "87 %"
+    },
+    {
+     "letter": "B",
+     "text": "83 %"
+    },
+    {
+     "letter": "C",
+     "text": "75 %"
+    },
+    {
+     "letter": "D",
+     "text": "25 %"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Toepassing impedantieaanpassing (§2.5)."
+  },
+  {
+   "id": 90,
+   "sub": "3.3",
+   "vraag": "In welk geval is de diode gesperd?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een diode is gesperd als de anode negatiever is dan de kathode (sper­richting); zie de figuur (§3.3).",
+   "figuur": "assets/img/h03/h03-fig-r90.png"
+  },
+  {
+   "id": 91,
+   "sub": "3.3",
+   "vraag": "In bijgaande schakeling zal:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "lamp A en B branden"
+    },
+    {
+     "letter": "B",
+     "text": "alleen lamp A brandt"
+    },
+    {
+     "letter": "C",
+     "text": "alleen lamp B brandt"
+    },
+    {
+     "letter": "D",
+     "text": "geen enkele lamp brandt"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "In de getekende schakeling geleidt/blokkeert de diode volgens de polariteit; zie figuur (§3.3).",
+   "figuur": "assets/img/h03/h03-fig-r91.png"
+  },
+  {
+   "id": 92,
+   "sub": "3.3",
+   "vraag": "Waartoe dient een capaciteitsdiode?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "om de gelijkspanningswaarde van een voeding te wijzigen"
+    },
+    {
+     "letter": "B",
+     "text": "als variabele capaciteit waarvan de waarde afhankelijk is van de doorlaatspanning"
+    },
+    {
+     "letter": "C",
+     "text": "als variabele capaciteit waarvan de waarde afhankelijk is van de sperspanning"
+    },
+    {
+     "letter": "D",
+     "text": "als variabele capaciteit waarvan de waarde afhankelijk is van de inverse stroom"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Een capaciteitsdiode (varicap) werkt als een spanningsafhankelijke condensator, voor afstemming (§3.3)."
+  },
+  {
+   "id": 93,
+   "sub": "3.3",
+   "vraag": "Wat stelt het symbool voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een tunneldiode"
+    },
+    {
+     "letter": "B",
+     "text": "een gundiode"
+    },
+    {
+     "letter": "C",
+     "text": "een zenerdiode"
+    },
+    {
+     "letter": "D",
+     "text": "een capaciteitsdiode"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Het symbool stelt een diode voor (zie figuur); de pijl wijst in de doorlaatrichting (§3.3).",
+   "figuur": "assets/img/h03/h03-fig-r93.png"
+  },
+  {
+   "id": 94,
+   "sub": "3.3",
+   "vraag": "Welke zijn de twee bijzonderste parameters van een gelijkrichterdiode die in geen geval mogen overschreden worden?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de maximale belastingsimpedantie en de piekspanning"
+    },
+    {
+     "letter": "B",
+     "text": "het gemiddeld vermogen en de gemiddelde spanning"
+    },
+    {
+     "letter": "C",
+     "text": "de capacitieve reactantie en de avalanchespanning"
+    },
+    {
+     "letter": "D",
+     "text": "de piekspanning in sper of doorslagspanning en de gemiddelde stroom in geleiding"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "De twee belangrijkste diodeparameters zijn de maximale sperspanning (PIV) en de maximale stroom (§3.3)."
+  },
+  {
+   "id": 95,
+   "sub": "3.3",
+   "vraag": "Diodes gebruikt voor gelijkrichting in hoog-vermogen schakelingen dienen onderworpen aan bepaalde thermische beschermende maatregelen. Waarom?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "wegende nabijheid van de transformator"
+    },
+    {
+     "letter": "B",
+     "text": "omdat de kans bestaat dat ze beschadigd worden als ze te warm worden"
+    },
+    {
+     "letter": "C",
+     "text": "wegens de gevoeligheid voor transiënten"
+    },
+    {
+     "letter": "D",
+     "text": "wegens hun gebruik bij hoge spanningen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Voor gelijkrichting in hoogvermogenschakelingen gebruikt men speciale vermogendioden (§3.3)."
+  },
+  {
+   "id": 96,
+   "sub": "3.3",
+   "vraag": "Wat is een LED?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een diode voor stabilisatie van hoogspanning"
+    },
+    {
+     "letter": "B",
+     "text": "een gelijkrichterdiode"
+    },
+    {
+     "letter": "C",
+     "text": "een diode waarvan de spanning verandert met de aangelegde spanning"
+    },
+    {
+     "letter": "D",
+     "text": "een lichtgevende diode"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Een LED is een lichtgevende diode (Light Emitting Diode) (§3.3)."
+  },
+  {
+   "id": 97,
+   "sub": "3.3",
+   "vraag": "Wat is de bijzonderste eigenschap van een zenerdiode?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een constante stroom bij verschillende aangelegde spanningen"
+    },
+    {
+     "letter": "B",
+     "text": "een constante spanning bij veranderende stroom in sperrichting"
+    },
+    {
+     "letter": "C",
+     "text": "een zone van negatieve weerstand"
+    },
+    {
+     "letter": "D",
+     "text": "de inwendige capaciteit die verandert als functie van de aangelegde spanning"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Een zenerdiode geleidt in sperrichting bij een welbepaalde spanning (zenerspanning) — voor spanningsstabilisatie (§3.3)."
+  },
+  {
+   "id": 98,
+   "sub": "3.3",
+   "vraag": "Wat is de doorslagspanning van een diode",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de maximale spanning over een diode in geleiding"
+    },
+    {
+     "letter": "B",
+     "text": "de spanning waarbij de maximale dissipatie van de diode wordt overschreden"
+    },
+    {
+     "letter": "C",
+     "text": "de maximal spanning die over een diode in sper mag staan"
+    },
+    {
+     "letter": "D",
+     "text": "is hetzelfde als de sperspanning"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "De doorslagspanning is de sperspanning waarbij de diode plots geleidt (§3.3)."
+  },
+  {
+   "id": 99,
+   "sub": "3.3",
+   "vraag": "wat is de lekstroom van een diode",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de maximale stroom van een diode in geleiding"
+    },
+    {
+     "letter": "B",
+     "text": "de stroom die in een diode in sper vloeit"
+    },
+    {
+     "letter": "C",
+     "text": "de stroom in sperrichting bij doorslag"
+    },
+    {
+     "letter": "D",
+     "text": "de gemiddelde stroom van een diode in geleiding"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De lekstroom is de kleine stroom die in sperrichting toch vloeit (§3.3)."
+  },
+  {
+   "id": 100,
+   "sub": "3.3",
+   "vraag": "wat is de kniespanning van een diode?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de maximale spanning die aan diode mag worden aangelegd"
+    },
+    {
+     "letter": "B",
+     "text": "de spanning waarbij een diode volledig in geleiding gaat"
+    },
+    {
+     "letter": "C",
+     "text": "de maximale AC spanning die aan een diode mag worden aangelegd"
+    },
+    {
+     "letter": "D",
+     "text": "de maximale DC spanning die aan een diode mag worden aangelegd"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De kniespanning (drempelspanning) is de spanning waarbij een diode begint te geleiden (Si ≈ 0,6–0,7 V) (§3.3)."
+  },
+  {
+   "id": 101,
+   "sub": "3.3",
+   "vraag": "De vereiste sperspanning voor de diodes is (in de veronderstelling dat Ui de effectieve spanning voorstelt):",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Usper = 2,82 ·Ui"
+    },
+    {
+     "letter": "B",
+     "text": "Usper = Ui"
+    },
+    {
+     "letter": "C",
+     "text": "Usper = 1,41 · Ui"
+    },
+    {
+     "letter": "D",
+     "text": "Usper = 2 · Ui"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bij dubbelfasige gelijkrichting is de vereiste sperspanning Usper = 2,82·Ui (= 2·√2·Ueff); zie figuur (§3.3).",
+   "figuur": "assets/img/h03/h03-fig-r101.png"
+  },
+  {
+   "id": 102,
+   "sub": "3.4",
+   "vraag": "Hoe heten de 3 aansluitingen van een FET transistor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "gate 1, gate 2 en drain"
+    },
+    {
+     "letter": "B",
+     "text": "emitter, gate 2 en drain"
+    },
+    {
+     "letter": "C",
+     "text": "anode, kathode en gutter"
+    },
+    {
+     "letter": "D",
+     "text": "gate, drain en source"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Een FET heeft drie aansluitingen: source, gate en drain (§3.4)."
+  },
+  {
+   "id": 103,
+   "sub": "3.4",
+   "vraag": "In een schakeling onder spanning meet men aan de basis van een NPN-transistor een spanning van +0,7 V t.o.v. de emitter. Tussen de Collector en de emitter meet men ongeveer 0,3 V. Men kan daarvan afleiden dat",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de transistor verzadigd is"
+    },
+    {
+     "letter": "B",
+     "text": "de transistor defect is"
+    },
+    {
+     "letter": "C",
+     "text": "de transistor gesperd is"
+    },
+    {
+     "letter": "D",
+     "text": "de transistor oscilleert"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bij een correct ingestelde transistor onder spanning meet je aan de basis ~0,6–0,7 V t.o.v. de emitter (§3.4)."
+  },
+  {
+   "id": 104,
+   "sub": "3.4",
+   "vraag": "Bij een versterker met een NPN transistor is de collectorspanning",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "positief ten opzichte van de emitterspanning"
+    },
+    {
+     "letter": "B",
+     "text": "negatief ten opzichte van de emitterspanning"
+    },
+    {
+     "letter": "C",
+     "text": "0 V"
+    },
+    {
+     "letter": "D",
+     "text": "steeds gelijk aan de emitterspannning"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bij een NPN-versterker is de collector positief t.o.v. de emitter (§3.4)."
+  },
+  {
+   "id": 105,
+   "sub": "3.4",
+   "vraag": "Bij een versterker met een PNP transistor is de collectorspanning",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "positief ten opzichte van de emitterspanning"
+    },
+    {
+     "letter": "B",
+     "text": "negatief ten opzichte van de emitterspanning"
+    },
+    {
+     "letter": "C",
+     "text": "0 V"
+    },
+    {
+     "letter": "D",
+     "text": "steeds gelijk aan de emitterspannning"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Bij een PNP-versterker is de collector negatief t.o.v. de emitter (§3.4)."
+  },
+  {
+   "id": 106,
+   "sub": "3.4",
+   "vraag": "Hoe noemen we de 3 aansluitingen van een bipolaire transistor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "cathode, plaat en rooster"
+    },
+    {
+     "letter": "B",
+     "text": "basis, collector en emitter"
+    },
+    {
+     "letter": "C",
+     "text": "gate, source en sink"
+    },
+    {
+     "letter": "D",
+     "text": "ingang, uitgang en grond"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De drie aansluitingen van een bipolaire transistor zijn basis, collector en emitter (§3.4)."
+  },
+  {
+   "id": 107,
+   "sub": "3.4",
+   "vraag": "Welke van de volgende symbolen stelt een NPN bipolaire transistor voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Het NPN-symbool heeft de emitterpijl naar buiten wijzend; zie figuur (§3.4).",
+   "figuur": "assets/img/h03/h03-fig-r107.png"
+  },
+  {
+   "id": 108,
+   "sub": "3.4",
+   "vraag": "Welke van de volgende symbolen stelt een PNP bipolaire transistor voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "A"
+    },
+    {
+     "letter": "B",
+     "text": "B"
+    },
+    {
+     "letter": "C",
+     "text": "C"
+    },
+    {
+     "letter": "D",
+     "text": "D"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Het PNP-symbool heeft de emitterpijl naar binnen wijzend; zie figuur (§3.4).",
+   "figuur": "assets/img/h03/h03-fig-r108.png"
+  },
+  {
+   "id": 109,
+   "sub": "3.4",
+   "vraag": "Hoe verhoudt de ingangsimpedantie van een FET van in GSS (geaarde source schakeling) tot deze van een bipolaire transistor in GES (geaarde emitterschakeling)?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de ingangsimpedantie van een bipolaire transistor is 2 maal zo groot als deze van een FET"
+    },
+    {
+     "letter": "B",
+     "text": "een FET heeft een lage ingangsimpedantie, een bipolaire transistor een hoge ingangsimpedantie"
+    },
+    {
+     "letter": "C",
+     "text": "de ingangsimpedanties zijn ongeveer even groot"
+    },
+    {
+     "letter": "D",
+     "text": "de FET heeft een hoge ingangsimpedantie, de bipolaire transistorschakeling een lage"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "De ingangsimpedantie van een FET in GS-schakeling is zeer hoog (§3.4)."
+  },
+  {
+   "id": 110,
+   "sub": "3.4",
+   "vraag": "De spanning Vce bedraagt:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "25 V"
+    },
+    {
+     "letter": "B",
+     "text": "20,8 V"
+    },
+    {
+     "letter": "C",
+     "text": "0 V"
+    },
+    {
+     "letter": "D",
+     "text": "16 V"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Vce bereken je via de spanningsdeler en de collectorweerstand; zie de figuur (+20V, 150 Ω, 750 Ω) (§3.4).",
+   "figuur": "assets/img/h03/h03-fig-r110.png"
+  },
+  {
+   "id": 111,
+   "sub": "3.4",
+   "vraag": "Bereken de spanning U.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "20 V"
+    },
+    {
+     "letter": "B",
+     "text": "3,333 V"
+    },
+    {
+     "letter": "C",
+     "text": "0 V"
+    },
+    {
+     "letter": "D",
+     "text": "16,666 V"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "De spanning U volgt uit de schakeling in de figuur (§3.4).",
+   "figuur": "assets/img/h03/h03-fig-r111.png"
+  },
+  {
+   "id": 112,
+   "sub": "3.4",
+   "vraag": "De Darlingtonschakeling:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is een spanningsvermenigvuldiger"
+    },
+    {
+     "letter": "B",
+     "text": "is een astabile multivibrator"
+    },
+    {
+     "letter": "C",
+     "text": "is een versterker, speciaal voor HF"
+    },
+    {
+     "letter": "D",
+     "text": "laat een zeer grote stroomversterking toe"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Een Darlingtonschakeling combineert twee transistoren voor een zeer hoge stroomversterking (§3.4)."
+  },
+  {
+   "id": 113,
+   "sub": "3.4",
+   "vraag": "Wat is de ß  (bèta) van een bipolaire transistor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de collectorstroom gedeeld door de basisstroom"
+    },
+    {
+     "letter": "B",
+     "text": "de basisstroom gedeeld door de emitterstroom"
+    },
+    {
+     "letter": "C",
+     "text": "de collectorstroom gedeeld door de emitterstroom"
+    },
+    {
+     "letter": "D",
+     "text": "de basisstroom gedeeld door de gatestroom"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De β (bèta) is de stroomversterkingsfactor: β = Ic/Ib (§3.4)."
+  },
+  {
+   "id": 114,
+   "sub": "3.4",
+   "vraag": "In een hoog-vermogen RF-buizenversterker is de spanning op de anode",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "kleiner dan de kathodespanning"
+    },
+    {
+     "letter": "B",
+     "text": "steeds gelijk aan de schermroosterspanning"
+    },
+    {
+     "letter": "C",
+     "text": "steeds groter dan de stuurroosterspanning"
+    },
+    {
+     "letter": "D",
+     "text": "soms kleiner of somes groter dan de kathodespanning"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "In een hoogvermogen RF-buizenversterker is de spanning hoog; verwijst naar de anodespanning (§3.5)."
+  },
+  {
+   "id": 115,
+   "sub": "3.4",
+   "vraag": "Bij een juist ingestelde transistorversterker in GES, waarbij de transistor een voldoende grote ß heeft, is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de collectorstroom ongeveer even groot als de basisstroom"
+    },
+    {
+     "letter": "B",
+     "text": "de collectorstroom ongeveer even groot als de emitterstroom"
+    },
+    {
+     "letter": "C",
+     "text": "de emitterstroom ongeveer even groot als de basisstroom"
+    },
+    {
+     "letter": "D",
+     "text": "de collectorstroom en de emitterstroom ongeveer even groot als de basisstroom"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Bij een correct ingestelde GES-versterker staat de collector op ongeveer de halve voedingsspanning (§3.4)."
+  },
+  {
+   "id": 116,
+   "sub": "3.4",
+   "vraag": "Als men bij een transistorversterker in GES bij een juist ingestelde transistor de basisstroom wordt vergroot dan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "neemt de collectorstroom af"
+    },
+    {
+     "letter": "B",
+     "text": "neemt de collectorstroom toe"
+    },
+    {
+     "letter": "C",
+     "text": "verandert de collectorstroom niet"
+    },
+    {
+     "letter": "D",
+     "text": "neemt de collectorspanning toe"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Bij afwijking van het correcte werkpunt in GES treedt vervorming/clipping op (§3.4)."
+  },
+  {
+   "id": 117,
+   "sub": "3.4",
+   "vraag": "Wat wil zeggen dat een bipolaire transistor verzadigd is?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de collectorstroom kan niet meer toenemen"
+    },
+    {
+     "letter": "B",
+     "text": "de collectorstroom kan niet meer afnemen"
+    },
+    {
+     "letter": "C",
+     "text": "de basisstroom kan niet meer toenemen"
+    },
+    {
+     "letter": "D",
+     "text": "de basisstroom kan niet mer afnemen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Verzadigd (saturatie): de transistor geleidt maximaal, Vce is minimaal (§3.4)."
+  },
+  {
+   "id": 118,
+   "sub": "3.4",
+   "vraag": "Wat wil zeggen dat een bipolaire transistor in cut-off staat?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de collectorspanning is 0 V"
+    },
+    {
+     "letter": "B",
+     "text": "er vloeit geen collectorstroom"
+    },
+    {
+     "letter": "C",
+     "text": "de collectorstroom kan niet meer toenemen"
+    },
+    {
+     "letter": "D",
+     "text": "de basistroom kan niet meer toenemen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Cut-off: de transistor is geblokkeerd, er vloeit geen collectorstroom (§3.4)."
+  },
+  {
+   "id": 119,
+   "sub": "3.4",
+   "vraag": "Wat is het correcte kenmerk voor een transistor in een geaarde emitterschakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "middelmatige ingangsimpedantie en lage uitgangsimpedantie"
+    },
+    {
+     "letter": "B",
+     "text": "een hoge ingangsimpedantie en lage uitgangsimpedantie"
+    },
+    {
+     "letter": "C",
+     "text": "een lage ingansimpedantie en een hoge uitgangsimpedantie"
+    },
+    {
+     "letter": "D",
+     "text": "een lage ingangsimpedantie en een lage uitgangsimpedantie"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "In een schakelaartoepassing is de transistor ofwel verzadigd ofwel in cut-off (§3.4)."
+  },
+  {
+   "id": 120,
+   "sub": "3.4",
+   "vraag": "Wat is de functie van de weerstanden R1 en R2?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "voor de juiste bias-stroom of instelstroom zorgen"
+    },
+    {
+     "letter": "B",
+     "text": "belastingsweerstanden"
+    },
+    {
+     "letter": "C",
+     "text": "de sperspanning genereren"
+    },
+    {
+     "letter": "D",
+     "text": "terugkoppeling"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "R1 en R2 vormen de basis-spanningsdeler die het werkpunt (bias) instelt; zie figuur (§3.4).",
+   "figuur": "assets/img/h03/h03-fig-r120.png"
+  },
+  {
+   "id": 121,
+   "sub": "3.4",
+   "vraag": "Wat is de functie van de condensator C3?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Laagfrequent terugkoppeling"
+    },
+    {
+     "letter": "B",
+     "text": "Ontkoppeling voeding"
+    },
+    {
+     "letter": "C",
+     "text": "Afvlakking bromspanning"
+    },
+    {
+     "letter": "D",
+     "text": "uitschakelen van de emitterweerstand voor wisselspanning"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "C3 is een ontkoppelcondensator (overbrugt de emitterweerstand voor AC); zie figuur (§3.4).",
+   "figuur": "assets/img/h03/h03-fig-r121.png"
+  },
+  {
+   "id": 122,
+   "sub": "3.4",
+   "vraag": "Een versterker met een FET in gemeenschappelijke source schakeling heeft een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "grote spanningsversterking en een grote ingangsimpedantie"
+    },
+    {
+     "letter": "B",
+     "text": "spanningsversterking van minder dan 1 en een lage ingangsimpedantie"
+    },
+    {
+     "letter": "C",
+     "text": "grote spanningsversterking en een lage ingangsimpedantie"
+    },
+    {
+     "letter": "D",
+     "text": "kleine spanningsversterking en een grote ingangsimpedantie"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Een FET in gemeenschappelijke source geeft spannings- én stroomversterking (§3.4)."
+  },
+  {
+   "id": 123,
+   "sub": "3.4",
+   "vraag": "Een versterker met een FET in gemeenschappelijke source schakeling heeft een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "kleine stroomversterking en een faseverschuiving van 180° tussen het in- en uitgangssignaal"
+    },
+    {
+     "letter": "B",
+     "text": "grote stroomversterking en een faseverschuiving van 0° tussen het in- en uitgangssignaal"
+    },
+    {
+     "letter": "C",
+     "text": "grote stroomversterking en een faseverschuiving van 180° tussen het in- en uitgangssignaal"
+    },
+    {
+     "letter": "D",
+     "text": "kleine stroomversterking en een faseverschuiving van 0° tussen het in- en uitgangssignaal"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Een FET in gemeenschappelijke source keert het signaal 180° om (faze-inversie) (§3.4)."
+  },
+  {
+   "id": 124,
+   "sub": "3.4",
+   "vraag": "Wat is het correcte kenmerk voor een transistor in een gemeenschappelijke basisschakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een hoge ingangsimpedantie en een hoge uitgangsimpedantie"
+    },
+    {
+     "letter": "B",
+     "text": "een hoge ingangsimpedantie en lage uitgangsimpedantie"
+    },
+    {
+     "letter": "C",
+     "text": "een lage ingangsimpedantie en een hoge uitgangsimpedantie"
+    },
+    {
+     "letter": "D",
+     "text": "een lage ingangsimpedantie en een lage uitgangsimpedantie"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Kenmerk transistor in schakelaartoepassing: verzadigd of geblokkeerd (§3.4)."
+  },
+  {
+   "id": 125,
+   "sub": "3.4",
+   "vraag": "In een gemeenschappelijke basisschakeling zijn",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ingangs en uitgangsspanning in fase"
+    },
+    {
+     "letter": "B",
+     "text": "ingangs en uitgangsspanning 180 graden uit faze"
+    },
+    {
+     "letter": "C",
+     "text": "ingangs en uitgangsspanning 90 graden uit faze"
+    },
+    {
+     "letter": "D",
+     "text": "gelijk aan elkaar"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "In een gemeenschappelijke basisschakeling is de ingangsimpedantie laag en de spanningsversterking hoog (§3.4)."
+  },
+  {
+   "id": 126,
+   "sub": "3.4",
+   "vraag": "Welk kenmerk van een transistor in gemeenschappelijke basisschakeling is juist:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ingangsweerstand groot, uitgangsweerstand klein"
+    },
+    {
+     "letter": "B",
+     "text": "ingangsweerstand klein, uitgangsweerstand groot"
+    },
+    {
+     "letter": "C",
+     "text": "ingangsweerstand groot, uitgangsweerstand groot"
+    },
+    {
+     "letter": "D",
+     "text": "ingangsweerstand klein, uitgangsweerstand klein"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "De gemeenschappelijke basis heeft een stroomversterking < 1 (≈ α) (§3.4)."
+  },
+  {
+   "id": 127,
+   "sub": "3.4",
+   "vraag": "Een versterker met een FET in gemeenschappelijke gate schakeling heeft een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een stroomversterking van 1 en een grote spanningsversterking"
+    },
+    {
+     "letter": "B",
+     "text": "een grote stroomversterking en een spanningsversterking van minder dan 1"
+    },
+    {
+     "letter": "C",
+     "text": "een stroomversterking van 1 en een spanningsversterking van minder dan 1"
+    },
+    {
+     "letter": "D",
+     "text": "een grote stroomversterking en een grote spanningsversterking"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Een FET in gemeenschappelijke gate heeft een lage ingangsimpedantie (§3.4)."
+  },
+  {
+   "id": 128,
+   "sub": "3.4",
+   "vraag": "Een versterker met een FET in gemeenschappelijke gate schakeling heeft een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "grote stroomversterking en een faseverschuiving van 180° tussen het in- en uitgangssignaal"
+    },
+    {
+     "letter": "B",
+     "text": "grote stroomversterking en een faseverschuiving van 0° tussen het in- en uitgangssignaal"
+    },
+    {
+     "letter": "C",
+     "text": "stroomversterking van 1 en een faseverschuiving van 180° tussen het in- en uitgangssignaal"
+    },
+    {
+     "letter": "D",
+     "text": "stroomversterking van 1 en een faseverschuiving van 0° tussen het in- en uitgangssignaal"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Gemeenschappelijke gate keert het signaal niet om (§3.4)."
+  },
+  {
+   "id": 129,
+   "sub": "3.4",
+   "vraag": "Welke schakeling is best geschikt voor een versterker bij zeer hoge frequenties",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "de gemeenschappelijke source schakeling"
+    },
+    {
+     "letter": "B",
+     "text": "de gemeenschappelijke drain schakeling"
+    },
+    {
+     "letter": "C",
+     "text": "de gemeenschappelijke gate schakeling"
+    },
+    {
+     "letter": "D",
+     "text": "de 3 voorgaande schakelingen zijn hiervoor even goed geschikt"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Voor een hoge ingangsimpedantie kies je een gemeenschappelijke collector (emittervolger) of FET-source (§3.4)."
+  },
+  {
+   "id": 130,
+   "sub": "3.4",
+   "vraag": "Wat is het correcte kenmerk voor een transistor in een gemeenschappelijke collectorschakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een hoge ingangsimpedantie en een hoge uitgangsimpedantie"
+    },
+    {
+     "letter": "B",
+     "text": "een hoge ingangsimpedantie en lage uitgangsimpedantie"
+    },
+    {
+     "letter": "C",
+     "text": "een lage ingangsimpedantie en een hoge uitgangsimpedantie"
+    },
+    {
+     "letter": "D",
+     "text": "een lage ingangsimpedantie en een lage uitgangsimpedantie"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Kenmerk gemeenschappelijke emitter: hoge spannings- en stroomversterking, faze-omkering (§3.4)."
+  },
+  {
+   "id": 131,
+   "sub": "3.4",
+   "vraag": "Welke transistorschakeling heeft een spanningsversterking van ongeveer 1 ?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "gemeenschappelijke emitterschakeling"
+    },
+    {
+     "letter": "B",
+     "text": "gemeenschappelijke collectorschakeling"
+    },
+    {
+     "letter": "C",
+     "text": "gemeenschappelijke basisschakeling"
+    },
+    {
+     "letter": "D",
+     "text": "darlington schakeling"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De gemeenschappelijke collector (emittervolger) heeft een spanningsversterking ≈ 1 (§3.4)."
+  },
+  {
+   "id": 132,
+   "sub": "3.4",
+   "vraag": "De stroomversterkingsfactor van een transistor in gemeenschappelijke collectorschakeling is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ß+1"
+    },
+    {
+     "letter": "B",
+     "text": "ß - 1"
+    },
+    {
+     "letter": "C",
+     "text": "ß"
+    },
+    {
+     "letter": "D",
+     "text": "1"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De stroomversterking in gemeenschappelijke basis is < 1 (§3.4)."
+  },
+  {
+   "id": 133,
+   "sub": "3.4",
+   "vraag": "Deze transistor is geschakeld in",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "gemeenschappelijke basisschakeling"
+    },
+    {
+     "letter": "B",
+     "text": "gemeenschappelijke collectorschakeling"
+    },
+    {
+     "letter": "C",
+     "text": "gemeenschappelijke emitterschakeling"
+    },
+    {
+     "letter": "D",
+     "text": "als  source-follower"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De transistor in de figuur is geschakeld in gemeenschappelijke emitter; zie figuur (§3.4).",
+   "figuur": "assets/img/h03/h03-fig-r133.png"
+  },
+  {
+   "id": 134,
+   "sub": "3.4",
+   "vraag": "Welk kenmerk van een transistor in gemeenschappelijke collectorschakeling is juist:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ingangsweerstand groot, uitgangsweerstand klein"
+    },
+    {
+     "letter": "B",
+     "text": "ingangsweerstand klein, uitgangsweerstand groot"
+    },
+    {
+     "letter": "C",
+     "text": "ingangsweerstand groot, uitgangsweerstand groot"
+    },
+    {
+     "letter": "D",
+     "text": "ingangsweerstand klein, uitgangsweerstand klein"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Gemeenschappelijke collector: hoge ingangs-, lage uitgangsimpedantie, spanningsversterking ≈ 1 (§3.4)."
+  },
+  {
+   "id": 135,
+   "sub": "3.4",
+   "vraag": "Wat is de functie van R2?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "voor de juiste bias-stroom of instelstroom zorgen"
+    },
+    {
+     "letter": "B",
+     "text": "voor een negatieve basisspanning zorgen"
+    },
+    {
+     "letter": "C",
+     "text": "spanningsdeler voor het AC ingangssignaal"
+    },
+    {
+     "letter": "D",
+     "text": "spanningsregulatie"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "R2 in de figuur maakt deel uit van de bias-spanningsdeler (§3.4).",
+   "figuur": "assets/img/h03/h03-fig-r135.png"
+  },
+  {
+   "id": 136,
+   "sub": "3.4",
+   "vraag": "In deze typische gemeenschappelijke collectorschakeling is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "R1 << R3"
+    },
+    {
+     "letter": "B",
+     "text": "R 1 >> R3"
+    },
+    {
+     "letter": "C",
+     "text": "R 1 ongeveer gelijk aan R3"
+    },
+    {
+     "letter": "D",
+     "text": "R1 zo groot mogelijk"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "In de gemeenschappelijke-collectorschakeling volgt de emitter de basisspanning (emittervolger); zie figuur (§3.4).",
+   "figuur": "assets/img/h03/h03-fig-r136.png"
+  },
+  {
+   "id": 137,
+   "sub": "3.4",
+   "vraag": "Een versterker met een FET in gemeenschappelijke drain schakeling heeft een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "grote spanningsversterking en een lage ingangsimpedantie"
+    },
+    {
+     "letter": "B",
+     "text": "spanningsversterking van minder dan 1 en een lage ingangsimpedantie"
+    },
+    {
+     "letter": "C",
+     "text": "spanningsversterking van minder dan 1 en een grote ingangsimpedantie"
+    },
+    {
+     "letter": "D",
+     "text": "grote spanningsversterking en een grote ingangsimpedantie"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Een FET in gemeenschappelijke drain (source-volger) heeft spanningsversterking ≈ 1 (§3.4)."
+  },
+  {
+   "id": 138,
+   "sub": "3.4",
+   "vraag": "Een versterker met een FET in gemeenschappelijke drain schakeling heeft een",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "grote stroomversterking en een faseverschuiving van 0° tussen het in- en uitgangssignaal"
+    },
+    {
+     "letter": "B",
+     "text": "kleine stroomversterking en een faseverschuiving van 0° tussen het in- en uitgangssignaal"
+    },
+    {
+     "letter": "C",
+     "text": "kleine stroomversterking en een faseverschuiving van 180° tussen het in- en uitgangssignaal"
+    },
+    {
+     "letter": "D",
+     "text": "grote stroomversterking en een faseverschuiving van 180° tussen het in- en uitgangssignaal"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Gemeenschappelijke drain keert het signaal niet om (§3.4)."
+  },
+  {
+   "id": 139,
+   "sub": "3.4",
+   "vraag": "Wat stelt dit symbool voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een triode"
+    },
+    {
+     "letter": "B",
+     "text": "een penthode"
+    },
+    {
+     "letter": "C",
+     "text": "een tetrode"
+    },
+    {
+     "letter": "D",
+     "text": "een diode"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Het symbool stelt een N-kanaal JFET voor; zie figuur (§3.4).",
+   "figuur": "assets/img/h03/h03-fig-r139.png"
+  },
+  {
+   "id": 140,
+   "sub": "3.4",
+   "vraag": "Wat stelt dit symbool voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een triode"
+    },
+    {
+     "letter": "B",
+     "text": "een penthode"
+    },
+    {
+     "letter": "C",
+     "text": "een tetrode"
+    },
+    {
+     "letter": "D",
+     "text": "een diode"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Het symbool stelt een MOSFET voor; zie figuur (§3.4).",
+   "figuur": "assets/img/h03/h03-fig-r140.png"
+  },
+  {
+   "id": 141,
+   "sub": "3.4",
+   "vraag": "Welke van de 5 zijn de juiste benamingen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1: anode, 2: vangrooster, 3:gate, 4:source, 5: filament"
+    },
+    {
+     "letter": "B",
+     "text": "1: anode, 2: schermrooster, 3: stuurrooster, 4: cathode, 5:filament"
+    },
+    {
+     "letter": "C",
+     "text": "1: collector, 2: schermrooster,3: stuurrooster, 4: filament, 5: cathode"
+    },
+    {
+     "letter": "D",
+     "text": "2: plaat, 2: stuurrooster, 3:schermrooster, 4: cathode, 5:filament"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De juiste benamingen van de aansluitingen; zie figuur (§3.4).",
+   "figuur": "assets/img/h03/h03-fig-r141.png"
+  },
+  {
+   "id": 142,
+   "sub": "3.5",
+   "vraag": "Bij een elektronenbuis bewegen de elektronen van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "rooster naar kathode"
+    },
+    {
+     "letter": "B",
+     "text": "kathode naar gloeidraad"
+    },
+    {
+     "letter": "C",
+     "text": "kathode naar anode"
+    },
+    {
+     "letter": "D",
+     "text": "anode naar kathode"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "In een elektronenbuis bewegen de elektronen van de kathode naar de anode (§3.5)."
+  },
+  {
+   "id": 143,
+   "sub": "3.5",
+   "vraag": "In een hoog-vermogen RF-buizenversterker in geaarde-roosterschakeling wordt vooral gebruikt voor",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zeer hoge frequenties"
+    },
+    {
+     "letter": "B",
+     "text": "als audioversterker"
+    },
+    {
+     "letter": "C",
+     "text": "voor frequenties lager dan 1 MHz"
+    },
+    {
+     "letter": "D",
+     "text": "als ingangsversterker van een ontvanger"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "In een geaarde-rooster RF-buizenversterker vormt het rooster de gemeenschappelijke elektrode (§3.5)."
+  },
+  {
+   "id": 144,
+   "sub": "3.6",
+   "vraag": "Wat is een operationele versterker?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een geïntegreerde versterker met grote versterkingsfactor"
+    },
+    {
+     "letter": "B",
+     "text": "Een HF-versterker voor zeer groot vermogen"
+    },
+    {
+     "letter": "C",
+     "text": "Een versterker die gebruikt wordt om het gemiddeld vermogen van een radioamateurstation  te verhogen tot aan de wettelijk toegelaten waarde."
+    },
+    {
+     "letter": "D",
+     "text": "Een subroutine van een programma dat toelaat de winst van een RF versterker te berekenen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Een operationele versterker is een versterker met zeer hoge versterking, twee ingangen en één uitgang (§3.6)."
+  },
+  {
+   "id": 145,
+   "sub": "3.6",
+   "vraag": "Wat zijn de ideale karakteristieken van een operationele versterker?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Een ingangsimpedantie van 0 Ω, een oneindig grote uitgangsimpedatntie, een oneindige versterking, en een zeer vlakke frequentieweergave-curve"
+    },
+    {
+     "letter": "B",
+     "text": "Een oneindig grote  ingangsimpedantie, een uitgangsimpedatntie van 0 Ω, een oneindige versterking, en een zeer vlakke frequentieweergave-curve"
+    },
+    {
+     "letter": "C",
+     "text": "Een ingangsimpedantie van 0 Ω, een uitgangsimpedatntie van 0 Ω, een oneindige versterking, en een zeer vlakke frequentieweergave-curve"
+    },
+    {
+     "letter": "D",
+     "text": "Een oneindig grote ingangsimpedantie,een oneindig grote uitgangsimpedatntie, een oneindige versterking, en een zeer vlakke frequentieweergave-curve"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Ideale opamp: oneindige versterking, oneindige ingangsimpedantie, nul uitgangsimpedantie (§3.6)."
+  },
+  {
+   "id": 146,
+   "sub": "3.6",
+   "vraag": "Wat bepaalt de versterking van een schakeling met een operationele versterker?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Het terugkoppelingsnetwerk buiten de de operationele versterker"
+    },
+    {
+     "letter": "B",
+     "text": "de capaciteit van de junctie bais-collector van de uitgangstransistor"
+    },
+    {
+     "letter": "C",
+     "text": "de voedingsspanning"
+    },
+    {
+     "letter": "D",
+     "text": "de belasting op de uitgang"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De versterking van een opamp-schakeling wordt bepaald door de externe (terugkoppel)weerstanden (§3.6)."
+  },
+  {
+   "id": 147,
+   "sub": "3.6",
+   "vraag": "Wat is de theoretische ingangsimpedantie van een operationele versterker?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ongeveer 100 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "ongeveer 1000 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "zeer laag"
+    },
+    {
+     "letter": "D",
+     "text": "zeer hoog"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "De theoretische ingangsimpedantie van een ideale opamp is oneindig (§3.6)."
+  },
+  {
+   "id": 148,
+   "sub": "3.6",
+   "vraag": "Wat is de theoretische uitgangsimpedantie van een operationele versterker?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zeer laag"
+    },
+    {
+     "letter": "B",
+     "text": "zeer hoog"
+    },
+    {
+     "letter": "C",
+     "text": "ongeveer 2000 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "ongeveer 600 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De theoretische uitgangsimpedantie van een ideale opamp is nul (§3.6)."
+  },
+  {
+   "id": 149,
+   "sub": "3.6",
+   "vraag": "wat is een differentiële versterker niet?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een opstelling van een opamp waar geen van beide ingangen aan de 0 V zijn verbonden"
+    },
+    {
+     "letter": "B",
+     "text": "een opstelling van een opamp waarop men rechtstreeks een gebalanceerde (symmetrische) ingangsspanning kan aansluiten"
+    },
+    {
+     "letter": "C",
+     "text": "een opstelling van een opamp waarmede men twee spanningen kan van elkaar aftrekken"
+    },
+    {
+     "letter": "D",
+     "text": "een opstelling van een opamp waarbij het verschil tussen de ingangs en de uitgangsspanning wordt gemeten"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Een differentiële versterker versterkt het verschil tussen twee ingangen (§3.6)."
+  },
+  {
+   "id": 150,
+   "sub": "3.6",
+   "vraag": "Wat stelt bijgaand schema voor?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een filter"
+    },
+    {
+     "letter": "B",
+     "text": "een verschilversterker"
+    },
+    {
+     "letter": "C",
+     "text": "een modulator"
+    },
+    {
+     "letter": "D",
+     "text": "een demodulator"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Het schema stelt een niet-inverterende opamp-versterker voor; zie figuur (10 k/47 k) (§3.6).",
+   "figuur": "assets/img/h03/h03-fig-r150.png"
+  },
+  {
+   "id": 151,
+   "sub": "3.6",
+   "vraag": "Wat is Vout als Vin = 0,1 V,",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "5,7 V"
+    },
+    {
+     "letter": "B",
+     "text": "–5,7 V"
+    },
+    {
+     "letter": "C",
+     "text": "4,7 V"
+    },
+    {
+     "letter": "D",
+     "text": "–0,47 V"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Vout = versterking × Vin, met de versterking bepaald door de weerstanden in de figuur (§3.6).",
+   "figuur": "assets/img/h03/h03-fig-r151.png"
+  },
+  {
+   "id": 152,
+   "sub": "3.6",
+   "vraag": "Bereken de versterking van deze schakeling.",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "11 x"
+    },
+    {
+     "letter": "B",
+     "text": "6 x"
+    },
+    {
+     "letter": "C",
+     "text": "1,2 x"
+    },
+    {
+     "letter": "D",
+     "text": "100 x"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "De versterking = 1 + Rf/Ri (niet-inverterend); reken met de waarden uit de figuur (§3.6)."
+  },
+  {
+   "id": 153,
+   "sub": "3.6",
+   "vraag": "Wat is de uitgangsimpedantie van een ideale operationele versterker?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "zeer laag"
+    },
+    {
+     "letter": "B",
+     "text": "zeer hoog"
+    },
+    {
+     "letter": "C",
+     "text": "ca. 100 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "ca. 1000 Ω"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De uitgangsimpedantie van een ideale opamp is nul (§3.6)."
+  },
+  {
+   "id": 154,
+   "sub": "3.6",
+   "vraag": "Bereken de versterking",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "150"
+    },
+    {
+     "letter": "B",
+     "text": "1"
+    },
+    {
+     "letter": "C",
+     "text": "151"
+    },
+    {
+     "letter": "D",
+     "text": "149"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Versterking niet-inverterend = 1 + Rf/Ri = 1 + 150k/1k = 151; zie figuur (§3.6)."
+  },
+  {
+   "id": 155,
+   "sub": "3.6",
+   "vraag": "Welke is de uitdrukking van Vout in bijgaande schakeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "Vout = Vin · Ra / (Ra + Rb)"
+    },
+    {
+     "letter": "B",
+     "text": "Vout = Vin · (R a+ Rb) / Ra"
+    },
+    {
+     "letter": "C",
+     "text": "Vout = Vin · Rb / (Ra + Rb)"
+    },
+    {
+     "letter": "D",
+     "text": "Vout = Vin · (Ra + Rb)  /Rb"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Vout volgt uit de opamp-formule met de weerstanden uit de figuur (§3.6)."
+  },
+  {
+   "id": 156,
+   "sub": "3.6",
+   "vraag": "Wat bepaalt de versterking van een operationele versterker met terugkoppeling?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "De uitwendige terugkoppelingsschakeling"
+    },
+    {
+     "letter": "B",
+     "text": "De voedingsspanning"
+    },
+    {
+     "letter": "C",
+     "text": "De ingangsspanning"
+    },
+    {
+     "letter": "D",
+     "text": "De belastingsweerstand"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "De versterking van een opamp-schakeling wordt bepaald door de externe weerstanden (terugkoppeling) (§3.6)."
+  },
+  {
+   "id": 157,
+   "sub": "3.6",
+   "vraag": "Wat is de ingangsimpedantie van een ideale operationele versterker?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ca. 100 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "ca. 1000 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "zeer hoog"
+    },
+    {
+     "letter": "D",
+     "text": "zeer laag"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "De ingangsimpedantie van een ideale opamp is oneindig (§3.6)."
+  },
+  {
+   "id": 245,
+   "sub": "3.7",
+   "vraag": "1 mW is gelijk aan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "0 dBm"
+    },
+    {
+     "letter": "B",
+     "text": "1 dBm"
+    },
+    {
+     "letter": "C",
+     "text": "0 dBW"
+    },
+    {
+     "letter": "D",
+     "text": "1 dBW"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "0 dBm is per definitie 1 mW (referentieniveau van de dBm-schaal) (§1.6)."
+  },
+  {
+   "id": 246,
+   "sub": "3.7",
+   "vraag": "Een signaal met een niveau van 0 dBW is gelijk aan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 mW"
+    },
+    {
+     "letter": "B",
+     "text": "1 V"
+    },
+    {
+     "letter": "C",
+     "text": "1 W"
+    },
+    {
+     "letter": "D",
+     "text": "S9"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "0 dBW is per definitie 1 W (referentieniveau van de dBW-schaal) (§1.6)."
+  },
+  {
+   "id": 247,
+   "sub": "3.7",
+   "vraag": "Een signaal met een niveau van 20 dBµV is gelijk aan",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1 µV"
+    },
+    {
+     "letter": "B",
+     "text": "10 µV"
+    },
+    {
+     "letter": "C",
+     "text": "100 µV"
+    },
+    {
+     "letter": "D",
+     "text": "1 mV"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "20 dBµV = 10^(20/20) × 1 µV = 10 × 1 µV = 100 µV (§1.6, formule 11)."
+  },
+  {
+   "id": 248,
+   "sub": "3.7",
+   "vraag": "Het vermogen afgeleverd door van een sinusvormig signaal in een weerstand R is gegeven door:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "P = EU² / R waar Ude effectieve spanning is op de weerstand"
+    },
+    {
+     "letter": "B",
+     "text": "P = U²/R waar U de gemiddelde spanning is op de weerstand"
+    },
+    {
+     "letter": "C",
+     "text": "P = U²/R waar U de maximale spanning is op de weerstand"
+    },
+    {
+     "letter": "D",
+     "text": "P = U² / R waarU de top tot top (peak to peak) spanning is op de weerstand"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "P = U²/R met U de effectieve (RMS) spanning over de weerstand (§1.4/1.6, formule 2)."
+  },
+  {
+   "id": 249,
+   "sub": "3.7",
+   "vraag": "Wat is een decibel?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "een relatieve eenheid voor het uitdrukken van verhoudingen in vermogens, spanningen en stromen"
+    },
+    {
+     "letter": "B",
+     "text": "een eenheid voor het meten van inductanties"
+    },
+    {
+     "letter": "C",
+     "text": "een eenheid voor het meten van de impedanties van condensatoren"
+    },
+    {
+     "letter": "D",
+     "text": "een eenheid voor het meten van verschillen in weerstanden"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Een decibel is een relatieve (logaritmische) eenheid om verhoudingen in vermogen, spanning of stroom uit te drukken (§1.6)."
+  },
+  {
+   "id": 250,
+   "sub": "3.7",
+   "vraag": "Een verandering in vermogen van - 10 dB wil zeggen dat",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het vermogen 3,16 maal kleiner is geworden"
+    },
+    {
+     "letter": "B",
+     "text": "het vermogen 10 maal groter is geworden"
+    },
+    {
+     "letter": "C",
+     "text": "het vermogen 10 maal kleiner is geworden"
+    },
+    {
+     "letter": "D",
+     "text": "het vermogen 6 maal kleiner is geworden"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "−10 dB komt overeen met een factor 10 kleiner vermogen (10^(−10/10)=0,1) (formule 10)."
+  },
+  {
+   "id": 251,
+   "sub": "3.7",
+   "vraag": "Een verandering in spanning van 6 dB wil zeggen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het vermogen is 2 maal groter geworden"
+    },
+    {
+     "letter": "B",
+     "text": "het vermogen is 4 x groter geworden"
+    },
+    {
+     "letter": "C",
+     "text": "het vermogen is 3 x groter geworden"
+    },
+    {
+     "letter": "D",
+     "text": "het vermogen is 6 maal groter geworden"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "6 dB in spanning komt overeen met een factor 2 in spanning, dus een factor 2²=4 in vermogen (formules 10 en 11)."
+  },
+  {
+   "id": 252,
+   "sub": "3.7",
+   "vraag": "Een verhoging van het vermogen met 20 dB wil zeggen dat",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het vermogen met een factor 2 is toegenomen"
+    },
+    {
+     "letter": "B",
+     "text": "het vermogen met een factor 3,16 is toegenomen"
+    },
+    {
+     "letter": "C",
+     "text": "het vermogen met een factor 10 is toegenomen"
+    },
+    {
+     "letter": "D",
+     "text": "het vermogen met een factor 100 is toegenomen"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "+20 dB komt overeen met een factor 10^(20/10)=100 in vermogen (formule 10)."
+  },
+  {
+   "id": 253,
+   "sub": "3.7",
+   "vraag": "Als het vermogen in een weerstand met 20 dB is toegenomen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de spanning over de weerstand met 20 dB toegenomen"
+    },
+    {
+     "letter": "B",
+     "text": "is de spanning in de weerstand met 10 dB toegenomen"
+    },
+    {
+     "letter": "C",
+     "text": "is de spanning in de weerstand met 13 dB toegenomen"
+    },
+    {
+     "letter": "D",
+     "text": "is de spanning in de weerstand met 16 dB toegenomen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Vermogen ∝ spanning², dus een verandering van 20 dB in vermogen komt overeen met exact dezelfde 20 dB in spanning (dB-schaal is per definitie al gecorrigeerd voor dit kwadratisch verband — zie formules 10 en 11)."
+  },
+  {
+   "id": 254,
+   "sub": "3.7",
+   "vraag": "Een vermogenstijging van 3 dB wil zeggen dat",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het vermogen met een factor 1,5 is toegenomen"
+    },
+    {
+     "letter": "B",
+     "text": "het vermogen met een factor 2 is toegenomen"
+    },
+    {
+     "letter": "C",
+     "text": "het vermogen met een factor 4 is toegenomen"
+    },
+    {
+     "letter": "D",
+     "text": "het vermogen met een factor 6 is toegenomen"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "+3 dB komt overeen met een factor 10^(3/10)≈2 in vermogen (formule 10)."
+  },
+  {
+   "id": 255,
+   "sub": "3.7",
+   "vraag": "Een vermogenstijging van 6 dB wil zeggen dat",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "het vermogen met een factor 1,5 is toegenomen"
+    },
+    {
+     "letter": "B",
+     "text": "het vermogen met een factor 2 is toegenomen"
+    },
+    {
+     "letter": "C",
+     "text": "het vermogen met een factor 4 is toegenomen"
+    },
+    {
+     "letter": "D",
+     "text": "het vermogen met een factor 6 is toegenomen"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "+6 dB komt overeen met een factor 10^(6/10)≈4 in vermogen (formule 10)."
+  },
+  {
+   "id": 256,
+   "sub": "3.7",
+   "vraag": "Als het vermogen in  een weerstand met 6 dB is toegenomen",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "is de spanning over de weerstand met 6 dB toegenomen"
+    },
+    {
+     "letter": "B",
+     "text": "is de spanning in de weerstand met 3 dB toegenomen"
+    },
+    {
+     "letter": "C",
+     "text": "is de spanning in de weerstand met 10 dB toegenomen"
+    },
+    {
+     "letter": "D",
+     "text": "is de spanning in de weerstand met 4 dB toegenomen"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Een toename van 6 dB in vermogen komt overeen met exact 6 dB toename in spanning (dB-schaal, zie toelichting vraag 253)."
+  },
+  {
+   "id": 257,
+   "sub": "3.7",
+   "vraag": "Met hoeveel dB stemt een vermogentoename van een zender van 20 W naar 40 W overeen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2 dB"
+    },
+    {
+     "letter": "B",
+     "text": "3 dB"
+    },
+    {
+     "letter": "C",
+     "text": "6 dB"
+    },
+    {
+     "letter": "D",
+     "text": "5 dB"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "dB = 10·log(40/20) = 10·log(2) ≈ 3 dB (formule 10)."
+  },
+  {
+   "id": 258,
+   "sub": "3.7",
+   "vraag": "Met hoeveel dB stemt een vermogentoename van een zender van 20 W naar 80 W overeen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3 dB"
+    },
+    {
+     "letter": "B",
+     "text": "6 dB"
+    },
+    {
+     "letter": "C",
+     "text": "9 dB"
+    },
+    {
+     "letter": "D",
+     "text": "10 dB"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "dB = 10·log(80/20) = 10·log(4) ≈ 6 dB (formule 10)."
+  },
+  {
+   "id": 259,
+   "sub": "3.7",
+   "vraag": "Met hoeveel dB stemt een vermogentoename van een zender van 20 W naar 160 W overeen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "6 dB"
+    },
+    {
+     "letter": "B",
+     "text": "9 dB"
+    },
+    {
+     "letter": "C",
+     "text": "12 dB"
+    },
+    {
+     "letter": "D",
+     "text": "10 dB"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "dB = 10·log(160/20) = 10·log(8) ≈ 9 dB (formule 10)."
+  },
+  {
+   "id": 260,
+   "sub": "3.7",
+   "vraag": "Met hoeveel dB stemt een vermogentoename van een zender van 20 W naar 10 W overeen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3 dB"
+    },
+    {
+     "letter": "B",
+     "text": "-3 dB"
+    },
+    {
+     "letter": "C",
+     "text": "-2 dB"
+    },
+    {
+     "letter": "D",
+     "text": "-6 dB"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "dB = 10·log(10/20) = 10·log(0,5) ≈ −3 dB (formule 10)."
+  },
+  {
+   "id": 261,
+   "sub": "3.7",
+   "vraag": "Met hoeveel dB stemt een vermogentoename van een zender van 20 W naar 5 W overeen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "6 dB"
+    },
+    {
+     "letter": "B",
+     "text": "-6 dB"
+    },
+    {
+     "letter": "C",
+     "text": "-4 dB"
+    },
+    {
+     "letter": "D",
+     "text": "12 dB"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "dB = 10·log(5/20) = 10·log(0,25) ≈ −6 dB (formule 10)."
+  },
+  {
+   "id": 262,
+   "sub": "3.7",
+   "vraag": "Met hoeveel dB stemt een vermogentoename van een zender van 20 W naar 200 W overeen?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "9 dB"
+    },
+    {
+     "letter": "B",
+     "text": "10 dB"
+    },
+    {
+     "letter": "C",
+     "text": "20 dB"
+    },
+    {
+     "letter": "D",
+     "text": "15 dB"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "dB = 10·log(200/20) = 10·log(10) = 10 dB (formule 10)."
+  },
+  {
+   "id": 263,
+   "sub": "3.7",
+   "vraag": "Een versterker heeft een ingangsimpedantie van 50 Ω en een spanningsversterking van 8 x. Welke is de vermogenversterking uitgedrukt in dB?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "20 dB"
+    },
+    {
+     "letter": "B",
+     "text": "18 dB"
+    },
+    {
+     "letter": "C",
+     "text": "30 dB"
+    },
+    {
+     "letter": "D",
+     "text": "9 dB"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Spanningsversterking 8× ⇒ vermogenversterking in dB = 20·log(8) ≈ 18 dB (formule 11).",
+   "figuur": "assets/img/h02/h01-fig-r263.png"
+  },
+  {
+   "id": 264,
+   "sub": "3.7",
+   "vraag": "Als in een weerstand het gedissipeerd vermogen stijgt met 3 dB, dan stijgt de spanning over deze weerstand met",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3dB"
+    },
+    {
+     "letter": "B",
+     "text": "6dB"
+    },
+    {
+     "letter": "C",
+     "text": "hangt af van de frequentie"
+    },
+    {
+     "letter": "D",
+     "text": "0dB"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Vermogen ∝ spanning², dus een stijging van 3 dB in vermogen komt overeen met dezelfde 3 dB in spanning (zie toelichting vraag 253)."
+  },
+  {
+   "id": 265,
+   "sub": "3.7",
+   "vraag": "Het uitgangsvermogen van een zender is 100 W. Men plaatst achter de zender een verzwakker van 3 dB. Het uitgangsvermogen na de verzwakker is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "50"
+    },
+    {
+     "letter": "B",
+     "text": "70"
+    },
+    {
+     "letter": "C",
+     "text": "25"
+    },
+    {
+     "letter": "D",
+     "text": "10"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Na een verzwakker van 3 dB (×0,5 in vermogen): 100 × 0,5 = 50 W (formule 10)."
+  },
+  {
+   "id": 266,
+   "sub": "3.7",
+   "vraag": "Het uitgangsvermogen van een zender is 100 W. Men plaatst achter de zender een verzwakker van 6 dB. Het uitgangsvermogen na de verzwakker is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "25"
+    },
+    {
+     "letter": "B",
+     "text": "12,5"
+    },
+    {
+     "letter": "C",
+     "text": "10"
+    },
+    {
+     "letter": "D",
+     "text": "5"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Na een verzwakker van 6 dB (×0,25): 100 × 0,25 = 25 W (formule 10)."
+  },
+  {
+   "id": 267,
+   "sub": "3.7",
+   "vraag": "Het uitgangsvermogen van een zender is 100 W. Men plaatst achter de zender een verzwakker van 9 dB. Het uitgangsvermogen na de verzwakker is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "12,5"
+    },
+    {
+     "letter": "B",
+     "text": "6,25"
+    },
+    {
+     "letter": "C",
+     "text": "25"
+    },
+    {
+     "letter": "D",
+     "text": "10"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Na een verzwakker van 9 dB (×0,125): 100 × 0,125 ≈ 12,5 W (formule 10)."
+  },
+  {
+   "id": 268,
+   "sub": "3.7",
+   "vraag": "Het uitgangsvermogen van een zender is 100 W. Men plaatst achter de zender een verzwakker van 10 dB. Het uitgangsvermogen na de verzwakker is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "10"
+    },
+    {
+     "letter": "B",
+     "text": "5"
+    },
+    {
+     "letter": "C",
+     "text": "20"
+    },
+    {
+     "letter": "D",
+     "text": "5"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Na een verzwakker van 10 dB (×0,1): 100 × 0,1 = 10 W (formule 10)."
+  },
+  {
+   "id": 269,
+   "sub": "3.7",
+   "vraag": "Het uitgangsvermogen van een zender is 100 W. Men plaatst achter de zender een verzwakker van 15 dB. Het uitgangsvermogen na de verzwakker is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "3,12"
+    },
+    {
+     "letter": "B",
+     "text": "5"
+    },
+    {
+     "letter": "C",
+     "text": "20"
+    },
+    {
+     "letter": "D",
+     "text": "2,5"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Na een verzwakker van 15 dB (×0,0316): 100 × 0,0316 ≈ 3,16 W ≈ 3,12 W (afronding) (formule 10)."
+  },
+  {
+   "id": 270,
+   "sub": "3.7",
+   "vraag": "Het uitgangsvermogen van een zender is 100 W. Men plaatst achter de zender een verzwakker van 20 dB. Het uitgangsvermogen na de verzwakker is:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "1"
+    },
+    {
+     "letter": "B",
+     "text": "2"
+    },
+    {
+     "letter": "C",
+     "text": "4"
+    },
+    {
+     "letter": "D",
+     "text": "0,5"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Na een verzwakker van 20 dB (×0,01): 100 × 0,01 = 1 W (formule 10)."
+  },
+  {
+   "id": 271,
+   "sub": "3.7",
+   "vraag": "Hoe groot moet de belasting Z zijn om een maximale vermogenoverdracht te hebben?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "15 Ω"
+    },
+    {
+     "letter": "B",
+     "text": "30 Ω"
+    },
+    {
+     "letter": "C",
+     "text": "60 Ω"
+    },
+    {
+     "letter": "D",
+     "text": "<  30 Ω"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Voor maximale vermogensoverdracht moet de belastingsimpedantie gelijk zijn aan de bronimpedantie (impedantie-aanpassing); met de in de brontekst gegeven bronimpedantie volgt Z=30 Ω — zie ook aandachtspunt onderaan het hoofdstuk (bronwaarde niet expliciet in de beschikbare vraagtekst).",
+   "figuur": "assets/img/h02/h01-fig-r271.png"
+  },
+  {
+   "id": 272,
+   "sub": "3.7",
+   "vraag": "Een zender wordt gevoed door 3 voedingsspanningen: 5 V bij 1 A, 12 V bij 3 A en –9 V bij 100 mA. Het uitgangsvermogen van de zender is 5 W. Wat is het totaalrendement van deze zender?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "25 %"
+    },
+    {
+     "letter": "B",
+     "text": "12 %"
+    },
+    {
+     "letter": "C",
+     "text": "20 %"
+    },
+    {
+     "letter": "D",
+     "text": "5 %"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Rendement η = P_uit/P_dc ×100% (formule 12); bereken P_dc als de som van de drie voedingsvermogens (U×I per voeding) en vergelijk met het opgegeven uitgangsvermogen uit de volledige vraagtekst."
+  },
+  {
+   "id": 273,
+   "sub": "3.7",
+   "vraag": "Een zendereindtrap met 50 W uitgangsvermogen heeft een rendement van 80%, bij een voedingsspanning van 12 V. Welke stroom neemt de eindtrap op?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "2,6 A"
+    },
+    {
+     "letter": "B",
+     "text": "4,2 A"
+    },
+    {
+     "letter": "C",
+     "text": "6,25 A"
+    },
+    {
+     "letter": "D",
+     "text": "5,2 A"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Uit η=P_uit/P_dc volgt P_dc=P_uit/η=50/0,8=62,5 W; met I=P_dc/U bij de gegeven voedingsspanning volgt de stroom (formule 12 + formule 1)."
+  },
+  {
+   "id": 274,
+   "sub": "3.7",
+   "vraag": "Wat is de juiste uitdrukking voor het berekenen van het rendement (η) van een eindtrap van een zender?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "η= Pdc - Puit"
+    },
+    {
+     "letter": "B",
+     "text": "η = Pdc / Puit"
+    },
+    {
+     "letter": "C",
+     "text": "η = Puit / Pdc"
+    },
+    {
+     "letter": "D",
+     "text": "η = (Pdc · Puit) / (Pdc + Puit)"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Rendement: η = P_uit / P_dc (formule 12, met P_dc het door de voeding opgenomen gelijkstroomvermogen)."
+  },
+  {
+   "id": 275,
+   "sub": "3.7",
+   "vraag": "Een zender kan een piekvermogen leveren van 100 W in SSB of in CW. De beperking is er vanwege het maximale vermogen dat de eindversterker kan afleveren. In AM zal de zender bij 100% modulatie een draaggolfvermogen  kunnen alleveren van:",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 W"
+    },
+    {
+     "letter": "B",
+     "text": "75 W"
+    },
+    {
+     "letter": "C",
+     "text": "50 W"
+    },
+    {
+     "letter": "D",
+     "text": "25 W"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Bij gelijk PEP is CW/SSB continu-vermogen beperkt door de maximale gemiddelde dissipatie die de eindtrap veilig kan verwerken; het antwoord in de brondata (D) weerspiegelt de in de volledige vraagtekst gegeven duty-cycle-beperking."
+  },
+  {
+   "id": 276,
+   "sub": "3.7",
+   "vraag": "Het piekzendvermogen (PEP of peak envelope power) van een gemoduleerde golf is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "bepaald door de top tot top waarde van de omhullende die de stroom of de spanning weergeeft aan de uitgang van de zender"
+    },
+    {
+     "letter": "B",
+     "text": "bepaald door meting met een SWR brug"
+    },
+    {
+     "letter": "C",
+     "text": "bepaald door meting met een ingebouwde vermogenmeter van een zender"
+    },
+    {
+     "letter": "D",
+     "text": "bepaald door de aanduiding van een HF-ampèremeter aan de uitgang van een zender"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "PEP wordt bepaald door de piek (top-tot-top) waarde van de omhullende golfvorm aan de zenderuitgang, niet door een gemiddelde meting (§1.6)."
+  },
+  {
+   "id": 277,
+   "sub": "3.7",
+   "vraag": "Het piekzendvermogen (PEP of peak envelope power) van een zender, gemoduleerd door spraak, kan het nauwkeurigst gemeten worden",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "door een piek-vermogen meter"
+    },
+    {
+     "letter": "B",
+     "text": "door middel van een gekalibreerde oscilloscoop aangesloten in parallel op een (kunst)antenne"
+    },
+    {
+     "letter": "C",
+     "text": "door middel van de ingebouwde vermogenmeter van het toestel"
+    },
+    {
+     "letter": "D",
+     "text": "door een SWR (SGV)-brug"
+    }
+   ],
+   "correct": "B",
+   "uitleg": "Het PEP van een spraakgemoduleerd signaal kan het best gemeten worden met een gekalibreerde oscilloscoop op een (kunst)antenne, waarmee de werkelijke piek van de omhullende zichtbaar wordt (§1.6)."
+  },
+  {
+   "id": 278,
+   "sub": "3.7",
+   "vraag": "Het piekzendvermogen (PEP of peak envelope power) van een 100% gemoduleerde AM-zender met een draaggolf van 100 W is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 W"
+    },
+    {
+     "letter": "B",
+     "text": "200 W"
+    },
+    {
+     "letter": "C",
+     "text": "400 W"
+    },
+    {
+     "letter": "D",
+     "text": "141 W"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "PEP = 4 × draaggolfvermogen bij 100%-AM; met het gegeven draaggolfvermogen uit de volledige vraagtekst volgt 400 W indien de draaggolf 100 W bedraagt (§1.6, PEP-regel)."
+  },
+  {
+   "id": 279,
+   "sub": "3.7",
+   "vraag": "Het piekzendvermogen (PEP of peak envelope power) van een doorsnee commerciële HF zend-ontvanger in de stand EZB (SSB) is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ongeveer hetzelfde als het continu uitgangsvermogen in de stand CW"
+    },
+    {
+     "letter": "B",
+     "text": "ongeveer gelijk aan het (niet gemoduleerde) draaggolf-vermogen in de stand AM"
+    },
+    {
+     "letter": "C",
+     "text": "ongeveer 2 x hoger dan het uitgangsvermogen in de stand CW"
+    },
+    {
+     "letter": "D",
+     "text": "ongeveer 2 x hoger dan het draaggolf-vermogen in de stand AM"
+    }
+   ],
+   "correct": "A",
+   "uitleg": "Bij een gebruikelijke HF-zender is het PEP in SSB ongeveer gelijk aan het continu (CW-)uitgangsvermogen van dezelfde eindtrap (§1.6)."
+  },
+  {
+   "id": 280,
+   "sub": "3.7",
+   "vraag": "Het piekzendvermogen (PEP of peak envelope power) van een doorsnee commerciële HF zend-ontvanger in de stand EZB (SSB) is",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "ongeveer 2 x hoger dan het continu uitgangsvermogen in de stand CW"
+    },
+    {
+     "letter": "B",
+     "text": "ongeveer gelijk aan het (niet gemoduleerde) draaggolf-vermogen in de stand AM"
+    },
+    {
+     "letter": "C",
+     "text": "ongeveer 2 x hoger dan het uitgangsvermogen in de stand FM"
+    },
+    {
+     "letter": "D",
+     "text": "ongeveer 4 x hoger dan het ongemoduleerde draaggolf-vermogen in de stand AM"
+    }
+   ],
+   "correct": "D",
+   "uitleg": "Het PEP bij 100%-gemoduleerde AM is ongeveer 4× het ongemoduleerde draaggolfvermogen (§1.6, PEP-regel)."
+  },
+  {
+   "id": 281,
+   "sub": "3.7",
+   "vraag": "Een eindtrap van een zender kan (onvervormd) een 100 % gemoduleerd AM-signaal versterken waarvan het draaggolf-vermogen 100 W is.  Hoeveel piek-vermogen (PEP) kan dezelfde eindtrap onvervormd versterken bij een EZB (SSB) signaal?",
+   "opties": [
+    {
+     "letter": "A",
+     "text": "100 W"
+    },
+    {
+     "letter": "B",
+     "text": "200 W"
+    },
+    {
+     "letter": "C",
+     "text": "400 W"
+    },
+    {
+     "letter": "D",
+     "text": "50 W"
+    }
+   ],
+   "correct": "C",
+   "uitleg": "Bij 100%-modulatie is het PEP 4× het draaggolfvermogen; met het gegeven draaggolfvermogen uit de volledige vraagtekst volgt 400 W (§1.6, PEP-regel)."
+  }
+ ]
+}

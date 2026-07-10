@@ -1,0 +1,131 @@
+{
+ "hoofdstuk": 11,
+ "titel": "Digitale signaalverwerking (DSP)",
+ "bron": "UBA-handboek h11 · IRTS HAREC Study Guide (2024) hfst. 6 · electriciteit.xls (DSP-vragen)",
+ "subhoofdstukken": [
+  {
+   "id": "11.1",
+   "titel": "Wat is digitale signaalverwerking?",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "**DSP** (digitale signaalverwerking) bewerkt radiosignalen met **software** in plaats van met fysieke spoelen en condensatoren. Het is de basis van moderne toestellen en van **software defined radio (SDR)**."
+    },
+    {
+     "type": "concept",
+     "titel": "Wat DSP doet & de twee domeinen",
+     "essentie": "DSP filtert, onderdrukt ruis en (de)moduleert in software. Een signaal kan in het tijdsdomein of het frequentiedomein bekeken worden.",
+     "detail": {
+      "uitleg": "**DSP** gebruikt software om bewerkingen te doen die vroeger enkel met fysieke componenten konden: filteren, ruisonderdrukking, (de)modulatie. Je kan een signaal op twee manieren bekijken: in het **tijdsdomein** (amplitude tegen de tijd, zoals op een oscilloscoop) of in het **frequentiedomein** (hoeveel er van elke frequentie aanwezig is, zoals op een spectrumanalyser of watervaldisplay). Beide bevatten dezelfde informatie; sommige bewerkingen zijn makkelijker in het ene domein. In een **SDR** werkt DSP rechtstreeks op het gedigitaliseerde radiosignaal.",
+      "voorbeeld": "Een storende fluittoon uit een signaal wegwerken is in het frequentiedomein kinderspel: je knipt gewoon die ene frequentie weg (een notch-filter in software). In het tijdsdomein zou dat veel lastiger zijn.",
+      "analogie": "Tijds- en frequentiedomein zijn als een muziekstuk beluisteren versus de partituur lezen: dezelfde muziek, maar voor sommige dingen (een valse noot vinden) is de partituur handiger."
+     }
+    },
+    {
+     "type": "concept",
+     "titel": "ADC: bemonstering, kwantisatie & Nyquist",
+     "essentie": "Een ADC digitaliseert door te bemonsteren en te kwantiseren. Je moet minstens 2× de hoogste frequentie bemonsteren (Nyquist), anders ontstaat aliasing.",
+     "detail": {
+      "uitleg": "Een **analoog-digitaalomzetter (ADC)** zet het signaal om in getallen, in twee stappen. Bij **bemonstering (sampling)** meet hij de amplitude op regelmatige tijdstippen; bij **kwantisatie** rondt hij elke meting af naar een van een beperkt aantal niveaus (meer bits = fijnere resolutie, betere S/N — elke extra bit ~6 dB winst). De **Nyquist-regel** stelt dat je minstens **tweemaal de hoogste frequentie** moet bemonsteren; doe je dat niet, dan ontstaat **aliasing**: hoge frequenties duiken als valse lagere frequenties op. Een **anti-aliasfilter** (laagdoorlaat) vóór de ADC voorkomt dit.",
+      "voorbeeld": "Audio reikt tot ~20 kHz, dus een cd bemonstert op 44,1 kHz — ruim meer dan 2×20 kHz. Zou je te traag bemonsteren, dan kwam een hoge toon als een valse lagere toon terug (aliasing).",
+      "analogie": "Bemonsteren is als een film maken met beeldjes per seconde: te traag, en een snel draaiend wiel lijkt achteruit te draaien — precies wat aliasing met signalen doet."
+     }
+    },
+    {
+     "type": "formula",
+     "naam": "Nyquist — minimale bemonstering",
+     "latex": "f_{sample} \\ge 2 \\cdot f_{hoogste}",
+     "symbolen": "$f_{sample}$ = bemonsteringsfrequentie (Hz), $f_{hoogste}$ = hoogste signaalfrequentie (Hz)",
+     "voorbeeld": "Audio tot 20 kHz → sampling ≥ 40 kHz."
+    },
+    {
+     "type": "concept",
+     "titel": "Resolutie en oversampling",
+     "essentie": "Meer bits = fijnere resolutie en betere S/N. Oversampling (veel sneller bemonsteren dan Nyquist vereist) verbetert de kwaliteit en vereenvoudigt filtering.",
+     "detail": {
+      "uitleg": "Twee begrippen bepalen de digitaliseringskwaliteit. De **resolutie** volgt uit het aantal **bits** van de ADC: meer bits geven fijnere kwantisatiestappen en dus een betere signaal-ruisverhouding (elke extra bit ~6 dB winst) en een groter dynamisch bereik. **Oversampling** betekent **veel sneller bemonsteren** dan de Nyquist-regel strikt vereist (meer dan 2× de hoogste frequentie). Voordelen: de kwantisatieruis wordt over een breder frequentiegebied uitgesmeerd (betere effectieve resolutie na filtering), en het **anti-aliasfilter** mag veel eenvoudiger zijn omdat er meer ruimte is tussen het nuttige signaal en de bemonsteringsfrequentie.",
+      "voorbeeld": "Een SDR die op enkele MHz bemonstert terwijl het nuttige signaal maar enkele kHz breed is, doet aan sterke oversampling — dat geeft een schoner resultaat en laat toe de filtering grotendeels in software (DSP) te doen.",
+      "analogie": "Oversampling is als een film met veel meer beeldjes per seconde opnemen dan strikt nodig: de beweging wordt vloeiender en je hebt meer marge om achteraf bij te werken."
+     }
+    }
+   ]
+  },
+  {
+   "id": "11.2",
+   "titel": "Fouriertransformatie",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "De **Fouriertransformatie** is het wiskundige gereedschap dat een signaal van het tijdsdomein naar het frequentiedomein omzet — de kern van spectrumanalyse en watervaldisplays."
+    },
+    {
+     "type": "concept",
+     "titel": "Van tijd naar frequentie",
+     "essentie": "De Fouriertransformatie ontleedt elk signaal in de sinussen (frequenties) waaruit het is opgebouwd.",
+     "detail": {
+      "uitleg": "Elk signaal, hoe complex ook, is op te bouwen uit sinussen van verschillende frequenties (§2.6). De **Fouriertransformatie** doet het omgekeerde: ze berekent uit een signaal in het tijdsdomein *welke* frequenties er in welke mate aanwezig zijn — het **frequentiespectrum**. De digitale versie (FFT, Fast Fourier Transform) doet dit razendsnel in software, en vormt de basis van de **spectrumweergave** en het **watervaldisplay** in moderne SDR's, waar je in één oogopslag een hele band ziet met alle actieve stations.",
+      "voorbeeld": "Het watervaldisplay van een SDR toont dankzij de FFT elke actieve zender in de band als een streep: je 'ziet' de signalen voor je ze beluistert, en kan meteen op een interessante klikken.",
+      "analogie": "De Fouriertransformatie is als een prisma dat wit licht ontleedt in zijn kleuren: het toont welke 'kleuren' (frequenties) in het signaal zitten en hoe sterk elk aanwezig is."
+     }
+    }
+   ]
+  },
+  {
+   "id": "11.3",
+   "titel": "Digitale filters",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "DSP kan filters volledig in software maken, vaak scherper en flexibeler dan met fysieke componenten. Twee types: FIR en IIR."
+    },
+    {
+     "type": "concept",
+     "titel": "FIR- en IIR-filters",
+     "essentie": "FIR-filters werken zonder terugkoppeling; IIR-filters gebruiken recursieve terugkoppeling en bootsen klassieke RLC-filters na.",
+     "detail": {
+      "uitleg": "Een **IIR-filter** (Infinite Impulse Response) gebruikt een *recursief* ontwerp met terugkoppeling: het voert een vorige uitgangswaarde terug naar de ingang. Daardoor kan het elke klassieke analoge filter (elke RLC-combinatie) nabootsen, met scherpe overgangen en weinig rekenwerk. Een **FIR-filter** (Finite Impulse Response) werkt *zonder* terugkoppeling; het is specifieker voor digitale toepassingen (bv. exacte fasefiltering) maar vraagt vaak meer rekenkracht. In een SDR maken zulke filters het mogelijk een sterk buurstation te onderdrukken dat maar enkele kHz naast je gewenste signaal zit.",
+      "voorbeeld": "Een steil DSP-notch-filter kan een storende draaggolf uit een SSB-signaal wegknippen zonder de spraak aan te tasten — iets wat met fysieke spoelen en condensatoren duur en lastig zou zijn.",
+      "analogie": "Een IIR-filter met terugkoppeling is als een echo-effect (een deel van de uitgang gaat terug de ingang in); een FIR-filter kijkt enkel naar de ingang, nooit naar wat al 'op het bord' ligt."
+     }
+    },
+    {
+     "type": "grid2",
+     "titel": "FIR vs. IIR",
+     "kolommen": [
+      "FIR-filter",
+      "IIR-filter"
+     ],
+     "inhoud": [
+      "Finite Impulse Response. **Geen terugkoppeling**. Exacte fase mogelijk; vaak meer rekenkracht.",
+      "Infinite Impulse Response. **Recursieve terugkoppeling**. Bootst klassieke RLC-filters na, scherp, efficiënt."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "11.4",
+   "titel": "Direct Digital Synthesis (DDS)",
+   "blokken": [
+    {
+     "type": "text",
+     "inhoud": "**DDS** wekt langs digitale weg een uiterst nauwkeurig en stabiel analoog signaal op — de moderne manier om oscillatoren te bouwen."
+    },
+    {
+     "type": "concept",
+     "titel": "DDS en de DAC",
+     "essentie": "Een DAC zet getallen om naar een analoog signaal. DDS wekt zo rechtstreeks een precieze, snel instelbare frequentie op.",
+     "detail": {
+      "uitleg": "De omgekeerde weg van de ADC loopt via een **digitaal-analoogomzetter (DAC)**: die maakt van een getallenstroom weer een analoog signaal. **Direct Digital Synthesis (DDS)** gebruikt een numeriek gestuurde oscillator plus een DAC om rechtstreeks een analoog signaal op te wekken waarvan je de frequentie **uiterst precies en snel** kan instellen, afgeleid van een stabiele kristalreferentie. DDS zit in bijna elke moderne transceiver als afstemoscillator (VFO), en levert een stabiliteit en fijnheid die een klassieke LC-oscillator nooit haalt.",
+      "voorbeeld": "Draai je aan de afstemknop van een moderne radio en verspringt de frequentie in stapjes van 1 Hz, kraakhelder en zonder wegdriften — dat is DDS, gestuurd door een kristalreferentie.",
+      "analogie": "Een DAC is als een digitale piano die uit opgeslagen getallen weer echte geluidsgolven maakt; DDS is de functie waarmee je exact elke gewenste toonhoogte laat klinken, tot op de hertz nauwkeurig."
+     }
+    },
+    {
+     "type": "keybox",
+     "titel": "Onthoud — DSP",
+     "inhoud": "**DSP**: signaalbewerking in software (basis van SDR).\n**ADC**: bemonsteren + kwantiseren; **Nyquist** $f_{sample} \\ge 2 f_{hoogste}$, anders **aliasing**.\n**Fouriertransformatie/FFT**: tijd → frequentie (spectrum, waterval).\n**FIR** (geen terugkoppeling) / **IIR** (recursief, bootst RLC na).\n**DDS + DAC**: nauwkeurige, stabiele frequentieopwekking."
+    }
+   ]
+  }
+ ]
+}
